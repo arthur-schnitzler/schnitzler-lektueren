@@ -39,14 +39,7 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/indices/listplace.xml" out="${target}/listplace.html" style="./xslt/listplace.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt in="./data/indices/listorg.xml" out="${target}/listorg.html" style="./xslt/listorg.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
+    
     <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche.rdf" style="./xslt/arche.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
