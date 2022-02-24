@@ -17,7 +17,7 @@
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
             </xsl:call-template>
             
-            <body class="page">
+            <!--<body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -45,7 +45,7 @@
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                                        <xsl:value-of select=".//tei:title[@level='a'][1]/text()"/>
                                                     </a>
                                                 </td>
                                                 <td>
@@ -66,7 +66,7 @@
                         });
                     </script>
                 </div>
-            </body>
+            </body>-->
         </html>
     </xsl:template>
     <xsl:template match="tei:div//tei:head">
