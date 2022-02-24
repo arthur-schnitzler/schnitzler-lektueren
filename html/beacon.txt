@@ -1,0 +1,4 @@
+#FORMAT: BEACON
+#NAME:Schnitzler Lektüren
+https://d-nb.info/gnd/11864193X/|Rétif de la Bretonne, Nicolas|http://url-of-my-awesome-site/pmb3978.html
+https://d-nb.info/gnd/1014062276/|Reumann, Jakob|http://url-of-my-awesome-site/pmb12511.html
