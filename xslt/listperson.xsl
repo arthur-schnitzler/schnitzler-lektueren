@@ -12,7 +12,7 @@
     <xsl:import href="./partials/person.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='label'][1]/text()"/>
+            <xsl:value-of select="concat(.//tei:listPerson/tei:persName[1]/tei:forename/text(), ' ', .//tei:listPerson/tei:persName[1]/tei:surname/text())"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
@@ -45,10 +45,20 @@
                                             </xsl:variable>
                                             <tr>
                                                 <td>
+                                                    <a>
+                                                        <xsl:attribute name="href">
+                                                            <xsl:value-of select="concat($id, '.html')"/>
+                                                        </xsl:attribute>
                                                     <xsl:value-of select="tei:persName[1]/tei:surname/text()"/>
+                                                    </a>
                                                 </td>
-                                                <td>                                        
+                                                <td>     
+                                                    <a>
+                                                        <xsl:attribute name="href">
+                                                            <xsl:value-of select="concat($id, '.html')"/>
+                                                        </xsl:attribute>
                                                     <xsl:value-of select="tei:persName[1]/tei:forename/text()"/>
+                                                    </a>
                                                 </td>
                                                 <td>
                                                     <a>

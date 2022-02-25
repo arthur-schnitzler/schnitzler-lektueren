@@ -10,8 +10,9 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container" >
                     <!-- Your site title as branding in the menu -->
-                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
-                    <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url"><xsl:value-of select="$project_short_title"/></a>
+                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
+                        <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.svg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo"/>
+                    </a><!-- end custom logo -->
                     <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in Entstehung</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
