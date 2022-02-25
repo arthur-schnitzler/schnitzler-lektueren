@@ -3,7 +3,7 @@
         <fileDesc>
            <titleStmt>
               <title type="main">Über das Projekt</title>
-              <title type="sub">Schnitzler Lektüren</title>
+              <title type="sub">Arthur Schnitzlers Lektüren</title>
            </titleStmt>
            <publicationStmt>
               <p>Publication Information</p>
@@ -15,7 +15,7 @@
     </teiHeader>
     <text>
         <body>
-           <p>Some text here.</p>
+           <p>Dies ist die digitale Fassung von </p>
         </body>
     </text>
   </TEI>

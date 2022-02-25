@@ -145,19 +145,6 @@ summary {
 
 
 
- #lange-liste { 
-  width: 100%;
-  table-layout: fixed;
-}
-#lange-liste caption { 
-  padding-bottom: 0.5em; 
-}
-
-#lange-liste td { 
-  vertical-align: top; 
-  padding: 10px 0;
-  
-}
 
 .autorname{
     font-variant: small-caps;
@@ -177,6 +164,18 @@ h1.edierterText {
       color: black;
 }
 
+td.edierterText {
+  vertical-align: top;  
+  max-width: 50%;
+  width: 60%;
+    
+}
+
+td.herausgeberText {
+ vertical-align: top;  
+ padding-left:40px;
+}
+
 .herausgeberText {
       font-size: 90%;
       color: black;
@@ -188,15 +187,44 @@ ul.no-bullets {
   margin: 0; /* Remove margins */
 }
 
-
 ul.dashed {
-  list-style-type: none;
-}
-ul.dashed > li {
-  text-indent: -10px;
-  
+    list-style: none;
+    margin-left: 0.3em;
+    padding-left: 1em;
 }
 ul.dashed > li:before {
-  content: "–";
-  text-indent: -10px;
+    display: inline-block;
+    content: "–";
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+.container-fluid{
+    max-width: 1300px;
+    background-color: white;
+}
+
+.site {
+    background-color: white;
+}
+.card-body{
+        background-color: #f1f1f1;
+}
+
+.color-schnitzler-tagebuch{
+    color: #037a33;
+}
+
+.color-schnitzler-briefe{
+    color:#A63437;
+}
+
+.color-PMB{
+    color: #9B5F98;
+}
+
+.color-inactive{
+    color: #808080;
 }

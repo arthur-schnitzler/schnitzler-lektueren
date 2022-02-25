@@ -66,7 +66,7 @@
                         });
                     </script>
                 </div>
-            </body>-->
+            </body>
         </html>
     </xsl:template>
     <xsl:template match="tei:div//tei:head">

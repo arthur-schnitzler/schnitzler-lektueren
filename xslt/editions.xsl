@@ -2,8 +2,7 @@
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:local="http://dse-static.foo.bar"
-    xmlns:mam="myOneAndOnly"
-    version="2.0" exclude-result-prefixes="xsl tei xs">
+    xmlns:mam="myOneAndOnly" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
         omit-xml-declaration="yes"/>
     <xsl:import href="./partials/shared.xsl"/>
@@ -46,7 +45,7 @@
                     <xsl:call-template name="nav_bar"/>
                     <div class="container-fluid">
                         <div class="card" data-index="true">
-                            <div class="card-header">
+                            <!--<div class="card-header">
                                 <div class="row">
                                     <div class="col-md-2">
                                         <xsl:if test="ends-with($prev, '.html')">
@@ -60,7 +59,7 @@
                                             </h1>
                                         </xsl:if>
                                     </div>
-                                    <!--<div class="col-md-8">
+                                    <!-\-<div class="col-md-8">
                                         <h1 align="center">
                                             <xsl:value-of select="$doc_title"/>
                                         </h1>
@@ -69,7 +68,7 @@
                                                 <i class="fas fa-download" title="show TEI source"/>
                                             </a>
                                         </h3>
-                                    </div>-->
+                                    </div>-\->
                                     <div class="col-md-2" style="text-align:right">
                                         <xsl:if test="ends-with($next, '.html')">
                                             <h1>
@@ -83,7 +82,7 @@
                                         </xsl:if>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                             <div class="card-body">
                                 <xsl:apply-templates select=".//tei:body"/>
                             </div>
@@ -248,34 +247,130 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:note[parent::tei:div[starts-with(@xml:id,'div')]]">
+    <xsl:template match="tei:note[parent::tei:div[starts-with(@xml:id, 'div')]]">
         <xsl:choose>
             <xsl:when test="tei:note and not(child::*[2])">
-                
-                <td class="herausgeberText"><xsl:text>[</xsl:text>
-                    <xsl:value-of select="tei:note"/><xsl:text>]</xsl:text>
+                <td class="herausgeberText">
+                    <b>
+                        <xsl:text>[</xsl:text>
+                        <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
+                        <xsl:text>]</xsl:text>
+                        <br/>
+                    </b>
+                    <xsl:text>[</xsl:text>
+                    <xsl:value-of select="tei:note"/>
+                    <xsl:text>]</xsl:text>
                 </td>
             </xsl:when>
             <xsl:when test="not(tei:list) and tei:listPerson[not(tei:person[2])]">
                 <td class="herausgeberText">
-                    <xsl:apply-templates select="tei:listPerson/tei:person"/>
+                    <b>
+                        <xsl:text>[</xsl:text>
+                        <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
+                        <xsl:text>]</xsl:text></b>
+                        <br/>
+                    <xsl:apply-templates select="tei:listPerson/tei:person"/><xsl:if
+                        test="tei:listPerson/tei:person/tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
+                        <xsl:for-each
+                            select="tei:listPerson/tei:person/tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
+                            <xsl:text> &#8594;</xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="not(.='')">
+                            <xsl:element name="a">
+                                <xsl:attribute name="href">
+                                    <xsl:choose>
+                                        <xsl:when test="@type='PMB'">
+                                            <xsl:value-of select="mam:pmbChange(., 'person')"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="."/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:element name="span">
+                                    <xsl:attribute name="class">
+                                        <xsl:value-of select="concat('color-', @type)"/>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                </xsl:element>
+                            </xsl:element>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:element name="span">
+                                        <xsl:attribute name="class">
+                                            <xsl:text>color-inactive</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                    </xsl:element>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:for-each>
+                    </xsl:if>
                 </td>
             </xsl:when>
             <xsl:when test="not(tei:list) and tei:listPerson">
                 <td class="herausgeberText">
+                    <b>
+                        <xsl:text>[</xsl:text>
+                        <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
+                        <xsl:text>]</xsl:text></b>
+                        <br/>
                     <ul class="dashed">
-                    <xsl:for-each select="tei:listPerson/tei:person">
-                        <li>
-                            <xsl:apply-templates select="."/>
-                        </li>
-                    </xsl:for-each>
+                        <xsl:for-each select="tei:listPerson/tei:person">
+                            <li>
+                                <xsl:apply-templates select="."/><xsl:if
+                                    test="./tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
+                                    <xsl:for-each
+                                        select="./tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
+                                        <xsl:text> &#8594;</xsl:text>
+                                        <xsl:choose>
+                                            <xsl:when test="not(.='')">
+                                                <xsl:element name="a">
+                                                    
+                                                        <xsl:attribute name="href">
+                                                            <xsl:choose>
+                                                                <xsl:when test="@type='PMB'">
+                                                                    <xsl:value-of select="mam:pmbChange(., 'person')"/>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <xsl:value-of select="."/>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </xsl:attribute>
+                                                    
+                                                    <xsl:attribute name="target">
+                                                        <xsl:text>_blank</xsl:text>
+                                                    </xsl:attribute>
+                                                    <xsl:element name="span">
+                                                        <xsl:attribute name="class">
+                                                            <xsl:value-of select="concat('color-', @type)"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                                    </xsl:element>
+                                                </xsl:element>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:element name="span">
+                                                    <xsl:attribute name="class">
+                                                        <xsl:text>color-inactive</xsl:text>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                                </xsl:element>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:for-each>
+                                </xsl:if>
+                            </li>
+                        </xsl:for-each>
                     </ul>
-                 </td>
+                </td>
             </xsl:when>
             <xsl:when test="tei:list">
                 <xsl:choose>
                     <xsl:when test="parent::tei:div[tei:note[2]]">
-                        
                         <tr>
                             <td class="herausgeberText">
                                 <xsl:apply-templates select="tei:list"/>
@@ -283,8 +378,54 @@
                         </tr>
                     </xsl:when>
                     <xsl:when test="parent::tei:div">
-                        
                         <td class="herausgeberText">
+                            <b>
+                                <xsl:text>[</xsl:text>
+                                <xsl:value-of
+                                    select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
+                                <xsl:text>]</xsl:text>
+                            </b>
+                            <xsl:if
+                                test="tei:listPerson/tei:person/tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
+                                <xsl:for-each
+                                    select="tei:listPerson/tei:person/tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
+                                    <xsl:text> &#8594;</xsl:text>
+                                    <xsl:choose>
+                                        <xsl:when test="not(.='')">
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">
+                                                    <xsl:choose>
+                                                        <xsl:when test="@type='PMB'">
+                                                            <xsl:value-of select="mam:pmbChange(., 'person')"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="."/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="target">
+                                                    <xsl:text>_blank</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="span">
+                                                    <xsl:attribute name="class">
+                                                        <xsl:value-of select="concat('color-', @type)"/>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:element name="span">
+                                                <xsl:attribute name="class">
+                                                    <xsl:text>color-inactive</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                            </xsl:element>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each>
+                            </xsl:if>
+                            <br/>
                             <xsl:apply-templates select="tei:list"/>
                         </td>
                     </xsl:when>
@@ -300,13 +441,49 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:note[not(parent::tei:div[starts-with(@xml:id,'div')])]">
-        <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
+    <xsl:function name="mam:ahref-namen">
+        <xsl:param name="typityp" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="$typityp = 'schnitzler-tagebuch'">
+                <xsl:text> Tagebuch</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'schnitzler-briefe'">
+                <xsl:text> Briefe</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'PMB'">
+                <xsl:text> PMB</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'briefe_i'">
+                <xsl:text> Briefe 1875–1912</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'briefe_ii'">
+                <xsl:text> Briefe 1913–1931</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'DLAwidmund'">
+                <xsl:text> Widmungsexemplar Deutsches Literaturarchiv</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp ='jugend-in-wien'">
+                <xsl:text> Jugend in Wien</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$typityp"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    <xsl:function name="mam:pmbChange">
+        <xsl:param name="url" as="xs:string"/>
+        <xsl:param name="entitytyp" as="xs:string"/>
+        <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/',$entitytyp, '/',
+            substring-after($url, 'https://pmb.acdh.oeaw.ac.at/entity/'), '/detail')"/>
+    </xsl:function>
+    <xsl:template match="tei:note[not(parent::tei:div[starts-with(@xml:id, 'div')])]">
+        <xsl:text>[</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>]</xsl:text>
     </xsl:template>
-    
     <xsl:template match="tei:div[starts-with(@type, 'liste')]">
         <xsl:apply-templates select="tei:head"/>
-        <table id="lange-liste">
+        <table>
             <xsl:apply-templates select="*[not(self::tei:head)]"/>
         </table>
     </xsl:template>
@@ -315,7 +492,7 @@
             <xsl:choose>
                 <xsl:when test="tei:note[2]">
                     <xsl:apply-templates select="tei:p"/>
-                    <td class="herausgerText">
+                    <td class="herausgeberText">
                         <table>
                             <xsl:for-each select="tei:note">
                                 <xsl:apply-templates/>
@@ -362,63 +539,57 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:person">
+        <xsl:if test="@cert">
+            <xsl:text>[?] </xsl:text>
+        </xsl:if>
         <xsl:apply-templates select="tei:persName"/>
         <xsl:choose>
             <xsl:when test="tei:birth/tei:date and tei:death/tei:date">
                 <xsl:text> (</xsl:text>
                 <xsl:value-of select="tei:birth/tei:date"/>
+                <xsl:if test="tei:birth/tei:date/@cert">
+                    <xsl:text>?</xsl:text>
+                </xsl:if>
                 <xsl:text> – </xsl:text>
                 <xsl:value-of select="tei:death/tei:date"/>
+                <xsl:if test="tei:death/tei:date/@cert">
+                    <xsl:text>?</xsl:text>
+                </xsl:if>
                 <xsl:text>)</xsl:text>
             </xsl:when>
             <xsl:when test="tei:birth/tei:date">
                 <xsl:text> (*</xsl:text>
                 <xsl:value-of select="tei:birth/tei:date"/>
+                <xsl:if test="tei:birth/tei:date/@cert">
+                    <xsl:text>?</xsl:text>
+                </xsl:if>
                 <xsl:text>)</xsl:text>
             </xsl:when>
             <xsl:when test="tei:death/tei:date">
                 <xsl:text> (†</xsl:text>
                 <xsl:value-of select="tei:death/tei:date"/>
+                <xsl:if test="tei:death/tei:date/@cert">
+                    <xsl:text>?</xsl:text>
+                </xsl:if>
                 <xsl:text>)</xsl:text>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:persName">
         <span class="autorname">
-        <xsl:apply-templates/>
+            <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    <!-- 
-    <xsl:choose>
-            <xsl:when test="(tei:bibl[@type='original'] and not(tei:bibl[@type='translation']))">
-                <xsl:for-each select="tei:bibl" >
-                    
-                    <xsl:if test="not(position()=last())">
-                        <br/><xsl:text> / oder / </xsl:text><br/>
-                    </xsl:if>
-                </xsl:for-each>
-            </xsl:when>
-            <xsl:when test="tei:bibl[@type='original'] and tei:bibl[@type='translation']">
-                <xsl:value-of select="tei:bibl[@type='translation']"/>
-                <xsl:text> [</xsl:text>
-                <xsl:value-of select="tei:bibl[@type='original']"/>
-                <xsl:text>]</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:text>XXXX4</xsl:text>
-            </xsl:otherwise>
-            
-        </xsl:choose>-->
-    
-    
     <xsl:function name="mam:biblsetzen">
         <xsl:param name="bobl" as="node()"/>
-        <xsl:if test="$bobl/tei:*/@cert">
+        <xsl:if test="$bobl/tei:title/@cert">
             <xsl:text>[?] </xsl:text>
         </xsl:if>
         <xsl:for-each select="$bobl/tei:author">
             <xsl:value-of select="."/>
+            <xsl:if test="@cert">
+                <xsl:text>[?] </xsl:text>
+            </xsl:if>
             <xsl:if test="not(position() = last())">
                 <xsl:text>, </xsl:text>
             </xsl:if>
@@ -432,7 +603,10 @@
         </xsl:if>
         <xsl:choose>
             <xsl:when test="$bobl/tei:title[@level = 'm'] and $bobl/tei:title[@level = 's']">
-                <i><xsl:value-of select="normalize-space($bobl/tei:title[(@level = 'm')])"/></i><xsl:text>.</xsl:text>
+                <i>
+                    <xsl:value-of select="normalize-space($bobl/tei:title[(@level = 'm')])"/>
+                </i>
+                <xsl:text>.</xsl:text>
                 <xsl:if test="$bobl/tei:editor[@role = 'hrsg']">
                     <xsl:text>Herausgegeben von </xsl:text>
                 </xsl:if>
@@ -449,7 +623,8 @@
                     </xsl:choose>
                 </xsl:for-each>
                 <xsl:choose>
-                    <xsl:when test="$bobl/tei:editor[@role = 'translator' and @subtype = 'anonymous']">
+                    <xsl:when
+                        test="$bobl/tei:editor[@role = 'translator' and @subtype = 'anonymous']">
                         <xsl:text> [Ohne Übersetzerangabe.] </xsl:text>
                     </xsl:when>
                     <xsl:when test="$bobl/tei:editor[@role = 'translator']">
@@ -479,13 +654,19 @@
                 <xsl:if test="$bobl/tei:date">
                     <xsl:text> </xsl:text>
                     <xsl:value-of select="$bobl/tei:date"/>
-                    <xsl:text>.</xsl:text></xsl:if>
+                    <xsl:text>.</xsl:text>
+                </xsl:if>
                 <xsl:text> (</xsl:text>
-                <i><xsl:value-of select="$bobl/tei:title[@level='s']"/></i>
+                <i>
+                    <xsl:value-of select="$bobl/tei:title[@level = 's']"/>
+                </i>
                 <xsl:text>)</xsl:text>
             </xsl:when>
             <xsl:otherwise>
-                <i><xsl:value-of select="normalize-space($bobl/tei:title[not(@level = 'a')])"/></i><xsl:text>.</xsl:text>
+                <i>
+                    <xsl:value-of select="normalize-space($bobl/tei:title[not(@level = 'a')])"/>
+                </i>
+                <xsl:text>.</xsl:text>
                 <xsl:if test="$bobl/tei:editor[@role = 'hrsg']">
                     <xsl:text>Herausgegeben von </xsl:text>
                 </xsl:if>
@@ -502,7 +683,8 @@
                     </xsl:choose>
                 </xsl:for-each>
                 <xsl:choose>
-                    <xsl:when test="$bobl/tei:editor[@role = 'translator' and @subtype = 'anonymous']">
+                    <xsl:when
+                        test="$bobl/tei:editor[@role = 'translator' and @subtype = 'anonymous']">
                         <xsl:text> [Ohne Übersetzerangabe.] </xsl:text>
                     </xsl:when>
                     <xsl:when test="$bobl/tei:editor[@role = 'translator']">
@@ -531,56 +713,102 @@
                 </xsl:for-each>
                 <xsl:if test="$bobl/tei:date">
                     <xsl:text> </xsl:text>
-                <xsl:value-of select="$bobl/tei:date"/>
-                <xsl:text>.</xsl:text></xsl:if>
+                    <xsl:value-of select="$bobl/tei:date"/>
+                    <xsl:text>.</xsl:text>
+                </xsl:if>
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if test="$bobl/tei:note">
-            <xsl:text> [</xsl:text><xsl:value-of select="$bobl/tei:note"/><xsl:text>]</xsl:text>
+            <xsl:text> [</xsl:text>
+            <xsl:value-of select="$bobl/tei:note"/>
+            <xsl:text>]</xsl:text>
         </xsl:if>
-        
+        <xsl:if test="$bobl/tei:ref">
+            <xsl:for-each select="$bobl/tei:ref">
+                <xsl:text> &#8594;</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="@type='briefe_i'">
+                        <a href="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1981_Briefe-1875–1912.pdf"><span class="color-schnitzler-briefe">Briefe 1875–1912</span></a>
+                    </xsl:when>
+                    <xsl:when test="@type='briefe_ii'">
+                        <a href="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1981_Briefe-1913–1931.pdf"><span class="color-schnitzler-briefe">Briefe 1913–1931</span></a>
+                    </xsl:when>
+                    <xsl:when test="@type='jugend-in-wien'">
+                        <a href="http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien">Jugend in Wien</a>
+                    </xsl:when>
+                    <xsl:when test="@target and not(@target='')">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:choose>
+                                    <xsl:when test="@type='PMB'">
+                                        <xsl:value-of select="mam:pmbChange(., 'work')"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="."/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="span">
+                                <xsl:attribute name="class">
+                                    <xsl:value-of select="concat('color-', @type)"/>
+                                </xsl:attribute>
+                                <xsl:value-of select="mam:ahref-namen(@type)"/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>color-inactive</xsl:text>
+                            </xsl:attribute>
+                            <xsl:value-of select="mam:ahref-namen(@type)"/>
+                        </xsl:element>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:if>
     </xsl:function>
-        
-       
-    
-    
     <xsl:template match="tei:item/tei:bibl">
-      <xsl:copy-of select="mam:biblsetzen(.)"/>
+        <xsl:copy-of select="mam:biblsetzen(.)"/>
     </xsl:template>
-    
-    <xsl:template match="tei:item/tei:listBibl[not(tei:bibl/@type='translation')]/tei:bibl[@type='original']">
+    <xsl:template
+        match="tei:item/tei:listBibl[not(tei:bibl/@type = 'translation')]/tei:bibl[@type = 'original']">
         <xsl:if test="count(preceding-sibling::tei:bibl) &gt; 0">
-            <br/><xsl:text>[oder]</xsl:text><br/>
+            <br/>
+            <xsl:text>[oder]</xsl:text>
+            <br/>
         </xsl:if>
         <xsl:copy-of select="mam:biblsetzen(.)"/>
     </xsl:template>
-    
-    <xsl:template match="tei:item/tei:listBibl[tei:bibl/@type='translation' and tei:bibl/@type='original']">
-        <xsl:for-each select="tei:bibl[@type='translation']">
-        
-        <xsl:copy-of select="mam:biblsetzen(.)"></xsl:copy-of>
-            <xsl:if test="not(position()=last())"> 
-                <br/><xsl:text>[oder]</xsl:text><br/></xsl:if>
+    <xsl:template
+        match="tei:item/tei:listBibl[tei:bibl/@type = 'translation' and tei:bibl/@type = 'original']">
+        <xsl:for-each select="tei:bibl[@type = 'translation']">
+            <xsl:copy-of select="mam:biblsetzen(.)"/>
+            <xsl:if test="not(position() = last())">
+                <br/>
+                <xsl:text>[oder]</xsl:text>
+                <br/>
+            </xsl:if>
         </xsl:for-each>
         <xsl:text> [</xsl:text>
-        <xsl:for-each select="tei:bibl[@type='original']">
+        <xsl:for-each select="tei:bibl[@type = 'original']">
             <xsl:copy-of select="mam:biblsetzen(.)"/>
-            <xsl:if test="not(position()=last())"> 
-            <xsl:text> {oder} </xsl:text></xsl:if>
+            <xsl:if test="not(position() = last())">
+                <xsl:text> {oder} </xsl:text>
+            </xsl:if>
         </xsl:for-each>
-       <xsl:text>]</xsl:text>
+        <xsl:text>]</xsl:text>
     </xsl:template>
-    
-    <xsl:template match="tei:item/tei:listBibl[tei:bibl/@type='translation' and tei:bibl/@type='original']/tei:bibl[@type='translation']">
+    <xsl:template
+        match="tei:item/tei:listBibl[tei:bibl/@type = 'translation' and tei:bibl/@type = 'original']/tei:bibl[@type = 'translation']">
         <xsl:copy-of select="mam:biblsetzen(.)"/>
     </xsl:template>
-        
-        
-        
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-      
     <xsl:template match="tei:head">
         <h1 class="edierterText">
             <xsl:apply-templates/>
