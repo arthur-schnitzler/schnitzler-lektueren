@@ -62,7 +62,7 @@
                                 <a href="listperson.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <div class="card-body">
-                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/persons.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
                                             <h3>

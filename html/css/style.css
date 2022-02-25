@@ -228,3 +228,12 @@ ul.dashed > li:before {
 .color-inactive{
     color: #808080;
 }
+
+.navbar {
+  border-bottom: 5px solid #4141B9 !important;
+}
+
+.index-card {
+  border-top: 5px solid #4141B9 !important;
+}
+
