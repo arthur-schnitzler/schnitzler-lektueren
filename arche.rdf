@@ -220,8 +220,4523 @@
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
       
       <acdh:hasActor>
-         <acdh:Person rdf:about="https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/116008040/">
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116008040/">
             <acdh:hasTitle xml:lang="und">Friedrich Adler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64771">
+            <acdh:hasTitle xml:lang="und">Eufemia von Adlersfeld-Ballestrem</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1020823992/">
+            <acdh:hasTitle xml:lang="und">Robert Adam</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64772">
+            <acdh:hasTitle xml:lang="und">Conrad Alberti</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116284315/">
+            <acdh:hasTitle xml:lang="und">Eugen Albu</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118648071/">
+            <acdh:hasTitle xml:lang="und">Wilhelm Häring</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118502255/">
+            <acdh:hasTitle xml:lang="und">Peter Altenberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116011653/">
+            <acdh:hasTitle xml:lang="und">Franz von Andlaw</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118502921/">
+            <acdh:hasTitle xml:lang="und">Lou Andreas-Salomé</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64773">
+            <acdh:hasTitle xml:lang="und">Heinrich Johann Immanuel Anschütz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11850357X/">
+            <acdh:hasTitle xml:lang="und">Ludwig Anzengruber</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116315903/">
+            <acdh:hasTitle xml:lang="und">Paul Apel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/104086424/">
+            <acdh:hasTitle xml:lang="und">Kurt Aram</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64774">
+            <acdh:hasTitle xml:lang="und">Emil Arter</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118504118/">
+            <acdh:hasTitle xml:lang="und">Ernst Moritz Arndt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64775">
+            <acdh:hasTitle xml:lang="und">Achim von Arnim</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118646036/">
+            <acdh:hasTitle xml:lang="und">Joseph Jefferson Asch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119376377/">
+            <acdh:hasTitle xml:lang="und">Ludmilla Assing</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11865103X/">
+            <acdh:hasTitle xml:lang="und">Berthold Auerbach</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118505033/">
+            <acdh:hasTitle xml:lang="und">Raoul Auernheimer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64776">
+            <acdh:hasTitle xml:lang="und">Friedrich Christian Benedict Avé-Lallemant</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118505955/">
+            <acdh:hasTitle xml:lang="und">Hermann Bahr</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118652931/">
+            <acdh:hasTitle xml:lang="und">Rudolf Hans Bartsch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118507400/">
+            <acdh:hasTitle xml:lang="und">Eduard von Bauernfeld</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118507443/">
+            <acdh:hasTitle xml:lang="und">Oskar Baum</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64777">
+            <acdh:hasTitle xml:lang="und">Adolf Johann Bäuerle</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64778">
+            <acdh:hasTitle xml:lang="und">Karoline Bauer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64779">
+            <acdh:hasTitle xml:lang="und">Friederike Sophie Wilhelmine von Bayreuth</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118653857/">
+            <acdh:hasTitle xml:lang="und">Rudolf Baumbach</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116068876/">
+            <acdh:hasTitle xml:lang="und">Friedrich Wilhelm Barthold</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64780">
+            <acdh:hasTitle xml:lang="und">Julius Maria Becker</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64781">
+            <acdh:hasTitle xml:lang="und">Michael Beer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118654756/">
+            <acdh:hasTitle xml:lang="und">Richard Beer-Hofmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116125446/">
+            <acdh:hasTitle xml:lang="und">Alice Berend</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118658468/">
+            <acdh:hasTitle xml:lang="und">Friedrich von Bernhardi</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118658166/">
+            <acdh:hasTitle xml:lang="und">Julius Roderich Benedix</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116136545/">
+            <acdh:hasTitle xml:lang="und">Maximilian Bern</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64782">
+            <acdh:hasTitle xml:lang="und">Richard Arnold Bermann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64783">
+            <acdh:hasTitle xml:lang="und">Ernst von Bergmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64784">
+            <acdh:hasTitle xml:lang="und">Michael Bernays</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64785">
+            <acdh:hasTitle xml:lang="und">Hermann Bessemer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116155795/">
+            <acdh:hasTitle xml:lang="und">Anton Bettelheim</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1032978376/">
+            <acdh:hasTitle xml:lang="und">Gustav Biberich</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118510916/">
+            <acdh:hasTitle xml:lang="und">Theodor Billroth</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/127064419/">
+            <acdh:hasTitle xml:lang="und">Jean Billiter</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118511653/">
+            <acdh:hasTitle xml:lang="und">Franz Blei</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118663909/">
+            <acdh:hasTitle xml:lang="und">Karl Bleibtreu</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118909177/">
+            <acdh:hasTitle xml:lang="und">Walter Bloem</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117608866/">
+            <acdh:hasTitle xml:lang="und">Wilhelm Bode</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118512293/">
+            <acdh:hasTitle xml:lang="und">Friedrich von Bodenstedt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/104278064/">
+            <acdh:hasTitle xml:lang="und">Leo Stein</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64786">
+            <acdh:hasTitle xml:lang="und">Victor Léon</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64787">
+            <acdh:hasTitle xml:lang="und">Gottfried von Böhm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64788">
+            <acdh:hasTitle xml:lang="und">Emma Böhmer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119352524/">
+            <acdh:hasTitle xml:lang="und">Theophile von Bodisco</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118878484/">
+            <acdh:hasTitle xml:lang="und">Helene Böhlau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116226544/">
+            <acdh:hasTitle xml:lang="und">Hermann von Boetticher</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118512749/">
+            <acdh:hasTitle xml:lang="und">Ludwig Börne</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119094029/">
+            <acdh:hasTitle xml:lang="und">Margarete Böhme</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64789">
+            <acdh:hasTitle xml:lang="und">Ida Boy-Ed</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64790">
+            <acdh:hasTitle xml:lang="und">Julius Brand</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118514245/">
+            <acdh:hasTitle xml:lang="und">Otto Brahm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118514326/">
+            <acdh:hasTitle xml:lang="und">Georg Brandes</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64791">
+            <acdh:hasTitle xml:lang="und">Sebastian Brant</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64792">
+            <acdh:hasTitle xml:lang="und">Clemens Brentano</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64793">
+            <acdh:hasTitle xml:lang="und">Carl Gottlieb Bretschneider</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11867353X/">
+            <acdh:hasTitle xml:lang="und">Lily Braun</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118515624/">
+            <acdh:hasTitle xml:lang="und">Max Brod</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11851752X/">
+            <acdh:hasTitle xml:lang="und">Jacob Burckhardt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1162600888/">
+            <acdh:hasTitle xml:lang="und">Karl Burger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117161144/">
+            <acdh:hasTitle xml:lang="und">Max Eugen Burckhard</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118517880/">
+            <acdh:hasTitle xml:lang="und">Wilhelm Busch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118665421/">
+            <acdh:hasTitle xml:lang="und">Moritz Busch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117184047/">
+            <acdh:hasTitle xml:lang="und">Paul Busson</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118520040/">
+            <acdh:hasTitle xml:lang="und">Adelbert von Chamisso</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116471557/">
+            <acdh:hasTitle xml:lang="und">Alexander Castell</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116507497/">
+            <acdh:hasTitle xml:lang="und">Joseph Anton Christ</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118669915/">
+            <acdh:hasTitle xml:lang="und">Michael Georg Conrad</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64794">
+            <acdh:hasTitle xml:lang="und">Hermann Conradi</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116689234/">
+            <acdh:hasTitle xml:lang="und">Carl Ludwig Costenoble</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64795">
+            <acdh:hasTitle xml:lang="und">Theodor Creizenach</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64796">
+            <acdh:hasTitle xml:lang="und">Gottlieb August Crüwell</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118523392/">
+            <acdh:hasTitle xml:lang="und">Felix Dahn</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118671103/">
+            <acdh:hasTitle xml:lang="und">Jakob Julius David</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64797">
+            <acdh:hasTitle xml:lang="und">Paul d’Ivoi</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1025986598/">
+            <acdh:hasTitle xml:lang="und">Géza Baracs</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64798">
+            <acdh:hasTitle xml:lang="und">Karl Detlef</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116081392/">
+            <acdh:hasTitle xml:lang="und">Juliane Déry</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118679236/">
+            <acdh:hasTitle xml:lang="und">Richard Dehmel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/124644694/">
+            <acdh:hasTitle xml:lang="und">Johannes Dietz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64799">
+            <acdh:hasTitle xml:lang="und">Franz von Dingelstedt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116137312/">
+            <acdh:hasTitle xml:lang="und">Emmy von Dincklage</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/126105316/">
+            <acdh:hasTitle xml:lang="und">Heinrich Dominik</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64800">
+            <acdh:hasTitle xml:lang="und">Hans Dominik</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119020874/">
+            <acdh:hasTitle xml:lang="und">Felix Dörmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116220759/">
+            <acdh:hasTitle xml:lang="und">Max Dreyer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118528661/">
+            <acdh:hasTitle xml:lang="und">Marie von Ebner-Eschenbach</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64801">
+            <acdh:hasTitle xml:lang="und">Friedrich Ludwig Adolf Ernst Eckstein</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118687859/">
+            <acdh:hasTitle xml:lang="und">Kasimir Edschmid</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118529390/">
+            <acdh:hasTitle xml:lang="und">Joseph von Eichendorff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116418656/">
+            <acdh:hasTitle xml:lang="und">Walther Eidlitz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116478411/">
+            <acdh:hasTitle xml:lang="und">Alexander Engel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116568437/">
+            <acdh:hasTitle xml:lang="und">Emil Ertl</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118530909/">
+            <acdh:hasTitle xml:lang="und">Paul Ernst</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118682636/">
+            <acdh:hasTitle xml:lang="und">Herbert Eulenberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64802">
+            <acdh:hasTitle xml:lang="und">Eduard Friedrich Maximilian von Eyth</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118685759/">
+            <acdh:hasTitle xml:lang="und">Robert Faesi</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116427000/">
+            <acdh:hasTitle xml:lang="und">Karl Federn</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118510240X/">
+            <acdh:hasTitle xml:lang="und">Peter Paul Felner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64803">
+            <acdh:hasTitle xml:lang="und">Leopold Feldmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64804">
+            <acdh:hasTitle xml:lang="und">Jacob Fingermann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64805">
+            <acdh:hasTitle xml:lang="und">Anselm Feuerbach</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64806">
+            <acdh:hasTitle xml:lang="und">Hanns Fischl</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118533665/">
+            <acdh:hasTitle xml:lang="und">Otto Flake</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64807">
+            <acdh:hasTitle xml:lang="und">Gustav Fock</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118534262/">
+            <acdh:hasTitle xml:lang="und">Theodor Fontane</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64808">
+            <acdh:hasTitle xml:lang="und">Friedrich Heinrich Karl Baron de la Motte Fouqué</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118534793/">
+            <acdh:hasTitle xml:lang="und">Leonhard Frank</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118535455/">
+            <acdh:hasTitle xml:lang="und">Gustav Freytag</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11674748X/">
+            <acdh:hasTitle xml:lang="und"> W. Fred</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/12325860X/">
+            <acdh:hasTitle xml:lang="und">Harry Alverson Franck</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119139812/">
+            <acdh:hasTitle xml:lang="und">Karl Frenzel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116782900/">
+            <acdh:hasTitle xml:lang="und">Egon Frey</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118702599/">
+            <acdh:hasTitle xml:lang="und">Karl Emil Franzos</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118535269/">
+            <acdh:hasTitle xml:lang="und">Gustav Frenssen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119480700/">
+            <acdh:hasTitle xml:lang="und">Heinrich Friedjung</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64809">
+            <acdh:hasTitle xml:lang="und">Eugen Krieglstein</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118693433/">
+            <acdh:hasTitle xml:lang="und">Ludwig Friedlaender</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64810">
+            <acdh:hasTitle xml:lang="und">Hermann Ferdinand Freiligrath</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11679058X/">
+            <acdh:hasTitle xml:lang="und">Kurt Frieberger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116802014/">
+            <acdh:hasTitle xml:lang="und">Alfred Friedmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116819820/">
+            <acdh:hasTitle xml:lang="und">Efraim Frisch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/115819673/">
+            <acdh:hasTitle xml:lang="und">Herman Frobenius</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64811">
+            <acdh:hasTitle xml:lang="und">Franz Bernhard Heinrich Wilhelm Gaudy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/127450076/">
+            <acdh:hasTitle xml:lang="und">Urban Gad</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64812">
+            <acdh:hasTitle xml:lang="und">Carl Wilhelm Geissler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11853811X/">
+            <acdh:hasTitle xml:lang="und">Emanuel Geibel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64813">
+            <acdh:hasTitle xml:lang="und">Eduard Genast</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118538810/">
+            <acdh:hasTitle xml:lang="und">Friedrich Gerstäcker</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64814">
+            <acdh:hasTitle xml:lang="und">Heinrich Wilhelm von Gerstenberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118539353/">
+            <acdh:hasTitle xml:lang="und">Hermann von Gilm-Rosenegg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118921703/">
+            <acdh:hasTitle xml:lang="und">Sigfried Giedion</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64815">
+            <acdh:hasTitle xml:lang="und">Adolf Brennglas</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64816">
+            <acdh:hasTitle xml:lang="und">Reinhard Goering</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118696173/">
+            <acdh:hasTitle xml:lang="und">Alfons Goldschmidt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116755105/">
+            <acdh:hasTitle xml:lang="und">Paul Goldmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540661/">
+            <acdh:hasTitle xml:lang="und">Theodor Gomperz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540963/">
+            <acdh:hasTitle xml:lang="und">Jeremias Gotthelf</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540238/">
+            <acdh:hasTitle xml:lang="und">Johann Wolfgang von Goethe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540254/">
+            <acdh:hasTitle xml:lang="und">Ottilie von Goethe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/126434204/">
+            <acdh:hasTitle xml:lang="und">Helen Gosewisch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118541102/">
+            <acdh:hasTitle xml:lang="und">Christian Dietrich Grabbe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/107601672/">
+            <acdh:hasTitle xml:lang="und">Erich Greeven</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116809795/">
+            <acdh:hasTitle xml:lang="und">Franz Gräffer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118697455/">
+            <acdh:hasTitle xml:lang="und">Joseph Gregor</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118542192/">
+            <acdh:hasTitle xml:lang="und">Franz Grillparzer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118542249/">
+            <acdh:hasTitle xml:lang="und">Hans Grimm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118697773/">
+            <acdh:hasTitle xml:lang="und">Hermann Grimm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/142373672/">
+            <acdh:hasTitle xml:lang="und">Balduin Groller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116868775/">
+            <acdh:hasTitle xml:lang="und">Ferdinand Gross</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118697927/">
+            <acdh:hasTitle xml:lang="und">Georg Groddeck</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64817">
+            <acdh:hasTitle xml:lang="und">Anastasius Grün</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118542664/">
+            <acdh:hasTitle xml:lang="und">Stefan Großmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1046109928/">
+            <acdh:hasTitle xml:lang="und">Fanny Gröger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64818">
+            <acdh:hasTitle xml:lang="und">Andreas Gryphius</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116935928/">
+            <acdh:hasTitle xml:lang="und">Richard Guttmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118543628/">
+            <acdh:hasTitle xml:lang="und">Friedrich Gundolf</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118543830/">
+            <acdh:hasTitle xml:lang="und">Karl Gutzkow</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64819">
+            <acdh:hasTitle xml:lang="und">Wilhelm von Gwinner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118699067/">
+            <acdh:hasTitle xml:lang="und">Gustav Gugitz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118699962/">
+            <acdh:hasTitle xml:lang="und">Friedrich Wilhelm von Hackländer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64820">
+            <acdh:hasTitle xml:lang="und">David Haek</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64821">
+            <acdh:hasTitle xml:lang="und">Heinrich Ernst Kromer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64822">
+            <acdh:hasTitle xml:lang="und">Ida Marie Louise Friederike Gustave Gräfin von Hahn-Hahn</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118545043/">
+            <acdh:hasTitle xml:lang="und">Max Halbe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116476400/">
+            <acdh:hasTitle xml:lang="und">Walter Harlan</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118546198/">
+            <acdh:hasTitle xml:lang="und">Otto Erich Hartleben</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64823">
+            <acdh:hasTitle xml:lang="und">Otto Hausner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64824">
+            <acdh:hasTitle xml:lang="und">Max Haushofer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64825">
+            <acdh:hasTitle xml:lang="und">Moritz Hartmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118545892/">
+            <acdh:hasTitle xml:lang="und">Maximilian Harden</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11870155X/">
+            <acdh:hasTitle xml:lang="und">Ernst Hardt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118701223/">
+            <acdh:hasTitle xml:lang="und">Robert Hamerling</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118546937/">
+            <acdh:hasTitle xml:lang="und">Gerhart Hauptmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118547445/">
+            <acdh:hasTitle xml:lang="und">Friedrich Hebbel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118773593/">
+            <acdh:hasTitle xml:lang="und">Jakob Christoph Heer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118773666/">
+            <acdh:hasTitle xml:lang="und">Moritz Heimann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/126185808/">
+            <acdh:hasTitle xml:lang="und">Josef Kerausch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118548018/">
+            <acdh:hasTitle xml:lang="und">Heinrich Heine</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64826">
+            <acdh:hasTitle xml:lang="und">Karl Borromäus Heinrich</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118547607/">
+            <acdh:hasTitle xml:lang="und">Sven Hedin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118835289/">
+            <acdh:hasTitle xml:lang="und">Karl Friedrich Henckell</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118703706/">
+            <acdh:hasTitle xml:lang="und">Georg Hermann Borchardt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118550241/">
+            <acdh:hasTitle xml:lang="und">Theodor Herzl</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119445980/">
+            <acdh:hasTitle xml:lang="und">Wilhelm Herzog</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116678623/">
+            <acdh:hasTitle xml:lang="und">Franz Ferdinand Heitmüller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118881280/">
+            <acdh:hasTitle xml:lang="und">Franz Hessel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11855042X/">
+            <acdh:hasTitle xml:lang="und">Hermann Hesse</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118550772/">
+            <acdh:hasTitle xml:lang="und">Paul Heyse</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11678508X/">
+            <acdh:hasTitle xml:lang="und">Ludwig Hevesi</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64827">
+            <acdh:hasTitle xml:lang="und">Hermann Heiberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64828">
+            <acdh:hasTitle xml:lang="und">Wilhelmine von Hillern</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/18298">
+            <acdh:hasTitle xml:lang="und">Ludwig Hirsch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/101708122/">
+            <acdh:hasTitle xml:lang="und">Georg Hirschfeld</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116914017/">
+            <acdh:hasTitle xml:lang="und">Ludwig Hirschfeld</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64829">
+            <acdh:hasTitle xml:lang="und">Edmund Höfer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118706195/">
+            <acdh:hasTitle xml:lang="und">Josef Hofmiller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118706640/">
+            <acdh:hasTitle xml:lang="und">Karl von Holtei</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116961805/">
+            <acdh:hasTitle xml:lang="und">Felix Hollaender</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118973096/">
+            <acdh:hasTitle xml:lang="und">Arthur Holitscher</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64830">
+            <acdh:hasTitle xml:lang="und">Hans Hoffmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116981385/">
+            <acdh:hasTitle xml:lang="und">Hans von Hopfen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118553216/">
+            <acdh:hasTitle xml:lang="und">Arno Holz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118862944/">
+            <acdh:hasTitle xml:lang="und">Korfiz Holm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/18468">
+            <acdh:hasTitle xml:lang="und">Alexandrine von Holmblad</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118554190/">
+            <acdh:hasTitle xml:lang="und">Ricarda Huch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118555324/">
+            <acdh:hasTitle xml:lang="und">August Wilhelm Iffland</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118555553/">
+            <acdh:hasTitle xml:lang="und">Karl Leberecht Immermann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118556444/">
+            <acdh:hasTitle xml:lang="und">Norbert Jacques</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64831">
+            <acdh:hasTitle xml:lang="und">Maria Janitschek</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118556673/">
+            <acdh:hasTitle xml:lang="und">Hans Henny Jahnn</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64832">
+            <acdh:hasTitle xml:lang="und">Wilhelm Jensen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64833">
+            <acdh:hasTitle xml:lang="und">Wilhelm Jordan</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64834">
+            <acdh:hasTitle xml:lang="und">E. Juncker</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116024283/">
+            <acdh:hasTitle xml:lang="und">Helene Keßler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116036133/">
+            <acdh:hasTitle xml:lang="und">Ernst Kamnitzer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117302996/">
+            <acdh:hasTitle xml:lang="und">Carl Karlweis</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118559427/">
+            <acdh:hasTitle xml:lang="und">Georg Kaiser</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64835">
+            <acdh:hasTitle xml:lang="und">Franziska Blumenreich</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116060433/">
+            <acdh:hasTitle xml:lang="und">Gustav Karpeles</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116017899/">
+            <acdh:hasTitle xml:lang="und">Hermann Kesser</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11856109X/">
+            <acdh:hasTitle xml:lang="und">Gottfried Keller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/19253">
+            <acdh:hasTitle xml:lang="und">Margarethe Keller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116119586/">
+            <acdh:hasTitle xml:lang="und">Otto Keller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118995359/">
+            <acdh:hasTitle xml:lang="und">Paul Keller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118561162/">
+            <acdh:hasTitle xml:lang="und">Bernhard Kellermann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11864159X/">
+            <acdh:hasTitle xml:lang="und">Johann Joseph von Khevenhüller-Metsch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11856157X/">
+            <acdh:hasTitle xml:lang="und">Alfred Kerr</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64836">
+            <acdh:hasTitle xml:lang="und">Justinus Kerner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118561812/">
+            <acdh:hasTitle xml:lang="und">Eduard von Keyserling</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11893449X/">
+            <acdh:hasTitle xml:lang="und">Ellen Key</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116230142/">
+            <acdh:hasTitle xml:lang="und">Friedrich Maximilian von Klinger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64837">
+            <acdh:hasTitle xml:lang="und">Eduard Rüffer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118563076/">
+            <acdh:hasTitle xml:lang="und">Heinrich von Kleist</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116142618/">
+            <acdh:hasTitle xml:lang="und">Friedrich Kerst</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64838">
+            <acdh:hasTitle xml:lang="und">Ernst August Friedrich Klingemann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118563343/">
+            <acdh:hasTitle xml:lang="und">Karl Friedrich von Klöden</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118565494/">
+            <acdh:hasTitle xml:lang="und">Paul Kornfeld</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64839">
+            <acdh:hasTitle xml:lang="und">Karl Arnold Kortum</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116621672/">
+            <acdh:hasTitle xml:lang="und">Kory Elisabeth Rosenbaum</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64840">
+            <acdh:hasTitle xml:lang="und">Theodor Körner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116297271/">
+            <acdh:hasTitle xml:lang="und">Josef Körner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118565796/">
+            <acdh:hasTitle xml:lang="und">August von Kotzebue</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118713698/">
+            <acdh:hasTitle xml:lang="und">Annette Kolb</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1047032988/">
+            <acdh:hasTitle xml:lang="und">M. Kolloden</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64841">
+            <acdh:hasTitle xml:lang="und">Leopold Kompert</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64842">
+            <acdh:hasTitle xml:lang="und">Joseph Ernst von Koch-Sternfeld</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116273143/">
+            <acdh:hasTitle xml:lang="und">Max Koch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118564064/">
+            <acdh:hasTitle xml:lang="und">Robert Koch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64843">
+            <acdh:hasTitle xml:lang="und">Franz Koch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1057767182/">
+            <acdh:hasTitle xml:lang="und">Herman Kroepelin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64844">
+            <acdh:hasTitle xml:lang="und">Max Kretzer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116518960/">
+            <acdh:hasTitle xml:lang="und">Max Krell</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118778277/">
+            <acdh:hasTitle xml:lang="und">Hermann Kurz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118567764/">
+            <acdh:hasTitle xml:lang="und">Ferdinand Kürnberger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118943774/">
+            <acdh:hasTitle xml:lang="und">Emil Kuh</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116588659/">
+            <acdh:hasTitle xml:lang="und">Paul Kühn</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116634472/">
+            <acdh:hasTitle xml:lang="und">Hans Kyser</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118723073/">
+            <acdh:hasTitle xml:lang="und">Adolf Kussmaul</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64845">
+            <acdh:hasTitle xml:lang="und">Felix Langer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64846">
+            <acdh:hasTitle xml:lang="und">Elise Last</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118569074/">
+            <acdh:hasTitle xml:lang="und">Gustav Landauer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118570080/">
+            <acdh:hasTitle xml:lang="und">Heinrich Laube</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64847">
+            <acdh:hasTitle xml:lang="und">Friedrich Christian Laukhard</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118569910/">
+            <acdh:hasTitle xml:lang="und">Ferdinand Lassalle</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119429500/">
+            <acdh:hasTitle xml:lang="und">Julius Leisching</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64848">
+            <acdh:hasTitle xml:lang="und">Johann Anton Leisewitz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64849">
+            <acdh:hasTitle xml:lang="und">Wilhelm Lehmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64850">
+            <acdh:hasTitle xml:lang="und">Nikolaus Lenau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64851">
+            <acdh:hasTitle xml:lang="und">Otto Lecher</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118572121/">
+            <acdh:hasTitle xml:lang="und">Gotthold Ephraim Lessing</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118571656/">
+            <acdh:hasTitle xml:lang="und">Jakob Michael Reinhold Lenz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64852">
+            <acdh:hasTitle xml:lang="und">Richard Leander</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116979941/">
+            <acdh:hasTitle xml:lang="und">Charles Leyst</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118780034/">
+            <acdh:hasTitle xml:lang="und">Paul Lindau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117014613/">
+            <acdh:hasTitle xml:lang="und">Rudolf Lindau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118572954/">
+            <acdh:hasTitle xml:lang="und">Detlev von Liliencron</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11877994X/">
+            <acdh:hasTitle xml:lang="und">Friedrich Lienhard</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64853">
+            <acdh:hasTitle xml:lang="und">Hesba Stretton</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118572628/">
+            <acdh:hasTitle xml:lang="und">Georg Christoph Lichtenberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11872911X/">
+            <acdh:hasTitle xml:lang="und">Heinrich Landesmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119545063/">
+            <acdh:hasTitle xml:lang="und">Rudolf Lothar</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118574523/">
+            <acdh:hasTitle xml:lang="und">Ernst Lothar</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64854">
+            <acdh:hasTitle xml:lang="und">Ferdinand Lotheisen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64855">
+            <acdh:hasTitle xml:lang="und">Wilhelm Lübke</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118574973/">
+            <acdh:hasTitle xml:lang="und">Otto Ludwig</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118780778/">
+            <acdh:hasTitle xml:lang="und">Emil Ludwig</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/20701">
+            <acdh:hasTitle xml:lang="und"> Lynx</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117261521/">
+            <acdh:hasTitle xml:lang="und">Emil Lucka</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64856">
+            <acdh:hasTitle xml:lang="und">Gustav Macasy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118575767/">
+            <acdh:hasTitle xml:lang="und">Ernst Mach</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118577166/">
+            <acdh:hasTitle xml:lang="und">Thomas Mann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118577131/">
+            <acdh:hasTitle xml:lang="und">Heinrich Mann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116800992/">
+            <acdh:hasTitle xml:lang="und">Kurt Martens</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118578103/">
+            <acdh:hasTitle xml:lang="und">Emil Marriot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118575856/">
+            <acdh:hasTitle xml:lang="und">John Henry Mackay</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118992996/">
+            <acdh:hasTitle xml:lang="und">Laura Marholm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116724919/">
+            <acdh:hasTitle xml:lang="und">Fedor Mamroth</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118579304/">
+            <acdh:hasTitle xml:lang="und">Fritz Mauthner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119017660/">
+            <acdh:hasTitle xml:lang="und">Grete Meisel-Hess</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64857">
+            <acdh:hasTitle xml:lang="und">Alfred von Meißner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118580566/">
+            <acdh:hasTitle xml:lang="und">Max Mell</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64858">
+            <acdh:hasTitle xml:lang="und">August Mels</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64859">
+            <acdh:hasTitle xml:lang="und">Hans Merian</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64860">
+            <acdh:hasTitle xml:lang="und">Kaspar Ludwig Merkl</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116914130/">
+            <acdh:hasTitle xml:lang="und">Max Messer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118581775/">
+            <acdh:hasTitle xml:lang="und">Conrad Ferdinand Meyer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118582046/">
+            <acdh:hasTitle xml:lang="und">Gustav Meyrink</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64861">
+            <acdh:hasTitle xml:lang="und">Alfred von Meissner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118893297/">
+            <acdh:hasTitle xml:lang="und">Robert Michel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118583107/">
+            <acdh:hasTitle xml:lang="und">Eduard Mörike</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64862">
+            <acdh:hasTitle xml:lang="und">Julius Mosen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/101363184/">
+            <acdh:hasTitle xml:lang="und">Salomon Hermann von Mosenthal</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64863">
+            <acdh:hasTitle xml:lang="und">Makár Morskóy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119054329/">
+            <acdh:hasTitle xml:lang="und">Hans Müller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118585193/">
+            <acdh:hasTitle xml:lang="und">Robert Müller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1050480937/about/">
+            <acdh:hasTitle xml:lang="und">Hugo Müller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64864">
+            <acdh:hasTitle xml:lang="und">Adolf Amadeus Gottfried Müllner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118585916/">
+            <acdh:hasTitle xml:lang="und">Robert Musil</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117179183/">
+            <acdh:hasTitle xml:lang="und">Kurt Münzer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64865">
+            <acdh:hasTitle xml:lang="und">Otfrid Mylius</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1050011619/">
+            <acdh:hasTitle xml:lang="und">Otto Myller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118586092/">
+            <acdh:hasTitle xml:lang="und">Franz Nabl</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118738178/">
+            <acdh:hasTitle xml:lang="und">Friedrich Naumann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118587080/">
+            <acdh:hasTitle xml:lang="und">Johann Nepomuk Nestroy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64866">
+            <acdh:hasTitle xml:lang="und">August Niemann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118587676/">
+            <acdh:hasTitle xml:lang="und">Georg Friedrich Nicolai</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64867">
+            <acdh:hasTitle xml:lang="und">Charlotte Nisle-Klein</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118587943/">
+            <acdh:hasTitle xml:lang="und">Friedrich Nietzsche</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118588583/">
+            <acdh:hasTitle xml:lang="und">Max Nordau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64868">
+            <acdh:hasTitle xml:lang="und">Johann Nordmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117069515/">
+            <acdh:hasTitle xml:lang="und">Karl Friedrich Nowak</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/100813283/">
+            <acdh:hasTitle xml:lang="und">Georg von Ompteda</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118557211/">
+            <acdh:hasTitle xml:lang="und"> Jean Paul</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64869">
+            <acdh:hasTitle xml:lang="und">Joseph Friedrich Perkonig</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116094028/">
+            <acdh:hasTitle xml:lang="und">Emil Peschkau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118594869/">
+            <acdh:hasTitle xml:lang="und">August von Platen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119338424/">
+            <acdh:hasTitle xml:lang="und">Gunther Plüschow</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64870">
+            <acdh:hasTitle xml:lang="und">Albert Polzin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64871">
+            <acdh:hasTitle xml:lang="und">Carl Duprel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64872">
+            <acdh:hasTitle xml:lang="und">Josef Ponten</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64873">
+            <acdh:hasTitle xml:lang="und">Wilhelm von Polenz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118595822/">
+            <acdh:hasTitle xml:lang="und">Josef Popper-Lynkeus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118793284/">
+            <acdh:hasTitle xml:lang="und">Rudolf Presber</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118742108/">
+            <acdh:hasTitle xml:lang="und">Stanisław Przybyszewski</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118597442/">
+            <acdh:hasTitle xml:lang="und">Wilhelm Raabe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64874">
+            <acdh:hasTitle xml:lang="und">Johannes Raff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118597914/">
+            <acdh:hasTitle xml:lang="und">Ferdinand Raimund</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116327979/">
+            <acdh:hasTitle xml:lang="und">Carl Ramshorn</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64875">
+            <acdh:hasTitle xml:lang="und">Ernst Raupach</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/127829210/">
+            <acdh:hasTitle xml:lang="und">Ernst Reinmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64876">
+            <acdh:hasTitle xml:lang="und">Karl Philipp Moritz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118744712/">
+            <acdh:hasTitle xml:lang="und">Gabriele Reuter</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64877">
+            <acdh:hasTitle xml:lang="und">Hans von Reinfels</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116499745/">
+            <acdh:hasTitle xml:lang="und">Emil Alphons Rheinhardt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118601024/">
+            <acdh:hasTitle xml:lang="und">Rainer Maria Rilke</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64878">
+            <acdh:hasTitle xml:lang="und">Wilhelm Heinrich von Riehl</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118745492/">
+            <acdh:hasTitle xml:lang="und">Thaddäus Rittner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64879">
+            <acdh:hasTitle xml:lang="und">Alexander von Roberts</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11874562X/">
+            <acdh:hasTitle xml:lang="und">Alexander Roda Roda</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116595663/">
+            <acdh:hasTitle xml:lang="und">Carl Rössler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64880">
+            <acdh:hasTitle xml:lang="und">Otto Roquette</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/10732220X/">
+            <acdh:hasTitle xml:lang="und">Erwin Rosen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118602721/">
+            <acdh:hasTitle xml:lang="und">Karl Rosenkranz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118602667/">
+            <acdh:hasTitle xml:lang="und">Peter Rosegger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64881">
+            <acdh:hasTitle xml:lang="und">Friedrich Rückert</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118604449/">
+            <acdh:hasTitle xml:lang="und">Ferdinand von Saar</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64882">
+            <acdh:hasTitle xml:lang="und">Moritz Gottlieb Saphir</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/23976">
+            <acdh:hasTitle xml:lang="und">Richard Saphir</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64883">
+            <acdh:hasTitle xml:lang="und">Gustav Sack</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64884">
+            <acdh:hasTitle xml:lang="und">Otto Sachs</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64885">
+            <acdh:hasTitle xml:lang="und">Edith von Salburg-Falkenstein</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64886">
+            <acdh:hasTitle xml:lang="und">Robert Saudek</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64887">
+            <acdh:hasTitle xml:lang="und">Helene Scharfenstein</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117103292/">
+            <acdh:hasTitle xml:lang="und">Franz Schamann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117211354/">
+            <acdh:hasTitle xml:lang="und">Werner Schendell</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118794957/">
+            <acdh:hasTitle xml:lang="und">Johannes Scherr</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/24297">
+            <acdh:hasTitle xml:lang="und">Hans Schmidt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64888">
+            <acdh:hasTitle xml:lang="und">Joseph Victor von Scheffel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11860743X/">
+            <acdh:hasTitle xml:lang="und">René Schickele</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/24250">
+            <acdh:hasTitle xml:lang="und">Paul Schlesinger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118607626/">
+            <acdh:hasTitle xml:lang="und">Friedrich von Schiller</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118758926/">
+            <acdh:hasTitle xml:lang="und">Karl Schönherr</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118609475/">
+            <acdh:hasTitle xml:lang="und">Johann Gottfried Schnabel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64889">
+            <acdh:hasTitle xml:lang="und">Levin Schücking</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117116955/">
+            <acdh:hasTitle xml:lang="und">Ossip Schubin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117185442/">
+            <acdh:hasTitle xml:lang="und">Alwin Schultz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118610465/">
+            <acdh:hasTitle xml:lang="und">Arthur Schopenhauer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117303658/">
+            <acdh:hasTitle xml:lang="und">Wolfgang Schumann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118611666/">
+            <acdh:hasTitle xml:lang="und">Robert Schumann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117538884/">
+            <acdh:hasTitle xml:lang="und">Lothar Schmidt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117060828/">
+            <acdh:hasTitle xml:lang="und">Hans Schreyer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119368579/">
+            <acdh:hasTitle xml:lang="und">Josef Schreyvogel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116848162/">
+            <acdh:hasTitle xml:lang="und">Manuel Schnitzer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64890">
+            <acdh:hasTitle xml:lang="und">Gustav Schröer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64891">
+            <acdh:hasTitle xml:lang="und">Charles Sealsfield</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11736438X/">
+            <acdh:hasTitle xml:lang="und">Walther Siegfried</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64892">
+            <acdh:hasTitle xml:lang="und">Rudolf Slatin Pascha</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64893">
+            <acdh:hasTitle xml:lang="und">Arnulf Sonntag</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64894">
+            <acdh:hasTitle xml:lang="und">Reinhard Johannes Sorge</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117234931/">
+            <acdh:hasTitle xml:lang="und">Hans Sterneder</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64895">
+            <acdh:hasTitle xml:lang="und">Bernhard Stavenow</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117429333/">
+            <acdh:hasTitle xml:lang="und">Richard Smekal</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/107504774/">
+            <acdh:hasTitle xml:lang="und">Edgar von Spiegel-Peckelsheim</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118616196/">
+            <acdh:hasTitle xml:lang="und">Friedrich Spielhagen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118616277/">
+            <acdh:hasTitle xml:lang="und">Carl Spitteler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118616110/">
+            <acdh:hasTitle xml:lang="und">Oswald Spengler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64896">
+            <acdh:hasTitle xml:lang="und">Julius Ernst Wilhelm Stinde</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/17238785X/">
+            <acdh:hasTitle xml:lang="und">Maria Stona</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64897">
+            <acdh:hasTitle xml:lang="und">Albert Steffen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118618156/">
+            <acdh:hasTitle xml:lang="und">Adalbert Stifter</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118617133/">
+            <acdh:hasTitle xml:lang="und">Hermann Stehr</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117309087/">
+            <acdh:hasTitle xml:lang="und">Rudolph Stratz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64898">
+            <acdh:hasTitle xml:lang="und">Adolf Heinrich Strodtmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118618725/">
+            <acdh:hasTitle xml:lang="und">Theodor Storm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64899">
+            <acdh:hasTitle xml:lang="und">Adolf Wilhelm Theodor Stahr</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118617958/">
+            <acdh:hasTitle xml:lang="und">Carl Sternheim</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118619055/">
+            <acdh:hasTitle xml:lang="und">David Friedrich Strauss</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118755846/">
+            <acdh:hasTitle xml:lang="und">Emil Strauss</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11861956X/">
+            <acdh:hasTitle xml:lang="und">Eduard Stucken</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118620126/">
+            <acdh:hasTitle xml:lang="und">Bertha von Suttner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118619853/">
+            <acdh:hasTitle xml:lang="und">Hermann Sudermann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1058761048/">
+            <acdh:hasTitle xml:lang="und">Theodor Tagger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119549530/">
+            <acdh:hasTitle xml:lang="und">Carl Franz Techet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64900">
+            <acdh:hasTitle xml:lang="und">Konrad Telmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117254924/">
+            <acdh:hasTitle xml:lang="und">Fritz Telmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/120941988/">
+            <acdh:hasTitle xml:lang="und">Georg Terramare</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117296023/">
+            <acdh:hasTitle xml:lang="und">Heinrich Teweles</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1042002495/">
+            <acdh:hasTitle xml:lang="und">Heinz Thies</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64901">
+            <acdh:hasTitle xml:lang="und">Ludwig Tieck</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118514210/">
+            <acdh:hasTitle xml:lang="und">Ulrich Bräker</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/127610944/">
+            <acdh:hasTitle xml:lang="und">Carl von Torresani-Lanzenfeld</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118622072/">
+            <acdh:hasTitle xml:lang="und">Ludwig Thoma</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117421243/">
+            <acdh:hasTitle xml:lang="und">Heinz Tovote</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64902">
+            <acdh:hasTitle xml:lang="und">Julius Traun</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64903">
+            <acdh:hasTitle xml:lang="und">Siegfried Trebitsch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119297191/">
+            <acdh:hasTitle xml:lang="und">Ludovica von Thürheim</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64904">
+            <acdh:hasTitle xml:lang="und">Moritz August von Thümmel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118625527/">
+            <acdh:hasTitle xml:lang="und">Fritz von Unruh</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119074923/">
+            <acdh:hasTitle xml:lang="und">Maria Johanna Vaërting</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64905">
+            <acdh:hasTitle xml:lang="und">Betty Kurth</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64906">
+            <acdh:hasTitle xml:lang="und">Alexander von Villers</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118804448/">
+            <acdh:hasTitle xml:lang="und">Clara Viebig</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64907">
+            <acdh:hasTitle xml:lang="und">Johann Konrad Friederich</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64908">
+            <acdh:hasTitle xml:lang="und">Friedrich Theodor Vischer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117450944/">
+            <acdh:hasTitle xml:lang="und">Richard Voss</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11877090X/">
+            <acdh:hasTitle xml:lang="und">Max Waldau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64909">
+            <acdh:hasTitle xml:lang="und">Hans Wachenhusen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64910">
+            <acdh:hasTitle xml:lang="und">Wilhelm Walloth</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64911">
+            <acdh:hasTitle xml:lang="und">Charles Edouard Duboc</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/115359885/">
+            <acdh:hasTitle xml:lang="und">Wilhelm Joseph von Wasielewski</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64912">
+            <acdh:hasTitle xml:lang="und">Oscar Wagner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118629387/">
+            <acdh:hasTitle xml:lang="und">Jakob Wassermann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118629867/">
+            <acdh:hasTitle xml:lang="und">Frank Wedekind</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11728484X/">
+            <acdh:hasTitle xml:lang="und">Henry Wenden</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/126283451/">
+            <acdh:hasTitle xml:lang="und">Richard Wengraf</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64913">
+            <acdh:hasTitle xml:lang="und">Elisabeth Werner</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64914">
+            <acdh:hasTitle xml:lang="und">Ernst Wechsler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118631373/">
+            <acdh:hasTitle xml:lang="und">Franz Werfel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64915">
+            <acdh:hasTitle xml:lang="und">Feodor Wehl</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117306355/">
+            <acdh:hasTitle xml:lang="und">Paul Wertheimer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118630458/">
+            <acdh:hasTitle xml:lang="und">Ernst Weiss</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118807250/">
+            <acdh:hasTitle xml:lang="und">Adolf von Wilbrandt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64916">
+            <acdh:hasTitle xml:lang="und">Adolf von Winterfeld</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64917">
+            <acdh:hasTitle xml:lang="und">Ernst Wichert</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118632841/">
+            <acdh:hasTitle xml:lang="und">Anton Wildgans</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118771760/">
+            <acdh:hasTitle xml:lang="und">Ernst von Wildenbruch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116259604/">
+            <acdh:hasTitle xml:lang="und">Paul Wilhelm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64918">
+            <acdh:hasTitle xml:lang="und">Christoph Martin Wieland</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119429764/">
+            <acdh:hasTitle xml:lang="und">Fritz Wittels</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1026263549/">
+            <acdh:hasTitle xml:lang="und">Josef von Winter</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117411973/">
+            <acdh:hasTitle xml:lang="und">Albrecht Wirth</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118769553/">
+            <acdh:hasTitle xml:lang="und">Ferdinand Johannes Wit</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64919">
+            <acdh:hasTitle xml:lang="und">Julius Wolff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64920">
+            <acdh:hasTitle xml:lang="und">Franz Wlad</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/104298170/">
+            <acdh:hasTitle xml:lang="und">Ludwig Wolff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11889028X/">
+            <acdh:hasTitle xml:lang="und">Ernst von Wolzogen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64921">
+            <acdh:hasTitle xml:lang="und">Alfred von Wurzbach-Tannenberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64922">
+            <acdh:hasTitle xml:lang="und">Justus Friedrich Wilhelm Zachariae</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118996282/">
+            <acdh:hasTitle xml:lang="und">Ernst Zahn</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64923">
+            <acdh:hasTitle xml:lang="und">Robert von Zimmermann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118772899/">
+            <acdh:hasTitle xml:lang="und">Paul Zifferer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64924">
+            <acdh:hasTitle xml:lang="und">Theophil Zollinger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118773100/">
+            <acdh:hasTitle xml:lang="und">Otto Zoff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64925">
+            <acdh:hasTitle xml:lang="und">Heinrich Daniel Zschokke</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118637479/">
+            <acdh:hasTitle xml:lang="und">Stefan Zweig</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118637452/">
+            <acdh:hasTitle xml:lang="und">Arnold Zweig</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64926">
+            <acdh:hasTitle xml:lang="und">Edmond About</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119493020/">
+            <acdh:hasTitle xml:lang="und">Émile Augier</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118506358/">
+            <acdh:hasTitle xml:lang="und">Honoré de Balzac</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11850651X/">
+            <acdh:hasTitle xml:lang="und">Henri Barbusse</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64927">
+            <acdh:hasTitle xml:lang="und">Jules-Amédée Barbey d’Aurevilly</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64928">
+            <acdh:hasTitle xml:lang="und">Maurice Barrès</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118653350/">
+            <acdh:hasTitle xml:lang="und">Marie Bashkirtseff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118507850/">
+            <acdh:hasTitle xml:lang="und">Pierre Augustin Caron de Beaumarchais</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64929">
+            <acdh:hasTitle xml:lang="und">Louis Petit de Bachaumont</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116106867/">
+            <acdh:hasTitle xml:lang="und">Henri Becque</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116115270/">
+            <acdh:hasTitle xml:lang="und">Adolphe Bélot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64930">
+            <acdh:hasTitle xml:lang="und">Thérèse Bentzon</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118902822/">
+            <acdh:hasTitle xml:lang="und">Henri Léon Bernstein</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118509578/">
+            <acdh:hasTitle xml:lang="und">Henri Bergson</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118911732/">
+            <acdh:hasTitle xml:lang="und">Tristan Bernard</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118509675/">
+            <acdh:hasTitle xml:lang="und">Hector Berlioz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1020505656/">
+            <acdh:hasTitle xml:lang="und">Pierre Berton</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64931">
+            <acdh:hasTitle xml:lang="und">Paul Bonetain</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118659561/">
+            <acdh:hasTitle xml:lang="und">Paul Bourget</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64932">
+            <acdh:hasTitle xml:lang="und">Henri Bocage</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118673327/">
+            <acdh:hasTitle xml:lang="und">Pierre Bourdeille de Brantôme</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119534673/">
+            <acdh:hasTitle xml:lang="und">Eugène Brieux</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1042355053/">
+            <acdh:hasTitle xml:lang="und">Victor Édouard Cadol</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64933">
+            <acdh:hasTitle xml:lang="und">Eugène Vachette</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118568604/">
+            <acdh:hasTitle xml:lang="und">Pierre Choderlos de Laclos</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64934">
+            <acdh:hasTitle xml:lang="und">Victor Charles Cherbuliez</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118521039/">
+            <acdh:hasTitle xml:lang="und">Paul Claudel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119069830/">
+            <acdh:hasTitle xml:lang="und">Jules Claretie</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118638475/">
+            <acdh:hasTitle xml:lang="und">Benjamin Constant</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64935">
+            <acdh:hasTitle xml:lang="und">Georges-Clément Lechartier</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64936">
+            <acdh:hasTitle xml:lang="und">Olivier de Tréville</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1057580554/">
+            <acdh:hasTitle xml:lang="und">Romain Coolus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118521527/">
+            <acdh:hasTitle xml:lang="und">Sidonie-Gabrielle Colette</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64937">
+            <acdh:hasTitle xml:lang="und">François Coppée</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117707503/">
+            <acdh:hasTitle xml:lang="und">Anne d' Aubourg de La Bove Miremont</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118670700/">
+            <acdh:hasTitle xml:lang="und">François de Curel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118670263/">
+            <acdh:hasTitle xml:lang="und">Georges Courteline</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118523872/">
+            <acdh:hasTitle xml:lang="und">Alphonse Daudet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64938">
+            <acdh:hasTitle xml:lang="und">Albert Delpit</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64939">
+            <acdh:hasTitle xml:lang="und">Philippe Néricault Destouches</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118525263/">
+            <acdh:hasTitle xml:lang="und">Denis Diderot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64940">
+            <acdh:hasTitle xml:lang="und">Gustave Droz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118528068/">
+            <acdh:hasTitle xml:lang="und">Alexandre père Dumas</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11852805X/">
+            <acdh:hasTitle xml:lang="und">Alexandre fils Dumas</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64941">
+            <acdh:hasTitle xml:lang="und">George Duruy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/132678993/">
+            <acdh:hasTitle xml:lang="und">Georges Duval</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/10233272X/">
+            <acdh:hasTitle xml:lang="und">Henri Duvernois</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118875558/">
+            <acdh:hasTitle xml:lang="und">Claude Farrère</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64942">
+            <acdh:hasTitle xml:lang="und">Ernest-Aymé Feydeau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118532790/">
+            <acdh:hasTitle xml:lang="und">Octave Feuillet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118533754/">
+            <acdh:hasTitle xml:lang="und">Gustave Flaubert</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118533843/">
+            <acdh:hasTitle xml:lang="und">Edmond Fleg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118692445/">
+            <acdh:hasTitle xml:lang="und">Anatole France</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118703358/">
+            <acdh:hasTitle xml:lang="und">Eugène Fromentin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/122348745/">
+            <acdh:hasTitle xml:lang="und">Robert de Flers</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/126333750/">
+            <acdh:hasTitle xml:lang="und">Pierre Frondaie</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64943">
+            <acdh:hasTitle xml:lang="und">Théophile Gautier</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64944">
+            <acdh:hasTitle xml:lang="und">Émile Gaboriau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118904523/">
+            <acdh:hasTitle xml:lang="und">Joachim Gasquet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/100796303/">
+            <acdh:hasTitle xml:lang="und">Delphine Girardin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540416/">
+            <acdh:hasTitle xml:lang="und">Vincent van Gogh</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118539523/">
+            <acdh:hasTitle xml:lang="und">Jean Giraudoux</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540688/">
+            <acdh:hasTitle xml:lang="und">Edmond Huot de Goncourt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540696/">
+            <acdh:hasTitle xml:lang="und">Jules Huot de Goncourt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64945">
+            <acdh:hasTitle xml:lang="und">Henry Gréville</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64946">
+            <acdh:hasTitle xml:lang="und">Ferdinand de Comte</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64947">
+            <acdh:hasTitle xml:lang="und">Maurice Guillemot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119283158/">
+            <acdh:hasTitle xml:lang="und">Sibylle de Mirabeau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64948">
+            <acdh:hasTitle xml:lang="und">Remy de Gourmont</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118919660/">
+            <acdh:hasTitle xml:lang="und">Ludovic Halévy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64949">
+            <acdh:hasTitle xml:lang="und">Léon Halévy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64950">
+            <acdh:hasTitle xml:lang="und">Léon Hennique</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119552930/">
+            <acdh:hasTitle xml:lang="und">Paul Ernest Hervieu</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/121278859/">
+            <acdh:hasTitle xml:lang="und">Abel Hermant</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64951">
+            <acdh:hasTitle xml:lang="und">Louis de Hessem</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118554654/">
+            <acdh:hasTitle xml:lang="und">Victor Hugo</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117535354/">
+            <acdh:hasTitle xml:lang="und">Henry Houssaye</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64952">
+            <acdh:hasTitle xml:lang="und">Arsène Houssaye</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64953">
+            <acdh:hasTitle xml:lang="und">Joris-Karl Huysmans</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64954">
+            <acdh:hasTitle xml:lang="und">Jules Gabriel Janin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64955">
+            <acdh:hasTitle xml:lang="und">Panaït Istrati</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64956">
+            <acdh:hasTitle xml:lang="und">Alphonse Karr</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64957">
+            <acdh:hasTitle xml:lang="und">Joseph Kessel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1055478957/">
+            <acdh:hasTitle xml:lang="und">Henry Kistemaekers</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64958">
+            <acdh:hasTitle xml:lang="und">Jean-Louis Dubut de Laforest</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118726056/">
+            <acdh:hasTitle xml:lang="und">Alphonse de Lamartine</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/126703019/">
+            <acdh:hasTitle xml:lang="und">Henri Léon Lavedan</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64959">
+            <acdh:hasTitle xml:lang="und">Georges Lachaud</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64960">
+            <acdh:hasTitle xml:lang="und">Théodore Leclercq</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/115656340/">
+            <acdh:hasTitle xml:lang="und"> G. Lenotre</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118572032/">
+            <acdh:hasTitle xml:lang="und">Alain René Lesage</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64961">
+            <acdh:hasTitle xml:lang="und">Gaston Leroux</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64962">
+            <acdh:hasTitle xml:lang="und">Louis Leroy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64963">
+            <acdh:hasTitle xml:lang="und">Richard Lesclide</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64965">
+            <acdh:hasTitle xml:lang="und">Christophe Barthélemy Fagan</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64966">
+            <acdh:hasTitle xml:lang="und">Jeanne Lapauze</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118780522/">
+            <acdh:hasTitle xml:lang="und">Pierre Loti</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118780557/">
+            <acdh:hasTitle xml:lang="und">Pierre Louis Louÿs</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118572903/">
+            <acdh:hasTitle xml:lang="und">Charles Joseph von Ligne</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118576089/">
+            <acdh:hasTitle xml:lang="und">Maurice Maeterlinck</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64967">
+            <acdh:hasTitle xml:lang="und">Hector Henri Malot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64968">
+            <acdh:hasTitle xml:lang="und">Jean-François Marmontel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64969">
+            <acdh:hasTitle xml:lang="und">Paul Margueritte</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64970">
+            <acdh:hasTitle xml:lang="und">Tancrède Martel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/173258670/">
+            <acdh:hasTitle xml:lang="und">Jeanne Marni</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64971">
+            <acdh:hasTitle xml:lang="und">Pierre Wolff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119159686/">
+            <acdh:hasTitle xml:lang="und">Marcellin Marbot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64972">
+            <acdh:hasTitle xml:lang="und">Maja Matthey</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118577972/">
+            <acdh:hasTitle xml:lang="und">Pierre Carlet de Marivaux</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118579207/">
+            <acdh:hasTitle xml:lang="und">Guy de Maupassant</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118783203/">
+            <acdh:hasTitle xml:lang="und">Catulle Mendès</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64973">
+            <acdh:hasTitle xml:lang="und">Charles Méré</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64974">
+            <acdh:hasTitle xml:lang="und">Charles Mérouvel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1027523315/">
+            <acdh:hasTitle xml:lang="und">Oscar Méténier</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118582682/">
+            <acdh:hasTitle xml:lang="und">Honoré Gabriel de Mirabeau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64975">
+            <acdh:hasTitle xml:lang="und">Jules Michelet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118784226/">
+            <acdh:hasTitle xml:lang="und">Octave Mirbeau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11858331X/">
+            <acdh:hasTitle xml:lang="und">Jean-Baptiste Molière</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64976">
+            <acdh:hasTitle xml:lang="und">Xavier-Aymon, Comte de Montépin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64977">
+            <acdh:hasTitle xml:lang="und">Richard O’Monroy</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118585940/">
+            <acdh:hasTitle xml:lang="und">Alfred de Musset</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64978">
+            <acdh:hasTitle xml:lang="und">Paul Edme de Musset</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118785400/">
+            <acdh:hasTitle xml:lang="und">Henri Murger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64979">
+            <acdh:hasTitle xml:lang="und">Gérard de Nerval</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64980">
+            <acdh:hasTitle xml:lang="und">Henri Nizet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64981">
+            <acdh:hasTitle xml:lang="und">Jean Charles Emmanuel Nodier</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64982">
+            <acdh:hasTitle xml:lang="und">Serge Nossoff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64983">
+            <acdh:hasTitle xml:lang="und">Joséphin Péladan</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64984">
+            <acdh:hasTitle xml:lang="und">Paul Perret</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118791907/">
+            <acdh:hasTitle xml:lang="und">Charles-Louis Philippe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64985">
+            <acdh:hasTitle xml:lang="und">Charles-Antoine-Guillaume Pigault de l’Épinoy Pigault-Lebrun</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64986">
+            <acdh:hasTitle xml:lang="und">Georges de Peyrebrune</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118596462/">
+            <acdh:hasTitle xml:lang="und">Antoine-François Prévost</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/115738238X/">
+            <acdh:hasTitle xml:lang="und">Michel Provins</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118792946/">
+            <acdh:hasTitle xml:lang="und">Georges de Porto-Riche</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64987">
+            <acdh:hasTitle xml:lang="und">Édouard Pontal</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64988">
+            <acdh:hasTitle xml:lang="und">François Rabelais</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64989">
+            <acdh:hasTitle xml:lang="und">Henry Rabusson</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64990">
+            <acdh:hasTitle xml:lang="und"> Rachilde</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118787640/">
+            <acdh:hasTitle xml:lang="und">Raymond Radiguet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11859902X/">
+            <acdh:hasTitle xml:lang="und">Henri de Régnier</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/115717641/">
+            <acdh:hasTitle xml:lang="und">Hippolyte François Regnier-Destourbet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118788345/">
+            <acdh:hasTitle xml:lang="und">Jules Renard</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118744496/">
+            <acdh:hasTitle xml:lang="und">Ernest Renan</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11864193X/">
+            <acdh:hasTitle xml:lang="und">Nicolas Rétif de la Bretonne</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118599887/">
+            <acdh:hasTitle xml:lang="und">Jean François Paul de Retz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64991">
+            <acdh:hasTitle xml:lang="und">Jules Ricard</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64992">
+            <acdh:hasTitle xml:lang="und">Jean Richepin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118603426/">
+            <acdh:hasTitle xml:lang="und">Jean-Jacques Rousseau</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64993">
+            <acdh:hasTitle xml:lang="und">Édouard Rod</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118602330/">
+            <acdh:hasTitle xml:lang="und">Romain Rolland</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11860239X/">
+            <acdh:hasTitle xml:lang="und">Jules Romains</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/102215065/">
+            <acdh:hasTitle xml:lang="und">Henri de Rothschild</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118605348/">
+            <acdh:hasTitle xml:lang="und">George Sand</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64994">
+            <acdh:hasTitle xml:lang="und">Jean-Charles Gervaise de Latouche</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118794566/">
+            <acdh:hasTitle xml:lang="und">Victorien Sardou</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64995">
+            <acdh:hasTitle xml:lang="und">Paul Scarron</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64996">
+            <acdh:hasTitle xml:lang="und">Aurélien Scholl</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1055095764/">
+            <acdh:hasTitle xml:lang="und">Robert Scheffer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64997">
+            <acdh:hasTitle xml:lang="und">Armand Silvestre</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118612425/">
+            <acdh:hasTitle xml:lang="und">Eugène Scribe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/63295">
+            <acdh:hasTitle xml:lang="und">Nicolas Ségur</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118617648/">
+            <acdh:hasTitle xml:lang="und"> Stendhal</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64998">
+            <acdh:hasTitle xml:lang="und">Émile Souvestre</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118619861/">
+            <acdh:hasTitle xml:lang="und">Eugène Sue</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11862055X/">
+            <acdh:hasTitle xml:lang="und">Hippolyte Taine</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/64999">
+            <acdh:hasTitle xml:lang="und">François-Joseph Talma</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65000">
+            <acdh:hasTitle xml:lang="und">Claude Adhémar André Theuriet</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118802259/">
+            <acdh:hasTitle xml:lang="und">Claude Tillier</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/124109918/">
+            <acdh:hasTitle xml:lang="und">Marcelle Tinayre</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65001">
+            <acdh:hasTitle xml:lang="und">Louis Ulbach</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65002">
+            <acdh:hasTitle xml:lang="und">Charles Lucien Louis</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65003">
+            <acdh:hasTitle xml:lang="und">Raoul Vast</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65004">
+            <acdh:hasTitle xml:lang="und">Gustave Ricouard</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65005">
+            <acdh:hasTitle xml:lang="und">Charles VirmaÎTre</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117345679/">
+            <acdh:hasTitle xml:lang="und">Fernand Vandérem</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/121502244/">
+            <acdh:hasTitle xml:lang="und">Pierre Veber</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118626620/">
+            <acdh:hasTitle xml:lang="und">Jules Verne</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/107627884/">
+            <acdh:hasTitle xml:lang="und">Clément Vautel</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118768441/">
+            <acdh:hasTitle xml:lang="und">Alfred-Victor de Vigny</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65006">
+            <acdh:hasTitle xml:lang="und">Émile Villemot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65007">
+            <acdh:hasTitle xml:lang="und">Philippe-Auguste, Comte de Villiers de l’Isle-Adam</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118627813/">
+            <acdh:hasTitle xml:lang="und">François-Marie Voltaire</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119240386/">
+            <acdh:hasTitle xml:lang="und">Charles Vildrac</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1026235553/">
+            <acdh:hasTitle xml:lang="und">Léon Xanrof</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118637223/">
+            <acdh:hasTitle xml:lang="und">Émile Zola</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65008">
+            <acdh:hasTitle xml:lang="und">Vittorio Alfieri</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118503243/">
+            <acdh:hasTitle xml:lang="und">Gabriele D’Annunzio</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65009">
+            <acdh:hasTitle xml:lang="und">Giovanni Boccaccio</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65010">
+            <acdh:hasTitle xml:lang="und">Pietro Cossa</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118523708/">
+            <acdh:hasTitle xml:lang="und"> Dante Alighieri</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65011">
+            <acdh:hasTitle xml:lang="und">Paolo Ferrari</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65012">
+            <acdh:hasTitle xml:lang="und">Salvatore Farina</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540505/">
+            <acdh:hasTitle xml:lang="und">Carlo Goldoni</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119540959/">
+            <acdh:hasTitle xml:lang="und">Stefano Infessura</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65013">
+            <acdh:hasTitle xml:lang="und">Francesco Scipione Maffei</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65014">
+            <acdh:hasTitle xml:lang="und">Alessandro Manzoni</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65015">
+            <acdh:hasTitle xml:lang="und">Niccolò Machiavelli</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/28753">
+            <acdh:hasTitle xml:lang="und"> Neera</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65016">
+            <acdh:hasTitle xml:lang="und">Silvio Pellico</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118796208/">
+            <acdh:hasTitle xml:lang="und">Matilde Serao</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65017">
+            <acdh:hasTitle xml:lang="und">Giovanni Verga</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65018">
+            <acdh:hasTitle xml:lang="und">Juan Ruiz de Alarcón</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118869302/">
+            <acdh:hasTitle xml:lang="und">Pedro Antonio de Alarcón y Ariza</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118518399/">
+            <acdh:hasTitle xml:lang="und">Pedro Calderón de la Barca</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11851993X/">
+            <acdh:hasTitle xml:lang="und">Miguel de Cervantes Saavedra</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119047314/">
+            <acdh:hasTitle xml:lang="und">José Echegaray</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118626353/">
+            <acdh:hasTitle xml:lang="und">Lope Felix de Vega Carpio</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65019">
+            <acdh:hasTitle xml:lang="und">Augustín Moreto Y Cavana</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65020">
+            <acdh:hasTitle xml:lang="und">Diego Hurtado de Mendoza</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65021">
+            <acdh:hasTitle xml:lang="und"> Tirso De Molina</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65022">
+            <acdh:hasTitle xml:lang="und">Juan Valera Y Alcala Galiano</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65023">
+            <acdh:hasTitle xml:lang="und">José Maria Eca de Queiros</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65024">
+            <acdh:hasTitle xml:lang="und">Thomas Bailey Aldrich</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65025">
+            <acdh:hasTitle xml:lang="und">Jane Austen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118525239/">
+            <acdh:hasTitle xml:lang="und">Charles Dickens</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119229218/">
+            <acdh:hasTitle xml:lang="und">Henry Thomas Buckle</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65026">
+            <acdh:hasTitle xml:lang="und">Edward George Bulwer-Lytton</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65027">
+            <acdh:hasTitle xml:lang="und">Robert Burns</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118518208/">
+            <acdh:hasTitle xml:lang="und">George Gordon Noël Lord Byron</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118519131/">
+            <acdh:hasTitle xml:lang="und">Thomas Carlyle</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118520393/">
+            <acdh:hasTitle xml:lang="und">Gilbert Keith Chesterton</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65028">
+            <acdh:hasTitle xml:lang="und">George Eliot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65029">
+            <acdh:hasTitle xml:lang="und">George Egerton</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65030">
+            <acdh:hasTitle xml:lang="und">Henry Theophilus Finck</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65031">
+            <acdh:hasTitle xml:lang="und">John Forster</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65032">
+            <acdh:hasTitle xml:lang="und">A[nna] K[atharine] Green</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65033">
+            <acdh:hasTitle xml:lang="und">William Stanley Houghton</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118774395/">
+            <acdh:hasTitle xml:lang="und">Thomas Heywood</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65034">
+            <acdh:hasTitle xml:lang="und">Beatrice Harraden</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65035">
+            <acdh:hasTitle xml:lang="und">Henry James</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117115517/">
+            <acdh:hasTitle xml:lang="und">Jerome Klapka Jerome</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118558501/">
+            <acdh:hasTitle xml:lang="und">James Joyce</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118562290/">
+            <acdh:hasTitle xml:lang="und">Rudyard Kipling</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65036">
+            <acdh:hasTitle xml:lang="und">Thomas Kyd</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118570366/">
+            <acdh:hasTitle xml:lang="und">Thomas Edward Lawrence</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65037">
+            <acdh:hasTitle xml:lang="und">Georg Henry Lewes</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118574183/">
+            <acdh:hasTitle xml:lang="und">Jack London</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118936034/">
+            <acdh:hasTitle xml:lang="und">Anita Loos</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65038">
+            <acdh:hasTitle xml:lang="und">Frederick Marryatt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65039">
+            <acdh:hasTitle xml:lang="und">Thomas Babington Macaulay</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65040">
+            <acdh:hasTitle xml:lang="und">Christopher Marlowe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118580604/">
+            <acdh:hasTitle xml:lang="und">Herman Melville</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65041">
+            <acdh:hasTitle xml:lang="und">Philip Massinger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65042">
+            <acdh:hasTitle xml:lang="und">Arthur Morrison</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65043">
+            <acdh:hasTitle xml:lang="und">William Morris</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118581058/">
+            <acdh:hasTitle xml:lang="und">George Meredith</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65044">
+            <acdh:hasTitle xml:lang="und">Rodrigues Ottolengui</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118738844/">
+            <acdh:hasTitle xml:lang="und">Thomas Otway</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11859527X/">
+            <acdh:hasTitle xml:lang="und">Edgar Allan Poe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65045">
+            <acdh:hasTitle xml:lang="und">Francis Charles Philips</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118793292/">
+            <acdh:hasTitle xml:lang="und">William Prescott</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65046">
+            <acdh:hasTitle xml:lang="und"> Ouida</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118613723/">
+            <acdh:hasTitle xml:lang="und">William Shakespeare</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118642375/">
+            <acdh:hasTitle xml:lang="und">George Bernard Shaw</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118620193/">
+            <acdh:hasTitle xml:lang="und">Jonathan Swift</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65047">
+            <acdh:hasTitle xml:lang="und">Laurence Sterne</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65048">
+            <acdh:hasTitle xml:lang="und">Walter Scott</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65049">
+            <acdh:hasTitle xml:lang="und">Richard Brinsley Sheridan</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118624822/">
+            <acdh:hasTitle xml:lang="und"> Mark Twain</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65050">
+            <acdh:hasTitle xml:lang="und">Ethel Lilian Voynich</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118632779/">
+            <acdh:hasTitle xml:lang="und">Oscar Wilde</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118643266/">
+            <acdh:hasTitle xml:lang="und">H. G. Wells</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118621483/">
+            <acdh:hasTitle xml:lang="und">William Makepeace Thackeray</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/123638178/">
+            <acdh:hasTitle xml:lang="und">Ludwig Biró</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65051">
+            <acdh:hasTitle xml:lang="und">Baron Jozsef Eötvös</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65052">
+            <acdh:hasTitle xml:lang="und">Sandor von Hegedues</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65053">
+            <acdh:hasTitle xml:lang="und">Franz Herczeg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118985418/">
+            <acdh:hasTitle xml:lang="und">Maurus Jókai</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65054">
+            <acdh:hasTitle xml:lang="und">Kálmán Mikszáth</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118734598/">
+            <acdh:hasTitle xml:lang="und">Ferenc Molnár</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118593226/">
+            <acdh:hasTitle xml:lang="und">Sándor Petőfi</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65055">
+            <acdh:hasTitle xml:lang="und">Graf Jan Aleksander Fredro</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65056">
+            <acdh:hasTitle xml:lang="und">Josef Ignacy Kraszewski</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118668250/">
+            <acdh:hasTitle xml:lang="und">Karel Čapek</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65057">
+            <acdh:hasTitle xml:lang="und">Adam Mickiewicz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65058">
+            <acdh:hasTitle xml:lang="und">Jakov Petrovič Polonskij</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65059">
+            <acdh:hasTitle xml:lang="und">Henryk Sienkiewicz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65060">
+            <acdh:hasTitle xml:lang="und">Henryk Sienkiewicz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65061">
+            <acdh:hasTitle xml:lang="und">Józef Weyssenhoff</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11880829X/">
+            <acdh:hasTitle xml:lang="und">Gabryela Zapolska</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65062">
+            <acdh:hasTitle xml:lang="und">Stig Stigson</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65063">
+            <acdh:hasTitle xml:lang="und">Victoria Maria Benedictsson</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118502794/">
+            <acdh:hasTitle xml:lang="und">Hans Christian Andersen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118809709/">
+            <acdh:hasTitle xml:lang="und">Herman Bang</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11613156X/">
+            <acdh:hasTitle xml:lang="und">Johan Henning Berger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65064">
+            <acdh:hasTitle xml:lang="und">Vilhelm Bergsøe</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118511459/">
+            <acdh:hasTitle xml:lang="und">Bjørnstjerne Bjørnson</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116233672/">
+            <acdh:hasTitle xml:lang="und">Johan Bojer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65065">
+            <acdh:hasTitle xml:lang="und">Hjalmar Hjorth Boyesen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116815213/">
+            <acdh:hasTitle xml:lang="und">Laurids Bruun</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65066">
+            <acdh:hasTitle xml:lang="und">Arne Einar Christiansen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11665578X/">
+            <acdh:hasTitle xml:lang="und">Hendrik Conscience</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65067">
+            <acdh:hasTitle xml:lang="und">Lars Dilling</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65068">
+            <acdh:hasTitle xml:lang="und">Gustav Frederik Esmann</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65069">
+            <acdh:hasTitle xml:lang="und">Kristian Elster</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65070">
+            <acdh:hasTitle xml:lang="und">Carl Ewald</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118969846/">
+            <acdh:hasTitle xml:lang="und">Frederik Willem van Eeden</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65071">
+            <acdh:hasTitle xml:lang="und">Arne Garborg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/115657061/">
+            <acdh:hasTitle xml:lang="und">Gustaf af Geijerstam</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65072">
+            <acdh:hasTitle xml:lang="und">Thomasine Christine Gyllembourg-Ehrensvärd</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118545515/">
+            <acdh:hasTitle xml:lang="und">Knut Hamsun</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65073">
+            <acdh:hasTitle xml:lang="und">Ola Hansson</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/119543281/">
+            <acdh:hasTitle xml:lang="und">Agnes Henningsen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11877364X/">
+            <acdh:hasTitle xml:lang="und">Herman Heijermans</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65074">
+            <acdh:hasTitle xml:lang="und">Henrik Hertz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65075">
+            <acdh:hasTitle xml:lang="und">Gunnar Heiberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65076">
+            <acdh:hasTitle xml:lang="und">Carl Josef Alfred af Hedenstjerna</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118552961/">
+            <acdh:hasTitle xml:lang="und">Ludvig Holberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118555286/">
+            <acdh:hasTitle xml:lang="und">Henrik Ibsen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118711172/">
+            <acdh:hasTitle xml:lang="und">Jens Peter Jacobsen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118776126/">
+            <acdh:hasTitle xml:lang="und">Johannes Vilhelm Jensen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65077">
+            <acdh:hasTitle xml:lang="und">Sigurd Ibsen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118561960/">
+            <acdh:hasTitle xml:lang="und">Alexander Lange Kielland</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118562002/">
+            <acdh:hasTitle xml:lang="und">Søren Aabye Kierkegaard</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65078">
+            <acdh:hasTitle xml:lang="und">Nils Kjær</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65079">
+            <acdh:hasTitle xml:lang="und">Christian Krohg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118726005/">
+            <acdh:hasTitle xml:lang="und">Selma Lagerlöf</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65080">
+            <acdh:hasTitle xml:lang="und">Anne Charlotte Leffler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118779907/">
+            <acdh:hasTitle xml:lang="und">Jonas Lie</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65081">
+            <acdh:hasTitle xml:lang="und">Christian Knud Frederik Molbech</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118919431/">
+            <acdh:hasTitle xml:lang="und">Aage Madelung</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118679279/">
+            <acdh:hasTitle xml:lang="und">Eduard Douwes Dekker</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/130116653/">
+            <acdh:hasTitle xml:lang="und">Sophus Michaëlis</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11539396X/">
+            <acdh:hasTitle xml:lang="und">Karin Michaëlis</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116882670/">
+            <acdh:hasTitle xml:lang="und">Peter Nansen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65082">
+            <acdh:hasTitle xml:lang="und">Sigbjørn Obstfelder</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65083">
+            <acdh:hasTitle xml:lang="und">Adam Gottlob Oehlenschläger</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65084">
+            <acdh:hasTitle xml:lang="und">Henrik Pontoppidan</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65085">
+            <acdh:hasTitle xml:lang="und">Otto Rung</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65086">
+            <acdh:hasTitle xml:lang="und">Christian Frederik Sophus Schandorph</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65087">
+            <acdh:hasTitle xml:lang="und">Rudolf Schmidt</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65088">
+            <acdh:hasTitle xml:lang="und">Amalie Skram</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65089">
+            <acdh:hasTitle xml:lang="und">Axel Steenbuch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118619314/">
+            <acdh:hasTitle xml:lang="und">August Strindberg</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65090">
+            <acdh:hasTitle xml:lang="und">Esaias Tegnér</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65091">
+            <acdh:hasTitle xml:lang="und">Kristian Winterhjelm</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118637703/">
+            <acdh:hasTitle xml:lang="und">Leonid Nikolaevič Andreev</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65092">
+            <acdh:hasTitle xml:lang="und">Kazimir Stanislavovič Barancevič</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118516574/">
+            <acdh:hasTitle xml:lang="und">Nikolaj Ivanovič Bucharin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65093">
+            <acdh:hasTitle xml:lang="und">Grigorij Petrovič Danilevskij</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65094">
+            <acdh:hasTitle xml:lang="und">Vasily Ivanovich Nemirovich-Danchenko</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118527053/">
+            <acdh:hasTitle xml:lang="und">Fjodor M. Dostojevskij</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/116263202/">
+            <acdh:hasTitle xml:lang="und">Ossip Dymow</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118540424/">
+            <acdh:hasTitle xml:lang="und">Nikolai W. Gogol</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65095">
+            <acdh:hasTitle xml:lang="und">Vsevolod Michajlovič Garšin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65096">
+            <acdh:hasTitle xml:lang="und">Ivan Aleksandrovič Gončarov</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118639293/">
+            <acdh:hasTitle xml:lang="und">Maxim Gorkij</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65097">
+            <acdh:hasTitle xml:lang="und">Aleksandr Ivanovič Gercen</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65098">
+            <acdh:hasTitle xml:lang="und">Vladimir Galaktionovič Korolenko</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118778242/">
+            <acdh:hasTitle xml:lang="und">Alexander I. Kuprin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65099">
+            <acdh:hasTitle xml:lang="und">Michail Jur’evič Lermontov</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65100">
+            <acdh:hasTitle xml:lang="und">Nikolaj Semënovič Leskov</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65102">
+            <acdh:hasTitle xml:lang="und">Boleslav Michajlovič Markevič</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65103">
+            <acdh:hasTitle xml:lang="und">Alexander Alexandrowitsch Bestuschew</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65104">
+            <acdh:hasTitle xml:lang="und">Vladimir Petrovič Meščerskij</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65105">
+            <acdh:hasTitle xml:lang="und">Aleksandr Konstantinovič Šeller-Michajlov</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65106">
+            <acdh:hasTitle xml:lang="und">V. Mikulič</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/1089162820/">
+            <acdh:hasTitle xml:lang="und">Victor Panin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65107">
+            <acdh:hasTitle xml:lang="und">Aleksej Feofilaktovič Pisemskij</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65108">
+            <acdh:hasTitle xml:lang="und">Nikolaj Antipovič Potechin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65109">
+            <acdh:hasTitle xml:lang="und">Aleksandr Sergeevič Puškin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65110">
+            <acdh:hasTitle xml:lang="und">Konstantin Michajlovič Stanjukovič</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65112">
+            <acdh:hasTitle xml:lang="und">Vladimir Aleksandroviâ Sollogub</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65111">
+            <acdh:hasTitle xml:lang="und">Fjodor Sologub</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11864291X/">
+            <acdh:hasTitle xml:lang="und">Leo N. von Tolstoi</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118638289/">
+            <acdh:hasTitle xml:lang="und">Anton Pavlovič Čechov</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118666150/">
+            <acdh:hasTitle xml:lang="und">Nikolaj Gavrilovič Černyševskij</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118643010/">
+            <acdh:hasTitle xml:lang="und">Ivan Sergeevič Turgenev</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/117371173/">
+            <acdh:hasTitle xml:lang="und">Vasilij Vasil’evič Vereščagin</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118500856/">
+            <acdh:hasTitle xml:lang="und"> Aischylos</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65113">
+            <acdh:hasTitle xml:lang="und"> Alkaios aus Mytilene</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65114">
+            <acdh:hasTitle xml:lang="und"> Anakreon aus Teos</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11850374X/">
+            <acdh:hasTitle xml:lang="und"> Apuleius</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118503987/">
+            <acdh:hasTitle xml:lang="und"> Aristophanes</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65115">
+            <acdh:hasTitle xml:lang="und"> Bakchylides</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65116">
+            <acdh:hasTitle xml:lang="und"> Demosthenes</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118531395/">
+            <acdh:hasTitle xml:lang="und"> Euripides</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118549855/">
+            <acdh:hasTitle xml:lang="und"> Herodot</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/11855333X/">
+            <acdh:hasTitle xml:lang="und"> Homer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65117">
+            <acdh:hasTitle xml:lang="und"> Ibykos</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118575228/">
+            <acdh:hasTitle xml:lang="und"> Lukian von Samosata</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118594893/">
+            <acdh:hasTitle xml:lang="und"> Platon</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65118">
+            <acdh:hasTitle xml:lang="und"> Pindaros</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65119">
+            <acdh:hasTitle xml:lang="und"> Sappho</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65120">
+            <acdh:hasTitle xml:lang="und"> Simonides</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118615688/">
+            <acdh:hasTitle xml:lang="und"> Sophokles</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65121">
+            <acdh:hasTitle xml:lang="und"> Xenophon</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65122">
+            <acdh:hasTitle xml:lang="und">Marcus Aurelius Antoninus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65123">
+            <acdh:hasTitle xml:lang="und">Gaius Valerius Catullus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118518275/">
+            <acdh:hasTitle xml:lang="und">Gaius Iulius Caesar</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65124">
+            <acdh:hasTitle xml:lang="und">Marcus Tullius Cicero</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65125">
+            <acdh:hasTitle xml:lang="und">Cornelius Nepos</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65126">
+            <acdh:hasTitle xml:lang="und">Quintus Curtius Rufus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118553569/">
+            <acdh:hasTitle xml:lang="und"> Horaz</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65127">
+            <acdh:hasTitle xml:lang="und">Titus Livius</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65128">
+            <acdh:hasTitle xml:lang="und">Marcus Valerius Martialis</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118590995/">
+            <acdh:hasTitle xml:lang="und">Publius Ovidius Naso</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118595237/">
+            <acdh:hasTitle xml:lang="und"> Plutarch</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65129">
+            <acdh:hasTitle xml:lang="und">Titus Maccius Plautus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65130">
+            <acdh:hasTitle xml:lang="und">Sextus Aurelius Propertius</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65131">
+            <acdh:hasTitle xml:lang="und">Gaius Sallustius Crispus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118619918/">
+            <acdh:hasTitle xml:lang="und"> Sueton</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118620452/">
+            <acdh:hasTitle xml:lang="und">Publius Cornelius Tacitus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65132">
+            <acdh:hasTitle xml:lang="und">Publius Terentius Afer</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65133">
+            <acdh:hasTitle xml:lang="und">Albius Tibullus</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/118626574/">
+            <acdh:hasTitle xml:lang="und">Publius Vergil</acdh:hasTitle>
          </acdh:Person>
       </acdh:hasActor>
    </acdh:Resource>

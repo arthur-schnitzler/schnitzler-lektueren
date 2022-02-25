@@ -1,891 +1,536 @@
 #FORMAT: BEACON
 #NAME:Arthur Schnitzler: Lektüren
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/116008040/|Adler, Friedrich|http://url-of-my-awesome-site/D1_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/116008512/|Adlersfeld-Ballestrem, Eufemia von|http://url-of-my-awesome-site/D2_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/1020823992/|Adam, Robert|http://url-of-my-awesome-site/D3_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116009926/|Alberti, Conrad|http://url-of-my-awesome-site/D4_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116284315/|Albu, Eugen|http://url-of-my-awesome-site/D5_V1.html
-https://d-nb.info/gnd/118648071/|Häring, Wilhelm|http://url-of-my-awesome-site/D6_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118502255/|Altenberg, Peter|http://url-of-my-awesome-site/D7_V1.html
-https://d-nb.info/gnd/4018272-1/https://d-nb.info/gnd/116011653/|Andlaw, Franz von|http://url-of-my-awesome-site/D8_V1.html
-https://d-nb.info/gnd/4267026-3/https://d-nb.info/gnd/118502921/|Andreas-Salomé, Lou|http://url-of-my-awesome-site/D9_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116014180/|Anschütz, Heinrich Johann Immanuel|http://url-of-my-awesome-site/D10_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/11850357X/|Anzengruber, Ludwig|http://url-of-my-awesome-site/D11_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116315903/|Apel, Paul|http://url-of-my-awesome-site/D12_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/104086424/|Aram, Kurt|http://url-of-my-awesome-site/D13_V1.html
-https://d-nb.info/gnd/1157564836/|ArterReitler, EmilMarzellin Adalbert|http://url-of-my-awesome-site/D14_V1.html
-https://d-nb.info/gnd/4007666-0/https://d-nb.info/gnd/118504118/|Arndt, Ernst Moritz|http://url-of-my-awesome-site/D15_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118504177/|Arnim, Achim von|http://url-of-my-awesome-site/D16_V1.html
-https://d-nb.info/gnd/118646036/|Asch, Joseph Jefferson|http://url-of-my-awesome-site/D17_V1.html
-https://d-nb.info/gnd/11865103X/|Auerbach, Berthold|http://url-of-my-awesome-site/D19_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118505033/|Auernheimer, Raoul|http://url-of-my-awesome-site/D20_V1.html
-https://d-nb.info/gnd/116388951|Avé-Lallemant, Friedrich Christian Benedict|http://url-of-my-awesome-site/D21_V1.html
-https://d-nb.info/gnd/4074255-6/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118505955/|Bahr, Hermann|http://url-of-my-awesome-site/D22_V1.html
-https://d-nb.info/gnd/118652931/|Bartsch, Rudolf Hans|http://url-of-my-awesome-site/D23_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118507400/|Bauernfeld, Eduard von|http://url-of-my-awesome-site/D24_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/118507443/|Baum, Oskar|http://url-of-my-awesome-site/D25_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/119560038/|Bäuerle, Adolf Johann|http://url-of-my-awesome-site/D26_V1.html
-https://d-nb.info/gnd/4023996-2/https://d-nb.info/gnd/118657585|Bauer, Karoline|http://url-of-my-awesome-site/D27_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118633112/|Bayreuth, Friederike Sophie Wilhelmine von|http://url-of-my-awesome-site/D28_V1.html
-https://d-nb.info/gnd/118653857/|Baumbach, Rudolf|http://url-of-my-awesome-site/D29_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116068876/|Barthold, Friedrich Wilhelm|http://url-of-my-awesome-site/D30_V1.html
-https://d-nb.info/gnd/116101598/|Becker, Julius Maria|http://url-of-my-awesome-site/D31_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118657887/|Beer, Michael|http://url-of-my-awesome-site/D32_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118654756/|Beer-Hofmann, Richard|http://url-of-my-awesome-site/D33_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116125446/|Berend, Alice|http://url-of-my-awesome-site/D34_V1.html
-https://d-nb.info/gnd/4267026-3/https://d-nb.info/gnd/118658468/|Bernhardi, Friedrich von|http://url-of-my-awesome-site/D35_V1.html
-https://d-nb.info/gnd/4035206-7/https://d-nb.info/gnd/4035206-7/https://d-nb.info/gnd/118658166/|Benedix, Julius Roderich|http://url-of-my-awesome-site/D36_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116136545/|Bern, Maximilian|http://url-of-my-awesome-site/D37_V1.html
-https://d-nb.info/gnd/119292254|Bermann, Richard Arnold|http://url-of-my-awesome-site/D38_V1.html
-https://d-nb.info/gnd/118656104|Bergmann, Ernst von|http://url-of-my-awesome-site/D39_V1.html
-https://d-nb.info/gnd/4029713-5/https://d-nb.info/gnd/116137258/|Bernays, Michael|http://url-of-my-awesome-site/D40_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/1032966165/|Bessemer, Hermann|http://url-of-my-awesome-site/D41_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116155795/|Bettelheim, Anton|http://url-of-my-awesome-site/D42_V1.html
-https://d-nb.info/gnd/4061019-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/1032978376/|Biberich, Gustav|http://url-of-my-awesome-site/D43_V1.html
-https://d-nb.info/gnd/118510916/|Billroth, Theodor|http://url-of-my-awesome-site/D44_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/127064419/|Billiter, Jean|http://url-of-my-awesome-site/D45_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118511653/|Blei, Franz|http://url-of-my-awesome-site/D46_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4036106-8/https://d-nb.info/gnd/118663909/|Bleibtreu, Karl|http://url-of-my-awesome-site/D47_V1.html
-https://d-nb.info/gnd/118909177/|Bloem, Walter|http://url-of-my-awesome-site/D48_V1.html
-https://d-nb.info/gnd/117608866/|Bode, Wilhelm|http://url-of-my-awesome-site/D49_V1.html
-https://d-nb.info/gnd/118512293/|Bodenstedt, Friedrich von|http://url-of-my-awesome-site/D50_V1.html
-https://d-nb.info/gnd/4035304-7/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/104278064/|Stein, Leo|http://url-of-my-awesome-site/D51_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/115460608/|Léon, Victor|http://url-of-my-awesome-site/D51_V2.html
-https://d-nb.info/gnd/101057997|Böhm, Gottfried von|http://url-of-my-awesome-site/D52_V1.html
-https://d-nb.info/gnd/116221291/|Böhmer, Emma|http://url-of-my-awesome-site/D53_V1.html
-https://d-nb.info/gnd/119352524/|Bodisco, Theophile von|http://url-of-my-awesome-site/D54_V1.html
-https://d-nb.info/gnd/118878484/|Böhlau, Helene|http://url-of-my-awesome-site/D55_V1.html
-https://d-nb.info/gnd/116226544/|Boetticher, Hermann von|http://url-of-my-awesome-site/D57_V1.html
-https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118512749/|Börne, Ludwig|http://url-of-my-awesome-site/D58_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/119094029/|Böhme, Margarete|http://url-of-my-awesome-site/D59_V1.html
-https://d-nb.info/gnd/118662473/|Boy-Ed, Ida|http://url-of-my-awesome-site/D60_V1.html
-https://d-nb.info/gnd/116811927|Brand, Julius|http://url-of-my-awesome-site/D61_V1.html
-https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118514245/|Brahm, Otto|http://url-of-my-awesome-site/D62_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118514326/|Brandes, Georg|http://url-of-my-awesome-site/D63_V1.html
-https://d-nb.info/gnd/118514474/|Brant, Sebastian|http://url-of-my-awesome-site/D64_V1.html
-https://d-nb.info/gnd/213794-X/https://d-nb.info/gnd/118515055/|Brentano, Clemens|http://url-of-my-awesome-site/D65_V1.html
-https://d-nb.info/gnd/1225651271/|Bretschneider, Carl Gottlieb|http://url-of-my-awesome-site/D66_V1.html
-https://d-nb.info/gnd/11867353X/|Braun, Lily|http://url-of-my-awesome-site/D67_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/118515624/|Brod, Max|http://url-of-my-awesome-site/D68_V1.html
-https://d-nb.info/gnd/11851752X/|Burckhardt, Jacob|http://url-of-my-awesome-site/D69_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/1162600888/|Burger, Karl|http://url-of-my-awesome-site/D70_V1.html
-https://d-nb.info/gnd/4096933-2/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117161144/|Burckhard, Max Eugen|http://url-of-my-awesome-site/D71_V1.html
-https://d-nb.info/gnd/118517880/|Busch, Wilhelm|http://url-of-my-awesome-site/D72_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/4035206-7/https://d-nb.info/gnd/118665421/|Busch, Moritz|http://url-of-my-awesome-site/D73_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117184047/|Busson, Paul|http://url-of-my-awesome-site/D74_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118520040/|Chamisso, Adelbert von|http://url-of-my-awesome-site/D75_V1.html
-https://d-nb.info/gnd/116471557/|Castell, Alexander|http://url-of-my-awesome-site/D76_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/116507497/|Christ, Joseph Anton|http://url-of-my-awesome-site/D77_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118669915/|Conrad, Michael Georg|http://url-of-my-awesome-site/D78_V1.html
-https://d-nb.info/gnd/118669923/|Conradi, Hermann|http://url-of-my-awesome-site/D80_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/116689234/|Costenoble, Carl Ludwig|http://url-of-my-awesome-site/D81_V1.html
-https://d-nb.info/gnd/4037124-4/https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/116718838/|Creizenach, Theodor|http://url-of-my-awesome-site/D82_V1.html
-https://d-nb.info/gnd/174073003/|Crüwell, Gottlieb August|http://url-of-my-awesome-site/D83_V1.html
-https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/118523392/|Dahn, Felix|http://url-of-my-awesome-site/D84_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118671103/|David, Jakob Julius|http://url-of-my-awesome-site/D85_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/111277957/|d’IvoiDeleutre, PaulPaul Charles Philippe Eric|http://url-of-my-awesome-site/D86_V1.html
-https://d-nb.info/gnd/1025986598/|Baracs, Géza|http://url-of-my-awesome-site/D87_V1.html
-https://d-nb.info/gnd/1117039366/|DetlefBauer, KarlClara|http://url-of-my-awesome-site/D88_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116081392/|Déry, Juliane|http://url-of-my-awesome-site/D89_V1.html
-https://d-nb.info/gnd/118679236/|Dehmel, Richard|http://url-of-my-awesome-site/D90_V1.html
-https://d-nb.info/gnd/124644694/|Dietz, Johannes|http://url-of-my-awesome-site/D92_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118525751/|Dingelstedt, Franz von|http://url-of-my-awesome-site/D93_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116137312/|Dincklage, Emmy von|http://url-of-my-awesome-site/D94_V1.html
-https://d-nb.info/gnd/12920370X/|Dominik, Hans|http://url-of-my-awesome-site/D95_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/119020874/|Dörmann, Felix|http://url-of-my-awesome-site/D96_V1.html
-https://d-nb.info/gnd/116220759/|Dreyer, Max|http://url-of-my-awesome-site/D97_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118528661/|Ebner-Eschenbach, Marie von|http://url-of-my-awesome-site/D98_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/119131285/|Eckstein, Friedrich Ludwig Adolf Ernst|http://url-of-my-awesome-site/D99_V1.html
-https://d-nb.info/gnd/118687859/|Edschmid, Kasimir|http://url-of-my-awesome-site/D100_V1.html
-https://d-nb.info/gnd/118529390/|Eichendorff, Joseph von|http://url-of-my-awesome-site/D101_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116418656/|Eidlitz, Walther|http://url-of-my-awesome-site/D102_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116478411/|Engel, Alexander|http://url-of-my-awesome-site/D103_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116568437/|Ertl, Emil|http://url-of-my-awesome-site/D104_V1.html
-https://d-nb.info/gnd/118530909/|Ernst, Paul|http://url-of-my-awesome-site/D105_V1.html
-https://d-nb.info/gnd/4013255-9/https://d-nb.info/gnd/118682636/|Eulenberg, Herbert|http://url-of-my-awesome-site/D106_V1.html
-https://d-nb.info/gnd/118531603/|Eyth, Eduard Friedrich Maximilian von|http://url-of-my-awesome-site/D107_V1.html
-https://d-nb.info/gnd/118685759/|Faesi, Robert|http://url-of-my-awesome-site/D108_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116427000/|Federn, Karl|http://url-of-my-awesome-site/D109_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118510240X/|Felner, Peter Paul|http://url-of-my-awesome-site/D110_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116440627/|Feldmann, Leopold|http://url-of-my-awesome-site/D111_V1.html
-https://d-nb.info/gnd/116518413/|Fingermann, Jacob|http://url-of-my-awesome-site/D112_V1.html
-https://d-nb.info/gnd/118532731|Feuerbach, Anselm|http://url-of-my-awesome-site/D113_V1.html
-https://d-nb.info/gnd/116584785/|Fischl, Hanns|http://url-of-my-awesome-site/D114_V1.html
-https://d-nb.info/gnd/118533665/|Flake, Otto|http://url-of-my-awesome-site/D115_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118534262/|Fontane, Theodor|http://url-of-my-awesome-site/D117_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118534556/|Fouqué, Friedrich Heinrich Karl Baron de la Motte|http://url-of-my-awesome-site/D118_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118534793/|Frank, Leonhard|http://url-of-my-awesome-site/D120_V1.html
-https://d-nb.info/gnd/118535455/|Freytag, Gustav|http://url-of-my-awesome-site/D122_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/11674748X/|W. Fred|http://url-of-my-awesome-site/D123_V1.html
-https://d-nb.info/gnd/12325860X/|Franck, Harry Alverson|http://url-of-my-awesome-site/D124_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/119139812/|Frenzel, Karl|http://url-of-my-awesome-site/D125_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116782900/|Frey, Egon|http://url-of-my-awesome-site/D126_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118702599/|Franzos, Karl Emil|http://url-of-my-awesome-site/D127_V1.html
-https://d-nb.info/gnd/118535269/|Frenssen, Gustav|http://url-of-my-awesome-site/D128_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/119480700/|Friedjung, Heinrich|http://url-of-my-awesome-site/D129_V1.html
-https://d-nb.info/gnd/116191511/|Krieglstein, Eugen|http://url-of-my-awesome-site/D130_V1.html
-https://d-nb.info/gnd/118693433/|Friedlaender, Ludwig|http://url-of-my-awesome-site/D131_V1.html
-https://d-nb.info/gnd/4011555-0/https://d-nb.info/gnd/118535196|Freiligrath, Hermann Ferdinand|http://url-of-my-awesome-site/D132_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/11679058X/|Frieberger, Kurt|http://url-of-my-awesome-site/D133_V1.html
-https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116802014/|Friedmann, Alfred|http://url-of-my-awesome-site/D134_V1.html
-https://d-nb.info/gnd/116819820/|Frisch, Efraim|http://url-of-my-awesome-site/D135_V1.html
-https://d-nb.info/gnd/115819673/|Frobenius, Herman|http://url-of-my-awesome-site/D136_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/104234431/|Gaudy, Franz Bernhard Heinrich Wilhelm|http://url-of-my-awesome-site/D137_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/127450076/|Gad, Urban|http://url-of-my-awesome-site/D138_V1.html
-https://d-nb.info/gnd/1038081300/|Geissler, Carl Wilhelm|http://url-of-my-awesome-site/D139_V1.html
-https://d-nb.info/gnd/11853811X/|Geibel, Emanuel|http://url-of-my-awesome-site/D140_V1.html
-https://d-nb.info/gnd/116540079/|Genast, Eduard|http://url-of-my-awesome-site/D141_V1.html
-https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/118538810/|Gerstäcker, Friedrich|http://url-of-my-awesome-site/D142_V1.html
-https://d-nb.info/gnd/116594004/|Gerstenberg, Heinrich Wilhelm von|http://url-of-my-awesome-site/D143_V1.html
-https://d-nb.info/gnd/4074255-6/https://d-nb.info/gnd/118539353/|Gilm-Rosenegg, Hermann von|http://url-of-my-awesome-site/D144_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/118921703/|Giedion, Sigfried|http://url-of-my-awesome-site/D145_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118539698/|BrennglasGlaßbrenner, AdolfGeorg Adolph|http://url-of-my-awesome-site/D146_V1.html
-https://d-nb.info/gnd/118828657|Goering, Reinhard|http://url-of-my-awesome-site/D147_V1.html
-https://d-nb.info/gnd/4039060-3/https://d-nb.info/gnd/118696173/|Goldschmidt, Alfons|http://url-of-my-awesome-site/D148_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116755105/|Goldmann, Paul|http://url-of-my-awesome-site/D149_V1.html
-https://d-nb.info/gnd/118540661/|Gomperz, Theodor|http://url-of-my-awesome-site/D150_V1.html
-https://d-nb.info/gnd/118540963/|Gotthelf, Jeremias|http://url-of-my-awesome-site/D151_V1.html
-https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/118540238/|Goethe, Johann Wolfgang von|http://url-of-my-awesome-site/D152_V1.html
-https://d-nb.info/gnd/118540254/|Goethe, Ottilie von|http://url-of-my-awesome-site/D153_V1.html
-https://d-nb.info/gnd/126434204/|Gosewisch, Helen|http://url-of-my-awesome-site/D154_V1.html
-https://d-nb.info/gnd/4011555-0/https://d-nb.info/gnd/4011555-0/https://d-nb.info/gnd/118541102/|Grabbe, Christian Dietrich|http://url-of-my-awesome-site/D155_V1.html
-https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/107601672/|Greeven, Erich|http://url-of-my-awesome-site/D156_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116809795/|Gräffer, Franz|http://url-of-my-awesome-site/D157_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118697455/|Gregor, Joseph|http://url-of-my-awesome-site/D158_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118542192/|Grillparzer, Franz|http://url-of-my-awesome-site/D159_V1.html
-https://d-nb.info/gnd/118542249/|Grimm, Hans|http://url-of-my-awesome-site/D160_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118697773/|Grimm, Hermann|http://url-of-my-awesome-site/D161_V1.html
-https://d-nb.info/gnd/4079813-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/142373672/|Groller, Balduin|http://url-of-my-awesome-site/D162_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116868775/|Gross, Ferdinand|http://url-of-my-awesome-site/D163_V1.html
-https://d-nb.info/gnd/118697927/|Groddeck, Georg|http://url-of-my-awesome-site/D164_V1.html
-https://d-nb.info/gnd/118719033/|GrünAuersperg, AnastasiusAnton Alexander Graf von|http://url-of-my-awesome-site/D165_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118542664/|Großmann, Stefan|http://url-of-my-awesome-site/D166_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/1046109928/|Gröger, Fanny|http://url-of-my-awesome-site/D167_V1.html
-https://d-nb.info/gnd/118543032/|Gryphius, Andreas|http://url-of-my-awesome-site/D168_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116935928/|Guttmann, Richard|http://url-of-my-awesome-site/D169_V1.html
-https://d-nb.info/gnd/4023996-2/https://d-nb.info/gnd/118543628/|Gundolf, Friedrich|http://url-of-my-awesome-site/D170_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/118543830/|Gutzkow, Karl|http://url-of-my-awesome-site/D171_V1.html
-https://d-nb.info/gnd/116937742/|Gwinner, Wilhelm von|http://url-of-my-awesome-site/D172_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118699067/|Gugitz, Gustav|http://url-of-my-awesome-site/D173_V1.html
-https://d-nb.info/gnd/118699962/|Hackländer, Friedrich Wilhelm von|http://url-of-my-awesome-site/D174_V1.html
-https://d-nb.info/gnd/1138255009/|Haek, David|http://url-of-my-awesome-site/D175_V1.html
-https://d-nb.info/gnd/116553146/|Kromer, Heinrich Ernst|http://url-of-my-awesome-site/D176_V1.html
-https://d-nb.info/gnd/4037124-4/https://d-nb.info/gnd/118544918/|Hahn-Hahn, Ida Marie Louise Friederike Gustave Gräfin von|http://url-of-my-awesome-site/D177_V1.html
-https://d-nb.info/gnd/118545043/|Halbe, Max|http://url-of-my-awesome-site/D178_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116476400/|Harlan, Walter|http://url-of-my-awesome-site/D179_V1.html
-https://d-nb.info/gnd/118546198/|Hartleben, Otto Erich|http://url-of-my-awesome-site/D180_V1.html
-https://d-nb.info/gnd/4035304-7/https://d-nb.info/gnd/101163984X/|Hausner, Otto|http://url-of-my-awesome-site/D181_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/11936803X/|Haushofer, Max|http://url-of-my-awesome-site/D182_V1.html
-https://d-nb.info/gnd/118773348/|Hartmann, Moritz|http://url-of-my-awesome-site/D183_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118545892/|Harden, Maximilian|http://url-of-my-awesome-site/D184_V1.html
-https://d-nb.info/gnd/11870155X/|Hardt, Ernst|http://url-of-my-awesome-site/D185_V1.html
-https://d-nb.info/gnd/118701223/|Hamerling, Robert|http://url-of-my-awesome-site/D187_V1.html
-https://d-nb.info/gnd/118546937/|Hauptmann, Gerhart|http://url-of-my-awesome-site/D188_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118547445/|Hebbel, Friedrich|http://url-of-my-awesome-site/D189_V1.html
-https://d-nb.info/gnd/118773593/|Heer, Jakob Christoph|http://url-of-my-awesome-site/D190_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118773666/|Heimann, Moritz|http://url-of-my-awesome-site/D191_V1.html
-https://d-nb.info/gnd/126185808/|Kerausch, Josef|http://url-of-my-awesome-site/D192_V1.html
-https://d-nb.info/gnd/4013255-9/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118548018/|Heine, Heinrich|http://url-of-my-awesome-site/D193_V1.html
-https://d-nb.info/gnd/4013932-3/https://d-nb.info/gnd/116666048/|Heinrich, Karl Borromäus|http://url-of-my-awesome-site/D194_V1.html
-https://d-nb.info/gnd/118547607/|Hedin, Sven|http://url-of-my-awesome-site/D195_V1.html
-https://d-nb.info/gnd/118835289/|Henckell, Karl Friedrich|http://url-of-my-awesome-site/D196_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118703706/|Borchardt, Georg Hermann|http://url-of-my-awesome-site/D197_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/118550241/|Herzl, Theodor|http://url-of-my-awesome-site/D198_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/119445980/|Herzog, Wilhelm|http://url-of-my-awesome-site/D199_V1.html
-https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116678623/|Heitmüller, Franz Ferdinand|http://url-of-my-awesome-site/D200_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118881280/|Hessel, Franz|http://url-of-my-awesome-site/D201_V1.html
-https://d-nb.info/gnd/11855042X/|Hesse, Hermann|http://url-of-my-awesome-site/D202_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118550772/|Heyse, Paul|http://url-of-my-awesome-site/D203_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/11678508X/|Hevesi, Ludwig|http://url-of-my-awesome-site/D204_V1.html
-https://d-nb.info/gnd/11657299X/|Heiberg, Hermann|http://url-of-my-awesome-site/D205_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118904779/|Hillern, Wilhelmine von|http://url-of-my-awesome-site/D206_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/101708122/|Hirschfeld, Georg|http://url-of-my-awesome-site/D208_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116914017/|Hirschfeld, Ludwig|http://url-of-my-awesome-site/D209_V1.html
-https://d-nb.info/gnd/119289989/|Höfer, Edmund|http://url-of-my-awesome-site/D210_V1.html
-https://d-nb.info/gnd/118706195/|Hofmiller, Josef|http://url-of-my-awesome-site/D211_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/118706640/|Holtei, Karl von|http://url-of-my-awesome-site/D212_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116961805/|Hollaender, Felix|http://url-of-my-awesome-site/D213_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/118973096/|Holitscher, Arthur|http://url-of-my-awesome-site/D214_V1.html
-https://d-nb.info/gnd/101152159/|Hoffmann, Hans|http://url-of-my-awesome-site/D215_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116981385/|Hopfen, Hans von|http://url-of-my-awesome-site/D216_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118553216/|Holz, Arno|http://url-of-my-awesome-site/D217_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118862944/|Holm, Korfiz|http://url-of-my-awesome-site/D218_V1.html
-https://d-nb.info/gnd/118554190/|Huch, Ricarda|http://url-of-my-awesome-site/D220_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118555324/|Iffland, August Wilhelm|http://url-of-my-awesome-site/D221_V1.html
-https://d-nb.info/gnd/4036934-1/https://d-nb.info/gnd/4013255-9/https://d-nb.info/gnd/118555553/|Immermann, Karl Leberecht|http://url-of-my-awesome-site/D222_V1.html
-https://d-nb.info/gnd/118556444/|Jacques, Norbert|http://url-of-my-awesome-site/D223_V1.html
-https://d-nb.info/gnd/117078719/|Janitschek, Maria|http://url-of-my-awesome-site/D224_V1.html
-https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/118556673/|Jahnn, Hans Henny|http://url-of-my-awesome-site/D225_V1.html
-https://d-nb.info/gnd/11855736X|Jensen, Wilhelm|http://url-of-my-awesome-site/D226_V1.html
-https://d-nb.info/gnd/173301738/|Jordan, Wilhelm|http://url-of-my-awesome-site/D227_V1.html
-https://d-nb.info/gnd/11772355X|JunckerSchmieden, E.Else|http://url-of-my-awesome-site/D228_V1.html
-https://d-nb.info/gnd/116024283/|Keßler, Helene|http://url-of-my-awesome-site/D229_V1.html
-https://d-nb.info/gnd/116036133/|Kamnitzer, Ernst|http://url-of-my-awesome-site/D230_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117302996/|Karlweis, Carl|http://url-of-my-awesome-site/D231_V1.html
-https://d-nb.info/gnd/4036934-1/https://d-nb.info/gnd/118559427/|Kaiser, Georg|http://url-of-my-awesome-site/D232_V1.html
-https://d-nb.info/gnd/116045469|BlumenreichKapff-EssentherEssenther, Franziska|http://url-of-my-awesome-site/D233_V1.html
-https://d-nb.info/gnd/116060433/|Karpeles, Gustav|http://url-of-my-awesome-site/D234_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/116017899/|Kesser, Hermann|http://url-of-my-awesome-site/D235_V1.html
-https://d-nb.info/gnd/11856109X/|Keller, Gottfried|http://url-of-my-awesome-site/D236_a_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116119586/|Keller, Otto|http://url-of-my-awesome-site/D236_c_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/118995359/|Keller, Paul|http://url-of-my-awesome-site/D236_d_V1.html
-https://d-nb.info/gnd/118561162/|Kellermann, Bernhard|http://url-of-my-awesome-site/D237_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/11864159X/|Khevenhüller-Metsch, Johann Joseph von|http://url-of-my-awesome-site/D238_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/11856157X/|Kerr, Alfred|http://url-of-my-awesome-site/D239_V1.html
-https://d-nb.info/gnd/118561545/|Kerner, Justinus|http://url-of-my-awesome-site/D240_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118561812/|Keyserling, Eduard von|http://url-of-my-awesome-site/D241_V1.html
-https://d-nb.info/gnd/11893449X/|Key, Ellen|http://url-of-my-awesome-site/D242_V1.html
-https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/116230142/|Klinger, Friedrich Maximilian von|http://url-of-my-awesome-site/D243_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/11667542X/|Rüffer, Eduard|http://url-of-my-awesome-site/D244_V1.html
-https://d-nb.info/gnd/118563076/|Kleist, Heinrich von|http://url-of-my-awesome-site/D245_V1.html
-https://d-nb.info/gnd/116142618/|Kerst, Friedrich|http://url-of-my-awesome-site/D246_V1.html
-https://d-nb.info/gnd/118563300/|Klingemann, Ernst August Friedrich|http://url-of-my-awesome-site/D247_V1.html
-https://d-nb.info/gnd/118563343/|Klöden, Karl Friedrich von|http://url-of-my-awesome-site/D248_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/118565494/|Kornfeld, Paul|http://url-of-my-awesome-site/D249_V1.html
-https://d-nb.info/gnd/118715097/|Kortum, Karl Arnold|http://url-of-my-awesome-site/D250_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116621672/|Rosenbaum, Kory Elisabeth|http://url-of-my-awesome-site/D251_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/118713507/|Körner, Theodor|http://url-of-my-awesome-site/D252_V1.html
-https://d-nb.info/gnd/7619600-8/https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/116297271/|Körner, Josef|http://url-of-my-awesome-site/D252_V2.html
-https://d-nb.info/gnd/118565796/|Kotzebue, August von|http://url-of-my-awesome-site/D253_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118713698/|Kolb, Annette|http://url-of-my-awesome-site/D254_V1.html
-https://d-nb.info/gnd/1047032988/|Kolloden, M.|http://url-of-my-awesome-site/D255_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118713868/|Kompert, Leopold|http://url-of-my-awesome-site/D256_V1.html
-https://d-nb.info/gnd/10018006X/|Koch-Sternfeld, Joseph Ernst von|http://url-of-my-awesome-site/D257_a_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/116273143/|Koch, Max|http://url-of-my-awesome-site/D257_b_V1.html
-https://d-nb.info/gnd/118564064/|Koch, Robert|http://url-of-my-awesome-site/D257_c_V1.html
-https://d-nb.info/gnd/4074255-6/https://d-nb.info/gnd/116286369|Koch, Franz|http://url-of-my-awesome-site/D257_d_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/118565494/|Kornfeld, Paul|http://url-of-my-awesome-site/D258_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/1057767182/|Kroepelin, Herman|http://url-of-my-awesome-site/D259_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118715917/|Kretzer, Max|http://url-of-my-awesome-site/D260_V1.html
-https://d-nb.info/gnd/116518960/|Krell, Max|http://url-of-my-awesome-site/D261_V1.html
-https://d-nb.info/gnd/118778277/|Kurz, Hermann|http://url-of-my-awesome-site/D262_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118567764/|Kürnberger, Ferdinand|http://url-of-my-awesome-site/D263_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118943774/|Kuh, Emil|http://url-of-my-awesome-site/D264_V1.html
-https://d-nb.info/gnd/4035206-7/https://d-nb.info/gnd/116588659/|Kühn, Paul|http://url-of-my-awesome-site/D265_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116634472/|Kyser, Hans|http://url-of-my-awesome-site/D266_V1.html
-https://d-nb.info/gnd/4023996-2/https://d-nb.info/gnd/118723073/|Kussmaul, Adolf|http://url-of-my-awesome-site/D267_V1.html
-https://d-nb.info/gnd/116004622/|Langer, Felix|http://url-of-my-awesome-site/D268_V1.html
-https://d-nb.info/gnd/126698554/|Last, Elise|http://url-of-my-awesome-site/D269_V1.html
-https://d-nb.info/gnd/4029713-5/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118569074/|Landauer, Gustav|http://url-of-my-awesome-site/D270_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118570080/|Laube, Heinrich|http://url-of-my-awesome-site/D271_V1.html
-https://d-nb.info/gnd/118726692/|Laukhard, Friedrich Christian|http://url-of-my-awesome-site/D272_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/118569910/|Lassalle, Ferdinand|http://url-of-my-awesome-site/D273_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/119429500/|Leisching, Julius|http://url-of-my-awesome-site/D274_V1.html
-https://d-nb.info/gnd/118571370/|Leisewitz, Johann Anton|http://url-of-my-awesome-site/D275_V1.html
-https://d-nb.info/gnd/1090038496/|Lehmann, Wilhelm|http://url-of-my-awesome-site/D276_V1.html
-https://d-nb.info/gnd/4074144-8/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118571508/|Lenau, Nikolaus|http://url-of-my-awesome-site/D277_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/141657472/|Lecher, Otto|http://url-of-my-awesome-site/D278_V1.html
-https://d-nb.info/gnd/118572121/|Lessing, Gotthold Ephraim|http://url-of-my-awesome-site/D279_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/118571656/|Lenz, Jakob Michael Reinhold|http://url-of-my-awesome-site/D280_V1.html
-https://d-nb.info/gnd/11909892X/|LeanderVolkmann, RichardRichard von|http://url-of-my-awesome-site/D281_V1.html
-https://d-nb.info/gnd/116979941/|Leyst, Charles|http://url-of-my-awesome-site/D282_V1.html
-https://d-nb.info/gnd/4036934-1/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118780034/|Lindau, Paul|http://url-of-my-awesome-site/D283_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/117014613/|Lindau, Rudolf|http://url-of-my-awesome-site/D284_V1.html
-https://d-nb.info/gnd/118572954/|Liliencron, Detlev von|http://url-of-my-awesome-site/D285_V1.html
-https://d-nb.info/gnd/11877994X/|Lienhard, Friedrich|http://url-of-my-awesome-site/D286_V1.html
-https://d-nb.info/gnd/101208545/|StrettonSmith, HesbaSarah|http://url-of-my-awesome-site/D286_V2.html
-https://d-nb.info/gnd/118572628/|Lichtenberg, Georg Christoph|http://url-of-my-awesome-site/D287_V1.html
-https://d-nb.info/gnd/11872911X/|Landesmann, Heinrich|http://url-of-my-awesome-site/D288_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/119545063/|Lothar, Rudolf|http://url-of-my-awesome-site/D289_a_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118574523/|Lothar, Ernst|http://url-of-my-awesome-site/D289_b_V1.html
-https://d-nb.info/gnd/116100397/|Lotheisen, Ferdinand|http://url-of-my-awesome-site/D290_V1.html
-https://d-nb.info/gnd/4012814-3/https://d-nb.info/gnd/4029713-5/https://d-nb.info/gnd/117291013/|Lübke, Wilhelm|http://url-of-my-awesome-site/D291_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/118574973/|Ludwig, Otto|http://url-of-my-awesome-site/D292_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/118780778/|Ludwig, Emil|http://url-of-my-awesome-site/D293_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117261521/|Lucka, Emil|http://url-of-my-awesome-site/D295_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116620935/|Macasy, Gustav|http://url-of-my-awesome-site/D296_V1.html
-https://d-nb.info/gnd/118575767/|Mach, Ernst|http://url-of-my-awesome-site/D297_V1.html
-https://d-nb.info/gnd/118577166/|Mann, Thomas|http://url-of-my-awesome-site/D298_V1.html
-https://d-nb.info/gnd/118577131/|Mann, Heinrich|http://url-of-my-awesome-site/D299_V1.html
-https://d-nb.info/gnd/4035206-7/https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/116800992/|Martens, Kurt|http://url-of-my-awesome-site/D300_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118578103/|Marriot, Emil|http://url-of-my-awesome-site/D301_V1.html
-https://d-nb.info/gnd/118575856/|Mackay, John Henry|http://url-of-my-awesome-site/D302_V1.html
-https://d-nb.info/gnd/118992996/|Marholm, Laura|http://url-of-my-awesome-site/D303_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/116724919/|Mamroth, Fedor|http://url-of-my-awesome-site/D304_V1.html
-https://d-nb.info/gnd/118579304/|Mauthner, Fritz|http://url-of-my-awesome-site/D305_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/119017660/|Meisel-Hess, Grete|http://url-of-my-awesome-site/D306_V1.html
-https://d-nb.info/gnd/118580310/|Meißner, Alfred von|http://url-of-my-awesome-site/D307_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118580566/|Mell, Max|http://url-of-my-awesome-site/D308_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116629746/|MelsCohn, AugustMartin|http://url-of-my-awesome-site/D309_V1.html
-https://d-nb.info/gnd/4035206-7/https://d-nb.info/gnd/116892013/|Merian, Hans|http://url-of-my-awesome-site/D310_V1.html
-https://d-nb.info/gnd/138259550/|Merkl, Kaspar Ludwig|http://url-of-my-awesome-site/D311_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116914130/|Messer, Max|http://url-of-my-awesome-site/D312_V1.html
-https://d-nb.info/gnd/118581775/|Meyer, Conrad Ferdinand|http://url-of-my-awesome-site/D313_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118582046/|Meyrink, Gustav|http://url-of-my-awesome-site/D314_V1.html
-https://d-nb.info/gnd/118580310|Meissner, Alfred von|http://url-of-my-awesome-site/D315_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118893297/|Michel, Robert|http://url-of-my-awesome-site/D316_V1.html
-https://d-nb.info/gnd/4058282-6/https://d-nb.info/gnd/118583107/|Mörike, Eduard|http://url-of-my-awesome-site/D317_V1.html
-https://d-nb.info/gnd/118584375/|Mosen, Julius|http://url-of-my-awesome-site/D318_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/101363184/|Mosenthal, Salomon Hermann von|http://url-of-my-awesome-site/D319_V1.html
-https://d-nb.info/gnd/1159047375/|MorskóyHeiseler, MakárHenry von|http://url-of-my-awesome-site/D320_V1.html
-https://d-nb.info/gnd/119054329/|Müller, Hans|http://url-of-my-awesome-site/D321_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118585193/|Müller, Robert|http://url-of-my-awesome-site/D322_V1.html
-https://d-nb.info/gnd/1050480937/|Müller, Hugo|http://url-of-my-awesome-site/D323_V1.html
-https://d-nb.info/gnd/118737775/|Müllner, Adolf Amadeus Gottfried|http://url-of-my-awesome-site/D324_V1.html
-https://d-nb.info/gnd/4030921-6/https://d-nb.info/gnd/118585916/|Musil, Robert|http://url-of-my-awesome-site/D325_V1.html
-https://d-nb.info/gnd/117179183/|Münzer, Kurt|http://url-of-my-awesome-site/D326_V1.html
-https://d-nb.info/gnd/4058282-6/https://d-nb.info/gnd/4058282-6/https://d-nb.info/gnd/1073450015|MyliusMüller, OtfridCarl|http://url-of-my-awesome-site/D327_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/1050011619/|Myller, Otto|http://url-of-my-awesome-site/D328_V1.html
-https://d-nb.info/gnd/118586092/|Nabl, Franz|http://url-of-my-awesome-site/D329_V1.html
-https://d-nb.info/gnd/118738178/|Naumann, Friedrich|http://url-of-my-awesome-site/D330_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118587080/|Nestroy, Johann Nepomuk|http://url-of-my-awesome-site/D331_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/117001783/|Niemann, August|http://url-of-my-awesome-site/D332_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118587676/|Nicolai, Georg Friedrich|http://url-of-my-awesome-site/D333_V1.html
-https://d-nb.info/gnd/117022411/|Nisle-Klein, Charlotte|http://url-of-my-awesome-site/D334_V1.html
-https://d-nb.info/gnd/1070322660/https://d-nb.info/gnd/118587943/|Nietzsche, Friedrich|http://url-of-my-awesome-site/D335_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118588583/|Nordau, Max|http://url-of-my-awesome-site/D336_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117056553|NordmannRumpelmayer, JohannJohann|http://url-of-my-awesome-site/D337_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/117069515/|Nowak, Karl Friedrich|http://url-of-my-awesome-site/D338_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/100813283/|Ompteda, Georg von|http://url-of-my-awesome-site/D339_V1.html
-https://d-nb.info/gnd/118557211/|Jean Paul|http://url-of-my-awesome-site/D340_V1.html
-https://d-nb.info/gnd/4030921-6/https://d-nb.info/gnd/118592750/|Perkonig, Joseph Friedrich|http://url-of-my-awesome-site/D341_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116094028/|Peschkau, Emil|http://url-of-my-awesome-site/D342_V1.html
-https://d-nb.info/gnd/118594869/|Platen, August von|http://url-of-my-awesome-site/D343_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/119338424/|Plüschow, Gunther|http://url-of-my-awesome-site/D344_V1.html
-https://d-nb.info/gnd/116265248/|Polzin, Albert|http://url-of-my-awesome-site/D345_V1.html
-https://d-nb.info/gnd/118973061|Duprel, Carl|http://url-of-my-awesome-site/D346_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118792849/|Ponten, Josef|http://url-of-my-awesome-site/D347_V1.html
-https://d-nb.info/gnd/118803336/|Polenz, Wilhelm von|http://url-of-my-awesome-site/D348_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118595822/|Popper-Lynkeus, Josef|http://url-of-my-awesome-site/D349_V1.html
-https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/118793284/|Presber, Rudolf|http://url-of-my-awesome-site/D350_V1.html
-https://d-nb.info/gnd/118742108/|Przybyszewski, Stanisław|http://url-of-my-awesome-site/D351_V1.html
-https://d-nb.info/gnd/118597442/|Raabe, Wilhelm|http://url-of-my-awesome-site/D352_V1.html
-https://d-nb.info/gnd/116323957/|RaffHozhevar, JohannesJohann|http://url-of-my-awesome-site/D353_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118597914/|Raimund, Ferdinand|http://url-of-my-awesome-site/D354_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/116327979/|Ramshorn, Carl|http://url-of-my-awesome-site/D355_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/100823548|Raupach, Ernst|http://url-of-my-awesome-site/D356_V1.html
-https://d-nb.info/gnd/127829210/|Reinmann, Ernst|http://url-of-my-awesome-site/D357_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118584162/|Moritz, Karl Philipp|http://url-of-my-awesome-site/D358_V1.html
-https://d-nb.info/gnd/118744712/|Reuter, Gabriele|http://url-of-my-awesome-site/D359_V1.html
-https://d-nb.info/gnd/1130788695/|ReinfelsJanuszkiewicz, Hans vonHans Wilhelm Alexander von|http://url-of-my-awesome-site/D360_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116499745/|Rheinhardt, Emil Alphons|http://url-of-my-awesome-site/D361_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/118601024/|Rilke, Rainer Maria|http://url-of-my-awesome-site/D362_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118600850/|Riehl, Wilhelm Heinrich von|http://url-of-my-awesome-site/D363_V1.html
-https://d-nb.info/gnd/4035304-7/https://d-nb.info/gnd/118745492/|Rittner, Thaddäus|http://url-of-my-awesome-site/D364_V1.html
-https://d-nb.info/gnd/116576332/|Roberts, Alexander von|http://url-of-my-awesome-site/D365_V1.html
-https://d-nb.info/gnd/11874562X/|Roda Roda, Alexander|http://url-of-my-awesome-site/D366_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116595663/|Rössler, Carl|http://url-of-my-awesome-site/D367_V1.html
-https://d-nb.info/gnd/119034883/|Roquette, Otto|http://url-of-my-awesome-site/D368_V1.html
-https://d-nb.info/gnd/4029713-5/https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/10732220X/|Rosen, Erwin|http://url-of-my-awesome-site/D369_V1.html
-https://d-nb.info/gnd/4036934-1/https://d-nb.info/gnd/118602721/|Rosenkranz, Karl|http://url-of-my-awesome-site/D370_V1.html
-https://d-nb.info/gnd/118602667/|Rosegger, Peter|http://url-of-my-awesome-site/D371_V1.html
-https://d-nb.info/gnd/4053863-1/https://d-nb.info/gnd/4237930-1/https://d-nb.info/gnd/118603817/|Rückert, Friedrich|http://url-of-my-awesome-site/D372_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118604449/|Saar, Ferdinand von|http://url-of-my-awesome-site/D373_V1.html
-https://d-nb.info/gnd/118794558/|Saphir, Moritz Gottlieb|http://url-of-my-awesome-site/D374_a_V1.html
-https://d-nb.info/gnd/118750607|Sack, Gustav|http://url-of-my-awesome-site/D375_V1.html
-https://d-nb.info/gnd/116740469|Sachs, Otto|http://url-of-my-awesome-site/D376_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/116566795|Salburg-Falkenstein, Edith von|http://url-of-my-awesome-site/D377_V1.html
-https://d-nb.info/gnd/116976810/|Saudek, Robert|http://url-of-my-awesome-site/D378_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117103292/|Schamann, Franz|http://url-of-my-awesome-site/D380_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/117211354/|Schendell, Werner|http://url-of-my-awesome-site/D381_V1.html
-https://d-nb.info/gnd/118794957/|Scherr, Johannes|http://url-of-my-awesome-site/D382_V1.html
-https://d-nb.info/gnd/4029713-5/https://d-nb.info/gnd/4029713-5/https://d-nb.info/gnd/118606832/|Scheffel, Joseph Victor von|http://url-of-my-awesome-site/D384_V1.html
-https://d-nb.info/gnd/11860743X/|Schickele, René|http://url-of-my-awesome-site/D385_V1.html
-https://d-nb.info/gnd/118607626/|Schiller, Friedrich von|http://url-of-my-awesome-site/D387_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118758926/|Schönherr, Karl|http://url-of-my-awesome-site/D388_V1.html
-https://d-nb.info/gnd/118609475/|Schnabel, Johann Gottfried|http://url-of-my-awesome-site/D389_V1.html
-https://d-nb.info/gnd/118762109/|Schücking, Levin|http://url-of-my-awesome-site/D390_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/117116955/|Schubin, Ossip|http://url-of-my-awesome-site/D391_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/117185442/|Schultz, Alwin|http://url-of-my-awesome-site/D392_V1.html
-https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/118610465/|Schopenhauer, Arthur|http://url-of-my-awesome-site/D393_V1.html
-https://d-nb.info/gnd/4012995-0/https://d-nb.info/gnd/117303658/|Schumann, Wolfgang|http://url-of-my-awesome-site/D394_V1.html
-https://d-nb.info/gnd/4068262-6/https://d-nb.info/gnd/118611666/|Schumann, Robert|http://url-of-my-awesome-site/D395_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/117538884/|Schmidt, Lothar|http://url-of-my-awesome-site/D396_V1.html
-https://d-nb.info/gnd/117060828/|Schreyer, Hans|http://url-of-my-awesome-site/D397_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/119368579/|Schreyvogel, Josef|http://url-of-my-awesome-site/D398_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/116848162/|Schnitzer, Manuel|http://url-of-my-awesome-site/D399_V1.html
-https://d-nb.info/gnd/117082236/|Schröer, Gustav|http://url-of-my-awesome-site/D400_V1.html
-https://d-nb.info/gnd/1070181080/|Sealsfield, Charles|http://url-of-my-awesome-site/D401_V1.html
-https://d-nb.info/gnd/11736438X/|Siegfried, Walther|http://url-of-my-awesome-site/D402_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118748432/|Slatin Pascha, Rudolf|http://url-of-my-awesome-site/D403_V1.html
-https://d-nb.info/gnd/117475882/|Sonntag, Arnulf|http://url-of-my-awesome-site/D404_V1.html
-https://d-nb.info/gnd/118798065/|Sorge, Reinhard Johannes|http://url-of-my-awesome-site/D405_V1.html
-https://d-nb.info/gnd/117234931/|Sterneder, Hans|http://url-of-my-awesome-site/D406_V1.html
-https://d-nb.info/gnd/117223875/|Stavenow, Bernhard|http://url-of-my-awesome-site/D407_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117429333/|Smekal, Richard|http://url-of-my-awesome-site/D408_V1.html
-https://d-nb.info/gnd/4008135-7/https://d-nb.info/gnd/107504774/|Spiegel-Peckelsheim, Edgar von|http://url-of-my-awesome-site/D409_V1.html
-https://d-nb.info/gnd/4036934-1/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118616196/|Spielhagen, Friedrich|http://url-of-my-awesome-site/D410_V1.html
-https://d-nb.info/gnd/118616277/|Spitteler, Carl|http://url-of-my-awesome-site/D411_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118616110/|Spengler, Oswald|http://url-of-my-awesome-site/D412_V1.html
-https://d-nb.info/gnd/118798928|Stinde, Julius Ernst Wilhelm|http://url-of-my-awesome-site/D413_V1.html
-https://d-nb.info/gnd/17238785X/|Scholz, Maria|http://url-of-my-awesome-site/D414_V1.html
-https://d-nb.info/gnd/118617060/|Steffen, Albert|http://url-of-my-awesome-site/D415_V1.html
-https://d-nb.info/gnd/4074255-6/https://d-nb.info/gnd/118618156/|Stifter, Adalbert|http://url-of-my-awesome-site/D416_V1.html
-https://d-nb.info/gnd/118617133/|Stehr, Hermann|http://url-of-my-awesome-site/D417_V1.html
-https://d-nb.info/gnd/4023996-2/https://d-nb.info/gnd/117309087/|Stratz, Rudolph|http://url-of-my-awesome-site/D418_V1.html
-https://d-nb.info/gnd/119156040/|Strodtmann, Adolf Heinrich|http://url-of-my-awesome-site/D419_V1.html
-https://d-nb.info/gnd/118618725/|Storm, Theodor|http://url-of-my-awesome-site/D420_V1.html
-https://d-nb.info/gnd/11875257X/|Stahr, Adolf Wilhelm Theodor|http://url-of-my-awesome-site/D422_V1.html
-https://d-nb.info/gnd/4035206-7/https://d-nb.info/gnd/118617958/|Sternheim, Carl|http://url-of-my-awesome-site/D423_V1.html
-https://d-nb.info/gnd/118619055/|Strauss, David Friedrich|http://url-of-my-awesome-site/D424_V1.html
-https://d-nb.info/gnd/4018272-1/https://d-nb.info/gnd/118755846/|Strauss, Emil|http://url-of-my-awesome-site/D425_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/11861956X/|Stucken, Eduard|http://url-of-my-awesome-site/D426_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118620126/|Suttner, Bertha von|http://url-of-my-awesome-site/D427_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118619853/|Sudermann, Hermann|http://url-of-my-awesome-site/D428_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/1058761048/|Tagger, Theodor|http://url-of-my-awesome-site/D429_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/119549530/|Techet, Carl Franz|http://url-of-my-awesome-site/D430_V1.html
-https://d-nb.info/gnd/117254975|TelmannZitelmann, KonradErnst Otto Konrad|http://url-of-my-awesome-site/D431_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117254924/|Telmann, Fritz|http://url-of-my-awesome-site/D432_V1.html
-https://d-nb.info/gnd/120941988/|Terramare, Georg|http://url-of-my-awesome-site/D433_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/117296023/|Teweles, Heinrich|http://url-of-my-awesome-site/D434_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/1042002495/|Thies, Heinz|http://url-of-my-awesome-site/D435_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/12989432X/|Tieck, Ludwig|http://url-of-my-awesome-site/D436_V1.html
-https://d-nb.info/gnd/118514210/|Bräker, Ulrich|http://url-of-my-awesome-site/D437_V1.html
-https://d-nb.info/gnd/127610944/|Torresani-Lanzenfeld, Carl von|http://url-of-my-awesome-site/D438_V1.html
-https://d-nb.info/gnd/118622072/|Thoma, Ludwig|http://url-of-my-awesome-site/D439_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/117421243/|Tovote, Heinz|http://url-of-my-awesome-site/D440_V1.html
-https://d-nb.info/gnd/115749845/|Traun, Julius|http://url-of-my-awesome-site/D441_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/119297191/|Thürheim, Ludovica von|http://url-of-my-awesome-site/D443_V1.html
-https://d-nb.info/gnd/118622358/|Thümmel, Moritz August von|http://url-of-my-awesome-site/D444_V1.html
-https://d-nb.info/gnd/118625527/|Unruh, Fritz von|http://url-of-my-awesome-site/D445_V1.html
-https://d-nb.info/gnd/119074923/|Vaërting, Maria Johanna|http://url-of-my-awesome-site/D446_V1.html
-https://d-nb.info/gnd/116623632/|KurthKris, Betty|http://url-of-my-awesome-site/D447_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/118627023/|Villers, Alexander von|http://url-of-my-awesome-site/D448_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118804448/|Viebig, Clara|http://url-of-my-awesome-site/D449_V1.html
-https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/118535587|Friederich, Johann Konrad|http://url-of-my-awesome-site/D450_V1.html
-https://d-nb.info/gnd/11862721X/|Vischer, Friedrich Theodor|http://url-of-my-awesome-site/D451_V1.html
-https://d-nb.info/gnd/117450944/|Voss, Richard|http://url-of-my-awesome-site/D452_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/11877090X/|Waldau, Max|http://url-of-my-awesome-site/D453_V1.html
-https://d-nb.info/gnd/4037446-4/https://d-nb.info/gnd/117076570/|Wachenhusen, Hans|http://url-of-my-awesome-site/D454_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/11712768X|Walloth, Wilhelm|http://url-of-my-awesome-site/D455_V1.html
-https://d-nb.info/gnd/1163044334/|Duboc, Charles Edouard|http://url-of-my-awesome-site/D456_V1.html
-https://d-nb.info/gnd/115359885/|Wasielewski, Wilhelm Joseph von|http://url-of-my-awesome-site/D457_V1.html
-https://d-nb.info/gnd/117103578/|Wagner, Oscar|http://url-of-my-awesome-site/D458_V1.html
-https://d-nb.info/gnd/118629387/|Wassermann, Jakob|http://url-of-my-awesome-site/D459_V1.html
-https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118629867/|Wedekind, Frank|http://url-of-my-awesome-site/D460_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/11728484X/|Wenden, Henry|http://url-of-my-awesome-site/D462_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/126283451/|Wengraf, Richard|http://url-of-my-awesome-site/D463_V1.html
-https://d-nb.info/gnd/138646546/|Werner, Elisabeth|http://url-of-my-awesome-site/D464_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/117177865/|Wechsler, Ernst|http://url-of-my-awesome-site/D465_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/118631373/|Werfel, Franz|http://url-of-my-awesome-site/D466_V1.html
-https://d-nb.info/gnd/4023118-5/https://d-nb.info/gnd/117220264/|Wehl, Feodor|http://url-of-my-awesome-site/D467_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117306355/|Wertheimer, Paul|http://url-of-my-awesome-site/D468_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118630458/|Weiss, Ernst|http://url-of-my-awesome-site/D469_V1.html
-https://d-nb.info/gnd/118807250/|Wilbrandt, Adolf von|http://url-of-my-awesome-site/D470_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/117410306/|Winterfeld, Adolf von|http://url-of-my-awesome-site/D471_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/11733555X/|Wichert, Ernst|http://url-of-my-awesome-site/D472_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118632841/|Wildgans, Anton|http://url-of-my-awesome-site/D473_V1.html
-https://d-nb.info/gnd/4005728-8/https://d-nb.info/gnd/118771760/|Wildenbruch, Ernst von|http://url-of-my-awesome-site/D474_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/116259604/|Wilhelm, Paul|http://url-of-my-awesome-site/D475_V1.html
-https://d-nb.info/gnd/120583410/|Wieland, Christoph Martin|http://url-of-my-awesome-site/D476_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/119429764/|Wittels, Fritz|http://url-of-my-awesome-site/D477_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/1026263549/|Winter, Josef von|http://url-of-my-awesome-site/D478_V1.html
-https://d-nb.info/gnd/4018118-2/https://d-nb.info/gnd/117411973/|Wirth, Albrecht|http://url-of-my-awesome-site/D479_V1.html
-https://d-nb.info/gnd/118769553/|Wit, Ferdinand Johannes|http://url-of-my-awesome-site/D480_V1.html
-https://d-nb.info/gnd/117639400/|Wolff, Julius|http://url-of-my-awesome-site/D481_V1.html
-https://d-nb.info/gnd/1042460248/|Wlad, Franz|http://url-of-my-awesome-site/D482_V1.html
-https://d-nb.info/gnd/104298170/|Wolff, Ludwig|http://url-of-my-awesome-site/D483_V1.html
-https://d-nb.info/gnd/4008216-7/https://d-nb.info/gnd/11889028X/|Wolzogen, Ernst von|http://url-of-my-awesome-site/D484_V1.html
-https://d-nb.info/gnd/117359084/|Wurzbach-Tannenberg, Alfred von|http://url-of-my-awesome-site/D485_V1.html
-https://d-nb.info/gnd/118808230/|Zachariae, Justus Friedrich Wilhelm|http://url-of-my-awesome-site/D486_V1.html
-https://d-nb.info/gnd/118996282/|Zahn, Ernst|http://url-of-my-awesome-site/D487_V1.html
-https://d-nb.info/gnd/116534893/|Zimmermann, Robert von|http://url-of-my-awesome-site/D488_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118772899/|Zifferer, Paul|http://url-of-my-awesome-site/D489_V1.html
-https://d-nb.info/gnd/11701270X/|Zollinger, Theophil|http://url-of-my-awesome-site/D490_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/4127793-4/https://d-nb.info/gnd/118773100/|Zoff, Otto|http://url-of-my-awesome-site/D491_V1.html
-https://d-nb.info/gnd/116898127/|Zschokke, Heinrich Daniel|http://url-of-my-awesome-site/D492_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118637479/|Zweig, Stefan|http://url-of-my-awesome-site/D493_V1.html
-https://d-nb.info/gnd/118637452/|Zweig, Arnold|http://url-of-my-awesome-site/D494_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118643606/|About, Edmond|http://url-of-my-awesome-site/F1_V1.html
-https://d-nb.info/gnd/119493020/|Augier, Émile|http://url-of-my-awesome-site/F2_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118506358/|Balzac, Honoré de|http://url-of-my-awesome-site/F3_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/11850651X/|Barbusse, Henri|http://url-of-my-awesome-site/F4_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118506498/|Barbey d’Aurevilly, Jules-Amédée|http://url-of-my-awesome-site/F5_V1.html
-https://d-nb.info/gnd/118506684/|Barrès, Maurice|http://url-of-my-awesome-site/F6_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118653350/|Bashkirtseff, Marie|http://url-of-my-awesome-site/F7_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118507850/|Beaumarchais, Pierre Augustin Caron de|http://url-of-my-awesome-site/F8_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/119307294|Bachaumont, Louis Petit de|http://url-of-my-awesome-site/F9_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/116106867/|Becque, Henri|http://url-of-my-awesome-site/F10_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/116115270/|Bélot, Adolphe|http://url-of-my-awesome-site/F11_V1.html
-https://d-nb.info/gnd/120581655/|BentzonBlanc, ThérèseThérèse|http://url-of-my-awesome-site/F12_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118902822/|Bernstein, Henri Léon|http://url-of-my-awesome-site/F13_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118509578/|Bergson, Henri|http://url-of-my-awesome-site/F14_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118911732/|Bernard, Tristan|http://url-of-my-awesome-site/F15_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118509675/|Berlioz, Hector|http://url-of-my-awesome-site/F16_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1020505656/|Berton, Pierre|http://url-of-my-awesome-site/F17_V1.html
-https://d-nb.info/gnd/13624033X/|Bonetain, Paul|http://url-of-my-awesome-site/F18_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118659561/|Bourget, Paul|http://url-of-my-awesome-site/F19_V1.html
-https://d-nb.info/gnd/172563038/|Bocage, Henri|http://url-of-my-awesome-site/F20_V1.html
-https://d-nb.info/gnd/118673327/|Brantôme, Pierre Bourdeille de|http://url-of-my-awesome-site/F21_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/119534673/|Brieux, Eugène|http://url-of-my-awesome-site/F22_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1042355053/|Cadol, Victor Édouard|http://url-of-my-awesome-site/F23_V1.html
-https://d-nb.info/gnd/116496487/|VachetteChavette, EugèneEugène|http://url-of-my-awesome-site/F24_V1.html
-https://d-nb.info/gnd/118568604/|Choderlos de Laclos, Pierre|http://url-of-my-awesome-site/F25_V1.html
-https://d-nb.info/gnd/118669206/|Cherbuliez, Victor Charles|http://url-of-my-awesome-site/F26_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118521039/|Claudel, Paul|http://url-of-my-awesome-site/F27_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/119069830/|Claretie, Jules|http://url-of-my-awesome-site/F28_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118638475/|Constant, Benjamin|http://url-of-my-awesome-site/F29_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1057580554/|Coolus, Romain|http://url-of-my-awesome-site/F31_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118521527/|Colette, Sidonie-Gabrielle|http://url-of-my-awesome-site/F32_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118670042/|Coppée, François|http://url-of-my-awesome-site/F33_V1.html
-https://d-nb.info/gnd/117707503/|Aubourg de La Bove Miremont, Anne d'|http://url-of-my-awesome-site/F34_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118670700/|Curel, François de|http://url-of-my-awesome-site/F35_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118670263/|Courteline, Georges|http://url-of-my-awesome-site/F36_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118523872/|Daudet, Alphonse|http://url-of-my-awesome-site/F37_V1.html
-https://d-nb.info/gnd/116067853/|Delpit, Albert|http://url-of-my-awesome-site/F38_V1.html
-https://d-nb.info/gnd/118671669/|Destouches, Philippe Néricault|http://url-of-my-awesome-site/F39_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118525263/|Diderot, Denis|http://url-of-my-awesome-site/F40_V1.html
-https://d-nb.info/gnd/1012974340/|Droz, Gustave|http://url-of-my-awesome-site/F41_V1.html
-https://d-nb.info/gnd/118528068/|Dumas, Alexandre père|http://url-of-my-awesome-site/F42_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/11852805X/|Dumas, Alexandre fils|http://url-of-my-awesome-site/F43_V1.html
-https://d-nb.info/gnd/1035621436/|Duruy, George|http://url-of-my-awesome-site/F44_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/132678993/|Duval, Georges|http://url-of-my-awesome-site/F45_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/10233272X/|Duvernois, Henri|http://url-of-my-awesome-site/F46_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118875558/|Farrère, Claude|http://url-of-my-awesome-site/F47_V1.html
-https://d-nb.info/gnd/117737119/|Feydeau, Ernest-Aymé|http://url-of-my-awesome-site/F48_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118532790/|Feuillet, Octave|http://url-of-my-awesome-site/F49_V1.html
-https://d-nb.info/gnd/118533754/|Flaubert, Gustave|http://url-of-my-awesome-site/F50_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118533843/|Fleg, Edmond|http://url-of-my-awesome-site/F51_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118692445/|France, Anatole|http://url-of-my-awesome-site/F52_V1.html
-https://d-nb.info/gnd/118703358/|Fromentin, Eugène|http://url-of-my-awesome-site/F53_V1.html
-https://d-nb.info/gnd/122348745/|Flers, Robert de|http://url-of-my-awesome-site/F54_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/126333750/|Frondaie, Pierre|http://url-of-my-awesome-site/F55_V1.html
-https://d-nb.info/gnd/11853789X/|Gautier, Théophile|http://url-of-my-awesome-site/F56_V1.html
-https://d-nb.info/gnd/120439409/|Gaboriau, Émile|http://url-of-my-awesome-site/F57_V1.html
-https://d-nb.info/gnd/118904523/|Gasquet, Joachim|http://url-of-my-awesome-site/F58_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/100796303/|Girardin, Delphine|http://url-of-my-awesome-site/F59_V1.html
-https://d-nb.info/gnd/118540416/|Gogh, Vincent van|http://url-of-my-awesome-site/F60_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118539523/|Giraudoux, Jean|http://url-of-my-awesome-site/F61_V1.html
-https://d-nb.info/gnd/118540688/|Goncourt, Edmond Huot de|http://url-of-my-awesome-site/F62_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118540696/|Goncourt, Jules Huot de|http://url-of-my-awesome-site/F62_V2.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/113673671/|GrévilleFleuryDurand, HenryAlice|http://url-of-my-awesome-site/F63_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1070044466/|Guillemot, Maurice|http://url-of-my-awesome-site/F65_V1.html
-https://d-nb.info/gnd/119283158/|Mirabeau, Sibylle de|http://url-of-my-awesome-site/F66_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118718320/|Gourmont, Remy de|http://url-of-my-awesome-site/F67_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118919660/|Halévy, Ludovic|http://url-of-my-awesome-site/F68_V1.html
-https://d-nb.info/gnd/100833330/|Halévy, Léon|http://url-of-my-awesome-site/F69_V1.html
-https://d-nb.info/gnd/116717254|Hennique, Léon|http://url-of-my-awesome-site/F70_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/119552930/|Hervieu, Paul Ernest|http://url-of-my-awesome-site/F71_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/121278859/|Hermant, Abel|http://url-of-my-awesome-site/F72_V1.html
-https://d-nb.info/gnd/116777516/|HessemLavallé, Louis deAuguste|http://url-of-my-awesome-site/F73_V1.html
-https://d-nb.info/gnd/118554654|Hugo, Victor|http://url-of-my-awesome-site/F74_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/117535354/|Houssaye, Henry|http://url-of-my-awesome-site/F75_a_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/117535346/|Houssaye, Arsène|http://url-of-my-awesome-site/F75_b_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118555111/|Huysmans, Joris-Karl|http://url-of-my-awesome-site/F76_V1.html
-https://d-nb.info/gnd/4118220-0/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118775944/|Janin, Jules Gabriel|http://url-of-my-awesome-site/F77_V1.html
-https://d-nb.info/gnd/119049163/|Istrati, Panaït|http://url-of-my-awesome-site/F78_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118776851/|Karr, Alphonse|http://url-of-my-awesome-site/F79_V1.html
-https://d-nb.info/gnd/119039486/|Kessel, Joseph|http://url-of-my-awesome-site/F80_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1055478957/|Kistemaekers, Henry|http://url-of-my-awesome-site/F81_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/105509539X/|Dubut de Laforest, Jean-Louis|http://url-of-my-awesome-site/F82_V1.html
-https://d-nb.info/gnd/118726056/|Lamartine, Alphonse de|http://url-of-my-awesome-site/F83_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/126703019/|Lavedan, Henri Léon|http://url-of-my-awesome-site/F84_V1.html
-https://d-nb.info/gnd/1055096779/|Lachaud, Georges|http://url-of-my-awesome-site/F85_V1.html
-https://d-nb.info/gnd/11872696X|Leclercq, Théodore|http://url-of-my-awesome-site/F86_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/115656340/|G. Lenotre|http://url-of-my-awesome-site/F87_V1.html
-https://d-nb.info/gnd/118572032/|Lesage, Alain René|http://url-of-my-awesome-site/F88_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/11882905X/|Leroux, Gaston|http://url-of-my-awesome-site/F89_V1.html
-https://d-nb.info/gnd/1089859945/|Leroy, Louis|http://url-of-my-awesome-site/F90_V1.html
-https://d-nb.info/gnd/142809691/|Lesclide, Richard|http://url-of-my-awesome-site/F91_V1.html
-https://d-nb.info/gnd/142809691/|Lesclide, Richard|http://url-of-my-awesome-site/F92_V1.html
-https://d-nb.info/gnd/100345751/|Fagan, Christophe Barthélemy|http://url-of-my-awesome-site/F92_V2.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/137956290/|Lapauze, Jeanne|http://url-of-my-awesome-site/F93_V1.html
-https://d-nb.info/gnd/118780522/|Loti, Pierre|http://url-of-my-awesome-site/F94_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118780557/|Louÿs, Pierre Louis|http://url-of-my-awesome-site/F95_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/118572903/|Ligne, Charles Joseph von|http://url-of-my-awesome-site/F96_V1.html
-https://d-nb.info/gnd/118576089/|Maeterlinck, Maurice|http://url-of-my-awesome-site/F97_V1.html
-https://d-nb.info/gnd/119245884/|Malot, Hector Henri|http://url-of-my-awesome-site/F98_V1.html
-https://d-nb.info/gnd/118578073/|Marmontel, Jean-François|http://url-of-my-awesome-site/F99_V1.html
-https://d-nb.info/gnd/135792584/|Margueritte, Paul|http://url-of-my-awesome-site/F100_V1.html
-https://d-nb.info/gnd/1050476972/|Martel, Tancrède|http://url-of-my-awesome-site/F101_V1.html
-https://d-nb.info/gnd/173258670/|Marni, Jeanne|http://url-of-my-awesome-site/F102_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/117443034/|Wolff, Pierre|http://url-of-my-awesome-site/F103_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/119159686/|Marbot, Marcellin|http://url-of-my-awesome-site/F104_V1.html
-https://d-nb.info/gnd/11684129X/|Matthey, Maja|http://url-of-my-awesome-site/F105_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118577972/|Marivaux, Pierre Carlet de|http://url-of-my-awesome-site/F106_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118579207/|Maupassant, Guy de|http://url-of-my-awesome-site/F107_V1.html
-https://d-nb.info/gnd/118783203/|Mendès, Catulle|http://url-of-my-awesome-site/F108_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/109046358/|Méré, Charles|http://url-of-my-awesome-site/F109_V1.html
-https://d-nb.info/gnd/1024214400/|Mérouvel, Charles|http://url-of-my-awesome-site/F110_V1.html
-https://d-nb.info/gnd/1027523315/|Méténier, Oscar|http://url-of-my-awesome-site/F111_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118582682/|Mirabeau, Honoré Gabriel de|http://url-of-my-awesome-site/F112_V1.html
-https://d-nb.info/gnd/118582151/|Michelet, Jules|http://url-of-my-awesome-site/F113_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118784226/|Mirbeau, Octave|http://url-of-my-awesome-site/F114_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/11858331X/|Molière, Jean-Baptiste|http://url-of-my-awesome-site/F115_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/121774988/|Montépin, Xavier-Aymon, Comte de|http://url-of-my-awesome-site/F116_V1.html
-https://d-nb.info/gnd/1055096884/|O’MonroySaint-Geniès, RichardRichard de|http://url-of-my-awesome-site/F117_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118585940/|Musset, Alfred de|http://url-of-my-awesome-site/F118_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/104081236/|Musset, Paul Edme de|http://url-of-my-awesome-site/F119_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118785400/|Murger, Henri|http://url-of-my-awesome-site/F120_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118587013/|Nerval, Gérard de|http://url-of-my-awesome-site/F121_V1.html
-https://d-nb.info/gnd/172837855/|Nizet, Henri|http://url-of-my-awesome-site/F122_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118735594/|Nodier, Jean Charles Emmanuel|http://url-of-my-awesome-site/F123_V1.html
-https://d-nb.info/gnd/118790188/|Péladan, Joséphin|http://url-of-my-awesome-site/F125_V1.html
-https://d-nb.info/gnd/1055096833/|Perret, Paul|http://url-of-my-awesome-site/F126_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118791907/|Philippe, Charles-Louis|http://url-of-my-awesome-site/F127_V1.html
-https://d-nb.info/gnd/113677472/|Pigault-Lebrun, Charles-Antoine-Guillaume Pigault de l’Épinoy|http://url-of-my-awesome-site/F128_V1.html
-https://d-nb.info/gnd/1021279498|PeyrebrunePeyrebruneEimery, Georges deMathilde-Georgina Élisabeth|http://url-of-my-awesome-site/F129_V1.html
-https://d-nb.info/gnd/118596462/|Prévost, Antoine-François|http://url-of-my-awesome-site/F130_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/115738238X/|Provins, Michel|http://url-of-my-awesome-site/F131_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118792946/|Porto-Riche, Georges de|http://url-of-my-awesome-site/F132_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118597450/|Rabelais, François|http://url-of-my-awesome-site/F134_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1234686058/|Rabusson, Henry|http://url-of-my-awesome-site/F135_V1.html
-https://d-nb.info/gnd/119100770|Rachildetype="Ehename"Vallette-EymeryEymery, Marguerite|http://url-of-my-awesome-site/F136_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118787640/|Radiguet, Raymond|http://url-of-my-awesome-site/F137_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/11859902X/|Régnier, Henri de|http://url-of-my-awesome-site/F138_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/115717641/|Regnier-Destourbet, Hippolyte François|http://url-of-my-awesome-site/F139_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118788345/|Renard, Jules|http://url-of-my-awesome-site/F140_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118744496/|Renan, Ernest|http://url-of-my-awesome-site/F141_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/11864193X/|Rétif de la Bretonne, Nicolas|http://url-of-my-awesome-site/F142_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118599887/|Retz, Jean François Paul de|http://url-of-my-awesome-site/F143_V1.html
-https://d-nb.info/gnd/1055095462/|Ricard, Jules|http://url-of-my-awesome-site/F144_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118788752/|Richepin, Jean|http://url-of-my-awesome-site/F145_V1.html
-https://d-nb.info/gnd/118603426/|Rousseau, Jean-Jacques|http://url-of-my-awesome-site/F146_V1.html
-https://d-nb.info/gnd/118790838/|Rod, Édouard|http://url-of-my-awesome-site/F147_V1.html
-https://d-nb.info/gnd/118602330/|Rolland, Romain|http://url-of-my-awesome-site/F148_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/11860239X/|Romains, Jules|http://url-of-my-awesome-site/F149_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/102215065/|Rothschild, Henri de|http://url-of-my-awesome-site/F150_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118605348/|Sand, George|http://url-of-my-awesome-site/F151_V1.html
-https://d-nb.info/gnd/100578985/|Latouche, Jean-Charles Gervaise de|http://url-of-my-awesome-site/F152_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118794566/|Sardou, Victorien|http://url-of-my-awesome-site/F153_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118605984/|Scarron, Paul|http://url-of-my-awesome-site/F154_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/123641314/|Scholl, Aurélien|http://url-of-my-awesome-site/F155_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1055095764/|Scheffer, Robert|http://url-of-my-awesome-site/F156_V1.html
-https://d-nb.info/gnd/117387290/|Silvestre, Armand|http://url-of-my-awesome-site/F157_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118612425/|Scribe, Eugène|http://url-of-my-awesome-site/F158_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/126887845|Ségur, Nicolas|http://url-of-my-awesome-site/F159_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118617648/|Stendhal|http://url-of-my-awesome-site/F160_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/117485365/|Souvestre, Émile|http://url-of-my-awesome-site/F161_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118619861/|Sue, Eugène|http://url-of-my-awesome-site/F162_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/11862055X/|Taine, Hippolyte|http://url-of-my-awesome-site/F163_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/117198838/|Talma, François-Joseph|http://url-of-my-awesome-site/F164_V1.html
-https://d-nb.info/gnd/118801899/|Theuriet, Claude Adhémar André|http://url-of-my-awesome-site/F165_V1.html
-https://d-nb.info/gnd/118802259/|Tillier, Claude|http://url-of-my-awesome-site/F166_V1.html
-https://d-nb.info/gnd/124109918/|Tinayre, Marcelle|http://url-of-my-awesome-site/F167_V1.html
-https://d-nb.info/gnd/117268437/|Ulbach, Louis|http://url-of-my-awesome-site/F168_V1.html
-https://d-nb.info/gnd/143767224/|LouisValdagne, Charles LucienPierre|http://url-of-my-awesome-site/F169_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1055096809/|Vast, Raoul|http://url-of-my-awesome-site/F170_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1055096817/|Ricouard, Gustave|http://url-of-my-awesome-site/F170_V2.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1053942508/|VirmaÎTre, Charles|http://url-of-my-awesome-site/F171_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/117345679/|Vandérem, Fernand|http://url-of-my-awesome-site/F172_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/121502244/|Veber, Pierre|http://url-of-my-awesome-site/F173_V1.html
-https://d-nb.info/gnd/118626620/|Verne, Jules|http://url-of-my-awesome-site/F174_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/107627884/|Vautel, Clément|http://url-of-my-awesome-site/F175_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118768441/|Vigny, Alfred-Victor de|http://url-of-my-awesome-site/F176_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118627058/|Villiers de l’Isle-Adam, Philippe-Auguste, Comte de|http://url-of-my-awesome-site/F178_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118627813/|Voltaire, François-Marie|http://url-of-my-awesome-site/F179_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/119240386/|Vildrac, Charles|http://url-of-my-awesome-site/F180_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/1026235553/|Xanrof, Léon|http://url-of-my-awesome-site/F181_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118637223/|Zola, Émile|http://url-of-my-awesome-site/F182_V1.html
-https://d-nb.info/gnd/11864808X|Alfieri, Vittorio|http://url-of-my-awesome-site/I1_V1.html
-https://d-nb.info/gnd/118503243/|D’Annunzio, Gabriele|http://url-of-my-awesome-site/I2_V1.html
-https://d-nb.info/gnd/4085198-9/https://d-nb.info/gnd/4085198-9/https://d-nb.info/gnd/11851217X/|Boccaccio, Giovanni|http://url-of-my-awesome-site/I3_V1.html
-https://d-nb.info/gnd/174068956/|Cossa, Pietro|http://url-of-my-awesome-site/I4_V1.html
-https://d-nb.info/gnd/118523708/|Dante Alighieri|http://url-of-my-awesome-site/I5_V1.html
-https://d-nb.info/gnd/120936909/|Ferrari, Paolo|http://url-of-my-awesome-site/I6_V1.html
-https://d-nb.info/gnd/119389134/|Farina, Salvatore|http://url-of-my-awesome-site/I7_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118540505/|Goldoni, Carlo|http://url-of-my-awesome-site/I8_V1.html
-https://d-nb.info/gnd/119540959/|Infessura, Stefano|http://url-of-my-awesome-site/I9_V1.html
-https://d-nb.info/gnd/119062518/|Maffei, Francesco Scipione|http://url-of-my-awesome-site/I10_V1.html
-https://d-nb.info/gnd/118577409/|Manzoni, Alessandro|http://url-of-my-awesome-site/I11_V1.html
-https://d-nb.info/gnd/118575775/|Machiavelli, Niccolò|http://url-of-my-awesome-site/I12_V1.html
-https://d-nb.info/gnd/118884654|NeeraZuccariRadius, Anna|http://url-of-my-awesome-site/I13_V1.html
-https://d-nb.info/gnd/119238500/|Pellico, Silvio|http://url-of-my-awesome-site/I14_V1.html
-https://d-nb.info/gnd/118796208/|Serao, Matilde|http://url-of-my-awesome-site/I15_V1.html
-https://d-nb.info/gnd/118626558/|Verga, Giovanni|http://url-of-my-awesome-site/I16_V1.html
-https://d-nb.info/gnd/118791540/|Alarcón, Juan Ruiz de|http://url-of-my-awesome-site/E1_a_V1.html
-https://d-nb.info/gnd/118869302/|Alarcón y Ariza, Pedro Antonio de|http://url-of-my-awesome-site/E1_b_V1.html
-https://d-nb.info/gnd/118518399/|Calderón de la Barca, Pedro|http://url-of-my-awesome-site/E2_V1.html
-https://d-nb.info/gnd/11851993X/|Cervantes Saavedra, Miguel de|http://url-of-my-awesome-site/E3_V1.html
-https://d-nb.info/gnd/119047314/|Echegaray, José|http://url-of-my-awesome-site/E4_V1.html
-https://d-nb.info/gnd/118626353/|Vega Carpio, Lope Felix de|http://url-of-my-awesome-site/E5_V1.html
-https://d-nb.info/gnd/118784846/|Moreto Y Cavana, Augustín|http://url-of-my-awesome-site/E6_V1.html
-https://d-nb.info/gnd/118834347/|Mendoza, Diego Hurtado de|http://url-of-my-awesome-site/E7_V1.html
-https://d-nb.info/gnd/118642863/|Tirso De MolinaTéllez, Gabriel|http://url-of-my-awesome-site/E8_V1.html
-https://d-nb.info/gnd/11880376X/|Valera Y Alcala Galiano, Juan|http://url-of-my-awesome-site/E9_V1.html
-https://d-nb.info/gnd/1128616793/|Eca de Queiros, José Maria|http://url-of-my-awesome-site/E10_V1.html
-https://d-nb.info/gnd/118644521/|Aldrich, Thomas Bailey|http://url-of-my-awesome-site/GB1_V1.html
-https://d-nb.info/gnd/118505173/|Austen, Jane|http://url-of-my-awesome-site/GB2_V1.html
-https://d-nb.info/gnd/118525239/|Dickens, Charles|http://url-of-my-awesome-site/GB3_V1.html
-https://d-nb.info/gnd/119229218/|Buckle, Henry Thomas|http://url-of-my-awesome-site/GB4_V1.html
-https://d-nb.info/gnd/11866493X/|Bulwer-Lytton, Edward George|http://url-of-my-awesome-site/GB5_V1.html
-https://d-nb.info/gnd/118517775/|Burns, Robert|http://url-of-my-awesome-site/GB6_V1.html
-https://d-nb.info/gnd/118518208/|Byron, George Gordon Noël Lord|http://url-of-my-awesome-site/GB7_V1.html
-https://d-nb.info/gnd/118519131/|Carlyle, Thomas|http://url-of-my-awesome-site/GB8_V1.html
-https://d-nb.info/gnd/118520393/|Chesterton, Gilbert Keith|http://url-of-my-awesome-site/GB9_V1.html
-https://d-nb.info/gnd/118529846/|EliotEvans, GeorgeMary Ann|http://url-of-my-awesome-site/GB10_V1.html
-https://d-nb.info/gnd/119282356/|EgertonDunneBrightClairmont, GeorgeMary Chavelita|http://url-of-my-awesome-site/GB11_V1.html
-https://d-nb.info/gnd/116514108/|Finck, Henry Theophilus|http://url-of-my-awesome-site/GB12_V1.html
-https://d-nb.info/gnd/1057815047/|Forster, John|http://url-of-my-awesome-site/GB13_V1.html
-https://d-nb.info/gnd/1176583417/|Green, A[nna] K[atharine]|http://url-of-my-awesome-site/GB14_V1.html
-https://d-nb.info/gnd/1055374620/|Houghton, William Stanley|http://url-of-my-awesome-site/GB15_V1.html
-https://d-nb.info/gnd/118774395/|Heywood, Thomas|http://url-of-my-awesome-site/GB16_V1.html
-https://d-nb.info/gnd/14209093X/|Harraden, Beatrice|http://url-of-my-awesome-site/GB17_V1.html
-https://d-nb.info/gnd/124243606/|James, Henry|http://url-of-my-awesome-site/GB18_V1.html
-https://d-nb.info/gnd/117115517/|Jerome, Jerome Klapka|http://url-of-my-awesome-site/GB19_V1.html
-https://d-nb.info/gnd/118558501/|Joyce, James|http://url-of-my-awesome-site/GB20_V1.html
-https://d-nb.info/gnd/118562290/|Kipling, Rudyard|http://url-of-my-awesome-site/GB21_V1.html
-https://d-nb.info/gnd/11856837X/|Kyd, Thomas|http://url-of-my-awesome-site/GB22_V1.html
-https://d-nb.info/gnd/118570366/|Lawrence, Thomas Edward|http://url-of-my-awesome-site/GB23_V1.html
-https://d-nb.info/gnd/118779788/|Lewes, Georg Henry|http://url-of-my-awesome-site/GB24_V1.html
-https://d-nb.info/gnd/118574183/|London, Jack|http://url-of-my-awesome-site/GB25_V1.html
-https://d-nb.info/gnd/118936034/|Loos, Anita|http://url-of-my-awesome-site/GB26_V1.html
-https://d-nb.info/gnd/1016000758/|Marryatt, Frederick|http://url-of-my-awesome-site/GB27_V1.html
-https://d-nb.info/gnd/11857566X/|Macaulay, Thomas Babington|http://url-of-my-awesome-site/GB28_V1.html
-https://d-nb.info/gnd/118578065/|Marlowe, Christopher|http://url-of-my-awesome-site/GB29_V1.html
-https://d-nb.info/gnd/118580604/|Melville, Herman|http://url-of-my-awesome-site/GB30_V1.html
-https://d-nb.info/gnd/118782487/|Massinger, Philip|http://url-of-my-awesome-site/GB31_V1.html
-https://d-nb.info/gnd/118584278|Morrison, Arthur|http://url-of-my-awesome-site/GB32_V1.html
-https://d-nb.info/gnd/118584251/|Morris, William|http://url-of-my-awesome-site/GB33_V1.html
-https://d-nb.info/gnd/118581058/|Meredith, George|http://url-of-my-awesome-site/GB34_V1.html
-https://d-nb.info/gnd/1229850295|Ottolengui, Rodrigues|http://url-of-my-awesome-site/GB35_V1.html
-https://d-nb.info/gnd/118738844/|Otway, Thomas|http://url-of-my-awesome-site/GB36_V1.html
-https://d-nb.info/gnd/11859527X/|Poe, Edgar Allan|http://url-of-my-awesome-site/GB37_V1.html
-https://d-nb.info/gnd/1055109471/|Philips, Francis Charles|http://url-of-my-awesome-site/GB38_V1.html
-https://d-nb.info/gnd/118793292/|Prescott, William|http://url-of-my-awesome-site/GB39_V1.html
-https://d-nb.info/gnd/119106019/|OuidaLa Ramée, Marie Louise de|http://url-of-my-awesome-site/GB40_V1.html
-https://d-nb.info/gnd/118613723/|Shakespeare, William|http://url-of-my-awesome-site/GB41_V1.html
-https://d-nb.info/gnd/118642375/|Shaw, George Bernard|http://url-of-my-awesome-site/GB42_V1.html
-https://d-nb.info/gnd/118620193/|Swift, Jonathan|http://url-of-my-awesome-site/GB43_V1.html
-https://d-nb.info/gnd/11861794X/|Sterne, Laurence|http://url-of-my-awesome-site/GB44_V1.html
-https://d-nb.info/gnd/118612409/|Scott, Walter|http://url-of-my-awesome-site/GB45_V1.html
-https://d-nb.info/gnd/118796976/|Sheridan, Richard Brinsley|http://url-of-my-awesome-site/GB46_V1.html
-https://d-nb.info/gnd/118624822/|Mark Twain|http://url-of-my-awesome-site/GB47_V1.html
-https://d-nb.info/gnd/119476320/|Voynich, Ethel Lilian|http://url-of-my-awesome-site/GB49_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118632779/|Wilde, Oscar|http://url-of-my-awesome-site/GB50_V1.html
-https://d-nb.info/gnd/118643266/|Wells, H. G.|http://url-of-my-awesome-site/GB51_V1.html
-https://d-nb.info/gnd/118621483/|Thackeray, William Makepeace|http://url-of-my-awesome-site/GB48_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/123638178/|Biró, Ludwig|http://url-of-my-awesome-site/U1_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/118959379/|Eötvös, Baron Jozsef|http://url-of-my-awesome-site/U3_V1.html
-https://d-nb.info/gnd/4119067-1/https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/121829855/|Herczeg, Franz|http://url-of-my-awesome-site/U5_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/118985418/|Jókai, Maurus|http://url-of-my-awesome-site/U6_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/11912369X/|Mikszáth, Kálmán|http://url-of-my-awesome-site/U7_V1.html
-https://d-nb.info/gnd/4008684-7/https://d-nb.info/gnd/118734598/|Molnár, Ferenc|http://url-of-my-awesome-site/U8_V1.html
-https://d-nb.info/gnd/118593226/|Petőfi, Sándor|http://url-of-my-awesome-site/U9_V1.html
-https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/4066009-6/https://d-nb.info/gnd/117306355/|Wertheimer, Paul|http://url-of-my-awesome-site/U10_V1.html
-https://d-nb.info/gnd/4035304-7/https://d-nb.info/gnd/143739565/|Fredro, Graf Jan Aleksander|http://url-of-my-awesome-site/P1_V1.html
-https://d-nb.info/gnd/4079048-4/https://d-nb.info/gnd/118777955/|Kraszewski, Josef Ignacy|http://url-of-my-awesome-site/P2_V1.html
-https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/118668250/|Čapek, Karel|http://url-of-my-awesome-site/P3_V1.html
-https://d-nb.info/gnd/11873377X/|Mickiewicz, Adam|http://url-of-my-awesome-site/P4_V1.html
-https://d-nb.info/gnd/11879275X/|Polonskij, Jakov Petrovič|http://url-of-my-awesome-site/P5_V1.html
-https://d-nb.info/gnd/118797107/|Sienkiewicz, Henryk|http://url-of-my-awesome-site/P6_V1.html
-https://d-nb.info/gnd/118797107/|Sienkiewicz, Henryk|http://url-of-my-awesome-site/P7_V1.html
-https://d-nb.info/gnd/4079048-4/https://d-nb.info/gnd/122735641/|Weyssenhoff, Józef|http://url-of-my-awesome-site/P8_V1.html
-https://d-nb.info/gnd/4035304-7/https://d-nb.info/gnd/11880829X/|Zapolska, Gabryela|http://url-of-my-awesome-site/P9_V1.html
-https://d-nb.info/gnd/130102229/|StigsonAgrell, StigAlfhild|http://url-of-my-awesome-site/N1_V1.html
-https://d-nb.info/gnd/1188641816/|BenedictssonBruzelius, Victoria Maria|http://url-of-my-awesome-site/N2_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118502794/|Andersen, Hans Christian|http://url-of-my-awesome-site/N3_V1.html
-https://d-nb.info/gnd/118809709/|Bang, Herman|http://url-of-my-awesome-site/N4_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/11613156X/|Berger, Johan Henning|http://url-of-my-awesome-site/N5_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/117587885/|Bergsøe, Vilhelm|http://url-of-my-awesome-site/N6_V1.html
-https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118511459/|Bjørnson, Bjørnstjerne|http://url-of-my-awesome-site/N7_V1.html
-https://d-nb.info/gnd/116233672/|Bojer, Johan|http://url-of-my-awesome-site/N8_V1.html
-https://d-nb.info/gnd/118659634/|Boyesen, Hjalmar Hjorth|http://url-of-my-awesome-site/N9_V1.html
-https://d-nb.info/gnd/116815213/|Bruun, Laurids|http://url-of-my-awesome-site/N10_V1.html
-https://d-nb.info/gnd/119124475/|Christiansen, Arne Einar|http://url-of-my-awesome-site/N11_V1.html
-https://d-nb.info/gnd/4002364-3/https://d-nb.info/gnd/11665578X/|Conscience, Hendrik|http://url-of-my-awesome-site/N12_V1.html
-https://d-nb.info/gnd/12755260X/|Dilling, Lars|http://url-of-my-awesome-site/N13_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/128735058/|Esmann, Gustav Frederik|http://url-of-my-awesome-site/N14_V1.html
-https://d-nb.info/gnd/104734985X|Elster, Kristian|http://url-of-my-awesome-site/N15_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/130147001/|Ewald, Carl|http://url-of-my-awesome-site/N16_V1.html
-https://d-nb.info/gnd/118969846/|Eeden, Frederik Willem van|http://url-of-my-awesome-site/N17_V1.html
-https://d-nb.info/gnd/11853758X|Garborg, Arne|http://url-of-my-awesome-site/N18_V1.html
-https://d-nb.info/gnd/115657061/|Geijerstam, Gustaf af|http://url-of-my-awesome-site/N19_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118543970/|Gyllembourg-Ehrensvärd, Thomasine Christine|http://url-of-my-awesome-site/N20_V1.html
-https://d-nb.info/gnd/118545515/|Hamsun, Knut|http://url-of-my-awesome-site/N21_V1.html
-https://d-nb.info/gnd/11854585X/|Hansson, Ola|http://url-of-my-awesome-site/N22_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/119543281/|Henningsen, Agnes|http://url-of-my-awesome-site/N23_V1.html
-https://d-nb.info/gnd/11877364X/|Heijermans, Herman|http://url-of-my-awesome-site/N24_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/119361116/|Hertz, Henrik|http://url-of-my-awesome-site/N25_V1.html
-https://d-nb.info/gnd/119361388/|Heiberg, Gunnar|http://url-of-my-awesome-site/N26_V1.html
-https://d-nb.info/gnd/105511081X/|Hedenstjerna, Carl Josef Alfred af|http://url-of-my-awesome-site/N27_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118552961/|Holberg, Ludvig|http://url-of-my-awesome-site/N28_V1.html
-https://d-nb.info/gnd/118555286/|Ibsen, Henrik|http://url-of-my-awesome-site/N29_V1.html
-https://d-nb.info/gnd/118711172/|Jacobsen, Jens Peter|http://url-of-my-awesome-site/N30_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118776126/|Jensen, Johannes Vilhelm|http://url-of-my-awesome-site/N31_V1.html
-https://d-nb.info/gnd/117091383/|Ibsen, Sigurd|http://url-of-my-awesome-site/N32_V1.html
-https://d-nb.info/gnd/118561960/|Kielland, Alexander Lange|http://url-of-my-awesome-site/N34_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118562002/|Kierkegaard, Søren Aabye|http://url-of-my-awesome-site/N35_V1.html
-https://d-nb.info/gnd/137950071/|Kjær, Nils|http://url-of-my-awesome-site/N36_V1.html
-https://d-nb.info/gnd/1141416263/|Krohg, Christian|http://url-of-my-awesome-site/N37_V1.html
-https://d-nb.info/gnd/118726005/|Lagerlöf, Selma|http://url-of-my-awesome-site/N38_V1.html
-https://d-nb.info/gnd/12191772X/|Leffler, Anne Charlotte|http://url-of-my-awesome-site/N39_V1.html
-https://d-nb.info/gnd/118779907/|Lie, Jonas|http://url-of-my-awesome-site/N40_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/117586897/|Molbech, Christian Knud Frederik|http://url-of-my-awesome-site/N41_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118919431/|Madelung, Aage|http://url-of-my-awesome-site/N42_V1.html
-https://d-nb.info/gnd/118679279/|Dekker, Eduard Douwes|http://url-of-my-awesome-site/N43_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/130116653/|Michaëlis, Sophus|http://url-of-my-awesome-site/N44_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/11539396X/|Michaëlis, Karin|http://url-of-my-awesome-site/N45_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/116882670/|Nansen, Peter|http://url-of-my-awesome-site/N46_V1.html
-https://d-nb.info/gnd/118786660/|Obstfelder, Sigbjørn|http://url-of-my-awesome-site/N47_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/119071606/|Oehlenschläger, Adam Gottlob|http://url-of-my-awesome-site/N48_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118792865/|Pontoppidan, Henrik|http://url-of-my-awesome-site/N49_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/12687560X/|Rung, Otto|http://url-of-my-awesome-site/N50_V1.html
-https://d-nb.info/gnd/117620122/|Schandorph, Christian Frederik Sophus|http://url-of-my-awesome-site/N51_V1.html
-https://d-nb.info/gnd/134139186/|Schmidt, Rudolf|http://url-of-my-awesome-site/N52_V1.html
-https://d-nb.info/gnd/4032399-7/https://d-nb.info/gnd/118985965/|Skram, Amalie|http://url-of-my-awesome-site/N53_V1.html
-https://d-nb.info/gnd/118619314/|Strindberg, August|http://url-of-my-awesome-site/N55_V1.html
-https://d-nb.info/gnd/118621130/|Tegnér, Esaias|http://url-of-my-awesome-site/N56_V1.html
-https://d-nb.info/gnd/142297852/|Winterhjelm, Kristian|http://url-of-my-awesome-site/N57_V1.html
-https://d-nb.info/gnd/118637703/|Andreev, Leonid Nikolaevič|http://url-of-my-awesome-site/R1_V1.html
-https://d-nb.info/gnd/124285910/|Barancevič, Kazimir Stanislavovič|http://url-of-my-awesome-site/R2_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/118516574/|Bucharin, Nikolaj Ivanovič|http://url-of-my-awesome-site/R3_V1.html
-https://d-nb.info/gnd/103468544/|Danilevskij, Grigorij Petrovič|http://url-of-my-awesome-site/R4_V1.html
-https://d-nb.info/gnd/138130027/|Nemirovich-Danchenko, Vasily Ivanovich|http://url-of-my-awesome-site/R5_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/4267026-3/https://d-nb.info/gnd/118527053/|Dostojevskij, Fjodor M.|http://url-of-my-awesome-site/R6_V1.html
-https://d-nb.info/gnd/116263202/|Dymow, Ossip|http://url-of-my-awesome-site/R7_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/118540424/|Gogol, Nikolai W.|http://url-of-my-awesome-site/R8_V1.html
-https://d-nb.info/gnd/118537628/|Garšin, Vsevolod Michajlovič|http://url-of-my-awesome-site/R9_V1.html
-https://d-nb.info/gnd/4267026-3/https://d-nb.info/gnd/118540734/|Gončarov, Ivan Aleksandrovič|http://url-of-my-awesome-site/R10_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/118639293/|Gorkij, Maxim|http://url-of-my-awesome-site/R11_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/4044660-8/https://d-nb.info/gnd/118639218/|Gercen, Aleksandr Ivanovič|http://url-of-my-awesome-site/R12_V1.html
-https://d-nb.info/gnd/11877364X/|Heijermans, Herman|http://url-of-my-awesome-site/R13_V1.html
-https://d-nb.info/gnd/118565532/|Korolenko, Vladimir Galaktionovič|http://url-of-my-awesome-site/R14_V1.html
-https://d-nb.info/gnd/4267026-3/https://d-nb.info/gnd/118778242/|Kuprin, Alexander I.|http://url-of-my-awesome-site/R15_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/11857194X/|Lermontov, Michail Jur’evič|http://url-of-my-awesome-site/R16_V1.html
-https://d-nb.info/gnd/118640488/|Leskov, Nikolaj Semënovič|http://url-of-my-awesome-site/R17_V1.html
-https://d-nb.info/gnd/118640488/|Cuvelier De Trie, Jean Guillaume Antoine|http://url-of-my-awesome-site/R17_V2.html
-https://d-nb.info/gnd/128518081/|Markevič, Boleslav Michajlovič|http://url-of-my-awesome-site/R18_V1.html
-https://d-nb.info/gnd/4267026-3/https://d-nb.info/gnd/118662627/|Bestuschew, Alexander Alexandrowitsch|http://url-of-my-awesome-site/R19_V1.html
-https://d-nb.info/gnd/124098754/|Meščerskij, Vladimir Petrovič|http://url-of-my-awesome-site/R20_V1.html
-https://d-nb.info/gnd/127541225/|Šeller-Michajlov, Aleksandr Konstantinovič|http://url-of-my-awesome-site/R21_V1.html
-https://d-nb.info/gnd/122896092/|MikuličVeselitskaja-Božidarovič, V.Lidija Ivanova|http://url-of-my-awesome-site/R22_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/1089162820/|Panin, Victor|http://url-of-my-awesome-site/R23_V1.html
-https://d-nb.info/gnd/118792369/|Pisemskij, Aleksej Feofilaktovič|http://url-of-my-awesome-site/R24_V1.html
-https://d-nb.info/gnd/17368419X|Potechin, Nikolaj Antipovič|http://url-of-my-awesome-site/R25_V1.html
-https://d-nb.info/gnd/4074987-3/https://d-nb.info/gnd/4267026-3/https://d-nb.info/gnd/118641816/|Puškin, Aleksandr Sergeevič|http://url-of-my-awesome-site/R26_V1.html
-https://d-nb.info/gnd/103220348/|Stanjukovič, Konstantin Michajlovič|http://url-of-my-awesome-site/R27_V1.html
-https://d-nb.info/gnd/118615378|SologubTeternikov, FjodorFedor Kuz’miâ|http://url-of-my-awesome-site/R28_V1.html
-https://d-nb.info/gnd/118797956/|Sollogub, Vladimir Aleksandroviâ|http://url-of-my-awesome-site/R28_V2.html
-https://d-nb.info/gnd/11864291X/|Tolstoi, Leo N. von|http://url-of-my-awesome-site/R29_V1.html
-https://d-nb.info/gnd/118638289/|Čechov, Anton Pavlovič|http://url-of-my-awesome-site/R30_V1.html
-https://d-nb.info/gnd/118666150/|Černyševskij, Nikolaj Gavrilovič|http://url-of-my-awesome-site/R31_V1.html
-https://d-nb.info/gnd/118643010/|Turgenev, Ivan Sergeevič|http://url-of-my-awesome-site/R32_V1.html
-https://d-nb.info/gnd/117371173/|Vereščagin, Vasilij Vasil’evič|http://url-of-my-awesome-site/R34_V1.html
-https://d-nb.info/gnd/118500856/|Aischylos|http://url-of-my-awesome-site/G1_V1.html
-https://d-nb.info/gnd/118886983/|Alkaios aus Mytilene|http://url-of-my-awesome-site/G2_V1.html
-https://d-nb.info/gnd/118649035|Anakreon aus Teos|http://url-of-my-awesome-site/G3_V1.html
-https://d-nb.info/gnd/11850374X/|Apuleius|http://url-of-my-awesome-site/G4_V1.html
-https://d-nb.info/gnd/118503987/|Aristophanes|http://url-of-my-awesome-site/G5_V1.html
-https://d-nb.info/gnd/118506080/|Bakchylides|http://url-of-my-awesome-site/G6_V1.html
-https://d-nb.info/gnd/118524658|Demosthenes|http://url-of-my-awesome-site/G7_V1.html
-https://d-nb.info/gnd/118531395/|Euripides|http://url-of-my-awesome-site/G8_V1.html
-https://d-nb.info/gnd/118549855/|Herodot|http://url-of-my-awesome-site/G9_V1.html
-https://d-nb.info/gnd/11855333X/|Homer|http://url-of-my-awesome-site/G10_V1.html
-https://d-nb.info/gnd/118775448|Ibykos|http://url-of-my-awesome-site/G11_V1.html
-https://d-nb.info/gnd/118575228/|Lukian von Samosata|http://url-of-my-awesome-site/G12_V1.html
-https://d-nb.info/gnd/118594893/|Platon|http://url-of-my-awesome-site/G13_V1.html
-https://d-nb.info/gnd/118594427/|Pindaros|http://url-of-my-awesome-site/G14_V1.html
-https://d-nb.info/gnd/118605534|Sappho|http://url-of-my-awesome-site/G15_V1.html
-https://d-nb.info/gnd/118796151|Simonides|http://url-of-my-awesome-site/G16_V1.html
-https://d-nb.info/gnd/118615688/|Sophokles|http://url-of-my-awesome-site/G17_V1.html
-https://d-nb.info/gnd/118635808|Xenophon|http://url-of-my-awesome-site/G18_V1.html
-https://d-nb.info/gnd/128974060/|Aurelius Antoninus, Marcus|http://url-of-my-awesome-site/L1_V1.html
-https://d-nb.info/gnd/1187002747/|Catullus, Gaius Valerius|http://url-of-my-awesome-site/L2_V1.html
-https://d-nb.info/gnd/118518275/|Caesar, Gaius Iulius|http://url-of-my-awesome-site/L3_V1.html
-https://d-nb.info/gnd/118520814/|Cicero, Marcus Tullius|http://url-of-my-awesome-site/L4_V1.html
-https://d-nb.info/gnd/118747681/|Nepos, Cornelius|http://url-of-my-awesome-site/L5_V1.html
-https://d-nb.info/gnd/118523074/|Curtius Rufus, Quintus|http://url-of-my-awesome-site/L6_V1.html
-https://d-nb.info/gnd/118553569/|Horaz|http://url-of-my-awesome-site/L7_V1.html
-https://d-nb.info/gnd/118573624/|Livius, Titus|http://url-of-my-awesome-site/L8_V1.html
-https://d-nb.info/gnd/11857826X/|Martialis, Marcus Valerius|http://url-of-my-awesome-site/L9_V1.html
-https://d-nb.info/gnd/118590995/|Ovidius Naso, Publius|http://url-of-my-awesome-site/L10_V1.html
-https://d-nb.info/gnd/118595237/|Plutarch|http://url-of-my-awesome-site/L11_V1.html
-https://d-nb.info/gnd/118594974|Plautus, Titus Maccius|http://url-of-my-awesome-site/L12_V1.html
-https://d-nb.info/gnd/118596764/|Propertius, Sextus Aurelius|http://url-of-my-awesome-site/L13_V1.html
-https://d-nb.info/gnd/118605097/|Sallustius Crispus, Gaius|http://url-of-my-awesome-site/L14_V1.html
-https://d-nb.info/gnd/118619918/|Sueton|http://url-of-my-awesome-site/L15_V1.html
-https://d-nb.info/gnd/118620452/|Tacitus, Publius Cornelius|http://url-of-my-awesome-site/L16_V1.html
-https://d-nb.info/gnd/118621335|Terentius Afer, Publius|http://url-of-my-awesome-site/L17_V1.html
-https://d-nb.info/gnd/11862251X|Tibullus, Albius|http://url-of-my-awesome-site/L18_V1.html
-https://d-nb.info/gnd/118626574/|Vergil, Publius|http://url-of-my-awesome-site/L19_V1.html
+https://d-nb.info/gnd/1020823992/|Adam, Robert|http://url-of-my-awesome-site/pmb12438.html
+https://d-nb.info/gnd/116008040/|Adler, Friedrich|http://url-of-my-awesome-site/pmb5929.html
+https://d-nb.info/gnd/118500856/|Aischylos|http://url-of-my-awesome-site/pmb3648.html
+https://d-nb.info/gnd/118869302/|Alarcón y Ariza, Pedro Antonio de|http://url-of-my-awesome-site/pmb5944.html
+https://d-nb.info/gnd/116284315/|Albu, Eugen|http://url-of-my-awesome-site/pmb3180.html
+https://d-nb.info/gnd/118502255/|Altenberg, Peter|http://url-of-my-awesome-site/pmb2147.html
+https://d-nb.info/gnd/118502794/|Andersen, Hans Christian|http://url-of-my-awesome-site/pmb5981.html
+https://d-nb.info/gnd/116011653/|Andlaw, Franz von|http://url-of-my-awesome-site/pmb5988.html
+https://d-nb.info/gnd/118502921/|Andreas-Salomé, Lou|http://url-of-my-awesome-site/pmb10762.html
+https://d-nb.info/gnd/118637703/|Andreev, Leonid Nikolaevič|http://url-of-my-awesome-site/pmb28321.html
+https://d-nb.info/gnd/11850357X/|Anzengruber, Ludwig|http://url-of-my-awesome-site/pmb10772.html
+https://d-nb.info/gnd/116315903/|Apel, Paul|http://url-of-my-awesome-site/pmb10775.html
+https://d-nb.info/gnd/11850374X/|Apuleius|http://url-of-my-awesome-site/pmb13467.html
+https://d-nb.info/gnd/104086424/|Aram, Kurt|http://url-of-my-awesome-site/pmb3770.html
+https://d-nb.info/gnd/118503987/|Aristophanes|http://url-of-my-awesome-site/pmb13473.html
+https://d-nb.info/gnd/118504118/|Arndt, Ernst Moritz|http://url-of-my-awesome-site/pmb6027.html
+https://d-nb.info/gnd/118646036/|Asch, Joseph Jefferson|http://url-of-my-awesome-site/pmb13520.html
+https://d-nb.info/gnd/119376377/|Assing, Ludmilla|http://url-of-my-awesome-site/pmb6045.html
+https://d-nb.info/gnd/117707503/|Aubourg de La Bove Miremont, Anne d'|http://url-of-my-awesome-site/pmb21505.html
+https://d-nb.info/gnd/11865103X/|Auerbach, Berthold|http://url-of-my-awesome-site/pmb6050.html
+https://d-nb.info/gnd/118505033/|Auernheimer, Raoul|http://url-of-my-awesome-site/pmb10788.html
+https://d-nb.info/gnd/119493020/|Augier, Émile|http://url-of-my-awesome-site/pmb2815.html
+https://d-nb.info/gnd/118505955/|Bahr, Hermann|http://url-of-my-awesome-site/pmb10815.html
+https://d-nb.info/gnd/118506358/|Balzac, Honoré de|http://url-of-my-awesome-site/pmb10825.html
+https://d-nb.info/gnd/118809709/|Bang, Herman|http://url-of-my-awesome-site/pmb10828.html
+https://d-nb.info/gnd/1025986598/|Baracs, Géza|http://url-of-my-awesome-site/pmb13718.html
+https://d-nb.info/gnd/11850651X/|Barbusse, Henri|http://url-of-my-awesome-site/pmb6109.html
+https://d-nb.info/gnd/116068876/|Barthold, Friedrich Wilhelm|http://url-of-my-awesome-site/pmb6131.html
+https://d-nb.info/gnd/118652931/|Bartsch, Rudolf Hans|http://url-of-my-awesome-site/pmb10836.html
+https://d-nb.info/gnd/118653350/|Bashkirtseff, Marie|http://url-of-my-awesome-site/pmb13797.html
+https://d-nb.info/gnd/118507400/|Bauernfeld, Eduard von|http://url-of-my-awesome-site/pmb10854.html
+https://d-nb.info/gnd/118507443/|Baum, Oskar|http://url-of-my-awesome-site/pmb6164.html
+https://d-nb.info/gnd/118653857/|Baumbach, Rudolf|http://url-of-my-awesome-site/pmb6169.html
+https://d-nb.info/gnd/118507850/|Beaumarchais, Pierre Augustin Caron de|http://url-of-my-awesome-site/pmb10857.html
+https://d-nb.info/gnd/116106867/|Becque, Henri|http://url-of-my-awesome-site/pmb13897.html
+https://d-nb.info/gnd/118654756/|Beer-Hofmann, Richard|http://url-of-my-awesome-site/pmb10863.html
+https://d-nb.info/gnd/118658166/|Benedix, Julius Roderich|http://url-of-my-awesome-site/pmb13999.html
+https://d-nb.info/gnd/116125446/|Berend, Alice|http://url-of-my-awesome-site/pmb14041.html
+https://d-nb.info/gnd/11613156X/|Berger, Johan Henning|http://url-of-my-awesome-site/pmb14062.html
+https://d-nb.info/gnd/118509578/|Bergson, Henri|http://url-of-my-awesome-site/pmb6257.html
+https://d-nb.info/gnd/118509675/|Berlioz, Hector|http://url-of-my-awesome-site/pmb6263.html
+https://d-nb.info/gnd/116136545/|Bern, Maximilian|http://url-of-my-awesome-site/pmb6267.html
+https://d-nb.info/gnd/118911732/|Bernard, Tristan|http://url-of-my-awesome-site/pmb10893.html
+https://d-nb.info/gnd/118658468/|Bernhardi, Friedrich von|http://url-of-my-awesome-site/pmb14127.html
+https://d-nb.info/gnd/118902822/|Bernstein, Henri Léon|http://url-of-my-awesome-site/pmb3663.html
+https://d-nb.info/gnd/1020505656/|Berton, Pierre|http://url-of-my-awesome-site/pmb6284.html
+https://d-nb.info/gnd/116155795/|Bettelheim, Anton|http://url-of-my-awesome-site/pmb10912.html
+https://d-nb.info/gnd/1032978376/|Biberich, Gustav|http://url-of-my-awesome-site/pmb14191.html
+https://d-nb.info/gnd/127064419/|Billiter, Jean|http://url-of-my-awesome-site/pmb10931.html
+https://d-nb.info/gnd/118510916/|Billroth, Theodor|http://url-of-my-awesome-site/pmb10934.html
+https://d-nb.info/gnd/123638178/|Biró, Ludwig|http://url-of-my-awesome-site/pmb14239.html
+https://d-nb.info/gnd/118511459/|Bjørnson, Bjørnstjerne|http://url-of-my-awesome-site/pmb2400.html
+https://d-nb.info/gnd/118511653/|Blei, Franz|http://url-of-my-awesome-site/pmb10955.html
+https://d-nb.info/gnd/118663909/|Bleibtreu, Karl|http://url-of-my-awesome-site/pmb14281.html
+https://d-nb.info/gnd/118909177/|Bloem, Walter|http://url-of-my-awesome-site/pmb6333.html
+https://d-nb.info/gnd/117608866/|Bode, Wilhelm|http://url-of-my-awesome-site/pmb10969.html
+https://d-nb.info/gnd/118512293/|Bodenstedt, Friedrich von|http://url-of-my-awesome-site/pmb10973.html
+https://d-nb.info/gnd/119352524/|Bodisco, Theophile von|http://url-of-my-awesome-site/pmb6346.html
+https://d-nb.info/gnd/116226544/|Boetticher, Hermann von|http://url-of-my-awesome-site/pmb14362.html
+https://d-nb.info/gnd/116233672/|Bojer, Johan|http://url-of-my-awesome-site/pmb6360.html
+https://d-nb.info/gnd/118703706/|Borchardt, Georg Hermann|http://url-of-my-awesome-site/pmb14400.html
+https://d-nb.info/gnd/118659561/|Bourget, Paul|http://url-of-my-awesome-site/pmb4026.html
+https://d-nb.info/gnd/118514245/|Brahm, Otto|http://url-of-my-awesome-site/pmb10986.html
+https://d-nb.info/gnd/118514326/|Brandes, Georg|http://url-of-my-awesome-site/pmb10992.html
+https://d-nb.info/gnd/118673327/|Brantôme, Pierre Bourdeille de|http://url-of-my-awesome-site/pmb14487.html
+https://d-nb.info/gnd/11867353X/|Braun, Lily|http://url-of-my-awesome-site/pmb6406.html
+https://d-nb.info/gnd/119534673/|Brieux, Eugène|http://url-of-my-awesome-site/pmb4791.html
+https://d-nb.info/gnd/118515624/|Brod, Max|http://url-of-my-awesome-site/pmb6441.html
+https://d-nb.info/gnd/116815213/|Bruun, Laurids|http://url-of-my-awesome-site/pmb6477.html
+https://d-nb.info/gnd/118514210/|Bräker, Ulrich|http://url-of-my-awesome-site/pmb6479.html
+https://d-nb.info/gnd/118516574/|Bucharin, Nikolaj Ivanovič|http://url-of-my-awesome-site/pmb5564.html
+https://d-nb.info/gnd/119229218/|Buckle, Henry Thomas|http://url-of-my-awesome-site/pmb14666.html
+https://d-nb.info/gnd/117161144/|Burckhard, Max Eugen|http://url-of-my-awesome-site/pmb11036.html
+https://d-nb.info/gnd/11851752X/|Burckhardt, Jacob|http://url-of-my-awesome-site/pmb11040.html
+https://d-nb.info/gnd/1162600888/|Burger, Karl|http://url-of-my-awesome-site/pmb6510.html
+https://d-nb.info/gnd/118665421/|Busch, Moritz|http://url-of-my-awesome-site/pmb14720.html
+https://d-nb.info/gnd/118517880/|Busch, Wilhelm|http://url-of-my-awesome-site/pmb6531.html
+https://d-nb.info/gnd/117184047/|Busson, Paul|http://url-of-my-awesome-site/pmb6543.html
+https://d-nb.info/gnd/118518208/|Byron, George Gordon Noël Lord|http://url-of-my-awesome-site/pmb11057.html
+https://d-nb.info/gnd/116115270/|Bélot, Adolphe|http://url-of-my-awesome-site/pmb14752.html
+https://d-nb.info/gnd/118878484/|Böhlau, Helene|http://url-of-my-awesome-site/pmb14762.html
+https://d-nb.info/gnd/119094029/|Böhme, Margarete|http://url-of-my-awesome-site/pmb6553.html
+https://d-nb.info/gnd/118512749/|Börne, Ludwig|http://url-of-my-awesome-site/pmb14780.html
+https://d-nb.info/gnd/1042355053/|Cadol, Victor Édouard|http://url-of-my-awesome-site/pmb2560.html
+https://d-nb.info/gnd/118518275/|Caesar, Gaius Iulius|http://url-of-my-awesome-site/pmb14796.html
+https://d-nb.info/gnd/118518399/|Calderón de la Barca, Pedro|http://url-of-my-awesome-site/pmb11068.html
+https://d-nb.info/gnd/118519131/|Carlyle, Thomas|http://url-of-my-awesome-site/pmb11074.html
+https://d-nb.info/gnd/116471557/|Castell, Alexander|http://url-of-my-awesome-site/pmb14886.html
+https://d-nb.info/gnd/11851993X/|Cervantes Saavedra, Miguel de|http://url-of-my-awesome-site/pmb2980.html
+https://d-nb.info/gnd/118520040/|Chamisso, Adelbert von|http://url-of-my-awesome-site/pmb6609.html
+https://d-nb.info/gnd/118520393/|Chesterton, Gilbert Keith|http://url-of-my-awesome-site/pmb14936.html
+https://d-nb.info/gnd/118568604/|Choderlos de Laclos, Pierre|http://url-of-my-awesome-site/pmb20018.html
+https://d-nb.info/gnd/116507497/|Christ, Joseph Anton|http://url-of-my-awesome-site/pmb6641.html
+https://d-nb.info/gnd/119069830/|Claretie, Jules|http://url-of-my-awesome-site/pmb2500.html
+https://d-nb.info/gnd/118521039/|Claudel, Paul|http://url-of-my-awesome-site/pmb6660.html
+https://d-nb.info/gnd/118521527/|Colette, Sidonie-Gabrielle|http://url-of-my-awesome-site/pmb15054.html
+https://d-nb.info/gnd/118669915/|Conrad, Michael Georg|http://url-of-my-awesome-site/pmb11098.html
+https://d-nb.info/gnd/11665578X/|Conscience, Hendrik|http://url-of-my-awesome-site/pmb6691.html
+https://d-nb.info/gnd/118638475/|Constant, Benjamin|http://url-of-my-awesome-site/pmb15088.html
+https://d-nb.info/gnd/1057580554/|Coolus, Romain|http://url-of-my-awesome-site/pmb15094.html
+https://d-nb.info/gnd/116689234/|Costenoble, Carl Ludwig|http://url-of-my-awesome-site/pmb6707.html
+https://d-nb.info/gnd/118670263/|Courteline, Georges|http://url-of-my-awesome-site/pmb4865.html
+https://d-nb.info/gnd/118670700/|Curel, François de|http://url-of-my-awesome-site/pmb15170.html
+https://d-nb.info/gnd/118523392/|Dahn, Felix|http://url-of-my-awesome-site/pmb6751.html
+https://d-nb.info/gnd/118523708/|Dante Alighieri|http://url-of-my-awesome-site/pmb3326.html
+https://d-nb.info/gnd/118523872/|Daudet, Alphonse|http://url-of-my-awesome-site/pmb11134.html
+https://d-nb.info/gnd/118671103/|David, Jakob Julius|http://url-of-my-awesome-site/pmb2416.html
+https://d-nb.info/gnd/118679236/|Dehmel, Richard|http://url-of-my-awesome-site/pmb11148.html
+https://d-nb.info/gnd/118679279/|Dekker, Eduard Douwes|http://url-of-my-awesome-site/pmb15285.html
+https://d-nb.info/gnd/118525239/|Dickens, Charles|http://url-of-my-awesome-site/pmb11153.html
+https://d-nb.info/gnd/118525263/|Diderot, Denis|http://url-of-my-awesome-site/pmb11157.html
+https://d-nb.info/gnd/124644694/|Dietz, Johannes|http://url-of-my-awesome-site/pmb15385.html
+https://d-nb.info/gnd/116137312/|Dincklage, Emmy von|http://url-of-my-awesome-site/pmb15400.html
+https://d-nb.info/gnd/126105316/|Dominik, Heinrich|http://url-of-my-awesome-site/pmb3099.html
+https://d-nb.info/gnd/118527053/|Dostojevskij, Fjodor M.|http://url-of-my-awesome-site/pmb4006.html
+https://d-nb.info/gnd/116220759/|Dreyer, Max|http://url-of-my-awesome-site/pmb11175.html
+https://d-nb.info/gnd/11852805X/|Dumas, Alexandre fils|http://url-of-my-awesome-site/pmb15512.html
+https://d-nb.info/gnd/118528068/|Dumas, Alexandre père|http://url-of-my-awesome-site/pmb11190.html
+https://d-nb.info/gnd/132678993/|Duval, Georges|http://url-of-my-awesome-site/pmb6892.html
+https://d-nb.info/gnd/10233272X/|Duvernois, Henri|http://url-of-my-awesome-site/pmb6895.html
+https://d-nb.info/gnd/116263202/|Dymow, Ossip|http://url-of-my-awesome-site/pmb6902.html
+https://d-nb.info/gnd/116081392/|Déry, Juliane|http://url-of-my-awesome-site/pmb15323.html
+https://d-nb.info/gnd/119020874/|Dörmann, Felix|http://url-of-my-awesome-site/pmb2425.html
+https://d-nb.info/gnd/118503243/|D’Annunzio, Gabriele|http://url-of-my-awesome-site/pmb2142.html
+https://d-nb.info/gnd/118528661/|Ebner-Eschenbach, Marie von|http://url-of-my-awesome-site/pmb11216.html
+https://d-nb.info/gnd/119047314/|Echegaray, José|http://url-of-my-awesome-site/pmb15626.html
+https://d-nb.info/gnd/118687859/|Edschmid, Kasimir|http://url-of-my-awesome-site/pmb6927.html
+https://d-nb.info/gnd/118969846/|Eeden, Frederik Willem van|http://url-of-my-awesome-site/pmb15671.html
+https://d-nb.info/gnd/118529390/|Eichendorff, Joseph von|http://url-of-my-awesome-site/pmb11233.html
+https://d-nb.info/gnd/116418656/|Eidlitz, Walther|http://url-of-my-awesome-site/pmb15756.html
+https://d-nb.info/gnd/116478411/|Engel, Alexander|http://url-of-my-awesome-site/pmb11253.html
+https://d-nb.info/gnd/118530909/|Ernst, Paul|http://url-of-my-awesome-site/pmb11265.html
+https://d-nb.info/gnd/116568437/|Ertl, Emil|http://url-of-my-awesome-site/pmb11270.html
+https://d-nb.info/gnd/118682636/|Eulenberg, Herbert|http://url-of-my-awesome-site/pmb11273.html
+https://d-nb.info/gnd/118531395/|Euripides|http://url-of-my-awesome-site/pmb4107.html
+https://d-nb.info/gnd/118685759/|Faesi, Robert|http://url-of-my-awesome-site/pmb11289.html
+https://d-nb.info/gnd/118875558/|Farrère, Claude|http://url-of-my-awesome-site/pmb11297.html
+https://d-nb.info/gnd/116427000/|Federn, Karl|http://url-of-my-awesome-site/pmb11301.html
+https://d-nb.info/gnd/118510240X/|Felner, Peter Paul|http://url-of-my-awesome-site/pmb16164.html
+https://d-nb.info/gnd/118532790/|Feuillet, Octave|http://url-of-my-awesome-site/pmb11315.html
+https://d-nb.info/gnd/118533665/|Flake, Otto|http://url-of-my-awesome-site/pmb11327.html
+https://d-nb.info/gnd/118533754/|Flaubert, Gustave|http://url-of-my-awesome-site/pmb11330.html
+https://d-nb.info/gnd/118533843/|Fleg, Edmond|http://url-of-my-awesome-site/pmb7170.html
+https://d-nb.info/gnd/122348745/|Flers, Robert de|http://url-of-my-awesome-site/pmb11337.html
+https://d-nb.info/gnd/118534262/|Fontane, Theodor|http://url-of-my-awesome-site/pmb11342.html
+https://d-nb.info/gnd/118692445/|France, Anatole|http://url-of-my-awesome-site/pmb4279.html
+https://d-nb.info/gnd/12325860X/|Franck, Harry Alverson|http://url-of-my-awesome-site/pmb7200.html
+https://d-nb.info/gnd/118534793/|Frank, Leonhard|http://url-of-my-awesome-site/pmb7209.html
+https://d-nb.info/gnd/118702599/|Franzos, Karl Emil|http://url-of-my-awesome-site/pmb7218.html
+https://d-nb.info/gnd/118535269/|Frenssen, Gustav|http://url-of-my-awesome-site/pmb11367.html
+https://d-nb.info/gnd/119139812/|Frenzel, Karl|http://url-of-my-awesome-site/pmb7232.html
+https://d-nb.info/gnd/116782900/|Frey, Egon|http://url-of-my-awesome-site/pmb16568.html
+https://d-nb.info/gnd/118535455/|Freytag, Gustav|http://url-of-my-awesome-site/pmb11377.html
+https://d-nb.info/gnd/11679058X/|Frieberger, Kurt|http://url-of-my-awesome-site/pmb7247.html
+https://d-nb.info/gnd/119480700/|Friedjung, Heinrich|http://url-of-my-awesome-site/pmb11384.html
+https://d-nb.info/gnd/118693433/|Friedlaender, Ludwig|http://url-of-my-awesome-site/pmb16636.html
+https://d-nb.info/gnd/116802014/|Friedmann, Alfred|http://url-of-my-awesome-site/pmb7253.html
+https://d-nb.info/gnd/116819820/|Frisch, Efraim|http://url-of-my-awesome-site/pmb7269.html
+https://d-nb.info/gnd/115819673/|Frobenius, Herman|http://url-of-my-awesome-site/pmb16729.html
+https://d-nb.info/gnd/118703358/|Fromentin, Eugène|http://url-of-my-awesome-site/pmb7279.html
+https://d-nb.info/gnd/126333750/|Frondaie, Pierre|http://url-of-my-awesome-site/pmb16737.html
+https://d-nb.info/gnd/115656340/|G. Lenotre|http://url-of-my-awesome-site/pmb3176.html
+https://d-nb.info/gnd/127450076/|Gad, Urban|http://url-of-my-awesome-site/pmb7323.html
+https://d-nb.info/gnd/118904523/|Gasquet, Joachim|http://url-of-my-awesome-site/pmb7350.html
+https://d-nb.info/gnd/11853811X/|Geibel, Emanuel|http://url-of-my-awesome-site/pmb11413.html
+https://d-nb.info/gnd/115657061/|Geijerstam, Gustaf af|http://url-of-my-awesome-site/pmb7363.html
+https://d-nb.info/gnd/118538810/|Gerstäcker, Friedrich|http://url-of-my-awesome-site/pmb7386.html
+https://d-nb.info/gnd/118921703/|Giedion, Sigfried|http://url-of-my-awesome-site/pmb7405.html
+https://d-nb.info/gnd/118539353/|Gilm-Rosenegg, Hermann von|http://url-of-my-awesome-site/pmb17028.html
+https://d-nb.info/gnd/100796303/|Girardin, Delphine|http://url-of-my-awesome-site/pmb17053.html
+https://d-nb.info/gnd/118539523/|Giraudoux, Jean|http://url-of-my-awesome-site/pmb7417.html
+https://d-nb.info/gnd/118540238/|Goethe, Johann Wolfgang von|http://url-of-my-awesome-site/pmb11461.html
+https://d-nb.info/gnd/118540254/|Goethe, Ottilie von|http://url-of-my-awesome-site/pmb7455.html
+https://d-nb.info/gnd/118540416/|Gogh, Vincent van|http://url-of-my-awesome-site/pmb11464.html
+https://d-nb.info/gnd/118540424/|Gogol, Nikolai W.|http://url-of-my-awesome-site/pmb17144.html
+https://d-nb.info/gnd/116755105/|Goldmann, Paul|http://url-of-my-awesome-site/pmb11485.html
+https://d-nb.info/gnd/118540505/|Goldoni, Carlo|http://url-of-my-awesome-site/pmb5892.html
+https://d-nb.info/gnd/118696173/|Goldschmidt, Alfons|http://url-of-my-awesome-site/pmb7473.html
+https://d-nb.info/gnd/118540661/|Gomperz, Theodor|http://url-of-my-awesome-site/pmb11497.html
+https://d-nb.info/gnd/118540688/|Goncourt, Edmond Huot de|http://url-of-my-awesome-site/pmb11500.html
+https://d-nb.info/gnd/118540696/|Goncourt, Jules Huot de|http://url-of-my-awesome-site/pmb2925.html
+https://d-nb.info/gnd/118639293/|Gorkij, Maxim|http://url-of-my-awesome-site/pmb2323.html
+https://d-nb.info/gnd/126434204/|Gosewisch, Helen|http://url-of-my-awesome-site/pmb17256.html
+https://d-nb.info/gnd/118540963/|Gotthelf, Jeremias|http://url-of-my-awesome-site/pmb7491.html
+https://d-nb.info/gnd/118541102/|Grabbe, Christian Dietrich|http://url-of-my-awesome-site/pmb11508.html
+https://d-nb.info/gnd/107601672/|Greeven, Erich|http://url-of-my-awesome-site/pmb17348.html
+https://d-nb.info/gnd/118697455/|Gregor, Joseph|http://url-of-my-awesome-site/pmb7525.html
+https://d-nb.info/gnd/118542192/|Grillparzer, Franz|http://url-of-my-awesome-site/pmb11518.html
+https://d-nb.info/gnd/118542249/|Grimm, Hans|http://url-of-my-awesome-site/pmb7539.html
+https://d-nb.info/gnd/118697773/|Grimm, Hermann|http://url-of-my-awesome-site/pmb17404.html
+https://d-nb.info/gnd/118697927/|Groddeck, Georg|http://url-of-my-awesome-site/pmb7543.html
+https://d-nb.info/gnd/142373672/|Groller, Balduin|http://url-of-my-awesome-site/pmb7548.html
+https://d-nb.info/gnd/116868775/|Gross, Ferdinand|http://url-of-my-awesome-site/pmb11524.html
+https://d-nb.info/gnd/118542664/|Großmann, Stefan|http://url-of-my-awesome-site/pmb11527.html
+https://d-nb.info/gnd/116809795/|Gräffer, Franz|http://url-of-my-awesome-site/pmb7568.html
+https://d-nb.info/gnd/1046109928/|Gröger, Fanny|http://url-of-my-awesome-site/pmb17465.html
+https://d-nb.info/gnd/118699067/|Gugitz, Gustav|http://url-of-my-awesome-site/pmb11541.html
+https://d-nb.info/gnd/118543628/|Gundolf, Friedrich|http://url-of-my-awesome-site/pmb3824.html
+https://d-nb.info/gnd/116935928/|Guttmann, Richard|http://url-of-my-awesome-site/pmb7616.html
+https://d-nb.info/gnd/118543830/|Gutzkow, Karl|http://url-of-my-awesome-site/pmb11555.html
+https://d-nb.info/gnd/118699962/|Hackländer, Friedrich Wilhelm von|http://url-of-my-awesome-site/pmb7641.html
+https://d-nb.info/gnd/118545043/|Halbe, Max|http://url-of-my-awesome-site/pmb11565.html
+https://d-nb.info/gnd/118919660/|Halévy, Ludovic|http://url-of-my-awesome-site/pmb4197.html
+https://d-nb.info/gnd/118701223/|Hamerling, Robert|http://url-of-my-awesome-site/pmb7674.html
+https://d-nb.info/gnd/118545515/|Hamsun, Knut|http://url-of-my-awesome-site/pmb11570.html
+https://d-nb.info/gnd/118545892/|Harden, Maximilian|http://url-of-my-awesome-site/pmb11581.html
+https://d-nb.info/gnd/11870155X/|Hardt, Ernst|http://url-of-my-awesome-site/pmb11585.html
+https://d-nb.info/gnd/116476400/|Harlan, Walter|http://url-of-my-awesome-site/pmb7697.html
+https://d-nb.info/gnd/118546198/|Hartleben, Otto Erich|http://url-of-my-awesome-site/pmb11605.html
+https://d-nb.info/gnd/118546937/|Hauptmann, Gerhart|http://url-of-my-awesome-site/pmb11617.html
+https://d-nb.info/gnd/118547445/|Hebbel, Friedrich|http://url-of-my-awesome-site/pmb2404.html
+https://d-nb.info/gnd/118547607/|Hedin, Sven|http://url-of-my-awesome-site/pmb7750.html
+https://d-nb.info/gnd/118773593/|Heer, Jakob Christoph|http://url-of-my-awesome-site/pmb7753.html
+https://d-nb.info/gnd/11877364X/|Heijermans, Herman|http://url-of-my-awesome-site/pmb7767.html
+https://d-nb.info/gnd/118773666/|Heimann, Moritz|http://url-of-my-awesome-site/pmb11632.html
+https://d-nb.info/gnd/118548018/|Heine, Heinrich|http://url-of-my-awesome-site/pmb11640.html
+https://d-nb.info/gnd/116678623/|Heitmüller, Franz Ferdinand|http://url-of-my-awesome-site/pmb18053.html
+https://d-nb.info/gnd/118835289/|Henckell, Karl Friedrich|http://url-of-my-awesome-site/pmb7784.html
+https://d-nb.info/gnd/119543281/|Henningsen, Agnes|http://url-of-my-awesome-site/pmb18119.html
+https://d-nb.info/gnd/121278859/|Hermant, Abel|http://url-of-my-awesome-site/pmb11657.html
+https://d-nb.info/gnd/118549855/|Herodot|http://url-of-my-awesome-site/pmb18163.html
+https://d-nb.info/gnd/119552930/|Hervieu, Paul Ernest|http://url-of-my-awesome-site/pmb18201.html
+https://d-nb.info/gnd/118550241/|Herzl, Theodor|http://url-of-my-awesome-site/pmb11673.html
+https://d-nb.info/gnd/119445980/|Herzog, Wilhelm|http://url-of-my-awesome-site/pmb11676.html
+https://d-nb.info/gnd/11855042X/|Hesse, Hermann|http://url-of-my-awesome-site/pmb11679.html
+https://d-nb.info/gnd/118881280/|Hessel, Franz|http://url-of-my-awesome-site/pmb7838.html
+https://d-nb.info/gnd/11678508X/|Hevesi, Ludwig|http://url-of-my-awesome-site/pmb11687.html
+https://d-nb.info/gnd/118550772/|Heyse, Paul|http://url-of-my-awesome-site/pmb11691.html
+https://d-nb.info/gnd/118774395/|Heywood, Thomas|http://url-of-my-awesome-site/pmb18254.html
+https://d-nb.info/gnd/101708122/|Hirschfeld, Georg|http://url-of-my-awesome-site/pmb11701.html
+https://d-nb.info/gnd/116914017/|Hirschfeld, Ludwig|http://url-of-my-awesome-site/pmb11704.html
+https://d-nb.info/gnd/118706195/|Hofmiller, Josef|http://url-of-my-awesome-site/pmb3861.html
+https://d-nb.info/gnd/118552961/|Holberg, Ludvig|http://url-of-my-awesome-site/pmb7897.html
+https://d-nb.info/gnd/118973096/|Holitscher, Arthur|http://url-of-my-awesome-site/pmb11749.html
+https://d-nb.info/gnd/116961805/|Hollaender, Felix|http://url-of-my-awesome-site/pmb11752.html
+https://d-nb.info/gnd/118862944/|Holm, Korfiz|http://url-of-my-awesome-site/pmb11760.html
+https://d-nb.info/gnd/118706640/|Holtei, Karl von|http://url-of-my-awesome-site/pmb7905.html
+https://d-nb.info/gnd/118553216/|Holz, Arno|http://url-of-my-awesome-site/pmb11763.html
+https://d-nb.info/gnd/11855333X/|Homer|http://url-of-my-awesome-site/pmb2495.html
+https://d-nb.info/gnd/116981385/|Hopfen, Hans von|http://url-of-my-awesome-site/pmb7908.html
+https://d-nb.info/gnd/118553569/|Horaz|http://url-of-my-awesome-site/pmb3516.html
+https://d-nb.info/gnd/117535354/|Houssaye, Henry|http://url-of-my-awesome-site/pmb18586.html
+https://d-nb.info/gnd/118554190/|Huch, Ricarda|http://url-of-my-awesome-site/pmb11780.html
+https://d-nb.info/gnd/118554654/|Hugo, Victor|http://url-of-my-awesome-site/pmb5359.html
+https://d-nb.info/gnd/118648071/|Häring, Wilhelm|http://url-of-my-awesome-site/pmb18646.html
+https://d-nb.info/gnd/118555286/|Ibsen, Henrik|http://url-of-my-awesome-site/pmb11798.html
+https://d-nb.info/gnd/118555324/|Iffland, August Wilhelm|http://url-of-my-awesome-site/pmb7966.html
+https://d-nb.info/gnd/118555553/|Immermann, Karl Leberecht|http://url-of-my-awesome-site/pmb7973.html
+https://d-nb.info/gnd/119540959/|Infessura, Stefano|http://url-of-my-awesome-site/pmb18688.html
+https://d-nb.info/gnd/118711172/|Jacobsen, Jens Peter|http://url-of-my-awesome-site/pmb11809.html
+https://d-nb.info/gnd/118556444/|Jacques, Norbert|http://url-of-my-awesome-site/pmb7994.html
+https://d-nb.info/gnd/118556673/|Jahnn, Hans Henny|http://url-of-my-awesome-site/pmb8001.html
+https://d-nb.info/gnd/118557211/|Jean Paul|http://url-of-my-awesome-site/pmb4332.html
+https://d-nb.info/gnd/118776126/|Jensen, Johannes Vilhelm|http://url-of-my-awesome-site/pmb11820.html
+https://d-nb.info/gnd/117115517/|Jerome, Jerome Klapka|http://url-of-my-awesome-site/pmb2697.html
+https://d-nb.info/gnd/118558501/|Joyce, James|http://url-of-my-awesome-site/pmb8049.html
+https://d-nb.info/gnd/118985418/|Jókai, Maurus|http://url-of-my-awesome-site/pmb18956.html
+https://d-nb.info/gnd/118559427/|Kaiser, Georg|http://url-of-my-awesome-site/pmb8085.html
+https://d-nb.info/gnd/116036133/|Kamnitzer, Ernst|http://url-of-my-awesome-site/pmb11863.html
+https://d-nb.info/gnd/117302996/|Karlweis, Carl|http://url-of-my-awesome-site/pmb13082.html
+https://d-nb.info/gnd/116060433/|Karpeles, Gustav|http://url-of-my-awesome-site/pmb8115.html
+https://d-nb.info/gnd/11856109X/|Keller, Gottfried|http://url-of-my-awesome-site/pmb8165.html
+https://d-nb.info/gnd/116119586/|Keller, Otto|http://url-of-my-awesome-site/pmb8168.html
+https://d-nb.info/gnd/118995359/|Keller, Paul|http://url-of-my-awesome-site/pmb8171.html
+https://d-nb.info/gnd/118561162/|Kellermann, Bernhard|http://url-of-my-awesome-site/pmb11900.html
+https://d-nb.info/gnd/126185808/|Kerausch, Josef|http://url-of-my-awesome-site/pmb8175.html
+https://d-nb.info/gnd/11856157X/|Kerr, Alfred|http://url-of-my-awesome-site/pmb11910.html
+https://d-nb.info/gnd/116142618/|Kerst, Friedrich|http://url-of-my-awesome-site/pmb8188.html
+https://d-nb.info/gnd/116017899/|Kesser, Hermann|http://url-of-my-awesome-site/pmb11913.html
+https://d-nb.info/gnd/11893449X/|Key, Ellen|http://url-of-my-awesome-site/pmb11919.html
+https://d-nb.info/gnd/118561812/|Keyserling, Eduard von|http://url-of-my-awesome-site/pmb3797.html
+https://d-nb.info/gnd/116024283/|Keßler, Helene|http://url-of-my-awesome-site/pmb19296.html
+https://d-nb.info/gnd/11864159X/|Khevenhüller-Metsch, Johann Joseph von|http://url-of-my-awesome-site/pmb19300.html
+https://d-nb.info/gnd/118561960/|Kielland, Alexander Lange|http://url-of-my-awesome-site/pmb19308.html
+https://d-nb.info/gnd/118562002/|Kierkegaard, Søren Aabye|http://url-of-my-awesome-site/pmb19317.html
+https://d-nb.info/gnd/118562290/|Kipling, Rudyard|http://url-of-my-awesome-site/pmb8204.html
+https://d-nb.info/gnd/1055478957/|Kistemaekers, Henry|http://url-of-my-awesome-site/pmb19365.html
+https://d-nb.info/gnd/118563076/|Kleist, Heinrich von|http://url-of-my-awesome-site/pmb11933.html
+https://d-nb.info/gnd/116230142/|Klinger, Friedrich Maximilian von|http://url-of-my-awesome-site/pmb19441.html
+https://d-nb.info/gnd/118563343/|Klöden, Karl Friedrich von|http://url-of-my-awesome-site/pmb19448.html
+https://d-nb.info/gnd/116273143/|Koch, Max|http://url-of-my-awesome-site/pmb11952.html
+https://d-nb.info/gnd/118564064/|Koch, Robert|http://url-of-my-awesome-site/pmb8266.html
+https://d-nb.info/gnd/118713698/|Kolb, Annette|http://url-of-my-awesome-site/pmb4351.html
+https://d-nb.info/gnd/1047032988/|Kolloden, M.|http://url-of-my-awesome-site/pmb19536.html
+https://d-nb.info/gnd/118565494/|Kornfeld, Paul|http://url-of-my-awesome-site/pmb38617.html
+https://d-nb.info/gnd/118565796/|Kotzebue, August von|http://url-of-my-awesome-site/pmb8316.html
+https://d-nb.info/gnd/116518960/|Krell, Max|http://url-of-my-awesome-site/pmb11995.html
+https://d-nb.info/gnd/1057767182/|Kroepelin, Herman|http://url-of-my-awesome-site/pmb8351.html
+https://d-nb.info/gnd/118943774/|Kuh, Emil|http://url-of-my-awesome-site/pmb8366.html
+https://d-nb.info/gnd/118778242/|Kuprin, Alexander I.|http://url-of-my-awesome-site/pmb19872.html
+https://d-nb.info/gnd/118778277/|Kurz, Hermann|http://url-of-my-awesome-site/pmb8378.html
+https://d-nb.info/gnd/118723073/|Kussmaul, Adolf|http://url-of-my-awesome-site/pmb12007.html
+https://d-nb.info/gnd/116634472/|Kyser, Hans|http://url-of-my-awesome-site/pmb8386.html
+https://d-nb.info/gnd/116297271/|Körner, Josef|http://url-of-my-awesome-site/pmb8396.html
+https://d-nb.info/gnd/116588659/|Kühn, Paul|http://url-of-my-awesome-site/pmb8410.html
+https://d-nb.info/gnd/118567764/|Kürnberger, Ferdinand|http://url-of-my-awesome-site/pmb19980.html
+https://d-nb.info/gnd/118726005/|Lagerlöf, Selma|http://url-of-my-awesome-site/pmb8422.html
+https://d-nb.info/gnd/118726056/|Lamartine, Alphonse de|http://url-of-my-awesome-site/pmb8436.html
+https://d-nb.info/gnd/118569074/|Landauer, Gustav|http://url-of-my-awesome-site/pmb12031.html
+https://d-nb.info/gnd/11872911X/|Landesmann, Heinrich|http://url-of-my-awesome-site/pmb20063.html
+https://d-nb.info/gnd/118569910/|Lassalle, Ferdinand|http://url-of-my-awesome-site/pmb3471.html
+https://d-nb.info/gnd/118570080/|Laube, Heinrich|http://url-of-my-awesome-site/pmb2702.html
+https://d-nb.info/gnd/126703019/|Lavedan, Henri Léon|http://url-of-my-awesome-site/pmb2488.html
+https://d-nb.info/gnd/118570366/|Lawrence, Thomas Edward|http://url-of-my-awesome-site/pmb20184.html
+https://d-nb.info/gnd/119429500/|Leisching, Julius|http://url-of-my-awesome-site/pmb8559.html
+https://d-nb.info/gnd/118571656/|Lenz, Jakob Michael Reinhold|http://url-of-my-awesome-site/pmb20301.html
+https://d-nb.info/gnd/118572032/|Lesage, Alain René|http://url-of-my-awesome-site/pmb20342.html
+https://d-nb.info/gnd/118572121/|Lessing, Gotthold Ephraim|http://url-of-my-awesome-site/pmb12053.html
+https://d-nb.info/gnd/116979941/|Leyst, Charles|http://url-of-my-awesome-site/pmb20381.html
+https://d-nb.info/gnd/118572628/|Lichtenberg, Georg Christoph|http://url-of-my-awesome-site/pmb12064.html
+https://d-nb.info/gnd/118779907/|Lie, Jonas|http://url-of-my-awesome-site/pmb5883.html
+https://d-nb.info/gnd/11877994X/|Lienhard, Friedrich|http://url-of-my-awesome-site/pmb8632.html
+https://d-nb.info/gnd/118572903/|Ligne, Charles Joseph von|http://url-of-my-awesome-site/pmb8642.html
+https://d-nb.info/gnd/118572954/|Liliencron, Detlev von|http://url-of-my-awesome-site/pmb12071.html
+https://d-nb.info/gnd/118780034/|Lindau, Paul|http://url-of-my-awesome-site/pmb12078.html
+https://d-nb.info/gnd/117014613/|Lindau, Rudolf|http://url-of-my-awesome-site/pmb8657.html
+https://d-nb.info/gnd/118574183/|London, Jack|http://url-of-my-awesome-site/pmb8699.html
+https://d-nb.info/gnd/118936034/|Loos, Anita|http://url-of-my-awesome-site/pmb20591.html
+https://d-nb.info/gnd/118574523/|Lothar, Ernst|http://url-of-my-awesome-site/pmb21710.html
+https://d-nb.info/gnd/119545063/|Lothar, Rudolf|http://url-of-my-awesome-site/pmb2570.html
+https://d-nb.info/gnd/118780522/|Loti, Pierre|http://url-of-my-awesome-site/pmb12114.html
+https://d-nb.info/gnd/118780557/|Louÿs, Pierre Louis|http://url-of-my-awesome-site/pmb8719.html
+https://d-nb.info/gnd/117261521/|Lucka, Emil|http://url-of-my-awesome-site/pmb8729.html
+https://d-nb.info/gnd/118780778/|Ludwig, Emil|http://url-of-my-awesome-site/pmb12126.html
+https://d-nb.info/gnd/118574973/|Ludwig, Otto|http://url-of-my-awesome-site/pmb12129.html
+https://d-nb.info/gnd/118575228/|Lukian von Samosata|http://url-of-my-awesome-site/pmb20643.html
+https://d-nb.info/gnd/118575767/|Mach, Ernst|http://url-of-my-awesome-site/pmb12147.html
+https://d-nb.info/gnd/118575856/|Mackay, John Henry|http://url-of-my-awesome-site/pmb12152.html
+https://d-nb.info/gnd/118919431/|Madelung, Aage|http://url-of-my-awesome-site/pmb4354.html
+https://d-nb.info/gnd/118576089/|Maeterlinck, Maurice|http://url-of-my-awesome-site/pmb12156.html
+https://d-nb.info/gnd/116724919/|Mamroth, Fedor|http://url-of-my-awesome-site/pmb4986.html
+https://d-nb.info/gnd/118577131/|Mann, Heinrich|http://url-of-my-awesome-site/pmb12170.html
+https://d-nb.info/gnd/118577166/|Mann, Thomas|http://url-of-my-awesome-site/pmb12176.html
+https://d-nb.info/gnd/119159686/|Marbot, Marcellin|http://url-of-my-awesome-site/pmb3445.html
+https://d-nb.info/gnd/118992996/|Marholm, Laura|http://url-of-my-awesome-site/pmb12183.html
+https://d-nb.info/gnd/118577972/|Marivaux, Pierre Carlet de|http://url-of-my-awesome-site/pmb12187.html
+https://d-nb.info/gnd/118624822/|Mark Twain|http://url-of-my-awesome-site/pmb26252.html
+https://d-nb.info/gnd/173258670/|Marni, Jeanne|http://url-of-my-awesome-site/pmb5459.html
+https://d-nb.info/gnd/118578103/|Marriot, Emil|http://url-of-my-awesome-site/pmb4223.html
+https://d-nb.info/gnd/116800992/|Martens, Kurt|http://url-of-my-awesome-site/pmb8833.html
+https://d-nb.info/gnd/118579207/|Maupassant, Guy de|http://url-of-my-awesome-site/pmb12201.html
+https://d-nb.info/gnd/118579304/|Mauthner, Fritz|http://url-of-my-awesome-site/pmb3386.html
+https://d-nb.info/gnd/119017660/|Meisel-Hess, Grete|http://url-of-my-awesome-site/pmb8892.html
+https://d-nb.info/gnd/118580566/|Mell, Max|http://url-of-my-awesome-site/pmb12225.html
+https://d-nb.info/gnd/118580604/|Melville, Herman|http://url-of-my-awesome-site/pmb8897.html
+https://d-nb.info/gnd/118783203/|Mendès, Catulle|http://url-of-my-awesome-site/pmb21317.html
+https://d-nb.info/gnd/118581058/|Meredith, George|http://url-of-my-awesome-site/pmb21338.html
+https://d-nb.info/gnd/116914130/|Messer, Max|http://url-of-my-awesome-site/pmb2885.html
+https://d-nb.info/gnd/118581775/|Meyer, Conrad Ferdinand|http://url-of-my-awesome-site/pmb12234.html
+https://d-nb.info/gnd/118582046/|Meyrink, Gustav|http://url-of-my-awesome-site/pmb12248.html
+https://d-nb.info/gnd/11539396X/|Michaëlis, Karin|http://url-of-my-awesome-site/pmb4408.html
+https://d-nb.info/gnd/130116653/|Michaëlis, Sophus|http://url-of-my-awesome-site/pmb12251.html
+https://d-nb.info/gnd/118893297/|Michel, Robert|http://url-of-my-awesome-site/pmb12254.html
+https://d-nb.info/gnd/118582682/|Mirabeau, Honoré Gabriel de|http://url-of-my-awesome-site/pmb21497.html
+https://d-nb.info/gnd/119283158/|Mirabeau, Sibylle de|http://url-of-my-awesome-site/pmb21501.html
+https://d-nb.info/gnd/118784226/|Mirbeau, Octave|http://url-of-my-awesome-site/pmb8948.html
+https://d-nb.info/gnd/11858331X/|Molière, Jean-Baptiste|http://url-of-my-awesome-site/pmb3272.html
+https://d-nb.info/gnd/118734598/|Molnár, Ferenc|http://url-of-my-awesome-site/pmb21558.html
+https://d-nb.info/gnd/101363184/|Mosenthal, Salomon Hermann von|http://url-of-my-awesome-site/pmb12293.html
+https://d-nb.info/gnd/118785400/|Murger, Henri|http://url-of-my-awesome-site/pmb8987.html
+https://d-nb.info/gnd/118585916/|Musil, Robert|http://url-of-my-awesome-site/pmb8994.html
+https://d-nb.info/gnd/118585940/|Musset, Alfred de|http://url-of-my-awesome-site/pmb12311.html
+https://d-nb.info/gnd/1050011619/|Myller, Otto|http://url-of-my-awesome-site/pmb21686.html
+https://d-nb.info/gnd/1027523315/|Méténier, Oscar|http://url-of-my-awesome-site/pmb5125.html
+https://d-nb.info/gnd/118583107/|Mörike, Eduard|http://url-of-my-awesome-site/pmb12323.html
+https://d-nb.info/gnd/119054329/|Müller, Hans|http://url-of-my-awesome-site/pmb12327.html
+https://d-nb.info/gnd/1050480937/about/|Müller, Hugo|http://url-of-my-awesome-site/pmb21720.html
+https://d-nb.info/gnd/118585193/|Müller, Robert|http://url-of-my-awesome-site/pmb21736.html
+https://d-nb.info/gnd/117179183/|Münzer, Kurt|http://url-of-my-awesome-site/pmb21761.html
+https://d-nb.info/gnd/118586092/|Nabl, Franz|http://url-of-my-awesome-site/pmb9011.html
+https://d-nb.info/gnd/116882670/|Nansen, Peter|http://url-of-my-awesome-site/pmb2357.html
+https://d-nb.info/gnd/118738178/|Naumann, Friedrich|http://url-of-my-awesome-site/pmb9023.html
+https://d-nb.info/gnd/118587080/|Nestroy, Johann Nepomuk|http://url-of-my-awesome-site/pmb12338.html
+https://d-nb.info/gnd/118587676/|Nicolai, Georg Friedrich|http://url-of-my-awesome-site/pmb5220.html
+https://d-nb.info/gnd/118587943/|Nietzsche, Friedrich|http://url-of-my-awesome-site/pmb12358.html
+https://d-nb.info/gnd/118588583/|Nordau, Max|http://url-of-my-awesome-site/pmb12365.html
+https://d-nb.info/gnd/117069515/|Nowak, Karl Friedrich|http://url-of-my-awesome-site/pmb2790.html
+https://d-nb.info/gnd/100813283/|Ompteda, Georg von|http://url-of-my-awesome-site/pmb9146.html
+https://d-nb.info/gnd/118738844/|Otway, Thomas|http://url-of-my-awesome-site/pmb22269.html
+https://d-nb.info/gnd/118590995/|Ovidius Naso, Publius|http://url-of-my-awesome-site/pmb4079.html
+https://d-nb.info/gnd/1089162820/|Panin, Victor|http://url-of-my-awesome-site/pmb22333.html
+https://d-nb.info/gnd/116094028/|Peschkau, Emil|http://url-of-my-awesome-site/pmb4398.html
+https://d-nb.info/gnd/118593226/|Petőfi, Sándor|http://url-of-my-awesome-site/pmb22480.html
+https://d-nb.info/gnd/118791907/|Philippe, Charles-Louis|http://url-of-my-awesome-site/pmb5604.html
+https://d-nb.info/gnd/118594869/|Platen, August von|http://url-of-my-awesome-site/pmb12424.html
+https://d-nb.info/gnd/118594893/|Platon|http://url-of-my-awesome-site/pmb4336.html
+https://d-nb.info/gnd/118595237/|Plutarch|http://url-of-my-awesome-site/pmb22648.html
+https://d-nb.info/gnd/119338424/|Plüschow, Gunther|http://url-of-my-awesome-site/pmb9301.html
+https://d-nb.info/gnd/11859527X/|Poe, Edgar Allan|http://url-of-my-awesome-site/pmb12428.html
+https://d-nb.info/gnd/118595822/|Popper-Lynkeus, Josef|http://url-of-my-awesome-site/pmb2135.html
+https://d-nb.info/gnd/118792946/|Porto-Riche, Georges de|http://url-of-my-awesome-site/pmb22824.html
+https://d-nb.info/gnd/118793284/|Presber, Rudolf|http://url-of-my-awesome-site/pmb9364.html
+https://d-nb.info/gnd/118793292/|Prescott, William|http://url-of-my-awesome-site/pmb9367.html
+https://d-nb.info/gnd/115738238X/|Provins, Michel|http://url-of-my-awesome-site/pmb22901.html
+https://d-nb.info/gnd/118742108/|Przybyszewski, Stanisław|http://url-of-my-awesome-site/pmb2891.html
+https://d-nb.info/gnd/118596462/|Prévost, Antoine-François|http://url-of-my-awesome-site/pmb4112.html
+https://d-nb.info/gnd/118597442/|Raabe, Wilhelm|http://url-of-my-awesome-site/pmb9403.html
+https://d-nb.info/gnd/118787640/|Radiguet, Raymond|http://url-of-my-awesome-site/pmb22991.html
+https://d-nb.info/gnd/118597914/|Raimund, Ferdinand|http://url-of-my-awesome-site/pmb12468.html
+https://d-nb.info/gnd/116327979/|Ramshorn, Carl|http://url-of-my-awesome-site/pmb23036.html
+https://d-nb.info/gnd/115717641/|Regnier-Destourbet, Hippolyte François|http://url-of-my-awesome-site/pmb23149.html
+https://d-nb.info/gnd/127829210/|Reinmann, Ernst|http://url-of-my-awesome-site/pmb23230.html
+https://d-nb.info/gnd/118744496/|Renan, Ernest|http://url-of-my-awesome-site/pmb9484.html
+https://d-nb.info/gnd/118788345/|Renard, Jules|http://url-of-my-awesome-site/pmb4460.html
+https://d-nb.info/gnd/118599887/|Retz, Jean François Paul de|http://url-of-my-awesome-site/pmb9500.html
+https://d-nb.info/gnd/118744712/|Reuter, Gabriele|http://url-of-my-awesome-site/pmb12514.html
+https://d-nb.info/gnd/116499745/|Rheinhardt, Emil Alphons|http://url-of-my-awesome-site/pmb12518.html
+https://d-nb.info/gnd/118601024/|Rilke, Rainer Maria|http://url-of-my-awesome-site/pmb9531.html
+https://d-nb.info/gnd/118745492/|Rittner, Thaddäus|http://url-of-my-awesome-site/pmb23452.html
+https://d-nb.info/gnd/11874562X/|Roda Roda, Alexander|http://url-of-my-awesome-site/pmb9546.html
+https://d-nb.info/gnd/118602330/|Rolland, Romain|http://url-of-my-awesome-site/pmb12543.html
+https://d-nb.info/gnd/11860239X/|Romains, Jules|http://url-of-my-awesome-site/pmb9562.html
+https://d-nb.info/gnd/118602667/|Rosegger, Peter|http://url-of-my-awesome-site/pmb12551.html
+https://d-nb.info/gnd/10732220X/|Rosen, Erwin|http://url-of-my-awesome-site/pmb9574.html
+https://d-nb.info/gnd/116621672/|Rosenbaum, Kory Elisabeth|http://url-of-my-awesome-site/pmb23560.html
+https://d-nb.info/gnd/118602721/|Rosenkranz, Karl|http://url-of-my-awesome-site/pmb9577.html
+https://d-nb.info/gnd/102215065/|Rothschild, Henri de|http://url-of-my-awesome-site/pmb9596.html
+https://d-nb.info/gnd/118603426/|Rousseau, Jean-Jacques|http://url-of-my-awesome-site/pmb12582.html
+https://d-nb.info/gnd/11859902X/|Régnier, Henri de|http://url-of-my-awesome-site/pmb12591.html
+https://d-nb.info/gnd/11864193X/|Rétif de la Bretonne, Nicolas|http://url-of-my-awesome-site/pmb3978.html
+https://d-nb.info/gnd/116595663/|Rössler, Carl|http://url-of-my-awesome-site/pmb4858.html
+https://d-nb.info/gnd/118604449/|Saar, Ferdinand von|http://url-of-my-awesome-site/pmb12602.html
+https://d-nb.info/gnd/118605348/|Sand, George|http://url-of-my-awesome-site/pmb9643.html
+https://d-nb.info/gnd/118794566/|Sardou, Victorien|http://url-of-my-awesome-site/pmb12624.html
+https://d-nb.info/gnd/117103292/|Schamann, Franz|http://url-of-my-awesome-site/pmb24052.html
+https://d-nb.info/gnd/1055095764/|Scheffer, Robert|http://url-of-my-awesome-site/pmb24079.html
+https://d-nb.info/gnd/117211354/|Schendell, Werner|http://url-of-my-awesome-site/pmb24085.html
+https://d-nb.info/gnd/118794957/|Scherr, Johannes|http://url-of-my-awesome-site/pmb9684.html
+https://d-nb.info/gnd/11860743X/|Schickele, René|http://url-of-my-awesome-site/pmb12640.html
+https://d-nb.info/gnd/118607626/|Schiller, Friedrich von|http://url-of-my-awesome-site/pmb12654.html
+https://d-nb.info/gnd/117538884/|Schmidt, Lothar|http://url-of-my-awesome-site/pmb12681.html
+https://d-nb.info/gnd/118609475/|Schnabel, Johann Gottfried|http://url-of-my-awesome-site/pmb24353.html
+https://d-nb.info/gnd/116848162/|Schnitzer, Manuel|http://url-of-my-awesome-site/pmb24407.html
+https://d-nb.info/gnd/118610465/|Schopenhauer, Arthur|http://url-of-my-awesome-site/pmb5787.html
+https://d-nb.info/gnd/117060828/|Schreyer, Hans|http://url-of-my-awesome-site/pmb24511.html
+https://d-nb.info/gnd/119368579/|Schreyvogel, Josef|http://url-of-my-awesome-site/pmb24515.html
+https://d-nb.info/gnd/117116955/|Schubin, Ossip|http://url-of-my-awesome-site/pmb3853.html
+https://d-nb.info/gnd/117185442/|Schultz, Alwin|http://url-of-my-awesome-site/pmb24556.html
+https://d-nb.info/gnd/118611666/|Schumann, Robert|http://url-of-my-awesome-site/pmb12733.html
+https://d-nb.info/gnd/117303658/|Schumann, Wolfgang|http://url-of-my-awesome-site/pmb9786.html
+https://d-nb.info/gnd/118758926/|Schönherr, Karl|http://url-of-my-awesome-site/pmb12749.html
+https://d-nb.info/gnd/118612425/|Scribe, Eugène|http://url-of-my-awesome-site/pmb12756.html
+https://d-nb.info/gnd/118796208/|Serao, Matilde|http://url-of-my-awesome-site/pmb24844.html
+https://d-nb.info/gnd/118613723/|Shakespeare, William|http://url-of-my-awesome-site/pmb2412.html
+https://d-nb.info/gnd/118642375/|Shaw, George Bernard|http://url-of-my-awesome-site/pmb2381.html
+https://d-nb.info/gnd/11736438X/|Siegfried, Walther|http://url-of-my-awesome-site/pmb24898.html
+https://d-nb.info/gnd/117429333/|Smekal, Richard|http://url-of-my-awesome-site/pmb4012.html
+https://d-nb.info/gnd/118615688/|Sophokles|http://url-of-my-awesome-site/pmb2693.html
+https://d-nb.info/gnd/118616110/|Spengler, Oswald|http://url-of-my-awesome-site/pmb12819.html
+https://d-nb.info/gnd/107504774/|Spiegel-Peckelsheim, Edgar von|http://url-of-my-awesome-site/pmb9954.html
+https://d-nb.info/gnd/118616196/|Spielhagen, Friedrich|http://url-of-my-awesome-site/pmb9958.html
+https://d-nb.info/gnd/118616277/|Spitteler, Carl|http://url-of-my-awesome-site/pmb9964.html
+https://d-nb.info/gnd/118617133/|Stehr, Hermann|http://url-of-my-awesome-site/pmb9999.html
+https://d-nb.info/gnd/104278064/|Stein, Leo|http://url-of-my-awesome-site/pmb25372.html
+https://d-nb.info/gnd/118617648/|Stendhal|http://url-of-my-awesome-site/pmb28820.html
+https://d-nb.info/gnd/117234931/|Sterneder, Hans|http://url-of-my-awesome-site/pmb10035.html
+https://d-nb.info/gnd/118617958/|Sternheim, Carl|http://url-of-my-awesome-site/pmb12848.html
+https://d-nb.info/gnd/118618156/|Stifter, Adalbert|http://url-of-my-awesome-site/pmb12851.html
+https://d-nb.info/gnd/17238785X/|Stona, Maria|http://url-of-my-awesome-site/pmb24452.html
+https://d-nb.info/gnd/118618725/|Storm, Theodor|http://url-of-my-awesome-site/pmb10061.html
+https://d-nb.info/gnd/117309087/|Stratz, Rudolph|http://url-of-my-awesome-site/pmb25589.html
+https://d-nb.info/gnd/118619055/|Strauss, David Friedrich|http://url-of-my-awesome-site/pmb10087.html
+https://d-nb.info/gnd/118755846/|Strauss, Emil|http://url-of-my-awesome-site/pmb12864.html
+https://d-nb.info/gnd/118619314/|Strindberg, August|http://url-of-my-awesome-site/pmb12877.html
+https://d-nb.info/gnd/11861956X/|Stucken, Eduard|http://url-of-my-awesome-site/pmb12886.html
+https://d-nb.info/gnd/118619853/|Sudermann, Hermann|http://url-of-my-awesome-site/pmb12899.html
+https://d-nb.info/gnd/118619861/|Sue, Eugène|http://url-of-my-awesome-site/pmb10134.html
+https://d-nb.info/gnd/118619918/|Sueton|http://url-of-my-awesome-site/pmb25732.html
+https://d-nb.info/gnd/118620126/|Suttner, Bertha von|http://url-of-my-awesome-site/pmb12906.html
+https://d-nb.info/gnd/118620193/|Swift, Jonathan|http://url-of-my-awesome-site/pmb10161.html
+https://d-nb.info/gnd/118620452/|Tacitus, Publius Cornelius|http://url-of-my-awesome-site/pmb38345.html
+https://d-nb.info/gnd/1058761048/|Tagger, Theodor|http://url-of-my-awesome-site/pmb10172.html
+https://d-nb.info/gnd/11862055X/|Taine, Hippolyte|http://url-of-my-awesome-site/pmb12913.html
+https://d-nb.info/gnd/119549530/|Techet, Carl Franz|http://url-of-my-awesome-site/pmb25896.html
+https://d-nb.info/gnd/117254924/|Telmann, Fritz|http://url-of-my-awesome-site/pmb12926.html
+https://d-nb.info/gnd/120941988/|Terramare, Georg|http://url-of-my-awesome-site/pmb4035.html
+https://d-nb.info/gnd/117296023/|Teweles, Heinrich|http://url-of-my-awesome-site/pmb12932.html
+https://d-nb.info/gnd/118621483/|Thackeray, William Makepeace|http://url-of-my-awesome-site/pmb25962.html
+https://d-nb.info/gnd/1042002495/|Thies, Heinz|http://url-of-my-awesome-site/pmb26000.html
+https://d-nb.info/gnd/118622072/|Thoma, Ludwig|http://url-of-my-awesome-site/pmb10210.html
+https://d-nb.info/gnd/119297191/|Thürheim, Ludovica von|http://url-of-my-awesome-site/pmb26054.html
+https://d-nb.info/gnd/118802259/|Tillier, Claude|http://url-of-my-awesome-site/pmb2717.html
+https://d-nb.info/gnd/124109918/|Tinayre, Marcelle|http://url-of-my-awesome-site/pmb26069.html
+https://d-nb.info/gnd/11864291X/|Tolstoi, Leo N. von|http://url-of-my-awesome-site/pmb3739.html
+https://d-nb.info/gnd/127610944/|Torresani-Lanzenfeld, Carl von|http://url-of-my-awesome-site/pmb26121.html
+https://d-nb.info/gnd/117421243/|Tovote, Heinz|http://url-of-my-awesome-site/pmb12965.html
+https://d-nb.info/gnd/118643010/|Turgenev, Ivan Sergeevič|http://url-of-my-awesome-site/pmb26238.html
+https://d-nb.info/gnd/118625527/|Unruh, Fritz von|http://url-of-my-awesome-site/pmb12993.html
+https://d-nb.info/gnd/117345679/|Vandérem, Fernand|http://url-of-my-awesome-site/pmb26399.html
+https://d-nb.info/gnd/107627884/|Vautel, Clément|http://url-of-my-awesome-site/pmb26419.html
+https://d-nb.info/gnd/119074923/|Vaërting, Maria Johanna|http://url-of-my-awesome-site/pmb26420.html
+https://d-nb.info/gnd/121502244/|Veber, Pierre|http://url-of-my-awesome-site/pmb26421.html
+https://d-nb.info/gnd/118626353/|Vega Carpio, Lope Felix de|http://url-of-my-awesome-site/pmb10332.html
+https://d-nb.info/gnd/117371173/|Vereščagin, Vasilij Vasil’evič|http://url-of-my-awesome-site/pmb26950.html
+https://d-nb.info/gnd/118626574/|Vergil, Publius|http://url-of-my-awesome-site/pmb5849.html
+https://d-nb.info/gnd/118626620/|Verne, Jules|http://url-of-my-awesome-site/pmb10344.html
+https://d-nb.info/gnd/118804448/|Viebig, Clara|http://url-of-my-awesome-site/pmb10360.html
+https://d-nb.info/gnd/118768441/|Vigny, Alfred-Victor de|http://url-of-my-awesome-site/pmb26468.html
+https://d-nb.info/gnd/119240386/|Vildrac, Charles|http://url-of-my-awesome-site/pmb10367.html
+https://d-nb.info/gnd/118627813/|Voltaire, François-Marie|http://url-of-my-awesome-site/pmb3124.html
+https://d-nb.info/gnd/117450944/|Voss, Richard|http://url-of-my-awesome-site/pmb13017.html
+https://d-nb.info/gnd/11674748X/|W. Fred|http://url-of-my-awesome-site/pmb2226.html
+https://d-nb.info/gnd/11877090X/|Waldau, Max|http://url-of-my-awesome-site/pmb10417.html
+https://d-nb.info/gnd/115359885/|Wasielewski, Wilhelm Joseph von|http://url-of-my-awesome-site/pmb10442.html
+https://d-nb.info/gnd/118629387/|Wassermann, Jakob|http://url-of-my-awesome-site/pmb13055.html
+https://d-nb.info/gnd/118629867/|Wedekind, Frank|http://url-of-my-awesome-site/pmb13068.html
+https://d-nb.info/gnd/118630458/|Weiss, Ernst|http://url-of-my-awesome-site/pmb10478.html
+https://d-nb.info/gnd/118643266/|Wells, H. G.|http://url-of-my-awesome-site/pmb5815.html
+https://d-nb.info/gnd/11728484X/|Wenden, Henry|http://url-of-my-awesome-site/pmb26935.html
+https://d-nb.info/gnd/126283451/|Wengraf, Richard|http://url-of-my-awesome-site/pmb26944.html
+https://d-nb.info/gnd/118631373/|Werfel, Franz|http://url-of-my-awesome-site/pmb13094.html
+https://d-nb.info/gnd/117306355/|Wertheimer, Paul|http://url-of-my-awesome-site/pmb2888.html
+https://d-nb.info/gnd/118807250/|Wilbrandt, Adolf von|http://url-of-my-awesome-site/pmb5208.html
+https://d-nb.info/gnd/118632779/|Wilde, Oscar|http://url-of-my-awesome-site/pmb13115.html
+https://d-nb.info/gnd/118771760/|Wildenbruch, Ernst von|http://url-of-my-awesome-site/pmb13118.html
+https://d-nb.info/gnd/118632841/|Wildgans, Anton|http://url-of-my-awesome-site/pmb13122.html
+https://d-nb.info/gnd/116259604/|Wilhelm, Paul|http://url-of-my-awesome-site/pmb27150.html
+https://d-nb.info/gnd/1026263549/|Winter, Josef von|http://url-of-my-awesome-site/pmb13129.html
+https://d-nb.info/gnd/117411973/|Wirth, Albrecht|http://url-of-my-awesome-site/pmb10564.html
+https://d-nb.info/gnd/118769553/|Wit, Ferdinand Johannes|http://url-of-my-awesome-site/pmb27245.html
+https://d-nb.info/gnd/119429764/|Wittels, Fritz|http://url-of-my-awesome-site/pmb10574.html
+https://d-nb.info/gnd/104298170/|Wolff, Ludwig|http://url-of-my-awesome-site/pmb13159.html
+https://d-nb.info/gnd/11889028X/|Wolzogen, Ernst von|http://url-of-my-awesome-site/pmb13169.html
+https://d-nb.info/gnd/1026235553/|Xanrof, Léon|http://url-of-my-awesome-site/pmb27405.html
+https://d-nb.info/gnd/118996282/|Zahn, Ernst|http://url-of-my-awesome-site/pmb10639.html
+https://d-nb.info/gnd/11880829X/|Zapolska, Gabryela|http://url-of-my-awesome-site/pmb27428.html
+https://d-nb.info/gnd/118772899/|Zifferer, Paul|http://url-of-my-awesome-site/pmb5156.html
+https://d-nb.info/gnd/118773100/|Zoff, Otto|http://url-of-my-awesome-site/pmb13191.html
+https://d-nb.info/gnd/118637223/|Zola, Émile|http://url-of-my-awesome-site/pmb13194.html
+https://d-nb.info/gnd/118637452/|Zweig, Arnold|http://url-of-my-awesome-site/pmb13208.html
+https://d-nb.info/gnd/118637479/|Zweig, Stefan|http://url-of-my-awesome-site/pmb13212.html
+https://d-nb.info/gnd/118668250/|Čapek, Karel|http://url-of-my-awesome-site/pmb13216.html
+https://d-nb.info/gnd/118638289/|Čechov, Anton Pavlovič|http://url-of-my-awesome-site/pmb3603.html
+https://d-nb.info/gnd/118666150/|Černyševskij, Nikolaj Gavrilovič|http://url-of-my-awesome-site/pmb26220.html
