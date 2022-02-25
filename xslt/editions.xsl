@@ -10,10 +10,10 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/osd-container.xsl"/>
-    <xsl:import href="./partials/tei-facsimile.xsl"/>
+    <!--<xsl:import href="./partials/tei-facsimile.xsl"/>-->
     <xsl:import href="./partials/person.xsl"/>
-    <xsl:import href="./partials/place.xsl"/>
-    <xsl:import href="./partials/org.xsl"/>
+   <!-- <xsl:import href="./partials/place.xsl"/>
+    <xsl:import href="./partials/org.xsl"/>-->
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"
         />

@@ -147,7 +147,7 @@
             </xsl:for-each>
             <xsl:element name="a">
                 <xsl:attribute name="href">
-                    <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person', ./@xml:id , '/detail')"/>
+                    <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', ./@xml:id , '/detail')"/>
                 </xsl:attribute>
                 <xsl:attribute name="target">
                     <xsl:text>_blank</xsl:text>
