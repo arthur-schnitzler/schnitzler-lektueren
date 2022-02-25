@@ -218,5 +218,11 @@
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
       
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
+      
+      <acdh:hasActor>
+         <acdh:Person rdf:about="https://d-nb.info/gnd/4076310-9/https://d-nb.info/gnd/116008040/">
+            <acdh:hasTitle xml:lang="und">Friedrich Adler</acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+   </acdh:Resource>
 </rdf:RDF>
