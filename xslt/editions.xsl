@@ -410,6 +410,7 @@
                 <xsl:text> Jugend in Wien</xsl:text>
             </xsl:when>
             <xsl:otherwise>
+                <xsl:text> </xsl:text>
                 <xsl:value-of select="$typityp"/>
             </xsl:otherwise>
         </xsl:choose>

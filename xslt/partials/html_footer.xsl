@@ -26,12 +26,12 @@
                                 <br/>
                                 Austrian Centre for Digital Humanities and Cultural Heritage
                                 <br/>
-                                Austrian Academy of Sciences
+                                Österreichische Akademie der Wissenschaften
                             </p>
                             <p>
                                 Sonnenfelsgasse 19
                                 <br/>
-                                1010 Vienna
+                                1010 Wien
                             </p>
                             <p>
                                 T: +43 1 51581-2200
@@ -41,25 +41,14 @@
                         </div>
                     </div>
                     <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
-                        <h6 class="font-weight-bold">PROJECT PARTNERS</h6>
+                        <h6 class="font-weight-bold">PROJEKTPARTNER</h6>
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
+                                        <a href="http://portal.uni-freiburg.de/ndl/personen/achimaurnhammer/schnitzlerarchiv.html/startseite" target="_blank">Arthur Schnitzler Archiv</a>
                                     </div>
                                 </div>  
-                               <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
-                                    </div>
-                                </div>                             
                             </div>
                         </div>
                     </div>
@@ -68,16 +57,16 @@
                         <div class="row">
                             <div class="textwidget custom-html-widget">
                                 <h6 class="font-weight-bold">HELPDESK</h6>
-                                <p>ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities topics.</p>
+                                <p>ACDH-CH betreibt einen Helpdesk für Fragen und Ratschläge zu verschiedenen Themen der Digitalen Geisteswissenschaften.</p>
                                 <p>
-                                    <a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a>
+                                    <a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">FRAG UNS!</a>
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto" style="margin-left:0 !important;">
                                 <div class="textwidget custom-html-widget">
-                                    <p style="margin-bottom:0 !important;">Social: </p>                                    
+                                    <p style="margin-bottom:0 !important;">Sozial: </p>                                    
                                 </div>
                                 <div class="row">                              
                                     <div class="textwidget custom-html-widget col-md-4">                                    
@@ -95,7 +84,7 @@
         </div>
         <!-- #wrapper-footer-full -->
         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;" >
-            <a href="imprint.html">Impressum/Imprint</a>
+            <a href="imprint.html">Impressum</a>
         </div>
         <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script>

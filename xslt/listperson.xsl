@@ -45,10 +45,10 @@
                                             </xsl:variable>
                                             <tr>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:surname/text()"/>
+                                                    <xsl:value-of select="tei:persName[1]/tei:surname/text()"/>
                                                 </td>
                                                 <td>                                        
-                                                    <xsl:value-of select=".//tei:forename/text()"/>
+                                                    <xsl:value-of select="tei:persName[1]/tei:forename/text()"/>
                                                 </td>
                                                 <td>
                                                     <a>

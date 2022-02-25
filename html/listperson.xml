@@ -104,6 +104,10 @@
                      <tei:surname>Adam</tei:surname>
                      <tei:forename>Robert</tei:forename>
                   </tei:persName>
+                  <tei:persName>
+                     <tei:surname>Pollack</tei:surname>
+                     <tei:forename>Robert Adam</tei:forename>
+                  </tei:persName>
                   <tei:birth>
                      <tei:date when="1877-04-20">20. 4. 1877</tei:date>
                      <tei:placeName>

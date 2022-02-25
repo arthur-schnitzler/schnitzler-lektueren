@@ -12,7 +12,7 @@
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
                     <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url"><xsl:value-of select="$project_short_title"/></a>
-                    <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span>
+                    <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in Entstehung</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -23,7 +23,7 @@
                                 <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Über das Projekt</a>
+                                        <a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Zum Projekt</a>
                                     </li>
                                 </ul>                                
                             </li>
@@ -34,10 +34,7 @@
                                         <a title="Personen" href="listperson.html" class="nav-link">Personen</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Orte" href="listplace.html" class="nav-link">Orte</a>
-                                    </li>
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Orte" href="listorg.html" class="nav-link">Institutionen</a>
+                                        <a title="Werke" href="listwork.html" class="nav-link">Werke</a>
                                     </li>
                                     <div class="dropdown-divider"></div>
                                     <li class="nav-item dropdown-submenu">

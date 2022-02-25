@@ -90,34 +90,8 @@
                                     </div>                                     
                                 </a>                                    
                             </div>
-                            <div class="col-md-4">
-                                <a href="listplace.html" class="index-link">                                   
-                                    <div class="card index-card">
-                                        <div class="card-body">
-                                            <img src="dist/fundament/images/example-img-2.jpg" class="d-block w-100" alt="..."/>
-                                        </div>
-                                        <div class="card-header">                                            
-                                            <h3>
-                                                <i class="fas fa-map-marker-alt"></i> Ortsregister
-                                            </h3>                                            
-                                        </div>
-                                    </div>                                     
-                                </a>                                    
-                            </div>
-                            <div class="col-md-4">
-                                <a href="listorg.html" class="index-link">                                   
-                                    <div class="card index-card">
-                                        <div class="card-body">
-                                            <img src="dist/fundament/images/example-img-1.jpg" class="d-block w-100" alt="..."/>
-                                        </div>
-                                        <div class="card-header">                                            
-                                            <h3>
-                                                <i class="fas fa-university"></i>  Institutionenregister
-                                            </h3>                                            
-                                        </div>
-                                    </div>                                     
-                                </a>                                    
-                            </div>
+                            
+                            
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
