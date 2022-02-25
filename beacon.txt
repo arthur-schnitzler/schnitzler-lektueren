@@ -1,6 +1,6 @@
 #FORMAT: BEACON
 #NAME:Arthur Schnitzler: Lektüren
-https://d-nb.info/gnd/1020823992/|Adam, Robert|http://url-of-my-awesome-site/pmb12438.html
+https://d-nb.info/gnd/1020823992/|AdamPollack, RobertRobert Adam|http://url-of-my-awesome-site/pmb12438.html
 https://d-nb.info/gnd/116008040/|Adler, Friedrich|http://url-of-my-awesome-site/pmb5929.html
 https://d-nb.info/gnd/118500856/|Aischylos|http://url-of-my-awesome-site/pmb3648.html
 https://d-nb.info/gnd/118869302/|Alarcón y Ariza, Pedro Antonio de|http://url-of-my-awesome-site/pmb5944.html
