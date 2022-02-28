@@ -1,0 +1,183 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzlers Lektüren: Leseliste und virtuelle Bibliothek</title>
+            <title level="a">Weiterführende Literatur zu intertextuellen Bezügen in Schnitzlers
+               Werk</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Achim Aurnhammer</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
+                  Sciences</orgName>
+               <address>
+                  <addrLine>Sonnenfelsgasse 19</addrLine>
+                  <addrLine>1010 Vienna</addrLine>
+               </address>
+            </publisher>
+            <publisher>
+               <orgName>Ergon Verlag</orgName>
+            </publisher>
+            <pubPlace ref="https://www.geonames.org/2805615/wuerzburg.html">Würzburg</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false" status="draft">
+               <monogr>
+                  <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
+                     Bibliothek</title>
+                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <editor role="hrsg">
+                     <persName>
+                        <forename>Achim</forename>
+                        <surname>Aurnhammer</surname>
+                     </persName>
+                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs Freiburg</orgName>
+                     </affiliation>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <orgName>Ergon</orgName>
+                     </publisher>
+                     <pubPlace>
+                        <placeName>Würzburg</placeName>
+                     </pubPlace>
+                     <date when="2013">2013</date>
+                  </imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">33–37</biblScope>
+                  <extent>
+                     <measure type="pages">5</measure>
+                  </extent>
+               </monogr>
+               <series>
+                  <title level="s">Akten des Arthur Schnitzler-Archivs der Universität
+                     Freiburg</title>
+                  <editor role="hrsg">
+                     <orgName>Arthur Schnitzler-Archiv Freiburg</orgName>
+                  </editor>
+                  <biblScope unit="volume">Band 2</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <listBibl>
+               <bibl>Alexander, Theodor W.: A possible model for Schnitzlers ›Fräulein Else‹. In:
+                  Modern Austrian literature 19 (1986), S. 49–61. </bibl>
+               <bibl>Aurnhammer, Achim: »Selig, wer in Träumen stirbt«. Das literarisierte Leben und
+                  Sterben von »Fräulein Else«. In: Euphorion 77 (1983), 500–510. </bibl>
+               <bibl>Aurnhammer, Achim: Schnitzlers ›Die Nächste‹ (1899). Intertextualität und
+                  Psychologisierung des Erzählens im Jungen Wien. In: GRM 44 (1994) H.1, S.
+                  37–51.</bibl>
+               <bibl>Aurnhammer, Achim: »Lieutenant Gustl«. Protokoll eines Unverbesserlichen. In:
+                  Interpretationen. Arthur Schnitzler. Dramen und Erzählungen. Hg. von Hee-Ju Kim
+                  und Günter Saße (Hrsg.). Stuttgart 2007, S. 69–88.</bibl>
+               <bibl>Aurnhammer, Achim: Arthur Schnitzlers intertextuelles Erzählen. Berlin und
+                  Boston 2013 (linguae und litterae, 22).</bibl>
+               <bibl>Benne, Christian: ›Das weite Land‹: Schnitzlers kierkegaardsche Bilanz des
+                  Ästhetizismus. In: Modern Austrian Literature 33 (2000), S. 29–53. </bibl>
+               <bibl>Beßlich, Barbara: Intertextueller Mummenschanz. Arthur Schnitzlers
+                  Brieferzählung ›Die kleine Komödie‹ (1895). In: Wirkendes Wort 53 (2003), S.
+                  223–240. </bibl>
+               <bibl>Derré, Françoise: Schnitzler und Frankreich. In: Modern Austrian Literature 19
+                  (1986), S. 27–48. </bibl>
+               <bibl>Donovan, Siobhán / Herzmann, Herbert: Schöpferische Rezeption: deutsche Klassik
+                  im Drama der Wiener Jahrhundertwende am Beispiel Arthur Schnitzlers. In: Renate
+                  Koroschetz de Maragno (Hg.): Brückenschlag. Caracas 2002, S. 212–222. </bibl>
+               <bibl>Duhamel, Roland: Die philosophischen Grundlagen der österreichischen Literatur
+                  um die Jahrhundertwende: anhand von drei Beispielen. In: Triangulum 7 (2000), S.
+                  125–136. </bibl>
+               <bibl>Eilert, Heide: Abschied von Kythera?: zu Arthur Schnitzlers ›Komödie der Ver
+                  führung‹ und der Rokoko-Rezeption des Fin de siècle. In: Sprachkunst 22 (1991), S.
+                  215–229. </bibl>
+               <bibl>Fitzon, Thorsten: Schwellenjahre – Zeitreflexion im Alternsnarrativ. Arthur
+                  Schnitzlers Erzählung Frau Beate und ihr Sohn. In: Alterszäsuren. Hg. von Th.
+                  Fitzon u.a. Berlin und Boston 2011, S. 405–432. </bibl>
+               <bibl>Fliedl, Konstanze: Künstliche Konkurrenzen: Schnitzler und Schönherr. In: Arno
+                  Dusini / Karl Wagner (Hg.): Metropole und Provinz in der österreichischen
+                  Literatur des 19. und 20. Jahrhunderts. Wien 1994, S. 115–127. </bibl>
+               <bibl>Geißler, Rolf: Experiment and Erkenntnis: Überlegungen zum
+                  geistesgeschichtlichen Ort des Schnitzlerschen Erzählens. In: Modern Austrian
+                  Literature 19 (1986), S. 49–62. </bibl>
+               <bibl>Gross, Gabrielle: Der Neid der Mutter auf die Tochter: ein weibliches
+                  Konfliktfeld bei Fontane, Schnitzler, Keyserling und Thomas Mann. Bern u.a. 2002. </bibl>
+               <bibl>Günther, Klaus: »Es ist wirklich, wie wenn die Leute wahnsinnig wären.«
+                  Bemerkungen zu Arthur Schnitzler und Ernst Mach. In: Hartmut Scheible (Hg.):
+                  Arthur Schnitzler in neuer Sicht. München 1981, S. 99–116. </bibl>
+               <bibl>Hinterhäuser, Hans: Arthur Schnitzler und die Romania. In: Literatur und Kritik
+                  161/162 (1982), S. 62–72. </bibl>
+               <bibl>Knoben-Wauben, Marianne: Ambivalente Konstruktionen der Weiblichkeit: das Bild
+                  der Frau aus der Sicht des Wissenschaftlers Sigmund Freud und des Dichters Arthur
+                  Schnitzler. In: Guillaume van Gemert / Hans Ester (Hg.): Grenzgänge. Amsterdam u.
+                  a. 1990, S. 279–296. </bibl>
+               <bibl>Kronberger, Silvia: Die unerhörten Töchter: ›Fräulein Else‹ und ›Elektra‹ und
+                  die gesellschaftliche Funktion der Hysterie. Innsbruck u. a. 2002. </bibl>
+               <bibl>Kucher, Primus-Heinz: „… ein charakteristisches Werk der Epoche. Talent
+                  unverkennbar; – aber viel Confusion …“. Der Autor als Leser, der Autor im
+                  Literatursystem seiner Zeit: Arthur Schnitzlers Tagebuchkommentare zu Lektüren und
+                  zum literarischen Leben der 1920er Jahre. In: Jahrbuch der Grillparzer
+                  Gesellschaft III 24 (2011/12), S. 67–96. </bibl>
+               <bibl>Lange-Kirchheim, Astrid: Die Hysterikerin und ihr Autor: Arthur Schnitzlers
+                  Novelle ›Fräulein Else‹ im Kontext von Freuds Schriften zur Hysterie. In: Thomas
+                  Anz (Hg.): Psychoanalyse in der modernen Literatur. Würzburg 1999, S. 111–134. </bibl>
+               <bibl>Mayer, Mathias: Midas statt Pygmalion. Die Tödlichkeit der Kunst bei Goethe,
+                  Schnitzler, Hofmannsthal und Georg Kaiser. In: Deutsche Vierteljahrsschrift für
+                  Literaturwissenschaft und Geistesgeschichte 64 (1990), S. 278–310. </bibl>
+               <bibl>Ozawa, Yukio: Japanisches bei Arthur Schnitzler: japanische Einflüsse auf
+                  Schnitzler und die Rezeption Schnitzlers in Japan. Frankfurt/M. u. a. 1995. </bibl>
+               <bibl>Reid, M. D. H.: ›Andreas Thameyers letzter Brief‹ und ›Der letzte Brief des
+                  Literaten‹: Two neglected short-stories. In: The German Quarterly 45 (1972) H. 3,
+                  S. 443–460. </bibl>
+               <bibl>Rella, Franco: Freud und Schnitzler. Der Spiegel der Analyse. In: Hartmut
+                  Scheible: Arthur Schnitzler in neuer Sicht. München 1981, S. 200–206. </bibl>
+               <bibl>Sautermeister, Gert: Glanz und Elend eines Mythos: Zur Ästhetik und
+                  Intertextualität von Arthur Schnitzlers ›Casanovas Heimfahrt‹. In: Cahiers
+                  d’Études Germaniques 50 (2006), S. 145–174. </bibl>
+               <bibl>Schader, Brigitte: Schwindsucht: zur Darstellung einer tödlichen Krankheit in
+                  der deutschen Literatur vom poetischen Realismus bis zur Moderne. Frankfurt/M.
+                  u.a. 1987. </bibl>
+               <bibl>Scheible, Hartmut: Arthur Schnitzler in neuer Sicht. München 1981. </bibl>
+               <bibl>Schneider, Gerd K.: Images of Austria and the Viennese in Arthur Schnitzler’s
+                  ›Reigen‹ [›La ronde‹]: New York 1920–2000. In: Wolfgang Görtschacher / Holger
+                  Klein (Hg.): Austria and Austrians. Tübingen 2003, S. 271–280. </bibl>
+               <bibl>Stierhof-May, Freia: Untersuchungen zur Funktion literarischer Motive bei
+                  Arthur Schnitzler im Kontext der Philosophie Friedrich Nietzsches. Berlin 2004. </bibl>
+               <bibl>Surowska, Barbara: Flaubertsche Motive in Schnitzlers Novelle ›Die Toten
+                  schweigen‹. In: Orbis Litterarum 40 (1985), S. 373–379. </bibl>
+               <bibl>Thomé, Horst: Arthur Schnitzlers Tagebuch: Thesen und Forschungsperspektiven.
+                  In: Internationales Archiv für Sozialgeschichte der Deutschen Literatur 18 (1993),
+                  S. 176–193 </bibl>
+               <bibl>Tumanov, Vladimir: Mind reading: unframed direct interior monologue in European
+                  fiction. Amsterdam u. a. 1997. </bibl>
+               <bibl>Wassilijewa, A. W.: Schnitzlers Drama im Kontext des »neuen Dramas« der
+                  Jahrhundertwende. In: Herbert Arlt / Alexandr W. Belobratow (Hg.): Interkulturelle
+                  Erforschung der österreichischen Literatur. St. Ingbert 2000, S. 178–182. </bibl>
+               <bibl>Weiner, Marc A.: ›Die Zauberflöte‹ and the rejection of historicism in
+                  Schnitzlers ›Traumnovelle‹. In: Modern Austrian Literature 22 (1989), S. 33–49. </bibl>
+               <bibl>Weiner, Marc A.: Parody and repression: Schnitzlers response to Wagnerism. In: Modern Austrian Literature 19 (1986), S. 129–148.</bibl>
+               <bibl>Žerebin, Aleksej: Die Wiener Moderne und die russische Literatur. Wien 2013.
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
