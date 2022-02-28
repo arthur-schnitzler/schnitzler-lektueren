@@ -154,4 +154,14 @@
         <lb/>
     </xsl:template>
     
+    <xsl:template match="tei:body//tei:listBibl">
+        <ul class="dashed">
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:body//tei:listBibl/tei:bibl">
+        <li>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
 </xsl:stylesheet>

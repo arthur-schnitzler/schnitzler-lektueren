@@ -27,6 +27,8 @@
                                         <a title="Schnitzler-Lektueren" href="about.html" class="nav-link">Zum Projekt</a>
                                         <a title="Schnitzler-Lektueren" href="vorwort.html" class="nav-link">Vorwort</a>
                                         <a title="Schnitzler-Lektueren" href="einleitung.html" class="nav-link">Einleitung</a>
+                                        <a title="Schnitzler-Lektueren" href="edition.html" class="nav-link">Zur Edition</a>
+                                        <a title="Schnitzler-Lektueren" href="literatur.html" class="nav-link">Literatur</a>
                                     </li>
                                 </ul>                                
                             </li>
