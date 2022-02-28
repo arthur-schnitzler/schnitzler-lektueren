@@ -237,3 +237,19 @@ ul.dashed > li:before {
   border-top: 5px solid #4141B9 !important;
 }
 
+.linksbuendig {
+    text-align: left;
+}
+
+.rechtsbuendig {
+    text-align: right;
+}
+
+.mittig {
+    text-align: center;
+}
+
+.blocksatz {
+    text-align: justify;
+}
+
