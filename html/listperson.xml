@@ -98,6 +98,7 @@
                   <occupation code="90">Schriftsteller</occupation>
                   <sex>male</sex>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren/F1_V1</idno>
+                  
                </person>
                <person xml:id="pmb12438">
                   <tei:persName>
