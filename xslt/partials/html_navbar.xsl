@@ -11,7 +11,7 @@
                 <div class="container-fluid">
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><!-- https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.svg -->
-                        <img src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/project-logo.svg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo"/>
+                        <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/project-logo.svg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" width="3cm"/>
                     </a><!-- end custom logo -->
                     <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in Entstehung</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

@@ -161,27 +161,7 @@
             </xsl:element>
             <br/>
             <div id="mentions">
-                <legend>erwähnt in</legend>
-                <ul>
-                    <xsl:for-each select=".//tei:event">
-                        <xsl:variable name="linkToDocument">
-                            <xsl:value-of select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"/>
-                        </xsl:variable>
-                        <xsl:choose>
-                            <xsl:when test="position() lt $showNumberOfMentions + 1">
-                                <li>
-                                    <xsl:value-of select=".//tei:title"/><xsl:text> </xsl:text>
-                                    <a href="{$linkToDocument}">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                </li>
-                            </xsl:when>
-                        </xsl:choose>
-                    </xsl:for-each>
-                </ul>
-                <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
-                    <p>Anzahl der Erwähnungen eingeschränkt, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung</p>
-                </xsl:if>
+                <a href="{concat('Lektuereliste.html#',@xml:id)}">Erwähnung</a> in der Leseliste
             </div>
         </div>
     </xsl:template>

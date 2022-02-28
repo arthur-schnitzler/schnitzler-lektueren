@@ -112,7 +112,7 @@
                             </div>-->
                         </div>
                     </div>
-                    <xsl:for-each select=".//tei:listPerson/tei:person[@xml:id]">
+                    <!--<xsl:for-each select=".//tei:listPerson/tei:person[@xml:id]">
                         <xsl:variable name="xmlId">
                             <xsl:value-of select="data(./@xml:id)"/>
                         </xsl:variable>
@@ -142,7 +142,7 @@
                                 </div>
                             </div>
                         </div>
-                    </xsl:for-each>
+                    </xsl:for-each>-->
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
@@ -214,14 +214,17 @@
                             <li>
                                 <a href="{concat(./@xml:id, '.html')}">
                                     <span class="autorname">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of select="./@xml:id"/>
+                                        </xsl:attribute>
                                     <xsl:choose>
-                                        <xsl:when test="./tei:forename">
-                                            <xsl:apply-templates select="./tei:forename"/>
+                                        <xsl:when test="./tei:persName[1]/tei:forename">
+                                            <xsl:apply-templates select="./tei:persName[1]/tei:forename"/>
                                             <xsl:text> </xsl:text>
-                                            <xsl:apply-templates select="./tei:surname"/>
+                                            <xsl:apply-templates select="./tei:persName[1]/tei:surname"/>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:apply-templates select="./tei:surname"/>
+                                            <xsl:apply-templates select="./tei:persName[1]/tei:surname"/>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                    </span>
@@ -239,7 +242,7 @@
                     <xsl:text>&#8594;</xsl:text>
                     <a href="{concat(tei:listPerson/tei:person/@xml:id, '.html')}">
                         <xsl:variable name="person" select="tei:listPerson/tei:person/tei:persName[1]"/>
-                        <span class="autorname">
+                        <span class="autorname" id="{tei:listPerson/tei:person/@xml:id}">
                         <xsl:choose>
                             <xsl:when test="$person/tei:forename">
                                 
