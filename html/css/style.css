@@ -82,6 +82,10 @@ p {
     max-width: 1024px;
 }
 
+
+    
+
+
 span.ssQueryAndButton {
     margin: 2em auto 0.25em auto !important;
     max-width: 50% !important;
@@ -159,7 +163,6 @@ h1.edierterText {
 }
 
 .edierterText {
-      font-family: "Times New Roman", Times, serif;
       color: black;
       font-family: monospace;
       font-size: 140%;
@@ -170,6 +173,7 @@ h1.edierterText {
 .herausgeberText {
       font-size: 90%;
       color: black;
+      font-family: sans-serif;
 }
 
 .handschriftlich {
@@ -287,4 +291,14 @@ font-weight: bold;
 
 }
 
+.herausgeberErgaenzung {
+font-family: sans-serif;
+    
+}
 
+span.autorname::before {
+  content: "";
+  display: block;
+  height: 120px; /* fixed header height*/
+  margin: -120px 0 0; /* negative fixed header height */
+}

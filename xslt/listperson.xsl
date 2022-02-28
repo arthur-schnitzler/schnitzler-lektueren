@@ -35,7 +35,7 @@
                                         <tr>
                                             <th scope="col">Nachname</th>
                                             <th scope="col">Vorname</th>
-                                            <th scope="col">ID</th>
+                                            <th scope="col">Lebensdaten</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -65,7 +65,26 @@
                                                         <xsl:attribute name="href">
                                                             <xsl:value-of select="concat($id, '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select="$id"/>
+                                                        <xsl:choose>
+                                                            <xsl:when test="tei:birth/tei:date and tei:death/tei:date">
+                                                                <xsl:choose>
+                                                                    <xsl:when test="contains(tei:birth/tei:date/text(), '.') or contains(tei:death/tei:date/text(), '.')">
+                                                                        <xsl:value-of select="concat(tei:birth/tei:date, ' – ', tei:death/tei:date)"/>
+                                                                    </xsl:when>
+                                                                    <xsl:otherwise>
+                                                                        <xsl:value-of select="concat(tei:birth/tei:date, '–', tei:death/tei:date)"/>
+                                                                    </xsl:otherwise>
+                                                                </xsl:choose>
+                                                            </xsl:when>
+                                                            <xsl:when test="tei:birth/tei:date">
+                                                                <xsl:text>* </xsl:text>
+                                                                <xsl:value-of select="tei:birth/tei:date"/>
+                                                            </xsl:when>
+                                                            <xsl:when test="tei:death/tei:date">
+                                                                <xsl:text>† </xsl:text>
+                                                                <xsl:value-of select="tei:death/tei:date"/>
+                                                            </xsl:when>
+                                                        </xsl:choose>
                                                     </a> 
                                                 </td>
                                             </tr>

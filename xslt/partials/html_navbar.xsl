@@ -8,12 +8,12 @@
         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" >
             <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
             <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- Your site title as branding in the menu -->
+                <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
+                    <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo"/>
+                </a><!-- end custom logo -->
                 <div class="container-fluid">
-                    <!-- Your site title as branding in the menu -->
-                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
-                        <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.svg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo"/>
-                    </a><!-- end custom logo -->
-                    <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in Entstehung</span>
+                    <!--<span style="margin-left:-1.7em;" class="badge bg-light text-dark">in Entstehung</span>-->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

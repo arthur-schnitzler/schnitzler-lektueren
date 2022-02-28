@@ -12,7 +12,7 @@
         </xsl:variable>
         <div class="card-body">
            <xsl:for-each select="tei:persName[not(position()=1)]">
-               <span class="personenname">
+               <p class="personenname">
                <xsl:choose>
                    <xsl:when test="./tei:forename/text() and ./tei:surname/text()">
                        <xsl:value-of select="concat(./tei:forename/text(),' ',./tei:surname/text())"/>
@@ -23,12 +23,11 @@
                    <xsl:otherwise>
                        <xsl:value-of select="./tei:surname/text()"/>
                    </xsl:otherwise>
-               </xsl:choose></span>
-               <br/>
+               </xsl:choose></p>
            </xsl:for-each>
             <xsl:choose>
                 <xsl:when test=".//tei:birth and .//tei:death">
-                    <span class="lebensdaten"><xsl:text>(</xsl:text>
+                    <p class="lebensdaten"><xsl:text>(</xsl:text>
                     <xsl:choose>
                         <xsl:when test=".//tei:birth/tei:date and .//tei:birth/tei:placeName/tei:settlement">
                             <xsl:value-of select="concat(.//tei:birth/tei:date, ' ', .//tei:birth/tei:placeName/tei:settlement)"/>
@@ -52,11 +51,11 @@
                                 <xsl:value-of select="concat('geboren in ',.//tei:death/tei:placeName/tei:settlement)"/>
                             </xsl:when>
                         </xsl:choose>   
-                        <xsl:text>)</xsl:text><br/>
-                    </span>
+                        <xsl:text>)</xsl:text>
+                    </p>
                 </xsl:when>
                 <xsl:when test=".//tei:birth">
-                    <span class="lebensdaten"><xsl:text>(geboren </xsl:text>
+                    <p class="lebensdaten"><xsl:text>(geboren </xsl:text>
                         <xsl:choose>
                             <xsl:when test=".//tei:birth/tei:date and .//tei:birth/tei:placeName/tei:settlement">
                                 <xsl:value-of select="concat(.//tei:birth/tei:date, ' ', .//tei:birth/tei:placeName/tei:settlement)"/>
@@ -68,11 +67,11 @@
                                 <xsl:value-of select="concat('geboren in ',.//tei:birth/tei:placeName/tei:settlement)"/>
                             </xsl:when>
                         </xsl:choose>
-                        <xsl:text>)</xsl:text><br/>
-                    </span>
+                        <xsl:text>)</xsl:text>
+                    </p>
                 </xsl:when>
                 <xsl:when test=".//tei:death">
-                    <span class="lebensdaten"><xsl:text>(† </xsl:text>
+                    <p class="lebensdaten"><xsl:text>(† </xsl:text>
                         <xsl:choose>
                             <xsl:when test=".//tei:death/tei:date and .//tei:death/tei:placeName/tei:settlement">
                                 <xsl:value-of select="concat(.//tei:death/tei:date, ' ', .//tei:death/tei:placeName/tei:settlement)"/>
@@ -84,13 +83,15 @@
                                 <xsl:value-of select="concat('geboren in ',.//tei:death/tei:placeName/tei:settlement)"/>
                             </xsl:when>
                         </xsl:choose>   
-                        <xsl:text>)</xsl:text><br/>
-                    </span>
+                        <xsl:text>)</xsl:text>
+                    </p>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:text>ERROR 287 Lebensdaten</xsl:text><br/>
+                    <p class="lebensdaten"><xsl:text>ERROR 287 Lebensdaten</xsl:text></p>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:if test=".//tei:occupation">
+                <p class="lebensdaten">
            <xsl:for-each select=".//tei:occupation">
                <xsl:value-of select="."/>
                <xsl:choose>
@@ -102,11 +103,9 @@
                    </xsl:otherwise>
                </xsl:choose>
            </xsl:for-each>
-            <br/>
+                </p></xsl:if>
             <div id="mentions">
-                <a href="{concat('Leseliste.html#',@xml:id)}" class="blinkwink">Erwähnung</a> in der Leseliste
-            </div>
-            <br/>
+                <p><xsl:text>&#8594;</xsl:text> <a href="{concat('Leseliste.html#',@xml:id)}" class="blinkwink">Leseliste</a></p></div>
             <xsl:text>LINKS: </xsl:text>
             <xsl:for-each
                 select="child::tei:idno[not(@type = 'schnitzler-lektueren')]">
@@ -152,7 +151,7 @@
             </xsl:for-each>
             <xsl:element name="a">
                 <xsl:attribute name="href">
-                    <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', ./@xml:id , '/detail')"/>
+                    <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', substring-after(./@xml:id,'pmb') , '/detail')"/>
                 </xsl:attribute>
                 <xsl:attribute name="target">
                     <xsl:text>_blank</xsl:text>

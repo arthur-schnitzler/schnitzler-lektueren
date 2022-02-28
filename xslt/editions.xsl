@@ -211,9 +211,9 @@
                     </b>
                     <ul class="arrow">
                         <xsl:for-each select="tei:listPerson/tei:person">
-                            <li>
+                            <li><span class="autorname">
                                 <a href="{concat(./@xml:id, '.html')}">
-                                    <span class="autorname">
+                                    
                                         <xsl:attribute name="id">
                                             <xsl:value-of select="./@xml:id"/>
                                         </xsl:attribute>
@@ -227,22 +227,23 @@
                                             <xsl:apply-templates select="./tei:persName[1]/tei:surname"/>
                                         </xsl:otherwise>
                                     </xsl:choose>
-                                   </span>
-                                </a>
+                                   
+                                </a></span>
                             </li>
                         </xsl:for-each>
                     </ul>
                 </xsl:when>
                 <xsl:otherwise>
-                    <b>
+                    <span class="autorname" id="{tei:listPerson/tei:person/@xml:id}"><b>
                         <xsl:text>[</xsl:text>
                         <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
                         <xsl:text>] </xsl:text>
                     </b>
+                    
                     <xsl:text>&#8594;</xsl:text>
                     <a href="{concat(tei:listPerson/tei:person/@xml:id, '.html')}">
                         <xsl:variable name="person" select="tei:listPerson/tei:person/tei:persName[1]"/>
-                        <span class="autorname" id="{tei:listPerson/tei:person/@xml:id}">
+                        
                         <xsl:choose>
                             <xsl:when test="$person/tei:forename">
                                 
@@ -254,8 +255,8 @@
                                 <xsl:apply-templates select="$person/tei:surname"/>
                             </xsl:otherwise>
                         </xsl:choose>
-                        </span>
-                    </a>
+                        
+                    </a></span>
                 </xsl:otherwise>
             </xsl:choose>
             <xsl:if test="tei:note">
@@ -549,8 +550,10 @@
         </h1>
     </xsl:template>
     <xsl:template match="tei:supplied">
-        <xsl:text>[</xsl:text>
+        <span class="herausgeberErgaenzung">
+            <xsl:text>[</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>]</xsl:text>
+            <xsl:text>]</xsl:text>
+        </span>
     </xsl:template>
 </xsl:stylesheet>

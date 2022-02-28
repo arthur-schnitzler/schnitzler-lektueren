@@ -102,11 +102,10 @@
             </p>
          </div>
          <div type="liste_D">
-            <head>[Deutschland]
+            <head><supplied>Deutschsprachige Literatur</supplied>
             </head>
             <div xml:id="div_D1">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="D1"/>
                   <hi rend="manual">Adler ...</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Freiheit / Ged. /</hi>
@@ -36906,7 +36905,7 @@
          </div>
          <div type="liste_I">
             <head>
-               <hi rend="italics">Italien</hi>
+               <hi rend="manual">Italien</hi>
             </head>
             <div xml:id="div_I1">
                <p>
@@ -37761,7 +37760,7 @@
          </div>
          <div type="liste_E">
             <head>
-               <hi rend="italics">Spanien</hi>
+               <hi rend="manual">Spanien</hi>
             </head>
             <div xml:id="div_E1">
                <p>
@@ -38701,7 +38700,7 @@
          </div>
          <div type="liste_GB">
             <head>
-               <hi rend="italics">England.</hi>
+               <hi rend="manual">England.</hi>
             </head>
             <div xml:id="div_GB1">
                <p>
@@ -41445,7 +41444,7 @@
          </div>
          <div type="liste_U">
             <head>
-               <hi rend="italics">Ungarn.. etc.</hi>
+               <hi rend="manual">Ungarn.. etc.</hi>
             </head>
             <div xml:id="div_U1">
                <p>
@@ -42007,7 +42006,7 @@
          </div>
          <div type="liste_P">
             <head>
-               <hi rend="italics">Polen..</hi> Czechen..</head>
+               <hi rend="manual">Polen..</hi> Czechen..</head>
             <div xml:id="div_P1">
                <p>
                   <idno type="schnitzler-lektueren" xml:id="P1"/>Fredro ... Dr. Müller /
@@ -42506,7 +42505,7 @@
          </div>
          <div type="liste_N">
             <head>
-               <hi rend="italics">Norden ....</hi>
+               <hi rend="manual">Norden ....</hi>
             </head>
             <div xml:id="div_N1">
                <p>
@@ -46293,7 +46292,7 @@
          </div>
          <div type="liste_R">
             <head>
-               <hi rend="italics">Russland.</hi>
+               <hi rend="manual">Russland.</hi>
             </head>
             <div xml:id="div_R1">
                <p>
@@ -49354,7 +49353,7 @@
          </div>
          <div type="liste_G">
             <head>
-               <hi rend="italics">Griechenland</hi>
+               <hi rend="manual">Griechenland</hi>
             </head>
             <div xml:id="div_G1">
                <p>
@@ -49957,7 +49956,7 @@
          </div>
          <div type="liste_L">
             <head>
-               <hi rend="italics">Rom</hi>
+               <hi rend="manual">Rom</hi>
             </head>
             <div xml:id="div_L1">
                <p>
