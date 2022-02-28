@@ -1,1 +1,1 @@
-{"stem":"jesus","instances":[{"docId":"Lektuereliste","docUri":"Lektuereliste.html","score":2,"contexts":[{"form":"Jesus","weight":"1","pos":5086,"context":" Holländer ... <mark>Jesus<\/mark> und Judas","fid":"page"},{"form":"Jesus","weight":"1","pos":5094,"context":" Felix Holländer: <mark>Jesus<\/mark> und Judas. Berlin 1891. → Tagebuch ","fid":"page"}]}]}
+{"stem":"jesus","instances":[{"docId":"Lektuereliste","docUri":"Lektuereliste.html","score":1,"contexts":[{"form":"Jesus","weight":"1","pos":1368,"context":" Holländer ... <mark>Jesus<\/mark> und Judas","fid":"D213"}]}]}

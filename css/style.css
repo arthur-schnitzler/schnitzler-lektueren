@@ -160,25 +160,21 @@ h1.edierterText {
 
 .edierterText {
       font-family: "Times New Roman", Times, serif;
-      font-size: 130%;
       color: black;
+      font-family: monospace;
+      font-size: 140%;
+
 }
 
-td.edierterText {
-  vertical-align: top;  
-  max-width: 50%;
-  width: 60%;
-    
-}
-
-td.herausgeberText {
- vertical-align: top;  
- padding-left:40px;
-}
 
 .herausgeberText {
       font-size: 90%;
       color: black;
+}
+
+.handschriftlich {
+    font-family: cursive;
+    font-size: 75%;
 }
 
 ul.no-bullets {
@@ -199,10 +195,21 @@ ul.dashed > li:before {
     margin-left: -1em;
 }
 
+ul.arrow {
+    list-style: none;
+    margin-left: 0.3em;
+    padding-left: 1em;
+}
+ul.arrow > li:before {
+    display: inline-block;
+    content: "→";
+    width: 1em;
+    margin-left: -1em;
+}
+
 
 
 .container-fluid{
-    max-width: 1300px;
     background-color: white;
 }
 
@@ -210,7 +217,7 @@ ul.dashed > li:before {
     background-color: white;
 }
 .card-body{
-        background-color: #f1f1f1;
+       /* background-color: #f1f1f1;*/
 }
 
 .color-schnitzler-tagebuch{
@@ -252,4 +259,28 @@ ul.dashed > li:before {
 .blocksatz {
     text-align: justify;
 }
+
+.grid-container-element { 
+    display: grid; 
+    grid-template-columns: 75% 25%; /*columns widths*/
+    grid-gap: 20px; 
+    border: none; 
+    width: 100%; 
+    margin: 0px;
+        background-color: white;
+
+} 
+.grid-child-element { 
+    margin: 0px; 
+    border: none; 
+    
+   /* background-color: #f1f1f1;;*/
+
+}
+
+.weisserHintergrund {
+    background-color: white;
+}
+
+
 
