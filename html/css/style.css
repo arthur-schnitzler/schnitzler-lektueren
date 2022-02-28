@@ -42,7 +42,7 @@ div.dataTables_filter {
 
 .card {
     margin-top: 1em;
-    box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
+   
 }
 
 .index-card {
@@ -282,5 +282,9 @@ ul.arrow > li:before {
     background-color: white;
 }
 
+.blinkwink { color: #4141B9;
+font-weight: bold;
+
+}
 
 

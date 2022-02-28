@@ -102,6 +102,11 @@
                    </xsl:otherwise>
                </xsl:choose>
            </xsl:for-each>
+            <br/>
+            <div id="mentions">
+                <a href="{concat('Leseliste.html#',@xml:id)}" class="blinkwink">Erwähnung</a> in der Leseliste
+            </div>
+            <br/>
             <xsl:text>LINKS: </xsl:text>
             <xsl:for-each
                 select="child::tei:idno[not(@type = 'schnitzler-lektueren')]">
@@ -159,10 +164,7 @@
                     <xsl:text>PMB</xsl:text>
                 </xsl:element>
             </xsl:element>
-            <br/>
-            <div id="mentions">
-                <a href="{concat('Lektuereliste.html#',@xml:id)}">Erwähnung</a> in der Leseliste
-            </div>
+            
         </div>
     </xsl:template>
     <xsl:function name="mam:pmbChange">

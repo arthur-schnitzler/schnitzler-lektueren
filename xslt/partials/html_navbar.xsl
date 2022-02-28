@@ -10,8 +10,8 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <!-- Your site title as branding in the menu -->
-                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><!-- https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.svg -->
-                        <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/project-logo.svg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" width="3cm"/>
+                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
+                        <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.svg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo"/>
                     </a><!-- end custom logo -->
                     <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in Entstehung</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,12 +45,12 @@
                                     </li>
                                 </ul>                                
                             </li>                            
-                            <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
+                            <li class="nav-item"><a title="Inhalt" href="toc.html" class="nav-link">Inhalt</a></li>
                         </ul>                        
                         <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
-                            <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
+                            <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Suche" value="" autocomplete="off" />
                             <button type="submit" class="navbar-search-icon">
-                                <i data-feather="search"></i>
+                                <i data-feather="Suche"></i>
                             </button>
                         </form>
                     </div>
