@@ -1,0 +1,1192 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzlers Lektüren: Leseliste und virtuelle Bibliothek</title>
+            <title level="a">Einleitung</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Achim Aurnhammer</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
+                  Sciences</orgName>
+               <address>
+                  <addrLine>Sonnenfelsgasse 19</addrLine>
+                  <addrLine>1010 Vienna</addrLine>
+               </address>
+            </publisher>
+            <publisher>
+               <orgName>Ergon Verlag</orgName>
+            </publisher>
+            <pubPlace ref="https://www.geonames.org/2805615/wuerzburg.html">Würzburg</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false" status="draft">
+               <monogr>
+                  <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
+                     Bibliothek</title>
+                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <editor role="hrsg">
+                     <persName>
+                        <forename>Achim</forename>
+                        <surname>Aurnhammer</surname>
+                     </persName>
+                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs Freiburg</orgName>
+                     </affiliation>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <orgName>Ergon</orgName>
+                     </publisher>
+                     <pubPlace>
+                        <placeName>Würzburg</placeName>
+                     </pubPlace>
+                     <date when="2013">2013</date>
+                  </imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">5</biblScope>
+                  <extent>
+                     <measure type="pages">1</measure>
+                  </extent>
+               </monogr>
+               <series>
+                  <title level="s">Akten des Arthur Schnitzler-Archivs der Universität
+                     Freiburg</title>
+                  <editor role="hrsg">
+                     <orgName>Arthur Schnitzler-Archiv Freiburg</orgName>
+                  </editor>
+                  <biblScope unit="volume">Band 2</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="level1" xml:id="i.-einleitung">
+            <head>I. Einleitung</head>
+            <p>Wohl im Jahre 1905 legte Arthur Schnitzler ein Typoskript an, das alle Autoren und
+               Werke nennt, die er bis zu diesem Zeitpunkt gelesen hatte. Die Lektüreliste führte
+               Schnitzler bis 1928, kurz vor seinem Tode, handschriftlich weiter. Die Liste, die 78
+               einseitig beschriebene Blätter umfasst, findet sich im Nachlass Arthur Schnitzlers,
+               den die Universität Cambridge verwahrt; eine Kopie besitzt das
+               Arthur-Schnitzler-Archiv der Universität Freiburg.<note xml:id="fn1">
+                  <p>Vgl. Arthur Schnitzler: Alphabetisches Verzeichnis gelesener [...] Bücher (FF O
+                     III, 1, Bl. 2-42 – Cambridge Schnitzler A 178).</p>
+               </note> Schnitzlers Lektüreliste wird hier erstmals veröffentlicht: Sie ist wegen der
+               schwer lesbaren Handschrift, der fehlerhaften alphabetischen Ordnung, der ungenauen
+               Autorennamen und vagen, oft falschen Titelangaben bislang kaum konsultiert worden,<note xml:id="fn2">
+                  <p>Zu den rühmlichen Ausnahmen zählt Françoise Derré: L’œuvre d’Arthur Schnitzler.
+                     Imagerie viennoise et problemes humains. Paris 1966 (Germanica 9).</p>
+               </note> wird aber in Zukunft der Forschung hoffentlich ein willkommenes und
+               nützliches Hilfsmittel sein. Sämtliche Einträge in der Liste sind transkribiert und –
+               bis auf wenige Unklarheiten – erläutert sowie bibliographisch verifiziert. Sie sind
+               zudem in ein Gesamtregister integriert, das die Lektürenachweise in den Tagebüchern
+               und in den veröffentlichten ausgewählten Briefen sowie in der Autobiographie <hi
+                  rend="italics">Jugend in Wien</hi> verzeichnet. Dieses Gesamtregister
+               repräsentiert damit die »virtuelle Bibliothek« Arthur Schnitzlers.</p>
+            <div type="level2" xml:id="die-leseliste-anlage-und-edition">
+               <head>Die Leseliste – Anlage und Edition</head>
+               <p>Die Liste der Lektüren ist nicht datiert,<note xml:id="fn3">
+                     <p>Die salvatorische Notiz auf dem Vorsatzblatt (FF O III, 1, Bl. 2) von
+                        Weihnachten 1911 (vgl. Anm. 6) ist erst nachträglich angebracht worden und
+                        nicht das Datum der Niederschrift.</p>
+                  </note> dürfte aber im Laufe des Jahres 1905 angelegt worden sein, da keiner der
+                  maschinenschriftlich verzeichneten Einträge jünger als 1905 ist und Titel, die –
+                  wie Thomas Manns Savonarola-Drama <hi rend="italics">Fiorenza –</hi>
+                  erst 1905 erschienen, eine seltene Ausnahme bilden. Das Typoskript war von Anfang
+                  an auf Fortführung angelegt, wie die meist doppelten Zeilenabstände und
+                  großzügigen unteren Seitenränder zeigen. Tatsächlich ergänzte und korrigierte
+                  Schnitzler die Titelliste ab 1905 sukzessive handschriftlich. Neu hinzugekommene
+                  Autoren trug er in die Leerzeilen ein oder verzeichnete sie auf dem unteren
+                  Blattrand, wie etwa die abgebildeten Beispielseiten (Abb. 1-3) zeigen. Die
+                  Titelangaben reichen zeitlich bis in die letzten Lebensjahre des Dichters. So
+                  finden sich noch Einträge aus den späten Zwanziger Jahren wie Arnold Zweig (<hi
+                     rend="italics">Pont und Grischa,</hi> 1928), Édmond Fleg (<hi
+                     rend="italics">L’enfant prophète,</hi> 1926) oder James Joyce <hi
+                     rend="italics">(Jugendbildnis,</hi> 1926). Allerdings lässt die
+                  Intensität der Einträge nach 1911 mehr und mehr nach, was sowohl an dem etwas
+                  abnehmenden Lektürepensum als auch an der geringeren Intensität liegen mag, mit
+                  der Schnitzler seine Lektüren in der Liste vermerkte.</p>
+               <p>Schnitzlers Leseliste ist grob nach Ländern, teilweise auch nach literarischen
+                  Großregionen gegliedert. Allerdings lässt die Reihenfolge der elf Ländernamen kein
+                  Gliederungsprinzip erkennen. »[1] Deutschland«, unter dem 494 Autoren genannt
+                  sind, folgen die romanischen Literaturen mit 208 Namenseinträgen, die sich wie
+                  folgt verteilen: »[2] Frankreich« (182), »[3] Italien« (16) und »[4] Spanien«
+                  (10). Unter »[5] England« sind 51 Schriftsteller aufgeführt. Nicht so sehr ins
+                  Gewicht fallen die Literaturen der Länder, die bis zum Ersten Weltkrieg mehr oder
+                  weniger zur Donaumonarchie gehörten: »[6] Ungarn .. etc.« (10) sowie »[7] Polen ..
+                  Czechen« (9). Die unter der Rubrik »[8] Norden« verzeichneten 57
+                  Schriftstellernamen repräsentieren die Literaturen Dänemarks, Norwegens und
+                  Schwedens. »[9] Russland« stellt mit 34 Namen eine beachtliche Autorengruppe. Ihr
+                  folgt die antike Literatur, die fast gleichgewichtig »[10] Griechenland« (18) und
+                  »[11] Rom« (19) umfasst. Länderintern sind die Autoren weitgehend alphabetisch
+                  verzeichnet, doch geriet die Reihenfolge Schnitzler vor allem bei den
+                  handschriftlichen Zusätzen mehrfach durcheinander. Nicht zu jedem Autor sind
+                  einzelne Werke verzeichnet; teilweise sind die Namen mit Vermerken wie »alles«
+                  oder »vieles« versehen.</p>
+               <p>Die Unterteilung in verschiedene Nationalliteraturen lässt klar erkennen, dass
+                  mehr als die Hälfte der von Schnitzler verzeichneten Autorennamen auf die
+                  deutschsprachige Literatur entfällt. Schnitzler las somit vorrangig die Literatur
+                  seiner Muttersprache. Die französische Literatur stellt das mit weitem Abstand
+                  zweitwichtigste Kontingent in der Liste, auch wenn sie weniger als die Hälfte an
+                  Autorennamen im Vergleich zur deutschen Literatur umfasst. Den größten Teil der
+                  französischen Texte hat Schnitzler, wie die Leseliste ausweist, im Original
+                  rezipiert. In allen anderen Fremdsprachen scheint er die Texte in Übersetzungen
+                  gelesen zu haben. Wie sicher Schnitzler die französische Sprache beherrschte,
+                  zeigt sich etwa daran, dass er D’Annunzio nicht in deutscher, sondern in
+                  französischer Version las. Im französischen Original rezipierte er wohl auch
+                  einige Erfolgsautoren seiner Zeit (etwa Zola), obgleich deren Werke bereits in
+                  deutscher Übersetzung vorlagen. Allerdings war die Sprachenwahl für Schnitzler
+                  wohl keine prinzipielle Frage, da er französische Schriftsteller wie etwa Jules
+                  Verne auch in deutschen Übersetzungen gelesen hat.</p>
+               <p>Mit nur noch rund 50 Autoren folgen die skandinavischen Länder (bezeichnet als
+                  »Norden«) und England. Fast 5% der Einträge der Leseliste entfallen auf die antike
+                  Literatur in griechischer und lateinischer Sprache. Anders als in den anderen
+                  Nationalliteraturen gibt Schnitzler allerdings hier fast nie Titel an, sondern
+                  beschränkt sich lediglich auf die Nennung der Autorennamen.</p>
+               <p>Insgesamt überwiegen unter den Einträgen Autoren und Titel des 19. und frühen 20.
+                  Jahrhunderts. Erwartungsgemäß sind zudem alle namhaften Klassiker verzeichnet:
+                  Neben antiken Vorbildern wie Homer, Sophokles und Ovid sind die deutschen
+                  Nationaldichter Lessing, Goethe, Schiller und Kleist ebenso vertreten wie die
+                  bedeutendsten Repräsentanten der Weltliteratur, etwa Dante, Cervantes, Shakespeare
+                  und Voltaire. Sie hatte Schnitzler wohl schon als »neunjährige[r] Bub« gelesen, da
+                  er um 1870 »den größten Teil [s] eines Taschengeldes für die kleinen gelbroten
+                  Büchelchen der eben erst neugegründeten Reclam’schen Universalbibliothek« verwandte.<note xml:id="fn4">
+                     <p>Arthur Schnitzler: Jugend in Wien. Wien, München und Zürich 1968, Erstes
+                        Buch (Mai 1862-Mai 1875), S. 23 [künftig JW].</p>
+                  </note> Zwar relativiert Schnitzler rückblickend seine kindlichen Lektüren und
+                  bezweifelt selbst, »ob jene klassischen Meisterwerke [scil. <hi
+                     rend="italics">Die Räuber</hi> und <hi rend="italics"
+                     >Fiesko</hi>]<hi rend="italics">,</hi> denen bald die <hi
+                     rend="italics">Jungfrau von Orleans, Braut von Messina, Emilia
+                     Galotti</hi> und viele andere, auch Shakespeare’sche Dramen, sich zugesellten,
+                  schon damals wirklich den tiefen Eindruck auf mich ausübten, den zu erleben ich
+                  mir einbildete«<note xml:id="fn5">
+                     <p>JW, 23.</p>
+                  </note> – die frühe literarische Akkulturation beweist andererseits, wie vertraut
+                  Schnitzler von Jugend auf mit dem europäischen Literaturkanon war.</p>
+               <p>Die kanonischen Autoren der Antike und der Neuzeit fuhrt Schnitzler meist ohne
+                  Titelangaben an. Solche Pauschalnennungen betreffen auch die Repräsentanten des
+                  19. Jahrhunderts, dessen Kind Schnitzler war. Fast alle bedeutenden deutschen
+                  Dichter des 19. Jahrhunderts sind nur namentlich genannt: unter anderen Joseph von
+                  Eichendorff, Dietrich Grabbe, Franz Grillparzer, Gerhart Hauptmann, Friedrich
+                  Hebbel, Heinrich Heine, Gottfried Keller, Johann Nepomuk Nestroy, August von
+                  Platen, Ferdinand Raimund, Friedrich Rückert, Theodor Storm und Heinrich Daniel
+                  Zschokke. Für diese und weitere Autoren, bei denen keine einzelnen Titel angegeben
+                  sind, ist als sicher anzunehmen, dass Schnitzler jeweils das Gesamtwerk oder
+                  mindestens die Hauptwerke kannte. Undifferenziert bleiben auch die Angaben zu
+                  einigen Autoren wie Schiller, Goethe, Shaw oder Bahr, bei denen er ohne nähere
+                  Spezifikation »alles« oder »vieles« vermerkt. Rechnet man die Pauschalnennungen
+                  hoch, ergibt sich somit eine deutlich höhere Zahl von Einzelwerken, als in der
+                  Leseliste angeführt sind. Zudem fehlen prominente Autoren der Klassischen Moderne,
+                  die Schnitzler nachweislich bestens kannte. Während er Peter Altenberg, Hermann
+                  Bahr, Richard Beer-Hofmann und Felix Dörmann nennt, kommen Leopold von
+                  Andrian-Werburg, Karl Kraus, Felix Salten und – die prominenteste Fehlanzeige –
+                  Hugo von Hofmannsthal überhaupt nicht vor. Möglicherweise hat Schnitzler diese
+                  Autoren auch bewusst ausgelassen, weil er sie persönlich gut kannte und mit der
+                  Entstehung mancher Werke so vertraut war, dass er sie nicht in einer neutralen
+                  Leseliste registrieren wollte.</p>
+               <p>Der Lückenhaftigkeit seiner Leseliste war sich Schnitzler selbst durchaus bewusst.
+                  So bemerkte er zu Weihnachten 1911 in einer handschriftlichen Notiz auf dem
+                  Vorsatzblatt der Liste: »Auf Vollständigkeit kein Anspruch, nur zum
+                  Gedächtnisbehelf aufnotiert... Was im M[anu]script gelesen fehlt bis heute
+                  (25.12.1911) fast durchaus.«<note xml:id="fn6">
+                     <p>Vgl. Schnitzler: Alphabetisches Verzeichnis gelesener [...] Bücher (FF O
+                        III, 1, Bl. 2 – Cambridge Schnitzler A 178, Bl. 2). Ohne den Vorbehalt
+                        Schnitzlers prinzipiell in Frage stellen zu wollen, sei darauf hingewiesen,
+                        dass die Leseliste immerhin auch einige wenige</p>
+                     <p>Manuskripte anfuhrt wie Texte von Robert Adam Pollak [D3] oder Dramen von
+                        Jean Billiter [D45] und Karl Burger [D70].</p>
+                  </note> Bedenkt man die regelmäßigen und häufigen Theater-, Oper- und Kinobesuche,
+                  die Schnitzler in seinem Tagebuch verzeichnet, und ordnet man diese Form
+                  akustisch-visueller Rezeption dem individuellen stummen Lesen oder den kollektiven
+                  Rezitationen im Freundeskreis der Jung-Wiener gleich,<note xml:id="fn7">
+                     <p>Immer wieder hat Schnitzler im Freundeskreis eigene Texte vorgelesen und
+                        nahm an zahlreichen Leseabenden teil, an denen seine Wiener Dichterfreunde
+                        und -kollegen Proben aus ihren Werken vorlasen.</p>
+                  </note> dann wird klar, wie selektiv die Liste schon von ihrer Anlage her ist.
+                  Wohl um solche Lücken zu kompensieren, ließ Schnitzler im Jahre 1927 die
+                  Lektürenotate in seinen Tagebüchern exzerpieren. Diese von 1879 bis 1927
+                  chronologisch geordnete, maschinenschriftliche Aufzeichnung »Lektüre und
+                  Bemerkungen dazu« ergänzt die Lektüreliste, ist freilich durch die vollständige
+                  Edition der <hi rend="italics">Tagebücher</hi> mittlerweile überholt.<note xml:id="fn8">
+                     <p>Das Tagebuch-Exzerpt, ein Typoskript, bestehend aus 64 Blättern, findet sich
+                        im Schnitzler-Nachlass der Universitätsbibliothek Cambridge (NL Nr. 174),
+                        eine Kopie verwahrt das Arthur Schnitzler-Archiv der Universität Freiburg FF
+                        O III, 3). Ediert hat es Reinhard Urbach: Arthur Schnitzler: Notizen zu
+                        Lektüre und Theaterbesuchen (1879-1927). In: Modem Austrian Literature 6
+                        (1973), Nr. 3/4, S. 7–39. Diese und noch mehr Lektürenotizen finden sich in:
+                        Arthur Schnitzler: Tagebuch. Unter Mitwirkung von Peter Michael Braunwarth,
+                        Susanne Pertlik und Reinhard Urbach hg. von der Kommission für literarische
+                        Gebrauchsformen der ÖAW, Obmann: Werner Welzig. 10 Bde. Wien 1981–2000
+                        [künftig Tgb].</p>
+                  </note> Umgekehrt ist die hier erstmals veröffentlichte Leseliste eine quantitativ
+                  wie qualitativ wichtige Ergänzung der Lektürenachweise in den <hi
+                     rend="italics">Tagebüchern.</hi></p>
+               <p>In ihrer überlieferten Form eignet sich die Leseliste jedoch kaum zu
+                  Forschungszwecken: Schon wegen ihrer unzuverlässigen Ordnung und der schwer zu
+                  entziffernden Handschrift Schnitzlers sind die in ihr enthaltenen Informationen
+                  nicht leicht zu erschließen. Erschwerend hinzu kommt, dass Titel und Namen nur
+                  sehr knapp, zum Teil sogar mit Abkürzungen und gelegentlich falsch verzeichnet
+                  sind. Dadurch ist ihre bibliographische Auflösung mitunter recht aufwendig. Dass
+                  die Liste teilweise aus der Erinnerung rekonstruiert ist, zeigen etliche falsche,
+                  ungenaue oder inhaltsbezogene Titel. Die ursprüngliche alphabetische Anordnung
+                  geriet durch zahlreiche handschriftliche Ergänzungen sowie einige Inkonsequenzen
+                  durcheinander, und auch das zweite Ordnungsprinzip, die Unterteilung in
+                  Nationalliteraturen, ist gelegentlich durchbrochen, da Schnitzler manche Autoren
+                  nicht den richtigen Ländern zuordnete, so ist Vincent van Gogh unter den Franzosen
+                  eingereiht (F60). Erstaunlich ist die Verwechslung im Falle des mit ihm
+                  befreundeten dänischen Schriftstellers Georg Brandes, den er Deutschland zuschlug
+                  (D63). Trotz solcher kleineren Mängel verbessert die Leseliste unsere Kenntnis von
+                  Arthur Schnitzlers Lektüren maßgeblich.</p>
+               <p>Für die Veröffentlichung der Liste wurde ein doppeltes Verfahren eingeschlagen.
+                  Einerseits wurde die Originalgestalt von Schnitzlers Leseliste bewahrt: Die
+                  Transkription gibt Schnitzlers Einträge diplomatisch wieder und differenziert
+                  dabei zwischen dem maschinenschriftlichen Grundtext (recte) sowie den
+                  handschriftlichen Nachträgen (<hi rend="italics">kursiv</hi>)<hi
+                     rend="italics">.</hi> Andererseits wurde die Liste für die Benutzung
+                  so aufbereitet, dass ein rascher Zugriff möglich wird: Eine vom Herausgeber
+                  hinzugesetzte Sigle aller Autoren-Einträge nach Länderkennzeichen (wie ›D‹ für
+                  Deutschland oder ›F‹ für Frankreich) und landinterner Numerierung erlaubt
+                  Querverweise und eine eindeutige Zuordnung des bibliographischen Kommentars, der
+                  das Zentrum der editorischen Arbeit darstellt. Dort werden die vielfach kryptisch
+                  verknappten Einträge kommentiert: Autorennamen werden komplettiert und mit
+                  Geburts- und Sterbejahr versehen, mögliche Pseudonyme aufgelöst. Sofern Schnitzler
+                  unter den Autornamen einzelne Titel angibt, werden die gemeinten Werke in
+                  bibliographisch vollständiger Form angegeben und, soweit möglich und
+                  differenzierbar, mit Erscheinungsort und -jahr sowohl der Erstausgabe oder der
+                  spezifisch von Schnitzler benutzten Ausgabe versehen. Bei fremdsprachigen Titeln
+                  galt es zudem, die erste deutsche Übersetzung mit Übersetzer und Erscheinungsjahr
+                  zu ermitteln. Auch etwaige Doppelnachweise einer Lektüre sind verzeichnet: So wird
+                  auf Einträge im Tagebuch, das in vielen Fällen die Lektüre datieren lässt, ebenso
+                  verwiesen wie auf die zweibändige Auswahlausgabe der Briefe und auf die
+                  Autobiographie. Auch wird vermerkt, wenn ein Widmungsexemplar des genannten Werks
+                  an Schnitzler bekannt ist.<note xml:id="fn9">
+                     <p>Widmungsexemplare an Schnitzler sind bislang nicht systematisch erfasst. Sie
+                        befinden sich zum großen Teil im DLA Marbach, das diesen Bestand nach dem
+                        Tod von Arthur Schnitzlers Schwiegertochter Lilly übernommen hat. Zwei
+                        Widmungsexemplare an Schnitzler verwahrt das Freiburger
+                        Arthur-Schnitzler-Archiv.</p>
+                  </note> Schließlich werden im Kommentar Schnitzlers Fehlattributionen
+                  richtiggestellt, etwa wenn er Werke verschiedener Autoren mit ähnlichem oder
+                  gleichem Nachnamen einem einzigen Schriftsteller zugewiesen hat.</p>
+            </div>
+            <div type="level2" xml:id="das-gesamtregister-schnitzlers-virtuelle-bibliothek">
+               <head>Das Gesamtregister – Schnitzlers ›virtuelle Bibliothek‹</head>
+               <p>Die Leseliste liefert der Forschung nicht den einzigen Nachweis, ob Schnitzler
+                  einen bestimmten Titel gelesen hatte oder nicht. Auch in Briefen, seiner
+                  Autobiographie <hi rend="italics">Jugend in Wien</hi> und vor allem in
+                  seinem Tagebuch hat Schnitzler Lektüren sowie Gespräche über Bücher und
+                  Theaterbesuche vermerkt. In der kritischen Edition der <hi
+                     rend="italics">Tagebücher</hi> sind die Autoren und Titel, die
+                  Schnitzler namentlich nennt, verifiziert.<note xml:id="fn10">
+                     <p>Die Angaben sind im Gesamtverzeichnis der Personen und Werktitel in: Tgb
+                        1931 / Gesamtverzeichnisse 1879–1931, S. 139–589, aufgeschlüsselt. Vgl. dazu
+                        die Online-Aktualisierung, zu finden über: »oeaw.ac.at« (Titel:
+                        »Berichtigungen und Ergänzungen zum Band: Tagebuch 1931 /
+                        Gesamtverzeichnisse 1879-1931«). In der Ausgabe der Briefe sind die Titel in
+                        den Anmerkungen verifiziert; vgl. Arthur Schnitzler: Briefe [I:] 1875–1912.
+                        Hg. von Therese Nickl und Heinrich Schnitzler. Frankfurt/M. 1981, und Briefe
+                        [II:] 1913–1931. Hg. von Peter Michael Braunwarth, Richard Miklin, Susanne
+                        Pertlik und Heinrich Schnitzler. Frankfurt/M. 1984 [künftig BI und BII], Die
+                        literarischen Bezüge in der Autobiographie JW sind durch ein Namenregister
+                        mittelbar zu erschließen.</p>
+                  </note> Das ausführliche Register des Schlussbandes verzeichnet alle Autoren und
+                  Werke, die Schnitzler im Tagebuch erwähnt – allerdings unabhängig vom Zusammenhang
+                  und davon, ob es sich um Lektürenotizen oder bloße Titelnennungen handelt. Auch
+                  Werktitel in den Briefen lassen nicht immer erkennen, ob sie auf eigenen Lektüren
+                  Schnitzlers beruhen oder nur indirekt vermittelt sind, also etwa auf Essays oder
+                  Rezensionen in Wiener Tageszeitungen zurückgehen.</p>
+               <p>Im Anhang an die Edition der Leseliste sind in Form eines Gesamtregisters alle
+                  Autoren und Werke zusammengeführt, die Schnitzler in der Liste und/oder im
+                  Tagebuch erwähnt. Da darin zusätzlich auch die Titel- und Lektüreerwähnungen aus
+                  der <hi rend="italics">Jugend in Wien</hi> und aus der Auswahlausgabe
+                  der Briefe eingearbeitet sind, repräsentiert dieses Gesamtregister die ›virtuelle
+                  Bibliothek‹ des Wiener Schriftstellers. Mit Hilfe des Gesamtregisters ist es
+                  leicht möglich, alle Texte, auch wenn Schnitzler sie in der Leseliste
+                  (alphabetisch oder hinsichtlich der Nationalliteratur) falsch eingeordnet hat,
+                  ausfindig zu machen, da die dort verzeichneten Autoren durch ihre
+                  Leselisten-Signatur (Länderkennzeichen und landesinterne Nummer) eindeutig
+                  gekennzeichnet sind. Für die Kurztitel im Gesamtregister, die in der Leseliste
+                  nachgewiesen sind, finden sich dort die präzisen Vollbelege. Die Kurztitel, die
+                  nicht in der Leseliste, sondern nur im Tagebuch und/oder in der Auswahlausgabe der
+                  Briefe oder in der Autobiographie nachgewiesen sind, übernehmen im allgemeinen die
+                  Angaben aus deren Registern, sind aber partiell präzisiert und modifiziert worden.
+                  So sind bei fremdsprachigen Texten Originaltitel und Übersetzung angegeben sowie
+                  manche Fehler stillschweigend verbessert.<note xml:id="fn11">
+                     <p>So ist beispielsweise im »Gesamtverzeichnis der Personen und Werktitel« der
+                        Tagebücher gelegentlich ein Verfassername unrichtig ergänzt: Statt
+                        »Thebault, Paul-Charles-François: Friedrich der Große« heißt der Verfasser
+                        richtig: Dieudonné Thiébault.</p>
+                  </note></p>
+               <p>Zudem wird der Benutzer im positiven Fall auf das Tagebuch und/oder Briefe
+                  verwiesen und weiß andererseits im Fall der Fehlanzeige, dass der gesuchte Titel
+                  dort nicht erwähnt ist. Überdies ist die bibliographische Angabe im Gesamtregister
+                  präziser als im Registerband der Tagebuch-Edition. Vergleicht man die Titelzahlen
+                  aus Tagebuch und Leseliste im Gesamtregister miteinander, wird der Nutzen der
+                  Leseliste für die Schnitzler-Forschung augenfällig. Mehr als ein Fünftel der Namen
+                  und Titel sind ausschließlich in der Leseliste, nicht aber im Tagebuch oder in der
+                  Autobiographie oder der Auswahlausgabe der Briefe erwähnt. Die Leseliste
+                  verbessert somit unser Wissen von Schnitzlers Lektürekenntnissen gegenüber dem
+                  Tagebuch beträchtlich, von der genaueren Auflösung und bibliographischen Erfassung
+                  in vorliegender Edition ganz zu schweigen. Mehr als ein Viertel der Einträge im
+                  Gesamtregister sind Doppel- oder Dreifachbelege, sind also sowohl im Tagebuch, in
+                  den Briefen als auch in der Leseliste nachgewiesen. Warum der Großteil, nämlich
+                  etwa die Hälfte der Autornamen, nur im Tagebuch genannt ist, hat mehrere Gründe.
+                  Zum einen erwähnt Schnitzler im Tagebuch neben Opern- und Kinobesuchen viele
+                  Theateraufführungen, die ihn häufig mit ephemeren Produktionen entlegener Werke
+                  konfrontierten. Auch wenn die damalige Inszenierungspraxis eher werktreu war, ist
+                  die Rezeption im öffentlichen Raum eines Theaters wohl weniger intensiv als die
+                  private Lektüre. Doch wäre es sicherlich sinnvoll, neben der Lektüreliste separate
+                  Übersichten von Schnitzlers Theater-, Opern- und Kinobesuchen zu erstellen.<note xml:id="fn12">
+                     <p>Schnitzlers Kinobesuche hat Julia Ilgner: Ein Wiener »Kinoniter«! Arthur
+                        Schnitzlers Filmgeschmack. In: Arthur Schnitzler und der Film. Hg. von Achim
+                        Aumhammer, Barbara Beßlich und Rudolf Denk, Würzburg 2010, S. 135-153,
+                        ausgewertet und die Titel der Filme verifiziert, die Schnitzler gesehen hat.
+                        Ergänzend dazu vgl. auch »A. ist manchmal wie ein kleines Kind«. Clara
+                        Katharina Pollaczek und Arthur Schnitzler gehen ins Kino. Hg. von Stephan
+                        Kurz und Michael Rohrwasser. Unter Mitarbeit von Daniel Schopper Wien 2012
+                        (Manu Scripta 2).</p>
+                  </note> Zudem verzeichnet das Register der Tagebücher unterschiedslos alle Titel
+                  literarischer Werke unabhängig davon, ob Schnitzler sie gelesen, sich darüber
+                  unterhalten oder sie nur erwähnt hat. Insofern bedeutet eine Erwähnung im Tagebuch
+                  keineswegs, dass Schnitzler die Autoren und Werke aufgrund eigener Lektüre auch
+                  wirklich kannte, sondern muss im Unterschied zur Lektüreliste im Einzelfall
+                  geprüft werden. Unser Gesamtregister, das die Angaben von Leseliste und Tagebuch
+                  sowie von Briefen und Autobiographie zusammenführt, unterscheidet aus
+                  naheliegenden pragmatischen Gründen nicht zwischen den diversen
+                  Rezeptionsformen.</p>
+               <p>Wenn die Leseliste also eine Vielzahl von Autoren anführt, die im Tagebuch oder in
+                  der Autobiographie und in der Briefausgabe nicht genannt werden, ist dies ein sehr
+                  viel größerer Gewinn, als die Zahl von 20 Prozent allein vermuten lässt: Zum einen
+                  verbergen sich hinter den zahlreichen Pauschalnennungen, die gerade die Klassiker
+                  und bekannten Autoren des 19. Jahrhunderts betreffen, zahlreiche Titel, ohne dass
+                  sie im Einzelnen aufgeführt wären. Zum andern handelt es sich bei den Einträgen um
+                  Werke, die Schnitzler tatsächlich gelesen hat und die er auch produktiv, in
+                  Allusionen, intertextuellen Bezugnahmen und Dialogen für eigene Dichtungen nutzte.
+                  Die Leseliste präzisiert insofern unsere Kenntnis von Schnitzlers
+                  Lektüregeschmack, als nur hier zahlreiche historische Autoren und so genannte
+                  ›Minderdichter‹ aufgeführt sind, die mittlerweile zu den Verschollenen und
+                  Vergessenen der Literaturgeschichte zählen.</p>
+            </div>
+            <div type="level2" xml:id="schnitzlers-reale-bibliothek-geschichte-und-rekonstruktion">
+               <head>Schnitzlers reale Bibliothek – Geschichte und Rekonstruktion</head>
+               <p>Dem Gesamtregister zufolge, das Leseliste, Tagebuch sowie Lektüre-Erwähnungen in
+                  der Korrespondenz und Autobiographie zusammenführt, besaß Arthur Schnitzler eine
+                  große Bibliothek. Sie ging nach seinem Tod im Jahre 1931 wahrscheinlich in den
+                  Besitz seines Sohnes Heinrich über. Eine Rekonstruktion von Arthur Schnitzlers
+                  Bibliothek ist kaum noch möglich. Daran sind weniger die unklaren
+                  Besitzverhältnisse schuld, die es nicht erlauben, Schnitzlers Bibliothek von dem
+                  Bücherbesitz seines Sohnes Heinrich zu trennen. Ungleich schwerer wiegt die
+                  Konfiskation der Bibliothek Heinrich Schnitzlers durch die Österreichische
+                  Nationalbibliothek (ÖNB), die angeblich ohne Inventarisierung vor sich ging. Nach
+                  dem so genannten ›Anschluss‹ Österreichs an das Deutsche Reich im Jahre 1938
+                  musste Heinrich Schnitzler emigrieren und flüchtete nach England. Während der
+                  literarische Nachlass seines Vaters gerettet werden konnte und heute in der
+                  Universitätsbibliothek Cambridge verwahrt wird,<note xml:id="fn13">
+                     <p>Vgl. Lorenzo Bellettini und Christian Staufenbiel: The Schnitzler <hi
+                           rend="italics">Nachlass.</hi> Saved by a Cambridge Student.
+                        In: Schnitzler’s Hidden Manuscripts. Hg. von Lorenzo Bellettini und Peter
+                        Hutchinson. Oxford u.a. 2010, S. 11–22. Die Briefe und Tagebücher dagegen
+                        rettete Heinrich Schnitzler selbst und gab sie später dem Deutschen
+                        Literaturarchiv Marbach. Kopien verwahrt das Arthur-Schnitzler-Archiv
+                        Freiburg/Br., erschlossen durch ein Findbuch (FF) von Jutta Müller und
+                        Gerhard Neumann: Der Nachlass Arthur Schnitzlers. Verzeichnis des im
+                        Schnitzler-Archiv der Universität Freiburg i. Br. befindlichen Materials.
+                        Mit einem Vorwort von Gerhart Baumann und einem Anhang von Heinrich
+                        Schnitzler: Verzeichnis des in Wien vorhandenen Nachlassmaterials. München
+                        1969.</p>
+                  </note> wurde 1939 »die Bibliothek von Heinrich Schnitzler, in der vermutlich auch
+                  Bücher seines Vaters Arthur Schnitzler nach dessen Tod im Jahr 1931 eingegangen
+                  sind, [...] Opfer eines besonders beschämenden Raubzugs«.<note xml:id="fn14">
+                     <p>Evelyn Adunka: Der Raub der Bücher. Plünderung in der NS-Zeit und
+                        Restitution nach 1945. Wien 2002, S. 106-111 und 261, hier 106. Überliefert
+                        ist ein Schreiben der Geheimen Staatspolizei an die Generaldirektion der
+                        Nationalbibliothek vom 7. Juni 1940, in dem mitgeteilt wird, dass »die
+                        sichergestellte Bibliothek des jüdischen Schriftstellers Arthur Schnitzler
+                        [...] endgültig beschlagnahmt und [...] dortigen Institut zur weiteren
+                        Verwertung überlassen« wird. Vgl. dazu Margot Werner: Die Bibliothek Arthur
+                        Schnitzler. Eine Enteignung. In: Raub und Restitution. Kulturgut aus
+                        jüdischem Besitz von 1938 bis heute. Ausstellungskatalog des Jüdischen
+                        Museums Berlin. Hg. von Inka Bertz und Michael Dorrmann. Göttingen 2008, S.
+                        202-208, sowie dies.: Die Enteignung der Bibliothek Arthur Schnitzlers: In:
+                        Raub und Rückgabe. Österreich von 1938 bis heute. Bd. 3: Enteignete Kunst.
+                        Hg. von Verena Pawlowsky und Harald Wendelin. Wien 2006, S. 158-176. – Zur
+                        Beschlagnahmung und Restitution von Heinrich Schnitzlers Bibliothek vgl.
+                        auch Lisa Paar: NS-Raubgut und die Österreichische Nationalbibliothek. Von
+                        »arisierten« Beständen zur Provenienzforschung. Ein historischer
+                        Querschnitt. Diplomarbeit FH Eisenstadt 2008, S. 26–30.</p>
+                  </note> Heinrich argwöhnte wohl zu Recht, dass der damalige Leiter der
+                  Theatersammlung Joseph Gregor, der mit ihm und seinem Vater befreundet war, es
+                  gezielt auf seine Bibliothek abgesehen habe, denn schon nach dem Tod seines Vaters
+                  wollte sich die Österreichische Nationalbibliothek dessen Nachlass einverleiben,
+                  was Heinrich immer abgelehnt hatte.<note xml:id="fn15">
+                     <p>Adunka (Anm. 14), S. 108f. Joseph Gregor betrieb auch die »Schenkung« eines
+                        Teils von Stefan Zweigs Autographensammlung im Jahre 1937 (vgl. Peter
+                        Malina: Von Büchern und Menschen. Neue Veröffentlichungen zur NS-Geschichte
+                        des Bibliothekswesens. In: Mitteilungen der VÖB 60 (2007), Nr. 1, S. 45-66,
+                        hier 56) und den Erwerb der Theatersammlung Helene Richters (vgl. Christiane
+                        Hoffrath: Bücherspuren. Das Schicksal von Elise und Helene Richter und ihrer
+                        Bibliothek im ›Dritten Reich‹ Köln u.a. 2009). Zu Gregor allgemein vgl.
+                        Joseph Gregor. Gelehrter – Dichter – Sammler. Hg. von Christiane
+                        Mühlegger-Henhapel. Frankfurt/M u.a. 2006.</p>
+                  </note> Nach der sogenannten Arisierung bot die Direktion der Österreichischen
+                  Nationalbibliothek Heinrich Schnitzler denn auch eine Teilrückgabe gegen
+                  Autographen aus dem Besitz seines Vaters an.<note xml:id="fn16">
+                     <p>Adunka (Anm. 14), S. 108.</p>
+                  </note></p>
+               <p>Im Jahre 2004 hat sich die Österreichische Nationalbibliothek Wien mit ihrer
+                  aggressiven ›Erwerbungspolitik‹ im Dritten Reich selbstkritisch auseinandergesetzt.<note xml:id="fn17">
+                     <p>Vgl. Geraubte Bücher. Die Österreichische Nationalbibliothek stellt sich
+                        ihrer NS-Vergangenheit. Hg. von Murray G. Hall, Christina Köster und Margot
+                        Werner. Wien 2004. Es handelt sich um die flankierende Publikation zu einer
+                        Ausstellung.</p>
+                  </note> Danach diente die gezielte Arisierung bedeutender jüdischer Bibliotheken
+                  dem erklärten Ziel, zur größten Bibliothek des Reiches zu werden.<note xml:id="fn18">
+                     <p>Christina Köster: »Für Jürgens bleiben auf jeden Fall Massen!« Die
+                        Erwerbungspolitik der Nationalbibliothek zwischen 1938-45. In: Hall, Köster,
+                        Werner 2004 (Anm. 17), S. 30-41, hier 30.</p>
+                  </note> Zu den vereinnahmten ›Büchermassen‹ gehörte die Bibliothek von Heinrich
+                  Schnitzler, die angeblich ungefähr 6000 Bände umfasste.<note xml:id="fn19">
+                     <p>Ebd., S. 34. Paar (Anm. 14), S. 28, spricht von 6000 bis 12000 Bänden.
+                        Joseph Gregor nennt in seinem Brief an Paul Heigl, Generaldirektor der ÖNB,
+                        vom 10. Mai 1939 die Zahl von 10000-20000 Bänden. Zit. nach Margot Werner
+                        2006 (Anm. 14), S. 16.</p>
+                  </note> Verglichen etwa mit der 1938 beschlagnahmten Bibliothek von Max Reinhardt,
+                  die 15000 bis 17000 Bände zählte,<note xml:id="fn20">
+                     <p>Köster (Anm. 18), S. 34.</p>
+                  </note> war Arthur Schnitzlers Bibliothek, sofern sie mit der seines Sohnes
+                  gleichzusetzen ist, demnach nicht außergewöhnlich groß. Da gelegentlich auch die
+                  Zahl von 12000 Bänden genannt wurde, Heinrich Schnitzler möglicherweise bei der
+                  Übernahme der väterlichen Bibliothek Teile davon veräußert, verschenkt oder
+                  abgestoßen hat, bleibt der genaue Umfang allerdings fraglich. Zudem musste die
+                  Österreichische Nationalbibliothek im Zuge der Restitution im Jahre 1946
+                  einräumen, dass die seinerzeit beschlagnahmten Bibliotheken »ohne nähere Angaben
+                  über ihren Bestand oder ihre Inbesitznahme abgeliefert wurden. Aus diesem Grunde
+                  können weder [...] über die Vollständigkeit, noch über den Bestand oder Wert
+                  derselben genaue Angaben gemacht werden«.<note xml:id="fn21">
+                     <p>Schreiben der ÖNB vom 9.11.1946 zit. nach Margot Werner: Der Umgang der ÖNB
+                        mit ihrer NS-Vergangenheit. In: Hall, Köster, Werner 2004 (Anm. 17), S.
+                        42–53, hier 42.</p>
+                  </note> Für die Annahme, die beschlagnahmte Bibliothek habe deutlich mehr als 6000
+                  Bände umfasst, spricht der Umstand, dass viel weniger Bücher restituiert wurden,
+                  als beschlagnahmt worden waren. Denn Dubletten, die durch die vielen
+                  beschlagnahmten Bibliotheken anfielen, wurden sogleich ausgesondert und an andere
+                  Bibliotheken verschenkt, viele Bände wurden ohne Provenienzvermerk einsigniert:<note xml:id="fn22">
+                     <p>Ebd., S. 44.</p>
+                  </note> Noch 2004 wurden unter den einsignierten Beständen etliche Exemplare mit
+                  Widmungen an Arthur, Olga und Heinrich Schnitzler entdeckt. Daher ist die Angabe
+                  der Österreichischen Nationalbibliothek, die noch nicht einsignierten Bibliotheken
+                  – darunter auch die Heinrich Schnitzlers – seien restituiert worden,<note xml:id="fn23">
+                     <p>Ebd., S. 47.</p>
+                  </note> zumindest zu relativieren. Die 1947 rückerstatteten Bücher sollten – so
+                  verfügte Heinrich Schnitzler testamentarisch – nach dem Tod seiner Frau Lilly
+                  wieder an die Nationalbibliothek gehen. Einen Großteil dieses Bestandes, rund 6000
+                  Bände, hat Lilly Schnitzler schon zu Lebzeiten, im Jahre 1983 der
+                  Nationalbibliothek geschenkt.<note xml:id="fn24">
+                     <p>Adunka (Anm. 14), S. 111.</p>
+                  </note> Nach ihrem Tod im Jahre 2009 folgte der restliche Bücherbesitz,
+                  Widmungsexemplare an Arthur Schnitzler gelangten an das Deutsche Literaturarchiv Marbach.<note xml:id="fn25">
+                     <p>Nach offizieller Meldung aus dem Österreichischen Bundeskanzleramt übernahm
+                        die Österreichische Nationalbibliothek (ÖNB) im Juli 2010 rund 8.000 Bücher
+                        aus der Bibliothek des Schriftstellers Arthur Schnitzler.</p>
+                  </note></p>
+               <p>Tatsächlich finden sich unter den restituierten Widmungsexemplaren viele Bände,
+                  die mit Besitzstempel der Österreichischen Nationalbibliothek und Signatur
+                  versehen waren, wie etwa Richard Schaukals dramatischer Erstling <hi
+                     rend="italics">Rückkehr,</hi> Felix Saltens <hi
+                     rend="italics">Buch der Könige,</hi> Raoul Auernheimers <hi
+                     rend="italics">Gusseiserner Herrgott,</hi> Max Burckhards Komödie
+                     <hi rend="italics">Jene Asra,...</hi> und Hermann Bahrs Roman <hi
+                     rend="italics">Theater</hi> (vgl. Abb. 4–8). Dagegen tragen andere
+                  Widmungsexemplare, die zweifelsfrei aus Arthur Schnitzlers Bibliothek stammen und
+                  nach dem Krieg restitutiert wurden, weder Stempel noch Signatur der
+                  Nationalbibliothek, waren also nie offiziell den Beständen der Nationalbibliothek
+                  einverleibt worden. Zu solchen nicht »einsignierten« Büchern aus Schnitzlers
+                  Bibliothek, die zudem weder in der Leseliste noch im Tagebuch vorkommen, gehören
+                  etwa Widmungsexemplare von Richard Specht <hi rend="italics">(Das
+                     Gastmahl des Plato),</hi> Anton Wildgans <hi rend="italics">(Sonette
+                     aus dem Italienischen)</hi> oder Felix Salten <hi rend="italics"
+                     >(Fünf Minuten Amerika)</hi> (vgl. Abb. 9–11).</p>
+               <p>Freilich ist wohl damit zu rechnen, dass sich neben den Widmungsexemplaren, die
+                  noch im Jahre 2004 entdeckt wurden,<note xml:id="fn26">
+                     <p>Ebd., S. 53.</p>
+                  </note> weitere, bislang nicht identifizierte Bücher aus dem Besitz Schnitzlers in
+                  der ÖNB befinden. Eigene Nachforschungen im Jahre 2008 nach entlegenen Titeln aus
+                  Schnitzlers Leseliste in der ÖNB blieben allerdings ergebnislos.<note xml:id="fn27">
+                     <p>Keines der etwa fünfzig Bücher der Leseliste, die stichprobenweise geprüft
+                        wurden, stammte erkennbar aus dem Besitz Schnitzlers.</p>
+                  </note> Doch tauchten im Handel Widmungsexemplare an Arthur Schnitzler auf, die
+                  sicher aus seiner Bibliothek stammen wie etwa Franz Nabls Roman <hi
+                     rend="italics">Ödhof</hi> (Abb. 12) oder die kleine Stefan
+                  Zweig-Monographie von W. Fred (d. i. Alfred Wechsler) (Abb. 13).<note xml:id="fn28">
+                     <p>Beide Bände konnten mittlerweile für das Arthur Schnitzler-Archiv der
+                        Universität Freiburg erworben werden.</p>
+                  </note></p>
+               <p>Wegen der komplizierten Geschichte von Arthur Schnitzlers Bibliothek, die
+                  tiefgreifende Einschnitte erfahren hat, von der Integration in die Bibliothek des
+                  Sohnes Heinrich, der Konfiskation durch die Nationalsozialisten und fragwürdigen
+                  Restitution bis zur Vererbung an die Österreichische Nationalbibliothek, kommt der
+                  Leseliste eine besondere Bedeutung zu. Denn lässt sich die reale Bibliothek Arthur
+                  Schnitzlers nur noch in Teilen rekonstruieren, so dokumentiert die Leseliste im
+                  Verein mit dem Tagebuch sowie den Nachweisen in der Korrespondenz und der
+                  Autobiographie die tatsächlichen Lektüren Schnitzlers. Lektüreliste und Tagebuch
+                  machen es somit möglich, Schnitzlers Bibliothek zumindest virtuell wiedererstehen
+                  zu lassen und seine ›Leseleistung‹ umfassend zu dokumentieren. Arthur Schnitzlers
+                  virtuelle Bibliothek liegt im ›Gesamtregister‹ unserer Edition vor. Über den
+                  möglichen Buchbesitz hinaus ist hier festgehalten, was Schnitzler gelesen und was
+                  möglicherweise nicht nur seinen Lesehorizont ausmachte, sondern seine eigene
+                  schriftstellerische Tätigkeit beeinflusste.</p>
+            </div>
+            <div type="level2" xml:id="schnitzlers-lektüren-und-die-lesepräferenzen-in-wien-um-1900">
+               <head>Schnitzlers Lektüren und die Lesepräferenzen in Wien um 1900</head>
+               <p>Für die Literaturgeschichte wie für die allgemeine rezeptions- und
+                  kulturhistorische Forschung ist Schnitzlers Verzeichnis seiner Lektüren eine
+                  wichtige Quelle. Denn es erlaubt Rückschlüsse auf den literarischen Geschmack in
+                  gebildeten literarischen Kreisen in Wien vom Fin de siede bis in die späten
+                  Zwanziger Jahre und gestattet vergleichende Untersuchungen zum Wiener Lesepublikum
+                  im Allgemeinen.<note xml:id="fn29">
+                     <p>Vgl. Alberto Martino: Lektüre in Wien um die Jahrhundertwende (1889-1914).
+                        In: Buchhandel und Literatur. FS Herbert G. Göpfert. Hg. von Reinhard
+                        Wittmann und Bertold Hack. Wiesbaden 1982, S. 314-394. Ein Auszug daraus ist
+                        die titelgleiche Studie von A. M. in: Die österreichische Literatur. Ihr
+                        Profil von der Jahrhundertwende bis zur Gegenwart (1880-1980). Hg. von
+                        Herbert Zeman. Teil 1. Graz 1989, S. 95–112.</p>
+                  </note> Dank Alberto Martinos gründlicher Studie sind die sozial-, geschlechts-,
+                  bildungs- und altersspezifischen Lesevorlieben im Wien der Jahrhundertwende gut
+                  aufbereitet. Das statistische Material der Wiener Ausleihbibliotheken lässt
+                  erkennen, dass die belletristischen Vorlieben relativ homogen waren. Sicherlich
+                  weicht Schnitzlers Lektüreliste weit ab von den Angeboten katholischer
+                  Lesevereine, in denen Unterhaltungsautoren wie Lina von Berlepsch, Maximilian
+                  Schmidt oder Ida Gräfin Hahn-Hahn dominieren,<note xml:id="fn30">
+                     <p>Martino 1982 (Anm. 29), bes. S. 370-374.</p>
+                  </note> doch führt seine Leseliste alle Favoriten der zeitgenössischen Wiener
+                  Leihbibliotheken an. Von den 22 meistgelesenen Autoren in den Wiener
+                  Volksbibliotheken um 1890 sind lediglich die fünf mit Asterisk markierten nicht in
+                  Schnitzlers Leseliste enthalten:<note xml:id="fn31">
+                     <p>Ein eingeklammerter Asterisk wie hinter dem Namen von Georges Ohnet
+                        bedeutet, dass keine Lektüre in der Leseliste, sondern im Tagebuch
+                        nachgewiesen ist.</p>
+                  </note> Berthold Auerbach, Felix Dahn, Alexandre Dumas, Georg Ebers*, Nataly
+                  Eschstruth*, Gustav Freytag, Friedrich Gerstäcker, Friedrich Wilhelm Hackländer,
+                  Wilhelmine Heimburg (Ps. Bertha Behrens)*, Mór/Maurus Jókai,<note xml:id="fn32">
+                     <p>Jókais Rezeption in Österreich-Ungarn dokumentiert Hedvig Ujväri:
+                        Kulturtransfer in Kakanien. Zur Jókai-Rezeption in der deutschsprachigen
+                        Presse Ungarns (1867–1882). Berlin 2011.</p>
+                  </note> Paul Lindau, Eugenie Marlitt*, Fritz Mauthner, Georges Ohne(*), Peter
+                  Rosegger, Friedrich Spielhagen, Lev Tolstoj, Jules Verne, Elisabeth Werner, Adolf
+                  von Wilbrandt, Ernst von Wildenbruch und Julius Wolff. Zu den von Schnitzler nicht
+                  verzeichneten Namen zählen die seinerzeit populären Trivialschriftstellerinnen
+                  Eschstruth, Heimburg und Marlitt, die jedoch als seichte Vertreterinnen der <hi
+                     rend="italics">Gartenlaube</hi> im Bildungsbürgertum verpönt
+                  waren.</p>
+               <p>Mehr noch als mit dem Geschmack von 1890 stimmt Schnitzlers Leseliste mit den
+                  allgemeinen Lektürepräferenzen von 1900 oder 1913 überein. So sind die Namen, die
+                  nach 1890 neu unter die Ausleihfavoriten gelangten, allesamt darin verzeichnet.
+                  Unter den am meisten gelesenen Autoren der Jahre 1900 und 1901 begegnen wieder aus
+                  der Bestenliste von 1890: Dumas, Eschstruth*, Freytag, Heimburg*, Marlitt*,
+                  Ohnet(*), Spielhagen, Tolstoi, Werner, Wilbrandt und von Wildenbruch. Neu dazu
+                  kommen: Rudolf Baumbach, Fedor Dostoevskij, Marie von Ebner-Eschenbach, Ludwig
+                  Ganghofer, Maksim Gorkij, Gerhart Hauptmann,</p>
+               <p>Gottfried Keller, Karl May, Eduard Pötzl(*), Joseph Viktor von Scheffel, Ossip
+                  Schubin [Ps. Aloisia Kirschner], Hermann Sudermann, Clara Viebig und Ernst Ludwig
+                  von Wolzogen. Von diesen 25 Autoren, welche in den Ausleihbibliotheken Wiens um
+                  1900 am beliebtesten waren, sind nur fünf nicht auf Schnitzlers Leseliste
+                  verzeichnet; bezieht man das Tagebuch ein, verringert sich die Zahl sogar auf
+                  lediglich drei Fehlanzeigen, und zwar erneut auf die drei Dichterinnen der <hi
+                     rend="italics">Gartenlaube.</hi> Ihre Konjunktur klang aber mit der
+                  Jahrhundertwende deutlich ab: Sie tauchen bezeichnenderweise in der Liste der
+                  meistgelesenen Werke von 1913, obgleich diese viel umfangreicher ist als die
+                  vorgängigen Ranglisten, gar nicht mehr auf. Der Geschmack des Wiener Lesepublikums
+                  im Jahre 1913 stimmt mit Schnitzlers Lektürevorlieben weitgehend überein: Von den
+                  122 Autoren, welche in der modisch ausgerichteten Zentrale der Wiener
+                  Volksbibliothek um 1913 am meisten entliehen wurden, finden sich fast alle Autoren
+                  in Schnitzlers Leseliste.</p>
+               <p>Der diachrone Vergleich zeigt, dass sich Schnitzlers Lektürepräferenzen durchaus
+                  mit dem Zeitgeschmack decken. Doch lässt die Leseliste spezifische Vorlieben
+                  erkennen, die zudem von dem epochenspezifischen Geschmack der ästhetischen Elite
+                  der Wiener Moderne abweichen, soweit er sich aus deren Bibliotheken rekonstruieren
+                  lässt, die oft nur in Teilbeständen überliefert sind.<note xml:id="fn33">
+                     <p>Vgl. dazu Roland Folter: Deutsche Dichter- und Germanistenbibliotheken. Eine
+                        kritische Bibliographie ihrer Kataloge. Stuttgart 1975, und das Verzeichnis
+                        von »Dichter-, Gelehrten- und Künstlerbibliotheken« in: Wolfenbütteler
+                        Bibliographie zur Geschichte des Buchwesens im deutschen Sprachgebiet
+                        1840-1980 (WBB). Hg. von Erdmann Weyrauch. Bd. 7: Der Leser. München 1998,
+                        S. 145-158.</p>
+                  </note> Die recht heterogenen Büchersammlungen von Franz Grillparzer (†1872),<note xml:id="fn34">
+                     <p>Verzeichnis von Franz Grillparzers Bibliothek [im Wiener Rathaus]. Hg. von
+                        Rudolf Payer-Thum. In: F. G.: Sämtliche Werke. Hist.-krit. Gesamtausgabe.
+                        Hg. von August Sauer. Abt. II, Bd. 12 (Wien 1930), S. X-XVIII, 97–212,
+                        300–308. Die Bibliothek, die 474 Nummern umfasst, ist präzise
+                        beschrieben.</p>
+                  </note> Hugo von Hofmannsthal (†1929),<note xml:id="fn35">
+                     <p>Vgl. Michael Hamburger: Hofmannsthals Bibliothek. Ein Bericht. In: Euphorion
+                        55 (1961), S. 15-76. Die Bibliothek, die das Freie Deutsche Hochstift
+                        Frankfurt verwahrt, ist allerdings nur eine Teilbibliothek. Den
+                        überlieferten Bestand mit allen Lesespuren und Eintragungen dokumentiert
+                        jetzt der im Rahmen der Werkausgabe erschienene Band: Hugo von Hofmannsthal:
+                        Sämtliche Werke. Bd. XL: Bibliothek. Hg. von Ellen Ritter. Frank- furt/M.
+                        2012. Er zeigt, in welch starkem Maße das Werk anderer Autoren Hofmannsthals
+                        Schaffen anregte.</p>
+                  </note> Hermann Bahr (†1934),<note xml:id="fn36">
+                     <p>Bahrs Bibliothek befindet sich heute in der Studienbibliothek Salzburg; vgl.
+                        P[aul] Thun-Hohenstein: Hermann Bahr und die Bücher. In: Jahrbuch dt.
+                        Bibliophilen 20 (1934),</p>
+                     <p>S. 49–52.</p>
+                  </note> Robert Musil (†1942)<note xml:id="fn37">
+                     <p>Teile von Robert Musils Bibliothek finden sich im Robert-Musil-Institut für
+                        Literaturforschung in Klagenfurt, eine Sammlung von Büchern aus Musils
+                        Besitz verwahrt die Arbeitsstelle für österreichische Literatur an der
+                        Universität Saarbrücken; vgl. Murray G. Hall und Gerhard Renner: Handbuch
+                        der Nachlässe und Sammlungen österreichischer Autoren. Wien u.a. <hi
+                           rend="superscript">2</hi>1995, S. 237f.</p>
+                  </note> oder Richard Beer-Hofmann (†l945),<note xml:id="fn38">
+                     <p>Einen Teil der Handbibliothek findet sich zusammen mit dem handschriftlichen
+                        Nachlass in der Houghton Library, Harvard University, Cambridge (Mass.).
+                        Beer-Hofmann hatte den größeren Teil seiner Bibliothek noch in Wien
+                        verkauft.</p>
+                  </note> aber auch Sigmund Freuds (†1939)<note xml:id="fn39">
+                     <p>Vgl. Freud’s Library. A Comprehensive Catalogue. Freuds Bibliothek.
+                        Vollständiger Katalog. Hg. von J. Keith Davies und Gerhard Fichtner. London
+                        und Tübingen 2006 (Quellen und Abhandlungen zur Geschichte der
+                        Psychoanalyse, 2). Mit einem Umfang von knapp 3600 Werktiteln zählt die
+                        Bibliothek Freuds zu den mittelgroßen Gelehrtenbibliotheken der Zeit.</p>
+                  </note> lassen – zumindest in Umrissen – unterschiedliche sprachliche, zeitliche
+                  und gattungsspezifische Präferenzen erkennen. So finden sich etwa in Hofmannsthals
+                  Bibliothek französisch-, englisch- und auch italienischsprachige Werke in viel
+                  größerer Zahl als bei Schnitzler, der außer deutschsprachigen Werken und
+                  Übersetzungen ins Deutsche lediglich französische Texte im Original las. Ohnehin
+                  teilt Schnitzler seine Vorliebe für die moderne französische Literatur (Flaubert,
+                  Balzac, Maupassant, Zola), aber auch für die französische Spätaufklärung
+                  (Casanova), mit den Vertretern des Jungen Wien wie Hermann Bahr, Hugo von
+                  Hofmannsthal oder Richard Beer-Hofmann. Wenngleich die Leseliste zahlreiche
+                  Autoren der Klassischen Antike anführt, dürften diese in Schnitzlers Lektüren eine
+                  geringere Rolle gespielt haben als bei Hofmannsthal oder Beer-Hofmann. Unter den
+                  Gattungen ist die Lyrik unterrepräsentiert. Obgleich einige Lyriker der
+                  Jahrhundertwende wie Emanuel Geibel (D140), Detlef von Liliencron (D285) oder
+                  Felix Dörmann (D96) verzeichnet sind, fehlen andere prominente Dichter wie Stefan
+                  George oder Hugo Salus. Auch wenn die Lyrik sicher nicht zu den Genres zählte, die
+                  Schnitzler bevorzugte, so ist doch anzunehmen, dass er weitaus mehr Gedichte
+                  kannte, als er verzeichnete, und zudem wohl die eine oder andere Lyrikanthologie
+                  besessen hat.</p>
+            </div>
+            <div type="level2" xml:id="schnitzlers-lektürevorlieben">
+               <head>Schnitzlers Lektürevorlieben</head>
+               <p>Ungeachtet der Überschneidungen mit den zeitspezifischen Lektürepräferenzen und
+                  den ästhetischen Vorlieben, die Schnitzler mit der ästhetischen Elite in Wien um
+                  1900 teilte, vermittelt die Leseliste einen guten Eindruck seines persönlichen
+                  Literaturgeschmacks. Zwar wird dessen Wandel, der mit Schnitzlers Schaffensphasen
+                  einhergeht, weniger augenfällig als im Tagebuch, doch gewinnt das Profil der
+                  ästhetischen Vorlieben des Dichters klare Konturen.</p>
+               <p>Vor allem enthält die Leseliste viele längst vergessene Titel aus der Feder
+                  ebenfalls kaum noch bekannter Schriftsteller. Die Leseliste lässt Schnitzlers
+                  großen literarischen Horizont erahnen. Gelesen hat er die Klassiker und großen
+                  Dichter der Vergangenheit ebenso wie die Trivial- und Erfolgsautoren der
+                  Gegenwart. Die Liste lässt vermuten, dass Schnitzler zahlreiche literarische
+                  Reihen (zum Teil auch Kriminalliteratur) regelmäßig bezog.</p>
+               <p>So finden sich aus der seinerzeit bekannten Reihe »Engelhorns Allgemeine
+                  Roman-Bibliothek« zahlreiche Erfolgstexte in Schnitzlers Leseliste. Die »Auswahl
+                  der besten modernen Romane aller Völker«, die im Stuttgarter Engelhorn-Verlag von
+                  1884 bis 1930 erschien, repräsentiert neben Reclams Universalbibliothek und
+                  Kürschners Bücherschatz die erfolgreichste Reihe mit moderner Unterhaltungsliteratur.<note xml:id="fn40">
+                     <p>Vgl. Robert N. Bloch: Engelhorns Allgemeine Roman-Bibliothek (1884-1930).
+                        Eine Bibliographie. Gießen 2006, sowie ders.: Kürschners Bücherschatz
+                        (1897-1923). Eine Bibliographie. Gießen 2005. Zu den mehreren Buchreihen,
+                        die im 19. Jahrhundert begründet wurden, und deren verlegerischen Konzepten
+                        siehe den buchgeschichtlichen Überblick von Christine Haug: Reisen und Lesen
+                        im Zeitalter der Industrialisierung. Die Geschichte des Bahnhofs- und
+                        Verkehrsbuchhandels in Deutschland von seinen Anfängen um 1850 bis zum Ende
+                        der Weimarer Republik. Wiesbaden 2007, bes. S. 124ff.</p>
+                  </note> Sie war durchaus international ausgerichtet und legte rasch deutsche
+                  Übersetzungen aktueller, erfolgreicher europäischer Erzähltexte vor. Schnitzler
+                  rezipierte in dieser Reihe mehrere Romane, welche ganz unterschiedliche Spielarten
+                  der europäischen Moderne repräsentieren. So las er etwa in Engelhorns
+                  Roman-Bibliothek den auf religiöse Konflikte angelegten Roman <hi
+                     rend="italics">Die Illusion des Doktor Faustino [Las ilusiones del
+                     doctor Faustino,</hi> dt.] des spanischen Schriftstellers Juan Valera y Alcalá
+                  Galiano (E9), der von 1893 bis 1895 spanischer Botschafter in Wien war, er las
+                  auch die satirisch-sozialkritischen Romane <hi rend="italics">Gift</hi>
+                     [<hi rend="italics">Gift,</hi> dt.] (1883) und <hi
+                     rend="italics">Fortuna</hi> [<hi rend="italics"
+                     >Fortuna,</hi> dt.] (1886) des von Georg Brandes geförderten norwegischen
+                  Erzählers Alexander Lange Kielland (N34), den Künstlerroman <hi
+                     rend="italics">Aus des Meeres Schaum</hi> [<hi
+                     rend="italics">Dalia Spuma del Mare,</hi> dt.] (1876) des
+                  italienischen Erzählers Salvatore Farina (16), sowie die <hi
+                     rend="italics">Pariser Ehen</hi> [<hi rend="italics">Les
+                     mariages de Paris,</hi> dt.] (1886), Novellen des geistreichen Franzosen Edmond
+                  François Valentin About (F1). Die Kombination von sentimental gemäßigtem
+                  Naturalismus und psychologischem Realismus, welche die Verlagsreihe prägt,
+                  repräsentieren neben weniger bekannten deutschen Schriftstellern vor allem
+                  französische Autoren wie Alphonse Daudet (F37) <hi rend="italics"
+                     >(Frommont jeune),</hi> Hector Henri Malot (F98) (<hi rend="italics"
+                     >Baccara)</hi> oder Henri Gréville (F63) (<hi rend="italics"
+                     >Dosia).</hi></p>
+               <p>Durch die teilweise ungenauen Angaben, was er jeweils von welchem Autor gelesen
+                  hat, ist es nicht einfach, in der Leseliste Schnitzlers Lieblingsautoren –
+                  jedenfalls in quantitativer Hinsicht – auszumachen. Denn was ist etwa mit dem
+                  »Vielen« gemeint, das er von Shaw gelesen hat? Hier lohnt es sich, das Tagebuch zu
+                  konsultieren, das 25 Titel des englischen Schriftstellers anführt. Die meisten
+                  Eintragungen der Leseliste finden sich in jedem Fall bei Balzac – mit 24 Titeln.
+                  Diese große Zahl erklärt sich jedoch leicht aus der großen Menge an Romanen, die
+                  Balzac geschrieben hat. Weitere Favoriten sind Ivan Turgenev ([R32] 22 Einträge),
+                  Fedor Michajlovic Dostojevskij ([R6] 19 Einträge), Emile Zola ([F182] 19
+                  Einträge), Guy de Maupassant ([F107] 18 Einträge), der im Tagebuch nur mit fünf
+                  Titeln vorkommt, und Knut Hamsun ([N21] 15). Unter den deutschen Autoren ist die
+                  Auswahl breiter gestreut, hier sind die Autorenvorlieben weniger konturiert. Von
+                  den Schriftstellern, die mit Einzeltiteln genannt sind, ragen Berthold Auerbach
+                  ([D19] 16 Einträge) und Theodor Fontane ([Dl 17] 14 Einträge) heraus. An zweiter
+                  Stelle rangiert Aloisia Kirschner (1854-1934), die unter dem Pseudonym ›Ossip
+                  Schubin‹ (D391) zahlreiche Erzählungen und Romane verfasste und um die
+                  Jahrhundertwende zu den beliebtesten Autoren zählte.<note xml:id="fn41">
+                     <p>Schubin ist in der Literaturgeschichtsschreibung sträflich vernachlässigt
+                        geblieben; zu den löblichen Ausnahmen zählen der Überblick von Konstanze
+                        Fliedl: »Verkannt und verfehlt«: Zum Werk Ossip Schubins. In: Philologica
+                        Pragensia 33 (1990), S. 48-55, und eine geschlechtergeschichtliche Studie
+                        von Sigrid Schmid-Bortenschlager: Die Übertragbarkeit von
+                        Geschlechtertypologien: Am Beispiel von Ossip Schubin. In: Literatur im
+                        Wandel. FS Viktor Žmegač. Hg. von Marijan Bobinac. Zagreb 1999, S.
+                        93-99.</p>
+                  </note> Schnitzler hat diese Modeautorin wohl nur in seiner Frühzeit rezipiert,
+                  denn es ist bezeichnend, dass sämtliche elf Titel, die in der Leseliste aufgeführt
+                  sind, alle vor dem Jahr 1890 erschienen sind; spätere Werke hat Schnitzler wohl
+                  nicht mehr registriert. Quantitativ zu Schnitzlers Lieblingsautoren (jeweils zehn
+                  Titelnennungen) zählt neben Max Burckhard (D71), Ende der 90er Jahre Direktor des
+                  Burgtheaters, der Dramaturg Herbert Eulenberg (D106), die beide mit ihm
+                  korrespondierten, und der westfälische Schriftsteller Levin Schücking (D390). Mit
+                  Heinrich Mann (D299) scheint zahlenmäßig Hans von Hopfen (D216) zu konkurrieren,
+                  doch die neun Titel, die bei beiden zu Buche stehen, werden insofern relativiert,
+                  als das Tagebuch 26 Titel Heinrich Manns aufführt. Unter den meistgelesenen
+                  Autoren taucht aber auch Catulle Mendès ([F108], elf Titel) auf, der heute
+                  weitgehend vergessen ist. Anton Cechov (R30), den Schnitzler außerordentlich
+                  schätzte, zählt mit lediglich elf Titelnennungen nicht zur absoluten
+                  Spitzengruppe.</p>
+               <p>Auch wenn allein die unspezifizierte Nennung vieler prominenter Autoren kein
+                  endgültiges Urteil über Lieblingsautoren und -bücher gestattet, zudem Wertungen
+                  und Stellungnahmen in der Liste fehlen, so lässt sich doch feststellen, dass
+                  Schnitzler vor allem die bekannten und erfolgreichen Autoren seiner Zeit intensiv
+                  las, die er zum großen Teil auch persönlich kannte:<note xml:id="fn42">
+                     <p>Die Schriftsteller, mit denen Schnitzler korrespondierte, sind im
+                        Gesamtregister durch einen Asterisk kenntlich.</p>
+                  </note> Mehr als 75% aller Autoren, die Schnitzler auf der Liste nennt, sind zu
+                  seinen Lebzeiten oder später gestorben. In der polnischen oder skandinavischen
+                  Literatur etwa befasste er sich ausschließlich mit der Literatur seiner
+                  Zeitgenossen. Hinzu kommt generell noch eine kleinere Menge von Texten aus dem 19.
+                  Jahrhundert. Ergänzt wird die Liste von sehr wenigen Texten, die vor 1800
+                  erschienen sind. Einzig die Nationalliteraturen Italiens und Spaniens fallen ein
+                  wenig aus diesem Schema heraus, da hier die Klassiker einen größeren Anteil
+                  ausmachen. Warum Schnitzler in diesen beiden Literaturen stärker als die
+                  zeitgenössischen Texte die kanonischen Schriftsteller berücksichtigte, etwa
+                  Giovanni Boccaccio (13), Dante Alighieri (15) und Carlo Goldoni (18) bzw. Calderón
+                  (E2), Cervantes (E3) und Lope de Vega (E5), mag wohl zwei einfachen Gründe haben:
+                  Zum einen konnte er die Literaturen nicht im Original lesen, zum andern wurden sie
+                  viel weniger ins Deutsche übersetzt als die französische oder die russische
+                  Literatur.</p>
+               <p>Die geschmacksgeschichtliche Aussagekraft der Leseliste ist aber gerade
+                  hinsichtlich der zeitgenössischen Literatur eingeschränkt. Denn Schnitzler sparte
+                  in der Liste einige prominente zeitgenössische Texte aus, obwohl er sie zur
+                  Kenntnis genommen hatte. Solche Fehlanzeigen häufen sich besonders in der
+                  Spätzeit, als Schnitzler seine Lektüren zunehmend weniger regelmäßig in der
+                  Leseliste notierte.</p>
+               <p>Auf der Leseliste taucht etwa James Joyce’s <hi rend="italics"
+                     >Ulysses</hi> nicht auf, während Schnitzler im Tagebuch seine Lektüre
+                  protokolliert hat. Nachdem er am 13. Januar 1927 brieflich eingeräumt hat, dass es
+                  sich bei dem <hi rend="italics">Ulysses</hi> vielleicht »um ein
+                  Meisterwerk handelt«,<note xml:id="fn43">
+                     <p>Vgl. Arthur Schnitzler an Sylvia Beach, Wien am 13.1.1927. In: Briefe II, S.
+                        469f.</p>
+                  </note> bemerkt er am 13. November 1927, dass er den »1. Band Ulysses Joyce zu
+                  Ende« gelesen habe und bemängelt als »Grundirrtum der Conception, dass alle
+                  Gedanken und Eindrücke von dem Denkenden und Empfindenden als gleichwertig gedacht
+                  und empfunden werden«. Am 26. November las er weiter im »Ulysses mit steigender
+                  Ungeduld«, bevor er sich über Tucholskys herabsetzenden Vergleich seiner »winzigen
+                  Versuche« im Inneren Monolog echauffiert.<note xml:id="fn44">
+                     <p>Tgb 28.11.1928.</p>
+                  </note> Erst am</p>
+               <list type="ordered:arabic">
+                  <item n="4">
+                     <p>Januar 1928 setzte er die Lektüre fort, die er am 19. Januar schließlich
+                        beendet, um den Roman als das »ungeheure Missverständnis eines
+                        bewunderungswürdigen Talents« abzuwerten.</p>
+                  </item>
+               </list>
+               <p>Ähnliches gilt für Marcel Proust, der mit dem zweiten Band seiner <hi
+                     rend="italics">Recherche du temps perdu, A l’ombre de jeunes filles
+                     en fleurs,</hi> im Jahre 1919 den Prix Goncourt gewann. Proust wird in der
+                  Leseliste nicht genannt und da er auch im Tagebuch-Register nur namentlich ohne
+                  Werk geführt ist, kommt er auch im Gesamtregister nicht vor. Dabei war Schnitzler
+                  mit dem deutschen Proust-Übersetzer Hans Jacob persönlich gut bekannt, bevor er am
+                  24. April 1924 »begann Proust zu lesen«.<note xml:id="fn45">
+                     <p>Tgb 24.4.1924.</p>
+                  </note> Im Juni 1924 führt er mit Hans Jacob ein Gespräch »über Proust« und liest
+                  »Proust mit wachsendem Interesse«.<note xml:id="fn46">
+                     <p>Vgl. Tgb 1.6.1924, 14.6.1924 und 27.6.1924.</p>
+                  </note></p>
+               <p>Neben dem vorherrschenden Anteil zeitgenössischer Literatur lassen sich anhand der
+                  Leseliste auch inhaltliche geschmackliche Vorlieben oder Indifferenzen erkennen.
+                  Fast komplett fehlen auf der Liste lyrische Texte – eine Gattung, die auch in
+                  Schnitzlers Werk weitgehend fehlt -, während epische Werke klar dominieren. In den
+                  kleineren Nationalliteraturen Polens oder Ungarns sind sogar fast nur epische
+                  Werke verzeichnet. Der Vorrang erzählerischer Werke erstaunt deswegen, weil
+                  Schnitzler sich selbst stark für das Theater interessierte. Diesen einseitigen
+                  Eindruck der Leseliste können das Tagebuch und das Gesamtregister insofern
+                  korrigieren, als dort sehr viele Dramen verzeichnet sind, die Schnitzler freilich
+                  oft nicht lesenderweise, sondern im Theater gesehen und rezipiert hat. Durch diese
+                  Korrektur wird deutlich, dass die Dramatik zwar auf der Leseliste nicht so stark
+                  vertreten ist, wie man annehmen sollte, dass sie für den Autor Schnitzler aber
+                  doch von großer Bedeutung war – aber eben in ihrem eigentlichen Wirkungskreis, dem
+                  Theater.</p>
+               <p>Innerhalb des erzählerischen Genres fällt zudem der relativ große Anteil an
+                  Memoiren, Biographien und Autobiographien auf. Schnitzler scheint sich für das
+                  Leben bedeutender Zeitgenossen, aber auch verstorbener Dichter und Schauspieler
+                  interessiert zu haben und hat sich deshalb ausführlich mit dem Genre der
+                  Biographie im weitesten Sinne, aber auch mit Briefen und historischen
+                  Darstellungen beschäftigt. Dennoch ist gerade hinsichtlich der Sachbuchliteratur
+                  eine große Dunkelziffer anzunehmen. Dass Schnitzler etwa historiographische Werke,
+                  die er für seine historischen Dichtungen konsultierte, keineswegs alle
+                  verzeichnete, zeigt exemplarisch die Entstehungsgeschichte des <hi
+                     rend="italics">Jungen Medardus:</hi> Von den sieben Schriften, die
+                  Schnitzler nachweislich als Quellen seines Dramas dienten, sind nur zwei im
+                  Tagebuch erwähnt, davon ein Titel auch in der Leseliste.<note xml:id="fn47">
+                     <p>Nach freundlicher Auskunft meines Doktoranden Hans Peter Buohler.
+                        Verzeichnet sind in Tagebuch und Lektüreliste [1] die »Mémoires du général
+                        Baron de Marbot« des Jean-Baptiste-Antoine-Marcelin de Marbot (1782–1854)
+                        (vgl. LL F104 sowie Tgb 22.12.1902, 20.11.1908 und 11.6.1911), nur im
+                        Tagebuch genannt ist [2] der zweite Band von Caroline Pichlers (1769–1843)
+                        vierbändigen, 1844 in Wien erschienenen »Denkwürdigkeiten aus meinem Leben«
+                        (Tgb 20.12.1908). Weder in Lektüreliste noch Tagebuch verzeichnet sind
+                        dagegen: [3] Joseph von Hormayr: Wien, seine Geschicke und Denkwürdigkeiten.
+                        Wien 1823–1825, [4] Karl August Schimmer: Die französischen Invasionen in
+                        Österreich und die Franzosen in Wien in den Jahren 1805 und 1809. Wien 1846
+                           [<hi rend="superscript">2</hi>1854], [5] Moriz Bermann: Alt-
+                        und Neu-Wien. Geschichte der Kaiserstadt und ihrer Umgebungen. Wien, Pest
+                        und Leipzig 1880, [6] Friedrich Anton von Schönholz: Traditionen zur
+                        Charakteristik Österreichs, seines Staats- und Volkslebens unter Franz I. 2
+                        Bände. Leipzig 1844 [wieder München 1914 (Denkwürdigkeiten aus
+                        Alt-Österreich 3)] und [7] Georg Weber: Lehrbuch der Weltgeschichte mit
+                        Rücksicht auf Cultur, Literatur und Religionswesen [...]. Bd. 2. Leipzig
+                        1867.</p>
+                  </note></p>
+            </div>
+            <div type="level2" xml:id="schnitzlers-lesegewohnheiten">
+               <head>Schnitzlers Lesegewohnheiten</head>
+               <p>Über Arthur Schnitzlers Lesegewohnheiten und Lektüretechniken sind wir durch das
+                  Tagebuch, die Autobiographie, die Briefe und Interviews recht gut informiert. Sie
+                  dokumentieren eindrücklich, welch leidenschaftlicher Leser Schnitzler war.</p>
+               <p>Im Tagebuch hat er größtenteils seine Lektüren protokolliert, allerdings schwankt
+                  und ändert sich die Verzeichnungstechnik im Laufe der Jahre. Vor allem in der
+                  Frühzeit ist das Tagebuch uneinheitlich, es reicht von ausführlichen, erzählenden
+                  Einträgen bis zu spärlichen Notizen. Für manche Lebensphasen sind die Lektüren
+                  recht genau aufgezeichnet, in anderen, etwa den Jahren 1897 bis 1899, finden sich,
+                  von Theaterbesuchen und Lesungen im Freundeskreis abgesehen, so gut wie keine
+                  Lektürenotizen. In den späteren Jahren werden die Lektürenotate regelmäßiger. Aber
+                  auch wenn Lektüren festgehalten sind, begnügt sich Schnitzler oft damit, den Titel
+                  des Gelesenen zu nennen, Kommentare beschränken sich meist auf allgemeine
+                  Geschmacksurteile.</p>
+               <p>Typisch für Schnitzler ist die <hi rend="italics">Parallellektüre,</hi>
+                  bezeugt etwa durch retrospektive Einträge, die mehrere gleichzeitige Lektüren resümieren.<note xml:id="fn48">
+                     <p>So notiert Schnitzler im Tgb am 9.9.1882, dass er den »Dämon« sowie »Alte
+                        und Neue Zeit« von Jozef Ignacy Kraszewski, »Garman und Worse« von Alexander
+                        Lange Kielland, Hendrik Consciences »Der Rekrut« und Elise Polkos
+                        »Plaudereien« gelesen habe. Polkos <hi rend="italics"
+                           >Plaudereien</hi> sind im Gesamtverzeichnis der Tagebuch-Edition nicht
+                        als Titel verzeichnet.</p>
+                  </note> Deutlicher noch wird das Nebeneinander diverser Lektüren beispielsweise im
+                  Eintrag vom 16. Februar 1913: »Lese: Björnson ›Es flaggen etc.‹ – Rahel-Varnhagen
+                  Briefwechsel, Grillparzer Gespräche, Vehse (Hannover) – Bürger Briefe, etc. –
+                  Havelock Ellis Welt der Träume ausgelesen«.<note xml:id="fn49">
+                     <p>Tgb 6.2.1913.</p>
+                  </note> Die Zusammenstellung zeigt, welch unterschiedliche Texte Schnitzler
+                  gleichzeitig liest: zum einen den Gegenwartsroman des norwegischen Dichters
+                  Björnson <hi rend="italics">Det flager i Byen og paa Havnen</hi>
+                  (1884), der unter dem Titel <hi rend="italics">Es flaggen Stadt und
+                     Hafen</hi> in der fünfbändigen Werkausgabe bei S. Fischer erschienen war,<note xml:id="fn50">
+                     <p>Schnitzler liest den Roman in Band 2 der fünfbändigen deutschen Werkausgabe,
+                        denn die erste deutsche Übersetzung von Bjömsons Roman hatte den Titel <hi
+                           rend="italics">Flaggen über Stadt und Hafen</hi> (1904).</p>
+                  </note> zum andern literarhistorisch bedeutende Werke in relativ aktuellen
+                  Ausgaben: Die mehrbändige Korrespondenz von Rahel und Karl August Varnhagen von
+                  Ense lag seit 1874/75 vor,<note xml:id="fn51">
+                     <p>Briefwechsel zwischen Rahel und Varnhagen. Hg. von Ludmilla Assing. 6 Bde.
+                        Leipzig 1874–1875.</p>
+                  </note> die Gespräche Grillparzers hatte August Sauer gerade ediert,<note xml:id="fn52">
+                     <p>Vgl. Grillparzers Gespräche und die Charakteristiken seiner Persönlichkeit
+                        durch die Zeitgenossen. Hg. von August Sauer. 5 Bde. Wien 1904-1911.</p>
+                  </note> die vierbändige Ausgabe der Briefe Gottfried August Bürgers stammt von 1874.<note xml:id="fn53">
+                     <p>Briefe von und an Gottfried August Bürger. Ein Beitrag zur
+                        Literaturgeschichte seiner Zeit. Hg. von Adolf Strodtmann. 4 Bde. Berlin
+                        1874.</p>
+                  </note> Ergänzt wird diese literarhistorische Reihe durch eine kulturhistorische
+                  Lektüre, ein Werk aus der seinerzeit beliebten Hofgeschichte von Eduard Vehse,<note xml:id="fn54">
+                     <p>Carl Eduard Vehse: Geschichte der deutschen Höfe seit der Reformation. Abth.
+                        III 3: Geschichte der Höfe des Hauses Braunschweig in Deutschland und
+                        England: die Hofhaltungen zu Hannover, London und Braunschweig (Bd. 20).
+                        Hamburg 1853.</p>
+                  </note> und durch ein aktuelles psychologisches Werk, die <hi
+                     rend="italics">Welt der Träume</hi> (1911) des britischen
+                  Sexualforschers Havelock Ellis.<note xml:id="fn55">
+                     <p>Havelock Ellis: Die Welt der Träume [The World of dreams, dt.]. Würzburg
+                        1911.</p>
+                  </note> Ein vergleichbarer Eintrag findet sich am 7. Juni 1921, der an einem
+                  einzigen Tag die Lektüre von sieben verschiedenen Werken verzeichnet: »Las zu Ende
+                  das Wahl’sche Buch Louis Ferdinand, dann Lily Braun: Im Schatten der Titanen; die
+                  Wanderjahre. – Lese u. a. Genee, Shakespeare in Deutschland; Boehn Mode des XVIII.
+                  Jh.; – Stendhal, Rouge et noir (z. 2. M.)«.<note xml:id="fn56">
+                     <p>Tgb 7.6.1921. In der Aufzählung kommen auf vier historische Werke nur zwei
+                        fiktionale Texte: Zwei Biographien (Hans Wahl [Hg.]: Prinz Louis Ferdinand
+                        von Preussen. Briefe, Tagebuch, zeitgenössische Zeugnisse. Weimar 1917, und
+                        Lily Braun: Im Schatten der Titanen. Ein Erinnerungsbuch an Jenny von
+                        Gustedt. Braunschweig 1908) und zwei kulturhistorische Standardwerke
+                        (Rudolph Genee: Geschichte der Shakespeare’schen Dramen in Deutschland.
+                        Leipzig 1870, und Max von Boehn: Die Mode. Menschen und Moden im 18.
+                        Jahrhundert. Nach Bildern und Stichen der Zeit ausgewählt von Oskar Fischei.
+                        München <hi rend="superscript">2</hi>1919) stehen die zwei
+                        Roman-Klassiker gegenüber: Goethes <hi rend="italics">Wilhelm
+                           Meisters Wanderjahre</hi> und Stendhals Roman <hi
+                           rend="italics">Rouge et noir</hi> (letzteren las Schnitzler –
+                        wie er hinzufügt – bereits zum zweiten Mal).</p>
+                  </note> Die Parallelektüre mehrerer Werke, faktualer und fiktionaler Texte,
+                  entspricht als rezeptionsästhetisches Pendant dem produktionsästhetischen
+                  Nebeneinander, dem gleichzeitigen Arbeiten an mehreren Projekten, wie es
+                  Schnitzler praktizierte.</p>
+               <p>Ebenso charakteristisch wie die Parallellektüre ist die <hi
+                     rend="italics">iterative Lektüre.</hi> Einige Titel las Schnitzler
+                  mehrfach. Dazu zählt etwa Gustave Flauberts <hi rend="italics">Madame
+                     Bovary</hi> (F50), die Schnitzler zuerst 1880, unmittelbar nach Flauberts Tod,
+                  wie ein ›Evangelium‹ rezipiert.<note xml:id="fn57">
+                     <p>Tgb 14.5.1880.</p>
+                  </note> 1896 erkundigt er sich bei Marie Reinhard nach deren Lektüre,<note xml:id="fn58">
+                     <p>Brief aus Skodsburg vom 19.8.1896 an Marie Reinhard (»Wie gefällt dir die
+                        Bovary?«); BI, S. 297–299, hier 299, und konstatiert am 23.8.1896 aus Berlin zufrieden
+                           Marie Reinhards »Gefallen an der Mme Bovary«; BI, S. 299–302, hier
+                           302.</p>
+                  </note> liest auf seiner Deutschlandreise 1899 wieder »die Madame Bovary«<note xml:id="fn59">
+                     <p>Brief aus Wiesbaden am 29.9.1899 an Gustav Schwarzkopf: »Gelesen hab ich die
+                        Madame Bovary«; BI, S. 378–380, hier 379.</p>
+                  </note> und führt 1916 ein Literaturgespräch mit Josef Popper (Ps. Lynkeus) über
+                  die <hi rend="italics">Bovary.</hi><note xml:id="fn60">
+                     <p>Tgb 11.1.1916.</p>
+                  </note> Immer wieder neu rezipierte Schnitzler auch Texte Goethes, sowohl durch
+                  Lektüre wie durch Theaterbesuche. Allein in den 17 Monaten von März 1895 bis
+                  August 1896 sah Schnitzler acht Aufführungen von Goethe-Dramen in Wien <hi
+                     rend="italics">(Faust I und II, Götz von Berlichingen, Clavigo</hi>
+                  und <hi rend="italics">Tasso</hi>)<note xml:id="fn61">
+                     <p>Vgl. die Einträge im Tagebuch vom 27.3.1895 (»Faust 2. Theil«), 20.4.1895
+                        (»Bei Götz in der Burg«), 28.8.1895 (»Clavigo und Geschwister«), 2.1.1896
+                        (»Faust im Burgth.«), 23.1.1896 (»Faust II«), 18.4.1896 (»Egmont, Burg.«),
+                        18.5.1896 (»Tasso«), 29.8.1896 (»In Goetz«).</p>
+                  </note> Doch sind auch von einigen erzählenden Schriften Goethes Mehrfachlektüren
+                  festgehalten: So las Schnitzler 1896 <hi rend="italics">Dichtung und
+                     Wahrheit</hi> und fragt sich bei der Relektüre 1908 selbst im Tagebuch, ob »zum
+                  3. oder 4. ? Mal«; als er 1914 sowie 1919 <hi rend="italics">Dichtung
+                     und Wahrheit</hi> erneut wiederliest, mutmaßt er allerdings wieder jeweils »zum
+                  3. Mal«, bevor er Goethes Autobiographie 1920 ein letztes Mal liest.<note xml:id="fn62">
+                     <p>Vgl. Tgb 22.8.1896 und 29.8.1896 sowie die Briefe an Marie Reinhard vom 13.
+                        und 14.8.1896 aus Skodsburg (BI, S. 292–297) und vom 23.8.1896 aus Berlin
+                        (BI, S. 299–302, hier 301 [»Auf der Fahrt gestern las ich Dichtung u
+                        Wahrheit zu Ende«]), dann 30.6.1908, 18.7.1908 und 12.9.1908, sowie
+                        18.7.1914 (»Beginne [zum 3. Mal] Wahrheit und Dichtung zu lesen«), 16.8.1914
+                        und 10.9.1914 (»Las Nm. Wahrheit und Dichtung [zum 3mal] zu Ende«), die
+                        Tagebuch-Einträge vom 25.3.1920 (»N.d.N. las ich Dichtung und Wahrheit
+                        weiter«), 7.4.1920, 15.5.1920 (»im Bett Dichtung und Wahrheit«), 13.6.1920
+                        und 1.7.1920 (»Las Dichtung und Wahrheit wieder einmal zu Ende«).</p>
+                  </note> 1905 und 1920 beschäftigte sich Schnitzler mit Goethes Briefwechsel mit
+                  dem Weltmann Karl Friedrich Reinhard,<note xml:id="fn63">
+                     <p>Vgl. die Einträge in Tgb vom 31.12.1904 (»Begann Briefe Reinhard – Goethe«),
+                        3.8.1905, 21.8.1905 und 9.9.1905 (»Ausgelesen: Goethe – Reinhard«).</p>
+                  </note> und als er 1920 die Lektüre von <hi rend="italics">Wilhelm
+                     Meisters Lehrjahren</hi> festhält, notiert er: »zum 3. oder 4. Mal«.<note xml:id="fn64">
+                     <p>Vgl. Tgb 6.10.1920.</p>
+                  </note></p>
+            </div>
+            <div type="level2"
+               xml:id="schnitzler-als-leser-im-bild-die-bibliothek-des-dichters-in-zeitgenössischen-photographien">
+               <head>Schnitzler als Leser im Bild: die Bibliothek des Dichters in zeitgenössischen
+                  Photographien</head>
+               <p>Auch wenn Schnitzler gerne im Garten oder im Zug während seiner zahlreichen
+                  Bahnreisen las, ist die Bibliothek und sein Arbeitszimmer sein bevorzugter
+                  Lektüreort. Schnitzler inszenierte sich auch öffentlich in seiner Bibliothek und
+                  als Leser. So präsentieren ihn frühe Aufnahmen der Berliner Photographin Aura
+                  Hertwig als Leser.<note xml:id="fn65">
+                     <p>Die Aufnahmen im Atelier von Aura Hertwig notiert Schnitzler im Tgb
+                        9.3.1903, 16.2.1904, 25.11.1905 (»Bei der Hertwig, mich photographiren
+                        lassen. (Wohnt in dem gleichen Haus wie Liesl.)«. Am 19.3.1906
+                        photographierte Hertwig den Dichter in seinem Haus (»Mtg. Fr. Hertwig da,
+                        welche uns photographirte«).</p>
+                  </note> Wie sehr Schnitzler etwa Gerhart Hauptmann verehrte, dokumentiert ihr
+                  Porträt-Photo aus dem Jahre 1905 (Abb. 14). Es präsentiert Schnitzler in lässiger
+                  Haltung mit übereinandergeschlagenen Beinen auf einem historistisch dekorierten
+                  Stuhl vor einem Photo an der Wand, das Gerhart Hauptmann in entgegengesetztem
+                  Profil zeigt.<note xml:id="fn66">
+                     <p>Vgl. zu Schnitzlers problematischem Verhältnis zu Hauptmann zuletzt Nikolaj
+                        Beier: »Vor allem bin ich ich ...«.Judentum, Akkulturation und
+                        Antisemitismus in Arthur Schnitzlers Leben und Werk. Göttingen 2008, hier S.
+                        192f.</p>
+                  </note> Eine weitere Aufnahme von 1905 zeigt Schnitzler, auf einem Armlehnstuhl
+                  sitzend, dem Betrachter zugewandt, mit einem großen Buch in Händen vor einer
+                  Bücherwand, die wie eine Arbeitsbibliothek wirkt (Abb. 15).<note xml:id="fn67">
+                     <p>Arthur Schnitzler in seiner Bibliothek. Photographie von Aura Hertwig. 1905.
+                        DLA Marbach B 6258/67.</p>
+                  </note> Kurz danach porträtiert Aura Hertwig in einer halbnahen Aufnahme den
+                  Dichter in einem Ledersessel sitzend, mit einem offenen Buch oder gebundenen
+                  Manuskript im Schoß und einem Papiermesser in der geschlossenen rechten Hand. Eine
+                  Bücherwand im Hintergrund zeigt, dass der Dichter auch Leser ist. Diese Aufnahme,
+                  die Schreiben und Lesen augenfällig kombiniert, fand wohl die ausdrückliche
+                  Zustimmung des Dichters, der davon Ansichtskarten drucken ließ (Abb. 16).<note xml:id="fn68">
+                     <p>Arthur Schnitzler, lesend und schreibend in mittleren Jahren. Photographie
+                        von Aura Hertwig, ÖNB, Pf 4719:C (1).</p>
+                  </note> In einer Aufnahme aus dem Jahre 1926 zeigt Ilse Ross in einer halbtotalen
+                  Einstellung den Dichter, der sich an sein Bücherregal lehnt (Abb. 17).<note xml:id="fn69">
+                     <p>Ilse Ross: Arthur Schnitzler in seiner Wohnung Sternwartestraße 71.
+                        4.11.1926. ÖNB, AS Album 3,6. Vgl. dazu Tgb 4.11.1926 (»Vm. Frl. Ilse Ross;
+                        photografirt mich für Ullstein«), 6.11.1926 (Vm. bringt Frl. Ross die
+                        wohlgelungenen Probedrucke«) und 23.11.1926 (»Vm. Frl. Ilse Ross, brachte
+                        mir meine Photographien in einem Album; zeigt ihr allerlei andre
+                        Aufnahmen«).</p>
+                  </note></p>
+               <p>Wie eng Rezeption und Produktion Zusammenhängen, illustrieren Schnitzlers
+                  photographische Selbstinszenierungen in seiner Bibliothek und in seinem
+                  Arbeitszimmer. Bereits sein Arbeitszimmer in der Frankgasse 1, wo Schnitzler nach
+                  dem Tod seines Vaters gemeinsam mit seiner Mutter zwei getrennte Wohnungen bezogen
+                  hatte, bekundet seine Goethe-Verehrung. So zeigt ihn eine Aufnahme des
+                  Hofphotographen Anton Huber, die anlässlich der »Erstaufführung des Einactercyklus
+                  ›Lebendige Stunden‹« am 4. Januar 1902 publiziert wurde, vor einer Reihe von
+                  Antiken-Repliken und -Fotografien, hinter einer verkleinerten Nachbildung der
+                  berühmten Goethe-Büste von Christian Daniel Rauch (Abb. 18).<note xml:id="fn70">
+                     <p>Anton Paul Huber (1852–1936) eröffnete 1881 sein erstes Atelier, dem nach
+                        1880 noch einige Filialen folgen sollten. Seit 1898 mit dem Titel eines
+                        Hofphotographen ausgezeichnet, wurde er bekannt als Photograph von Manövem
+                        und militärischen Veranstaltungen. Vgl. Walter Koschatzky: Geschichte der
+                        Fotografie in Österreich. 2 Bde. Bad Ischl 1983, hier Bd. 2, S. 130. Die
+                        Goethe-Statuette von Christian Daniel Rauch 1828. Vgl. Goethe in der
+                        Plastik. Signet. Verlag Alt-Weimar, Weimar. Poststempel: 9.5.37. – Wahl, Nr.
+                        71. Wahl / Kippenberg, S. 206.</p>
+                  </note> In späteren Aufnahmen seiner Bibliothek und seines Arbeitszimmers in der
+                  Sternwartestraße 71, wo Schnitzler mit seiner Familie seit 1910 bis zu seinem Tod
+                  lebte, ist seine Goethe-Verehrung noch augenfälliger. In späten Aufnahmen schmückt
+                  die Wand hinter dem Stehpult neben zwei beliebten Silhouetten – sie stellen Goethe
+                  mit Fritz von Stein (1783) und Goethe vor einer Büste (um 1780) dar – und diversen
+                  faksimilierten Autographen eine Photographie des Gelben Salons im Haus am
+                  Frauenplan. Überdies ziert die Replik einer Goethe-Statuette nach Christian Daniel
+                  Rauchs bekannter Plastik das Pult (Abb. 19).<note xml:id="fn71">
+                     <p>Anon. Großaufnahme von Schnitzlers Arbeitszimmer. DLA Marbach 11068/2.</p>
+                  </note> Noch eine Zeichnung aus Schnitzlers Todesjahr 1931 präsentiert den Dichter
+                  lesend hinter dem Stehpult (Abb. 20).<note xml:id="fn72">
+                     <p>Arthur Grimm: Arthur Schnitzler liest. In: Querschnitt 11 (1931), S.
+                        587.</p>
+                  </note> Wie die Inszenierungen des Dichters in zeitgenössischen Photographien
+                  zeigen, ist Schnitzlers Bibliothek aber nicht nur in rezeptionsästhetischer
+                  Hinsicht aufschlussreich.</p>
+            </div>
+            <div type="level2"
+               xml:id="der-leser-als-dichter-der-produktionsästhetische-aspekt-der-leseliste-und-virtuellen-bibliothek">
+               <head>Der Leser als Dichter: der produktionsästhetische Aspekt der ›Leseliste‹ und
+                  virtuellen Bibliothek</head>
+               <p>Schnitzler war nicht nur ein großer Leser, er nutzte die Bibliothek auch
+                  ausdrücklich als Inspirationsraum, wie er in einem Interview von 1930 mit George
+                  Sylvester Viereck bekundet. Auf dessen Frage, ob er »im Freien« arbeite,
+                  antwortete Schnitzler: »Nein [...] mir kommen die Gedanken am leichtesten in
+                  meiner Bücherei«.<note xml:id="fn73">
+                     <p>Zit. nach George Sylvester Viereck: Die Welt Arthur Schnitzlers (Interview).
+                        In: Arthur Schnitzler (1862–1931). Materialien zur Ausstellung der Wiener
+                        Festwochen 1981. Hg. vom Arthur-Schnitzler-Institut Wien, zusammengestellt
+                        von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik, Walter
+                        Ruprechter und Reinhard Urbach. Wien 1981, S. 19–23, hier 23.</p>
+                  </note></p>
+               <p>Seit seiner Jugend diente Schnitzler die Lektüre als Spiegel seines Seelenzustands
+                  und als Anregung zu eigenen literarischen Arbeiten. So verwundert es nicht, dass
+                  er im Sommer 1881, in einer Krise seines Studiums und Lebens, sich
+                  identifikatorisch mit Ludwig Börnes kritischen Reisebriefen aus Paris beschäftigt:
+                  »Lese jetzt Börnes Briefe aus Paris. Regen mich sehr an«.<note xml:id="fn74">
+                     <p>Tgb 30.8.1881.</p>
+                  </note> Hatte er schon ein Jahr zuvor seinen Ennui und Lebensekel bei Börne
+                  gestärkt, so bekunden die Sätze, welche die Lektüre-Notiz rahmen, erneut den
+                  inzitierenden Ich-Bezug durch Börne: »Muss halt weiterdämmern [...] – Sonst
+                  langweile ich mich. Noch dazu auf gar keine angenehme Weise«.<note xml:id="fn75">
+                     <p>Tgb 22.8.1881 und 30.8.1881. Um die Nähe der Börne-Briefe zu diesem
+                        Lebensgefühl zu illustrieren, sei eine repräsentative Passage aus der Reise
+                        nach Paris zitiert: »Ich sitze ohne Teilnahme im Wagen, stumm wie ein
+                        Staatsgefangener in Ostreich und taub wie das Gewissen eines Königs. In der
+                        Jugend bemerkt man mehr die Verschiedenheiten der Menschen und Länder, und
+                        das eine Licht gibt tausend Farben, im Alter mehr die Ähnlichkeiten, alles
+                        ist grau, und man schläft leicht dabei ein. Ich kann jetzt einen ganzen Tag
+                        reisen, ohne an etwas zu denken« (Ludwig Börne: Briefe aus Paris, Vierter
+                        Brief. In: L. B.: Sämtliche Schriften. Hg. von Inge und Peter Rippmann. Bd.
+                        3. Darmstadt und Düsseldorf 1964, S. 16).</p>
+                  </note></p>
+               <p>Zu einem ähnlichen Dialog ›angeregt‹ fühlt sich Schnitzler auch, nachdem er den
+                  Roman <hi rend="italics">Was tun</hi> (<hi rend="italics"
+                     >Čto delat’?)</hi> des russischen Sozialphilosophen Nikolai Gavrilovic
+                  Cernysevskij (1828–1889) gelesen hat, »der mich lebhaft anregte. Socialistische
+                  Probleme; etwas utopistisch aufgefasst. Ein sonderbarer Nihilismus der von ›neuen
+                  Menschen‹ träumt. Meiner Ansicht nach sind die Menschen, die der Autor so gerne
+                  als ›neue Menschen‹ darstellen möchte, zu jeder Zeit dagewesen – aber es wird nie
+                  die Zeit kommen, wo die Mehrzahl aus solchen ›neuen Menschen‹ besteht«.<note xml:id="fn76">
+                     <p>Tgb 11.10.1883 und LL R31 (vermutlich las Schnitzler die gerade erschienene
+                        deutsche Übersetzung [Leipzig 1883]). Unter demselben Datum verweist
+                        Schnitzler auf den literarischen Stoff »Menschenliebe«, an dem
+                        weiterzuarbeiten er sich wegen seines Medizinstudiums verbietet.</p>
+                  </note></p>
+               <p>Größte Bedeutung erlangt die Leseliste aus intertextueller Sicht: Schnitzler hat
+                  nachweislich in einigen Fällen strukturell oder onomastisch markierte
+                  intertextuelle Bezüge zu Werken seiner Zeit, aber auch der Vergangenheit
+                  hergestellt (etwa in <hi rend="italics">Die Toten schweigen</hi> zu
+                  Gustave Flauberts <hi rend="italics">Madame Bovary</hi> oder in <hi
+                     rend="italics">Die Nächste</hi> zu George Rodenbachs <hi
+                     rend="italics">Bruges-la-morte</hi>)<note xml:id="fn77">
+                     <p>Vgl. den Forschungsüberblick in meiner Studie: Arthur Schnitzlers
+                        intertextuelles Erzählen. Berlin und Boston 2013.</p>
+                  </note> Bei nicht markierten, aber eindeutig nachweisbaren intertextuellen Bezügen
+                  ermöglicht es die Leseliste, ein weiteres Indiz für die angenommene
+                  Intertextualität hinzuzufügen. So lässt sich ein mutmaßlicher intertextueller
+                  Bezug der <hi rend="italics">Kleinen Komödie</hi> zu Paul Hervieus kurz
+                  zuvor erschienenem Roman <hi rend="italics">Peints par eux-mêmes</hi>
+                  (F71) ebenso erhärten wie die Annahme, Guy de Maupassants <hi
+                     rend="italics">Horla</hi> (F107) sei der maßgebliche Prätext für die
+                     <hi rend="italics">Flucht in die Finsternis.</hi> Auch
+                  intertextuelle Bezüge von Alphons Daudets <hi rend="italics">Sapho</hi>
+                  (F37) und Fedor Dostoevskijs <hi rend="italics">Spieler</hi> zum <hi
+                     rend="italics">Spiel im Morgengrauen</hi> lassen sich auf diese
+                  Weise empirisch validieren – um weitere Beispiele zu nennen, welchen sich
+                  nachzugehen lohnte. Allerdings trifft der Umkehrschluss nicht zu: Auch wenn ein
+                  Titel nicht auf der Leseliste verzeichnet ist, kann Schnitzler das Werk durchaus
+                  gekannt haben. Dies gilt nicht nur für die faktuale Literatur wie
+                  historiographische und medizinische Darstellungen, die er in seinen Werken
+                  verarbeitet hat.</p>
+               <p>Iwan Blochs unter dem Pseudonym Gerhard von Welsenburg veröffentlichte
+                  sexualgeschichtliche Abhandlung über <hi rend="italics">Das Versehen
+                     der Frauen in Vergangenheit und Gegenwart</hi> (1899), der entscheidende
+                  Prätext für <hi rend="italics">Andreas Thameyers letzten Brief,</hi>
+                  befand sich in Schnitzlers Bibliothek, ohne dass es aber in Leseliste oder
+                  Tagebuch verzeichnet wäre.<note xml:id="fn78">
+                     <p>Vgl. den Hinweis bei Reinhard Urbach: Schnitzler-Kommentar zu den
+                        erzählenden Schriften und dramatischen Werken. München 1974, S. 111.</p>
+                  </note> Aber auch Matthias Claudius taucht weder in Leseliste noch Tagebuch auf,
+                  obgleich ihm Schnitzler den Titel seiner Erzählung <hi rend="italics"
+                     >Wohltaten, still und rein gegeben</hi> abgeborgt hat.<note xml:id="fn79">
+                     <p>Vgl. Hans-Albrecht Koch: Ein Matthias-Claudius-Zitat bei Arthur Schnitzler.
+                        In: Germanisch-Romanische Monatsschrift N.F. 22 (1972), S. 435f.</p>
+                  </note> Doch können solche vereinzelten Fehlanzeigen den Wert der Leseliste und
+                  der virtuellen Bibliothek kaum schmälern, die künftig ein wichtiges Hilfsmittel
+                  der Schnitzler-Forschung sein möge.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -24,7 +24,9 @@
                                 <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Zum Projekt</a>
+                                        <a title="Schnitzler-Lektueren" href="about.html" class="nav-link">Zum Projekt</a>
+                                        <a title="Schnitzler-Lektueren" href="vorwort.html" class="nav-link">Vorwort</a>
+                                        <a title="Schnitzler-Lektueren" href="einleitung.html" class="nav-link">Einleitung</a>
                                     </li>
                                 </ul>                                
                             </li>
