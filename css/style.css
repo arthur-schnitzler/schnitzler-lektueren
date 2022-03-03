@@ -303,3 +303,96 @@ span.autorname::before {
   height: 120px; /* fixed header height*/
   margin: -120px 0 0; /* negative fixed header height */
 }
+
+head {
+     font-size: 120%;
+}
+.lebensdaten{
+    font-size:60%
+}
+
+a.wikipedia-button {
+    display: inline-block;;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: .25rem 1.25rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: black;
+    max-width: 10rem;
+    transition: background-color ease .2s,color ease .2s;
+}
+
+a.PMB-button {
+    display: inline-block;;
+    background-color: #fff;
+    border: 1px solid #9B5F98;
+    border-radius: 20px;
+    padding: .25rem 1.25rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #9B5F98;
+    max-width: 10rem;
+    transition: background-color ease .2s,color ease .2s;
+}
+
+a.briefe-button {
+    display: inline-block;;
+    background-color: #fff;
+    border: 1px solid #A63437;
+    border-radius: 20px;
+    padding: .25rem 1.25rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #A63437;
+    max-width: 10rem;
+    transition: background-color ease .2s,color ease .2s;
+}
+
+a.leseliste-button {
+    display: inline-block;;
+    background-color: #fff;
+    border: 1px solid #022954;
+    border-radius: 20px;
+    padding: .25rem 1.25rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #022954;
+    max-width: 10rem;
+    transition: background-color ease .2s,color ease .2s;
+}
+
+a.tagebuch-button {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #037a33;
+    border-radius: 20px;
+    padding: .25rem 1.25rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #037a33;
+    max-width: 10rem;
+    transition: background-color ease .2s,color ease .2s;
+}
+
+a.bahrschnitzler-button {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: .25rem 1.25rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: orange;
+    max-width: 10rem;
+    transition: background-color ease .2s,color ease .2s;
+}
+
+.button-group {
+         display: flex;
+      }
+      .button-group button {
+         font-size: 4rem;
+         border: 0;
+      }
