@@ -5,17 +5,16 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xsl tei xs" version="2.0">
     <xsl:template match="/" name="nav_bar">
-        <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" >
+        <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
             <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
             <nav class="navbar navbar-expand-lg navbar-light">
-                <!-- Your site title as branding in the menu -->
-                <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
-                    <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo"/>
-                </a><!-- end custom logo -->
                 <div class="container-fluid">
-                    <!--<span style="margin-left:-1.7em;" class="badge bg-light text-dark">in Entstehung</span>-->
+                    <!-- Your site title as branding in the menu -->
+                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
+                        <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo"/>
+                    </a><!-- end custom logo -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"/>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <!-- Your menu goes here -->
@@ -48,6 +47,15 @@
                                 </ul>                                
                             </li>                            
                             <li class="nav-item"><a title="Inhalt" href="toc.html" class="nav-link">Inhalt</a></li>
+                            <li class="nav-item dropdown">
+                                <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Links <span class="caret"></span></a>
+                                <ul class=" dropdown-menu" role="menu">
+                                    <li class="nav-item dropdown-submenu"><a title="Links" href="http://portal.uni-freiburg.de/ndl/personen/achimaurnhammer/schnitzlerarchiv.html/startseite" class="nav-link">Arthur-Schnitzler-Archiv</a></li>
+                            <li class="nav-item dropdown-submenu">
+                                <a title="Links" href="https://schnitzler.acdh.oeaw.ac.at" class="nav-link">Schnitzler am ACDH-CH</a></li></ul></li>
+                            
+                            
+                            
                         </ul>                        
                         <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Suche" value="" autocomplete="off" />

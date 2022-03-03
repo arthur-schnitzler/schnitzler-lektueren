@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://www.tei-c.org/ns/1.0"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 schnitzler-lektuere_schema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzlers Lektüren: Leseliste und virtuelle Bibliothek</title>
+            <title level="a">Leseliste – 04. Spanien</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Achim Aurnhammer</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</orgName>
+               <address>
+                  <addrLine>Sonnenfelsgasse 19</addrLine>
+                  <addrLine>1010 Vienna</addrLine>
+               </address>
+            </publisher>
+            <publisher>
+               <orgName>Ergon Verlag</orgName>
+            </publisher>
+            <pubPlace ref="https://www.geonames.org/2805615/wuerzburg.html">Würzburg</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false" status="draft">
+               <monogr>
+                  <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
+                     Bibliothek</title>
+                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <editor role="hrsg">
+                     <persName>
+                        <forename>Achim</forename>
+                        <surname>Aurnhammer</surname>
+                     </persName>
+                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs
+                                    Freiburg</orgName>
+                     </affiliation>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <orgName>Ergon</orgName>
+                     </publisher>
+                     <pubPlace>
+                        <placeName>Würzburg</placeName>
+                     </pubPlace>
+                     <date when="2013">2013</date>
+                  </imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">134–135</biblScope>
+                  <extent>
+                     <measure type="pages">2</measure>
+                  </extent>
+               </monogr>
+               <series>
+                  <title level="s">Akten des Arthur Schnitzler-Archivs der Universität
+                     Freiburg</title>
+                  <editor role="hrsg">
+                     <orgName>Arthur Schnitzler-Archiv Freiburg</orgName>
+                  </editor>
+                  <biblScope unit="volume">Band 2</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="liste_E">
+            <head>
+               <hi rend="manual">Spanien</hi>
+            </head>
+            <div xml:id="div_E1">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E1"/>Alarcon .... Segovia /
+                  Dreispitz</p>
+               <note xml:id="ad_E1_1">
+                  <listPerson>
+                     <person xml:id="pmb65018">
+                        <persName>Juan Ruiz de Alarcón</persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <note xml:id="ad_E1_2">
+                  <listPerson>
+                     <person xml:id="pmb5944">
+                        <persName>Pedro Antonio de Alarcón y Ariza</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E2">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E2"/>Calderon .... Belsazar / Leben
+                  Traum.. / Gomez / Stilles wasser / Zalamea / Andacht / Zwischenspiele</p>
+               <note xml:id="ad_E2">
+                  <listPerson>
+                     <person xml:id="pmb11068">
+                        <persName>Pedro Calderón de la Barca</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E3">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E3"/>Cervantes</p>
+               <note xml:id="ad_E3">
+                  <listPerson>
+                     <person xml:id="pmb2980">
+                        <persName>Miguel de Cervantes Saavedra</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E4">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E4"/>Echegarai .. Wahnsinn oder <hi
+                     rend="manual">H</hi>eiligkeit / lustiges Leben / <hi rend="manual">schlimme
+                     Erbschaft</hi>
+               </p>
+               <note xml:id="ad_E4">
+                  <listPerson>
+                     <person xml:id="pmb15626">
+                        <persName>José Echegaray</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E5">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E5"/>Lope ..... Vamba / Blumen des Don
+                  Juan / Faccardo / Toledanerin / Colombo / Di ... Verschmähte Schöne / Kerker von
+                  Sevilla / Pont. / Alfarasa / Schädenheiler <supplied>/</supplied> Hexe / Raub der
+                  Helena / Halsabschneider</p>
+               <note xml:id="ad_E5">
+                  <listPerson>
+                     <person xml:id="pmb10332">
+                        <persName>Lope Felix de Vega Carpio</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E6">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E6"/> Moreto ... Diana /
+                  Gerichtsherr</p>
+               <note xml:id="ad_E6">
+                  <listPerson>
+                     <person xml:id="pmb65019">
+                        <persName>Augustín Moreto Y Cavana</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E7">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E7"/>Mendoza ... Lazarus</p>
+               <note xml:id="ad_E7">
+                  <listPerson>
+                     <person xml:id="pmb65020">
+                        <persName>Diego Hurtado de Mendoza</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E8">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E8"/> Telez ... Der Fäher von Sevilla /
+                  Marta.</p>
+               <note xml:id="ad_E8">
+                  <listPerson>
+                     <person xml:id="pmb65021">
+                        <persName>Tirso De Molina</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E9">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E9"/> Valera ... Faustina / Simenez </p>
+               <note xml:id="ad_E9">
+                  <listPerson>
+                     <person xml:id="pmb65022">
+                        <persName>Juan Valera Y Alcala Galiano</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_E10">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="E10"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Queiros</hi> Reliquie.</hi>
+               </p>
+               <note xml:id="ad_E10">
+                  <listPerson>
+                     <person xml:id="pmb65023">
+                        <persName>José Maria Eca de Queiros</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+         </div>
+         
+         
+         
+         
+         
+         
+         
+      </body>
+   </text>
+</TEI>

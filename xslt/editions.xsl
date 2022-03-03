@@ -194,7 +194,7 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:note[parent::tei:div[starts-with(@xml:id, 'div')]]">
+    <xsl:template match="tei:note[parent::tei:div[starts-with(@xml:id, 'div_')]]">
         <xsl:choose>
             <xsl:when test="count(preceding-sibling::tei:note) &gt; 0">
                 <div class="grid-child-element edierterText"/>
@@ -211,55 +211,32 @@
                     </b>
                     <ul class="arrow">
                         <xsl:for-each select="tei:listPerson/tei:person">
-                            <li><span class="autorname">
-                                <a href="{concat(./@xml:id, '.html')}">
-                                    
-                                        <xsl:attribute name="id">
-                                            <xsl:value-of select="./@xml:id"/>
-                                        </xsl:attribute>
-                                    <xsl:choose>
-                                        <xsl:when test="./tei:persName[1]/tei:forename">
-                                            <xsl:apply-templates select="./tei:persName[1]/tei:forename"/>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates select="./tei:persName[1]/tei:surname"/>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:apply-templates select="./tei:persName[1]/tei:surname"/>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                   
-                                </a></span>
-                            </li>
+                            <li>
+                                <a href="{concat(./@xml:id, '.html')}" id="{./@xml:id}">
+                                    <span style="font-variant: small-caps;"><xsl:value-of select="normalize-space(.)"/></span>
+                                </a></li>
                         </xsl:for-each>
                     </ul>
                 </xsl:when>
-                <xsl:otherwise>
+                <xsl:when test="tei:listPerson/tei:person">
                     <span class="autorname" id="{tei:listPerson/tei:person/@xml:id}"><b>
                         <xsl:text>[</xsl:text>
                         <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
                         <xsl:text>] </xsl:text>
                     </b>
-                    
-                    <xsl:text>&#8594;</xsl:text>
-                    <a href="{concat(tei:listPerson/tei:person/@xml:id, '.html')}">
-                        <xsl:variable name="person" select="tei:listPerson/tei:person/tei:persName[1]"/>
-                        
-                        <xsl:choose>
-                            <xsl:when test="$person/tei:forename">
-                                
-                                <xsl:apply-templates select="$person/tei:forename"/>
-                                <xsl:text> </xsl:text>
-                                <xsl:apply-templates select="$person/tei:surname"/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:apply-templates select="$person/tei:surname"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        
+                    <xsl:text>&#8594;</xsl:text><a href="{concat(tei:listPerson/tei:person/@xml:id, '.html')}">
+                        <xsl:value-of select="normalize-space(tei:listPerson/tei:person/tei:persName/text())"/>
                     </a></span>
-                </xsl:otherwise>
+                </xsl:when>
+                <xsl:when test="tei:note">
+                    <b>
+                        <xsl:text>[</xsl:text>
+                        <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
+                        <xsl:text>] </xsl:text>
+                    </b><xsl:text> </xsl:text><xsl:apply-templates select="tei:note"/>
+                </xsl:when>
             </xsl:choose>
-            <xsl:if test="tei:note">
+            <xsl:if test="tei:note and tei:listPerson">
                 <br/>
                 <xsl:apply-templates select="tei:note"/>
             </xsl:if>
@@ -271,6 +248,7 @@
         <xsl:apply-templates/>
         <xsl:text>]</xsl:text>
     </xsl:template>
+    
     <xsl:template match="tei:div[starts-with(@type, 'liste')]">
         <xsl:apply-templates select="tei:head"/>
         <div class="grid-container-element">
