@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://www.tei-c.org/ns/1.0"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 schnitzler-lektuere_schema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzlers Lektüren: Leseliste und virtuelle Bibliothek</title>
+            <title level="a">Leseliste – 06. Ungarn.. etc.</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Achim Aurnhammer</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</orgName>
+               <address>
+                  <addrLine>Sonnenfelsgasse 19</addrLine>
+                  <addrLine>1010 Vienna</addrLine>
+               </address>
+            </publisher>
+            <publisher>
+               <orgName>Ergon Verlag</orgName>
+            </publisher>
+            <pubPlace ref="https://www.geonames.org/2805615/wuerzburg.html">Würzburg</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false" status="draft">
+               <monogr>
+                  <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
+                     Bibliothek</title>
+                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <editor role="hrsg">
+                     <persName>
+                        <forename>Achim</forename>
+                        <surname>Aurnhammer</surname>
+                     </persName>
+                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs
+                                    Freiburg</orgName>
+                     </affiliation>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <orgName>Ergon</orgName>
+                     </publisher>
+                     <pubPlace>
+                        <placeName>Würzburg</placeName>
+                     </pubPlace>
+                     <date when="2013">2013</date>
+                  </imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">142–143</biblScope>
+                  <extent>
+                     <measure type="pages">2</measure>
+                  </extent>
+               </monogr>
+               <series>
+                  <title level="s">Akten des Arthur Schnitzler-Archivs der Universität
+                     Freiburg</title>
+                  <editor role="hrsg">
+                     <orgName>Arthur Schnitzler-Archiv Freiburg</orgName>
+                  </editor>
+                  <biblScope unit="volume">Band 2</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         
+         <div type="liste_U">
+            <head>
+               <hi rend="manual">Ungarn.. etc.</hi>
+            </head>
+            <div xml:id="div_U1">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U1"/>
+                  <hi rend="manual">Biro ....</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Flirt /</hi>
+               </p>
+               <note xml:id="ad_U1">
+                  <listPerson>
+                     <person xml:id="pmb14239">
+                        <persName>Ludwig Biró</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_U2">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U2"/>Drügaski ... Kroatische
+                  Novellen</p>
+               <note xml:id="ad_U2">
+                  <note>nicht ermittelt</note>
+               </note>
+            </div>
+            <div xml:id="div_U3">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U3"/>
+                  <hi rend="manual">Eet</hi>vos ... Dorfnotar</p>
+               <note xml:id="ad_U3">
+                  <listPerson>
+                     <person xml:id="pmb65051">
+                        <persName>Baron Jozsef Eötvös</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_U4">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U4"/>
+                  <hi rend="manual">Hegedues</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">..</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Morde /</hi>
+               </p>
+               <note xml:id="ad_U4">
+                  <listPerson>
+                     <person xml:id="pmb65052">
+                        <persName>Sandor von Hegedues</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_U5">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U5"/>Herczeg ... Sumpfblume /</p>
+               <note xml:id="ad_U5">
+                  <listPerson>
+                     <person xml:id="pmb65053">
+                        <persName>Franz Herczeg</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_U6">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U6"/>Jokai .... Gef. in den S sieben T.
+                  / Goldmensch / Traurige Tage / Andre Zeiten / die nur einmal lieben / schwarze
+                  Diamanten / mein D. / Polnische Geschichten / Sklavin / Fred / Bajadere</p>
+               <note xml:id="ad_U6">
+                  <listPerson>
+                     <person xml:id="pmb18956">
+                        <persName>Maurus Jókai</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_U7">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U7"/>
+                  <hi rend="manual">Miszkath ..</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Regenschirm /</hi>
+               </p>
+               <note xml:id="ad_U7">
+                  <listPerson>
+                     <person xml:id="pmb65054">
+                        <persName>Kálmán Mikszáth</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_U8">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U8"/>
+                  <hi rend="manual">Molnar ...</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Zuckerbäcker Krone /</hi>
+               </p>
+               <note xml:id="ad_U8">
+                  <listPerson>
+                     <person xml:id="pmb21558">
+                        <persName>Ferenc Molnár</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_U9">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U9"/> Petöfi ... Strick</p>
+               <note xml:id="ad_U9">
+                  <listPerson>
+                     <person xml:id="pmb22480">
+                        <persName>Sándor Petőfi</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_U10">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="U10"/>
+                  <hi rend="manual">Konod .. Brand d Leidensch</hi>.</p>
+               <note xml:id="ad_U10">
+                  <note>nicht ermittelt; vielleicht Verwechslung mit D468</note>
+               </note>
+            </div>
+         </div>
+       
+      </body>
+   </text>
+</TEI>

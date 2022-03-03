@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://www.tei-c.org/ns/1.0"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 schnitzler-lektuere_schema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzlers Lektüren: Leseliste und virtuelle Bibliothek</title>
+            <title level="a">Leseliste – 09. Russland</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Achim Aurnhammer</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</orgName>
+               <address>
+                  <addrLine>Sonnenfelsgasse 19</addrLine>
+                  <addrLine>1010 Vienna</addrLine>
+               </address>
+            </publisher>
+            <publisher>
+               <orgName>Ergon Verlag</orgName>
+            </publisher>
+            <pubPlace ref="https://www.geonames.org/2805615/wuerzburg.html">Würzburg</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false" status="draft">
+               <monogr>
+                  <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
+                     Bibliothek</title>
+                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <editor role="hrsg">
+                     <persName>
+                        <forename>Achim</forename>
+                        <surname>Aurnhammer</surname>
+                     </persName>
+                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs
+                                    Freiburg</orgName>
+                     </affiliation>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <orgName>Ergon</orgName>
+                     </publisher>
+                     <pubPlace>
+                        <placeName>Würzburg</placeName>
+                     </pubPlace>
+                     <date when="2013">2013</date>
+                  </imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">153–161</biblScope>
+                  <extent>
+                     <measure type="pages">8</measure>
+                  </extent>
+               </monogr>
+               <series>
+                  <title level="s">Akten des Arthur Schnitzler-Archivs der Universität
+                     Freiburg</title>
+                  <editor role="hrsg">
+                     <orgName>Arthur Schnitzler-Archiv Freiburg</orgName>
+                  </editor>
+                  <biblScope unit="volume">Band 2</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <div type="liste_R">
+            <head>
+               <hi rend="manual">Russland.</hi>
+            </head>
+            <div xml:id="div_R1">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R1"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Andrejew</hi> ... d Gedanke /</hi>
+               </p>
+               <note xml:id="ad_R1">
+                  <listPerson>
+                     <person xml:id="pmb28321">
+                        <persName>Leonid Nikolaevič Andreev</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R2">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R2"/>
+                  <hi rend="underline">Baranzewitez</hi> .... Sklavin /</p>
+               <note xml:id="ad_R2">
+                  <listPerson>
+                     <person xml:id="pmb65092">
+                        <persName>Kazimir Stanislavovič Barancevič</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R3">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R3"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Bucharin.</hi>
+                  </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Bolschewism. /</hi>
+               </p>
+               <note xml:id="ad_R3">
+                  <listPerson>
+                     <person xml:id="pmb5564">
+                        <persName>Nikolaj Ivanovič Bucharin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R4">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R4"/>
+                  <hi rend="underline">Danilowski</hi> ... Familienchronik</p>
+               <note xml:id="ad_R4">
+                  <listPerson>
+                     <person xml:id="pmb65093">
+                        <persName>Grigorij Petrovič Danilevskij</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R5">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R5"/>
+                  <hi rend="underline">Dazenko</hi> ... Unter der Erde / Jona</p>
+               <note xml:id="ad_R5">
+                  <listPerson>
+                     <person xml:id="pmb65094">
+                        <persName>Vasily Ivanovich Nemirovich-Danchenko</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R6">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R6"/>
+                  <hi rend="underline">Dostojewski</hi> ... Raskolnikoff / Novellen / Nachwuchs /
+                  Aus dem toten Haus / Totes Herz / Doppelgänger / Idiot / Hahnrei / Spieler /
+                  Nettchen / Onkels Traum / Erniedrigte / Eifersüchtige / Krotkaja <hi rend="manual"
+                     >/ Dumme Geschichte / Karamasow / 9 Briefe / j. Weib / Weiße Nächte / schwaches
+                     Herz / Dämonen /</hi>
+               </p>
+               <note xml:id="ad_R6">
+                  <listPerson>
+                     <person xml:id="pmb4006">
+                        <persName>Fjodor M. Dostojevskij</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R7">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R7"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Dymow</hi>. Nju / Wlass /</hi>
+               </p>
+               <note xml:id="ad_R7">
+                  <listPerson>
+                     <person xml:id="pmb6902">
+                        <persName>Ossip Dymow</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R8">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R8"/>
+                  <hi rend="underline">Gogol</hi> ... Revisor / Tote Seelen / Mondnacht / Taras
+                  Bulba / <hi rend="manual">Heiratsgesch /</hi>
+               </p>
+               <note xml:id="ad_R8">
+                  <listPerson>
+                     <person xml:id="pmb17144">
+                        <persName>Nikolai W. Gogol</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R9">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R9"/>
+                  <hi rend="underline">Garschin</hi> ... Novellen / Gon</p>
+               <note xml:id="ad_R9">
+                  <listPerson>
+                     <person xml:id="pmb65095">
+                        <persName>Vsevolod Michajlovič Garšin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R10">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R10"/>
+                  <hi rend="underline">Gonscharow</hi> ... Abgrund / Oblomow</p>
+               <note xml:id="ad_R10">
+                  <listPerson>
+                     <person xml:id="pmb65096">
+                        <persName>Ivan Aleksandrovič Gončarov</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R11">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R11"/>
+                  <hi rend="underline">Gorki</hi> ... Fama / Warenko / Bilger / Verlorene Leute /
+                  Aus Langeweile /</p>
+               <note xml:id="ad_R11">
+                  <listPerson>
+                     <person xml:id="pmb2323">
+                        <persName>Maxim Gorkij</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R12">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R12"/>
+                  <hi rend="underline">Herzen</hi>... Wer ist schuld /</p>
+               <note xml:id="ad_R12">
+                  <listPerson>
+                     <person xml:id="pmb65097">
+                        <persName>Aleksandr Ivanovič Gercen</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R13">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R13"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Juschkewitsch</hi> ein Judenstreich /</hi>
+               </p>
+               <note xml:id="ad_R13">
+                  <note>Verwechslung</note>
+               </note>
+            </div>
+            <div xml:id="div_R14">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R14"/>
+                  <hi rend="underline">Korolenko</hi> ... Der blinde Musiker /</p>
+               <note xml:id="ad_R14">
+                  <listPerson>
+                     <person xml:id="pmb65098">
+                        <persName>Vladimir Galaktionovič Korolenko</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R15">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R15"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Kuprin</hi> ...</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Duell /</hi>
+               </p>
+               <note xml:id="ad_R15">
+                  <listPerson>
+                     <person xml:id="pmb19872">
+                        <persName>Alexander I. Kuprin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R16">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R16"/>
+                  <hi rend="underline">Lermontow</hi> .... Held unserer Zeit</p>
+               <note xml:id="ad_R16">
+                  <listPerson>
+                     <person xml:id="pmb65099">
+                        <persName>Michail Jur’evič Lermontov</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R17">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R17"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Ljeskow</hi> ...</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Toupetkünstler / Kosakenoffizier /</hi>
+               </p>
+               <note xml:id="ad_R17_1">
+                  <listPerson>
+                     <person xml:id="pmb65100">
+                        <persName>Nikolaj Semënovič Leskov</persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <note xml:id="ad_R17"> </note>
+            </div>
+            <div xml:id="div_R18">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R18"/>
+                  <hi rend="underline">Markewicz</hi> ... Olga /</p>
+               <note xml:id="ad_R18">
+                  <listPerson>
+                     <person xml:id="pmb65102">
+                        <persName>Boleslav Michajlovič Markevič</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R19">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R19"/>
+                  <hi rend="underline">Marlinski</hi> ... Erzählungen /</p>
+               <note xml:id="ad_R19">
+                  <listPerson>
+                     <person xml:id="pmb65103">
+                        <persName>Alexander Alexandrowitsch Bestuschew</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R20">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R20"/>
+                  <hi rend="underline">Metscherski</hi> ... Fr Petersburg / G.. / Gré
+                  Missverständnisse / Realisten / Kursistin / Lukarow /</p>
+               <note xml:id="ad_R20">
+                  <listPerson>
+                     <person xml:id="pmb65104">
+                        <persName>Vladimir Petrovič Meščerskij</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R21">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R21"/>
+                  <hi rend="underline">Michailow</hi> ... Alte Nester /</p>
+               <note xml:id="ad_R21">
+                  <listPerson>
+                     <person xml:id="pmb65105">
+                        <persName>Aleksandr Konstantinovič Šeller-Michajlov</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R22">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R22"/>
+                  <hi rend="underline">Mikulicz</hi> ... Mimi /</p>
+               <note xml:id="ad_R22">
+                  <listPerson>
+                     <person xml:id="pmb65106">
+                        <persName>V. Mikulič</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R23">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R23"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Panin</hi> Dunkle Stunde</hi>
+               </p>
+               <note xml:id="ad_R23">
+                  <listPerson>
+                     <person xml:id="pmb22333">
+                        <persName>Victor Panin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R24">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R24"/>
+                  <hi rend="underline">Pisemski</hi> ... Im Strudel / Tausend Seelen /</p>
+               <note xml:id="ad_R24">
+                  <listPerson>
+                     <person xml:id="pmb65107">
+                        <persName>Aleksej Feofilaktovič Pisemskij</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R25">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R25"/>
+                  <hi rend="underline">
+                     <hi rend="manual">P</hi>otjechin</hi> ... Schlinge</p>
+               <note xml:id="ad_R25">
+                  <listPerson>
+                     <person xml:id="pmb65108">
+                        <persName>Nikolaj Antipovič Potechin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R26">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R26"/>
+                  <hi rend="underline">Puschkin</hi> ...</p>
+               <note xml:id="ad_R26">
+                  <listPerson>
+                     <person xml:id="pmb65109">
+                        <persName>Aleksandr Sergeevič Puškin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R27">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R27"/>
+                  <hi rend="underline">Sanjekowicz</hi> ... Opfer /</p>
+               <note xml:id="ad_R27">
+                  <listPerson>
+                     <person xml:id="pmb65110">
+                        <persName>Konstantin Michajlovič Stanjukovič</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R28">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R28"/>
+                  <hi rend="underline">Sologu<hi rend="manual">b</hi>
+                  </hi> ... Vornehme Welt / Schatten /</p>
+               <note xml:id="ad_R28_1">
+                  <listPerson>
+                     <person xml:id="pmb65112">
+                        <persName>Vladimir Aleksandroviâ Sollogub</persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <note xml:id="ad_R28_2">
+                  <listPerson>
+                     <person xml:id="pmb65111">
+                        <persName>Fjodor Sologub</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R29">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R29"/>
+                  <hi rend="underline">Tolstoi</hi> ... <hi rend="manual">Nov / Ann Kar / Krieg u Fr
+                     / Lebenstufen</hi>
+               </p>
+               <note xml:id="ad_R29">
+                  <listPerson>
+                     <person xml:id="pmb3739">
+                        <persName>Leo N. von Tolstoi</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R30">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R30"/>
+                  <hi rend="underline">Tschechow</hi> ... Dämmerung / Starjer Tabak / Ja die
+                  Frauenzimmer / Drei Schwestern / Möve / Schatten des Todes / Gottgefälliges Haus /
+                     <hi rend="manual">Kätzchen / Wanja / Liebe / Zweikampf /</hi>
+               </p>
+               <note xml:id="ad_R30">
+                  <listPerson>
+                     <person xml:id="pmb3603">
+                        <persName>Anton Pavlovič Čechov</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R31">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R31"/>
+                  <hi rend="underline">Tscherniewski</hi> ... <hi rend="manual">Was thun</hi>
+               </p>
+               <note xml:id="ad_R31">
+                  <listPerson>
+                     <person xml:id="pmb26220">
+                        <persName>Nikolaj Gavrilovič Černyševskij</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R32">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R32"/>
+                  <hi rend="underline">Turgeniew</hi> ... Unglückliche / Erste Liebe / Ueberflüssige
+                  / Faust / Adeliges Nest / Neue Generation / Rauch <supplied>/</supplied> Väter und
+                  Söhne / Punin / Lear / Frülingswogen / Lukeria / Raufbold / Milicz / Vison
+                  <supplied>/</supplied> Patschu / Helene / Erinnerungen / Rudin / Begegnung / Mumu
+                  / Jäger / Geschicht. eines alten Manns</p>
+               <note xml:id="ad_R32">
+                  <listPerson>
+                     <person xml:id="pmb26238">
+                        <persName>Ivan Sergeevič Turgenev</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_R33">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R33"/>
+                  <hi rend="strikethrough">
+                     <hi rend="manual">Weyssenhoff,</hi>
+                     <space unit="chars" quantity="1"/>
+                     <hi rend="manual">Podfilipski</hi>
+                  </hi>
+               </p>
+               <note xml:id="ad_R33">
+                  <note>Durchgestrichen; siehe P8</note>
+               </note>
+            </div>
+            <div xml:id="div_R34">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="R34"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Wereschagin</hi> ...</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">/ Jugender / Kriegser. /</hi>
+               </p>
+               <note xml:id="ad_R34">
+                  <listPerson>
+                     <person xml:id="pmb26950">
+                        <persName>Vasilij Vasil’evič Vereščagin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+         </div>
+         
+         
+      </body>
+   </text>
+</TEI>

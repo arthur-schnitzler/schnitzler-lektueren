@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://www.tei-c.org/ns/1.0"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 schnitzler-lektuere_schema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzlers Lektüren: Leseliste und virtuelle Bibliothek</title>
+            <title level="a">Leseliste – 02. Frankreich</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Achim Aurnhammer</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
+                        Sciences</orgName>
+               <address>
+                  <addrLine>Sonnenfelsgasse 19</addrLine>
+                  <addrLine>1010 Vienna</addrLine>
+               </address>
+            </publisher>
+            <publisher>
+               <orgName>Ergon Verlag</orgName>
+            </publisher>
+            <pubPlace ref="https://www.geonames.org/2805615/wuerzburg.html">Würzburg</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false" status="draft">
+               <monogr>
+                  <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
+                     Bibliothek</title>
+                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <editor role="hrsg">
+                     <persName>
+                        <forename>Achim</forename>
+                        <surname>Aurnhammer</surname>
+                     </persName>
+                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs
+                                    Freiburg</orgName>
+                     </affiliation>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <orgName>Ergon</orgName>
+                     </publisher>
+                     <pubPlace>
+                        <placeName>Würzburg</placeName>
+                     </pubPlace>
+                     <date when="2013">2013</date>
+                  </imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">111–131</biblScope>
+                  <extent>
+                     <measure type="pages">20</measure>
+                  </extent>
+               </monogr>
+               <series>
+                  <title level="s">Akten des Arthur Schnitzler-Archivs der Universität
+                     Freiburg</title>
+                  <editor role="hrsg">
+                     <orgName>Arthur Schnitzler-Archiv Freiburg</orgName>
+                  </editor>
+                  <biblScope unit="volume">Band 2</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         
+         <div type="liste_F">
+            <head>
+               <hi rend="manual">Frankreich.</hi>
+            </head>
+            <div xml:id="div_F1">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F1"/>
+                  <hi rend="underline">About</hi> ... Pariser Ehen / Mann mit dem ab. Ohr /L
+                  infame.</p>
+               <note xml:id="ad_F1">
+                  <listPerson>
+                     <person xml:id="pmb64926">
+                        <persName>Edmond About</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F2">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F2"/>
+                  <hi rend="underline">Augier</hi> ....</p>
+               <note xml:id="ad_F2">
+                  <listPerson>
+                     <person xml:id="pmb2815">
+                        <persName>Émile Augier</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F3">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F3"/>
+                  <hi rend="underline">Ba<hi rend="manual">lz</hi>a<hi rend="manual">c</hi>
+                  </hi> ... Femme de trente / Paz / Ballsp. Katze / Blutrache / Mundtot / Chabert /
+                  Honorine / Peau -- Illusion / Pysid. den mariage / Père Goriot / Fausse Maitresse
+                  / Etude de f. / Paix de m. <supplied>/</supplied> Double famille / Grandet / Med.
+                  de Camp. / Biroteau / Vielle fille / Cousine Bet. / Lettre à l’étr. / <hi
+                     rend="manual">Lys dans le vallée (dtsch)</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">/ Pamela Giraud / Glanz u. Elend der Curtis /</hi>
+               </p>
+               <note xml:id="ad_F3">
+                  <listPerson>
+                     <person xml:id="pmb10825">
+                        <persName>Honoré de Balzac</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F4">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F4"/>
+                  <hi rend="manual">Barbusse.</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">l’enfer /</hi>
+               </p>
+               <note xml:id="ad_F4">
+                  <listPerson>
+                     <person xml:id="pmb6109">
+                        <persName>Henri Barbusse</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F5">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F5"/>Barbey ..... Bague /
+                  Diaboliques</p>
+               <note xml:id="ad_F5">
+                  <listPerson>
+                     <person xml:id="pmb64927">
+                        <persName>Jules-Amédée Barbey d’Aurevilly</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F6">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F6"/>Barès .... Homme libre / <hi
+                     rend="manual">J</hi>ardin de Ber<hi rend="manual">en</hi> /</p>
+               <note xml:id="ad_F6">
+                  <listPerson>
+                     <person xml:id="pmb64928">
+                        <persName>Maurice Barrès</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F7">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F7"/>Baskirtscheff .... Lettre /
+                  Journal</p>
+               <note xml:id="ad_F7">
+                  <listPerson>
+                     <person xml:id="pmb13797">
+                        <persName>Marie Bashkirtseff</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F8">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F8"/>Beaumarchais ...</p>
+               <note xml:id="ad_F8">
+                  <listPerson>
+                     <person xml:id="pmb10857">
+                        <persName>Pierre Augustin Caron de Beaumarchais</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F9">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F9"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Beauchemont</hi> - Mem.</hi>
+               </p>
+               <note xml:id="ad_F9">
+                  <listPerson>
+                     <person xml:id="pmb64929">
+                        <persName>Louis Petit de Bachaumont</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F10">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F10"/>Becque ....</p>
+               <note xml:id="ad_F10">
+                  <listPerson>
+                     <person xml:id="pmb13897">
+                        <persName>Henri Becque</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F11">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F11"/>Belot ... Article <hi
+                     rend="manual">47</hi> / Mund der Frau X / Blutweib</p>
+               <note xml:id="ad_F11">
+                  <listPerson>
+                     <person xml:id="pmb14752">
+                        <persName>Adolphe Bélot</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F12">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F12"/>Bentzon .... Mariage de Jaques</p>
+               <note xml:id="ad_F12">
+                  <listPerson>
+                     <person xml:id="pmb64930">
+                        <persName>Thérèse Bentzon</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F13">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F13"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Bernstein,</hi> Felix</hi>
+               </p>
+               <note xml:id="ad_F13">
+                  <listPerson>
+                     <person xml:id="pmb3663">
+                        <persName>Henri Léon Bernstein</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F14">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F14"/>
+                  <hi rend="manual">Bergson Lachen /</hi>
+               </p>
+               <note xml:id="ad_F14">
+                  <listPerson>
+                     <person xml:id="pmb6257">
+                        <persName>Henri Bergson</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F15">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F15"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Tr. Bernard</hi> - jeune homme rangé / Mari pacif. /
+                     amants et voleur / Mathilde / Jeanne Doré /</hi>
+               </p>
+               <note xml:id="ad_F15">
+                  <listPerson>
+                     <person xml:id="pmb10893">
+                        <persName>Tristan Bernard</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F16">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F16"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Berlioz</hi>. Erinnerungen /</hi>
+               </p>
+               <note xml:id="ad_F16">
+                  <listPerson>
+                     <person xml:id="pmb6263">
+                        <persName>Hector Berlioz</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F17">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F17"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Berton</hi>. Rencontre /</hi>
+               </p>
+               <note xml:id="ad_F17">
+                  <listPerson>
+                     <person xml:id="pmb6284">
+                        <persName>Pierre Berton</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F18">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F18"/>Bonetain .... Charlot / au large
+                  /</p>
+               <note xml:id="ad_F18">
+                  <listPerson>
+                     <person xml:id="pmb64931">
+                        <persName>Paul Bonetain</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F19">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F19"/>Bo<hi rend="manual">u</hi>rget -
+                  .... Mensonge / Cornelis / Disciple / pastels / irreparable / crime d’amour /
+                  cruel enigme / physil. de l’amour moderne, coeur de femme / ess. de Psych. cont. /
+                     <hi rend="manual">le tribun /</hi>
+               </p>
+               <note xml:id="ad_F19">
+                  <listPerson>
+                     <person xml:id="pmb4026">
+                        <persName>Paul Bourget</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F20">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F20"/>Baucage / Perle</p>
+               <note xml:id="ad_F20">
+                  <listPerson>
+                     <person xml:id="pmb64932">
+                        <persName>Henri Bocage</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F21">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F21"/>Brentome …. Vie des dames galantes
+                  /</p>
+               <note xml:id="ad_F21">
+                  <listPerson>
+                     <person xml:id="pmb14487">
+                        <persName>Pierre Bourdeille de Brantôme</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F22">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F22"/>Brieux .... Menage d’artiste / <hi
+                     rend="manual">Susette /</hi>
+               </p>
+               <note xml:id="ad_F22">
+                  <listPerson>
+                     <person xml:id="pmb4791">
+                        <persName>Eugène Brieux</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F23">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F23"/>Cadole .... la chère madame /</p>
+               <note xml:id="ad_F23">
+                  <listPerson>
+                     <person xml:id="pmb2560">
+                        <persName>Victor Édouard Cadol</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F24">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F24"/>Chavette .... Erbe des
+                  Schmarotzers / Lilly /</p>
+               <note xml:id="ad_F24">
+                  <listPerson>
+                     <person xml:id="pmb64933">
+                        <persName>Eugène Vachette</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F25">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F25"/>
+                  <hi rend="manual">Chodl. Lian. d</hi>
+               </p>
+               <note xml:id="ad_F25">
+                  <listPerson>
+                     <person xml:id="pmb20018">
+                        <persName>Pierre Choderlos de Laclos</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F26">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F26"/>Cherbulie<hi rend="manual">z</hi>
+                  .... Bolski /, Teterol / S. Brohl / Isabella / Kostia / Les fiancés de M. /</p>
+               <note xml:id="ad_F26">
+                  <listPerson>
+                     <person xml:id="pmb64934">
+                        <persName>Victor Charles Cherbuliez</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F27">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F27"/>
+                  <hi rend="manual">Claudel ..Tausch /</hi>
+               </p>
+               <note xml:id="ad_F27">
+                  <listPerson>
+                     <person xml:id="pmb6660">
+                        <persName>Paul Claudel</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F28">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F28"/>Clare<hi rend="manual">t</hi>ie
+                  ... Herr Minister / Kandidat / Zilah / Maitresse</p>
+               <note xml:id="ad_F28">
+                  <listPerson>
+                     <person xml:id="pmb2500">
+                        <persName>Jules Claretie</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F29">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F29"/>Constant Adolf .....</p>
+               <note xml:id="ad_F29">
+                  <listPerson>
+                     <person xml:id="pmb15088">
+                        <persName>Benjamin Constant</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F30">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F30"/>Confession d’une rep<hi
+                     rend="manual">e</hi>ntie</p>
+               <note xml:id="ad_F30_1">
+                  <listPerson>
+                     <person xml:id="pmb64935">
+                        <persName>Georges-Clément Lechartier</persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <note xml:id="ad_F30_2">
+                  <listPerson>
+                     <person xml:id="pmb64936">
+                        <persName>Olivier de Tréville</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F31">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F31"/>
+                  <hi rend="manual">Coolus .. Une fémme passa /</hi>
+               </p>
+               <note xml:id="ad_F31">
+                  <listPerson>
+                     <person xml:id="pmb15094">
+                        <persName>Romain Coolus</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F32">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F32"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Colett</hi>
+                  </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Mitsu</hi>
+               </p>
+               <note xml:id="ad_F32">
+                  <listPerson>
+                     <person xml:id="pmb15054">
+                        <persName>Sidonie-Gabrielle Colette</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F33">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F33"/>Coppeé Henriette ./.. Comtes rap.
+                  / Contes en prose</p>
+               <note xml:id="ad_F33">
+                  <listPerson>
+                     <person xml:id="pmb64937">
+                        <persName>François Coppée</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F34">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F34"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Cremy</hi> Memoiren /</hi>
+               </p>
+               <note xml:id="ad_F34">
+                  <listPerson>
+                     <person xml:id="pmb21505">
+                        <persName>Anne d' Aubourg de La Bove Miremont</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F35">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F35"/>Curel .... L’amour brode</p>
+               <note xml:id="ad_F35">
+                  <listPerson>
+                     <person xml:id="pmb15170">
+                        <persName>François de Curel</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F36">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F36"/>
+                  <hi rend="manual">Courteline -.. train 47 / Madeleine / Boubaouroche /</hi>
+               </p>
+               <note xml:id="ad_F36">
+                  <listPerson>
+                     <person xml:id="pmb4865">
+                        <persName>Georges Courteline</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F37">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F37"/>Daudet ..... Jaques / Frommont /
+                  Tartarin / Dingsda / Künstlerehen / Montagsgesch. / Sap<hi rend="manual">p</hi>ho
+                  /Immortelle Rois en exile é</p>
+               <note xml:id="ad_F37">
+                  <listPerson>
+                     <person xml:id="pmb11134">
+                        <persName>Alphonse Daudet</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F38">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F38"/>Delpi ....</p>
+               <note xml:id="ad_F38">
+                  <listPerson>
+                     <person xml:id="pmb64938">
+                        <persName>Albert Delpit</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F39">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F39"/>Destouche -</p>
+               <note xml:id="ad_F39">
+                  <listPerson>
+                     <person xml:id="pmb64939">
+                        <persName>Philippe Néricault Destouches</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F40">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F40"/>Diderot <hi rend="manual">Relig /
+                     Jacques / etc.</hi>
+               </p>
+               <note xml:id="ad_F40">
+                  <listPerson>
+                     <person xml:id="pmb11157">
+                        <persName>Denis Diderot</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F41">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F41"/>Droze .... Monsieur madame BB.</p>
+               <note xml:id="ad_F41">
+                  <listPerson>
+                     <person xml:id="pmb64940">
+                        <persName>Gustave Droz</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F42">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F42"/>Dumas père .... Mus<hi
+                     rend="manual">c</hi>et<hi rend="manual">aire</hi> / Monte Christo / <hi
+                     rend="manual">Mem. /</hi>
+               </p>
+               <note xml:id="ad_F42">
+                  <listPerson>
+                     <person xml:id="pmb11190">
+                        <persName>Alexandre père Dumas</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F43">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F43"/>Dumas fils .....</p>
+               <note xml:id="ad_F43">
+                  <listPerson>
+                     <person xml:id="pmb15512">
+                        <persName>Alexandre fils Dumas</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F44">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F44"/>Duruy ...... Fin du reve</p>
+               <note xml:id="ad_F44">
+                  <listPerson>
+                     <person xml:id="pmb64941">
+                        <persName>George Duruy</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F45">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F45"/>Duval .... le premier amant é /
+                  Rabastin</p>
+               <note xml:id="ad_F45">
+                  <listPerson>
+                     <person xml:id="pmb6892">
+                        <persName>Georges Duval</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F46">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F46"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Duvern</hi> Mort la bête, u. a. -</hi>
+               </p>
+               <note xml:id="ad_F46">
+                  <listPerson>
+                     <person xml:id="pmb6895">
+                        <persName>Henri Duvernois</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F47">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F47"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Farrèr</hi> ... Civilisés / Lox / L’homme qui assassina
+                     /</hi>
+               </p>
+               <note xml:id="ad_F47">
+                  <listPerson>
+                     <person xml:id="pmb11297">
+                        <persName>Claude Farrère</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F48">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F48"/> Feydeau ... Chalis / Fanni /</p>
+               <note xml:id="ad_F48">
+                  <listPerson>
+                     <person xml:id="pmb64942">
+                        <persName>Ernest-Aymé Feydeau</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F49">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F49"/> Feullet ..... Liebschaften
+                  Philipps / Camorse /</p>
+               <note xml:id="ad_F49">
+                  <listPerson>
+                     <person xml:id="pmb11315">
+                        <persName>Octave Feuillet</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F50">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F50"/> Flaubert ..... Bauvary / Salambo
+                  / Lettre Sand <supplied>/</supplied> Correspond. / Trois Contes <hi rend="manual"
+                     >/ Educ. sent /</hi>
+               </p>
+               <note xml:id="ad_F50">
+                  <listPerson>
+                     <person xml:id="pmb11330">
+                        <persName>Gustave Flaubert</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F51">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F51"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Fleg</hi> ... message / l’enf. prophète</hi>
+               </p>
+               <note xml:id="ad_F51">
+                  <listPerson>
+                     <person xml:id="pmb7170">
+                        <persName>Edmond Fleg</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F52">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F52"/> France ..... Bonart / Orme /
+                  Roman com. / lys rouge <hi rend="manual">/ lendemain ami / mannequin d’osier /
+                     Thaïs / piere blanche /</hi>
+               </p>
+               <note xml:id="ad_F52">
+                  <listPerson>
+                     <person xml:id="pmb4279">
+                        <persName>Anatole France</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F53">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F53"/>
+                  <hi rend="manual">Fromentin ... Dominik</hi>
+               </p>
+               <note xml:id="ad_F53">
+                  <listPerson>
+                     <person xml:id="pmb7279">
+                        <persName>Eugène Fromentin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F54">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F54"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Flers</hi> .. Pape / Buridan</hi> /</p>
+               <note xml:id="ad_F54">
+                  <listPerson>
+                     <person xml:id="pmb11337">
+                        <persName>Robert de Flers</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F55">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F55"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Fronday</hi> .. Montmartre /</hi>
+               </p>
+               <note xml:id="ad_F55">
+                  <listPerson>
+                     <person xml:id="pmb16737">
+                        <persName>Pierre Frondaie</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F56">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F56"/>Gautier .... Avatar / Fortulio /
+                  Mademoiselle Maupin</p>
+               <note xml:id="ad_F56">
+                  <listPerson>
+                     <person xml:id="pmb64943">
+                        <persName>Théophile Gautier</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F57">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F57"/>Gabor<hi rend="manual">iau</hi> ..
+                  Das rote Tuch / Fasc. 113</p>
+               <note xml:id="ad_F57">
+                  <listPerson>
+                     <person xml:id="pmb64944">
+                        <persName>Émile Gaboriau</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F58">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F58"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Gasquet</hi>
+                  </hi>. <hi rend="manual">Il ya une volupté d. l. doul.</hi>
+               </p>
+               <note xml:id="ad_F58">
+                  <listPerson>
+                     <person xml:id="pmb7350">
+                        <persName>Joachim Gasquet</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F59">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F59"/>Girardin ..</p>
+               <note xml:id="ad_F59">
+                  <listPerson>
+                     <person xml:id="pmb17053">
+                        <persName>Delphine Girardin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F60">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F60"/>
+                  <hi rend="manual">Gogh,</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Briefe</hi>
+               </p>
+               <note xml:id="ad_F60">
+                  <listPerson>
+                     <person xml:id="pmb11464">
+                        <persName>Vincent van Gogh</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F61">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F61"/>
+                  <hi rend="manual">Giraudoux Suzanne, Simon, le lim</hi>
+               </p>
+               <note xml:id="ad_F61">
+                  <listPerson>
+                     <person xml:id="pmb7417">
+                        <persName>Jean Giraudoux</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F62">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F62"/>Goncourt .... Meperin / <hi
+                     rend="manual">La</hi>certeux / Journale / Cherie <supplied>/</supplied> Fille
+                  Elisa / Nan. Salomon /</p>
+               <note xml:id="ad_F62">
+                  <listPerson>
+                     <person xml:id="pmb11500">
+                        <persName>Edmond Huot de Goncourt</persName>
+                     </person>
+                     <person xml:id="pmb2925">
+                        <persName>Jules Huot de Goncourt</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F63">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F63"/>Greville / Dosia</p>
+               <note xml:id="ad_F63">
+                  <listPerson>
+                     <person xml:id="pmb64945">
+                        <persName>Henry Gréville</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F64">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F64"/>Gramon<hi rend="manual">t</hi>
+                  .... Memoire<hi rend="manual">s</hi>
+               </p>
+               <note xml:id="ad_F64">
+                  <listPerson>
+                     <person xml:id="pmb64946">
+                        <persName>Ferdinand de Comte</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F65">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F65"/>Giullemot ... Lettres a un
+                  amant</p>
+               <note xml:id="ad_F65">
+                  <listPerson>
+                     <person xml:id="pmb64947">
+                        <persName>Maurice Guillemot</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F66">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F66"/>G<hi rend="manual">y</hi>p. ...
+                  Lulu / Pauvre petite femme / aux hais les Phych <supplied>/</supplied> auto<hi
+                     rend="manual">u</hi>r du mariage</p>
+               <note xml:id="ad_F66">
+                  <listPerson>
+                     <person xml:id="pmb21501">
+                        <persName>Sibylle de Mirabeau</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F67">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F67"/>
+                  <hi rend="manual">Gourmont Sixtina /</hi>
+               </p>
+               <note xml:id="ad_F67">
+                  <listPerson>
+                     <person xml:id="pmb64948">
+                        <persName>Remy de Gourmont</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F68">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F68"/>Hal<hi rend="manual">e</hi>vy
+                  ..... Monsieur et Madame Cardinal</p>
+               <note xml:id="ad_F68">
+                  <listPerson>
+                     <person xml:id="pmb4197">
+                        <persName>Ludovic Halévy</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F69">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F69"/>Halleys ..... Beaumarchais</p>
+               <note xml:id="ad_F69">
+                  <listPerson>
+                     <person xml:id="pmb64949">
+                        <persName>Léon Halévy</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F70">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F70"/>Hennique .... Esther Brandes</p>
+               <note xml:id="ad_F70">
+                  <listPerson>
+                     <person xml:id="pmb64950">
+                        <persName>Léon Hennique</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F71">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F71"/>Her<hi rend="manual">v</hi>ieu
+                  ..... Flirt / peinte<hi rend="manual">s</hi> par eux / <hi rend="manual">Armature
+                     / dédale /</hi>
+               </p>
+               <note xml:id="ad_F71">
+                  <listPerson>
+                     <person xml:id="pmb18201">
+                        <persName>Paul Ernest Hervieu</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F72">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F72"/>
+                  <hi rend="manual">Hermant .. transatlantique / Char d l’etat / trains lu /</hi>
+               </p>
+               <note xml:id="ad_F72">
+                  <listPerson>
+                     <person xml:id="pmb11657">
+                        <persName>Abel Hermant</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F73">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F73"/>Hessem .... Oeuvre de la chaire
+                  /</p>
+               <note xml:id="ad_F73">
+                  <listPerson>
+                     <person xml:id="pmb64951">
+                        <persName>Louis de Hessem</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F74">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F74"/>Hugo .... Nôtre dame / König
+                  amüsiert sich / Hernany</p>
+               <note xml:id="ad_F74">
+                  <listPerson>
+                     <person xml:id="pmb5359">
+                        <persName>Victor Hugo</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F75">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F75"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Houssaye</hi> 1814 / 1815 / Louis <hi rend="underline"
+                        >XVI</hi> /</hi>
+               </p>
+               <note xml:id="ad_F75_1">
+                  <listPerson>
+                     <person xml:id="pmb18586">
+                        <persName>Henry Houssaye</persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <note xml:id="ad_F75_2">
+                  <listPerson>
+                     <person xml:id="pmb64952">
+                        <persName>Arsène Houssaye</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F76">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F76"/>H<hi rend="manual">uy</hi>smens
+                  .... on menage / à rebours</p>
+               <note xml:id="ad_F76">
+                  <listPerson>
+                     <person xml:id="pmb64953">
+                        <persName>Joris-Karl Huysmans</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F77">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F77"/>
+                  <hi rend="manual">Janin.</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Contes /</hi>
+               </p>
+               <note xml:id="ad_F77">
+                  <listPerson>
+                     <person xml:id="pmb64954">
+                        <persName>Jules Gabriel Janin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F78">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F78"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Istrati</hi>
+                  </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Kiralina</hi>
+               </p>
+               <note xml:id="ad_F78">
+                  <listPerson>
+                     <person xml:id="pmb64955">
+                        <persName>Panaït Istrati</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F79">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F79"/>Karr .... Plus ça change</p>
+               <note xml:id="ad_F79">
+                  <listPerson>
+                     <person xml:id="pmb64956">
+                        <persName>Alphonse Karr</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F80">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F80"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Kessel</hi>
+                  </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Equipage</hi>
+               </p>
+               <note xml:id="ad_F80">
+                  <listPerson>
+                     <person xml:id="pmb64957">
+                        <persName>Joseph Kessel</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F81">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F81"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Kistemaekers</hi> ... Occident / nuit est à nous</hi>
+               </p>
+               <note xml:id="ad_F81">
+                  <listPerson>
+                     <person xml:id="pmb19365">
+                        <persName>Henry Kistemaekers</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F82">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F82"/>Laforest ..... Contes por
+                  beigneuse / Gaga</p>
+               <note xml:id="ad_F82">
+                  <listPerson>
+                     <person xml:id="pmb64958">
+                        <persName>Jean-Louis Dubut de Laforest</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F83">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F83"/>Lamartine .... Raphael <hi
+                     rend="manual">/ Souvenirs /</hi>
+               </p>
+               <note xml:id="ad_F83">
+                  <listPerson>
+                     <person xml:id="pmb8436">
+                        <persName>Alphonse de Lamartine</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F84">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F84"/>Laved<hi rend="manual">a</hi>n
+                  .... Nocturne / le lit <hi rend="manual">/ Grands heures /</hi> [durchgestrichen]
+                     <hi rend="manual">/ Gout de vice /</hi>
+               </p>
+               <note xml:id="ad_F84">
+                  <listPerson>
+                     <person xml:id="pmb2488">
+                        <persName>Henri Léon Lavedan</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F85">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F85"/>Lachau<hi rend="manual">d</hi>
+                  ..... Cabotinage</p>
+               <note xml:id="ad_F85">
+                  <listPerson>
+                     <person xml:id="pmb64959">
+                        <persName>Georges Lachaud</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F86">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F86"/>Leclerke .... Les claireux</p>
+               <note xml:id="ad_F86">
+                  <listPerson>
+                     <person xml:id="pmb64960">
+                        <persName>Théodore Leclercq</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F87">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F87"/>
+                  <hi rend="manual">Lenotre .. Revolutions / Guill / Vielles maisons /</hi>
+               </p>
+               <note xml:id="ad_F87">
+                  <listPerson>
+                     <person xml:id="pmb3176">
+                        <persName>G. Lenotre</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F88">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F88"/>Lesage ..... Hinkender Teufel <hi
+                     rend="manual">/ Diable boit / Gil blas /</hi>
+               </p>
+               <note xml:id="ad_F88">
+                  <listPerson>
+                     <person xml:id="pmb20342">
+                        <persName>Alain René Lesage</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F89">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F89"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Leroux</hi>. Phant.</hi>
+               </p>
+               <note xml:id="ad_F89">
+                  <listPerson>
+                     <person xml:id="pmb64961">
+                        <persName>Gaston Leroux</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F90">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F90"/>Leroi ..... Lauriane.</p>
+               <note xml:id="ad_F90">
+                  <listPerson>
+                     <person xml:id="pmb64962">
+                        <persName>Louis Leroy</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F91">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F91"/>Lesclite .... Femme impossible</p>
+               <note xml:id="ad_F91">
+                  <listPerson>
+                     <person xml:id="pmb64963">
+                        <persName>Richard Lesclide</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F92">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F92"/>Le Grand .. homme de quarante
+                  ans</p>
+               <note xml:id="ad_F92">
+                  <listPerson>
+                     <person xml:id="pmb64965">
+                        <persName>Christophe Barthélemy Fagan</persName>
+                     </person>
+                  </listPerson>
+                  <note>Verwechslung mit <persName ref="pmb64964">Jacques Le Grand</persName> (Pseudonym von Richard Lesclide)</note>
+               </note>
+            </div>
+            <div xml:id="div_F93">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F93"/>Lesieur .... Nevrosé / vie
+                  tragique</p>
+               <note xml:id="ad_F93">
+                  <listPerson>
+                     <person xml:id="pmb64966">
+                        <persName>Jeanne Lapauze</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F94">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F94"/>Loti ..... Paicheur D Island</p>
+               <note xml:id="ad_F94">
+                  <listPerson>
+                     <person xml:id="pmb12114">
+                        <persName>Pierre Loti</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F95">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F95"/>Louise .... Aphrodite</p>
+               <note xml:id="ad_F95">
+                  <listPerson>
+                     <person xml:id="pmb8719">
+                        <persName>Pierre Louis Louÿs</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F96">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F96"/>
+                  <hi rend="manual">Ligne. /</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Erinnerungen /</hi>
+               </p>
+               <note xml:id="ad_F96">
+                  <listPerson>
+                     <person xml:id="pmb8642">
+                        <persName>Charles Joseph von Ligne</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F97">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F97"/>Maeterlink</p>
+               <note xml:id="ad_F97">
+                  <listPerson>
+                     <person xml:id="pmb12156">
+                        <persName>Maurice Maeterlinck</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F98">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F98"/>Malot .... Cara / Bacara /
+                  Tubernin / amour de Jaques</p>
+               <note xml:id="ad_F98">
+                  <listPerson>
+                     <person xml:id="pmb64967">
+                        <persName>Hector Henri Malot</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F99">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F99"/>Marmontelle ..... Contes
+                  moraux.</p>
+               <note xml:id="ad_F99">
+                  <listPerson>
+                     <person xml:id="pmb64968">
+                        <persName>Jean-François Marmontel</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F100">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F100"/> Margérite .... Amant.</p>
+               <note xml:id="ad_F100">
+                  <listPerson>
+                     <person xml:id="pmb64969">
+                        <persName>Paul Margueritte</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F101">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F101"/> Martelle ... Mins aux dames</p>
+               <note xml:id="ad_F101">
+                  <listPerson>
+                     <person xml:id="pmb64970">
+                        <persName>Tancrède Martel</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F102">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F102"/> Marnit</p>
+               <note xml:id="ad_F102">
+                  <listPerson>
+                     <person xml:id="pmb5459">
+                        <persName>Jeanne Marni</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F103">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F103"/> Masgaroi .... Amour défendue </p>
+               <note xml:id="ad_F103">
+                  <listPerson>
+                     <person xml:id="pmb64971">
+                        <persName>Pierre Wolff</persName>
+                     </person>
+                  </listPerson>
+                  <note>Verwechslung?</note>
+               </note>
+            </div>
+            <div xml:id="div_F104">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F104"/> Marbot.</p>
+               <note xml:id="ad_F104">
+                  <listPerson>
+                     <person xml:id="pmb3445">
+                        <persName>Marcellin Marbot</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F105">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F105"/> Matthey</p>
+               <note xml:id="ad_F105">
+                  <listPerson>
+                     <person xml:id="pmb64972">
+                        <persName>Maja Matthey</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F106">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F106"/> Mariveau</p>
+               <note xml:id="ad_F106">
+                  <listPerson>
+                     <person xml:id="pmb12187">
+                        <persName>Pierre Carlet de Marivaux</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F107">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F107"/> Maupassant .... Mo<hi
+                     rend="manual">n</hi>t <hi rend="manual">O</hi>riol / Horla / Pierre et Jean /
+                  Bel ami / la petite roque / Heritage. / une vie / Main gauche / fort comme la mort
+                  / <hi rend="manual">T</hi>ellier / Rondoli <supplied>/</supplied> Paix de menage.
+                  / In. beauté / Contes du jour et de la nuit / Père Milon / Nôtre coeur / <hi
+                     rend="manual">m</hi> parent <hi rend="manual">/ Colporteur /</hi>
+               </p>
+               <note xml:id="ad_F107">
+                  <listPerson>
+                     <person xml:id="pmb12201">
+                        <persName>Guy de Maupassant</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F108">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F108"/> Mendes ..... jupe courte /
+                  monstre paris. souper des pl. <supplied>/</supplied> cruel berceau / rom. rouge /
+                  pour lire au couvent <supplied>/</supplied> feuille d enverte / premiere maitresse
+                  / oiseau bleu / jeune fille / l’art d’aimer</p>
+               <note xml:id="ad_F108">
+                  <listPerson>
+                     <person xml:id="pmb21317">
+                        <persName>Catulle Mendès</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F109">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F109"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Mere</hi>,</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">danse de minuit</hi>
+               </p>
+               <note xml:id="ad_F109">
+                  <listPerson>
+                     <person xml:id="pmb64973">
+                        <persName>Charles Méré</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F110">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F110"/> Merouvel .... Lyses aux
+                  ruisseau</p>
+               <note xml:id="ad_F110">
+                  <listPerson>
+                     <person xml:id="pmb64974">
+                        <persName>Charles Mérouvel</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F111">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F111"/> Metellier. l’envie / la chaire
+                  /</p>
+               <note xml:id="ad_F111">
+                  <listPerson>
+                     <person xml:id="pmb5125">
+                        <persName>Oscar Méténier</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F112">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F112"/> Murabeau Lettres a Sophie</p>
+               <note xml:id="ad_F112">
+                  <listPerson>
+                     <person xml:id="pmb21497">
+                        <persName>Honoré Gabriel de Mirabeau</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F113">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F113"/> Michelier</p>
+               <note xml:id="ad_F113">
+                  <listPerson>
+                     <person xml:id="pmb64975">
+                        <persName>Jules Michelet</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F114">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F114"/> Mirbeau ... Calvaire / femme de
+                  chambre</p>
+               <note xml:id="ad_F114">
+                  <listPerson>
+                     <person xml:id="pmb8948">
+                        <persName>Octave Mirbeau</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F115">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F115"/> Moliere</p>
+               <note xml:id="ad_F115">
+                  <listPerson>
+                     <person xml:id="pmb3272">
+                        <persName>Jean-Baptiste Molière</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F116">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F116"/> Montepin ... Sünderinnen</p>
+               <note xml:id="ad_F116">
+                  <listPerson>
+                     <person xml:id="pmb64976">
+                        <persName>Xavier-Aymon, Comte de Montépin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F117">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F117"/> Monroi ... le paicher capital /
+                  homme vari -</p>
+               <note xml:id="ad_F117">
+                  <listPerson>
+                     <person xml:id="pmb64977">
+                        <persName>Richard O’Monroy</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F118">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F118"/> Musset .... Zwisch. Tür und
+                  Angel / Launen einer Frau <supplied>/</supplied> Caprices / Confession / Contes /
+                  Nouvelles / Lorenzagio</p>
+               <note xml:id="ad_F118">
+                  <listPerson>
+                     <person xml:id="pmb12311">
+                        <persName>Alfred de Musset</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F119">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F119"/> Musset Paule .... Alfred de
+                  Musset</p>
+               <note xml:id="ad_F119">
+                  <listPerson>
+                     <person xml:id="pmb64978">
+                        <persName>Paul Edme de Musset</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F120">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F120"/> Murget ... Zigeunerleben</p>
+               <note xml:id="ad_F120">
+                  <listPerson>
+                     <person xml:id="pmb8987">
+                        <persName>Henri Murger</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F121">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F121"/> Nerval</p>
+               <note xml:id="ad_F121">
+                  <listPerson>
+                     <person xml:id="pmb64979">
+                        <persName>Gérard de Nerval</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F122">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F122"/> Nizet .... Sugestion</p>
+               <note xml:id="ad_F122">
+                  <listPerson>
+                     <person xml:id="pmb64980">
+                        <persName>Henri Nizet</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F123">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F123"/> Nodier ...
+                  Jugenderinnerungen</p>
+               <note xml:id="ad_F123">
+                  <listPerson>
+                     <person xml:id="pmb64981">
+                        <persName>Jean Charles Emmanuel Nodier</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F124">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F124"/> Nozoff .... Russie galante</p>
+               <note xml:id="ad_F124">
+                  <listPerson>
+                     <person xml:id="pmb64982">
+                        <persName>Serge Nossoff</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F125">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F125"/> Peladan .... Gynandre</p>
+               <note xml:id="ad_F125">
+                  <listPerson>
+                     <person xml:id="pmb64983">
+                        <persName>Joséphin Péladan</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F126">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F126"/> Perret ... Droite à l’amour</p>
+               <note xml:id="ad_F126">
+                  <listPerson>
+                     <person xml:id="pmb64984">
+                        <persName>Paul Perret</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F127">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F127"/>
+                  <hi rend="manual">Philippe ...</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Mère et enfant / Bubu / Croquignole / petite ville /</hi>
+               </p>
+               <note xml:id="ad_F127">
+                  <listPerson>
+                     <person xml:id="pmb5604">
+                        <persName>Charles-Louis Philippe</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F128">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F128"/> Pigault lebrun .... enfant den
+                  Carneval. / Angelique</p>
+               <note xml:id="ad_F128">
+                  <listPerson>
+                     <person xml:id="pmb64985">
+                        <persName>Charles-Antoine-Guillaume Pigault de l’Épinoy
+                           Pigault-Lebrun</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F129">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F129"/> Pairebrune .... Jean <hi
+                     rend="manual">B</hi>ernard</p>
+               <note xml:id="ad_F129">
+                  <listPerson>
+                     <person xml:id="pmb64986">
+                        <persName>Georges de Peyrebrune</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F130">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F130"/> Prevost .... Manon</p>
+               <note xml:id="ad_F130">
+                  <listPerson>
+                     <person xml:id="pmb4112">
+                        <persName>Antoine-François Prévost</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F131">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F131"/> Provin ... Lettres d’hommes /
+                  Pasionette <hi rend="manual">/ dial. d’am / cromme elle nous prennent /</hi>
+               </p>
+               <note xml:id="ad_F131">
+                  <listPerson>
+                     <person xml:id="pmb22901">
+                        <persName>Michel Provins</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F132">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F132"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Portoriche</hi>
+                  </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">...</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Amoureuse / Le vieil homme /</hi>
+               </p>
+               <note xml:id="ad_F132">
+                  <listPerson>
+                     <person xml:id="pmb22824">
+                        <persName>Georges de Porto-Riche</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F133">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F133"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Pontaille</hi>
+                  </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">l’infanterie de la peau</hi>
+               </p>
+               <note xml:id="ad_F133">
+                  <listPerson>
+                     <person xml:id="pmb64987">
+                        <persName>Édouard Pontal</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F134">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F134"/>
+                  <hi rend="manual">Rabelais Gargantua</hi>
+               </p>
+               <note xml:id="ad_F134">
+                  <listPerson>
+                     <person xml:id="pmb64988">
+                        <persName>François Rabelais</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F135">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F135"/> Rabusson .... L’épusée</p>
+               <note xml:id="ad_F135">
+                  <listPerson>
+                     <person xml:id="pmb64989">
+                        <persName>Henry Rabusson</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F136">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F136"/> Rachil<hi rend="manual">de</hi>
+                  ... Theater</p>
+               <note xml:id="ad_F136">
+                  <listPerson>
+                     <person xml:id="pmb64990">
+                        <persName>Rachilde</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F137">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F137"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Radiguet</hi> Diable</hi>
+               </p>
+               <note xml:id="ad_F137">
+                  <listPerson>
+                     <person xml:id="pmb22991">
+                        <persName>Raymond Radiguet</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F138">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F138"/> Regaier .... bon plaisir <hi
+                     rend="manual">/ double maitresse / peur de l’amour</hi>
+               </p>
+               <note xml:id="ad_F138">
+                  <listPerson>
+                     <person xml:id="pmb12591">
+                        <persName>Henri de Régnier</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F139">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F139"/> Raignault ... Umkehr</p>
+               <note xml:id="ad_F139">
+                  <listPerson>
+                     <person xml:id="pmb23149">
+                        <persName>Hippolyte François Regnier-Destourbet</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F140">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F140"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Renard</hi> Crimes.</hi>
+               </p>
+               <note xml:id="ad_F140">
+                  <listPerson>
+                     <person xml:id="pmb4460">
+                        <persName>Jules Renard</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F141">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F141"/> Renan <hi rend="manual">/
+                     ....</hi>
+               </p>
+               <note xml:id="ad_F141">
+                  <listPerson>
+                     <person xml:id="pmb9484">
+                        <persName>Ernest Renan</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F142">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F142"/> Resti<hi rend="manual">f</hi>e
+                  ..</p>
+               <note xml:id="ad_F142">
+                  <listPerson>
+                     <person xml:id="pmb3978">
+                        <persName>Nicolas Rétif de la Bretonne</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F143">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F143"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Retz</hi> Mem /</hi>
+               </p>
+               <note xml:id="ad_F143">
+                  <listPerson>
+                     <person xml:id="pmb9500">
+                        <persName>Jean François Paul de Retz</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F144">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F144"/> Ricard .... secret de femme</p>
+               <note xml:id="ad_F144">
+                  <listPerson>
+                     <person xml:id="pmb64991">
+                        <persName>Jules Ricard</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F145">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F145"/> Richepin .... Mad. Vogelleim /
+                  mort bizard </p>
+               <note xml:id="ad_F145">
+                  <listPerson>
+                     <person xml:id="pmb64992">
+                        <persName>Jean Richepin</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F146">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F146"/> Rousseau ....</p>
+               <note xml:id="ad_F146">
+                  <listPerson>
+                     <person xml:id="pmb12582">
+                        <persName>Jean-Jacques Rousseau</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F147">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F147"/> Rod .... Leilof / femme de Henri
+                  Vanneau / les trois coeurs <supplied>/</supplied>
+                  <hi rend="strikethrough">Stend<hi rend="manual">h</hi>al</hi>
+               </p>
+               <note xml:id="ad_F147">
+                  <listPerson>
+                     <person xml:id="pmb64993">
+                        <persName>Édouard Rod</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F148">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F148"/>
+                  <hi rend="manual">Rolland ...</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">Jean Cristophe / -</hi>
+               </p>
+               <note xml:id="ad_F148">
+                  <listPerson>
+                     <person xml:id="pmb12543">
+                        <persName>Romain Rolland</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F149">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F149"/>
+                  <hi rend="manual">J</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Romains</hi>,</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">mort de quelqu’un</hi>
+               </p>
+               <note xml:id="ad_F149">
+                  <listPerson>
+                     <person xml:id="pmb9562">
+                        <persName>Jules Romains</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F150">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F150"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Rotschild</hi>
+                  </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">le ravage /</hi>
+               </p>
+               <note xml:id="ad_F150">
+                  <listPerson>
+                     <person xml:id="pmb9596">
+                        <persName>Henri de Rothschild</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F151">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F151"/> Sand ..... Indiana / Lavinia /
+                  Paula / Cora / des Hauses Dämon <hi rend="manual">/ Claudia / Lettres Musset in 4
+                     Bdn /</hi>
+               </p>
+               <note xml:id="ad_F151">
+                  <listPerson>
+                     <person xml:id="pmb9643">
+                        <persName>George Sand</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F152">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F152"/> Saturnin .... P<hi rend="manual"
+                     >o</hi>rtier de Chartreuse</p>
+               <note xml:id="ad_F152">
+                  <listPerson>
+                     <person xml:id="pmb64994">
+                        <persName>Jean-Charles Gervaise de Latouche</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F153">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F153"/> Sardou</p>
+               <note xml:id="ad_F153">
+                  <listPerson>
+                     <person xml:id="pmb12624">
+                        <persName>Victorien Sardou</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F154">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F154"/> Scaron .... Roman comique</p>
+               <note xml:id="ad_F154">
+                  <listPerson>
+                     <person xml:id="pmb64995">
+                        <persName>Paul Scarron</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F155">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F155"/> Scholl .... Peines den coeur /
+                  Liebhaber seiner Frau</p>
+               <note xml:id="ad_F155">
+                  <listPerson>
+                     <person xml:id="pmb64996">
+                        <persName>Aurélien Scholl</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F156">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F156"/>
+                  <hi rend="manual">Scheffer ..</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">frissonannte</hi>
+               </p>
+               <note xml:id="ad_F156">
+                  <listPerson>
+                     <person xml:id="pmb24079">
+                        <persName>Robert Scheffer</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F157">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F157"/> Sylvester .... Propos Grivois /
+                  Hist. inconv. <supplied>/</supplied> histoure joieuse / trente farce / hist.
+                  Follâtre</p>
+               <note xml:id="ad_F157">
+                  <listPerson>
+                     <person xml:id="pmb64997">
+                        <persName>Armand Silvestre</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F158">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F158"/> Scribe</p>
+               <note xml:id="ad_F158">
+                  <listPerson>
+                     <person xml:id="pmb12756">
+                        <persName>Eugène Scribe</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F159">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F159"/>
+                  <hi rend="manual">Ségur,</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">l’anneau charnel</hi>
+               </p>
+               <note xml:id="ad_F159">
+                  <listPerson>
+                     <person xml:id="pmb63295">
+                        <persName>Nicolas Ségur</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F160">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F160"/> Stendhal .... Liebe / Rouge et
+                  noir / Broulard / Egotisme / Chartreuse <hi rend="manual">/ Armance /</hi>
+               </p>
+               <note xml:id="ad_F160">
+                  <listPerson>
+                     <person xml:id="pmb28820">
+                        <persName>Stendhal</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F161">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F161"/> Souvestre .... Philosoph / am
+                  Kamin</p>
+               <note xml:id="ad_F161">
+                  <listPerson>
+                     <person xml:id="pmb64998">
+                        <persName>Émile Souvestre</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F162">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F162"/> Sue ..... der ewige jude </p>
+               <note xml:id="ad_F162">
+                  <listPerson>
+                     <person xml:id="pmb10134">
+                        <persName>Eugène Sue</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F163">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F163"/>
+                  <hi rend="underline">Taine</hi> ....</p>
+               <note xml:id="ad_F163">
+                  <listPerson>
+                     <person xml:id="pmb12913">
+                        <persName>Hippolyte Taine</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F164">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F164"/>
+                  <hi rend="underline">Talma</hi> .... Memoiren</p>
+               <note xml:id="ad_F164">
+                  <listPerson>
+                     <person xml:id="pmb64999">
+                        <persName>François-Joseph Talma</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F165">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F165"/>
+                  <hi rend="underline">Theur<hi rend="manual">i</hi>eut</hi> .... Scene de la vie
+                  intime / Paradise d’enfant</p>
+               <note xml:id="ad_F165">
+                  <listPerson>
+                     <person xml:id="pmb65000">
+                        <persName>Claude Adhémar André Theuriet</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F166">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F166"/>
+                  <hi rend="underline">Tillier</hi> .... Onkel Benjamin</p>
+               <note xml:id="ad_F166">
+                  <listPerson>
+                     <person xml:id="pmb2717">
+                        <persName>Claude Tillier</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F167">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F167"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Tynaire</hi>. mais. de peche /</hi>
+               </p>
+               <note xml:id="ad_F167">
+                  <listPerson>
+                     <person xml:id="pmb26069">
+                        <persName>Marcelle Tinayre</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F168">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F168"/>
+                  <hi rend="underline">Ulbach</hi> .... Fernelle</p>
+               <note xml:id="ad_F168">
+                  <listPerson>
+                     <person xml:id="pmb65001">
+                        <persName>Louis Ulbach</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F169">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F169"/> Valdaigne .... amour du proch<hi
+                     rend="manual">ain</hi>
+               </p>
+               <note xml:id="ad_F169">
+                  <listPerson>
+                     <person xml:id="pmb65002">
+                        <persName>Charles Lucien Louis</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F170">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F170"/> Vastricouard .... Vielle garde /
+                  Vierge</p>
+               <note xml:id="ad_F170">
+                  <listPerson>
+                     <person xml:id="pmb65003">
+                        <persName>Raoul Vast</persName>
+                     </person>
+                     <person xml:id="pmb65004">
+                        <persName>Gustave Ricouard</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F171">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F171"/> Valmaître .... Paris impure</p>
+               <note xml:id="ad_F171">
+                  <listPerson>
+                     <person xml:id="pmb65005">
+                        <persName>Charles VirmaÎTre</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F172">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F172"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Vanderem</hi> Victime /</hi>
+               </p>
+               <note xml:id="ad_F172">
+                  <listPerson>
+                     <person xml:id="pmb26399">
+                        <persName>Fernand Vandérem</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F173">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F173"/> Veber .... L’aventure</p>
+               <note xml:id="ad_F173">
+                  <listPerson>
+                     <person xml:id="pmb26421">
+                        <persName>Pierre Veber</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F174">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F174"/> Verne. Reise um die Erde /
+                  20,000 Meilen / Hataras Ochs / Mittelpunkt der Erde, Courier des <hi rend="manual"
+                     >Z</hi>aren <supplied>/</supplied> zum Mond /</p>
+               <note xml:id="ad_F174">
+                  <listPerson>
+                     <person xml:id="pmb10344">
+                        <persName>Jules Verne</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F175">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F175"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Vautel</hi> Mon curé ch</hi>
+               </p>
+               <note xml:id="ad_F175">
+                  <listPerson>
+                     <person xml:id="pmb26419">
+                        <persName>Clément Vautel</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F176">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F176"/> Vigny ... Grandeur </p>
+               <note xml:id="ad_F176">
+                  <listPerson>
+                     <person xml:id="pmb26468">
+                        <persName>Alfred-Victor de Vigny</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F177">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F177"/> Villmot .... P<hi rend="manual"
+                     >e</hi>tise de coeur.</p>
+               <note xml:id="ad_F177">
+                  <listPerson>
+                     <person xml:id="pmb65006">
+                        <persName>Émile Villemot</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F178">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F178"/> Villiers .... Contes cru<hi
+                     rend="manual">e</hi>ls.</p>
+               <note xml:id="ad_F178">
+                  <listPerson>
+                     <person xml:id="pmb65007">
+                        <persName>Philippe-Auguste, Comte de Villiers de l’Isle-Adam</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F179">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F179"/> Voltaire</p>
+               <note xml:id="ad_F179">
+                  <listPerson>
+                     <person xml:id="pmb3124">
+                        <persName>François-Marie Voltaire</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F180">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F180"/>
+                  <hi rend="manual">
+                     <hi rend="underline">Vildrac</hi>
+                  </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">le pegase</hi>
+               </p>
+               <note xml:id="ad_F180">
+                  <listPerson>
+                     <person xml:id="pmb10367">
+                        <persName>Charles Vildrac</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F181">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F181"/>
+                  <hi rend="manual">Xannof. -</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="manual">pour rire</hi>
+               </p>
+               <note xml:id="ad_F181">
+                  <listPerson>
+                     <person xml:id="pmb27405">
+                        <persName>Léon Xanrof</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+            <div xml:id="div_F182">
+               <p>
+                  <idno type="schnitzler-lektueren" xml:id="F182"/> Zola ... Erzählungen an Ninon /
+                  moralische Nov <supplied>/</supplied> realistische Novellen / Glüch der R. M. /
+                  Halali <supplied>/</supplied> Bauch von Paris / Einnahme von Plassants / Erde /
+                  oeuvre / Germinal / Nana / Assomoi / Ra<hi rend="manual">qu</hi>in / Nentasse /
+                  Mad. <hi rend="manual">J</hi>era<hi rend="manual">t</hi> / Bête humaine /
+                  coquville / joie de vivre / Mouret</p>
+               <note xml:id="ad_F182">
+                  <listPerson>
+                     <person xml:id="pmb13194">
+                        <persName>Émile Zola</persName>
+                     </person>
+                  </listPerson>
+               </note>
+            </div>
+         </div>
+       
+      </body>
+   </text>
+</TEI>

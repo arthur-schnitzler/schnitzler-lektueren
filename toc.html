@@ -14,7 +14,8 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
-         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" /></a><div class="container-fluid"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                      <ul id="main-menu" class="navbar-nav">
                         <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
                               <li class="nav-item dropdown-submenu"><a title="Schnitzler-Lektueren" href="about.html" class="nav-link">Zum Projekt</a><a title="Schnitzler-Lektueren" href="vorwort.html" class="nav-link">Vorwort</a><a title="Schnitzler-Lektueren" href="einleitung.html" class="nav-link">Einleitung</a><a title="Schnitzler-Lektueren" href="edition.html" class="nav-link">Zur Edition</a><a title="Schnitzler-Lektueren" href="literatur.html" class="nav-link">Literatur</a></li>
@@ -28,6 +29,11 @@
                            </ul>
                         </li>
                         <li class="nav-item"><a title="Inhalt" href="toc.html" class="nav-link">Inhalt</a></li>
+                        <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Links <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Links" href="http://portal.uni-freiburg.de/ndl/personen/achimaurnhammer/schnitzlerarchiv.html/startseite" class="nav-link">Arthur-Schnitzler-Archiv</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Links" href="https://schnitzler.acdh.oeaw.ac.at" class="nav-link">Schnitzler am ACDH-CH</a></li>
+                           </ul>
+                        </li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Suche" value="" autocomplete="off" /><button type="submit" class="navbar-search-icon"><i data-feather="Suche"></i></button></form>
                   </div>
@@ -37,7 +43,7 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1>Table of Contents</h1>
+                  <h1>Inhaltsverzeichnis</h1>
                </div>
                <div class="card-body">
                   <table class="table table-striped display" id="tocTable" style="width:100%">
@@ -49,8 +55,52 @@
                      </thead>
                      <tbody>
                         <tr>
-                           <td><a href="Leseliste.html">Leseliste</a></td>
-                           <td>Leseliste.xml</td>
+                           <td><a href="Ungarn-etc.html">Leseliste – 06. Ungarn.. etc.</a></td>
+                           <td>Ungarn-etc.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Spanien.html">Leseliste – 04. Spanien</a></td>
+                           <td>Spanien.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Rom.html">Leseliste – 11. Rom</a></td>
+                           <td>Rom.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Russland.html">Leseliste – 09. Russland</a></td>
+                           <td>Russland.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="England.html">Leseliste – 05. England</a></td>
+                           <td>England.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Deutschsprachige-Literatur.html">Leseliste – 01. Deutschsprachige Literatur</a></td>
+                           <td>Deutschsprachige-Literatur.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Italien.html">Leseliste – 03. Italien</a></td>
+                           <td>Italien.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Norden.html">Leseliste – 08. Norden</a></td>
+                           <td>Norden.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Frankreich.html">Leseliste – 02. Frankreich</a></td>
+                           <td>Frankreich.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Anfang.html">Leseliste – 00. Titelblatt</a></td>
+                           <td>Anfang.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Polen-Czechen.html">Leseliste – 07. Polen.. Czechen..</a></td>
+                           <td>Polen-Czechen.xml</td>
+                        </tr>
+                        <tr>
+                           <td><a href="Griechenland.html">Leseliste – 10. Griechenland</a></td>
+                           <td>Griechenland.xml</td>
                         </tr>
                      </tbody>
                   </table>

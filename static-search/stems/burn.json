@@ -1,1 +1,1 @@
-{"stem":"burn","instances":[{"docId":"Leseliste","docUri":"Leseliste.html","score":2,"contexts":[{"form":"Burns","weight":"1","pos":4777,"context":" <mark>Burns<\/mark>","fid":"GB6"},{"form":"Burns","weight":"1","pos":4779,"context":"[GB6] →Robert <mark>Burns<\/mark>","fid":"pmb65027"}]}]}
+{"stem":"burn","instances":[{"docId":"England","docUri":"England.html","score":2,"contexts":[{"form":"Burns","weight":"1","pos":43,"context":" <mark>Burns<\/mark>","fid":"GB6"},{"form":"Burns","weight":"1","pos":45,"context":"[GB6] →Robert <mark>Burns<\/mark>","fid":"pmb65027"}]}]}

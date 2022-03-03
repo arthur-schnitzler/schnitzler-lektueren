@@ -1,1 +1,1 @@
-{"stem":"livius","instances":[{"docId":"Leseliste","docUri":"Leseliste.html","score":2,"contexts":[{"form":"Livius","weight":"1","pos":5782,"context":" <mark>Livius<\/mark>","fid":"L8"},{"form":"Livius","weight":"1","pos":5784,"context":"[L8] →Titus <mark>Livius<\/mark>","fid":"pmb65127"}]}]}
+{"stem":"livius","instances":[{"docId":"Rom","docUri":"Rom.html","score":2,"contexts":[{"form":"Livius","weight":"1","pos":30,"context":" <mark>Livius<\/mark>","fid":"L8"},{"form":"Livius","weight":"1","pos":32,"context":"[L8] →Titus <mark>Livius<\/mark>","fid":"pmb65127"}]}]}
