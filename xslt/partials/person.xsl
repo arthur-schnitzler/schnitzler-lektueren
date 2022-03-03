@@ -25,73 +25,9 @@
                    </xsl:otherwise>
                </xsl:choose></p>
            </xsl:for-each>
-            <xsl:choose>
-                <xsl:when test=".//tei:birth and .//tei:death">
-                    <p class="lebensdaten"><xsl:text>(</xsl:text>
-                    <xsl:choose>
-                        <xsl:when test=".//tei:birth/tei:date and .//tei:birth/tei:placeName/tei:settlement">
-                            <xsl:value-of select="concat(.//tei:birth/tei:date, ' ', .//tei:birth/tei:placeName/tei:settlement)"/>
-                        </xsl:when>
-                        <xsl:when test=".//tei:birth/tei:date">
-                            <xsl:value-of select=".//tei:birth/tei:date"/>
-                        </xsl:when>
-                        <xsl:when test=".//tei:birth/tei:placeName/tei:settlement">
-                            <xsl:value-of select="concat('geboren in ',.//tei:birth/tei:placeName/tei:settlement)"/>
-                        </xsl:when>
-                    </xsl:choose>
-                    <xsl:text> – </xsl:text>  
-                        <xsl:choose>
-                            <xsl:when test=".//tei:death/tei:date and .//tei:death/tei:placeName/tei:settlement">
-                                <xsl:value-of select="concat(.//tei:death/tei:date, ' ', .//tei:death/tei:placeName/tei:settlement)"/>
-                            </xsl:when>
-                            <xsl:when test=".//tei:death/tei:date">
-                                <xsl:value-of select=".//tei:death/tei:date"/>
-                            </xsl:when>
-                            <xsl:when test=".//tei:death/tei:placeName/tei:settlement">
-                                <xsl:value-of select="concat('geboren in ',.//tei:death/tei:placeName/tei:settlement)"/>
-                            </xsl:when>
-                        </xsl:choose>   
-                        <xsl:text>)</xsl:text>
-                    </p>
-                </xsl:when>
-                <xsl:when test=".//tei:birth">
-                    <p class="lebensdaten"><xsl:text>(geboren </xsl:text>
-                        <xsl:choose>
-                            <xsl:when test=".//tei:birth/tei:date and .//tei:birth/tei:placeName/tei:settlement">
-                                <xsl:value-of select="concat(.//tei:birth/tei:date, ' ', .//tei:birth/tei:placeName/tei:settlement)"/>
-                            </xsl:when>
-                            <xsl:when test=".//tei:birth/tei:date">
-                                <xsl:value-of select=".//tei:birth/tei:date"/>
-                            </xsl:when>
-                            <xsl:when test=".//tei:birth/tei:placeName/tei:settlement">
-                                <xsl:value-of select="concat('geboren in ',.//tei:birth/tei:placeName/tei:settlement)"/>
-                            </xsl:when>
-                        </xsl:choose>
-                        <xsl:text>)</xsl:text>
-                    </p>
-                </xsl:when>
-                <xsl:when test=".//tei:death">
-                    <p class="lebensdaten"><xsl:text>(† </xsl:text>
-                        <xsl:choose>
-                            <xsl:when test=".//tei:death/tei:date and .//tei:death/tei:placeName/tei:settlement">
-                                <xsl:value-of select="concat(.//tei:death/tei:date, ' ', .//tei:death/tei:placeName/tei:settlement)"/>
-                            </xsl:when>
-                            <xsl:when test=".//tei:death/tei:date">
-                                <xsl:value-of select=".//tei:death/tei:date"/>
-                            </xsl:when>
-                            <xsl:when test=".//tei:death/tei:placeName/tei:settlement">
-                                <xsl:value-of select="concat('geboren in ',.//tei:death/tei:placeName/tei:settlement)"/>
-                            </xsl:when>
-                        </xsl:choose>   
-                        <xsl:text>)</xsl:text>
-                    </p>
-                </xsl:when>
-                <xsl:otherwise>
-                    <p class="lebensdaten"><xsl:text>ERROR 287 Lebensdaten</xsl:text></p>
-                </xsl:otherwise>
-            </xsl:choose>
+            
             <xsl:if test=".//tei:occupation">
-                <p class="lebensdaten">
+                <p>
            <xsl:for-each select=".//tei:occupation">
                <xsl:value-of select="."/>
                <xsl:choose>
@@ -105,25 +41,36 @@
            </xsl:for-each>
                 </p></xsl:if>
             <div id="mentions">
-                <p><xsl:text>&#8594;</xsl:text> <a href="{concat('Leseliste.html#',@xml:id)}" class="blinkwink">Leseliste</a></p></div>
-            <xsl:text>LINKS: </xsl:text>
+                <p><a href="{concat('Leseliste.html#',@xml:id)}" class="blinkwink leseliste-button">Leseliste</a></p></div>
+            
+            <p id="button-group">
             <xsl:for-each
-                select="child::tei:idno[not(@type = 'schnitzler-lektueren')]">
+                select="child::tei:idno[not(@type = 'schnitzler-lektueren') and not(@type='gnd')]">
                 <xsl:choose>
                     <xsl:when test="not(.='')">
+                       <span>
                         <xsl:element name="a">
-                            <xsl:attribute name="href">
+                            <xsl:attribute name="class">
                                 <xsl:choose>
-                                    <xsl:when test="@type='PMB'">
-                                        <xsl:value-of select="mam:pmbChange(., 'person')"/>
-                                    </xsl:when>
                                     <xsl:when test="@type='gnd'">
-                                        <xsl:value-of select="replace(., 'https://d-nb.info/gnd/', 'http://tools.wmflabs.org/persondata/redirect/gnd/de/')"/>
+                                        <xsl:text>wikipedia-button</xsl:text>
+                                    </xsl:when>
+                                    <xsl:when test="@type='schnitzler-briefe'">
+                                        <xsl:text>briefe-button</xsl:text>
+                                    </xsl:when>
+                                    <xsl:when test="@type='schnitzler-tagebuch'">
+                                        <xsl:text>tagebuch-button</xsl:text>
+                                    </xsl:when>
+                                    <xsl:when test="@type='bahrschnitzler'">
+                                        <xsl:text>bahrschnitzler-button</xsl:text>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:value-of select="."/>
+                                        <xsl:value-of select="@type"/><xsl:text>XXXX</xsl:text>
                                     </xsl:otherwise>
                                 </xsl:choose>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                                        <xsl:value-of select="."/>
                             </xsl:attribute>
                             <xsl:attribute name="target">
                                 <xsl:text>_blank</xsl:text>
@@ -135,6 +82,7 @@
                                 <xsl:value-of select="mam:ahref-namen(@type)"/>
                             </xsl:element>
                         </xsl:element>
+                       </span><xsl:text> </xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:element name="span">
@@ -150,6 +98,9 @@
                 </xsl:if>
             </xsl:for-each>
             <xsl:element name="a">
+                <xsl:attribute name="class">
+                    <xsl:text>PMB-button</xsl:text>
+                </xsl:attribute>
                 <xsl:attribute name="href">
                     <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', substring-after(./@xml:id,'pmb') , '/detail')"/>
                 </xsl:attribute>
@@ -164,6 +115,31 @@
                 </xsl:element>
             </xsl:element>
             
+            </p>
+
+            <xsl:if test="child::tei:idno[@type='gnd']">
+                <p id="button-group">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="class">
+                                                <xsl:text>wikipedia-button</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="replace(child::tei:idno[@type='gnd'], 'https://d-nb.info/gnd/', 'http://tools.wmflabs.org/persondata/redirect/gnd/de/')"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:element name="span">
+                                        <xsl:attribute name="class">
+                                            <xsl:text>wikipedia-color</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="mam:ahref-namen('gnd')"/>
+                                    </xsl:element>
+                                </xsl:element>
+                </p>
+            </xsl:if>
+                        
+                       
         </div>
     </xsl:template>
     <xsl:function name="mam:pmbChange">

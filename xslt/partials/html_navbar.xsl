@@ -53,9 +53,7 @@
                                     <li class="nav-item dropdown-submenu"><a title="Links" href="http://portal.uni-freiburg.de/ndl/personen/achimaurnhammer/schnitzlerarchiv.html/startseite" class="nav-link">Arthur-Schnitzler-Archiv</a></li>
                             <li class="nav-item dropdown-submenu">
                                 <a title="Links" href="https://schnitzler.acdh.oeaw.ac.at" class="nav-link">Schnitzler am ACDH-CH</a></li></ul></li>
-                            
-                            
-                            
+                            <a title="Links" href="https://github.com/martinantonmueller/schnitzler-lektueren" class="nav-link">Daten auf gitHub</a>
                         </ul>                        
                         <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Suche" value="" autocomplete="off" />

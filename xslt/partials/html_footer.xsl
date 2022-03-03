@@ -45,9 +45,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="flex-md-row mb-4 align-items-center">
                                         <a href="http://portal.uni-freiburg.de/ndl/personen/achimaurnhammer/schnitzlerarchiv.html/startseite" target="_blank">Arthur Schnitzler Archiv</a>
-                                    </div>
                                 </div>  
                             </div>
                         </div>
