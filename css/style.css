@@ -199,6 +199,11 @@ ul.dashed > li:before {
     margin-left: -1em;
 }
 
+ul.dashed > li {
+     margin-bottom: 18px;  
+}
+
+
 ul.arrow {
     list-style: none;
     margin-left: 0.3em;
@@ -389,6 +394,19 @@ a.bahrschnitzler-button {
     transition: background-color ease .2s,color ease .2s;
 }
 
+a.black-button {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: .25rem 1.25rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: black;
+    max-width: 10rem;
+    transition: background-color ease .2s,color ease .2s;
+}
+
 .button-group {
          display: flex;
       }
@@ -396,3 +414,14 @@ a.bahrschnitzler-button {
          font-size: 4rem;
          border: 0;
       }
+
+.titel {
+    font-style: italic
+}
+
+.werke {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    
+}
+

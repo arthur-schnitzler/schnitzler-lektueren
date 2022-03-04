@@ -1,22 +1,111 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-           <titleStmt>
-              <title type="main">Über das Projekt</title>
-              <title type="sub">Arthur Schnitzlers Lektüren</title>
-           </titleStmt>
-           <publicationStmt>
-              <p>Publication Information</p>
-           </publicationStmt>
-           <sourceDesc>
-              <p>Information about the source</p>
-           </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-           <p>Dies ist die digitale Fassung von </p>
-        </body>
-    </text>
-  </TEI>
-  
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzlers Lektüren: Leseliste und virtuelle Bibliothek</title>
+            <title level="a">Vorwort</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Achim Aurnhammer</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
+                  Sciences</orgName>
+               <address>
+                  <addrLine>Sonnenfelsgasse 19</addrLine>
+                  <addrLine>1010 Vienna</addrLine>
+               </address>
+            </publisher>
+            <publisher>
+               <orgName>Ergon Verlag</orgName>
+            </publisher>
+            <pubPlace ref="https://www.geonames.org/2805615/wuerzburg.html">Würzburg</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false" status="draft">
+               <monogr>
+                  <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
+                     Bibliothek</title>
+                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <editor role="hrsg">
+                     <persName>
+                        <forename>Achim</forename>
+                        <surname>Aurnhammer</surname>
+                     </persName>
+                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs Freiburg</orgName>
+                     </affiliation>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <orgName>Ergon</orgName>
+                     </publisher>
+                     <pubPlace>
+                        <placeName>Würzburg</placeName>
+                     </pubPlace>
+                     <date when="2013">2013</date>
+                  </imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">5</biblScope>
+                  <extent>
+                     <measure type="pages">1</measure>
+                  </extent>
+               </monogr>
+               <series>
+                  <title level="s">Akten des Arthur Schnitzler-Archivs der Universität
+                     Freiburg</title>
+                  <editor role="hrsg">
+                     <orgName>Arthur Schnitzler-Archiv Freiburg</orgName>
+                  </editor>
+                  <biblScope unit="volume">Band 2</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="level1" xml:id="vorworti"><head>Vorwort zur digitalen Ausgabe 2022</head>
+         <p>Neun Jahre nach der gedruckten Ausgabe liegt nun eine digitale Fassung der Lektüreliste vor…
+        </p>
+            <p rend="right">Achim Aurnhammer</p>
+            <p>Freiburg, März 2022</p>
+         
+         </div>
+         
+         <div type="level1" xml:id="vorwortii">
+         <head>Vorwort zur gedruckten Ausgabe 2013</head>
+         <p>Die Edition von Arthur Schnitzlers Leseliste und die Rekonstruktion seiner Bibliothek
+            haben eine lange Geschichte. Beide Vorhaben reichen in die Zeit zurück, als
+            elektronische Recherchen noch nicht möglich waren. Immer wieder von an deren Projekten
+            unterbrochen, waren an der langjährigen Entzifferung der Einträge, deren
+            bibliographischer Verifikation bis zur editorischen Aufbereitung viele studentische
+            Mitarbeiter, Kollegen und Freunde beteiligt, denen ich großen Dank schulde. Namentlich
+            erwähnt seien Hans-Peter Buohler, Cornelia Heinsch, Julia Ilgner, Clemens A. Kleijn,
+            Michael Kreß und Lea Marquart. Bei schwierigen Knacknüssen half mir bereitwillig Peter
+            Michael Braunwarth (Wien), bei Auflösung der russischen Titel unterstützten mich
+            Alexandr Belobratow (Sankt Petersburg) und Konstantin Rapp (Freiburg). Sollte die
+            Leseliste dennoch Fehler auf weisen, habe ich diese zu verantworten.</p>
+         <p>Die Deutsche Forschungsgemeinschaft hat das Projekt durch ein Forschungsfreisemester im
+            Jahre 2008/09 wesentlich gefördert. Dafür sei ihr an dieser Stelle ebenso gedankt wie
+            der VG WORT, welche die Publikation der Buchausgabe durch einen namhaften
+            Druckkostenzuschuss unterstützte.</p>
+         <p rend="right">Achim Aurnhammer</p>
+         <p>Freiburg, März 2013</p>
+         </div>
+      </body>
+   </text>
+</TEI>
