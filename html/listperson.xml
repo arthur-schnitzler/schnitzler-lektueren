@@ -1113,7 +1113,7 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13411</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren/F4_V1</idno>
                </person>
-               <person xml:id="pmb64928">
+               <person xml:id="pmb3892">
                   <tei:persName>
                      <tei:surname>Barrès</tei:surname>
                      <tei:forename>Maurice</tei:forename>
