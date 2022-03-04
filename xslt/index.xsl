@@ -66,13 +66,177 @@
                                         </div>
                                         <div class="card-header">                                            
                                             <h3>
-                                                <i class="fas fa-user-friends"></i> Personenregister
+                                                <i class="fa-solid fa-user-group"></i> Personenregister
                                             </h3>                                            
                                         </div>
                                     </div>                                     
-                                </a>                                    
+                                </a>
                             </div>
-                            
+                            <div class="col-md-4">
+                                <a href="Deutschsprachige-Literatur.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Deutschsprachige Literatur
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Frankreich.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Frankreich
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Italien.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Italien
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Spanien.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Spanien
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="England.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> England
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Ungarn-etc.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Ungarn.. etc.
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Polen-Czechen.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Polen.. Czechen..
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Norden.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Norden
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Russland.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Russland
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Griechenland.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Griechenland
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Rom.html" class="index-link">                                   
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"></i> Rom
+                                            </h3>                                            
+                                        </div>
+                                    </div>                                     
+                                </a>
+                                
+                            </div>
                             
                         </div>
                     </div>

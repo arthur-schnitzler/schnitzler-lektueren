@@ -48,8 +48,8 @@
             </xsl:if>
             <div id="mentions">
                 <p>
-                    <xsl:variable name="link" select="key('konk-lookup',@xml:id,$konkordanz)[1]/@target"/>
-                    
+                    <xsl:variable name="link"
+                        select="key('konk-lookup', @xml:id, $konkordanz)[1]/@target"/>
                     <a href="{concat($link, '#',@xml:id)}" class="blinkwink leseliste-button"
                         >Leseliste</a>
                 </p>
@@ -131,25 +131,25 @@
                 </xsl:element>
                 <xsl:if test="child::tei:idno[@type = 'gnd']">
                     <xsl:text> </xsl:text>
-                        <xsl:element name="a">
+                    <xsl:element name="a">
+                        <xsl:attribute name="class">
+                            <xsl:text>wikipedia-button</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">
+                            <xsl:value-of
+                                select="replace(child::tei:idno[@type = 'gnd'], 'https://d-nb.info/gnd/', 'http://tools.wmflabs.org/persondata/redirect/gnd/de/')"
+                            />
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:element name="span">
                             <xsl:attribute name="class">
-                                <xsl:text>wikipedia-button</xsl:text>
+                                <xsl:text>wikipedia-color</xsl:text>
                             </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of
-                                    select="replace(child::tei:idno[@type = 'gnd'], 'https://d-nb.info/gnd/', 'http://tools.wmflabs.org/persondata/redirect/gnd/de/')"
-                                />
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:element name="span">
-                                <xsl:attribute name="class">
-                                    <xsl:text>wikipedia-color</xsl:text>
-                                </xsl:attribute>
-                                <xsl:value-of select="mam:ahref-namen('gnd')"/>
-                            </xsl:element>
+                            <xsl:value-of select="mam:ahref-namen('gnd')"/>
                         </xsl:element>
+                    </xsl:element>
                 </xsl:if>
             </p>
             <div class="werke">
@@ -364,7 +364,6 @@
                     </xsl:for-each>
                 </ul>
             </div>
-            
         </div>
     </xsl:template>
     <xsl:function name="mam:pmbChange">

@@ -41,13 +41,17 @@
                         </div>
                     </div>
                     <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
+                        <div class="textwidget custom-html-widget">
                         <h6 class="font-weight-bold">PROJEKTPARTNER</h6>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <a href="http://portal.uni-freiburg.de/ndl/personen/achimaurnhammer/schnitzlerarchiv.html/startseite" target="_blank">Arthur Schnitzler Archiv</a>
-                                </div>  
-                            </div>
+                        <a href="http://portal.uni-freiburg.de/ndl/personen/achimaurnhammer/schnitzlerarchiv.html/startseite" target="_blank">Arthur Schnitzler Archiv</a>
+                            <br/>
+                            Albert-Ludwigs-Universität
+                            <br/>
+                            Deutsches Seminar - Neuere Deutsche Literatur
+                            <br/>
+                            Platz der Universität 3
+                            <br/>
+                            D-79085 Freiburg
                         </div>
                     </div>
                     <!-- .footer-widget -->                       
