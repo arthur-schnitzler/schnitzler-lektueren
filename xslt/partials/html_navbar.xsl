@@ -30,7 +30,7 @@
                                     /></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Schnitzler-Lektueren" href="vorwort.html"
+                                        <a title="Schnitzler-Lektueren" href="about.html"
                                             class="nav-link">Vorwort</a>
                                         <a title="Schnitzler-Lektueren" href="einleitung.html"
                                             class="nav-link">Einleitung</a>
