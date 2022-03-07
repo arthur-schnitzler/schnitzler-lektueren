@@ -809,7 +809,7 @@
                   <author ref="#pmb13999">Julius Roderich Benedix</author>
                   <title level="m">Eigensinn. Lustspiel in einem Akt</title>
                   <date when="1848" cert="low">[ca. 1848]</date>
-                  <pubPlace>Ohne Ort</pubPlace>
+                  <pubPlace><supplied>Ohne Ort</supplied></pubPlace>
                </bibl>
                <bibl xml:id="D36_n1_w8" type="original">
                   <author ref="#pmb13999">Julius Roderich Benedix</author>
@@ -10610,10 +10610,8 @@
                   <author ref="#pmb14936">Gilbert Keith Chesterton</author>
                   <note>vermutlich</note>
                   <title level="m">Magie</title>
-                  
-                  <pubPlace>
-                     <supplied>Ohne Ort</supplied>
-                  </pubPlace>
+                  <editor role="translator">Rudolf Kommer</editor>
+                  <pubPlace>Berlin</pubPlace>
                   <date when="1914">1914</date>
                   <relatedItem source="original" target="#GB9_n1_w1_o1"/>
                </bibl>
