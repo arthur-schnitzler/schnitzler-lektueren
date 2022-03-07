@@ -463,6 +463,9 @@
                     </xsl:when>
                 </xsl:choose>
                 <xsl:for-each select="$bobl/tei:pubPlace">
+                    <xsl:if test="child::tei:supplied">
+                        SEX
+                    </xsl:if>
                     <xsl:text> </xsl:text>
                     <xsl:apply-templates/>
                     <xsl:choose>

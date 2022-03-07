@@ -246,7 +246,7 @@
                             </xsl:if>
                             <xsl:if test="tei:pubPlace">
                                 <xsl:for-each select="tei:pubPlace">
-                                    <xsl:value-of select="."/>
+                                    <xsl:apply-templates/>
                                     <xsl:choose>
                                         <xsl:when test="position() = last()">
                                             <xsl:text> </xsl:text>
@@ -406,4 +406,9 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+    <xsl:template match="tei:supplied">
+        <xsl:text>[</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>]</xsl:text>
+    </xsl:template>
 </xsl:stylesheet>
