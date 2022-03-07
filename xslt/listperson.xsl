@@ -116,8 +116,19 @@
         </html>
         <xsl:for-each select=".//tei:person[@xml:id]">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
-            <xsl:variable name="name"
-                select="normalize-space(string-join(./tei:persName[1]//text()))"/>
+            <xsl:variable name="name">
+                <xsl:choose>
+                    <xsl:when test="./tei:persName[1]/tei:forename[1] and ./tei:persName[1]/tei:surname[1]">
+                        <xsl:value-of select="normalize-space(concat(./tei:persName[1]/tei:forename[1],' ',./tei:persName[1]/tei:surname[1]))"/>
+                    </xsl:when>
+                    <xsl:when test="./tei:persName[1]/tei:forename[1]">
+                        <xsl:value-of select="normalize-space(./tei:persName[1]/tei:forename[1])"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="normalize-space(./tei:persName[1]/tei:surname[1])"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
             <xsl:variable name="lebensdaten_geburtsdatum-und-ort"
                 select="./tei:birth[1]/tei:date[1]//text()"/>
             <xsl:result-document href="{$filename}">

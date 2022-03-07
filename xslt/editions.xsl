@@ -404,7 +404,7 @@
                 </xsl:choose>
                 <xsl:for-each select="$bobl/tei:pubPlace">
                     <xsl:text> </xsl:text>
-                    <xsl:value-of select="."/>
+                    <xsl:apply-templates/>
                     <xsl:choose>
                         <xsl:when test="not(position() = last())">
                             <xsl:text>,</xsl:text>
@@ -444,7 +444,7 @@
                 </xsl:for-each>
                 <xsl:choose>
                     <xsl:when
-                        test="$bobl/tei:editor[@role = 'translator' and @subtype = 'anonymous']">
+                        test="$bobl[@type='translation' and not(tei:editor[@role = 'translator'])]">
                         <xsl:text> [Ohne Übersetzerangabe.] </xsl:text>
                     </xsl:when>
                     <xsl:when test="$bobl/tei:editor[@role = 'translator']">
@@ -464,7 +464,7 @@
                 </xsl:choose>
                 <xsl:for-each select="$bobl/tei:pubPlace">
                     <xsl:text> </xsl:text>
-                    <xsl:value-of select="."/>
+                    <xsl:apply-templates/>
                     <xsl:choose>
                         <xsl:when test="not(position() = last())">
                             <xsl:text>,</xsl:text>

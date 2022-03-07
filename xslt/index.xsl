@@ -29,8 +29,6 @@
                                 <div id="audenIndexCarousel" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#audenIndexCarousel" data-slide-to="0" class="active"></li>
-                                        <li data-target="#audenIndexCarousel" data-slide-to="1"></li>
-                                        <li data-target="#audenIndexCarousel" data-slide-to="2"></li>
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
@@ -39,9 +37,6 @@
                                                 <h1><xsl:value-of select="$project_title"/></h1>
                                                 <h2>Herausgegeben von Achim Aurnhammer</h2>
                                                 <p>Digitale Edition der Leseliste von Arthur Schnitzler</p>
-                                                <button class="btn btn-round">
-                                                    <a href="toc.html">Weiter</a>
-                                                </button>
                                             </div>
                                         </div>
                                     </div>

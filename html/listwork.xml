@@ -323,7 +323,7 @@
                <bibl type="translation" xml:id="D17_n1_w1_t1">
                   <author ref="#pmb13520">Schalom Sholem Asch</author>
                   <title level="m">Der Gott der Rache</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1907">1907</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -1079,7 +1079,7 @@
                <bibl type="translation" xml:id="D63_n1_w1_t1">
                   <author ref="#pmb10992">Georg Morris Cohen Brandes</author>
                   <title level="m">Ferdinand Lassalle. Ein literarisches Charakterbild</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1877">1877</date>
                   <relatedItem source="original" target="#D63_n1_w1_o1"/>
@@ -1092,7 +1092,7 @@
                <bibl type="translation" xml:id="D63_n1_w2_t1">
                   <author ref="#pmb10992">Georg Morris Cohen Brandes</author>
                   <title level="m">Sören Kierkegaard. Ein literarisches Charakterbild</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1879">1879</date>
                   <relatedItem source="original" target="#D63_n1_w2_o1"/>
@@ -1105,7 +1105,7 @@
                <bibl xml:id="D63_n1_w3" type="original">
                   <author ref="#pmb10992">Georg Morris Cohen Brandes</author>
                   <title level="m">Moderne Geister. Literarische Bildnisse aus dem 19. Jh</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Frankfurt am Main</pubPlace>
                   <date when="1882">1882</date>
                </bibl>
@@ -2763,7 +2763,6 @@
                   <author ref="#pmb7750">Sven Hedin</author>
                   <title level="m">Im Herzen von Asien. 1000. Kilometer auf unbekannten
                      Pfaden</title>
-                  <note>Anonyme Übersetzung</note>
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1903">1903</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -6530,7 +6529,7 @@
                <bibl type="translation" xml:id="F3_n1_w4_t1">
                   <author ref="#pmb10825">Honoré de Balzac</author>
                   <title level="m">Die Blutrache</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Quedlinburg</pubPlace>
                   <pubPlace>Leipzig</pubPlace>
                   <date from="1841" to="1846">1841–1846</date>
@@ -7087,7 +7086,7 @@
                <bibl type="translation" xml:id="F28_n1_w2_t1">
                   <author ref="#pmb2500">Jules Claretie</author>
                   <title level="m">Candidat</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Mannheim</pubPlace>
                   <date when="1892">1892</date>
                   <relatedItem source="original" target="#F28_n1_w2_o1"/>
@@ -7119,7 +7118,7 @@
                <bibl type="translation" xml:id="F29_n1_w1_t1">
                   <author ref="#pmb15088">Benjamin Constant</author>
                   <title level="m">Adolph. Aus den gefundenen Papieren eines Unbekannten</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Pest</pubPlace>
                   <date when="1817">1817</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -7187,7 +7186,7 @@
                <bibl type="translation" xml:id="F34_n1_w1_t1">
                   <author ref="#pmb21505">Marquise de Crémy</author>
                   <title level="m">Geschichte der Marquise von Crémy, von ihr selbst</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1773">1773</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -7247,7 +7246,7 @@
                <bibl type="translation" xml:id="F37_n1_w4_t1">
                   <author ref="#pmb11134">Alphonse Daudet</author>
                   <title level="m">Der kleine Dingsda, Geschichte eines Kindes</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1877">1877</date>
                   <relatedItem source="original" target="#F37_n1_w4_o1"/>
@@ -7286,7 +7285,7 @@
                <bibl type="translation" xml:id="F37_n1_w7_t1">
                   <author ref="#pmb11134">Alphonse Daudet</author>
                   <title level="m">Sappho. Pariser Sittenbild</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Dresden</pubPlace>
                   <date when="1884">1884</date>
                   <note>mit Adolphe Bélot</note>
@@ -7417,7 +7416,7 @@
                <bibl type="translation" xml:id="F48_n1_w1_t1">
                   <author ref="#pmb64942">Ernest-Aymé Feydeau</author>
                   <title level="m">Die Gräfin Chalis. Sittenroman</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1868">1868</date>
                   <relatedItem source="original" target="#F48_n1_w1_o1"/>
@@ -7430,7 +7429,7 @@
                <bibl type="translation" xml:id="F48_n1_w2_t1">
                   <author ref="#pmb64942">Ernest-Aymé Feydeau</author>
                   <title level="m">Fanny. Die Verwirrungen des menschlichen Herzens</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1859">1859</date>
                   <relatedItem source="original" target="#F48_n1_w2_o1"/>
@@ -7443,7 +7442,7 @@
                <bibl type="translation" xml:id="F49_n1_w1_t1">
                   <author ref="#pmb11315">Octave Feuillet</author>
                   <title level="m">Die Liebschaften Philipps von Boisvilleirs</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Leipzig</pubPlace>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1878">1878</date>
@@ -7625,7 +7624,7 @@
                <bibl type="translation" xml:id="F57_n1_w1_t1">
                   <author ref="#pmb64944">Émile Gaboriau</author>
                   <title level="m">L’affaire Lerouge oder Gefahren des Irrthums</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Wien</pubPlace>
                   <date when="1867">1867</date>
                   <relatedItem source="original" target="#F57_n1_w1_o1"/>
@@ -7638,7 +7637,7 @@
                <bibl type="translation" xml:id="F57_n1_w2_t1">
                   <author ref="#pmb64944">Émile Gaboriau</author>
                   <title level="m">Fascikel 113</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Wien</pubPlace>
                   <date when="1868">1868</date>
                   <relatedItem source="original" target="#F57_n1_w2_o1"/>
@@ -8085,7 +8084,7 @@
                   <author ref="#pmb20342">Alain René Lesage</author>
                   <title level="m">Der spanische Robinson, oder Sonderbahre Geschichte des Gil Blas
                      von Santillana</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Hamburg</pubPlace>
                   <date when="1726">1726</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -8152,7 +8151,7 @@
                <bibl type="translation" xml:id="F95_n1_w1_t1">
                   <author ref="#pmb8719">Louÿs, Pierre</author>
                   <title level="m">Aphrodite. Ein antikes Sittenbild</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Budapest</pubPlace>
                   <date when="1897">1897</date>
                   <relatedItem source="original" target="#F95_n1_w1_o1"/>
@@ -8457,7 +8456,7 @@
                <bibl type="translation" xml:id="F116_n1_w1_t1">
                   <author ref="#pmb64976">Xavier-Aymon, Comte de Montépin</author>
                   <title level="m">Die Sünderinnen</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Wien</pubPlace>
                   <date from="1874" to="1877">1874–1877</date>
                   <relatedItem source="original" target="#F116_n1_w1_o1"/>
@@ -8977,7 +8976,7 @@
                <bibl type="translation" xml:id="F151_n1_w7_t1">
                   <author ref="#pmb9643">George Sand</author>
                   <title level="m">George Sand an Alfred de Musset. Auszüge</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Wien</pubPlace>
                   <date when="1906">1906</date>
                   <relatedItem source="original" target="#F151_n1_w7_o1"/>
@@ -8991,7 +8990,7 @@
                   <author ref="#pmb64994">Jean-Charles Gervaise de Latouche</author>
                   <title level="m">Memoiren des Saturnin oder Geschichte des Gouberdom, Pförtner der
                      Kartäuser. Histoire de Gouberdom, portier des Chartreux</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Frankfurt am Main</pubPlace>
                   <date when="1748">1748</date>
                   <relatedItem source="original" target="#F152_n1_w1_o1"/>
@@ -9272,7 +9271,7 @@
                <bibl type="translation" xml:id="F174_n1_w1_t1">
                   <author ref="#pmb10344">Jules Verne</author>
                   <title level="a">Reise um die Welt in 80 Tagen</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Schriften, Band 6</title>
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1875">1875</date>
@@ -9286,7 +9285,7 @@
                <bibl type="translation" xml:id="F174_n1_w2_t1">
                   <author ref="#pmb10344">Jules Verne</author>
                   <title level="a">Zwanzigtausend Meilen unterm Meer</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Schriften, Band 4/5</title>
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1875">1875</date>
@@ -9300,7 +9299,7 @@
                <bibl type="translation" xml:id="F174_n1_w3_t1">
                   <author ref="#pmb10344">Jules Verne</author>
                   <title level="a">Reisen und Abenteuer des Kapitän Hatteras</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Bekannte und unbekannte Welten. Abenteuerliche Reisen. Band
                      7/8</title>
                   <pubPlace>Wien</pubPlace>
@@ -9315,7 +9314,7 @@
                <bibl type="translation" xml:id="F174_n1_w4_t1">
                   <author ref="#pmb10344">Jules Verne</author>
                   <title level="m">Reise nach dem Mittelpunkt der Erde</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>New York</pubPlace>
                   <date when="1882">1882</date>
                   <relatedItem source="original" target="#F174_n1_w4_o1"/>
@@ -9328,7 +9327,7 @@
                <bibl type="translation" xml:id="F174_n1_w5_t1">
                   <author ref="#pmb10344">Jules Verne</author>
                   <title level="m">Der Courier des Czar</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Bekannte und unbekannte Welten. Abenteuerliche Reisen. Band
                      23</title>
                   <pubPlace>Wien</pubPlace>
@@ -9343,7 +9342,7 @@
                <bibl type="translation" xml:id="F174_n1_w6_t1">
                   <author ref="#pmb10344">Jules Verne</author>
                   <title level="m">Reise von der Erde zum Mond</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Bekannte und unbekannte Welten. Abenteuerliche Reisen, Band
                      1</title>
                   <pubPlace>Wien</pubPlace>
@@ -9543,7 +9542,7 @@
                <bibl type="translation" xml:id="F182_n1_w13_t1">
                   <author ref="#pmb13194">Émile Zola</author>
                   <title level="m">Therese Raquin</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Großenhain</pubPlace>
                   <date when="1884">1884</date>
                   <relatedItem source="original" target="#F182_n1_w13_o1"/>
@@ -9597,7 +9596,7 @@
                <bibl type="translation" xml:id="F182_n1_w19_t1">
                   <author ref="#pmb13194">Émile Zola</author>
                   <title level="m">Die Schuld des Pastor Mouret</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Großenhain</pubPlace>
                   <date when="1881">1881</date>
                   <relatedItem source="original" target="#F182_n1_w19_o1"/>
@@ -9693,7 +9692,7 @@
                <bibl type="translation" xml:id="I6_n1_w1_t1">
                   <author ref="#pmb65011">Paolo Ferrari</author>
                   <title level="m">Ein Selbstmord. Schauspiel in fünf Acten</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Wien</pubPlace>
                   <date when="1881">1881</date>
                   <relatedItem source="original" target="#I6_n1_w1_o1"/>
@@ -9706,7 +9705,7 @@
                <bibl type="translation" xml:id="I7_n1_w1_t1">
                   <author ref="#pmb65012">Salvatore Farina</author>
                   <title level="m">Aus des Meeres Schaum. Aus den Saiten einer Baßgeige</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Stuttgart</pubPlace>
                   <date when="1886">1886</date>
                   <relatedItem source="original" target="#I7_n1_w1_o1"/>
@@ -10453,7 +10452,7 @@
                <bibl type="translation" xml:id="GB3_n1_w4_t1">
                   <author ref="#pmb11153">Charles Dickens</author>
                   <title level="m">Das Glockenspiel. Eine spukhafte Geschichte</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Elberfeld</pubPlace>
                   <pubPlace>Barmen</pubPlace>
                   <date when="1866">1866</date>
@@ -10495,7 +10494,7 @@
                <bibl type="translation" xml:id="GB3_n1_w7_t1">
                   <author ref="#pmb11153">Charles Dickens</author>
                   <title level="m">Der Verwünschte, oder der Vertrag mit dem Gespenste</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1889">1889</date>
                   <relatedItem source="original" target="#GB3_n1_w7_o1"/>
@@ -10611,7 +10610,7 @@
                   <author ref="#pmb14936">Gilbert Keith Chesterton</author>
                   <note>vermutlich</note>
                   <title level="m">Magie</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>
                      <supplied>Ohne Ort</supplied>
                   </pubPlace>
@@ -10620,7 +10619,7 @@
                </bibl>
                <bibl type="original" xml:id="GB9_n1_w1_o1">
                   <author ref="#pmb14936">Gilbert Keith Chesterton</author>
-                  <title level="m">Magic. A phanstatic comedy</title>
+                  <title level="m">Magic. A fantastic comedy</title>
                   <date when="1913">1913</date>
                </bibl>
                <bibl type="translation" xml:id="GB10_n1_w1_t1">
@@ -10826,7 +10825,7 @@
                <bibl type="translation" xml:id="GB21_n1_w3_t1">
                   <author ref="#pmb8204">Rudyard Kipling</author>
                   <title level="m">Der schwarze Jack und andere Geschichten</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Wien</pubPlace>
                   <date when="1903">1903</date>
                   <relatedItem source="original" target="#GB21_n1_w3_o1"/>
@@ -11061,7 +11060,7 @@
                <bibl type="translation" xml:id="GB35_n1_w1_t1">
                   <author ref="#pmb65044">Rodrigues Ottolengui</author>
                   <title level="m">Der Kameenknopf. Eine Detektivgeschichte</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Stuttgart</pubPlace>
                   <date when="1895">1895</date>
                   <relatedItem source="original" target="#GB35_n1_w1_o1"/>
@@ -11194,7 +11193,7 @@
                   <author ref="#pmb25962">William Makepeace Thackeray</author>
                   <title level="m">Die Geschichte von Arthur Pendennis, seine Freuden und Leiden,
                      seine Freunde und sein größter Feind</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Leipzig</pubPlace>
                   <date from="1849" to="1851">1849–1851</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -11209,7 +11208,7 @@
                <bibl type="translation" xml:id="GB48_n1_w3_t1">
                   <author ref="#pmb25962">William Makepeace Thackeray</author>
                   <title level="m">Die Snobs. Humoristische Bilder aus Alt-England</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Grimma</pubPlace>
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1851">1851</date>
@@ -11224,7 +11223,7 @@
                   <author ref="#pmb25962">William Makepeace Thackeray</author>
                   <title level="m">Geschichte des Heinrich Esmond. Von ihm selbst
                      geschrieben</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Grimma</pubPlace>
                   <date when="1852">1852</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -11259,7 +11258,7 @@
                   <author ref="#pmb65052">Sandor von Hegedues</author>
                   <title level="m">Der Mörder. Ein phantastisches Schauspiel in drei
                      Aufzügen</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1909">1909</date>
                   <relatedItem source="original" target="#U4_n1_w1_o1"/>
@@ -11283,7 +11282,7 @@
                <bibl type="translation" xml:id="U6_n1_w1_t1">
                   <author ref="#pmb18956">Mór [Maurus] Jókai</author>
                   <title level="m">Der Gefangene der sieben Türme</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1897">1897</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -11324,7 +11323,7 @@
                <bibl type="translation" xml:id="U6_n1_w4_t1">
                   <author ref="#pmb18956">Mór [Maurus] Jókai</author>
                   <title level="m">Andere Zeiten, andere Menschen</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1883">1883</date>
                   <relatedItem source="original" target="#U6_n1_w4_o1"/>
@@ -11337,7 +11336,7 @@
                <bibl type="translation" xml:id="U6_n1_w5_t1">
                   <author ref="#pmb18956">Mór [Maurus] Jókai</author>
                   <title level="m">Die nur einmal lieben</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1878">1878</date>
                   <relatedItem source="original" target="#U6_n1_w5_o1"/>
@@ -11363,7 +11362,7 @@
                <bibl type="translation" xml:id="U6_n1_w7_t1">
                   <author ref="#pmb18956">Mór [Maurus] Jókai</author>
                   <title level="m">Mein, Dein, Sein. Roman</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1875">1875</date>
                   <relatedItem source="original" target="#U6_n1_w7_o1"/>
@@ -11588,7 +11587,7 @@
                <bibl type="translation" xml:id="P8_n1_w1_t1">
                   <author ref="#pmb65061">Józef Weyssenhoff</author>
                   <title level="m">Leben und Gedanken des Herrn Siegmund von Podfilipski</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1898">1898</date>
                   <relatedItem source="original" target="#P8_n1_w1_o1"/>
@@ -11668,7 +11667,7 @@
                <bibl type="translation" xml:id="N3_n1_w2_t1">
                   <author ref="#pmb5981">Hans Christian Andersen</author>
                   <title level="a">Nur ein Geiger</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Gesammelte Werke. Band 9–11</title>
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1847">1847</date>
@@ -11880,7 +11879,7 @@
                <bibl type="translation" xml:id="N7_n1_w3_t1">
                   <author ref="#pmb2400">Björnstjerne Bjørnson</author>
                   <title level="a">Halte-Hulda. Auszug</title>
-                  <editor role="translator"/>
+                  
                   <title level="j">Der Kunstwart 23</title>
                   <pubPlace>München</pubPlace>
                   <date from="1909" to="1910">1909–1910</date>
@@ -12219,12 +12218,6 @@
                   <author ref="#pmb65071">Arne Garborg</author>
                   <title level="m">Sjø</title>
                </bibl>
-               <bibl type="translation" xml:id="N18_n1_w4_t1">
-                  <author ref="#pmb65071">Arne Garborg</author>
-                  <title level="m">Unversöhnt</title>
-                  <note>nicht ermittelt</note>
-                  <relatedItem source="original" target="#N18_n1_w4_o1"/>
-               </bibl>
                <bibl type="original" xml:id="N18_n1_w4_o1">
                   <author ref="#pmb65071">Arne Garborg</author>
                   <title level="m">Uforsonlige. Skuespil i fire akter</title>
@@ -12545,7 +12538,7 @@
                <bibl type="translation" xml:id="N22_n1_w1_t1">
                   <author ref="#pmb65073">Ola Hansson</author>
                   <title level="m">Parias. Fatalistische Geschichten</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1890">1890</date>
                   <relatedItem source="original" target="#N22_n1_w1_o1"/>
@@ -12564,7 +12557,7 @@
                <bibl type="translation" xml:id="N22_n1_w3_t1">
                   <author ref="#pmb65073">Ola Hansson</author>
                   <title level="m">Sensitiva Amorosa. Neue Herzensprobleme</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1892">1892</date>
                   <relatedItem source="original" target="#N22_n1_w3_o1"/>
@@ -12591,7 +12584,7 @@
                <bibl type="translation" xml:id="N23_n1_w2_t1">
                   <author ref="#pmb18119">Agnes Henningsen</author>
                   <title level="m">Die vielgeliebte Eva</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1911">1911</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -12673,7 +12666,7 @@
                <bibl type="translation" xml:id="N31_n1_w2_t1">
                   <author ref="#pmb11820">Johannes Vilhelm von Jensen</author>
                   <title level="m">Madame d’Ora</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1919">1919</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -12899,7 +12892,7 @@
                <bibl type="translation" xml:id="N40_n1_w5_t1">
                   <author ref="#pmb5883">Jonas Lie</author>
                   <title level="m">Eine Ehe. Roman</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <date when="1908">1908</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -13077,7 +13070,7 @@
                <bibl type="translation" xml:id="N47_n1_w1_t1">
                   <author ref="#pmb65082">Sigbjørn Obstfelder</author>
                   <title level="a">Das Kreuz. Eine Liebesgeschichte</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Novellen</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1900">1900</date>
@@ -13208,7 +13201,7 @@
                <bibl type="translation" xml:id="R3_n1_w1_t1">
                   <author ref="#pmb5564">Nikolaj Ivanovič Bucharin</author>
                   <title level="m">Das Programm der Kommunisten, Bolschewiki</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Zürich</pubPlace>
                   <date when="1918">1918</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -13288,7 +13281,7 @@
                <bibl type="translation" xml:id="R6_n1_w4_t1">
                   <author ref="#pmb4006">Fëdor Michajlovič Dostoevskij</author>
                   <title level="m">Aus dem todten Hause</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Dresden</pubPlace>
                   <date when="1886">1886</date>
                   <relatedItem source="original" target="#R6_n1_w4_o1"/>
@@ -13418,7 +13411,7 @@
                <bibl type="translation" xml:id="R6_n1_w13_t1">
                   <author ref="#pmb4006">Fëdor Michajlovič Dostoevskij</author>
                   <title level="a">Der Eifersüchtige</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Ein schwaches Herz. Der Eifersüchtige. Novellen</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1895">1895</date>
@@ -13462,7 +13455,7 @@
                <bibl type="translation" xml:id="R6_n1_w16_t1">
                   <author ref="#pmb4006">Fëdor Michajlovič Dostoevskij</author>
                   <title level="m">Die Brüder Karamasow</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1884">1884</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -14373,7 +14366,7 @@
                <bibl type="translation" xml:id="R31_n1_w1_t1">
                   <author ref="#pmb26220">Nikolaj Gavrilovič Černyševskij</author>
                   <title level="m">Was tun?</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1883">1883</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -14467,7 +14460,7 @@
                <bibl type="translation" xml:id="R32_n1_w7_t1">
                   <author ref="#pmb26238">Ivan Sergeevič Turgenev</author>
                   <title level="m">Rauch</title>
-                  <editor role="translator"/>
+                  
                   <pubPlace>Mitau</pubPlace>
                   <date when="1868">1868</date>
                   <ref type="schnitzler-tagebuch"/>
@@ -14481,7 +14474,7 @@
                <bibl type="translation" xml:id="R32_n1_w8_t1">
                   <author ref="#pmb26238">Ivan Sergeevič Turgenev</author>
                   <title level="a">Väter und Söhne</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Ausgewählte Werke, Band 1</title>
                   <pubPlace>Mitau</pubPlace>
                   <date when="1869">1869</date>
@@ -14509,7 +14502,7 @@
                <bibl type="translation" xml:id="R32_n1_w10_t1">
                   <author ref="#pmb26238">Ivan Sergeevič Turgenev</author>
                   <title level="a">Ein König Lear des Dorfes</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Ausgewählte Werke, Band 6</title>
                   <pubPlace>Mitau</pubPlace>
                   <date when="1871">1871</date>
@@ -14523,7 +14516,7 @@
                <bibl type="translation" xml:id="R32_n1_w11_t1">
                   <author ref="#pmb26238">Ivan Sergeevič Turgenev</author>
                   <title level="a">Frühlingsfluten</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Ausgewählte Werke, Band 6</title>
                   <pubPlace>Mitau</pubPlace>
                   <date when="1872">1872</date>
@@ -14619,7 +14612,7 @@
                <bibl type="translation" xml:id="R32_n1_w18_t1">
                   <author ref="#pmb26238">Ivan Sergeevič Turgenev</author>
                   <title level="a">Rudin</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Ausgewählte Werke</title>
                   <pubPlace>Mitau</pubPlace>
                   <date when="1869">1869</date>
@@ -14918,7 +14911,7 @@
                <bibl type="translation" xml:id="L17_n1_w1_t1">
                   <author ref="#pmb65132">Publius Terentius Afer</author>
                   <title level="a">Das Mädchen von Andros</title>
-                  <editor role="translator"/>
+                  
                   <title level="s">Terentius der Hochgelert vnd allerbruchelichst Poet</title>
                   <pubPlace>Straßburg</pubPlace>
                   <date when="1499">1499</date>
