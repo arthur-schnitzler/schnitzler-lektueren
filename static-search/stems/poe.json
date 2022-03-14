@@ -1,1 +1,1 @@
-{"stem":"poe","instances":[{"docId":"England","docUri":"England.html","score":2,"contexts":[{"form":"Poe","weight":"1","pos":194,"context":" <mark>Poe<\/mark>","fid":"GB37"},{"form":"Poe","weight":"1","pos":197,"context":"[GB37] →Edgar Allan <mark>Poe<\/mark>","fid":"pmb12428"}]}]}
+{"stem":"poe","instances":[{"docId":"England","docUri":"England.html","score":2,"contexts":[{"form":"Poe","weight":"1","pos":196,"context":" <mark>Poe<\/mark>","fid":"GB37"},{"form":"Poe","weight":"1","pos":199,"context":"[GB37] →Edgar Allan <mark>Poe<\/mark>","fid":"pmb12428"}]}]}

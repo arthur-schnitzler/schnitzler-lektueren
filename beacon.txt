@@ -16,7 +16,6 @@ https://d-nb.info/gnd/11850374X/|Apuleius|http://url-of-my-awesome-site/pmb13467
 https://d-nb.info/gnd/104086424/|Aram, Kurt|http://url-of-my-awesome-site/pmb3770.html
 https://d-nb.info/gnd/118503987/|Aristophanes|http://url-of-my-awesome-site/pmb13473.html
 https://d-nb.info/gnd/118504118/|Arndt, Ernst Moritz|http://url-of-my-awesome-site/pmb6027.html
-https://d-nb.info/gnd/118646036/|Asch, Joseph Jefferson|http://url-of-my-awesome-site/pmb13520.html
 https://d-nb.info/gnd/119376377/|Assing, Ludmilla|http://url-of-my-awesome-site/pmb6045.html
 https://d-nb.info/gnd/117707503/|Aubourg de La Bove Miremont, Anne d'|http://url-of-my-awesome-site/pmb21505.html
 https://d-nb.info/gnd/11865103X/|Auerbach, Berthold|http://url-of-my-awesome-site/pmb6050.html
