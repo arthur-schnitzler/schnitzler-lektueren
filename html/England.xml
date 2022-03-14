@@ -19,7 +19,7 @@
          <publicationStmt>
             <publisher>
                <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
-                        Sciences</orgName>
+                  Sciences</orgName>
                <address>
                   <addrLine>Sonnenfelsgasse 19</addrLine>
                   <addrLine>1010 Vienna</addrLine>
@@ -49,8 +49,7 @@
                         <forename>Achim</forename>
                         <surname>Aurnhammer</surname>
                      </persName>
-                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs
-                                    Freiburg</orgName>
+                     <affiliation>Leiter des <orgName>Arthur Schnitzler-Archivs Freiburg</orgName>
                      </affiliation>
                   </editor>
                   <imprint>
@@ -82,7 +81,6 @@
    </teiHeader>
    <text>
       <body>
-         
          <div type="liste_GB">
             <head>
                <hi rend="manual">England.</hi>
@@ -466,10 +464,17 @@
                   <idno xml:id="GB31" type="schnitzler-lektueren"/> Massinger ... Mitgift / Tyrann /
                   Volpone <hi rend="manual">/ röm. Mime / Bürger als Edel..</hi>
                </p>
-               <note xml:id="ad_GB31">
+               <note xml:id="ad_GB31_1">
                   <listPerson>
                      <person xml:id="pmb65041">
                         <persName>Philip Massinger</persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <note xml:id="ad_GB31_2">
+                  <listPerson>
+                     <person ref="pmb11839">
+                        <persName>Ben Jonson</persName>
                      </person>
                   </listPerson>
                </note>
@@ -718,7 +723,6 @@
                </note>
             </div>
          </div>
-       
       </body>
    </text>
 </TEI>

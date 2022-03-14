@@ -52,9 +52,6 @@
                         select="key('konk-lookup', @xml:id, $konkordanz)[1]/@target"/>
                     <a href="{concat($link, '#',@xml:id)}" class="blinkwink leseliste-button"
                         >Leseliste</a>
-                </p>
-            </div>
-            <p id="button-group">
                 <xsl:for-each
                     select="child::tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
                     <xsl:choose>
@@ -151,7 +148,7 @@
                         </xsl:element>
                     </xsl:element>
                 </xsl:if>
-            </p>
+            </p></div>
             <div class="werke">
                 <xsl:if test="key('work-lookup', concat('#', ./@xml:id), $works)[1]">
                     <h2>Werke</h2>
@@ -179,6 +176,7 @@
                                     test="not(ends-with(tei:title[@level = 'a'], '?') or ends-with(tei:title[@level = 'a'], '!') or ends-with(tei:title[@level = 'a'], '.'))">
                                     <xsl:text>. </xsl:text>
                                 </xsl:if>
+                                <xsl:text>In: </xsl:text>
                             </xsl:if>
                             <xsl:choose>
                                 <xsl:when test="tei:title[@level = 'm']">
@@ -290,76 +288,153 @@
                                         <xsl:otherwise>
                                             <span>
                                                 <xsl:element name="a">
-                                                  <xsl:choose>
-                                                  <xsl:when test="@type = 'schnitzler-briefe'">
-                                                  <xsl:attribute name="class">
-                                                  <xsl:text>briefe-button</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:text>https://schnitzler-briefe.acdh.oeaw.ac.at/pages/bibl.html</xsl:text>
-                                                  </xsl:attribute>
-                                                  </xsl:when>
-                                                  <xsl:when test="@type = 'schnitzler-tagebuch'">
-                                                  <xsl:attribute name="class">
-                                                  <xsl:text>tagebuch-button</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:text>https://schnitzler-tagebuch.acdh.oeaw.ac.at/listwork.html</xsl:text>
-                                                  </xsl:attribute>
-                                                  </xsl:when>
-                                                  <xsl:when test="@type = 'bahrschnitzler'">
-                                                  <xsl:attribute name="class">
-                                                  <xsl:text>bahrschnitzler-button</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:text>https://bahrschnitzler.acdh.oeaw.ac.at/register.html?view-mode=1</xsl:text>
-                                                  </xsl:attribute>
-                                                  </xsl:when>
-                                                  <xsl:when test="@type = 'briefe_ii'">
-                                                  <xsl:attribute name="class">
-                                                  <xsl:text>black-button</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:text>https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1984_Briefe-1913–1931.pdf</xsl:text>
-                                                  </xsl:attribute>
-                                                  </xsl:when>
-                                                  <xsl:when test="@type = 'briefe_i'">
-                                                  <xsl:attribute name="class">
-                                                  <xsl:text>black-button</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:text>https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1981_Briefe-1875–1912.pdf</xsl:text>
-                                                  </xsl:attribute>
-                                                  </xsl:when>
-                                                  <xsl:when test="@type = 'jugend-in-wien'">
-                                                  <xsl:attribute name="class">
-                                                  <xsl:text>black-button</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:text>http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien</xsl:text>
-                                                  </xsl:attribute>
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:attribute name="class">
-                                                  <xsl:text>black-button</xsl:text>
-                                                  </xsl:attribute>
-                                                  </xsl:otherwise>
-                                                  </xsl:choose>
-                                                  <xsl:attribute name="target">
-                                                  <xsl:text>_blank</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:element name="span">
-                                                  <xsl:attribute name="class">
-                                                  <xsl:value-of select="concat('color-', @type)"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="mam:ahref-namen(@type)"/>
-                                                  </xsl:element>
+                                                    <xsl:choose>
+                                                        <xsl:when test="@type = 'schnitzler-briefe'">
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>briefe-button</xsl:text>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:text>https://schnitzler-briefe.acdh.oeaw.ac.at/pages/bibl.html</xsl:text>
+                                                            </xsl:attribute>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'schnitzler-tagebuch'">
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>tagebuch-button</xsl:text>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:text>https://schnitzler-tagebuch.acdh.oeaw.ac.at/listwork.html</xsl:text>
+                                                            </xsl:attribute>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'bahrschnitzler'">
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>bahrschnitzler-button</xsl:text>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:text>https://bahrschnitzler.acdh.oeaw.ac.at/register.html?view-mode=1</xsl:text>
+                                                            </xsl:attribute>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'briefe_ii'">
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>black-button</xsl:text>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:text>https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1984_Briefe-1913–1931.pdf</xsl:text>
+                                                            </xsl:attribute>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'briefe_i'">
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>black-button</xsl:text>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:text>https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1981_Briefe-1875–1912.pdf</xsl:text>
+                                                            </xsl:attribute>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'jugend-in-wien'">
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>black-button</xsl:text>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:text>http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien</xsl:text>
+                                                            </xsl:attribute>
+                                                        </xsl:when>
+                                                        
+                                                        <xsl:when test="@type = 'widmungDLA'">
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>black-button</xsl:text>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:text>https://www.dla-marbach.de/find/opac/id/BF00019455/</xsl:text>
+                                                            </xsl:attribute>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>black-button</xsl:text>
+                                                            </xsl:attribute>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                    <xsl:attribute name="target">
+                                                        <xsl:text>_blank</xsl:text>
+                                                    </xsl:attribute>
+                                                    <xsl:element name="span">
+                                                        <xsl:attribute name="class">
+                                                            <xsl:value-of select="concat('color-', @type)"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                                    </xsl:element>
                                                 </xsl:element>
                                             </span>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </xsl:for-each>
                             </xsl:if>
+                            <xsl:for-each
+                                select="child::tei:idno[not(@type = 'schnitzler-lektueren')]">
+                                <xsl:text> </xsl:text>
+                                <xsl:choose>
+                                    <xsl:when test="not(. = '')">
+                                        <span>
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="class">
+                                                    <xsl:choose>
+                                                        <xsl:when test="@type = 'gnd'">
+                                                            <xsl:text>wikipedia-button</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'schnitzler-briefe'">
+                                                            <xsl:text>briefe-button</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'schnitzler-tagebuch'">
+                                                            <xsl:text>tagebuch-button</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'bahrschnitzler'">
+                                                            <xsl:text>bahrschnitzler-button</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@type = 'pmb'">
+                                                            <xsl:text>pmb-button</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="@type"/>
+                                                            <xsl:text>XXXX</xsl:text>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="href">
+                                                    <xsl:choose>
+                                                        <xsl:when test="@type='pmb' and not(contains(.,'http'))">
+                                                            <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/work/',substring-after(.,'pmb'), '/detail')"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="."/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                    
+                                                </xsl:attribute>
+                                                <xsl:attribute name="target">
+                                                    <xsl:text>_blank</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="span">
+                                                    <xsl:attribute name="class">
+                                                        <xsl:value-of select="concat('color-', @type)"/>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </span>
+                                        <xsl:text> </xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:element name="span">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>color-inactive</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="mam:ahref-namen(@type)"/>
+                                        </xsl:element>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                                <xsl:if test="position() = last()">
+                                    <xsl:text> </xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                            
                         </li>
                     </xsl:for-each>
                 </ul>
@@ -385,6 +460,9 @@
             <xsl:when test="$typityp = 'PMB'">
                 <xsl:text> PMB</xsl:text>
             </xsl:when>
+            <xsl:when test="$typityp = 'pmb'">
+                <xsl:text> PMB</xsl:text>
+            </xsl:when>
             <xsl:when test="$typityp = 'briefe_i'">
                 <xsl:text> Briefe 1875–1912</xsl:text>
             </xsl:when>
@@ -399,6 +477,9 @@
             </xsl:when>
             <xsl:when test="$typityp = 'gnd'">
                 <xsl:text> Wikipedia?</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'bahrschnitzler'">
+                <xsl:text> Bahr/Schnitzler</xsl:text>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:text> </xsl:text>

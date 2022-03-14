@@ -506,33 +506,34 @@
                   <date from="1858" to="1862">1858–1862</date>
                </bibl>
                <bibl xml:id="D22_n1_w1">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Die neuen Menschen. Ein Schauspiel</title>
                   <pubPlace>Zürich</pubPlace>
                   <date when="1887">1887</date>
                </bibl>
-               <bibl xml:id="D22_n1_w2">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+               <bibl xml:id="pmb31991">
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Die gute Schule. Seelenstände</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1890">1890</date>
+                  <idno type="pmb">pmb31991</idno>
                </bibl>
                <bibl xml:id="pmb32244">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Die große Sünde. Ein bürgerliches Trauerspiel</title>
                   <pubPlace>Zürich</pubPlace>
                   <date when="1888">1888</date>
                   <idno type="pmb">pmb32244</idno>
                </bibl>
                <bibl xml:id="pmb30963">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Die Mutter. Drama in drei Akten</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1891">1891</date>
                   <idno type="pmb">pmb30963</idno>
                </bibl>
                <bibl xml:id="pmb30175">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Russische Reise</title>
                   <pubPlace>Dresden</pubPlace>
                   <date when="1891">1891</date>
@@ -540,21 +541,21 @@
                   <idno type="pmb">pmb30175</idno>
                </bibl>
                <bibl xml:id="pmb32440">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Zur Kritik der Moderne. Gesammelte Aufsätze. Erste Reihe</title>
                   <pubPlace>Zürich</pubPlace>
                   <date>1890</date>
                   <idno type="pmb">pmb32440</idno>
                </bibl>
                <bibl xml:id="pmb31275">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Studien zur Kritik der Moderne</title>
                   <pubPlace>Frankfurt am Main</pubPlace>
                   <date when="1894">1894</date>
                   <idno type="pmb">pmb31275</idno>
                </bibl>
                <bibl xml:id="pmb31945">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Die Überwindung des Naturalismus. Als zweite Reihe von »Die
                      Kritik der Moderne«</title>
                   <pubPlace>Dresden</pubPlace>
@@ -562,20 +563,20 @@
                   <idno type="pmb">pmb31945</idno>
                </bibl>
                <bibl xml:id="D22_n1_w8">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Fin de siècle</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1890">1890</date>
                </bibl>
                <bibl xml:id="pmb32248">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Neben der Liebe. Wiener Roman</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1893">1893</date>
                   <idno type="pmb">pmb32248</idno>
                </bibl>
                <bibl xml:id="pmb31999">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Theater. Ein Wiener Roman</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1897">1897</date>
@@ -583,14 +584,15 @@
                   <idno type="pmb">pmb31999</idno>
                </bibl>
                <bibl xml:id="pmb29947">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Wirkung in die Ferne und anderes</title>
                   <pubPlace>Wien</pubPlace>
                   <date when="1902">1902</date>
                   <idno type="pmb">pmb29947</idno>
+                  <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/work_1391.html</idno>
                </bibl>
                <bibl xml:id="pmb29881">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Der Krampus. Lustspiel in drei Aufzügen</title>
                   <pubPlace>München</pubPlace>
                   <date when="1902">1902</date>
@@ -598,14 +600,14 @@
                   <idno type="pmb">pmb29881</idno>
                </bibl>
                <bibl xml:id="pmb29851">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Der Franzl. Fünf Bilder eines guten Mannes</title>
                   <pubPlace>Wien</pubPlace>
                   <date when="1900">1900</date>
                   <idno type="pmb">pmb29851</idno>
                </bibl>
                <bibl xml:id="D22_n1_w14">
-                  <author ref="#pmb10815">Herrmann Bahr</author>
+                  <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Sanna. Schauspiel in fünf Akten</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1905">1905</date>
