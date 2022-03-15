@@ -84,10 +84,10 @@
                                         <a title="Personen" href="listperson.html" class="nav-link"
                                             >Personen</a>
                                     </li>
-                                    <!--<li class="nav-item dropdown-submenu">
+                                    <li class="nav-item dropdown-submenu">
                                         <a title="Werke" href="listwork.html" class="nav-link"
                                             >Werke</a>
-                                    </li>-->
+                                    </li>
                                     <div class="dropdown-divider"/>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="GND-BEACON" href="beacon.txt" class="nav-link"
