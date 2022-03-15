@@ -155,20 +155,26 @@
                 </xsl:if>
                 <p/>
                 <ul class="dashed">
+                    <xsl:variable name="author-ref" select="./@xml:id"/>
                     <xsl:for-each select="key('work-lookup', concat('#', ./@xml:id), $works)">
                         <li>
+                            <xsl:if test="tei:author[2]">
+                                <xsl:text>(mit </xsl:text>
+                            <xsl:for-each select="tei:author[not(@ref=$author-ref)]">
+                                <xsl:value-of select="."/>
+                                <xsl:choose>
+                                    <xsl:when test="position() = last()">
+                                        <xsl:text>: </xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text>, </xsl:text>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:for-each>
+                                <xsl:text>) </xsl:text>
+                            </xsl:if>
                             <xsl:if test="tei:title[@level = 'a']">
-                                <xsl:for-each select="tei:author">
-                                    <xsl:value-of select="."/>
-                                    <xsl:choose>
-                                        <xsl:when test="position() = last()">
-                                            <xsl:text>: </xsl:text>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:text>, </xsl:text>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </xsl:for-each>
+                                
                                 <span class="titel">
                                     <xsl:value-of select="tei:title[@level = 'a']"/>
                                 </span>
@@ -224,6 +230,9 @@
                             <xsl:if test="tei:editor[@role = 'translator']">
                                 <xsl:choose>
                                     <xsl:when test="tei:editor[@role = 'translator']/text() = ''">
+                                        <xsl:text>[Ohne Übersetzerangabe.] </xsl:text>
+                                    </xsl:when>
+                                    <xsl:when test="not(tei:editor[@role = 'translator']) and tei:relatedItem">
                                         <xsl:text>[Ohne Übersetzerangabe.] </xsl:text>
                                     </xsl:when>
                                     <xsl:otherwise>

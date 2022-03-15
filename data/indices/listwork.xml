@@ -9537,7 +9537,7 @@
                </bibl>
                <bibl xml:id="F182_n1_w8_o1">
                   <author ref="#pmb13194">Émile Zola</author>
-                  <title level="a"/>
+                  <title level="a">La terre</title>
                   <title level="s">Les Rougon-Macquart, Band 15</title>
                   <date when="1887">1887</date>
                </bibl>
@@ -14747,9 +14747,7 @@
                </bibl>
                <bibl xml:id="R34_n1_w4_o1">
                   <author ref="#pmb26950">Vasilij Vasil’evič Vereščagin</author>
-                  <title cert="low" level="m">
-                     <supplied>?</supplied>
-                  </title>
+                  <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="G5_n1_w1_t1">
                   <author ref="#pmb13473">Aristophanes</author>
