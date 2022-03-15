@@ -7194,13 +7194,11 @@
                </bibl>
                <bibl xml:id="F30_n1_w1">
                   <author ref="#pmb64935">Georges-Clément Lechartier</author>
-                  <author ref="#pmb64935">Georges-Clément Lechartier</author>
                   <title level="m">La confession d’une femme du monde</title>
                   <pubPlace>Paris</pubPlace>
                   <date when="1925">1925</date>
                </bibl>
                <bibl xml:id="F30_n2_w1">
-                  <author ref="#pmb64936">Olivier de Tréville</author>
                   <author ref="#pmb64936">Olivier de Tréville</author>
                   <title level="m">La confession d’une religieuse</title>
                   <pubPlace>Paris</pubPlace>
@@ -7909,7 +7907,7 @@
                </bibl>
                <bibl xml:id="F73_n1_w1">
                   <author ref="#pmb64951">Louis de Hessem</author>
-                  <title level="a" cert="unknown">?</title>
+                  <title level="a" cert="unknown">[nicht ermittelt]</title>
                   <title level="s">Chinoiseries, racontées par Louis de Hessem</title>
                   <pubPlace>Paris</pubPlace>
                   <date when="1890">1890</date>
@@ -7941,7 +7939,6 @@
                </bibl>
                <bibl xml:id="F75_n1_w1">
                   <author ref="#pmb18586">Henry Houssaye</author>
-                  <author ref="#pmb18586">Henry Houssaye</author>
                   <title level="m">1814</title>
                   <pubPlace>Paris</pubPlace>
                   <date when="1888">1888</date>
@@ -7949,14 +7946,12 @@
                </bibl>
                <bibl xml:id="F75_n1_w2">
                   <author ref="#pmb18586">Henry Houssaye</author>
-                  <author ref="#pmb18586">Henry Houssaye</author>
                   <title level="m">1815</title>
                   <pubPlace>Paris</pubPlace>
                   <date when="1893">1893</date>
                   <ref type="schnitzler-tagebuch"/>
                </bibl>
                <bibl xml:id="F75_n2_w1">
-                  <author ref="#pmb64952">Arsène Houssaye</author>
                   <author ref="#pmb64952">Arsène Houssaye</author>
                   <title level="a">Louis XVI</title>
                   <title level="s">Galerie du XVIIIe siècle. La Régence. Louis XV. Louis XVI. La
@@ -9948,12 +9943,10 @@
                </bibl>
                <bibl xml:id="E1_n1_w1_o1">
                   <author ref="#pmb65018">Juan Ruiz de Alarcón</author>
-                  <author ref="#pmb65018">Juan Ruiz de Alarcón</author>
                   <title level="m">El tejedor de Segovia</title>
                   <date when="1634">1634</date>
                </bibl>
                <bibl xml:id="E1_n2_w1_t1">
-                  <author ref="#pmb5944">Pedro Antonio de Alarcón y Ariza</author>
                   <author ref="#pmb5944">Pedro Antonio de Alarcón y Ariza</author>
                   <title level="m">Der Dreispitz</title>
                   <editor role="translator">H. Meister</editor>
@@ -9963,7 +9956,6 @@
                   <relatedItem source="original" target="#E1_n2_w1_o1"/>
                </bibl>
                <bibl xml:id="E1_n2_w1_o1">
-                  <author ref="#pmb5944">Pedro Antonio de Alarcón y Ariza</author>
                   <author ref="#pmb5944">Pedro Antonio de Alarcón y Ariza</author>
                   <title level="m">El sombrero de tres picos</title>
                   <date when="1874">1874</date>

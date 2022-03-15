@@ -51,7 +51,7 @@
                     <xsl:variable name="link"
                         select="key('konk-lookup', @xml:id, $konkordanz)[1]/@target"/>
                     <a href="{concat($link, '#',@xml:id)}" class="blinkwink leseliste-button"
-                        >Leseliste</a>
+                        >Leseliste</a><xsl:text> </xsl:text>
                 <xsl:for-each
                     select="child::tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
                     <xsl:choose>
@@ -232,9 +232,6 @@
                                     <xsl:when test="tei:editor[@role = 'translator']/text() = ''">
                                         <xsl:text>[Ohne Übersetzerangabe.] </xsl:text>
                                     </xsl:when>
-                                    <xsl:when test="not(tei:editor[@role = 'translator']) and tei:relatedItem">
-                                        <xsl:text>[Ohne Übersetzerangabe.] </xsl:text>
-                                    </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:text>Übersetzt von </xsl:text>
                                         <xsl:for-each select="tei:editor[@role = 'translator']">
@@ -250,6 +247,9 @@
                                         </xsl:for-each>
                                     </xsl:otherwise>
                                 </xsl:choose>
+                            </xsl:if>
+                            <xsl:if test="not(tei:editor[@role = 'translator']) and tei:relatedItem">
+                                <xsl:text>[Ohne Übersetzerangabe.] </xsl:text>
                             </xsl:if>
                             <xsl:if test="tei:pubPlace">
                                 <xsl:for-each select="tei:pubPlace">
