@@ -9535,13 +9535,13 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16446</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren/I9_V1</idno>
                </person>
-               <person xml:id="pmb64955">
+               <person xml:id="pmb5583">
                   <tei:persName>
                      <tei:surname>Istrati</tei:surname>
                      <tei:forename>Panaït</tei:forename>
                   </tei:persName>
                   <tei:birth>
-                     <tei:date when="1884-08-10">10. 8. 1884</tei:date>
+                     <tei:date when="1884-08-22">22. 8. 1884</tei:date>
                   </tei:birth>
                   <tei:death>
                      <tei:date when="1935-04-16">16. 4. 1935</tei:date>
