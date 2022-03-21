@@ -78,7 +78,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="level1" xml:id="vorworti"><head>Vorwort zur digitalen Ausgabe 2022</head>
+         <div type="level1" xml:id="vorworti"><head>Zur digitalen Ausgabe 2022</head>
          <p>Neun Jahre nach der gedruckten Ausgabe liegt nun eine digitale Fassung der Lektüreliste vor…
         </p>
             <p rend="right">Achim Aurnhammer</p>
@@ -87,7 +87,7 @@
          </div>
          
          <div type="level1" xml:id="vorwortii">
-         <head>Vorwort zur gedruckten Ausgabe 2013</head>
+         <head>Zur gedruckten Ausgabe 2013</head>
          <p>Die Edition von Arthur Schnitzlers Leseliste und die Rekonstruktion seiner Bibliothek
             haben eine lange Geschichte. Beide Vorhaben reichen in die Zeit zurück, als
             elektronische Recherchen noch nicht möglich waren. Immer wieder von an deren Projekten

@@ -60,7 +60,7 @@
                                     zum Gedächtnisbehelf aufnotiert…« Nur etwa ein Drittel der Werke
                                     der Leseliste finden sich im <i>Tagebuch</i>. Damit stellt sie
                                     eine quantitativ wie qualitativ wichtige Ergänzung der dort
-                                    notierten Lektürenachweise dar.</p>
+                                    notierten Lektürenachweisecd  dar.</p>
                                 <p>Die gedruckte Edition wurde 2013 in der Reihe »Akten des Arthur
                                     Schnitzler-Archivs Freiburg« veröffentlicht und ist bei <a
                                         href="https://www.nomos-shop.de/ergon/titel/arthur-schnitzlers-lektueren-leseliste-und-virtuelle-bibliothek-id-90147/"
