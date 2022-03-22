@@ -78,33 +78,42 @@
    </teiHeader>
    <text>
       <body>
-         <div type="level1" xml:id="vorworti"><head>Zur digitalen Ausgabe 2022</head>
-         <p>Neun Jahre nach der gedruckten Ausgabe liegt nun eine digitale Fassung der Lektüreliste vor…
-        </p>
+         <div type="level1" xml:id="vorworti">
+            <head>Zur digitalen Ausgabe 2022</head>
+            <p>Neun Jahre nach der gedruckten Ausgabe liegt Arthur Schnitzlers ‚Virtuelle
+               Bibliothek‘ nun in einer digitalen Version vor. Sie enthält die von Schnitzler selbst
+               angelegte Leseliste sowie die Hinweise auf Lektüren im Tagebuch und in der
+               zweibändigen Briefausgabe und ist das Ergebnis einer Kooperation des Arthur
+               Schnitzler-Archivs der Universität Freiburg und der Österreichischen Akademie der
+               Wissenschaften. Die Online-Edition hat Martin Anton Müller seit 2021 eigenständig
+               erstellt, Druckversehen stillschweigend korrigiert sowie Ergänzungen vorgenommen.
+               Dafür gebührt ihm großer Dank. Die Online-Edition enthält vertiefte Suchmöglichkeiten
+               und ist mit dem Tagebuch und der laufenden Edition der Korrespondenz mit Schriftstellerinnen und Schriftstellern verlinkt. Sie wird kontinuierlich fortgeführt und ergänzt
+               werden. Nachweise noch nicht registrierter Lektüren Schnitzlers und etwaiger
+               Widmungsexemplare werden erbeten an: ### </p>
             <p rend="right">Achim Aurnhammer</p>
             <p>Freiburg, März 2022</p>
-         
          </div>
-         
          <div type="level1" xml:id="vorwortii">
-         <head>Zur gedruckten Ausgabe 2013</head>
-         <p>Die Edition von Arthur Schnitzlers Leseliste und die Rekonstruktion seiner Bibliothek
-            haben eine lange Geschichte. Beide Vorhaben reichen in die Zeit zurück, als
-            elektronische Recherchen noch nicht möglich waren. Immer wieder von an deren Projekten
-            unterbrochen, waren an der langjährigen Entzifferung der Einträge, deren
-            bibliographischer Verifikation bis zur editorischen Aufbereitung viele studentische
-            Mitarbeiter, Kollegen und Freunde beteiligt, denen ich großen Dank schulde. Namentlich
-            erwähnt seien Hans-Peter Buohler, Cornelia Heinsch, Julia Ilgner, Clemens A. Kleijn,
-            Michael Kreß und Lea Marquart. Bei schwierigen Knacknüssen half mir bereitwillig Peter
-            Michael Braunwarth (Wien), bei Auflösung der russischen Titel unterstützten mich
-            Alexandr Belobratow (Sankt Petersburg) und Konstantin Rapp (Freiburg). Sollte die
-            Leseliste dennoch Fehler auf weisen, habe ich diese zu verantworten.</p>
-         <p>Die Deutsche Forschungsgemeinschaft hat das Projekt durch ein Forschungsfreisemester im
-            Jahre 2008/09 wesentlich gefördert. Dafür sei ihr an dieser Stelle ebenso gedankt wie
-            der VG WORT, welche die Publikation der Buchausgabe durch einen namhaften
-            Druckkostenzuschuss unterstützte.</p>
-         <p rend="right">Achim Aurnhammer</p>
-         <p>Freiburg, März 2013</p>
+            <head>Zur gedruckten Ausgabe 2013</head>
+            <p>Die Edition von Arthur Schnitzlers Leseliste und die Rekonstruktion seiner Bibliothek
+               haben eine lange Geschichte. Beide Vorhaben reichen in die Zeit zurück, als
+               elektronische Recherchen noch nicht möglich waren. Immer wieder von an deren
+               Projekten unterbrochen, waren an der langjährigen Entzifferung der Einträge, deren
+               bibliographischer Verifikation bis zur editorischen Aufbereitung viele studentische
+               Mitarbeiter, Kollegen und Freunde beteiligt, denen ich großen Dank schulde.
+               Namentlich erwähnt seien Hans-Peter Buohler, Cornelia Heinsch, Julia Ilgner, Clemens
+               A. Kleijn, Michael Kreß und Lea Marquart. Bei schwierigen Knacknüssen half mir
+               bereitwillig Peter Michael Braunwarth (Wien), bei Auflösung der russischen Titel
+               unterstützten mich Alexandr Belobratow (Sankt Petersburg) und Konstantin Rapp
+               (Freiburg). Sollte die Leseliste dennoch Fehler auf weisen, habe ich diese zu
+               verantworten.</p>
+            <p>Die Deutsche Forschungsgemeinschaft hat das Projekt durch ein Forschungsfreisemester
+               im Jahre 2008/09 wesentlich gefördert. Dafür sei ihr an dieser Stelle ebenso gedankt
+               wie der VG WORT, welche die Publikation der Buchausgabe durch einen namhaften
+               Druckkostenzuschuss unterstützte.</p>
+            <p rend="right">Achim Aurnhammer</p>
+            <p>Freiburg, März 2013</p>
          </div>
       </body>
    </text>
