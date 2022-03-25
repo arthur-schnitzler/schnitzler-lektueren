@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -206,11 +206,12 @@
                   <pubPlace>Berlin</pubPlace>
                   <date when="1901">1901</date>
                </bibl>
-               <bibl xml:id="D7_n1_w4">
+               <bibl xml:id="pmb65602">
                   <author ref="#pmb2147">Peter Altenberg</author>
                   <title level="m">Prodromos</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1906">1906</date>
+                  <idno type="pmb">pmb65602</idno>
                </bibl>
                <bibl xml:id="pmb33686">
                   <author ref="#pmb2147">Peter Altenberg</author>
@@ -562,11 +563,12 @@
                   <date when="1891">1891</date>
                   <idno type="pmb">pmb31945</idno>
                </bibl>
-               <bibl xml:id="D22_n1_w8">
+               <bibl xml:id="pmb32246">
                   <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Fin de siècle</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1890">1890</date>
+                  <idno type="pmb">pmb32246</idno>
                </bibl>
                <bibl xml:id="pmb32248">
                   <author ref="#pmb10815">Hermann Bahr</author>
@@ -606,13 +608,14 @@
                   <date when="1900">1900</date>
                   <idno type="pmb">pmb29851</idno>
                </bibl>
-               <bibl xml:id="D22_n1_w14">
+               <bibl xml:id="pmb29901">
                   <author ref="#pmb10815">Hermann Bahr</author>
                   <title level="m">Sanna. Schauspiel in fünf Akten</title>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1905">1905</date>
                   <ref type="schnitzler-tagebuch"/>
                   <ref type="widmungDLA"/>
+                  <idno type="pmb">pmb29901</idno>
                </bibl>
                <bibl xml:id="D23_n1_w1">
                   <author ref="#pmb10836">Rudolf Hans Bartsch</author>
@@ -6058,11 +6061,12 @@
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1902">1902</date>
                </bibl>
-               <bibl xml:id="D448_n1_w1">
+               <bibl xml:id="pmb33626">
                   <author ref="#pmb64906">Alexander Heinrich von Villers</author>
                   <title level="m">Briefe eines Unbekannten</title>
                   <pubPlace>Wien</pubPlace>
                   <date when="1881">1881</date>
+                  <idno type="pmb">pmb33626</idno>
                </bibl>
                <bibl xml:id="D449_n1_w1">
                   <author ref="#pmb10360">Clara Viebig</author>
@@ -7994,7 +7998,7 @@
                </bibl>
                <bibl xml:id="F78_n1_w1_o1">
                   <author ref="#pmb64955">Panait Istrati</author>
-                  <title level="m">Les récits d’Adrien Zo- graffi. Kyra Kyralina</title>
+                  <title level="m">Les récits d’Adrien Zograffi. Kyra Kyralina</title>
                   <date when="1923">1923</date>
                </bibl>
                <bibl xml:id="F79_n1_w1">
@@ -11427,13 +11431,14 @@
                   <author ref="#pmb18956">Mór [Maurus] Jókai</author>
                   <note>nicht ermittelt</note>
                </bibl>
-               <bibl xml:id="U7_n1_w1_t1">
+               <bibl xml:id="pmb58077">
                   <author ref="#pmb65054">Kalman Mikszath</author>
                   <title level="m">Sankt Peters Regenschirm</title>
                   <editor role="translator">O. von Krücken</editor>
                   <pubPlace>Charlottenburg</pubPlace>
                   <date when="1898">1898</date>
                   <relatedItem source="original" target="#U7_n1_w1_o1"/>
+                  <idno type="pmb">pmb58077</idno>
                </bibl>
                <bibl xml:id="U7_n1_w1_o1">
                   <author ref="#pmb65054">Kalman Mikszath</author>
@@ -13143,13 +13148,14 @@
                   <title level="m">Amleth. Tragødie</title>
                   <date when="1847">1847</date>
                </bibl>
-               <bibl xml:id="N49_n1_w1_t1">
+               <bibl xml:id="pmb33231">
                   <author ref="#pmb65084">Henrik Pontoppidan</author>
                   <title level="m">Ein Kirchenraub</title>
                   <editor role="translator">I. D. Ziegeler-Glücksburg</editor>
                   <pubPlace>Stuttgart</pubPlace>
                   <date when="1890">1890</date>
                   <relatedItem source="original" target="#N49_n1_w1_o1"/>
+                  <idno type="pmb">pmb33231</idno>
                </bibl>
                <bibl xml:id="N49_n1_w1_o1">
                   <author ref="#pmb65084">Henrik Pontoppidan</author>
