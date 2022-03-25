@@ -3152,7 +3152,7 @@
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1903">1903</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#D195_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb78822"/>
                   <idno type="pmb">pmb78821</idno>
                </bibl>
                <bibl xml:id="pmb78822">
@@ -8216,7 +8216,7 @@
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1773">1773</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#F34_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb79296"/>
                   <idno type="pmb">pmb79295</idno>
                </bibl>
                <bibl xml:id="pmb79296">
@@ -8328,7 +8328,7 @@
                   <pubPlace>Dresden</pubPlace>
                   <date when="1884">1884</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#79311"/>
+                  <relatedItem source="original" target="#pmb79311"/>
                   <idno type="pmb">pmb79239</idno>
                </bibl>
                <bibl xml:id="pmb79311">
@@ -8453,7 +8453,7 @@
                   <pubPlace>München</pubPlace>
                   <date when="1927">1927</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#F47_n1_w2_o1"/>
+                  <relatedItem source="original" target="#pmb32566"/>
                   <idno type="pmb">pmb78291</idno>
                </bibl>
                <bibl xml:id="pmb32566">
@@ -9902,7 +9902,7 @@
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1756">1756</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#F130_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb31697"/>
                   <idno type="pmb">pmb78301</idno>
                </bibl>
                <bibl xml:id="pmb31697">
@@ -10030,7 +10030,7 @@
                   <pubPlace>Berlin</pubPlace>
                   <date when="1869">1869</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#F139_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb79457"/>
                   <idno type="pmb">pmb79459</idno>
                </bibl>
                <bibl xml:id="pmb79457">
@@ -10872,7 +10872,7 @@
                   <pubPlace>Budapest</pubPlace>
                   <date when="1881">1881</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#F182_n1_w11_o1"/>
+                  <relatedItem source="original" target="#pmb32892"/>
                   <idno type="pmb">pmb77630</idno>
                </bibl>
                <bibl xml:id="pmb32892">
@@ -11052,7 +11052,7 @@
                   <editor role="translator">F. von Oeyenhausen</editor>
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1824">1824</date>
-                  <relatedItem source="original" target="#I5_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb30985"/>
                   <idno type="pmb">pmb77808</idno>
                </bibl>
                <bibl xml:id="pmb30985">
@@ -12011,7 +12011,7 @@
                   <pubPlace>Heidelberg</pubPlace>
                   <date from="1860" to="1862">1860–1862</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#GB4_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb79636"/>
                   <idno type="pmb">pmb79635</idno>
                </bibl>
                <bibl xml:id="pmb79636">
@@ -12540,7 +12540,7 @@
                   <pubPlace>Berlin</pubPlace>
                   <date when="1912">1912</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#GB31_n1_w3_o1"/>
+                  <relatedItem source="original" target="#pmb80754"/>
                   <idno type="pmb">pmb80753</idno>
                </bibl>
                <bibl xml:id="pmb80754">
@@ -12709,7 +12709,7 @@
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1901">1901</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#GB50_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb13115"/>
                   <idno type="pmb">pmb77594</idno>
                </bibl>
                <bibl xml:id="pmb77598">
@@ -12724,7 +12724,7 @@
                   <editor role="translator">H. Lachmann</editor>
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1903">1903</date>
-                  <relatedItem source="original" target="#GB50_n1_w2_o1"/>
+                  <relatedItem source="original" target="#pmb33554"/>
                   <idno type="pmb">pmb77597</idno>
                </bibl>
                <bibl xml:id="pmb33554">
@@ -12755,7 +12755,7 @@
                   <pubPlace>Grimma</pubPlace>
                   <date when="1849">1849</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#GB48_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb79726"/>
                   <idno type="pmb">pmb79719</idno>
                </bibl>
                <bibl xml:id="pmb79726">
@@ -12869,7 +12869,7 @@
                   <pubPlace>Berlin</pubPlace>
                   <date when="1897">1897</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#U6_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb79738"/>
                   <idno type="pmb">pmb79743</idno>
                </bibl>
                <bibl xml:id="pmb79738">
@@ -13628,7 +13628,7 @@
                   <pubPlace>München</pubPlace>
                   <date when="1904">1904</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#N7_n1_w8_o1"/>
+                  <relatedItem source="original" target="#pmb78084"/>
                   <idno type="pmb">pmb78090</idno>
                </bibl>
                <bibl xml:id="pmb78084">
@@ -13882,7 +13882,7 @@
                   <editor role="translator">E. Otten</editor>
                   <pubPlace>Berlin</pubPlace>
                   <date when="1907">1907</date>
-                  <relatedItem source="original" target="#N17_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb79832"/>
                   <idno type="pmb">pmb79833</idno>
                </bibl>
                <bibl xml:id="pmb79832">
@@ -14164,7 +14164,7 @@
                   <pubPlace>Köln</pubPlace>
                   <date when="1894">1894</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#N21_n1_w7_o1"/>
+                  <relatedItem source="original" target="#pmb78042"/>
                   <idno type="pmb">pmb78041</idno>
                </bibl>
                <bibl xml:id="pmb78042">
@@ -14227,7 +14227,7 @@
                   <pubPlace>München</pubPlace>
                   <date when="1908">1908</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#N21_n1_w11_o1"/>
+                  <relatedItem source="original" target="#pmb78052"/>
                   <idno type="pmb">pmb78053</idno>
                </bibl>
                <bibl xml:id="pmb78052">
@@ -14466,7 +14466,7 @@
                   <pubPlace>Berlin</pubPlace>
                   <date when="1908">1908</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#N31_n1_w3_o1"/>
+                  <relatedItem source="original" target="#pmb78064"/>
                   <idno type="pmb">pmb78060</idno>
                </bibl>
                <bibl xml:id="pmb78064">
@@ -14709,7 +14709,7 @@
                   <pubPlace>Berlin</pubPlace>
                   <date when="1908">1908</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#N40_n1_w5_o1"/>
+                  <relatedItem source="original" target="#pmb79896"/>
                   <idno type="pmb">pmb79893</idno>
                </bibl>
                <bibl xml:id="pmb79896">
@@ -14825,12 +14825,12 @@
                   <editor role="translator">M. Herzfeld</editor>
                   <pubPlace>Wien</pubPlace>
                   <date when="1900">1900</date>
-                  <relatedItem source="original" target="#N44_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb33235"/>
                   <idno type="pmb">pmb76680</idno>
                </bibl>
                <bibl xml:id="pmb33235">
                   <author ref="#pmb12251">Sophus August Berthel Michaëlis</author>
-                  <title level="m">Abelø</title>
+                  <title level="m">Æbelø</title>
                   <date when="1895">1895</date>
                   <idno type="pmb">pmb33235</idno>
                </bibl>
@@ -14897,7 +14897,7 @@
                   <pubPlace>Berlin</pubPlace>
                   <date when="1910">1910</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#N45_n1_w2_o1"/>
+                  <relatedItem source="original" target="#pmb79917"/>
                   <idno type="pmb">pmb79915</idno>
                </bibl>
                <bibl xml:id="pmb79917">
@@ -15030,7 +15030,7 @@
                   <pubPlace>München</pubPlace>
                   <date when="1903">1903</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#R1_n1_w1_o1"/>
+                  <relatedItem source="original" target="#pmb76781"/>
                   <idno type="pmb">pmb76779</idno>
                </bibl>
                <bibl xml:id="pmb76781">
@@ -15232,7 +15232,7 @@
                   <pubPlace>Berlin</pubPlace>
                   <date when="1890">1890</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#R6_n1_w9_o1"/>
+                  <relatedItem source="original" target="#pmb77741"/>
                   <idno type="pmb">pmb77734</idno>
                </bibl>
                <bibl xml:id="pmb77741">
@@ -15265,7 +15265,7 @@
                   <pubPlace>München</pubPlace>
                   <date from="1921" to="1923">1921–1923</date>
                   <ref type="schnitzler-tagebuch"/>
-                  <relatedItem source="original" target="#R6_n1_w11_o1"/>
+                  <relatedItem source="original" target="#pmb77736"/>
                   <idno type="pmb">pmb77747</idno>
                </bibl>
                <bibl xml:id="pmb77736">
@@ -16903,7 +16903,7 @@
                   <editor role="translator">F. von Schiller</editor>
                   <title level="j">Thalia</title>
                   <date when="1789">1789</date>
-                  <relatedItem source="original" target="#G8_n1_w5_o1"/>
+                  <relatedItem source="original" target="#pmb65384"/>
                   <idno type="pmb">pmb65381</idno>
                </bibl>
                <bibl xml:id="pmb65384">
