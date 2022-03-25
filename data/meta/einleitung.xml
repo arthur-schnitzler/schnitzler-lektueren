@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzlers Lektüren: Leseliste und virtuelle Bibliothek</title>
-            <title level="a">Einleitung</title>
+            <title level="a">Einleitung der gedruckten Ausgabe (2013)</title>
             <respStmt>
                <resp>providing the content</resp>
                <name>Achim Aurnhammer</name>
@@ -78,7 +78,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="level1" xml:id="i.-einleitung">
+         <div type="level2" xml:id="i.-einleitung">
             <p>Wohl im Jahre 1905 legte Arthur Schnitzler ein Typoskript an, das alle Autoren und
                Werke nennt, die er bis zu diesem Zeitpunkt gelesen hatte. Die Lektüreliste führte
                Schnitzler bis 1928, kurz vor seinem Tode, handschriftlich weiter. Die Liste, die 78
@@ -100,7 +100,7 @@
                   rend="italics">Jugend in Wien</hi> verzeichnet. Dieses Gesamtregister
                repräsentiert damit die »virtuelle Bibliothek« Arthur Schnitzlers.</p>
             <div type="level2" xml:id="die-leseliste-anlage-und-edition">
-               <head>Die Leseliste – Anlage und Edition</head>
+               <head  type="level2">Die Leseliste – Anlage und Edition</head>
                <p>Die Liste der Lektüren ist nicht datiert,<note xml:id="fn3">
                      <p>Die salvatorische Notiz auf dem Vorsatzblatt (FF O III, 1, Bl. 2) von
                         Weihnachten 1911 (vgl. Anm. 6) ist erst nachträglich angebracht worden und
@@ -287,7 +287,7 @@
                   gleichem Nachnamen einem einzigen Schriftsteller zugewiesen hat.</p>
             </div>
             <div type="level2" xml:id="das-gesamtregister-schnitzlers-virtuelle-bibliothek">
-               <head>Das Gesamtregister – Schnitzlers ›virtuelle Bibliothek‹</head>
+               <head  type="level2">Das Gesamtregister – Schnitzlers ›virtuelle Bibliothek‹</head>
                <p>Die Leseliste liefert der Forschung nicht den einzigen Nachweis, ob Schnitzler
                   einen bestimmten Titel gelesen hatte oder nicht. Auch in Briefen, seiner
                   Autobiographie <hi rend="italics">Jugend in Wien</hi> und vor allem in
@@ -385,7 +385,7 @@
                   Vergessenen der Literaturgeschichte zählen.</p>
             </div>
             <div type="level2" xml:id="schnitzlers-reale-bibliothek-geschichte-und-rekonstruktion">
-               <head>Schnitzlers reale Bibliothek – Geschichte und Rekonstruktion</head>
+               <head  type="level2">Schnitzlers reale Bibliothek – Geschichte und Rekonstruktion</head>
                <p>Dem Gesamtregister zufolge, das Leseliste, Tagebuch sowie Lektüre-Erwähnungen in
                   der Korrespondenz und Autobiographie zusammenführt, besaß Arthur Schnitzler eine
                   große Bibliothek. Sie ging nach seinem Tod im Jahre 1931 wahrscheinlich in den
@@ -554,7 +554,7 @@
                   schriftstellerische Tätigkeit beeinflusste.</p>
             </div>
             <div type="level2" xml:id="schnitzlers-lektüren-und-die-lesepräferenzen-in-wien-um-1900">
-               <head>Schnitzlers Lektüren und die Lesepräferenzen in Wien um 1900</head>
+               <head  type="level2">Schnitzlers Lektüren und die Lesepräferenzen in Wien um 1900</head>
                <p>Für die Literaturgeschichte wie für die allgemeine rezeptions- und
                   kulturhistorische Forschung ist Schnitzlers Verzeichnis seiner Lektüren eine
                   wichtige Quelle. Denn es erlaubt Rückschlüsse auf den literarischen Geschmack in
@@ -686,7 +686,7 @@
                   besessen hat.</p>
             </div>
             <div type="level2" xml:id="schnitzlers-lektürevorlieben">
-               <head>Schnitzlers Lektürevorlieben</head>
+               <head  type="level2">Schnitzlers Lektürevorlieben</head>
                <p>Ungeachtet der Überschneidungen mit den zeitspezifischen Lektürepräferenzen und
                   den ästhetischen Vorlieben, die Schnitzler mit der ästhetischen Elite in Wien um
                   1900 teilte, vermittelt die Leseliste einen guten Eindruck seines persönlichen
@@ -884,7 +884,7 @@
                   </note></p>
             </div>
             <div type="level2" xml:id="schnitzlers-lesegewohnheiten">
-               <head>Schnitzlers Lesegewohnheiten</head>
+               <head  type="level2">Schnitzlers Lesegewohnheiten</head>
                <p>Über Arthur Schnitzlers Lesegewohnheiten und Lektüretechniken sind wir durch das
                   Tagebuch, die Autobiographie, die Briefe und Interviews recht gut informiert. Sie
                   dokumentieren eindrücklich, welch leidenschaftlicher Leser Schnitzler war.</p>
@@ -1016,7 +1016,7 @@
             </div>
             <div type="level2"
                xml:id="schnitzler-als-leser-im-bild-die-bibliothek-des-dichters-in-zeitgenössischen-photographien">
-               <head>Schnitzler als Leser im Bild: die Bibliothek des Dichters in zeitgenössischen
+               <head  type="level2">Schnitzler als Leser im Bild: die Bibliothek des Dichters in zeitgenössischen
                   Photographien</head>
                <p>Auch wenn Schnitzler gerne im Garten oder im Zug während seiner zahlreichen
                   Bahnreisen las, ist die Bibliothek und sein Arbeitszimmer sein bevorzugter
@@ -1095,7 +1095,7 @@
             </div>
             <div type="level2"
                xml:id="der-leser-als-dichter-der-produktionsästhetische-aspekt-der-leseliste-und-virtuellen-bibliothek">
-               <head>Der Leser als Dichter: der produktionsästhetische Aspekt der ›Leseliste‹ und
+               <head  type="level2">Der Leser als Dichter: der produktionsästhetische Aspekt der ›Leseliste‹ und
                   virtuellen Bibliothek</head>
                <p>Schnitzler war nicht nur ein großer Leser, er nutzte die Bibliothek auch
                   ausdrücklich als Inspirationsraum, wie er in einem Interview von 1930 mit George

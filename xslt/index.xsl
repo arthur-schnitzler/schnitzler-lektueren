@@ -57,7 +57,7 @@
                                     angelegt und zielte nicht auf Vollständigkeit ab. Sie stellt
                                     eine quantitativ wie qualitativ wichtige Ergänzung der im <i>Tagebuch</i>
                                     notierten Lektürenachweise dar, die sich mit diesem nur bei
-                                    etwe einem Drittel der Werke überschneidet.</p>
+                                    etwa einem Drittel der Werke überschneidet.</p>
                                 <p>Die gedruckte Edition wurde 2013 in der Reihe »Akten des Arthur
                                     Schnitzler-Archivs Freiburg« veröffentlicht und ist bei <a
                                         href="https://www.nomos-shop.de/ergon/titel/arthur-schnitzlers-lektueren-leseliste-und-virtuelle-bibliothek-id-90147/"

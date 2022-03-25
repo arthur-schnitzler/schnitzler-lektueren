@@ -78,24 +78,47 @@
    </teiHeader>
    <text>
       <body>
-         <div type="level1" xml:id="vorworti">
-            <head>Zur digitalen Ausgabe 2022</head>
+         <div type="level2" xml:id="vorworti">
+            <head type="level2">Zur digitalen Ausgabe 2022</head>
             <p>Neun Jahre nach der gedruckten Ausgabe liegt Arthur Schnitzlers ‚Virtuelle
                Bibliothek‘ nun in einer digitalen Version vor. Sie enthält die von Schnitzler selbst
                angelegte Leseliste sowie die Hinweise auf Lektüren im Tagebuch und in der
-               zweibändigen Briefausgabe und ist das Ergebnis einer Kooperation des Arthur
-               Schnitzler-Archivs der Universität Freiburg und der Österreichischen Akademie der
-               Wissenschaften. Die Online-Edition hat Martin Anton Müller seit 2021 eigenständig
-               erstellt, Druckversehen stillschweigend korrigiert sowie Ergänzungen vorgenommen.
-               Dafür gebührt ihm großer Dank. Die Online-Edition enthält vertiefte Suchmöglichkeiten
-               und ist mit dem Tagebuch und der laufenden Edition der Korrespondenz mit Schriftstellerinnen und Schriftstellern verlinkt. Sie wird kontinuierlich fortgeführt und ergänzt
-               werden. Nachweise noch nicht registrierter Lektüren Schnitzlers und etwaiger
-               Widmungsexemplare werden erbeten an: ### </p>
+               zweibändigen Briefausgabe und ist das Ergebnis einer Kooperation des <hi
+                  rend="italics">Arthur Schnitzler-Archivs der Universität Freiburg</hi> und dem <hi>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</hi> an der <hi
+                  rend="italics">Österreichischen Akademie der Wissenschaften</hi>. Die
+               Online-Edition hat Martin Anton Müller seit 2021 eigenständig erstellt, Druckversehen
+               stillschweigend korrigiert sowie Ergänzungen vorgenommen. Dafür gebührt ihm großer
+               Dank. Die Online-Edition enthält vertiefte Suchmöglichkeiten und ist mit dem <ref
+                  target="https://schnitzler-tagebuch.acdh.oeaw.ac.at" type="url">Tagebuch</ref> und
+               der laufenden Edition der <ref target="https://schnitzler-briefe.acdh.oeaw.ac.at"
+                  type="url">Korrespondenz mit Schriftstellerinnen und Schriftstellern</ref>
+               verlinkt. Sie wird kontinuierlich fortgeführt und ergänzt werden. Nachweise noch
+               nicht registrierter Lektüren Schnitzlers und etwaiger Widmungsexemplare werden
+               erbeten an: <hi rend="italics">achim.aurnhammer (at)
+               germanistik.uni-freiburg.de</hi></p>
             <p rend="right">Achim Aurnhammer</p>
             <p>Freiburg, März 2022</p>
          </div>
-         <div type="level1" xml:id="vorwortii">
-            <head>Zur gedruckten Ausgabe 2013</head>
+         <div type="level2" xml:id="vorworti-mam">
+            <p>Das digitale <ref
+               target="https://schnitzler-tagebuch.acdh.oeaw.ac.at" type="url">Tagebuch</ref> ging 2018
+               online, ohne dass das in der Druckausgabe enthaltene Werkregister eingeschlossen war. Als ich
+               beschloss, diese wichtige Funktion zu ergänzen, hatte ich die Idee, es im Tandem mit der 
+               viel detaillierter bibliografisch erschlossenen Leseliste zu tun. Es hat mich sehr gefreut, dass
+               Achim Aurnhammer sofort seine Zustimmung gab und mich arbeiten ließ. Trotzdem wäre es mir 
+               nicht möglich gewesen ohne Peter Andorfer als ‚partner in crime‘, 
+               auf dessen technischer <ref type="url"
+                  target="https://github.com/acdh-oeaw/dse-static-cookiecutter">Vorlage</ref> die
+               Neuausgabe basiert. Er betreut mit mir auch die längst über das Erbe der Tagebuch-Edition hinausgewachsene
+               Webdatenbank <ref target="https://pmb.acdh.oeaw.ac.at">PMB</ref>, die die vielen Querlinks
+               zwischen den Projekten erst möglich macht. Die automatische Erfassung der bibliografischen Angaben
+               hat Markus Liposchek durchgesehen und korrigiert. Die nun vorgelegten Daten sind mit der offenen
+               Lizenz CC4.0 lizenziert und können unter Angabe der Herkunft weiterentwickelt werden. Der Quellcode kann bei <ref target="" type="url">GitHub</ref> bezogen werden.</p>
+            <p rend="right">Martin Anton Müller</p>
+            <p>Wien, März 2022</p>
+         </div>
+         <div type="level2" xml:id="vorwortii">
+            <head type="level2">Zur gedruckten Ausgabe 2013</head>
             <p>Die Edition von Arthur Schnitzlers Leseliste und die Rekonstruktion seiner Bibliothek
                haben eine lange Geschichte. Beide Vorhaben reichen in die Zeit zurück, als
                elektronische Recherchen noch nicht möglich waren. Immer wieder von an deren

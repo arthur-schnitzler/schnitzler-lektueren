@@ -151,7 +151,7 @@
                   <cell>[L1–L19]</cell>
                </row>
             </table>
-         </div>
+         <p/></div>
          <div>
             <head type="level2">Editionsprinzipien</head>
             <p>– Maschinenschriftliche Einträge werden recte wiedergegeben, handschriftliche
@@ -220,7 +220,7 @@
             <p>– Wenn Schnitzler ausnahmsweise einem Namen Werke verschiedener Autoren zugeordnet
                hat, erhält dann in den Fußnoten jeder der Autoren die dem Eintrag zugeordnete Nummer
                mit dem Zusatz: /1, /2, etc.</p>
-         </div>
+         <p/></div>
          <div>
             <head type="level2">Anmerkungsapparat zur Leseliste</head>
             <div>
@@ -257,7 +257,7 @@
                   sowie vor jedem neuen Autor ein [oder] eingefügt.</p>
                <p>– Nicht ermittelte Autoren bzw. Titel sind in der Anmerkung als <hi rend="italics"
                      >[nicht ermittelt]</hi> gekennzeichnet.</p>
-            </div>
+            <p/></div>
             <div>
                <head type="level2">Anpassungen für die digitale Ausgabe</head>
                <p>– Da seit Erscheinen der Buchausgabe das Tagebuch Schnitzlers und weitere Werke
@@ -270,8 +270,8 @@
                <p>– Statt Fußnoten mit den Aufzählungen der Werke werden die Werke auf der jeweiligen Registerseite einer Person gesammelt.</p>
                <p>– Druckfehler wurden stillschweigend korrigiert.</p>
                <p>– Siglen wurden aufgelöst.</p>
-            </div>
-         </div>
+            <p/></div>
+         <p/></div>
       </body>
    </text>
 </TEI>
