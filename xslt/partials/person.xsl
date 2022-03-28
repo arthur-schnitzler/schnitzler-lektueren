@@ -450,7 +450,7 @@
                                 </xsl:if>
                             </xsl:for-each>
                             <xsl:if test="key('work-lookup', concat('#', @xml:id), $works)">
-                                <ul>
+                                <ul class="dashed">
                                     <xsl:for-each
                                         select="key('work-lookup', concat('#', @xml:id), $works)">
                                         <li>
