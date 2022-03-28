@@ -177,8 +177,8 @@ h1.edierterText {
 }
 
 .handschriftlich {
-    font-family: cursive;
-    font-size: 75%;
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 95%;
 }
 
 ul.no-bullets {

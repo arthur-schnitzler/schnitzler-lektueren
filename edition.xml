@@ -262,16 +262,16 @@
                <head type="level2">Anpassungen für die digitale Ausgabe</head>
                <p>– Da seit Erscheinen der Buchausgabe das Tagebuch Schnitzlers und weitere Werke
                   digital verfügbar wurden, wird das im Druck enthaltene »Gesamtregister /
-                  Virtuelle Bibliothek« nicht neuerlich umgesetzt. Stattdessen erlauben die an den
-                  jeweiligen Stellen angebrachten Links und Verweise nunmehr den schnellen Wechsel
+                  Virtuelle Bibliothek« nicht neuerlich umgesetzt. Die an den
+                  jeweiligen Stellen angebrachten Links und Verweise erlauben nunmehr den schnellen Wechsel
                   zu den jeweiligen Quellen.</p>
-               <p>– Statt Serifenschrift und Kursivierung wurden eine nichtproportionale Schrift für die Wiedergabe des
-                  getippten edierten Textes und eine Schreibschrift für den handschriftlichen Teil gewählt.</p>
-               <p>– Statt Fußnoten mit den Aufzählungen der Werke werden die Werke auf der jeweiligen Registerseite einer Person gesammelt.</p>
+               <p>– Für die Wiedergabe der maschinschriftlichen Passagen des edierten Texts wurde eine nichtproportionale Schrift gewählt,
+                  für die Wiedergabe der handschriftlichen Passagen eine Serifenschrift.</p>
+               <p>– Die Nachweise der Werke, die sich in der gedruckten Vorlage im Fußnotenbereich finden, wurden auf der jeweiligen Registerseite einer Person gesammelt.</p>
                <p>– Druckfehler wurden stillschweigend korrigiert.</p>
                <p>– Siglen wurden aufgelöst.</p>
-            <p/></div>
-         <p/></div>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>
