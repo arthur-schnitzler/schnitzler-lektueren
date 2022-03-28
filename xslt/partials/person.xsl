@@ -278,7 +278,9 @@
                             </xsl:if>
                             <xsl:if test="tei:date">
                                 <xsl:value-of select="tei:date"/>
+                                <xsl:if test="not(ends-with(tei:date,'.'))">
                                 <xsl:text>.</xsl:text>
+                                </xsl:if>
                             </xsl:if>
                             <xsl:choose>
                                 <xsl:when test="tei:title[@level = 'm'] and tei:title[@level = 's']">
@@ -563,7 +565,9 @@
                                             </xsl:if>
                                             <xsl:if test="tei:date">
                                                 <xsl:value-of select="tei:date"/>
-                                                <xsl:text>.</xsl:text>
+                                                <xsl:if test="not(ends-with(tei:date,'.'))">
+                                                    <xsl:text>.</xsl:text>
+                                                </xsl:if>
                                             </xsl:if>
                                             <xsl:choose>
                                                 <xsl:when

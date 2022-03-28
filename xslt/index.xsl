@@ -59,9 +59,9 @@
                                     notierten Lektürenachweise dar, die sich mit diesem nur bei
                                     etwa einem Drittel der Werke überschneidet.</p>
                                 <p>Die gedruckte Edition wurde 2013 in der Reihe »Akten des Arthur
-                                    Schnitzler-Archivs Freiburg« veröffentlicht und ist bei <a
+                                    Schnitzler-Archivs Freiburg« veröffentlicht und ist bei <b><a
                                         href="https://www.nomos-shop.de/ergon/titel/arthur-schnitzlers-lektueren-leseliste-und-virtuelle-bibliothek-id-90147/"
-                                        target="_blank">Ergon</a> lieferbar. Sie wird hier nun
+                                        target="_blank">Ergon</a></b> (<b>Nomos</b>) lieferbar. Sie wird hier nun
                                     erstmals digital verfügbar gemacht.</p>
                             </div>
                         </div>

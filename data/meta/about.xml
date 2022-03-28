@@ -85,7 +85,7 @@
                angelegte Leseliste sowie die Hinweise auf Lektüren im Tagebuch und in der
                zweibändigen Briefausgabe und ist das Ergebnis einer Kooperation des <hi
                   rend="italics">Arthur Schnitzler-Archivs der Universität Freiburg</hi> und dem
-                  <hi>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</hi> an
+                  <hi rend="italics">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</hi> an
                der <hi rend="italics">Österreichischen Akademie der Wissenschaften</hi>. Die
                Online-Edition hat Martin Anton Müller seit 2021 eigenständig erstellt, Druckversehen
                stillschweigend korrigiert sowie Ergänzungen vorgenommen. Dafür gebührt ihm großer
@@ -98,7 +98,7 @@
                erbeten an: <hi rend="italics">achim.aurnhammer (at)
                germanistik.uni-freiburg.de</hi></p>
             <p rend="right">Achim Aurnhammer</p>
-            <p>Freiburg, März 2022</p>
+            <p>Freiburg, Mai 2022</p>
             <p/>
          </div>
          <div type="level2" xml:id="vorworti-mam">
@@ -119,7 +119,7 @@
                weiterentwickelt werden. Der Quellcode kann bei <ref target="" type="url"
                   >GitHub</ref> bezogen werden.</p>
             <p rend="right">Martin Anton Müller</p>
-            <p>Wien, März 2022</p>
+            <p>Wien, Mai 2022</p>
          </div>
          <div type="level2" xml:id="vorwortii">
             <head type="level2">Zur gedruckten Ausgabe 2013</head>
