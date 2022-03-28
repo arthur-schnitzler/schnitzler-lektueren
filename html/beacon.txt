@@ -1,10 +1,12 @@
 #FORMAT: BEACON
 #NAME:Arthur Schnitzler: Lektüren
-https://d-nb.info/gnd/1020823992/|AdamPollack, RobertRobert Adam|http://url-of-my-awesome-site/pmb12438.html
+https://d-nb.info/gnd/1020823992/|Adam, Robert|http://url-of-my-awesome-site/pmb12438.html
 https://d-nb.info/gnd/116008040/|Adler, Friedrich|http://url-of-my-awesome-site/pmb5929.html
 https://d-nb.info/gnd/118500856/|Aischylos|http://url-of-my-awesome-site/pmb3648.html
 https://d-nb.info/gnd/118869302/|Alarcón y Ariza, Pedro Antonio de|http://url-of-my-awesome-site/pmb5944.html
+https://d-nb.info/gnd/116009926/|Alberti, Conrad|http://url-of-my-awesome-site/pmb64772.html
 https://d-nb.info/gnd/116284315/|Albu, Eugen|http://url-of-my-awesome-site/pmb3180.html
+https://d-nb.info/gnd/11864808X/|Alfieri, Vittorio|http://url-of-my-awesome-site/pmb65008.html
 https://d-nb.info/gnd/118502255/|Altenberg, Peter|http://url-of-my-awesome-site/pmb2147.html
 https://d-nb.info/gnd/118502794/|Andersen, Hans Christian|http://url-of-my-awesome-site/pmb5981.html
 https://d-nb.info/gnd/116011653/|Andlaw, Franz von|http://url-of-my-awesome-site/pmb5988.html
@@ -26,6 +28,7 @@ https://d-nb.info/gnd/118506358/|Balzac, Honoré de|http://url-of-my-awesome-sit
 https://d-nb.info/gnd/118809709/|Bang, Herman|http://url-of-my-awesome-site/pmb10828.html
 https://d-nb.info/gnd/1025986598/|Baracs, Géza|http://url-of-my-awesome-site/pmb13718.html
 https://d-nb.info/gnd/11850651X/|Barbusse, Henri|http://url-of-my-awesome-site/pmb6109.html
+https://d-nb.info/gnd/118506684/|Barrès, Maurice|http://url-of-my-awesome-site/pmb3892.html
 https://d-nb.info/gnd/116068876/|Barthold, Friedrich Wilhelm|http://url-of-my-awesome-site/pmb6131.html
 https://d-nb.info/gnd/118652931/|Bartsch, Rudolf Hans|http://url-of-my-awesome-site/pmb10836.html
 https://d-nb.info/gnd/118653350/|Bashkirtseff, Marie|http://url-of-my-awesome-site/pmb13797.html
@@ -200,6 +203,7 @@ https://d-nb.info/gnd/118543628/|Gundolf, Friedrich|http://url-of-my-awesome-sit
 https://d-nb.info/gnd/116935928/|Guttmann, Richard|http://url-of-my-awesome-site/pmb7616.html
 https://d-nb.info/gnd/118543830/|Gutzkow, Karl|http://url-of-my-awesome-site/pmb11555.html
 https://d-nb.info/gnd/118699962/|Hackländer, Friedrich Wilhelm von|http://url-of-my-awesome-site/pmb7641.html
+https://d-nb.info/gnd/121220583/|Haek, David|http://url-of-my-awesome-site/pmb64820.html
 https://d-nb.info/gnd/118545043/|Halbe, Max|http://url-of-my-awesome-site/pmb11565.html
 https://d-nb.info/gnd/118919660/|Halévy, Ludovic|http://url-of-my-awesome-site/pmb4197.html
 https://d-nb.info/gnd/118701223/|Hamerling, Robert|http://url-of-my-awesome-site/pmb7674.html
@@ -248,6 +252,7 @@ https://d-nb.info/gnd/118555286/|Ibsen, Henrik|http://url-of-my-awesome-site/pmb
 https://d-nb.info/gnd/118555324/|Iffland, August Wilhelm|http://url-of-my-awesome-site/pmb7966.html
 https://d-nb.info/gnd/118555553/|Immermann, Karl Leberecht|http://url-of-my-awesome-site/pmb7973.html
 https://d-nb.info/gnd/119540959/|Infessura, Stefano|http://url-of-my-awesome-site/pmb18688.html
+https://d-nb.info/gnd/119049163/|Istrati, Panaït|http://url-of-my-awesome-site/pmb5583.html
 https://d-nb.info/gnd/118711172/|Jacobsen, Jens Peter|http://url-of-my-awesome-site/pmb11809.html
 https://d-nb.info/gnd/118556444/|Jacques, Norbert|http://url-of-my-awesome-site/pmb7994.html
 https://d-nb.info/gnd/118556673/|Jahnn, Hans Henny|http://url-of-my-awesome-site/pmb8001.html
@@ -373,6 +378,7 @@ https://d-nb.info/gnd/116882670/|Nansen, Peter|http://url-of-my-awesome-site/pmb
 https://d-nb.info/gnd/118738178/|Naumann, Friedrich|http://url-of-my-awesome-site/pmb9023.html
 https://d-nb.info/gnd/118587080/|Nestroy, Johann Nepomuk|http://url-of-my-awesome-site/pmb12338.html
 https://d-nb.info/gnd/118587676/|Nicolai, Georg Friedrich|http://url-of-my-awesome-site/pmb5220.html
+https://d-nb.info/gnd/117001783/|Niemann, August|http://url-of-my-awesome-site/pmb64866.html
 https://d-nb.info/gnd/118587943/|Nietzsche, Friedrich|http://url-of-my-awesome-site/pmb12358.html
 https://d-nb.info/gnd/118588583/|Nordau, Max|http://url-of-my-awesome-site/pmb12365.html
 https://d-nb.info/gnd/117069515/|Nowak, Karl Friedrich|http://url-of-my-awesome-site/pmb2790.html
@@ -400,6 +406,7 @@ https://d-nb.info/gnd/118787640/|Radiguet, Raymond|http://url-of-my-awesome-site
 https://d-nb.info/gnd/118597914/|Raimund, Ferdinand|http://url-of-my-awesome-site/pmb12468.html
 https://d-nb.info/gnd/116327979/|Ramshorn, Carl|http://url-of-my-awesome-site/pmb23036.html
 https://d-nb.info/gnd/115717641/|Regnier-Destourbet, Hippolyte François|http://url-of-my-awesome-site/pmb23149.html
+https://d-nb.info/gnd/117084123/about/|Januszkiewicz, Hans von|http://url-of-my-awesome-site/pmb64877.html
 https://d-nb.info/gnd/127829210/|Reinmann, Ernst|http://url-of-my-awesome-site/pmb23230.html
 https://d-nb.info/gnd/118744496/|Renan, Ernest|http://url-of-my-awesome-site/pmb9484.html
 https://d-nb.info/gnd/118788345/|Renard, Jules|http://url-of-my-awesome-site/pmb4460.html
@@ -520,6 +527,7 @@ https://d-nb.info/gnd/1026263549/|Winter, Josef von|http://url-of-my-awesome-sit
 https://d-nb.info/gnd/117411973/|Wirth, Albrecht|http://url-of-my-awesome-site/pmb10564.html
 https://d-nb.info/gnd/118769553/|Wit, Ferdinand Johannes|http://url-of-my-awesome-site/pmb27245.html
 https://d-nb.info/gnd/119429764/|Wittels, Fritz|http://url-of-my-awesome-site/pmb10574.html
+https://d-nb.info/gnd/1042460248/|Wład, Franciszek|http://url-of-my-awesome-site/pmb27278.html
 https://d-nb.info/gnd/104298170/|Wolff, Ludwig|http://url-of-my-awesome-site/pmb13159.html
 https://d-nb.info/gnd/11889028X/|Wolzogen, Ernst von|http://url-of-my-awesome-site/pmb13169.html
 https://d-nb.info/gnd/1026235553/|Xanrof, Léon|http://url-of-my-awesome-site/pmb27405.html

@@ -8,8 +8,6 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/person.xsl"/>
-
-   
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of
@@ -118,8 +116,11 @@
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
             <xsl:variable name="name">
                 <xsl:choose>
-                    <xsl:when test="./tei:persName[1]/tei:forename[1] and ./tei:persName[1]/tei:surname[1]">
-                        <xsl:value-of select="normalize-space(concat(./tei:persName[1]/tei:forename[1],' ',./tei:persName[1]/tei:surname[1]))"/>
+                    <xsl:when
+                        test="./tei:persName[1]/tei:forename[1] and ./tei:persName[1]/tei:surname[1]">
+                        <xsl:value-of
+                            select="normalize-space(concat(./tei:persName[1]/tei:forename[1], ' ', ./tei:persName[1]/tei:surname[1]))"
+                        />
                     </xsl:when>
                     <xsl:when test="./tei:persName[1]/tei:forename[1]">
                         <xsl:value-of select="normalize-space(./tei:persName[1]/tei:forename[1])"/>
@@ -242,7 +243,6 @@
                                         </h1>
                                     </div>
                                     <xsl:call-template name="person_detail"/>
-                                    
                                 </div>
                             </div>
                             <xsl:call-template name="html_footer"/>
