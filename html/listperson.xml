@@ -15158,13 +15158,18 @@
                   <sex>male</sex>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren/D347_V1</idno>
                </person>
-               <person xml:id="pmb65084">
+               <person xml:id="pmb5380">
                   <tei:persName>
                      <tei:surname>Pontoppidan</tei:surname>
                      <tei:forename>Henrik</tei:forename>
                   </tei:persName>
                   <tei:birth>
                      <tei:date when="1857-07-24">24. 7. 1857</tei:date>
+                     <tei:placeName>
+                        <settlement>Fredericia</settlement>
+                        <idno type="PMB">#pmb55403</idno>
+                        <idno type="geonames">https://sws.geonames.org/2621951/</idno>
+                     </tei:placeName>
                   </tei:birth>
                   <tei:death>
                      <tei:date when="1943-08-21">21. 8. 1943</tei:date>

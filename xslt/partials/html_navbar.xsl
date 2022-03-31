@@ -38,6 +38,7 @@
                                             class="nav-link">Zur Edition</a>
                                         <a title="Schnitzler-Lektueren" href="literatur.html"
                                             class="nav-link">Literatur</a>
+                                        <a title="Schnitzler-Lektueren" href="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/2013_Aurnhammer_Lektueren_print.pdf" class="nav-link">PDF der Buchausgabe</a>
                                     </li>
                                 </ul>
                             </li>

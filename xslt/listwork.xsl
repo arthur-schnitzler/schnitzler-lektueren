@@ -118,7 +118,7 @@
                 </div>
             </body>
         </html>
-        <!--<xsl:for-each select=".//tei:bibl">
+        <xsl:for-each select=".//tei:bibl">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
             <xsl:variable name="name" select="./tei:title[1]/text()"></xsl:variable>
             <xsl:result-document href="{$filename}">
@@ -150,7 +150,7 @@
                 </html>
             </xsl:result-document>
             
-        </xsl:for-each>-->
+        </xsl:for-each>
     </xsl:template>
     
 </xsl:stylesheet>
