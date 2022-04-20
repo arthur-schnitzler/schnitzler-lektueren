@@ -101,7 +101,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="Anfang.html" class="index-link">
+                                <a href="Lectuere.html" class="index-link">
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
@@ -111,7 +111,7 @@
                                         <div class="card-header">
                                             <h3>
                                                 <i class="fa-solid fa-bars-staggered"/>
-                                                Titel </h3>
+                                                Lectüre </h3>
                                         </div>
                                     </div>
                                 </a>

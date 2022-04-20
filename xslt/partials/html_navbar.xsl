@@ -48,8 +48,8 @@
                                     /></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Schnitzler-Lektueren" href="Anfang.html"
-                                            class="nav-link">Titel</a>
+                                        <a title="Schnitzler-Lektueren" href="Lectuere.html"
+                                            class="nav-link">Lectüre</a>
                                         <a title="Schnitzler-Lektueren"
                                             href="Deutschsprachige-Literatur.html" class="nav-link"
                                             >Deutschsprachige Literatur</a>
