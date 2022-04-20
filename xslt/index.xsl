@@ -101,11 +101,27 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
+                                <a href="Anfang.html" class="index-link">
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Titel.jpg"
+                                                class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">
+                                            <h3>
+                                                <i class="fa-solid fa-bars-staggered"/>
+                                                Titel </h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
                                 <a href="Deutschsprachige-Literatur.html" class="index-link">
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Deutschsprachig.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -121,7 +137,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Frankreich.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -137,7 +153,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Italien.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -153,7 +169,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Spanien.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -169,7 +185,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/England.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -185,7 +201,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Ungarn.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -201,7 +217,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Polen.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -217,7 +233,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Norden.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -232,7 +248,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Russland.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -248,7 +264,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Griechenland.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
@@ -264,7 +280,7 @@
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img
-                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/leseliste-beispiel.jpg"
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Rom.jpg"
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">
