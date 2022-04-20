@@ -156,7 +156,7 @@ summary {
 
 h1.edierterText {
       font-family: "Times New Roman", Times, serif;
-      font-size: 160%;
+      font-size: 120%;
       color: black;
       padding-top: 50px;
       
@@ -165,7 +165,7 @@ h1.edierterText {
 .edierterText {
       color: black;
       font-family: monospace;
-      font-size: 140%;
+      font-size: 120%;
 
 }
 
