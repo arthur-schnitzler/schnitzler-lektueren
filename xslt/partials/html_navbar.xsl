@@ -39,6 +39,8 @@
                                         <a title="Schnitzler-Lektueren" href="literatur.html"
                                             class="nav-link">Literatur</a>
                                         <a title="Schnitzler-Lektueren" href="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/2013_Aurnhammer_Lektueren_print.pdf" class="nav-link">PDF der Buchausgabe</a>
+                                        <a title="Schnitzler-Lektueren" href="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Mikrofilm_O1_Deutschsprachig.pdf" class="nav-link">Mikroverfilmung der Lektüreliste I</a>
+                                        <a title="Schnitzler-Lektueren" href="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/Mikrofilm_O2_Fremdsprachig.pdf" class="nav-link">Mikroverfilmung der Lektüreliste II</a>
                                     </li>
                                 </ul>
                             </li>
