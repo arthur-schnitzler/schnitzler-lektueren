@@ -17692,7 +17692,7 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79935.html</idno>
                </bibl>
                <bibl xml:id="pmb79938">
-                  <author ref="#pmb65094">Vasily Ivanovich Nemirovich-Danchenko</author>
+                  <author ref="#pmb87895">Vasily Ivanovich Nemirovich-Danchenko</author>
                   <title level="m">Unter der Erde. Das Glück des Iwan Habsvergessen / Zwei
                      Erzählungen</title>
                   <editor role="translator">E. Röthgen</editor>
@@ -17704,7 +17704,7 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79938.html</idno>
                </bibl>
                <bibl xml:id="pmb79937">
-                  <author ref="#pmb65094">Vasily Ivanovich Nemirovich-Danchenko</author>
+                  <author ref="#pmb87895">Vasily Ivanovich Nemirovich-Danchenko</author>
                   <title cert="low" level="m">Pod zemlȍj. Sčast’e Ivana-Nepomnjaščego</title>
                   <date when="1889">1889</date>
                   <idno type="schnitzler-lektueren"
