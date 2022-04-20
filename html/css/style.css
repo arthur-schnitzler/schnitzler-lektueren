@@ -164,8 +164,8 @@ h1.edierterText {
 
 .edierterText {
       color: black;
-      font-family: monospace;
-      font-size: 120%;
+        font-family: monospace, monospace;
+font-size: 120%;
 
 }
 
