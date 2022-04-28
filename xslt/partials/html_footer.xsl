@@ -29,14 +29,14 @@
                                 Österreichische Akademie der Wissenschaften
                             </p>
                             <p>
-                                Sonnenfelsgasse 19
-                                <br/>
+                                Bäckerstraße 13 
+                             <br/>
                                 1010 Wien
                             </p>
                             <p>
                                 T: +43 1 51581-2200
                                 <br/>
-                                E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a>
+                                E: <a href="mailto:acdh-ch@oeaw.ac.at">acdh-ch@oeaw.ac.at</a>
                             </p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                                 <h6 class="font-weight-bold">HELPDESK</h6>
                                 <p>ACDH-CH betreibt einen Helpdesk für Fragen und Ratschläge zu verschiedenen Themen der Digitalen Geisteswissenschaften.</p>
                                 <p>
-                                    <a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">FRAG UNS!</a>
+                                    <a class="helpdesk-button" href="mailto:acdh-ch-helpdesk@oeaw.ac.at">FRAG UNS!</a>
                                 </p>
                             </div>
                         </div>
