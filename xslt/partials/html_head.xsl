@@ -6,7 +6,7 @@
     version="2.0">
     <xsl:include href="./params.xsl"/>
     <xsl:template match="/" name="html_head">
-        <xsl:param name="html_title" select="$project_short_title"></xsl:param>
+        <xsl:param name="html_title" select="'Schnitzler Lektüren'"></xsl:param>
         <xsl:param name="entry_date" select="entry_date"></xsl:param>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
