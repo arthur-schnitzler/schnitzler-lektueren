@@ -31,7 +31,7 @@
                                 </h1>
                                 <h3>
                                     <a>
-                                        <i class="fas fa-info" title="Info zum Verzeichnis der Arbeiten von Arthur Schnitzler und anderer im Tagebuch erwähnter (literarischer) Werke" data-toggle="modal" data-target="#exampleModal"/>
+                                        <i class="fas fa-info" title="Info" data-toggle="modal" data-target="#exampleModal"/>
                                     </a><xsl:text> | </xsl:text>
                                     <a href="{$teiSource}">
                                         <i class="fas fa-download" title="Download XML/TEI"/>
@@ -89,18 +89,10 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title">Info zum Verzeichnis der Arbeiten von Arthur Schnitzler</h5>
+                                        <h5 class="modal-title">Info</h5>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Das Register verzeichnet - unter Einschluß der indirekten Erwähnungen, wie etwa 
-                                            durch die Namen einzelner Figuren oder durch Verweise auf Proben, Vorlesungen u. a. 
-                                            und unter Aufnahme auch der vorläufigen oder in Schnitzlers Schreibweise 
-                                            divergierenden Titel sowie unter Einbeziehung des nur im Nachlass überlieferten 
-                                            alle im Tagebuch eigens genannten und identifizierten literarischen Arbeiten. 
-                                            Verweise auf eigene Briefe und Verweise auf das eigene Tagebuch sowie allgemeine, 
-                                            sich offenkundig nicht auf eine einzelne Arbeit beziehende Gattungsbezeichnungen 
-                                            bleiben unberücksichtigt. 
-                                        </p>
+                                        <p>Das Register verzeichnet</p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>

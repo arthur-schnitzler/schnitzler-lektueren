@@ -18,7 +18,7 @@
             <meta name="docTitle" class="staticSearch_docTitle" content="{$html_title}"/>
             <meta name="docSortKey" class="staticSearch_docSortKey" content="d_{$entry_date}"/>
             <link rel="profile" href="http://gmpg.org/xfn/11"></link>
-            <title><xsl:value-of select="$html_title"/></title>
+            <title>X<xsl:value-of select="$html_title"/></title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></link>
             <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css"></link>
             <link rel="stylesheet" id="fundament-styles"  href="dist/fundament/css/fundament.min.css" type="text/css"></link>
@@ -44,7 +44,7 @@
                 (function() {
                 var u="https://matomo.acdh.oeaw.ac.at/";
                 _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', '101']);
+                _paq.push(['setSiteId', '213']);
                 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
                 g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
                 })();
