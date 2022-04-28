@@ -1,7 +1,7 @@
-# Schnitzler Lektüren
-[![Build and publish](https://github.com/martinantonmueller/schnitzler-lektueren/actions/workflows/build.yml/badge.svg)](https://github.com/martinantonmueller/schnitzler-lektueren/actions/workflows/build.yml)
+[![Build and publish](https://github.com/acdh-oeaw/schnitzler-lektueren/actions/workflows/build.yml/badge.svg)](https://github.com/acdh-oeaw/schnitzler-lektueren/actions/workflows/build.yml)
 
-* build with [DSE-Static-Cookiecutter](https://github.com/acdh-oeaw/dse-static-cookiecutter)
+# Schnitzler Lektüren
+http://schnitzler-lektueren.acdh.oeaw.ac.at
 
 ## Digitale Ausgabe von:
 
@@ -25,7 +25,5 @@ Martin Anton Müller
 
 Mitarbeit Markus Liposchek
 
+* build with [DSE-Static-Cookiecutter](https://github.com/acdh-oeaw/dse-static-cookiecutter)
 
-## Rechte
-
-Warten auf endgültige Klärung. Das heißt: Derzeit noch keine! Finger weg!
