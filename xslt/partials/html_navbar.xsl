@@ -113,7 +113,7 @@
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Links"
-                                            href="https://github.com/martinantonmueller/schnitzler-lektueren"
+                                            href="https://github.com/acdh-oeaw/schnitzler-lektueren"
                                             class="nav-link">Daten auf gitHub</a>
                                     </li>
                                 </ul>
