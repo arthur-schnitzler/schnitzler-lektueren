@@ -1,543 +1,543 @@
 #FORMAT: BEACON
 #NAME:Arthur Schnitzler: Lektüren
-https://d-nb.info/gnd/1020823992/|Adam, Robert|http://url-of-my-awesome-site/pmb12438.html
-https://d-nb.info/gnd/116008040/|Adler, Friedrich|http://url-of-my-awesome-site/pmb5929.html
-https://d-nb.info/gnd/118500856/|Aischylos|http://url-of-my-awesome-site/pmb3648.html
-https://d-nb.info/gnd/118869302/|Alarcón y Ariza, Pedro Antonio de|http://url-of-my-awesome-site/pmb5944.html
-https://d-nb.info/gnd/116009926/|Alberti, Conrad|http://url-of-my-awesome-site/pmb64772.html
-https://d-nb.info/gnd/116284315/|Albu, Eugen|http://url-of-my-awesome-site/pmb3180.html
-https://d-nb.info/gnd/11864808X/|Alfieri, Vittorio|http://url-of-my-awesome-site/pmb65008.html
-https://d-nb.info/gnd/118502255/|Altenberg, Peter|http://url-of-my-awesome-site/pmb2147.html
-https://d-nb.info/gnd/118502794/|Andersen, Hans Christian|http://url-of-my-awesome-site/pmb5981.html
-https://d-nb.info/gnd/116011653/|Andlaw, Franz von|http://url-of-my-awesome-site/pmb5988.html
-https://d-nb.info/gnd/118502921/|Andreas-Salomé, Lou|http://url-of-my-awesome-site/pmb10762.html
-https://d-nb.info/gnd/118637703/|Andreev, Leonid Nikolaevič|http://url-of-my-awesome-site/pmb28321.html
-https://d-nb.info/gnd/11850357X/|Anzengruber, Ludwig|http://url-of-my-awesome-site/pmb10772.html
-https://d-nb.info/gnd/116315903/|Apel, Paul|http://url-of-my-awesome-site/pmb10775.html
-https://d-nb.info/gnd/11850374X/|Apuleius|http://url-of-my-awesome-site/pmb13467.html
-https://d-nb.info/gnd/104086424/|Aram, Kurt|http://url-of-my-awesome-site/pmb3770.html
-https://d-nb.info/gnd/118503987/|Aristophanes|http://url-of-my-awesome-site/pmb13473.html
-https://d-nb.info/gnd/118504118/|Arndt, Ernst Moritz|http://url-of-my-awesome-site/pmb6027.html
-https://d-nb.info/gnd/119376377/|Assing, Ludmilla|http://url-of-my-awesome-site/pmb6045.html
-https://d-nb.info/gnd/117707503/|Aubourg de La Bove Miremont, Anne d'|http://url-of-my-awesome-site/pmb21505.html
-https://d-nb.info/gnd/11865103X/|Auerbach, Berthold|http://url-of-my-awesome-site/pmb6050.html
-https://d-nb.info/gnd/118505033/|Auernheimer, Raoul|http://url-of-my-awesome-site/pmb10788.html
-https://d-nb.info/gnd/119493020/|Augier, Émile|http://url-of-my-awesome-site/pmb2815.html
-https://d-nb.info/gnd/118505955/|Bahr, Hermann|http://url-of-my-awesome-site/pmb10815.html
-https://d-nb.info/gnd/118506358/|Balzac, Honoré de|http://url-of-my-awesome-site/pmb10825.html
-https://d-nb.info/gnd/118809709/|Bang, Herman|http://url-of-my-awesome-site/pmb10828.html
-https://d-nb.info/gnd/1025986598/|Baracs, Géza|http://url-of-my-awesome-site/pmb13718.html
-https://d-nb.info/gnd/11850651X/|Barbusse, Henri|http://url-of-my-awesome-site/pmb6109.html
-https://d-nb.info/gnd/118506684/|Barrès, Maurice|http://url-of-my-awesome-site/pmb3892.html
-https://d-nb.info/gnd/116068876/|Barthold, Friedrich Wilhelm|http://url-of-my-awesome-site/pmb6131.html
-https://d-nb.info/gnd/118652931/|Bartsch, Rudolf Hans|http://url-of-my-awesome-site/pmb10836.html
-https://d-nb.info/gnd/118653350/|Bashkirtseff, Marie|http://url-of-my-awesome-site/pmb13797.html
-https://d-nb.info/gnd/118507400/|Bauernfeld, Eduard von|http://url-of-my-awesome-site/pmb10854.html
-https://d-nb.info/gnd/118507443/|Baum, Oskar|http://url-of-my-awesome-site/pmb6164.html
-https://d-nb.info/gnd/118653857/|Baumbach, Rudolf|http://url-of-my-awesome-site/pmb6169.html
-https://d-nb.info/gnd/118507850/|Beaumarchais, Pierre Augustin Caron de|http://url-of-my-awesome-site/pmb10857.html
-https://d-nb.info/gnd/116106867/|Becque, Henri|http://url-of-my-awesome-site/pmb13897.html
-https://d-nb.info/gnd/118654756/|Beer-Hofmann, Richard|http://url-of-my-awesome-site/pmb10863.html
-https://d-nb.info/gnd/118658166/|Benedix, Julius Roderich|http://url-of-my-awesome-site/pmb13999.html
-https://d-nb.info/gnd/116125446/|Berend, Alice|http://url-of-my-awesome-site/pmb14041.html
-https://d-nb.info/gnd/11613156X/|Berger, Johan Henning|http://url-of-my-awesome-site/pmb14062.html
-https://d-nb.info/gnd/118509578/|Bergson, Henri|http://url-of-my-awesome-site/pmb6257.html
-https://d-nb.info/gnd/118509675/|Berlioz, Hector|http://url-of-my-awesome-site/pmb6263.html
-https://d-nb.info/gnd/116136545/|Bern, Maximilian|http://url-of-my-awesome-site/pmb6267.html
-https://d-nb.info/gnd/118911732/|Bernard, Tristan|http://url-of-my-awesome-site/pmb10893.html
-https://d-nb.info/gnd/118658468/|Bernhardi, Friedrich von|http://url-of-my-awesome-site/pmb14127.html
-https://d-nb.info/gnd/118902822/|Bernstein, Henri Léon|http://url-of-my-awesome-site/pmb3663.html
-https://d-nb.info/gnd/1020505656/|Berton, Pierre|http://url-of-my-awesome-site/pmb6284.html
-https://d-nb.info/gnd/116155795/|Bettelheim, Anton|http://url-of-my-awesome-site/pmb10912.html
-https://d-nb.info/gnd/1032978376/|Biberich, Gustav|http://url-of-my-awesome-site/pmb14191.html
-https://d-nb.info/gnd/127064419/|Billiter, Jean|http://url-of-my-awesome-site/pmb10931.html
-https://d-nb.info/gnd/118510916/|Billroth, Theodor|http://url-of-my-awesome-site/pmb10934.html
-https://d-nb.info/gnd/123638178/|Biró, Ludwig|http://url-of-my-awesome-site/pmb14239.html
-https://d-nb.info/gnd/118511459/|Bjørnson, Bjørnstjerne|http://url-of-my-awesome-site/pmb2400.html
-https://d-nb.info/gnd/118511653/|Blei, Franz|http://url-of-my-awesome-site/pmb10955.html
-https://d-nb.info/gnd/118663909/|Bleibtreu, Karl|http://url-of-my-awesome-site/pmb14281.html
-https://d-nb.info/gnd/118909177/|Bloem, Walter|http://url-of-my-awesome-site/pmb6333.html
-https://d-nb.info/gnd/117608866/|Bode, Wilhelm|http://url-of-my-awesome-site/pmb10969.html
-https://d-nb.info/gnd/118512293/|Bodenstedt, Friedrich von|http://url-of-my-awesome-site/pmb10973.html
-https://d-nb.info/gnd/119352524/|Bodisco, Theophile von|http://url-of-my-awesome-site/pmb6346.html
-https://d-nb.info/gnd/116226544/|Boetticher, Hermann von|http://url-of-my-awesome-site/pmb14362.html
-https://d-nb.info/gnd/116233672/|Bojer, Johan|http://url-of-my-awesome-site/pmb6360.html
-https://d-nb.info/gnd/118703706/|Borchardt, Georg Hermann|http://url-of-my-awesome-site/pmb14400.html
-https://d-nb.info/gnd/118659561/|Bourget, Paul|http://url-of-my-awesome-site/pmb4026.html
-https://d-nb.info/gnd/118514245/|Brahm, Otto|http://url-of-my-awesome-site/pmb10986.html
-https://d-nb.info/gnd/118514326/|Brandes, Georg|http://url-of-my-awesome-site/pmb10992.html
-https://d-nb.info/gnd/118673327/|Brantôme, Pierre Bourdeille de|http://url-of-my-awesome-site/pmb14487.html
-https://d-nb.info/gnd/11867353X/|Braun, Lily|http://url-of-my-awesome-site/pmb6406.html
-https://d-nb.info/gnd/119534673/|Brieux, Eugène|http://url-of-my-awesome-site/pmb4791.html
-https://d-nb.info/gnd/118515624/|Brod, Max|http://url-of-my-awesome-site/pmb6441.html
-https://d-nb.info/gnd/116815213/|Bruun, Laurids|http://url-of-my-awesome-site/pmb6477.html
-https://d-nb.info/gnd/118514210/|Bräker, Ulrich|http://url-of-my-awesome-site/pmb6479.html
-https://d-nb.info/gnd/118516574/|Bucharin, Nikolaj Ivanovič|http://url-of-my-awesome-site/pmb5564.html
-https://d-nb.info/gnd/119229218/|Buckle, Henry Thomas|http://url-of-my-awesome-site/pmb14666.html
-https://d-nb.info/gnd/117161144/|Burckhard, Max Eugen|http://url-of-my-awesome-site/pmb11036.html
-https://d-nb.info/gnd/11851752X/|Burckhardt, Jacob|http://url-of-my-awesome-site/pmb11040.html
-https://d-nb.info/gnd/1162600888/|Burger, Karl|http://url-of-my-awesome-site/pmb6510.html
-https://d-nb.info/gnd/118665421/|Busch, Moritz|http://url-of-my-awesome-site/pmb14720.html
-https://d-nb.info/gnd/118517880/|Busch, Wilhelm|http://url-of-my-awesome-site/pmb6531.html
-https://d-nb.info/gnd/117184047/|Busson, Paul|http://url-of-my-awesome-site/pmb6543.html
-https://d-nb.info/gnd/118518208/|Byron, George Gordon Noël Lord|http://url-of-my-awesome-site/pmb11057.html
-https://d-nb.info/gnd/116115270/|Bélot, Adolphe|http://url-of-my-awesome-site/pmb14752.html
-https://d-nb.info/gnd/118878484/|Böhlau, Helene|http://url-of-my-awesome-site/pmb14762.html
-https://d-nb.info/gnd/119094029/|Böhme, Margarete|http://url-of-my-awesome-site/pmb6553.html
-https://d-nb.info/gnd/118512749/|Börne, Ludwig|http://url-of-my-awesome-site/pmb14780.html
-https://d-nb.info/gnd/1042355053/|Cadol, Victor Édouard|http://url-of-my-awesome-site/pmb2560.html
-https://d-nb.info/gnd/118518275/|Caesar, Gaius Iulius|http://url-of-my-awesome-site/pmb14796.html
-https://d-nb.info/gnd/118518399/|Calderón de la Barca, Pedro|http://url-of-my-awesome-site/pmb11068.html
-https://d-nb.info/gnd/118519131/|Carlyle, Thomas|http://url-of-my-awesome-site/pmb11074.html
-https://d-nb.info/gnd/116471557/|Castell, Alexander|http://url-of-my-awesome-site/pmb14886.html
-https://d-nb.info/gnd/11851993X/|Cervantes Saavedra, Miguel de|http://url-of-my-awesome-site/pmb2980.html
-https://d-nb.info/gnd/118520040/|Chamisso, Adelbert von|http://url-of-my-awesome-site/pmb6609.html
-https://d-nb.info/gnd/118520393/|Chesterton, Gilbert Keith|http://url-of-my-awesome-site/pmb14936.html
-https://d-nb.info/gnd/118568604/|Choderlos de Laclos, Pierre|http://url-of-my-awesome-site/pmb20018.html
-https://d-nb.info/gnd/116507497/|Christ, Joseph Anton|http://url-of-my-awesome-site/pmb6641.html
-https://d-nb.info/gnd/119069830/|Claretie, Jules|http://url-of-my-awesome-site/pmb2500.html
-https://d-nb.info/gnd/118521039/|Claudel, Paul|http://url-of-my-awesome-site/pmb6660.html
-https://d-nb.info/gnd/118521527/|Colette, Sidonie-Gabrielle|http://url-of-my-awesome-site/pmb15054.html
-https://d-nb.info/gnd/118669915/|Conrad, Michael Georg|http://url-of-my-awesome-site/pmb11098.html
-https://d-nb.info/gnd/11665578X/|Conscience, Hendrik|http://url-of-my-awesome-site/pmb6691.html
-https://d-nb.info/gnd/118638475/|Constant, Benjamin|http://url-of-my-awesome-site/pmb15088.html
-https://d-nb.info/gnd/1057580554/|Coolus, Romain|http://url-of-my-awesome-site/pmb15094.html
-https://d-nb.info/gnd/116689234/|Costenoble, Carl Ludwig|http://url-of-my-awesome-site/pmb6707.html
-https://d-nb.info/gnd/118670263/|Courteline, Georges|http://url-of-my-awesome-site/pmb4865.html
-https://d-nb.info/gnd/118670700/|Curel, François de|http://url-of-my-awesome-site/pmb15170.html
-https://d-nb.info/gnd/118523392/|Dahn, Felix|http://url-of-my-awesome-site/pmb6751.html
-https://d-nb.info/gnd/118523708/|Dante Alighieri|http://url-of-my-awesome-site/pmb3326.html
-https://d-nb.info/gnd/118523872/|Daudet, Alphonse|http://url-of-my-awesome-site/pmb11134.html
-https://d-nb.info/gnd/118671103/|David, Jakob Julius|http://url-of-my-awesome-site/pmb2416.html
-https://d-nb.info/gnd/118679236/|Dehmel, Richard|http://url-of-my-awesome-site/pmb11148.html
-https://d-nb.info/gnd/118679279/|Dekker, Eduard Douwes|http://url-of-my-awesome-site/pmb15285.html
-https://d-nb.info/gnd/118525239/|Dickens, Charles|http://url-of-my-awesome-site/pmb11153.html
-https://d-nb.info/gnd/118525263/|Diderot, Denis|http://url-of-my-awesome-site/pmb11157.html
-https://d-nb.info/gnd/124644694/|Dietz, Johannes|http://url-of-my-awesome-site/pmb15385.html
-https://d-nb.info/gnd/116137312/|Dincklage, Emmy von|http://url-of-my-awesome-site/pmb15400.html
-https://d-nb.info/gnd/126105316/|Dominik, Heinrich|http://url-of-my-awesome-site/pmb3099.html
-https://d-nb.info/gnd/118527053/|Dostojevskij, Fjodor M.|http://url-of-my-awesome-site/pmb4006.html
-https://d-nb.info/gnd/116220759/|Dreyer, Max|http://url-of-my-awesome-site/pmb11175.html
-https://d-nb.info/gnd/11852805X/|Dumas, Alexandre fils|http://url-of-my-awesome-site/pmb15512.html
-https://d-nb.info/gnd/118528068/|Dumas, Alexandre père|http://url-of-my-awesome-site/pmb11190.html
-https://d-nb.info/gnd/132678993/|Duval, Georges|http://url-of-my-awesome-site/pmb6892.html
-https://d-nb.info/gnd/10233272X/|Duvernois, Henri|http://url-of-my-awesome-site/pmb6895.html
-https://d-nb.info/gnd/116263202/|Dymow, Ossip|http://url-of-my-awesome-site/pmb6902.html
-https://d-nb.info/gnd/116081392/|Déry, Juliane|http://url-of-my-awesome-site/pmb15323.html
-https://d-nb.info/gnd/119020874/|Dörmann, Felix|http://url-of-my-awesome-site/pmb2425.html
-https://d-nb.info/gnd/118503243/|D’Annunzio, Gabriele|http://url-of-my-awesome-site/pmb2142.html
-https://d-nb.info/gnd/118528661/|Ebner-Eschenbach, Marie von|http://url-of-my-awesome-site/pmb11216.html
-https://d-nb.info/gnd/119047314/|Echegaray, José|http://url-of-my-awesome-site/pmb15626.html
-https://d-nb.info/gnd/118687859/|Edschmid, Kasimir|http://url-of-my-awesome-site/pmb6927.html
-https://d-nb.info/gnd/118969846/|Eeden, Frederik Willem van|http://url-of-my-awesome-site/pmb15671.html
-https://d-nb.info/gnd/118529390/|Eichendorff, Joseph von|http://url-of-my-awesome-site/pmb11233.html
-https://d-nb.info/gnd/116418656/|Eidlitz, Walther|http://url-of-my-awesome-site/pmb15756.html
-https://d-nb.info/gnd/116478411/|Engel, Alexander|http://url-of-my-awesome-site/pmb11253.html
-https://d-nb.info/gnd/118530909/|Ernst, Paul|http://url-of-my-awesome-site/pmb11265.html
-https://d-nb.info/gnd/116568437/|Ertl, Emil|http://url-of-my-awesome-site/pmb11270.html
-https://d-nb.info/gnd/118682636/|Eulenberg, Herbert|http://url-of-my-awesome-site/pmb11273.html
-https://d-nb.info/gnd/118531395/|Euripides|http://url-of-my-awesome-site/pmb4107.html
-https://d-nb.info/gnd/118685759/|Faesi, Robert|http://url-of-my-awesome-site/pmb11289.html
-https://d-nb.info/gnd/118875558/|Farrère, Claude|http://url-of-my-awesome-site/pmb11297.html
-https://d-nb.info/gnd/116427000/|Federn, Karl|http://url-of-my-awesome-site/pmb11301.html
-https://d-nb.info/gnd/118510240X/|Felner, Peter Paul|http://url-of-my-awesome-site/pmb16164.html
-https://d-nb.info/gnd/118532790/|Feuillet, Octave|http://url-of-my-awesome-site/pmb11315.html
-https://d-nb.info/gnd/118533665/|Flake, Otto|http://url-of-my-awesome-site/pmb11327.html
-https://d-nb.info/gnd/118533754/|Flaubert, Gustave|http://url-of-my-awesome-site/pmb11330.html
-https://d-nb.info/gnd/118533843/|Fleg, Edmond|http://url-of-my-awesome-site/pmb7170.html
-https://d-nb.info/gnd/122348745/|Flers, Robert de|http://url-of-my-awesome-site/pmb11337.html
-https://d-nb.info/gnd/118534262/|Fontane, Theodor|http://url-of-my-awesome-site/pmb11342.html
-https://d-nb.info/gnd/118692445/|France, Anatole|http://url-of-my-awesome-site/pmb4279.html
-https://d-nb.info/gnd/12325860X/|Franck, Harry Alverson|http://url-of-my-awesome-site/pmb7200.html
-https://d-nb.info/gnd/118534793/|Frank, Leonhard|http://url-of-my-awesome-site/pmb7209.html
-https://d-nb.info/gnd/118702599/|Franzos, Karl Emil|http://url-of-my-awesome-site/pmb7218.html
-https://d-nb.info/gnd/118535269/|Frenssen, Gustav|http://url-of-my-awesome-site/pmb11367.html
-https://d-nb.info/gnd/119139812/|Frenzel, Karl|http://url-of-my-awesome-site/pmb7232.html
-https://d-nb.info/gnd/116782900/|Frey, Egon|http://url-of-my-awesome-site/pmb16568.html
-https://d-nb.info/gnd/118535455/|Freytag, Gustav|http://url-of-my-awesome-site/pmb11377.html
-https://d-nb.info/gnd/11679058X/|Frieberger, Kurt|http://url-of-my-awesome-site/pmb7247.html
-https://d-nb.info/gnd/119480700/|Friedjung, Heinrich|http://url-of-my-awesome-site/pmb11384.html
-https://d-nb.info/gnd/118693433/|Friedlaender, Ludwig|http://url-of-my-awesome-site/pmb16636.html
-https://d-nb.info/gnd/116802014/|Friedmann, Alfred|http://url-of-my-awesome-site/pmb7253.html
-https://d-nb.info/gnd/116819820/|Frisch, Efraim|http://url-of-my-awesome-site/pmb7269.html
-https://d-nb.info/gnd/115819673/|Frobenius, Herman|http://url-of-my-awesome-site/pmb16729.html
-https://d-nb.info/gnd/118703358/|Fromentin, Eugène|http://url-of-my-awesome-site/pmb7279.html
-https://d-nb.info/gnd/126333750/|Frondaie, Pierre|http://url-of-my-awesome-site/pmb16737.html
-https://d-nb.info/gnd/115656340/|G. Lenotre|http://url-of-my-awesome-site/pmb3176.html
-https://d-nb.info/gnd/127450076/|Gad, Urban|http://url-of-my-awesome-site/pmb7323.html
-https://d-nb.info/gnd/118904523/|Gasquet, Joachim|http://url-of-my-awesome-site/pmb7350.html
-https://d-nb.info/gnd/11853811X/|Geibel, Emanuel|http://url-of-my-awesome-site/pmb11413.html
-https://d-nb.info/gnd/115657061/|Geijerstam, Gustaf af|http://url-of-my-awesome-site/pmb7363.html
-https://d-nb.info/gnd/118538810/|Gerstäcker, Friedrich|http://url-of-my-awesome-site/pmb7386.html
-https://d-nb.info/gnd/118921703/|Giedion, Sigfried|http://url-of-my-awesome-site/pmb7405.html
-https://d-nb.info/gnd/118539353/|Gilm-Rosenegg, Hermann von|http://url-of-my-awesome-site/pmb17028.html
-https://d-nb.info/gnd/100796303/|Girardin, Delphine|http://url-of-my-awesome-site/pmb17053.html
-https://d-nb.info/gnd/118539523/|Giraudoux, Jean|http://url-of-my-awesome-site/pmb7417.html
-https://d-nb.info/gnd/118540238/|Goethe, Johann Wolfgang von|http://url-of-my-awesome-site/pmb11461.html
-https://d-nb.info/gnd/118540254/|Goethe, Ottilie von|http://url-of-my-awesome-site/pmb7455.html
-https://d-nb.info/gnd/118540416/|Gogh, Vincent van|http://url-of-my-awesome-site/pmb11464.html
-https://d-nb.info/gnd/118540424/|Gogol, Nikolai W.|http://url-of-my-awesome-site/pmb17144.html
-https://d-nb.info/gnd/116755105/|Goldmann, Paul|http://url-of-my-awesome-site/pmb11485.html
-https://d-nb.info/gnd/118540505/|Goldoni, Carlo|http://url-of-my-awesome-site/pmb5892.html
-https://d-nb.info/gnd/118696173/|Goldschmidt, Alfons|http://url-of-my-awesome-site/pmb7473.html
-https://d-nb.info/gnd/118540661/|Gomperz, Theodor|http://url-of-my-awesome-site/pmb11497.html
-https://d-nb.info/gnd/118540688/|Goncourt, Edmond Huot de|http://url-of-my-awesome-site/pmb11500.html
-https://d-nb.info/gnd/118540696/|Goncourt, Jules Huot de|http://url-of-my-awesome-site/pmb2925.html
-https://d-nb.info/gnd/118639293/|Gorkij, Maxim|http://url-of-my-awesome-site/pmb2323.html
-https://d-nb.info/gnd/126434204/|Gosewisch, Helen|http://url-of-my-awesome-site/pmb17256.html
-https://d-nb.info/gnd/118540963/|Gotthelf, Jeremias|http://url-of-my-awesome-site/pmb7491.html
-https://d-nb.info/gnd/118541102/|Grabbe, Christian Dietrich|http://url-of-my-awesome-site/pmb11508.html
-https://d-nb.info/gnd/107601672/|Greeven, Erich|http://url-of-my-awesome-site/pmb17348.html
-https://d-nb.info/gnd/118697455/|Gregor, Joseph|http://url-of-my-awesome-site/pmb7525.html
-https://d-nb.info/gnd/118542192/|Grillparzer, Franz|http://url-of-my-awesome-site/pmb11518.html
-https://d-nb.info/gnd/118542249/|Grimm, Hans|http://url-of-my-awesome-site/pmb7539.html
-https://d-nb.info/gnd/118697773/|Grimm, Hermann|http://url-of-my-awesome-site/pmb17404.html
-https://d-nb.info/gnd/118697927/|Groddeck, Georg|http://url-of-my-awesome-site/pmb7543.html
-https://d-nb.info/gnd/142373672/|Groller, Balduin|http://url-of-my-awesome-site/pmb7548.html
-https://d-nb.info/gnd/116868775/|Gross, Ferdinand|http://url-of-my-awesome-site/pmb11524.html
-https://d-nb.info/gnd/118542664/|Großmann, Stefan|http://url-of-my-awesome-site/pmb11527.html
-https://d-nb.info/gnd/116809795/|Gräffer, Franz|http://url-of-my-awesome-site/pmb7568.html
-https://d-nb.info/gnd/1046109928/|Gröger, Fanny|http://url-of-my-awesome-site/pmb17465.html
-https://d-nb.info/gnd/118699067/|Gugitz, Gustav|http://url-of-my-awesome-site/pmb11541.html
-https://d-nb.info/gnd/118543628/|Gundolf, Friedrich|http://url-of-my-awesome-site/pmb3824.html
-https://d-nb.info/gnd/116935928/|Guttmann, Richard|http://url-of-my-awesome-site/pmb7616.html
-https://d-nb.info/gnd/118543830/|Gutzkow, Karl|http://url-of-my-awesome-site/pmb11555.html
-https://d-nb.info/gnd/118699962/|Hackländer, Friedrich Wilhelm von|http://url-of-my-awesome-site/pmb7641.html
-https://d-nb.info/gnd/121220583/|Haek, David|http://url-of-my-awesome-site/pmb64820.html
-https://d-nb.info/gnd/118545043/|Halbe, Max|http://url-of-my-awesome-site/pmb11565.html
-https://d-nb.info/gnd/118919660/|Halévy, Ludovic|http://url-of-my-awesome-site/pmb4197.html
-https://d-nb.info/gnd/118701223/|Hamerling, Robert|http://url-of-my-awesome-site/pmb7674.html
-https://d-nb.info/gnd/118545515/|Hamsun, Knut|http://url-of-my-awesome-site/pmb11570.html
-https://d-nb.info/gnd/118545892/|Harden, Maximilian|http://url-of-my-awesome-site/pmb11581.html
-https://d-nb.info/gnd/11870155X/|Hardt, Ernst|http://url-of-my-awesome-site/pmb11585.html
-https://d-nb.info/gnd/116476400/|Harlan, Walter|http://url-of-my-awesome-site/pmb7697.html
-https://d-nb.info/gnd/118546198/|Hartleben, Otto Erich|http://url-of-my-awesome-site/pmb11605.html
-https://d-nb.info/gnd/118546937/|Hauptmann, Gerhart|http://url-of-my-awesome-site/pmb11617.html
-https://d-nb.info/gnd/118547445/|Hebbel, Friedrich|http://url-of-my-awesome-site/pmb2404.html
-https://d-nb.info/gnd/118547607/|Hedin, Sven|http://url-of-my-awesome-site/pmb7750.html
-https://d-nb.info/gnd/118773593/|Heer, Jakob Christoph|http://url-of-my-awesome-site/pmb7753.html
-https://d-nb.info/gnd/11877364X/|Heijermans, Herman|http://url-of-my-awesome-site/pmb7767.html
-https://d-nb.info/gnd/118773666/|Heimann, Moritz|http://url-of-my-awesome-site/pmb11632.html
-https://d-nb.info/gnd/118548018/|Heine, Heinrich|http://url-of-my-awesome-site/pmb11640.html
-https://d-nb.info/gnd/116678623/|Heitmüller, Franz Ferdinand|http://url-of-my-awesome-site/pmb18053.html
-https://d-nb.info/gnd/118835289/|Henckell, Karl Friedrich|http://url-of-my-awesome-site/pmb7784.html
-https://d-nb.info/gnd/119543281/|Henningsen, Agnes|http://url-of-my-awesome-site/pmb18119.html
-https://d-nb.info/gnd/121278859/|Hermant, Abel|http://url-of-my-awesome-site/pmb11657.html
-https://d-nb.info/gnd/118549855/|Herodot|http://url-of-my-awesome-site/pmb18163.html
-https://d-nb.info/gnd/119552930/|Hervieu, Paul Ernest|http://url-of-my-awesome-site/pmb18201.html
-https://d-nb.info/gnd/118550241/|Herzl, Theodor|http://url-of-my-awesome-site/pmb11673.html
-https://d-nb.info/gnd/119445980/|Herzog, Wilhelm|http://url-of-my-awesome-site/pmb11676.html
-https://d-nb.info/gnd/11855042X/|Hesse, Hermann|http://url-of-my-awesome-site/pmb11679.html
-https://d-nb.info/gnd/118881280/|Hessel, Franz|http://url-of-my-awesome-site/pmb7838.html
-https://d-nb.info/gnd/11678508X/|Hevesi, Ludwig|http://url-of-my-awesome-site/pmb11687.html
-https://d-nb.info/gnd/118550772/|Heyse, Paul|http://url-of-my-awesome-site/pmb11691.html
-https://d-nb.info/gnd/118774395/|Heywood, Thomas|http://url-of-my-awesome-site/pmb18254.html
-https://d-nb.info/gnd/101708122/|Hirschfeld, Georg|http://url-of-my-awesome-site/pmb11701.html
-https://d-nb.info/gnd/116914017/|Hirschfeld, Ludwig|http://url-of-my-awesome-site/pmb11704.html
-https://d-nb.info/gnd/118706195/|Hofmiller, Josef|http://url-of-my-awesome-site/pmb3861.html
-https://d-nb.info/gnd/118552961/|Holberg, Ludvig|http://url-of-my-awesome-site/pmb7897.html
-https://d-nb.info/gnd/118973096/|Holitscher, Arthur|http://url-of-my-awesome-site/pmb11749.html
-https://d-nb.info/gnd/116961805/|Hollaender, Felix|http://url-of-my-awesome-site/pmb11752.html
-https://d-nb.info/gnd/118862944/|Holm, Korfiz|http://url-of-my-awesome-site/pmb11760.html
-https://d-nb.info/gnd/118706640/|Holtei, Karl von|http://url-of-my-awesome-site/pmb7905.html
-https://d-nb.info/gnd/118553216/|Holz, Arno|http://url-of-my-awesome-site/pmb11763.html
-https://d-nb.info/gnd/11855333X/|Homer|http://url-of-my-awesome-site/pmb2495.html
-https://d-nb.info/gnd/116981385/|Hopfen, Hans von|http://url-of-my-awesome-site/pmb7908.html
-https://d-nb.info/gnd/118553569/|Horaz|http://url-of-my-awesome-site/pmb3516.html
-https://d-nb.info/gnd/117535354/|Houssaye, Henry|http://url-of-my-awesome-site/pmb18586.html
-https://d-nb.info/gnd/118554190/|Huch, Ricarda|http://url-of-my-awesome-site/pmb11780.html
-https://d-nb.info/gnd/118554654/|Hugo, Victor|http://url-of-my-awesome-site/pmb5359.html
-https://d-nb.info/gnd/118648071/|Häring, Wilhelm|http://url-of-my-awesome-site/pmb18646.html
-https://d-nb.info/gnd/118555286/|Ibsen, Henrik|http://url-of-my-awesome-site/pmb11798.html
-https://d-nb.info/gnd/118555324/|Iffland, August Wilhelm|http://url-of-my-awesome-site/pmb7966.html
-https://d-nb.info/gnd/118555553/|Immermann, Karl Leberecht|http://url-of-my-awesome-site/pmb7973.html
-https://d-nb.info/gnd/119540959/|Infessura, Stefano|http://url-of-my-awesome-site/pmb18688.html
-https://d-nb.info/gnd/119049163/|Istrati, Panaït|http://url-of-my-awesome-site/pmb5583.html
-https://d-nb.info/gnd/118711172/|Jacobsen, Jens Peter|http://url-of-my-awesome-site/pmb11809.html
-https://d-nb.info/gnd/118556444/|Jacques, Norbert|http://url-of-my-awesome-site/pmb7994.html
-https://d-nb.info/gnd/118556673/|Jahnn, Hans Henny|http://url-of-my-awesome-site/pmb8001.html
-https://d-nb.info/gnd/118557211/|Jean Paul|http://url-of-my-awesome-site/pmb4332.html
-https://d-nb.info/gnd/118776126/|Jensen, Johannes Vilhelm|http://url-of-my-awesome-site/pmb11820.html
-https://d-nb.info/gnd/117115517/|Jerome, Jerome Klapka|http://url-of-my-awesome-site/pmb2697.html
-https://d-nb.info/gnd/118558501/|Joyce, James|http://url-of-my-awesome-site/pmb8049.html
-https://d-nb.info/gnd/118985418/|Jókai, Maurus|http://url-of-my-awesome-site/pmb18956.html
-https://d-nb.info/gnd/118559427/|Kaiser, Georg|http://url-of-my-awesome-site/pmb8085.html
-https://d-nb.info/gnd/116036133/|Kamnitzer, Ernst|http://url-of-my-awesome-site/pmb11863.html
-https://d-nb.info/gnd/117302996/|Karlweis, Carl|http://url-of-my-awesome-site/pmb13082.html
-https://d-nb.info/gnd/116060433/|Karpeles, Gustav|http://url-of-my-awesome-site/pmb8115.html
-https://d-nb.info/gnd/11856109X/|Keller, Gottfried|http://url-of-my-awesome-site/pmb8165.html
-https://d-nb.info/gnd/116119586/|Keller, Otto|http://url-of-my-awesome-site/pmb8168.html
-https://d-nb.info/gnd/118995359/|Keller, Paul|http://url-of-my-awesome-site/pmb8171.html
-https://d-nb.info/gnd/118561162/|Kellermann, Bernhard|http://url-of-my-awesome-site/pmb11900.html
-https://d-nb.info/gnd/126185808/|Kerausch, Josef|http://url-of-my-awesome-site/pmb8175.html
-https://d-nb.info/gnd/11856157X/|Kerr, Alfred|http://url-of-my-awesome-site/pmb11910.html
-https://d-nb.info/gnd/116142618/|Kerst, Friedrich|http://url-of-my-awesome-site/pmb8188.html
-https://d-nb.info/gnd/116017899/|Kesser, Hermann|http://url-of-my-awesome-site/pmb11913.html
-https://d-nb.info/gnd/11893449X/|Key, Ellen|http://url-of-my-awesome-site/pmb11919.html
-https://d-nb.info/gnd/118561812/|Keyserling, Eduard von|http://url-of-my-awesome-site/pmb3797.html
-https://d-nb.info/gnd/116024283/|Keßler, Helene|http://url-of-my-awesome-site/pmb19296.html
-https://d-nb.info/gnd/11864159X/|Khevenhüller-Metsch, Johann Joseph von|http://url-of-my-awesome-site/pmb19300.html
-https://d-nb.info/gnd/118561960/|Kielland, Alexander Lange|http://url-of-my-awesome-site/pmb19308.html
-https://d-nb.info/gnd/118562002/|Kierkegaard, Søren Aabye|http://url-of-my-awesome-site/pmb19317.html
-https://d-nb.info/gnd/118562290/|Kipling, Rudyard|http://url-of-my-awesome-site/pmb8204.html
-https://d-nb.info/gnd/1055478957/|Kistemaekers, Henry|http://url-of-my-awesome-site/pmb19365.html
-https://d-nb.info/gnd/118563076/|Kleist, Heinrich von|http://url-of-my-awesome-site/pmb11933.html
-https://d-nb.info/gnd/116230142/|Klinger, Friedrich Maximilian von|http://url-of-my-awesome-site/pmb19441.html
-https://d-nb.info/gnd/118563343/|Klöden, Karl Friedrich von|http://url-of-my-awesome-site/pmb19448.html
-https://d-nb.info/gnd/116273143/|Koch, Max|http://url-of-my-awesome-site/pmb11952.html
-https://d-nb.info/gnd/118564064/|Koch, Robert|http://url-of-my-awesome-site/pmb8266.html
-https://d-nb.info/gnd/118713698/|Kolb, Annette|http://url-of-my-awesome-site/pmb4351.html
-https://d-nb.info/gnd/1047032988/|Kolloden, M.|http://url-of-my-awesome-site/pmb19536.html
-https://d-nb.info/gnd/118565494/|Kornfeld, Paul|http://url-of-my-awesome-site/pmb38617.html
-https://d-nb.info/gnd/118565796/|Kotzebue, August von|http://url-of-my-awesome-site/pmb8316.html
-https://d-nb.info/gnd/116518960/|Krell, Max|http://url-of-my-awesome-site/pmb11995.html
-https://d-nb.info/gnd/1057767182/|Kroepelin, Herman|http://url-of-my-awesome-site/pmb8351.html
-https://d-nb.info/gnd/118943774/|Kuh, Emil|http://url-of-my-awesome-site/pmb8366.html
-https://d-nb.info/gnd/118778242/|Kuprin, Alexander I.|http://url-of-my-awesome-site/pmb19872.html
-https://d-nb.info/gnd/118778277/|Kurz, Hermann|http://url-of-my-awesome-site/pmb8378.html
-https://d-nb.info/gnd/118723073/|Kussmaul, Adolf|http://url-of-my-awesome-site/pmb12007.html
-https://d-nb.info/gnd/116634472/|Kyser, Hans|http://url-of-my-awesome-site/pmb8386.html
-https://d-nb.info/gnd/116297271/|Körner, Josef|http://url-of-my-awesome-site/pmb8396.html
-https://d-nb.info/gnd/116588659/|Kühn, Paul|http://url-of-my-awesome-site/pmb8410.html
-https://d-nb.info/gnd/118567764/|Kürnberger, Ferdinand|http://url-of-my-awesome-site/pmb19980.html
-https://d-nb.info/gnd/118726005/|Lagerlöf, Selma|http://url-of-my-awesome-site/pmb8422.html
-https://d-nb.info/gnd/118726056/|Lamartine, Alphonse de|http://url-of-my-awesome-site/pmb8436.html
-https://d-nb.info/gnd/118569074/|Landauer, Gustav|http://url-of-my-awesome-site/pmb12031.html
-https://d-nb.info/gnd/11872911X/|Landesmann, Heinrich|http://url-of-my-awesome-site/pmb20063.html
-https://d-nb.info/gnd/118569910/|Lassalle, Ferdinand|http://url-of-my-awesome-site/pmb3471.html
-https://d-nb.info/gnd/118570080/|Laube, Heinrich|http://url-of-my-awesome-site/pmb2702.html
-https://d-nb.info/gnd/126703019/|Lavedan, Henri Léon|http://url-of-my-awesome-site/pmb2488.html
-https://d-nb.info/gnd/118570366/|Lawrence, Thomas Edward|http://url-of-my-awesome-site/pmb20184.html
-https://d-nb.info/gnd/119429500/|Leisching, Julius|http://url-of-my-awesome-site/pmb8559.html
-https://d-nb.info/gnd/118571656/|Lenz, Jakob Michael Reinhold|http://url-of-my-awesome-site/pmb20301.html
-https://d-nb.info/gnd/118572032/|Lesage, Alain René|http://url-of-my-awesome-site/pmb20342.html
-https://d-nb.info/gnd/118572121/|Lessing, Gotthold Ephraim|http://url-of-my-awesome-site/pmb12053.html
-https://d-nb.info/gnd/116979941/|Leyst, Charles|http://url-of-my-awesome-site/pmb20381.html
-https://d-nb.info/gnd/118572628/|Lichtenberg, Georg Christoph|http://url-of-my-awesome-site/pmb12064.html
-https://d-nb.info/gnd/118779907/|Lie, Jonas|http://url-of-my-awesome-site/pmb5883.html
-https://d-nb.info/gnd/11877994X/|Lienhard, Friedrich|http://url-of-my-awesome-site/pmb8632.html
-https://d-nb.info/gnd/118572903/|Ligne, Charles Joseph von|http://url-of-my-awesome-site/pmb8642.html
-https://d-nb.info/gnd/118572954/|Liliencron, Detlev von|http://url-of-my-awesome-site/pmb12071.html
-https://d-nb.info/gnd/118780034/|Lindau, Paul|http://url-of-my-awesome-site/pmb12078.html
-https://d-nb.info/gnd/117014613/|Lindau, Rudolf|http://url-of-my-awesome-site/pmb8657.html
-https://d-nb.info/gnd/118574183/|London, Jack|http://url-of-my-awesome-site/pmb8699.html
-https://d-nb.info/gnd/118936034/|Loos, Anita|http://url-of-my-awesome-site/pmb20591.html
-https://d-nb.info/gnd/118574523/|Lothar, Ernst|http://url-of-my-awesome-site/pmb21710.html
-https://d-nb.info/gnd/119545063/|Lothar, Rudolf|http://url-of-my-awesome-site/pmb2570.html
-https://d-nb.info/gnd/118780522/|Loti, Pierre|http://url-of-my-awesome-site/pmb12114.html
-https://d-nb.info/gnd/118780557/|Louÿs, Pierre Louis|http://url-of-my-awesome-site/pmb8719.html
-https://d-nb.info/gnd/117261521/|Lucka, Emil|http://url-of-my-awesome-site/pmb8729.html
-https://d-nb.info/gnd/118780778/|Ludwig, Emil|http://url-of-my-awesome-site/pmb12126.html
-https://d-nb.info/gnd/118574973/|Ludwig, Otto|http://url-of-my-awesome-site/pmb12129.html
-https://d-nb.info/gnd/118575228/|Lukian von Samosata|http://url-of-my-awesome-site/pmb20643.html
-https://d-nb.info/gnd/118575767/|Mach, Ernst|http://url-of-my-awesome-site/pmb12147.html
-https://d-nb.info/gnd/118575856/|Mackay, John Henry|http://url-of-my-awesome-site/pmb12152.html
-https://d-nb.info/gnd/118919431/|Madelung, Aage|http://url-of-my-awesome-site/pmb4354.html
-https://d-nb.info/gnd/118576089/|Maeterlinck, Maurice|http://url-of-my-awesome-site/pmb12156.html
-https://d-nb.info/gnd/116724919/|Mamroth, Fedor|http://url-of-my-awesome-site/pmb4986.html
-https://d-nb.info/gnd/118577131/|Mann, Heinrich|http://url-of-my-awesome-site/pmb12170.html
-https://d-nb.info/gnd/118577166/|Mann, Thomas|http://url-of-my-awesome-site/pmb12176.html
-https://d-nb.info/gnd/119159686/|Marbot, Marcellin|http://url-of-my-awesome-site/pmb3445.html
-https://d-nb.info/gnd/118992996/|Marholm, Laura|http://url-of-my-awesome-site/pmb12183.html
-https://d-nb.info/gnd/118577972/|Marivaux, Pierre Carlet de|http://url-of-my-awesome-site/pmb12187.html
-https://d-nb.info/gnd/118624822/|Mark Twain|http://url-of-my-awesome-site/pmb26252.html
-https://d-nb.info/gnd/173258670/|Marni, Jeanne|http://url-of-my-awesome-site/pmb5459.html
-https://d-nb.info/gnd/118578103/|Marriot, Emil|http://url-of-my-awesome-site/pmb4223.html
-https://d-nb.info/gnd/116800992/|Martens, Kurt|http://url-of-my-awesome-site/pmb8833.html
-https://d-nb.info/gnd/118579207/|Maupassant, Guy de|http://url-of-my-awesome-site/pmb12201.html
-https://d-nb.info/gnd/118579304/|Mauthner, Fritz|http://url-of-my-awesome-site/pmb3386.html
-https://d-nb.info/gnd/119017660/|Meisel-Hess, Grete|http://url-of-my-awesome-site/pmb8892.html
-https://d-nb.info/gnd/118580566/|Mell, Max|http://url-of-my-awesome-site/pmb12225.html
-https://d-nb.info/gnd/118580604/|Melville, Herman|http://url-of-my-awesome-site/pmb8897.html
-https://d-nb.info/gnd/118783203/|Mendès, Catulle|http://url-of-my-awesome-site/pmb21317.html
-https://d-nb.info/gnd/118581058/|Meredith, George|http://url-of-my-awesome-site/pmb21338.html
-https://d-nb.info/gnd/116914130/|Messer, Max|http://url-of-my-awesome-site/pmb2885.html
-https://d-nb.info/gnd/118581775/|Meyer, Conrad Ferdinand|http://url-of-my-awesome-site/pmb12234.html
-https://d-nb.info/gnd/118582046/|Meyrink, Gustav|http://url-of-my-awesome-site/pmb12248.html
-https://d-nb.info/gnd/11539396X/|Michaëlis, Karin|http://url-of-my-awesome-site/pmb4408.html
-https://d-nb.info/gnd/130116653/|Michaëlis, Sophus|http://url-of-my-awesome-site/pmb12251.html
-https://d-nb.info/gnd/118893297/|Michel, Robert|http://url-of-my-awesome-site/pmb12254.html
-https://d-nb.info/gnd/118582682/|Mirabeau, Honoré Gabriel de|http://url-of-my-awesome-site/pmb21497.html
-https://d-nb.info/gnd/119283158/|Mirabeau, Sibylle de|http://url-of-my-awesome-site/pmb21501.html
-https://d-nb.info/gnd/118784226/|Mirbeau, Octave|http://url-of-my-awesome-site/pmb8948.html
-https://d-nb.info/gnd/11858331X/|Molière, Jean-Baptiste|http://url-of-my-awesome-site/pmb3272.html
-https://d-nb.info/gnd/118734598/|Molnár, Ferenc|http://url-of-my-awesome-site/pmb21558.html
-https://d-nb.info/gnd/101363184/|Mosenthal, Salomon Hermann von|http://url-of-my-awesome-site/pmb12293.html
-https://d-nb.info/gnd/118785400/|Murger, Henri|http://url-of-my-awesome-site/pmb8987.html
-https://d-nb.info/gnd/118585916/|Musil, Robert|http://url-of-my-awesome-site/pmb8994.html
-https://d-nb.info/gnd/118585940/|Musset, Alfred de|http://url-of-my-awesome-site/pmb12311.html
-https://d-nb.info/gnd/1050011619/|Myller, Otto|http://url-of-my-awesome-site/pmb21686.html
-https://d-nb.info/gnd/1027523315/|Méténier, Oscar|http://url-of-my-awesome-site/pmb5125.html
-https://d-nb.info/gnd/118583107/|Mörike, Eduard|http://url-of-my-awesome-site/pmb12323.html
-https://d-nb.info/gnd/119054329/|Müller, Hans|http://url-of-my-awesome-site/pmb12327.html
-https://d-nb.info/gnd/1050480937/about/|Müller, Hugo|http://url-of-my-awesome-site/pmb21720.html
-https://d-nb.info/gnd/118585193/|Müller, Robert|http://url-of-my-awesome-site/pmb21736.html
-https://d-nb.info/gnd/117179183/|Münzer, Kurt|http://url-of-my-awesome-site/pmb21761.html
-https://d-nb.info/gnd/118586092/|Nabl, Franz|http://url-of-my-awesome-site/pmb9011.html
-https://d-nb.info/gnd/116882670/|Nansen, Peter|http://url-of-my-awesome-site/pmb2357.html
-https://d-nb.info/gnd/118738178/|Naumann, Friedrich|http://url-of-my-awesome-site/pmb9023.html
-https://d-nb.info/gnd/118587080/|Nestroy, Johann Nepomuk|http://url-of-my-awesome-site/pmb12338.html
-https://d-nb.info/gnd/118587676/|Nicolai, Georg Friedrich|http://url-of-my-awesome-site/pmb5220.html
-https://d-nb.info/gnd/117001783/|Niemann, August|http://url-of-my-awesome-site/pmb64866.html
-https://d-nb.info/gnd/118587943/|Nietzsche, Friedrich|http://url-of-my-awesome-site/pmb12358.html
-https://d-nb.info/gnd/118588583/|Nordau, Max|http://url-of-my-awesome-site/pmb12365.html
-https://d-nb.info/gnd/117069515/|Nowak, Karl Friedrich|http://url-of-my-awesome-site/pmb2790.html
-https://d-nb.info/gnd/100813283/|Ompteda, Georg von|http://url-of-my-awesome-site/pmb9146.html
-https://d-nb.info/gnd/118738844/|Otway, Thomas|http://url-of-my-awesome-site/pmb22269.html
-https://d-nb.info/gnd/118590995/|Ovidius Naso, Publius|http://url-of-my-awesome-site/pmb4079.html
-https://d-nb.info/gnd/1089162820/|Panin, Victor|http://url-of-my-awesome-site/pmb22333.html
-https://d-nb.info/gnd/116094028/|Peschkau, Emil|http://url-of-my-awesome-site/pmb4398.html
-https://d-nb.info/gnd/118593226/|Petőfi, Sándor|http://url-of-my-awesome-site/pmb22480.html
-https://d-nb.info/gnd/118791907/|Philippe, Charles-Louis|http://url-of-my-awesome-site/pmb5604.html
-https://d-nb.info/gnd/118594869/|Platen, August von|http://url-of-my-awesome-site/pmb12424.html
-https://d-nb.info/gnd/118594893/|Platon|http://url-of-my-awesome-site/pmb4336.html
-https://d-nb.info/gnd/118595237/|Plutarch|http://url-of-my-awesome-site/pmb22648.html
-https://d-nb.info/gnd/119338424/|Plüschow, Gunther|http://url-of-my-awesome-site/pmb9301.html
-https://d-nb.info/gnd/11859527X/|Poe, Edgar Allan|http://url-of-my-awesome-site/pmb12428.html
-https://d-nb.info/gnd/118595822/|Popper-Lynkeus, Josef|http://url-of-my-awesome-site/pmb2135.html
-https://d-nb.info/gnd/118792946/|Porto-Riche, Georges de|http://url-of-my-awesome-site/pmb22824.html
-https://d-nb.info/gnd/118793284/|Presber, Rudolf|http://url-of-my-awesome-site/pmb9364.html
-https://d-nb.info/gnd/118793292/|Prescott, William|http://url-of-my-awesome-site/pmb9367.html
-https://d-nb.info/gnd/115738238X/|Provins, Michel|http://url-of-my-awesome-site/pmb22901.html
-https://d-nb.info/gnd/118742108/|Przybyszewski, Stanisław|http://url-of-my-awesome-site/pmb2891.html
-https://d-nb.info/gnd/118596462/|Prévost, Antoine-François|http://url-of-my-awesome-site/pmb4112.html
-https://d-nb.info/gnd/118597442/|Raabe, Wilhelm|http://url-of-my-awesome-site/pmb9403.html
-https://d-nb.info/gnd/118787640/|Radiguet, Raymond|http://url-of-my-awesome-site/pmb22991.html
-https://d-nb.info/gnd/118597914/|Raimund, Ferdinand|http://url-of-my-awesome-site/pmb12468.html
-https://d-nb.info/gnd/116327979/|Ramshorn, Carl|http://url-of-my-awesome-site/pmb23036.html
-https://d-nb.info/gnd/115717641/|Regnier-Destourbet, Hippolyte François|http://url-of-my-awesome-site/pmb23149.html
-https://d-nb.info/gnd/117084123/about/|Januszkiewicz, Hans von|http://url-of-my-awesome-site/pmb64877.html
-https://d-nb.info/gnd/127829210/|Reinmann, Ernst|http://url-of-my-awesome-site/pmb23230.html
-https://d-nb.info/gnd/118744496/|Renan, Ernest|http://url-of-my-awesome-site/pmb9484.html
-https://d-nb.info/gnd/118788345/|Renard, Jules|http://url-of-my-awesome-site/pmb4460.html
-https://d-nb.info/gnd/118599887/|Retz, Jean François Paul de|http://url-of-my-awesome-site/pmb9500.html
-https://d-nb.info/gnd/118744712/|Reuter, Gabriele|http://url-of-my-awesome-site/pmb12514.html
-https://d-nb.info/gnd/116499745/|Rheinhardt, Emil Alphons|http://url-of-my-awesome-site/pmb12518.html
-https://d-nb.info/gnd/118601024/|Rilke, Rainer Maria|http://url-of-my-awesome-site/pmb9531.html
-https://d-nb.info/gnd/118745492/|Rittner, Thaddäus|http://url-of-my-awesome-site/pmb23452.html
-https://d-nb.info/gnd/11874562X/|Roda Roda, Alexander|http://url-of-my-awesome-site/pmb9546.html
-https://d-nb.info/gnd/118602330/|Rolland, Romain|http://url-of-my-awesome-site/pmb12543.html
-https://d-nb.info/gnd/11860239X/|Romains, Jules|http://url-of-my-awesome-site/pmb9562.html
-https://d-nb.info/gnd/118602667/|Rosegger, Peter|http://url-of-my-awesome-site/pmb12551.html
-https://d-nb.info/gnd/10732220X/|Rosen, Erwin|http://url-of-my-awesome-site/pmb9574.html
-https://d-nb.info/gnd/116621672/|Rosenbaum, Kory Elisabeth|http://url-of-my-awesome-site/pmb23560.html
-https://d-nb.info/gnd/118602721/|Rosenkranz, Karl|http://url-of-my-awesome-site/pmb9577.html
-https://d-nb.info/gnd/102215065/|Rothschild, Henri de|http://url-of-my-awesome-site/pmb9596.html
-https://d-nb.info/gnd/118603426/|Rousseau, Jean-Jacques|http://url-of-my-awesome-site/pmb12582.html
-https://d-nb.info/gnd/11859902X/|Régnier, Henri de|http://url-of-my-awesome-site/pmb12591.html
-https://d-nb.info/gnd/11864193X/|Rétif de la Bretonne, Nicolas|http://url-of-my-awesome-site/pmb3978.html
-https://d-nb.info/gnd/116595663/|Rössler, Carl|http://url-of-my-awesome-site/pmb4858.html
-https://d-nb.info/gnd/118604449/|Saar, Ferdinand von|http://url-of-my-awesome-site/pmb12602.html
-https://d-nb.info/gnd/118605348/|Sand, George|http://url-of-my-awesome-site/pmb9643.html
-https://d-nb.info/gnd/118794566/|Sardou, Victorien|http://url-of-my-awesome-site/pmb12624.html
-https://d-nb.info/gnd/117103292/|Schamann, Franz|http://url-of-my-awesome-site/pmb24052.html
-https://d-nb.info/gnd/1055095764/|Scheffer, Robert|http://url-of-my-awesome-site/pmb24079.html
-https://d-nb.info/gnd/117211354/|Schendell, Werner|http://url-of-my-awesome-site/pmb24085.html
-https://d-nb.info/gnd/118794957/|Scherr, Johannes|http://url-of-my-awesome-site/pmb9684.html
-https://d-nb.info/gnd/11860743X/|Schickele, René|http://url-of-my-awesome-site/pmb12640.html
-https://d-nb.info/gnd/118607626/|Schiller, Friedrich von|http://url-of-my-awesome-site/pmb12654.html
-https://d-nb.info/gnd/117538884/|Schmidt, Lothar|http://url-of-my-awesome-site/pmb12681.html
-https://d-nb.info/gnd/118609475/|Schnabel, Johann Gottfried|http://url-of-my-awesome-site/pmb24353.html
-https://d-nb.info/gnd/116848162/|Schnitzer, Manuel|http://url-of-my-awesome-site/pmb24407.html
-https://d-nb.info/gnd/118610465/|Schopenhauer, Arthur|http://url-of-my-awesome-site/pmb5787.html
-https://d-nb.info/gnd/117060828/|Schreyer, Hans|http://url-of-my-awesome-site/pmb24511.html
-https://d-nb.info/gnd/119368579/|Schreyvogel, Josef|http://url-of-my-awesome-site/pmb24515.html
-https://d-nb.info/gnd/117116955/|Schubin, Ossip|http://url-of-my-awesome-site/pmb3853.html
-https://d-nb.info/gnd/117185442/|Schultz, Alwin|http://url-of-my-awesome-site/pmb24556.html
-https://d-nb.info/gnd/118611666/|Schumann, Robert|http://url-of-my-awesome-site/pmb12733.html
-https://d-nb.info/gnd/117303658/|Schumann, Wolfgang|http://url-of-my-awesome-site/pmb9786.html
-https://d-nb.info/gnd/118758926/|Schönherr, Karl|http://url-of-my-awesome-site/pmb12749.html
-https://d-nb.info/gnd/118612425/|Scribe, Eugène|http://url-of-my-awesome-site/pmb12756.html
-https://d-nb.info/gnd/118796208/|Serao, Matilde|http://url-of-my-awesome-site/pmb24844.html
-https://d-nb.info/gnd/118613723/|Shakespeare, William|http://url-of-my-awesome-site/pmb2412.html
-https://d-nb.info/gnd/118642375/|Shaw, George Bernard|http://url-of-my-awesome-site/pmb2381.html
-https://d-nb.info/gnd/11736438X/|Siegfried, Walther|http://url-of-my-awesome-site/pmb24898.html
-https://d-nb.info/gnd/117429333/|Smekal, Richard|http://url-of-my-awesome-site/pmb4012.html
-https://d-nb.info/gnd/118615688/|Sophokles|http://url-of-my-awesome-site/pmb2693.html
-https://d-nb.info/gnd/118616110/|Spengler, Oswald|http://url-of-my-awesome-site/pmb12819.html
-https://d-nb.info/gnd/107504774/|Spiegel-Peckelsheim, Edgar von|http://url-of-my-awesome-site/pmb9954.html
-https://d-nb.info/gnd/118616196/|Spielhagen, Friedrich|http://url-of-my-awesome-site/pmb9958.html
-https://d-nb.info/gnd/118616277/|Spitteler, Carl|http://url-of-my-awesome-site/pmb9964.html
-https://d-nb.info/gnd/118617133/|Stehr, Hermann|http://url-of-my-awesome-site/pmb9999.html
-https://d-nb.info/gnd/104278064/|Stein, Leo|http://url-of-my-awesome-site/pmb25372.html
-https://d-nb.info/gnd/118617648/|Stendhal|http://url-of-my-awesome-site/pmb28820.html
-https://d-nb.info/gnd/117234931/|Sterneder, Hans|http://url-of-my-awesome-site/pmb10035.html
-https://d-nb.info/gnd/118617958/|Sternheim, Carl|http://url-of-my-awesome-site/pmb12848.html
-https://d-nb.info/gnd/118618156/|Stifter, Adalbert|http://url-of-my-awesome-site/pmb12851.html
-https://d-nb.info/gnd/17238785X/|Stona, Maria|http://url-of-my-awesome-site/pmb24452.html
-https://d-nb.info/gnd/118618725/|Storm, Theodor|http://url-of-my-awesome-site/pmb10061.html
-https://d-nb.info/gnd/117309087/|Stratz, Rudolph|http://url-of-my-awesome-site/pmb25589.html
-https://d-nb.info/gnd/118619055/|Strauss, David Friedrich|http://url-of-my-awesome-site/pmb10087.html
-https://d-nb.info/gnd/118755846/|Strauss, Emil|http://url-of-my-awesome-site/pmb12864.html
-https://d-nb.info/gnd/118619314/|Strindberg, August|http://url-of-my-awesome-site/pmb12877.html
-https://d-nb.info/gnd/11861956X/|Stucken, Eduard|http://url-of-my-awesome-site/pmb12886.html
-https://d-nb.info/gnd/118619853/|Sudermann, Hermann|http://url-of-my-awesome-site/pmb12899.html
-https://d-nb.info/gnd/118619861/|Sue, Eugène|http://url-of-my-awesome-site/pmb10134.html
-https://d-nb.info/gnd/118619918/|Sueton|http://url-of-my-awesome-site/pmb25732.html
-https://d-nb.info/gnd/118620126/|Suttner, Bertha von|http://url-of-my-awesome-site/pmb12906.html
-https://d-nb.info/gnd/118620193/|Swift, Jonathan|http://url-of-my-awesome-site/pmb10161.html
-https://d-nb.info/gnd/118620452/|Tacitus, Publius Cornelius|http://url-of-my-awesome-site/pmb38345.html
-https://d-nb.info/gnd/1058761048/|Tagger, Theodor|http://url-of-my-awesome-site/pmb10172.html
-https://d-nb.info/gnd/11862055X/|Taine, Hippolyte|http://url-of-my-awesome-site/pmb12913.html
-https://d-nb.info/gnd/119549530/|Techet, Carl Franz|http://url-of-my-awesome-site/pmb25896.html
-https://d-nb.info/gnd/117254924/|Telmann, Fritz|http://url-of-my-awesome-site/pmb12926.html
-https://d-nb.info/gnd/120941988/|Terramare, Georg|http://url-of-my-awesome-site/pmb4035.html
-https://d-nb.info/gnd/117296023/|Teweles, Heinrich|http://url-of-my-awesome-site/pmb12932.html
-https://d-nb.info/gnd/118621483/|Thackeray, William Makepeace|http://url-of-my-awesome-site/pmb25962.html
-https://d-nb.info/gnd/1042002495/|Thies, Heinz|http://url-of-my-awesome-site/pmb26000.html
-https://d-nb.info/gnd/118622072/|Thoma, Ludwig|http://url-of-my-awesome-site/pmb10210.html
-https://d-nb.info/gnd/119297191/|Thürheim, Ludovica von|http://url-of-my-awesome-site/pmb26054.html
-https://d-nb.info/gnd/118802259/|Tillier, Claude|http://url-of-my-awesome-site/pmb2717.html
-https://d-nb.info/gnd/124109918/|Tinayre, Marcelle|http://url-of-my-awesome-site/pmb26069.html
-https://d-nb.info/gnd/11864291X/|Tolstoi, Leo N. von|http://url-of-my-awesome-site/pmb3739.html
-https://d-nb.info/gnd/127610944/|Torresani-Lanzenfeld, Carl von|http://url-of-my-awesome-site/pmb26121.html
-https://d-nb.info/gnd/117421243/|Tovote, Heinz|http://url-of-my-awesome-site/pmb12965.html
-https://d-nb.info/gnd/118643010/|Turgenev, Ivan Sergeevič|http://url-of-my-awesome-site/pmb26238.html
-https://d-nb.info/gnd/118625527/|Unruh, Fritz von|http://url-of-my-awesome-site/pmb12993.html
-https://d-nb.info/gnd/117345679/|Vandérem, Fernand|http://url-of-my-awesome-site/pmb26399.html
-https://d-nb.info/gnd/107627884/|Vautel, Clément|http://url-of-my-awesome-site/pmb26419.html
-https://d-nb.info/gnd/119074923/|Vaërting, Maria Johanna|http://url-of-my-awesome-site/pmb26420.html
-https://d-nb.info/gnd/121502244/|Veber, Pierre|http://url-of-my-awesome-site/pmb26421.html
-https://d-nb.info/gnd/118626353/|Vega Carpio, Lope Felix de|http://url-of-my-awesome-site/pmb10332.html
-https://d-nb.info/gnd/117371173/|Vereščagin, Vasilij Vasil’evič|http://url-of-my-awesome-site/pmb26950.html
-https://d-nb.info/gnd/118626574/|Vergil, Publius|http://url-of-my-awesome-site/pmb5849.html
-https://d-nb.info/gnd/118626620/|Verne, Jules|http://url-of-my-awesome-site/pmb10344.html
-https://d-nb.info/gnd/118804448/|Viebig, Clara|http://url-of-my-awesome-site/pmb10360.html
-https://d-nb.info/gnd/118768441/|Vigny, Alfred-Victor de|http://url-of-my-awesome-site/pmb26468.html
-https://d-nb.info/gnd/119240386/|Vildrac, Charles|http://url-of-my-awesome-site/pmb10367.html
-https://d-nb.info/gnd/118627813/|Voltaire, François-Marie|http://url-of-my-awesome-site/pmb3124.html
-https://d-nb.info/gnd/117450944/|Voss, Richard|http://url-of-my-awesome-site/pmb13017.html
-https://d-nb.info/gnd/11674748X/|W. Fred|http://url-of-my-awesome-site/pmb2226.html
-https://d-nb.info/gnd/11877090X/|Waldau, Max|http://url-of-my-awesome-site/pmb10417.html
-https://d-nb.info/gnd/115359885/|Wasielewski, Wilhelm Joseph von|http://url-of-my-awesome-site/pmb10442.html
-https://d-nb.info/gnd/118629387/|Wassermann, Jakob|http://url-of-my-awesome-site/pmb13055.html
-https://d-nb.info/gnd/118629867/|Wedekind, Frank|http://url-of-my-awesome-site/pmb13068.html
-https://d-nb.info/gnd/118630458/|Weiss, Ernst|http://url-of-my-awesome-site/pmb10478.html
-https://d-nb.info/gnd/118643266/|Wells, H. G.|http://url-of-my-awesome-site/pmb5815.html
-https://d-nb.info/gnd/11728484X/|Wenden, Henry|http://url-of-my-awesome-site/pmb26935.html
-https://d-nb.info/gnd/126283451/|Wengraf, Richard|http://url-of-my-awesome-site/pmb26944.html
-https://d-nb.info/gnd/118631373/|Werfel, Franz|http://url-of-my-awesome-site/pmb13094.html
-https://d-nb.info/gnd/117306355/|Wertheimer, Paul|http://url-of-my-awesome-site/pmb2888.html
-https://d-nb.info/gnd/118807250/|Wilbrandt, Adolf von|http://url-of-my-awesome-site/pmb5208.html
-https://d-nb.info/gnd/118632779/|Wilde, Oscar|http://url-of-my-awesome-site/pmb13115.html
-https://d-nb.info/gnd/118771760/|Wildenbruch, Ernst von|http://url-of-my-awesome-site/pmb13118.html
-https://d-nb.info/gnd/118632841/|Wildgans, Anton|http://url-of-my-awesome-site/pmb13122.html
-https://d-nb.info/gnd/116259604/|Wilhelm, Paul|http://url-of-my-awesome-site/pmb27150.html
-https://d-nb.info/gnd/1026263549/|Winter, Josef von|http://url-of-my-awesome-site/pmb13129.html
-https://d-nb.info/gnd/117411973/|Wirth, Albrecht|http://url-of-my-awesome-site/pmb10564.html
-https://d-nb.info/gnd/118769553/|Wit, Ferdinand Johannes|http://url-of-my-awesome-site/pmb27245.html
-https://d-nb.info/gnd/119429764/|Wittels, Fritz|http://url-of-my-awesome-site/pmb10574.html
-https://d-nb.info/gnd/1042460248/|Wład, Franciszek|http://url-of-my-awesome-site/pmb27278.html
-https://d-nb.info/gnd/104298170/|Wolff, Ludwig|http://url-of-my-awesome-site/pmb13159.html
-https://d-nb.info/gnd/11889028X/|Wolzogen, Ernst von|http://url-of-my-awesome-site/pmb13169.html
-https://d-nb.info/gnd/1026235553/|Xanrof, Léon|http://url-of-my-awesome-site/pmb27405.html
-https://d-nb.info/gnd/118996282/|Zahn, Ernst|http://url-of-my-awesome-site/pmb10639.html
-https://d-nb.info/gnd/11880829X/|Zapolska, Gabryela|http://url-of-my-awesome-site/pmb27428.html
-https://d-nb.info/gnd/118772899/|Zifferer, Paul|http://url-of-my-awesome-site/pmb5156.html
-https://d-nb.info/gnd/118773100/|Zoff, Otto|http://url-of-my-awesome-site/pmb13191.html
-https://d-nb.info/gnd/118637223/|Zola, Émile|http://url-of-my-awesome-site/pmb13194.html
-https://d-nb.info/gnd/118637452/|Zweig, Arnold|http://url-of-my-awesome-site/pmb13208.html
-https://d-nb.info/gnd/118637479/|Zweig, Stefan|http://url-of-my-awesome-site/pmb13212.html
-https://d-nb.info/gnd/118668250/|Čapek, Karel|http://url-of-my-awesome-site/pmb13216.html
-https://d-nb.info/gnd/118638289/|Čechov, Anton Pavlovič|http://url-of-my-awesome-site/pmb3603.html
-https://d-nb.info/gnd/118666150/|Černyševskij, Nikolaj Gavrilovič|http://url-of-my-awesome-site/pmb26220.html
+https://d-nb.info/gnd/1020823992/|Adam, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12438.html
+https://d-nb.info/gnd/116008040/|Adler, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5929.html
+https://d-nb.info/gnd/118500856/|Aischylos|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3648.html
+https://d-nb.info/gnd/118869302/|Alarcón y Ariza, Pedro Antonio de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5944.html
+https://d-nb.info/gnd/116009926/|Alberti, Conrad|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb64772.html
+https://d-nb.info/gnd/116284315/|Albu, Eugen|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3180.html
+https://d-nb.info/gnd/11864808X/|Alfieri, Vittorio|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65008.html
+https://d-nb.info/gnd/118502255/|Altenberg, Peter|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2147.html
+https://d-nb.info/gnd/118502794/|Andersen, Hans Christian|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5981.html
+https://d-nb.info/gnd/116011653/|Andlaw, Franz von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5988.html
+https://d-nb.info/gnd/118502921/|Andreas-Salomé, Lou|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10762.html
+https://d-nb.info/gnd/118637703/|Andreev, Leonid Nikolaevič|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb28321.html
+https://d-nb.info/gnd/11850357X/|Anzengruber, Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10772.html
+https://d-nb.info/gnd/116315903/|Apel, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10775.html
+https://d-nb.info/gnd/11850374X/|Apuleius|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13467.html
+https://d-nb.info/gnd/104086424/|Aram, Kurt|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3770.html
+https://d-nb.info/gnd/118503987/|Aristophanes|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13473.html
+https://d-nb.info/gnd/118504118/|Arndt, Ernst Moritz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6027.html
+https://d-nb.info/gnd/119376377/|Assing, Ludmilla|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6045.html
+https://d-nb.info/gnd/117707503/|Aubourg de La Bove Miremont, Anne d'|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21505.html
+https://d-nb.info/gnd/11865103X/|Auerbach, Berthold|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6050.html
+https://d-nb.info/gnd/118505033/|Auernheimer, Raoul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10788.html
+https://d-nb.info/gnd/119493020/|Augier, Émile|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2815.html
+https://d-nb.info/gnd/118505955/|Bahr, Hermann|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html
+https://d-nb.info/gnd/118506358/|Balzac, Honoré de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10825.html
+https://d-nb.info/gnd/118809709/|Bang, Herman|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10828.html
+https://d-nb.info/gnd/1025986598/|Baracs, Géza|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13718.html
+https://d-nb.info/gnd/11850651X/|Barbusse, Henri|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6109.html
+https://d-nb.info/gnd/118506684/|Barrès, Maurice|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3892.html
+https://d-nb.info/gnd/116068876/|Barthold, Friedrich Wilhelm|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6131.html
+https://d-nb.info/gnd/118652931/|Bartsch, Rudolf Hans|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10836.html
+https://d-nb.info/gnd/118653350/|Bashkirtseff, Marie|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13797.html
+https://d-nb.info/gnd/118507400/|Bauernfeld, Eduard von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10854.html
+https://d-nb.info/gnd/118507443/|Baum, Oskar|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6164.html
+https://d-nb.info/gnd/118653857/|Baumbach, Rudolf|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6169.html
+https://d-nb.info/gnd/118507850/|Beaumarchais, Pierre Augustin Caron de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10857.html
+https://d-nb.info/gnd/116106867/|Becque, Henri|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13897.html
+https://d-nb.info/gnd/118654756/|Beer-Hofmann, Richard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10863.html
+https://d-nb.info/gnd/118658166/|Benedix, Julius Roderich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13999.html
+https://d-nb.info/gnd/116125446/|Berend, Alice|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14041.html
+https://d-nb.info/gnd/11613156X/|Berger, Johan Henning|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14062.html
+https://d-nb.info/gnd/118509578/|Bergson, Henri|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6257.html
+https://d-nb.info/gnd/118509675/|Berlioz, Hector|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6263.html
+https://d-nb.info/gnd/116136545/|Bern, Maximilian|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6267.html
+https://d-nb.info/gnd/118911732/|Bernard, Tristan|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10893.html
+https://d-nb.info/gnd/118658468/|Bernhardi, Friedrich von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14127.html
+https://d-nb.info/gnd/118902822/|Bernstein, Henri Léon|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3663.html
+https://d-nb.info/gnd/1020505656/|Berton, Pierre|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6284.html
+https://d-nb.info/gnd/116155795/|Bettelheim, Anton|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10912.html
+https://d-nb.info/gnd/1032978376/|Biberich, Gustav|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14191.html
+https://d-nb.info/gnd/127064419/|Billiter, Jean|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10931.html
+https://d-nb.info/gnd/118510916/|Billroth, Theodor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10934.html
+https://d-nb.info/gnd/123638178/|Biró, Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14239.html
+https://d-nb.info/gnd/118511459/|Bjørnson, Bjørnstjerne|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2400.html
+https://d-nb.info/gnd/118511653/|Blei, Franz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10955.html
+https://d-nb.info/gnd/118663909/|Bleibtreu, Karl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14281.html
+https://d-nb.info/gnd/118909177/|Bloem, Walter|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6333.html
+https://d-nb.info/gnd/117608866/|Bode, Wilhelm|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10969.html
+https://d-nb.info/gnd/118512293/|Bodenstedt, Friedrich von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10973.html
+https://d-nb.info/gnd/119352524/|Bodisco, Theophile von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6346.html
+https://d-nb.info/gnd/116226544/|Boetticher, Hermann von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14362.html
+https://d-nb.info/gnd/116233672/|Bojer, Johan|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6360.html
+https://d-nb.info/gnd/118703706/|Borchardt, Georg Hermann|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14400.html
+https://d-nb.info/gnd/118659561/|Bourget, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4026.html
+https://d-nb.info/gnd/118514245/|Brahm, Otto|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10986.html
+https://d-nb.info/gnd/118514326/|Brandes, Georg|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10992.html
+https://d-nb.info/gnd/118673327/|Brantôme, Pierre Bourdeille de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14487.html
+https://d-nb.info/gnd/11867353X/|Braun, Lily|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6406.html
+https://d-nb.info/gnd/119534673/|Brieux, Eugène|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4791.html
+https://d-nb.info/gnd/118515624/|Brod, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6441.html
+https://d-nb.info/gnd/116815213/|Bruun, Laurids|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6477.html
+https://d-nb.info/gnd/118514210/|Bräker, Ulrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6479.html
+https://d-nb.info/gnd/118516574/|Bucharin, Nikolaj Ivanovič|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5564.html
+https://d-nb.info/gnd/119229218/|Buckle, Henry Thomas|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14666.html
+https://d-nb.info/gnd/117161144/|Burckhard, Max Eugen|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11036.html
+https://d-nb.info/gnd/11851752X/|Burckhardt, Jacob|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11040.html
+https://d-nb.info/gnd/1162600888/|Burger, Karl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6510.html
+https://d-nb.info/gnd/118665421/|Busch, Moritz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14720.html
+https://d-nb.info/gnd/118517880/|Busch, Wilhelm|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6531.html
+https://d-nb.info/gnd/117184047/|Busson, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6543.html
+https://d-nb.info/gnd/118518208/|Byron, George Gordon Noël Lord|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11057.html
+https://d-nb.info/gnd/116115270/|Bélot, Adolphe|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14752.html
+https://d-nb.info/gnd/118878484/|Böhlau, Helene|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14762.html
+https://d-nb.info/gnd/119094029/|Böhme, Margarete|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6553.html
+https://d-nb.info/gnd/118512749/|Börne, Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14780.html
+https://d-nb.info/gnd/1042355053/|Cadol, Victor Édouard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2560.html
+https://d-nb.info/gnd/118518275/|Caesar, Gaius Iulius|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14796.html
+https://d-nb.info/gnd/118518399/|Calderón de la Barca, Pedro|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11068.html
+https://d-nb.info/gnd/118519131/|Carlyle, Thomas|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11074.html
+https://d-nb.info/gnd/116471557/|Castell, Alexander|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14886.html
+https://d-nb.info/gnd/11851993X/|Cervantes Saavedra, Miguel de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2980.html
+https://d-nb.info/gnd/118520040/|Chamisso, Adelbert von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6609.html
+https://d-nb.info/gnd/118520393/|Chesterton, Gilbert Keith|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb14936.html
+https://d-nb.info/gnd/118568604/|Choderlos de Laclos, Pierre|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb20018.html
+https://d-nb.info/gnd/116507497/|Christ, Joseph Anton|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6641.html
+https://d-nb.info/gnd/119069830/|Claretie, Jules|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2500.html
+https://d-nb.info/gnd/118521039/|Claudel, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6660.html
+https://d-nb.info/gnd/118521527/|Colette, Sidonie-Gabrielle|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15054.html
+https://d-nb.info/gnd/118669915/|Conrad, Michael Georg|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11098.html
+https://d-nb.info/gnd/11665578X/|Conscience, Hendrik|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6691.html
+https://d-nb.info/gnd/118638475/|Constant, Benjamin|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15088.html
+https://d-nb.info/gnd/1057580554/|Coolus, Romain|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15094.html
+https://d-nb.info/gnd/116689234/|Costenoble, Carl Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6707.html
+https://d-nb.info/gnd/118670263/|Courteline, Georges|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4865.html
+https://d-nb.info/gnd/118670700/|Curel, François de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15170.html
+https://d-nb.info/gnd/118523392/|Dahn, Felix|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6751.html
+https://d-nb.info/gnd/118523708/|Dante Alighieri|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3326.html
+https://d-nb.info/gnd/118523872/|Daudet, Alphonse|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11134.html
+https://d-nb.info/gnd/118671103/|David, Jakob Julius|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2416.html
+https://d-nb.info/gnd/118679236/|Dehmel, Richard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11148.html
+https://d-nb.info/gnd/118679279/|Dekker, Eduard Douwes|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15285.html
+https://d-nb.info/gnd/118525239/|Dickens, Charles|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11153.html
+https://d-nb.info/gnd/118525263/|Diderot, Denis|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11157.html
+https://d-nb.info/gnd/124644694/|Dietz, Johannes|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15385.html
+https://d-nb.info/gnd/116137312/|Dincklage, Emmy von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15400.html
+https://d-nb.info/gnd/126105316/|Dominik, Heinrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3099.html
+https://d-nb.info/gnd/118527053/|Dostojevskij, Fjodor M.|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4006.html
+https://d-nb.info/gnd/116220759/|Dreyer, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11175.html
+https://d-nb.info/gnd/11852805X/|Dumas, Alexandre fils|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15512.html
+https://d-nb.info/gnd/118528068/|Dumas, Alexandre père|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11190.html
+https://d-nb.info/gnd/132678993/|Duval, Georges|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6892.html
+https://d-nb.info/gnd/10233272X/|Duvernois, Henri|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6895.html
+https://d-nb.info/gnd/116263202/|Dymow, Ossip|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6902.html
+https://d-nb.info/gnd/116081392/|Déry, Juliane|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15323.html
+https://d-nb.info/gnd/119020874/|Dörmann, Felix|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2425.html
+https://d-nb.info/gnd/118503243/|D’Annunzio, Gabriele|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2142.html
+https://d-nb.info/gnd/118528661/|Ebner-Eschenbach, Marie von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11216.html
+https://d-nb.info/gnd/119047314/|Echegaray, José|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15626.html
+https://d-nb.info/gnd/118687859/|Edschmid, Kasimir|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6927.html
+https://d-nb.info/gnd/118969846/|Eeden, Frederik Willem van|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15671.html
+https://d-nb.info/gnd/118529390/|Eichendorff, Joseph von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11233.html
+https://d-nb.info/gnd/116418656/|Eidlitz, Walther|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15756.html
+https://d-nb.info/gnd/116478411/|Engel, Alexander|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11253.html
+https://d-nb.info/gnd/118530909/|Ernst, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11265.html
+https://d-nb.info/gnd/116568437/|Ertl, Emil|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11270.html
+https://d-nb.info/gnd/118682636/|Eulenberg, Herbert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11273.html
+https://d-nb.info/gnd/118531395/|Euripides|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4107.html
+https://d-nb.info/gnd/118685759/|Faesi, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11289.html
+https://d-nb.info/gnd/118875558/|Farrère, Claude|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11297.html
+https://d-nb.info/gnd/116427000/|Federn, Karl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11301.html
+https://d-nb.info/gnd/118510240X/|Felner, Peter Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb16164.html
+https://d-nb.info/gnd/118532790/|Feuillet, Octave|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11315.html
+https://d-nb.info/gnd/118533665/|Flake, Otto|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11327.html
+https://d-nb.info/gnd/118533754/|Flaubert, Gustave|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11330.html
+https://d-nb.info/gnd/118533843/|Fleg, Edmond|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7170.html
+https://d-nb.info/gnd/122348745/|Flers, Robert de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11337.html
+https://d-nb.info/gnd/118534262/|Fontane, Theodor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11342.html
+https://d-nb.info/gnd/118692445/|France, Anatole|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4279.html
+https://d-nb.info/gnd/12325860X/|Franck, Harry Alverson|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7200.html
+https://d-nb.info/gnd/118534793/|Frank, Leonhard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7209.html
+https://d-nb.info/gnd/118702599/|Franzos, Karl Emil|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7218.html
+https://d-nb.info/gnd/118535269/|Frenssen, Gustav|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11367.html
+https://d-nb.info/gnd/119139812/|Frenzel, Karl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7232.html
+https://d-nb.info/gnd/116782900/|Frey, Egon|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb16568.html
+https://d-nb.info/gnd/118535455/|Freytag, Gustav|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11377.html
+https://d-nb.info/gnd/11679058X/|Frieberger, Kurt|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7247.html
+https://d-nb.info/gnd/119480700/|Friedjung, Heinrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11384.html
+https://d-nb.info/gnd/118693433/|Friedlaender, Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb16636.html
+https://d-nb.info/gnd/116802014/|Friedmann, Alfred|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7253.html
+https://d-nb.info/gnd/116819820/|Frisch, Efraim|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7269.html
+https://d-nb.info/gnd/115819673/|Frobenius, Herman|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb16729.html
+https://d-nb.info/gnd/118703358/|Fromentin, Eugène|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7279.html
+https://d-nb.info/gnd/126333750/|Frondaie, Pierre|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb16737.html
+https://d-nb.info/gnd/115656340/|G. Lenotre|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3176.html
+https://d-nb.info/gnd/127450076/|Gad, Urban|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7323.html
+https://d-nb.info/gnd/118904523/|Gasquet, Joachim|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7350.html
+https://d-nb.info/gnd/11853811X/|Geibel, Emanuel|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11413.html
+https://d-nb.info/gnd/115657061/|Geijerstam, Gustaf af|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7363.html
+https://d-nb.info/gnd/118538810/|Gerstäcker, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7386.html
+https://d-nb.info/gnd/118921703/|Giedion, Sigfried|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7405.html
+https://d-nb.info/gnd/118539353/|Gilm-Rosenegg, Hermann von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb17028.html
+https://d-nb.info/gnd/100796303/|Girardin, Delphine|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb17053.html
+https://d-nb.info/gnd/118539523/|Giraudoux, Jean|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7417.html
+https://d-nb.info/gnd/118540238/|Goethe, Johann Wolfgang von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11461.html
+https://d-nb.info/gnd/118540254/|Goethe, Ottilie von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7455.html
+https://d-nb.info/gnd/118540416/|Gogh, Vincent van|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11464.html
+https://d-nb.info/gnd/118540424/|Gogol, Nikolai W.|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb17144.html
+https://d-nb.info/gnd/116755105/|Goldmann, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11485.html
+https://d-nb.info/gnd/118540505/|Goldoni, Carlo|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5892.html
+https://d-nb.info/gnd/118696173/|Goldschmidt, Alfons|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7473.html
+https://d-nb.info/gnd/118540661/|Gomperz, Theodor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11497.html
+https://d-nb.info/gnd/118540688/|Goncourt, Edmond Huot de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11500.html
+https://d-nb.info/gnd/118540696/|Goncourt, Jules Huot de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2925.html
+https://d-nb.info/gnd/118639293/|Gorkij, Maxim|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2323.html
+https://d-nb.info/gnd/126434204/|Gosewisch, Helen|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb17256.html
+https://d-nb.info/gnd/118540963/|Gotthelf, Jeremias|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7491.html
+https://d-nb.info/gnd/118541102/|Grabbe, Christian Dietrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11508.html
+https://d-nb.info/gnd/107601672/|Greeven, Erich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb17348.html
+https://d-nb.info/gnd/118697455/|Gregor, Joseph|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7525.html
+https://d-nb.info/gnd/118542192/|Grillparzer, Franz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11518.html
+https://d-nb.info/gnd/118542249/|Grimm, Hans|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7539.html
+https://d-nb.info/gnd/118697773/|Grimm, Hermann|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb17404.html
+https://d-nb.info/gnd/118697927/|Groddeck, Georg|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7543.html
+https://d-nb.info/gnd/142373672/|Groller, Balduin|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7548.html
+https://d-nb.info/gnd/116868775/|Gross, Ferdinand|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11524.html
+https://d-nb.info/gnd/118542664/|Großmann, Stefan|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11527.html
+https://d-nb.info/gnd/116809795/|Gräffer, Franz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7568.html
+https://d-nb.info/gnd/1046109928/|Gröger, Fanny|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb17465.html
+https://d-nb.info/gnd/118699067/|Gugitz, Gustav|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11541.html
+https://d-nb.info/gnd/118543628/|Gundolf, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3824.html
+https://d-nb.info/gnd/116935928/|Guttmann, Richard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7616.html
+https://d-nb.info/gnd/118543830/|Gutzkow, Karl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11555.html
+https://d-nb.info/gnd/118699962/|Hackländer, Friedrich Wilhelm von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7641.html
+https://d-nb.info/gnd/121220583/|Haek, David|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb64820.html
+https://d-nb.info/gnd/118545043/|Halbe, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11565.html
+https://d-nb.info/gnd/118919660/|Halévy, Ludovic|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4197.html
+https://d-nb.info/gnd/118701223/|Hamerling, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7674.html
+https://d-nb.info/gnd/118545515/|Hamsun, Knut|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11570.html
+https://d-nb.info/gnd/118545892/|Harden, Maximilian|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11581.html
+https://d-nb.info/gnd/11870155X/|Hardt, Ernst|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11585.html
+https://d-nb.info/gnd/116476400/|Harlan, Walter|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7697.html
+https://d-nb.info/gnd/118546198/|Hartleben, Otto Erich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11605.html
+https://d-nb.info/gnd/118546937/|Hauptmann, Gerhart|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11617.html
+https://d-nb.info/gnd/118547445/|Hebbel, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2404.html
+https://d-nb.info/gnd/118547607/|Hedin, Sven|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7750.html
+https://d-nb.info/gnd/118773593/|Heer, Jakob Christoph|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7753.html
+https://d-nb.info/gnd/11877364X/|Heijermans, Herman|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7767.html
+https://d-nb.info/gnd/118773666/|Heimann, Moritz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11632.html
+https://d-nb.info/gnd/118548018/|Heine, Heinrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11640.html
+https://d-nb.info/gnd/116678623/|Heitmüller, Franz Ferdinand|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18053.html
+https://d-nb.info/gnd/118835289/|Henckell, Karl Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7784.html
+https://d-nb.info/gnd/119543281/|Henningsen, Agnes|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18119.html
+https://d-nb.info/gnd/121278859/|Hermant, Abel|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11657.html
+https://d-nb.info/gnd/118549855/|Herodot|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18163.html
+https://d-nb.info/gnd/119552930/|Hervieu, Paul Ernest|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18201.html
+https://d-nb.info/gnd/118550241/|Herzl, Theodor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11673.html
+https://d-nb.info/gnd/119445980/|Herzog, Wilhelm|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11676.html
+https://d-nb.info/gnd/11855042X/|Hesse, Hermann|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11679.html
+https://d-nb.info/gnd/118881280/|Hessel, Franz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7838.html
+https://d-nb.info/gnd/11678508X/|Hevesi, Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11687.html
+https://d-nb.info/gnd/118550772/|Heyse, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11691.html
+https://d-nb.info/gnd/118774395/|Heywood, Thomas|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18254.html
+https://d-nb.info/gnd/101708122/|Hirschfeld, Georg|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11701.html
+https://d-nb.info/gnd/116914017/|Hirschfeld, Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11704.html
+https://d-nb.info/gnd/118706195/|Hofmiller, Josef|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3861.html
+https://d-nb.info/gnd/118552961/|Holberg, Ludvig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7897.html
+https://d-nb.info/gnd/118973096/|Holitscher, Arthur|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11749.html
+https://d-nb.info/gnd/116961805/|Hollaender, Felix|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11752.html
+https://d-nb.info/gnd/118862944/|Holm, Korfiz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11760.html
+https://d-nb.info/gnd/118706640/|Holtei, Karl von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7905.html
+https://d-nb.info/gnd/118553216/|Holz, Arno|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11763.html
+https://d-nb.info/gnd/11855333X/|Homer|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2495.html
+https://d-nb.info/gnd/116981385/|Hopfen, Hans von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7908.html
+https://d-nb.info/gnd/118553569/|Horaz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3516.html
+https://d-nb.info/gnd/117535354/|Houssaye, Henry|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18586.html
+https://d-nb.info/gnd/118554190/|Huch, Ricarda|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11780.html
+https://d-nb.info/gnd/118554654/|Hugo, Victor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5359.html
+https://d-nb.info/gnd/118648071/|Häring, Wilhelm|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18646.html
+https://d-nb.info/gnd/118555286/|Ibsen, Henrik|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11798.html
+https://d-nb.info/gnd/118555324/|Iffland, August Wilhelm|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7966.html
+https://d-nb.info/gnd/118555553/|Immermann, Karl Leberecht|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7973.html
+https://d-nb.info/gnd/119540959/|Infessura, Stefano|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18688.html
+https://d-nb.info/gnd/119049163/|Istrati, Panaït|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5583.html
+https://d-nb.info/gnd/118711172/|Jacobsen, Jens Peter|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11809.html
+https://d-nb.info/gnd/118556444/|Jacques, Norbert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7994.html
+https://d-nb.info/gnd/118556673/|Jahnn, Hans Henny|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8001.html
+https://d-nb.info/gnd/118557211/|Jean Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4332.html
+https://d-nb.info/gnd/118776126/|Jensen, Johannes Vilhelm|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11820.html
+https://d-nb.info/gnd/117115517/|Jerome, Jerome Klapka|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2697.html
+https://d-nb.info/gnd/118558501/|Joyce, James|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8049.html
+https://d-nb.info/gnd/118985418/|Jókai, Maurus|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18956.html
+https://d-nb.info/gnd/118559427/|Kaiser, Georg|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8085.html
+https://d-nb.info/gnd/116036133/|Kamnitzer, Ernst|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11863.html
+https://d-nb.info/gnd/117302996/|Karlweis, Carl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13082.html
+https://d-nb.info/gnd/116060433/|Karpeles, Gustav|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8115.html
+https://d-nb.info/gnd/11856109X/|Keller, Gottfried|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8165.html
+https://d-nb.info/gnd/116119586/|Keller, Otto|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8168.html
+https://d-nb.info/gnd/118995359/|Keller, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8171.html
+https://d-nb.info/gnd/118561162/|Kellermann, Bernhard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11900.html
+https://d-nb.info/gnd/126185808/|Kerausch, Josef|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8175.html
+https://d-nb.info/gnd/11856157X/|Kerr, Alfred|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11910.html
+https://d-nb.info/gnd/116142618/|Kerst, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8188.html
+https://d-nb.info/gnd/116017899/|Kesser, Hermann|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11913.html
+https://d-nb.info/gnd/11893449X/|Key, Ellen|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11919.html
+https://d-nb.info/gnd/118561812/|Keyserling, Eduard von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3797.html
+https://d-nb.info/gnd/116024283/|Keßler, Helene|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19296.html
+https://d-nb.info/gnd/11864159X/|Khevenhüller-Metsch, Johann Joseph von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19300.html
+https://d-nb.info/gnd/118561960/|Kielland, Alexander Lange|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19308.html
+https://d-nb.info/gnd/118562002/|Kierkegaard, Søren Aabye|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19317.html
+https://d-nb.info/gnd/118562290/|Kipling, Rudyard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8204.html
+https://d-nb.info/gnd/1055478957/|Kistemaekers, Henry|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19365.html
+https://d-nb.info/gnd/118563076/|Kleist, Heinrich von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11933.html
+https://d-nb.info/gnd/116230142/|Klinger, Friedrich Maximilian von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19441.html
+https://d-nb.info/gnd/118563343/|Klöden, Karl Friedrich von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19448.html
+https://d-nb.info/gnd/116273143/|Koch, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11952.html
+https://d-nb.info/gnd/118564064/|Koch, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8266.html
+https://d-nb.info/gnd/118713698/|Kolb, Annette|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4351.html
+https://d-nb.info/gnd/1047032988/|Kolloden, M.|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19536.html
+https://d-nb.info/gnd/118565494/|Kornfeld, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb38617.html
+https://d-nb.info/gnd/118565796/|Kotzebue, August von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8316.html
+https://d-nb.info/gnd/116518960/|Krell, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11995.html
+https://d-nb.info/gnd/1057767182/|Kroepelin, Herman|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8351.html
+https://d-nb.info/gnd/118943774/|Kuh, Emil|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8366.html
+https://d-nb.info/gnd/118778242/|Kuprin, Alexander I.|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19872.html
+https://d-nb.info/gnd/118778277/|Kurz, Hermann|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8378.html
+https://d-nb.info/gnd/118723073/|Kussmaul, Adolf|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12007.html
+https://d-nb.info/gnd/116634472/|Kyser, Hans|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8386.html
+https://d-nb.info/gnd/116297271/|Körner, Josef|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8396.html
+https://d-nb.info/gnd/116588659/|Kühn, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8410.html
+https://d-nb.info/gnd/118567764/|Kürnberger, Ferdinand|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19980.html
+https://d-nb.info/gnd/118726005/|Lagerlöf, Selma|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8422.html
+https://d-nb.info/gnd/118726056/|Lamartine, Alphonse de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8436.html
+https://d-nb.info/gnd/118569074/|Landauer, Gustav|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12031.html
+https://d-nb.info/gnd/11872911X/|Landesmann, Heinrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb20063.html
+https://d-nb.info/gnd/118569910/|Lassalle, Ferdinand|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3471.html
+https://d-nb.info/gnd/118570080/|Laube, Heinrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2702.html
+https://d-nb.info/gnd/126703019/|Lavedan, Henri Léon|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2488.html
+https://d-nb.info/gnd/118570366/|Lawrence, Thomas Edward|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb20184.html
+https://d-nb.info/gnd/119429500/|Leisching, Julius|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8559.html
+https://d-nb.info/gnd/118571656/|Lenz, Jakob Michael Reinhold|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb20301.html
+https://d-nb.info/gnd/118572032/|Lesage, Alain René|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb20342.html
+https://d-nb.info/gnd/118572121/|Lessing, Gotthold Ephraim|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12053.html
+https://d-nb.info/gnd/116979941/|Leyst, Charles|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb20381.html
+https://d-nb.info/gnd/118572628/|Lichtenberg, Georg Christoph|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12064.html
+https://d-nb.info/gnd/118779907/|Lie, Jonas|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5883.html
+https://d-nb.info/gnd/11877994X/|Lienhard, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8632.html
+https://d-nb.info/gnd/118572903/|Ligne, Charles Joseph von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8642.html
+https://d-nb.info/gnd/118572954/|Liliencron, Detlev von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12071.html
+https://d-nb.info/gnd/118780034/|Lindau, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12078.html
+https://d-nb.info/gnd/117014613/|Lindau, Rudolf|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8657.html
+https://d-nb.info/gnd/118574183/|London, Jack|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8699.html
+https://d-nb.info/gnd/118936034/|Loos, Anita|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb20591.html
+https://d-nb.info/gnd/118574523/|Lothar, Ernst|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21710.html
+https://d-nb.info/gnd/119545063/|Lothar, Rudolf|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2570.html
+https://d-nb.info/gnd/118780522/|Loti, Pierre|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12114.html
+https://d-nb.info/gnd/118780557/|Louÿs, Pierre Louis|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8719.html
+https://d-nb.info/gnd/117261521/|Lucka, Emil|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8729.html
+https://d-nb.info/gnd/118780778/|Ludwig, Emil|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12126.html
+https://d-nb.info/gnd/118574973/|Ludwig, Otto|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12129.html
+https://d-nb.info/gnd/118575228/|Lukian von Samosata|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb20643.html
+https://d-nb.info/gnd/118575767/|Mach, Ernst|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12147.html
+https://d-nb.info/gnd/118575856/|Mackay, John Henry|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12152.html
+https://d-nb.info/gnd/118919431/|Madelung, Aage|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4354.html
+https://d-nb.info/gnd/118576089/|Maeterlinck, Maurice|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12156.html
+https://d-nb.info/gnd/116724919/|Mamroth, Fedor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4986.html
+https://d-nb.info/gnd/118577131/|Mann, Heinrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12170.html
+https://d-nb.info/gnd/118577166/|Mann, Thomas|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12176.html
+https://d-nb.info/gnd/119159686/|Marbot, Marcellin|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3445.html
+https://d-nb.info/gnd/118992996/|Marholm, Laura|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12183.html
+https://d-nb.info/gnd/118577972/|Marivaux, Pierre Carlet de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12187.html
+https://d-nb.info/gnd/118624822/|Mark Twain|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26252.html
+https://d-nb.info/gnd/173258670/|Marni, Jeanne|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5459.html
+https://d-nb.info/gnd/118578103/|Marriot, Emil|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4223.html
+https://d-nb.info/gnd/116800992/|Martens, Kurt|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8833.html
+https://d-nb.info/gnd/118579207/|Maupassant, Guy de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12201.html
+https://d-nb.info/gnd/118579304/|Mauthner, Fritz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3386.html
+https://d-nb.info/gnd/119017660/|Meisel-Hess, Grete|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8892.html
+https://d-nb.info/gnd/118580566/|Mell, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12225.html
+https://d-nb.info/gnd/118580604/|Melville, Herman|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8897.html
+https://d-nb.info/gnd/118783203/|Mendès, Catulle|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21317.html
+https://d-nb.info/gnd/118581058/|Meredith, George|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21338.html
+https://d-nb.info/gnd/116914130/|Messer, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2885.html
+https://d-nb.info/gnd/118581775/|Meyer, Conrad Ferdinand|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12234.html
+https://d-nb.info/gnd/118582046/|Meyrink, Gustav|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12248.html
+https://d-nb.info/gnd/11539396X/|Michaëlis, Karin|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4408.html
+https://d-nb.info/gnd/130116653/|Michaëlis, Sophus|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12251.html
+https://d-nb.info/gnd/118893297/|Michel, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12254.html
+https://d-nb.info/gnd/118582682/|Mirabeau, Honoré Gabriel de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21497.html
+https://d-nb.info/gnd/119283158/|Mirabeau, Sibylle de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21501.html
+https://d-nb.info/gnd/118784226/|Mirbeau, Octave|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8948.html
+https://d-nb.info/gnd/11858331X/|Molière, Jean-Baptiste|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3272.html
+https://d-nb.info/gnd/118734598/|Molnár, Ferenc|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21558.html
+https://d-nb.info/gnd/101363184/|Mosenthal, Salomon Hermann von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12293.html
+https://d-nb.info/gnd/118785400/|Murger, Henri|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8987.html
+https://d-nb.info/gnd/118585916/|Musil, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8994.html
+https://d-nb.info/gnd/118585940/|Musset, Alfred de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12311.html
+https://d-nb.info/gnd/1050011619/|Myller, Otto|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21686.html
+https://d-nb.info/gnd/1027523315/|Méténier, Oscar|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5125.html
+https://d-nb.info/gnd/118583107/|Mörike, Eduard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12323.html
+https://d-nb.info/gnd/119054329/|Müller, Hans|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12327.html
+https://d-nb.info/gnd/1050480937/about/|Müller, Hugo|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21720.html
+https://d-nb.info/gnd/118585193/|Müller, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21736.html
+https://d-nb.info/gnd/117179183/|Münzer, Kurt|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21761.html
+https://d-nb.info/gnd/118586092/|Nabl, Franz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9011.html
+https://d-nb.info/gnd/116882670/|Nansen, Peter|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2357.html
+https://d-nb.info/gnd/118738178/|Naumann, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9023.html
+https://d-nb.info/gnd/118587080/|Nestroy, Johann Nepomuk|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12338.html
+https://d-nb.info/gnd/118587676/|Nicolai, Georg Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5220.html
+https://d-nb.info/gnd/117001783/|Niemann, August|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb64866.html
+https://d-nb.info/gnd/118587943/|Nietzsche, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12358.html
+https://d-nb.info/gnd/118588583/|Nordau, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12365.html
+https://d-nb.info/gnd/117069515/|Nowak, Karl Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2790.html
+https://d-nb.info/gnd/100813283/|Ompteda, Georg von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9146.html
+https://d-nb.info/gnd/118738844/|Otway, Thomas|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22269.html
+https://d-nb.info/gnd/118590995/|Ovidius Naso, Publius|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4079.html
+https://d-nb.info/gnd/1089162820/|Panin, Victor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22333.html
+https://d-nb.info/gnd/116094028/|Peschkau, Emil|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4398.html
+https://d-nb.info/gnd/118593226/|Petőfi, Sándor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22480.html
+https://d-nb.info/gnd/118791907/|Philippe, Charles-Louis|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5604.html
+https://d-nb.info/gnd/118594869/|Platen, August von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12424.html
+https://d-nb.info/gnd/118594893/|Platon|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4336.html
+https://d-nb.info/gnd/118595237/|Plutarch|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22648.html
+https://d-nb.info/gnd/119338424/|Plüschow, Gunther|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9301.html
+https://d-nb.info/gnd/11859527X/|Poe, Edgar Allan|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12428.html
+https://d-nb.info/gnd/118595822/|Popper-Lynkeus, Josef|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2135.html
+https://d-nb.info/gnd/118792946/|Porto-Riche, Georges de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22824.html
+https://d-nb.info/gnd/118793284/|Presber, Rudolf|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9364.html
+https://d-nb.info/gnd/118793292/|Prescott, William|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9367.html
+https://d-nb.info/gnd/115738238X/|Provins, Michel|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22901.html
+https://d-nb.info/gnd/118742108/|Przybyszewski, Stanisław|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2891.html
+https://d-nb.info/gnd/118596462/|Prévost, Antoine-François|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4112.html
+https://d-nb.info/gnd/118597442/|Raabe, Wilhelm|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9403.html
+https://d-nb.info/gnd/118787640/|Radiguet, Raymond|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22991.html
+https://d-nb.info/gnd/118597914/|Raimund, Ferdinand|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12468.html
+https://d-nb.info/gnd/116327979/|Ramshorn, Carl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb23036.html
+https://d-nb.info/gnd/115717641/|Regnier-Destourbet, Hippolyte François|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb23149.html
+https://d-nb.info/gnd/117084123/about/|Januszkiewicz, Hans von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb64877.html
+https://d-nb.info/gnd/127829210/|Reinmann, Ernst|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb23230.html
+https://d-nb.info/gnd/118744496/|Renan, Ernest|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9484.html
+https://d-nb.info/gnd/118788345/|Renard, Jules|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4460.html
+https://d-nb.info/gnd/118599887/|Retz, Jean François Paul de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9500.html
+https://d-nb.info/gnd/118744712/|Reuter, Gabriele|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12514.html
+https://d-nb.info/gnd/116499745/|Rheinhardt, Emil Alphons|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12518.html
+https://d-nb.info/gnd/118601024/|Rilke, Rainer Maria|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9531.html
+https://d-nb.info/gnd/118745492/|Rittner, Thaddäus|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb23452.html
+https://d-nb.info/gnd/11874562X/|Roda Roda, Alexander|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9546.html
+https://d-nb.info/gnd/118602330/|Rolland, Romain|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12543.html
+https://d-nb.info/gnd/11860239X/|Romains, Jules|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9562.html
+https://d-nb.info/gnd/118602667/|Rosegger, Peter|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12551.html
+https://d-nb.info/gnd/10732220X/|Rosen, Erwin|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9574.html
+https://d-nb.info/gnd/116621672/|Rosenbaum, Kory Elisabeth|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb23560.html
+https://d-nb.info/gnd/118602721/|Rosenkranz, Karl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9577.html
+https://d-nb.info/gnd/102215065/|Rothschild, Henri de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9596.html
+https://d-nb.info/gnd/118603426/|Rousseau, Jean-Jacques|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12582.html
+https://d-nb.info/gnd/11859902X/|Régnier, Henri de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12591.html
+https://d-nb.info/gnd/11864193X/|Rétif de la Bretonne, Nicolas|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3978.html
+https://d-nb.info/gnd/116595663/|Rössler, Carl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4858.html
+https://d-nb.info/gnd/118604449/|Saar, Ferdinand von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12602.html
+https://d-nb.info/gnd/118605348/|Sand, George|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9643.html
+https://d-nb.info/gnd/118794566/|Sardou, Victorien|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12624.html
+https://d-nb.info/gnd/117103292/|Schamann, Franz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24052.html
+https://d-nb.info/gnd/1055095764/|Scheffer, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24079.html
+https://d-nb.info/gnd/117211354/|Schendell, Werner|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24085.html
+https://d-nb.info/gnd/118794957/|Scherr, Johannes|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9684.html
+https://d-nb.info/gnd/11860743X/|Schickele, René|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12640.html
+https://d-nb.info/gnd/118607626/|Schiller, Friedrich von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12654.html
+https://d-nb.info/gnd/117538884/|Schmidt, Lothar|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12681.html
+https://d-nb.info/gnd/118609475/|Schnabel, Johann Gottfried|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24353.html
+https://d-nb.info/gnd/116848162/|Schnitzer, Manuel|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24407.html
+https://d-nb.info/gnd/118610465/|Schopenhauer, Arthur|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5787.html
+https://d-nb.info/gnd/117060828/|Schreyer, Hans|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24511.html
+https://d-nb.info/gnd/119368579/|Schreyvogel, Josef|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24515.html
+https://d-nb.info/gnd/117116955/|Schubin, Ossip|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3853.html
+https://d-nb.info/gnd/117185442/|Schultz, Alwin|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24556.html
+https://d-nb.info/gnd/118611666/|Schumann, Robert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12733.html
+https://d-nb.info/gnd/117303658/|Schumann, Wolfgang|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9786.html
+https://d-nb.info/gnd/118758926/|Schönherr, Karl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12749.html
+https://d-nb.info/gnd/118612425/|Scribe, Eugène|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12756.html
+https://d-nb.info/gnd/118796208/|Serao, Matilde|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24844.html
+https://d-nb.info/gnd/118613723/|Shakespeare, William|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2412.html
+https://d-nb.info/gnd/118642375/|Shaw, George Bernard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2381.html
+https://d-nb.info/gnd/11736438X/|Siegfried, Walther|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24898.html
+https://d-nb.info/gnd/117429333/|Smekal, Richard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4012.html
+https://d-nb.info/gnd/118615688/|Sophokles|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2693.html
+https://d-nb.info/gnd/118616110/|Spengler, Oswald|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12819.html
+https://d-nb.info/gnd/107504774/|Spiegel-Peckelsheim, Edgar von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9954.html
+https://d-nb.info/gnd/118616196/|Spielhagen, Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9958.html
+https://d-nb.info/gnd/118616277/|Spitteler, Carl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9964.html
+https://d-nb.info/gnd/118617133/|Stehr, Hermann|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9999.html
+https://d-nb.info/gnd/104278064/|Stein, Leo|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb25372.html
+https://d-nb.info/gnd/118617648/|Stendhal|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb28820.html
+https://d-nb.info/gnd/117234931/|Sterneder, Hans|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10035.html
+https://d-nb.info/gnd/118617958/|Sternheim, Carl|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12848.html
+https://d-nb.info/gnd/118618156/|Stifter, Adalbert|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12851.html
+https://d-nb.info/gnd/17238785X/|Stona, Maria|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb24452.html
+https://d-nb.info/gnd/118618725/|Storm, Theodor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10061.html
+https://d-nb.info/gnd/117309087/|Stratz, Rudolph|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb25589.html
+https://d-nb.info/gnd/118619055/|Strauss, David Friedrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10087.html
+https://d-nb.info/gnd/118755846/|Strauss, Emil|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12864.html
+https://d-nb.info/gnd/118619314/|Strindberg, August|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12877.html
+https://d-nb.info/gnd/11861956X/|Stucken, Eduard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12886.html
+https://d-nb.info/gnd/118619853/|Sudermann, Hermann|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12899.html
+https://d-nb.info/gnd/118619861/|Sue, Eugène|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10134.html
+https://d-nb.info/gnd/118619918/|Sueton|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb25732.html
+https://d-nb.info/gnd/118620126/|Suttner, Bertha von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12906.html
+https://d-nb.info/gnd/118620193/|Swift, Jonathan|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10161.html
+https://d-nb.info/gnd/118620452/|Tacitus, Publius Cornelius|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb38345.html
+https://d-nb.info/gnd/1058761048/|Tagger, Theodor|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10172.html
+https://d-nb.info/gnd/11862055X/|Taine, Hippolyte|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12913.html
+https://d-nb.info/gnd/119549530/|Techet, Carl Franz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb25896.html
+https://d-nb.info/gnd/117254924/|Telmann, Fritz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12926.html
+https://d-nb.info/gnd/120941988/|Terramare, Georg|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4035.html
+https://d-nb.info/gnd/117296023/|Teweles, Heinrich|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12932.html
+https://d-nb.info/gnd/118621483/|Thackeray, William Makepeace|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb25962.html
+https://d-nb.info/gnd/1042002495/|Thies, Heinz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26000.html
+https://d-nb.info/gnd/118622072/|Thoma, Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10210.html
+https://d-nb.info/gnd/119297191/|Thürheim, Ludovica von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26054.html
+https://d-nb.info/gnd/118802259/|Tillier, Claude|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2717.html
+https://d-nb.info/gnd/124109918/|Tinayre, Marcelle|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26069.html
+https://d-nb.info/gnd/11864291X/|Tolstoi, Leo N. von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3739.html
+https://d-nb.info/gnd/127610944/|Torresani-Lanzenfeld, Carl von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26121.html
+https://d-nb.info/gnd/117421243/|Tovote, Heinz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12965.html
+https://d-nb.info/gnd/118643010/|Turgenev, Ivan Sergeevič|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26238.html
+https://d-nb.info/gnd/118625527/|Unruh, Fritz von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12993.html
+https://d-nb.info/gnd/117345679/|Vandérem, Fernand|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26399.html
+https://d-nb.info/gnd/107627884/|Vautel, Clément|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26419.html
+https://d-nb.info/gnd/119074923/|Vaërting, Maria Johanna|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26420.html
+https://d-nb.info/gnd/121502244/|Veber, Pierre|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26421.html
+https://d-nb.info/gnd/118626353/|Vega Carpio, Lope Felix de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10332.html
+https://d-nb.info/gnd/117371173/|Vereščagin, Vasilij Vasil’evič|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26950.html
+https://d-nb.info/gnd/118626574/|Vergil, Publius|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5849.html
+https://d-nb.info/gnd/118626620/|Verne, Jules|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10344.html
+https://d-nb.info/gnd/118804448/|Viebig, Clara|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10360.html
+https://d-nb.info/gnd/118768441/|Vigny, Alfred-Victor de|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26468.html
+https://d-nb.info/gnd/119240386/|Vildrac, Charles|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10367.html
+https://d-nb.info/gnd/118627813/|Voltaire, François-Marie|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3124.html
+https://d-nb.info/gnd/117450944/|Voss, Richard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13017.html
+https://d-nb.info/gnd/11674748X/|W. Fred|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2226.html
+https://d-nb.info/gnd/11877090X/|Waldau, Max|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10417.html
+https://d-nb.info/gnd/115359885/|Wasielewski, Wilhelm Joseph von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10442.html
+https://d-nb.info/gnd/118629387/|Wassermann, Jakob|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13055.html
+https://d-nb.info/gnd/118629867/|Wedekind, Frank|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13068.html
+https://d-nb.info/gnd/118630458/|Weiss, Ernst|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10478.html
+https://d-nb.info/gnd/118643266/|Wells, H. G.|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5815.html
+https://d-nb.info/gnd/11728484X/|Wenden, Henry|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26935.html
+https://d-nb.info/gnd/126283451/|Wengraf, Richard|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26944.html
+https://d-nb.info/gnd/118631373/|Werfel, Franz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13094.html
+https://d-nb.info/gnd/117306355/|Wertheimer, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2888.html
+https://d-nb.info/gnd/118807250/|Wilbrandt, Adolf von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5208.html
+https://d-nb.info/gnd/118632779/|Wilde, Oscar|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13115.html
+https://d-nb.info/gnd/118771760/|Wildenbruch, Ernst von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13118.html
+https://d-nb.info/gnd/118632841/|Wildgans, Anton|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13122.html
+https://d-nb.info/gnd/116259604/|Wilhelm, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb27150.html
+https://d-nb.info/gnd/1026263549/|Winter, Josef von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13129.html
+https://d-nb.info/gnd/117411973/|Wirth, Albrecht|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10564.html
+https://d-nb.info/gnd/118769553/|Wit, Ferdinand Johannes|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb27245.html
+https://d-nb.info/gnd/119429764/|Wittels, Fritz|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10574.html
+https://d-nb.info/gnd/1042460248/|Wład, Franciszek|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb27278.html
+https://d-nb.info/gnd/104298170/|Wolff, Ludwig|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13159.html
+https://d-nb.info/gnd/11889028X/|Wolzogen, Ernst von|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13169.html
+https://d-nb.info/gnd/1026235553/|Xanrof, Léon|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb27405.html
+https://d-nb.info/gnd/118996282/|Zahn, Ernst|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10639.html
+https://d-nb.info/gnd/11880829X/|Zapolska, Gabryela|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb27428.html
+https://d-nb.info/gnd/118772899/|Zifferer, Paul|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5156.html
+https://d-nb.info/gnd/118773100/|Zoff, Otto|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13191.html
+https://d-nb.info/gnd/118637223/|Zola, Émile|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13194.html
+https://d-nb.info/gnd/118637452/|Zweig, Arnold|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13208.html
+https://d-nb.info/gnd/118637479/|Zweig, Stefan|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13212.html
+https://d-nb.info/gnd/118668250/|Čapek, Karel|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13216.html
+https://d-nb.info/gnd/118638289/|Čechov, Anton Pavlovič|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3603.html
+https://d-nb.info/gnd/118666150/|Černyševskij, Nikolaj Gavrilovič|https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26220.html
