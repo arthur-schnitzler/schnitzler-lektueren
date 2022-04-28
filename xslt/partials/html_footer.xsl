@@ -86,7 +86,7 @@
         </div>
         <!-- #wrapper-footer-full -->
         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;" >
-            <a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum</a>
+            <a href="https://www.oeaw.ac.at/oeaw/impressum  ">Impressum</a>
         </div>
         <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script>

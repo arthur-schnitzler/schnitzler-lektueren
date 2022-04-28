@@ -30,9 +30,6 @@
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
                                 <h3>
-                                    <a>
-                                        <i class="fas fa-info" title="Info" data-toggle="modal" data-target="#exampleModal"/>
-                                    </a><xsl:text> | </xsl:text>
                                     <a href="{$teiSource}">
                                         <i class="fas fa-download" title="Download XML/TEI"/>
                                     </a>
@@ -64,7 +61,7 @@
                                                 <td>
                                                     <a>
                                                         <xsl:attribute name="href">
-                                                            <xsl:value-of select="concat($id, '.html')"/>
+                                                            <xsl:value-of select="concat($entry/@xml:id, '.html')"/>
                                                         </xsl:attribute>
                                                     <xsl:value-of select="$entry/tei:title[1]/text()"/>
                                                     </a>
