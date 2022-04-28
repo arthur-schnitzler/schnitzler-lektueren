@@ -30,7 +30,7 @@
                 "message":"This website uses cookies to ensure you get the best experience on our website",
                 "dismiss":"Got it!",
                 "learnMore":"More info",
-                "link":"imprint.html",
+                "link":"https://www.oeaw.ac.at/oeaw/impressum",
                 "theme":"dark-bottom"};
             </script>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
