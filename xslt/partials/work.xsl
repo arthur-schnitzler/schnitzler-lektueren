@@ -4,10 +4,10 @@
     xmlns:df="http://example.com/df" xmlns:mam="personalShit" version="2.0"
     exclude-result-prefixes="xsl tei xs">
     <xsl:param name="works"
-        select="document('https://raw.githubusercontent.com/acdh-oeaw/schnitzler-lektueren/master/data/indices/listwork.xml')"/>
+        select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
     <xsl:param name="konkordanz"
-        select="document('https://raw.githubusercontent.com/acdh-oeaw/schnitzler-lektueren/master/data/indices/konkordanz.xml')"/>
+        select="document('../../data/indices/konkordanz.xml')"/>
     <xsl:key name="konk-lookup" match="ref" use="@xml:id"/>
     <xsl:template match="tei:bibl" name="work_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
