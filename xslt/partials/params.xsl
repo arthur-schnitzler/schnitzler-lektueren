@@ -4,7 +4,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:param name="project_title">Arthur Schnitzler: Lektüren</xsl:param>
     <xsl:param name="project_short_title">Schnitzler Lektueren</xsl:param>
-    <xsl:param name="github_url">https://github.com/acdh-oeaw/schnitzler-lektueren</xsl:param>
+    <xsl:param name="github_url">https://github.com/arthur-schnitzler/schnitzler-lektueren</xsl:param>
     <xsl:param name="html_title">schnitzler-lektueren</xsl:param>
     <xsl:param name="project_logo">dist/fundament/images/fundament_logo.svg</xsl:param>
     <xsl:param name="base_url">https://schnitzler-lektueren.acdh.oeaw.ac.at</xsl:param>

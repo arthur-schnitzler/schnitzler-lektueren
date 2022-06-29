@@ -1,4 +1,4 @@
-[![Build and publish](https://github.com/acdh-oeaw/schnitzler-lektueren/actions/workflows/build.yml/badge.svg)](https://github.com/acdh-oeaw/schnitzler-lektueren/actions/workflows/build.yml)
+[![Build and publish](https://github.com/arthur-schnitzler/schnitzler-lektueren/actions/workflows/build.yml/badge.svg)](https://github.com/arthur-schnitzler/schnitzler-lektueren/actions/workflows/build.yml)
 
 # Schnitzler Lektüren
 http://schnitzler-lektueren.acdh.oeaw.ac.at
