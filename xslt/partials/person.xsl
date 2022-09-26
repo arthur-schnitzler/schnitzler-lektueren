@@ -74,7 +74,7 @@
                                                 <xsl:when test="@type = 'schnitzler-tagebuch'">
                                                   <xsl:text>tagebuch-button</xsl:text>
                                                 </xsl:when>
-                                                <xsl:when test="@type = 'bahrschnitzler'">
+                                                <xsl:when test="@type = 'schnitzler-bahr'">
                                                   <xsl:text>bahrschnitzler-button</xsl:text>
                                                 </xsl:when>
                                                 <xsl:otherwise>
@@ -321,12 +321,12 @@
                                                   <xsl:text>https://schnitzler-tagebuch.acdh.oeaw.ac.at/listwork.html</xsl:text>
                                                   </xsl:attribute>
                                                 </xsl:when>
-                                                <xsl:when test="@type = 'bahrschnitzler'">
+                                                <xsl:when test="@type = 'schnitzler-bahr'">
                                                   <xsl:attribute name="class">
                                                   <xsl:text>bahrschnitzler-workbutton</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="href">
-                                                  <xsl:text>https://bahrschnitzler.acdh.oeaw.ac.at/register.html?view-mode=1</xsl:text>
+                                                  <xsl:text>https://schnitzler-bahr.acdh.oeaw.ac.at/listwork.html</xsl:text>
                                                   </xsl:attribute>
                                                 </xsl:when>
                                                 <xsl:when test="@type = 'briefe_ii'">
@@ -398,7 +398,7 @@
                                                   <xsl:when test="@type = 'schnitzler-tagebuch'">
                                                   <xsl:text>tagebuch-workbutton</xsl:text>
                                                   </xsl:when>
-                                                  <xsl:when test="@type = 'bahrschnitzler'">
+                                                  <xsl:when test="@type = 'schnitzler-bahr'">
                                                   <xsl:text>bahrschnitzler-workbutton</xsl:text>
                                                   </xsl:when>
                                                   <xsl:when test="@type = 'pmb'">
@@ -609,12 +609,12 @@
                                                   <xsl:text>https://schnitzler-tagebuch.acdh.oeaw.ac.at/listwork.html</xsl:text>
                                                   </xsl:attribute>
                                                   </xsl:when>
-                                                  <xsl:when test="@type = 'bahrschnitzler'">
+                                                  <xsl:when test="@type = 'schnitzler-bahr'">
                                                   <xsl:attribute name="class">
                                                   <xsl:text>bahrschnitzler-workbutton</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="href">
-                                                  <xsl:text>https://bahrschnitzler.acdh.oeaw.ac.at/register.html?view-mode=1</xsl:text>
+                                                  <xsl:text>https://schnitzler-bahr.acdh.oeaw.ac.at/listwork.html</xsl:text>
                                                   </xsl:attribute>
                                                   </xsl:when>
                                                   <xsl:when test="@type = 'briefe_ii'">
@@ -686,7 +686,7 @@
                                                   <xsl:when test="@type = 'schnitzler-tagebuch'">
                                                   <xsl:text>tagebuch-workbutton</xsl:text>
                                                   </xsl:when>
-                                                  <xsl:when test="@type = 'bahrschnitzler'">
+                                                  <xsl:when test="@type = 'schnitzler-bahr'">
                                                   <xsl:text>bahrschnitzler-workbutton</xsl:text>
                                                   </xsl:when>
                                                   <xsl:when test="@type = 'pmb'">
@@ -784,7 +784,7 @@
             <xsl:when test="$typityp = 'gnd'">
                 <xsl:text> Wikipedia?</xsl:text>
             </xsl:when>
-            <xsl:when test="$typityp = 'bahrschnitzler'">
+            <xsl:when test="$typityp = 'schnitzler-bahr'">
                 <xsl:text> Bahr/Schnitzler</xsl:text>
             </xsl:when>
             <xsl:when test="$typityp = 'widmungDLA'">
