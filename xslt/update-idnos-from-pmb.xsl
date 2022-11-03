@@ -34,6 +34,10 @@
     
  <!-- holt werke neu. pubPlace, notes werden kopiert 
  
+ aus faulheit habe ich noch dieses suchen und ersetzen
+ auf das ergebnis gemacht, als das mit einem xslt zu korrigieren:
+ 
+ "person__" zu "pmb"
  
  -->
     

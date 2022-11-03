@@ -125,9 +125,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33624</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33624.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33624.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -140,9 +138,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33578</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33578.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33578.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -152,9 +148,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33604</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33604</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33604.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Unveröffentlichtes Werk &gt;&gt; Unveröffentlichtes dramatisches Werk</note>
                   <note>nicht veröffentlicht; im Tagebuch erwähnt am 12. August 1918</note>
                </bibl>
@@ -164,9 +158,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33606</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33606</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33606.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <note>nicht veröffentlicht; im Tagebuch erwähnt am 20. Juni 1915</note>
                </bibl>
@@ -243,9 +235,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30965</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30965.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30965.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -257,9 +247,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31539</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31539</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31539.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -278,9 +266,7 @@
                   <date notBefore-iso="1906-01-01" when-iso="1906-07-02">1906</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65602/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65602.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Gattungsunspezifisch</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -293,9 +279,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33686</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33686.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33686.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -317,9 +301,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78579/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78579.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78579.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählung</note>
                   <pubPlace>Stuttgart</pubPlace>
                </bibl>
@@ -383,9 +365,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32099</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31449.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31449.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_ii"/>
@@ -560,9 +540,7 @@
                   <date notBefore-iso="1849-01-01" when-iso="1849-07-02">1849</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/87234/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb87234.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählung</note>
                   <pubPlace>Mannheim</pubPlace>
                </bibl>
@@ -708,9 +686,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31707.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31707</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31707.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Zürich</pubPlace>
                </bibl>
@@ -721,9 +697,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31991.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31991</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31991.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -734,9 +708,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32244.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32244</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32244.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Zürich</pubPlace>
                </bibl>
@@ -748,9 +720,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30963</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30963</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30963.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -763,9 +733,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30175</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30175.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30175.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Reisebericht</note>
                   <pubPlace>Dresden</pubPlace>
                </bibl>
@@ -776,9 +744,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32440.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32440</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32440.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Textsammlung</note>
                   <pubPlace>Zürich</pubPlace>
                </bibl>
@@ -789,9 +755,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31275.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31275</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31275.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Textsammlung</note>
                   <pubPlace>Frankfurt am Main</pubPlace>
                </bibl>
@@ -803,9 +767,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31945</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31945</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31945.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Textsammlung</note>
                   <pubPlace>Dresden</pubPlace>
                </bibl>
@@ -817,9 +779,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32246</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32246</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32246.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -841,9 +801,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31999</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31999</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31999.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="widmungDLA"/>
@@ -857,9 +815,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29947</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29947</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb29947.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -872,9 +828,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29881</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb29881.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29881.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>München</pubPlace>
                </bibl>
@@ -886,9 +840,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29851</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29851</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb29851.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -901,9 +853,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29901</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb29901.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29901.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="widmungDLA"/>
@@ -1104,9 +1054,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32832</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32832</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32832.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -1121,9 +1069,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31535</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31535.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31535.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählung</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_i"/>
@@ -1139,9 +1085,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30233</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30233.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30233.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_i"/>
@@ -1362,9 +1306,7 @@
                   <author key="pmb10931" role="hat-geschaffen">Billiter, Jean</author>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65414/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65414.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Unveröffentlichtes Werk</note>
                   <note>nicht veröffentlicht; im Tagebuch erwähnt am 8. Juli 1919</note>
                   <note>vgl. Briefwechsel im Deutschen Literaturarchiv Marbach, A:Schnitzler
@@ -1449,9 +1391,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32103</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32103.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32103.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_ii"/>
@@ -1474,9 +1414,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30329</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30329.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30329.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie &gt;&gt; Autobiografie</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -1604,9 +1542,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31319</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31319.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31319.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_i"/>
@@ -1622,9 +1558,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31545</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31545.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31545.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie</note>
                   <pubPlace>Leipzig</pubPlace>
                   <ref type="widmungDLA"/>
@@ -1693,9 +1627,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31977</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31977.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31977.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Geschichtswerk</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_i"/>
@@ -1781,9 +1713,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59454/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb59454.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59454.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Wissenschaftliches Werk</note>
                   <pubPlace>Basel</pubPlace>
                   <ref type="briefe_i"/>
@@ -1797,9 +1727,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33674</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33674</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33674.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Fachliteratur</note>
                   <pubPlace>Basel</pubPlace>
                   <ref type="briefe_i"/>
@@ -1813,9 +1741,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29965</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29965</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb29965.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Stuttgart</pubPlace>
                   <ref type="widmungDLA"/>
@@ -1840,9 +1766,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb48430</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb48430.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb48430.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Wien</pubPlace>
                   <ref type="widmungDLA"/>
@@ -1884,9 +1808,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30289</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30289.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30289.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Salzburg</pubPlace>
                   <ref type="widmungDLA"/>
@@ -1913,9 +1835,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30673</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30673.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30673.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -2523,9 +2443,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41344</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb41344.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41344.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -2538,9 +2456,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32258</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32258.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32258.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -2551,9 +2467,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33127</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33127.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33127.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -2583,9 +2497,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31899</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31899.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31899.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -3138,9 +3050,7 @@
                   <date notBefore-iso="1901-01-01" when-iso="1901-07-02">1901</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33141</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33141.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -3279,9 +3189,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61767/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61767.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61767.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Textsammlung</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -3293,9 +3201,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43467</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb43467.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43467.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -3654,9 +3560,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58658/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb58658.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb58658.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Wissenschaftliches Werk</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -3717,9 +3621,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30829</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30829.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30829.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie</note>
                   <pubPlace>Wien</pubPlace>
                   <pubPlace>[u. a.]</pubPlace>
@@ -4107,9 +4009,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61800/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61800.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61800.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Einakter</note>
                   <pubPlace>Dresden</pubPlace>
                </bibl>
@@ -4643,9 +4543,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61781/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61781.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61781.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Dresden</pubPlace>
                   <pubPlace>Leipzig</pubPlace>
@@ -5087,9 +4985,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb62256.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb62256.html</idno>
                   <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb62256</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="5">legalkraus</bibl>
-                  </note>
+                  
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_ii"/>
                   <idno type="briefe_ii"/>
@@ -5208,9 +5104,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78918/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78918.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78918.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -5457,9 +5351,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39748</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb39748</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb39748.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -5724,9 +5616,7 @@
                   <date from-iso="1887-01-01" to-iso="1887-12-31">1887  – 1887</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/76657/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb76657.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <pubPlace>Stuttgart</pubPlace>
@@ -5957,10 +5847,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33187.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33187.html</idno>
                   <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb33187</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                     <bibl type="collections" n="5">legalkraus</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -6002,9 +5889,7 @@
                   <date from-iso="1898-01-01" to-iso="1898-12-31">1898  – 1898</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/76544/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb76544.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -6016,9 +5901,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33598</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33598.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33598.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_ii"/>
@@ -6043,9 +5926,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31983.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31983.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1213243</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <note>1. Teil: Diana. 2. Teil: Minerva. 3. Teil: Venus</note>
                   <pubPlace>München</pubPlace>
@@ -6059,9 +5940,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31981</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31981.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31981.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>München</pubPlace>
                </bibl>
@@ -6105,9 +5984,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33590</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33590.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33590.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -6229,9 +6106,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43133</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43133</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb43133.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählung</note>
                   <note>Fortsetzung von: Die letzte Pflicht, 1893</note>
                   <pubPlace>Berlin</pubPlace>
@@ -6384,9 +6259,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39734</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb39734</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb39734.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählsammlung</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -6451,9 +6324,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/55822/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb55822.html</idno>
                   <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/werke/pmb55822</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="5">legalkraus</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>München</pubPlace>
                </bibl>
@@ -6771,9 +6642,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33063</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33063.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33063.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Essay</note>
                   <pubPlace>Zürich</pubPlace>
                </bibl>
@@ -7167,9 +7036,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31589</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31589.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31589.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -7373,9 +7240,7 @@
                   <date from-iso="1877-01-01" to-iso="1877-12-31">1877  – 1877</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78153/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78153.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Heidelberg</pubPlace>
                </bibl>
@@ -7398,9 +7263,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78156/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78156.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118183/</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Heidelberg</pubPlace>
                </bibl>
@@ -7422,9 +7285,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78152/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78152.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78152.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -7588,9 +7449,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30855</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30855.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30855.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -8084,9 +7943,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33229</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33229.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33229.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Sachbuch</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -8202,9 +8059,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32087</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32087.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32087.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                   <pubPlace>Leipzig</pubPlace>
@@ -8219,9 +8074,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30873</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30873.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30873.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -8432,9 +8285,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30677</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30677.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30677.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -8552,9 +8403,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32402.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32402</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32402.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Dresden</pubPlace>
                </bibl>
@@ -8565,9 +8414,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31649.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31649</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31649.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Dresden</pubPlace>
                </bibl>
@@ -8579,9 +8426,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31645</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31645.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31645.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählsammlung</note>
                   <pubPlace>Dresden</pubPlace>
                </bibl>
@@ -8740,9 +8585,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33626</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33626</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33626.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Brief &gt;&gt; Briefe &gt;&gt; Briefausgabe</note>
                   <pubPlace>Wien</pubPlace>
                </bibl>
@@ -8893,9 +8736,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79197/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79197.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79197.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie</note>
                   <pubPlace>Dresden</pubPlace>
                </bibl>
@@ -8906,9 +8747,7 @@
                   <date from-iso="1906-01-01" to-iso="1906-12-31">1906  – 1906</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79198/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79198.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -9088,9 +8927,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32091</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32091.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32091.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Epik &gt;&gt; Epos</note>
                   <pubPlace>Leipzig</pubPlace>
                   <ref type="briefe_ii"/>
@@ -9349,9 +9186,7 @@
                   <idno type="URL" subtype="exemplar">http://www.gutenberg.org/ebooks/38686</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33716</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33716.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Berlin</pubPlace>
                </bibl>
@@ -9362,9 +9197,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32532.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32532</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32532.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Novellensammlung</note>
                   <pubPlace>Leipzig</pubPlace>
                </bibl>
@@ -9714,9 +9547,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33344</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33344.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33344.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Brief &gt;&gt; Briefe &gt;&gt; Briefausgabe</note>
                   <pubPlace>Paris</pubPlace>
                   <ref type="briefe_i"/>
@@ -10082,9 +9913,7 @@
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31785.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31785</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31785.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Gattungsunspezifisch</note>
                   <pubPlace>Paris</pubPlace>
                   <ref type="briefe_i"/>
@@ -10581,9 +10410,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79239/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79239.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79239.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Dresden</pubPlace>
                   <relatedItem source="original" target="#pmb79311"/>
@@ -10595,9 +10422,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79311/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79311.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q19231273</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79309">
@@ -10638,9 +10463,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31657</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31657.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31657.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <note>Zwei Bände.</note>
                   <pubPlace>Paris</pubPlace>
@@ -10844,9 +10667,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31493</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31493.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31493.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Paris</pubPlace>
                   <ref type="briefe_i"/>
@@ -11036,9 +10857,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/77801/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb77801.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77801.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Paris</pubPlace>
                </bibl>
@@ -11207,9 +11026,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30467</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30467.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30467.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Tagebuch</note>
                   <pubPlace>Paris</pubPlace>
                </bibl>
@@ -11698,9 +11515,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30865</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30865.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30865.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Geschichtswerk</note>
                   <pubPlace>Paris</pubPlace>
                </bibl>
@@ -11732,9 +11547,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79382/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79382.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79382.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79380">
@@ -12398,9 +12211,7 @@
                   <date notBefore-iso="1925-01-01" when-iso="1925-07-02">1925</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/87237/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb87237.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>München</pubPlace>
                   <ref type="briefe_i"/>
@@ -12417,9 +12228,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31509.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31509.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q639990</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb79423">
@@ -12596,9 +12405,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31697</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31697.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31697.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79441">
@@ -13394,9 +13201,7 @@
                   <date from-iso="1889-01-01" to-iso="1889-12-31">1889  – 1889</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79516/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79516.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <pubPlace>Paris</pubPlace>
                </bibl>
                <bibl xml:id="pmb79517">
@@ -13756,9 +13561,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32892.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32892.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1138346</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77625">
@@ -13885,9 +13688,7 @@
                   <date from-iso="1910-01-01" to-iso="1910-12-31">1910  – 1910</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78005/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78005.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Paris</pubPlace>
                   <ref type="briefe_i"/>
@@ -13902,9 +13703,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78004.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78004.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q3819366</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78006">
@@ -13933,9 +13732,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33283</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33283</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33283.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <ref type="briefe_i"/>
@@ -14305,9 +14102,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33720</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33720.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33720.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama</note>
                   <pubPlace>Wien</pubPlace>
                   <relatedItem source="original" target="#pmb77246"/>
@@ -14362,9 +14157,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb42941</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb42941.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb42941.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Berlin</pubPlace>
                   <relatedItem source="original" target="#pmb77239"/>
@@ -14894,9 +14687,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33610</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33610.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33610.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <relatedItem source="original" target="#pmb77372"/>
@@ -15835,9 +15626,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33554</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33554.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1149498</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Einakter</note>
                </bibl>
                <bibl xml:id="pmb76966">
@@ -16152,9 +15941,7 @@
                   <date notBefore-iso="1895-01-01" when-iso="1895-07-02">1895</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58077/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb58077.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Charlottenburg</pubPlace>
                   <relatedItem source="original" target="#pmb79755"/>
@@ -16656,9 +16443,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30243</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30243.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30243.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <relatedItem source="original" target="#pmb78282"/>
@@ -16884,9 +16669,7 @@
                   <date notBefore-iso="1907-01-01" when-iso="1907-07-02">1907</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/87241/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb87241.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählung</note>
                   <pubPlace>München</pubPlace>
                   <relatedItem source="original" target="#pmb30331"/>
@@ -16899,9 +16682,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30331</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30331.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30331.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb79803">
@@ -17232,9 +17013,7 @@
                   <date from-iso="1893-01-01" to-iso="1893-12-31">1893  – 1893</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79844/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79844.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <relatedItem source="original" target="#pmb79847"/>
@@ -17430,9 +17209,7 @@
                   <date from-iso="1894-01-01" to-iso="1894-12-31">1894  – 1894</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78039/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78039.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Köln</pubPlace>
                   <relatedItem source="original" target="#pmb78040"/>
@@ -17487,9 +17264,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78041/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78041.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78041.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Köln</pubPlace>
                   <relatedItem source="original" target="#pmb78042"/>
@@ -17509,9 +17284,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78022/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78022.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78022.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>München</pubPlace>
                   <relatedItem source="original" target="#pmb78023"/>
@@ -17524,9 +17297,7 @@
                   <date from-iso="1909-01-01" to-iso="1909-12-31">1909  – 1909</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78023/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78023.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78045">
@@ -17830,9 +17601,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78065/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78065.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78065.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <relatedItem source="original" target="#pmb78066"/>
@@ -17843,9 +17612,7 @@
                   <date from-iso="1904-01-01" to-iso="1904-12-31">1904  – 1904</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78066/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78066.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78060">
@@ -18264,9 +18031,7 @@
                   <date from-iso="1900-01-01" to-iso="1900-12-31">1900  – 1900</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/76680/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb76680.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <pubPlace>Wien</pubPlace>
                   <relatedItem source="original" target="#pmb33235"/>
                </bibl>
@@ -18276,9 +18041,7 @@
                   <date notBefore-iso="1895-01-01" when-iso="1895-07-02">1895</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33235</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33235.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76682">
@@ -18437,9 +18200,7 @@
                   <date notBefore-iso="1890-01-01" when-iso="1890-07-02">1890</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33231</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33231.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählsammlung</note>
                   <pubPlace>Stuttgart</pubPlace>
                   <relatedItem source="original" target="#pmb79927"/>
@@ -18576,9 +18337,7 @@
                   <date from-iso="1899-01-01" to-iso="1899-12-31">1899  – 1899</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79938/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79938.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Erzählsammlung</note>
                   <pubPlace>Leipzig</pubPlace>
                   <note>Autorisierte Übersetzung</note>
@@ -19364,9 +19123,7 @@
                   <date from-iso="1804-01-01" to-iso="1804-12-31">1804  – 1804</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79967/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79967.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Musikstück &gt;&gt; Singspiel</note>
                   <note>Vielleicht Verwechslung mit diesem Titel.</note>
                   <pubPlace>Wien</pubPlace>
@@ -19736,9 +19493,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/77383/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb77383.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77383.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <relatedItem source="original" target="#pmb77384"/>
@@ -19751,9 +19506,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/77384/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb77384.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q147787</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb34996">
@@ -19766,9 +19519,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb34996.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34996.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q161531</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Roman</note>
                   <pubPlace>Berlin</pubPlace>
                   <relatedItem source="original" target="#pmb77401"/>
@@ -19788,9 +19539,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb59336.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59336.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1462653</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Biografie &gt;&gt; Autobiografie</note>
                   <pubPlace>Berlin</pubPlace>
                   <relatedItem source="original" target="#pmb77387"/>
@@ -19877,9 +19626,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb59342.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59342.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q477823</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Leipzig</pubPlace>
                   <relatedItem source="original" target="#pmb77290"/>
@@ -19975,9 +19722,7 @@
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb59338.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59338.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q753298</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <pubPlace>Leipzig</pubPlace>
                   <ref type="briefe_i"/>
@@ -20633,9 +20378,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65381/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65381.html</idno>
                   <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1233770</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                   <relatedItem source="original" target="#pmb65384"/>
                </bibl>
@@ -20645,9 +20388,7 @@
                   <date>408 v.u.Z.&lt;0001-01-01&gt;  – 406 v.u.Z.&lt;0001-01-01&gt;</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65384/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65384.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="8">manually created entity</bibl>
-                  </note>
+                  
                   <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb80060">
