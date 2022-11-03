@@ -43,7 +43,7 @@
                <monogr>
                   <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
                      Bibliothek</title>
-                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <idno type="obsolet-schnitzler-lektueren" n="978-3-89913-978-5"/>
                   <editor role="hrsg">
                      <persName>
                         <forename>Achim</forename>
@@ -87,7 +87,7 @@
                <hi rend="manual">Polen..</hi> Czechen..</head>
             <div xml:id="div_P1">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P1"/>Fredro ... Dr. Müller / Mentor</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P1"/>Fredro ... Dr. Müller / Mentor</p>
                <note xml:id="ad_P1">
                   <listPerson>
                      <person xml:id="pmb65055">
@@ -98,7 +98,7 @@
             </div>
             <div xml:id="div_P2">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P2"/>Kraczewski …. Dämon / alte und neue
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P2"/>Kraczewski …. Dämon / alte und neue
                   Zeit / ohne Herz /</p>
                <note xml:id="ad_P2">
                   <listPerson>
@@ -110,7 +110,7 @@
             </div>
             <div xml:id="div_P3">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P3"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P3"/>
                   <hi rend="manual">
                      <hi rend="underline">Capek</hi> ..</hi>
                   <space unit="chars" quantity="1"/>
@@ -126,7 +126,7 @@
             </div>
             <div xml:id="div_P4">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P4"/>Mikiewicz ..</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P4"/>Mikiewicz ..</p>
                <note xml:id="ad_P4">
                   <listPerson>
                      <person xml:id="pmb65057">
@@ -137,7 +137,7 @@
             </div>
             <div xml:id="div_P5">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P5"/>Polonski ... Ehrlicher Kauz /</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P5"/>Polonski ... Ehrlicher Kauz /</p>
                <note xml:id="ad_P5">
                   <listPerson>
                      <person xml:id="pmb65058">
@@ -148,7 +148,7 @@
             </div>
             <div xml:id="div_P6">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P6"/>Simirazki .... Zersplittert</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P6"/>Simirazki .... Zersplittert</p>
                <note xml:id="ad_P6">
                   <listPerson>
                      <person xml:id="pmb65059">
@@ -160,7 +160,7 @@
             </div>
             <div xml:id="div_P7">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P7"/>Sienkiewicz … Dorfgeschichten / Der
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P7"/>Sienkiewicz … Dorfgeschichten / Der
                   Dritte / Lux / Bartel /</p>
                <note xml:id="ad_P7">
                   <listPerson>
@@ -172,7 +172,7 @@
             </div>
             <div xml:id="div_P8">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P8"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P8"/>
                   <hi rend="manual">Weyssenhoff,</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Podfilipski</hi>
@@ -187,7 +187,7 @@
             </div>
             <div xml:id="div_P9">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="P9"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="P9"/>
                   <hi rend="manual">Zapolska .. Hölle</hi> /</p>
                <note xml:id="ad_P9">
                   <listPerson>
