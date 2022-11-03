@@ -149,14 +149,14 @@
                 </xsl:if>
             </div>
             <div class="werke">
-                <xsl:if test="key('authorwork-lookup', concat('#', ./@xml:id), $works)[1]">
+                <xsl:if test="key('authorwork-lookup', @xml:id, $works)[1]">
                     <h2>Werke</h2>
                 </xsl:if>
                 <p/>
                 <ul class="dashed">
                     <xsl:variable name="author-ref" select="./@xml:id"/>
                     <xsl:for-each
-                        select="key('authorwork-lookup', concat('#', ./@xml:id), $works)[not(tei:relatedItem)]">
+                        select="key('authorwork-lookup', @xml:id, $works)[not(tei:relatedItem)]">
                         <li>
                             <xsl:if test="tei:author[2]">
                                 <xsl:text>(mit </xsl:text>
@@ -436,10 +436,10 @@
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
                             </xsl:for-each>
-                            <xsl:if test="key('work-lookup', concat('#', @xml:id), $works)">
+                            <xsl:if test="key('work-lookup', @xml:id, $works)">
                                 <ul class="dashed">
                                     <xsl:for-each
-                                        select="key('work-lookup', concat('#', @xml:id), $works)">
+                                        select="key('work-lookup', @xml:id, $works)">
                                         <li>
                                             <xsl:if test="tei:author[2]">
                                                 <xsl:text>(mit </xsl:text>
