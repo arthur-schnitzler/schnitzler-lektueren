@@ -43,7 +43,7 @@
                <monogr>
                   <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
                      Bibliothek</title>
-                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <idno type="obsolet-schnitzler-lektueren" n="978-3-89913-978-5"/>
                   <editor role="hrsg">
                      <persName>
                         <forename>Achim</forename>
@@ -89,7 +89,7 @@
             </head>
             <div xml:id="div_R1">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R1"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R1"/>
                   <hi rend="manual">
                      <hi rend="underline">Andrejew</hi> ... d Gedanke /</hi>
                </p>
@@ -103,7 +103,7 @@
             </div>
             <div xml:id="div_R2">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R2"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R2"/>
                   <hi rend="underline">Baranzewitez</hi> .... Sklavin /</p>
                <note xml:id="ad_R2">
                   <listPerson>
@@ -115,7 +115,7 @@
             </div>
             <div xml:id="div_R3">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R3"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R3"/>
                   <hi rend="manual">
                      <hi rend="underline">Bucharin.</hi>
                   </hi>
@@ -132,7 +132,7 @@
             </div>
             <div xml:id="div_R4">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R4"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R4"/>
                   <hi rend="underline">Danilowski</hi> ... Familienchronik</p>
                <note xml:id="ad_R4">
                   <listPerson>
@@ -144,7 +144,7 @@
             </div>
             <div xml:id="div_R5">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R5"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R5"/>
                   <hi rend="underline">Dazenko</hi> ... Unter der Erde / Jona</p>
                <note xml:id="ad_R5">
                   <listPerson>
@@ -156,7 +156,7 @@
             </div>
             <div xml:id="div_R6">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R6"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R6"/>
                   <hi rend="underline">Dostojewski</hi> ... Raskolnikoff / Novellen / Nachwuchs /
                   Aus dem toten Haus / Totes Herz / Doppelgänger / Idiot / Hahnrei / Spieler /
                   Nettchen / Onkels Traum / Erniedrigte / Eifersüchtige / Krotkaja <hi rend="manual"
@@ -173,7 +173,7 @@
             </div>
             <div xml:id="div_R7">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R7"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R7"/>
                   <hi rend="manual">
                      <hi rend="underline">Dymow</hi>. Nju / Wlass /</hi>
                </p>
@@ -187,7 +187,7 @@
             </div>
             <div xml:id="div_R8">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R8"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R8"/>
                   <hi rend="underline">Gogol</hi> ... Revisor / Tote Seelen / Mondnacht / Taras
                   Bulba / <hi rend="manual">Heiratsgesch /</hi>
                </p>
@@ -201,7 +201,7 @@
             </div>
             <div xml:id="div_R9">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R9"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R9"/>
                   <hi rend="underline">Garschin</hi> ... Novellen / Gon</p>
                <note xml:id="ad_R9">
                   <listPerson>
@@ -213,7 +213,7 @@
             </div>
             <div xml:id="div_R10">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R10"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R10"/>
                   <hi rend="underline">Gonscharow</hi> ... Abgrund / Oblomow</p>
                <note xml:id="ad_R10">
                   <listPerson>
@@ -225,7 +225,7 @@
             </div>
             <div xml:id="div_R11">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R11"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R11"/>
                   <hi rend="underline">Gorki</hi> ... Fama / Warenko / Bilger / Verlorene Leute /
                   Aus Langeweile /</p>
                <note xml:id="ad_R11">
@@ -238,7 +238,7 @@
             </div>
             <div xml:id="div_R12">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R12"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R12"/>
                   <hi rend="underline">Herzen</hi>... Wer ist schuld /</p>
                <note xml:id="ad_R12">
                   <listPerson>
@@ -250,7 +250,7 @@
             </div>
             <div xml:id="div_R13">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R13"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R13"/>
                   <hi rend="manual">
                      <hi rend="underline">Juschkewitsch</hi> ein Judenstreich /</hi>
                </p>
@@ -260,7 +260,7 @@
             </div>
             <div xml:id="div_R14">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R14"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R14"/>
                   <hi rend="underline">Korolenko</hi> ... Der blinde Musiker /</p>
                <note xml:id="ad_R14">
                   <listPerson>
@@ -272,7 +272,7 @@
             </div>
             <div xml:id="div_R15">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R15"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R15"/>
                   <hi rend="manual">
                      <hi rend="underline">Kuprin</hi> ...</hi>
                   <space unit="chars" quantity="1"/>
@@ -288,7 +288,7 @@
             </div>
             <div xml:id="div_R16">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R16"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R16"/>
                   <hi rend="underline">Lermontow</hi> .... Held unserer Zeit</p>
                <note xml:id="ad_R16">
                   <listPerson>
@@ -300,7 +300,7 @@
             </div>
             <div xml:id="div_R17">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R17"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R17"/>
                   <hi rend="manual">
                      <hi rend="underline">Ljeskow</hi> ...</hi>
                   <space unit="chars" quantity="1"/>
@@ -317,7 +317,7 @@
             </div>
             <div xml:id="div_R18">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R18"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R18"/>
                   <hi rend="underline">Markewicz</hi> ... Olga /</p>
                <note xml:id="ad_R18">
                   <listPerson>
@@ -329,7 +329,7 @@
             </div>
             <div xml:id="div_R19">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R19"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R19"/>
                   <hi rend="underline">Marlinski</hi> ... Erzählungen /</p>
                <note xml:id="ad_R19">
                   <listPerson>
@@ -341,7 +341,7 @@
             </div>
             <div xml:id="div_R20">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R20"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R20"/>
                   <hi rend="underline">Metscherski</hi> ... Fr Petersburg / G.. / Gré
                   Missverständnisse / Realisten / Kursistin / Lukarow /</p>
                <note xml:id="ad_R20">
@@ -354,7 +354,7 @@
             </div>
             <div xml:id="div_R21">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R21"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R21"/>
                   <hi rend="underline">Michailow</hi> ... Alte Nester /</p>
                <note xml:id="ad_R21">
                   <listPerson>
@@ -366,7 +366,7 @@
             </div>
             <div xml:id="div_R22">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R22"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R22"/>
                   <hi rend="underline">Mikulicz</hi> ... Mimi /</p>
                <note xml:id="ad_R22">
                   <listPerson>
@@ -378,7 +378,7 @@
             </div>
             <div xml:id="div_R23">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R23"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R23"/>
                   <hi rend="manual">
                      <hi rend="underline">Panin</hi> Dunkle Stunde</hi>
                </p>
@@ -392,7 +392,7 @@
             </div>
             <div xml:id="div_R24">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R24"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R24"/>
                   <hi rend="underline">Pisemski</hi> ... Im Strudel / Tausend Seelen /</p>
                <note xml:id="ad_R24">
                   <listPerson>
@@ -404,7 +404,7 @@
             </div>
             <div xml:id="div_R25">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R25"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R25"/>
                   <hi rend="underline">
                      <hi rend="manual">P</hi>otjechin</hi> ... Schlinge</p>
                <note xml:id="ad_R25">
@@ -417,7 +417,7 @@
             </div>
             <div xml:id="div_R26">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R26"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R26"/>
                   <hi rend="underline">Puschkin</hi> ...</p>
                <note xml:id="ad_R26">
                   <listPerson>
@@ -429,7 +429,7 @@
             </div>
             <div xml:id="div_R27">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R27"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R27"/>
                   <hi rend="underline">Sanjekowicz</hi> ... Opfer /</p>
                <note xml:id="ad_R27">
                   <listPerson>
@@ -441,7 +441,7 @@
             </div>
             <div xml:id="div_R28">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R28"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R28"/>
                   <hi rend="underline">Sologu<hi rend="manual">b</hi>
                   </hi> ... Vornehme Welt / Schatten /</p>
                <note xml:id="ad_R28_1">
@@ -461,7 +461,7 @@
             </div>
             <div xml:id="div_R29">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R29"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R29"/>
                   <hi rend="underline">Tolstoi</hi> ... <hi rend="manual">Nov / Ann Kar / Krieg u Fr
                      / Lebenstufen</hi>
                </p>
@@ -475,7 +475,7 @@
             </div>
             <div xml:id="div_R30">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R30"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R30"/>
                   <hi rend="underline">Tschechow</hi> ... Dämmerung / Starjer Tabak / Ja die
                   Frauenzimmer / Drei Schwestern / Möve / Schatten des Todes / Gottgefälliges Haus /
                      <hi rend="manual">Kätzchen / Wanja / Liebe / Zweikampf /</hi>
@@ -490,7 +490,7 @@
             </div>
             <div xml:id="div_R31">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R31"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R31"/>
                   <hi rend="underline">Tscherniewski</hi> ... <hi rend="manual">Was thun</hi>
                </p>
                <note xml:id="ad_R31">
@@ -503,7 +503,7 @@
             </div>
             <div xml:id="div_R32">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R32"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R32"/>
                   <hi rend="underline">Turgeniew</hi> ... Unglückliche / Erste Liebe / Ueberflüssige
                   / Faust / Adeliges Nest / Neue Generation / Rauch <supplied>/</supplied> Väter und
                   Söhne / Punin / Lear / Frülingswogen / Lukeria / Raufbold / Milicz / Vison
@@ -519,7 +519,7 @@
             </div>
             <div xml:id="div_R33">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R33"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R33"/>
                   <hi rend="strikethrough">
                      <hi rend="manual">Weyssenhoff,</hi>
                      <space unit="chars" quantity="1"/>
@@ -532,7 +532,7 @@
             </div>
             <div xml:id="div_R34">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="R34"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="R34"/>
                   <hi rend="manual">
                      <hi rend="underline">Wereschagin</hi> ...</hi>
                   <space unit="chars" quantity="1"/>

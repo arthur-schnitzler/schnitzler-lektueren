@@ -43,7 +43,7 @@
                <monogr>
                   <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
                      Bibliothek</title>
-                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <idno type="obsolet-schnitzler-lektueren" n="978-3-89913-978-5"/>
                   <editor role="hrsg">
                      <persName>
                         <forename>Achim</forename>
@@ -88,7 +88,7 @@
             </head>
             <div xml:id="div_E1">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E1"/>Alarcon .... Segovia /
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E1"/>Alarcon .... Segovia /
                   Dreispitz</p>
                <note xml:id="ad_E1_1">
                   <listPerson>
@@ -107,7 +107,7 @@
             </div>
             <div xml:id="div_E2">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E2"/>Calderon .... Belsazar / Leben
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E2"/>Calderon .... Belsazar / Leben
                   Traum.. / Gomez / Stilles wasser / Zalamea / Andacht / Zwischenspiele</p>
                <note xml:id="ad_E2">
                   <listPerson>
@@ -119,7 +119,7 @@
             </div>
             <div xml:id="div_E3">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E3"/>Cervantes</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E3"/>Cervantes</p>
                <note xml:id="ad_E3">
                   <listPerson>
                      <person xml:id="pmb2980">
@@ -130,7 +130,7 @@
             </div>
             <div xml:id="div_E4">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E4"/>Echegarai .. Wahnsinn oder <hi
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E4"/>Echegarai .. Wahnsinn oder <hi
                      rend="manual">H</hi>eiligkeit / lustiges Leben / <hi rend="manual">schlimme
                      Erbschaft</hi>
                </p>
@@ -144,7 +144,7 @@
             </div>
             <div xml:id="div_E5">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E5"/>Lope ..... Vamba / Blumen des Don
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E5"/>Lope ..... Vamba / Blumen des Don
                   Juan / Faccardo / Toledanerin / Colombo / Di ... Verschmähte Schöne / Kerker von
                   Sevilla / Pont. / Alfarasa / Schädenheiler <supplied>/</supplied> Hexe / Raub der
                   Helena / Halsabschneider</p>
@@ -158,7 +158,7 @@
             </div>
             <div xml:id="div_E6">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E6"/> Moreto ... Diana /
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E6"/> Moreto ... Diana /
                   Gerichtsherr</p>
                <note xml:id="ad_E6">
                   <listPerson>
@@ -170,7 +170,7 @@
             </div>
             <div xml:id="div_E7">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E7"/>Mendoza ... Lazarus</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E7"/>Mendoza ... Lazarus</p>
                <note xml:id="ad_E7">
                   <listPerson>
                      <person xml:id="pmb65020">
@@ -181,7 +181,7 @@
             </div>
             <div xml:id="div_E8">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E8"/> Telez ... Der Fäher von Sevilla /
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E8"/> Telez ... Der Fäher von Sevilla /
                   Marta.</p>
                <note xml:id="ad_E8">
                   <listPerson>
@@ -193,7 +193,7 @@
             </div>
             <div xml:id="div_E9">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E9"/> Valera ... Faustina / Simenez </p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E9"/> Valera ... Faustina / Simenez </p>
                <note xml:id="ad_E9">
                   <listPerson>
                      <person xml:id="pmb65022">
@@ -204,7 +204,7 @@
             </div>
             <div xml:id="div_E10">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="E10"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="E10"/>
                   <hi rend="manual">
                      <hi rend="underline">Queiros</hi> Reliquie.</hi>
                </p>

@@ -42,7 +42,7 @@
                <monogr>
                   <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
                      Bibliothek</title>
-                  <idno type="schnitzler-lektueren">schnitzler-lektueren/</idno>
+                  <idno type="obsolet-schnitzler-lektueren">schnitzler-lektueren/</idno>
                   <author>
                      <persName>
                         <forename>Arthur</forename>
@@ -95,7 +95,7 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13820</idno>
                   <idno type="schnitzler-bahr"
                      >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10969.html</idno>
-                  <idno type="schnitzler-lektueren">https://schnitzler-lektueren/D49_V1</idno>
+                  <idno type="obsolet-schnitzler-lektueren">https://schnitzler-lektueren/D49_V1</idno>
                </person>
                <person xml:id="pmb6510">
                   <tei:persName>
@@ -111,7 +111,7 @@
                   <idno type="gnd">https://d-nb.info/gnd/1162600888/</idno>
                   <idno type="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14075</idno>
-                  <idno type="schnitzler-lektueren">https://schnitzler-lektueren/D70_V1</idno>
+                  <idno type="obsolet-schnitzler-lektueren">https://schnitzler-lektueren/D70_V1</idno>
                </person>
                <person xml:id="pmb19536">
                   <tei:persName>
@@ -127,7 +127,7 @@
                   <idno type="gnd">https://d-nb.info/gnd/1047032988/</idno>
                   <idno type="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17011</idno>
-                  <idno type="schnitzler-lektueren">https://schnitzler-lektueren/D255_V1</idno>
+                  <idno type="obsolet-schnitzler-lektueren">https://schnitzler-lektueren/D255_V1</idno>
                </person>
             </tei:listPerson>
          </tei:div>

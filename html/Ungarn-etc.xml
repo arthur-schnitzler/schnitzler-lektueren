@@ -43,7 +43,7 @@
                <monogr>
                   <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
                      Bibliothek</title>
-                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <idno type="obsolet-schnitzler-lektueren" n="978-3-89913-978-5"/>
                   <editor role="hrsg">
                      <persName>
                         <forename>Achim</forename>
@@ -90,7 +90,7 @@
             </head>
             <div xml:id="div_U1">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U1"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U1"/>
                   <hi rend="manual">Biro ....</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Flirt /</hi>
@@ -105,7 +105,7 @@
             </div>
             <div xml:id="div_U2">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U2"/>Drügaski ... Kroatische
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U2"/>Drügaski ... Kroatische
                   Novellen</p>
                <note xml:id="ad_U2">
                   <note>nicht ermittelt</note>
@@ -113,7 +113,7 @@
             </div>
             <div xml:id="div_U3">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U3"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U3"/>
                   <hi rend="manual">Eet</hi>vos ... Dorfnotar</p>
                <note xml:id="ad_U3">
                   <listPerson>
@@ -125,7 +125,7 @@
             </div>
             <div xml:id="div_U4">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U4"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U4"/>
                   <hi rend="manual">Hegedues</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">..</hi>
@@ -142,7 +142,7 @@
             </div>
             <div xml:id="div_U5">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U5"/>Herczeg ... Sumpfblume /</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U5"/>Herczeg ... Sumpfblume /</p>
                <note xml:id="ad_U5">
                   <listPerson>
                      <person xml:id="pmb65053">
@@ -153,7 +153,7 @@
             </div>
             <div xml:id="div_U6">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U6"/>Jokai .... Gef. in den S sieben T.
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U6"/>Jokai .... Gef. in den S sieben T.
                   / Goldmensch / Traurige Tage / Andre Zeiten / die nur einmal lieben / schwarze
                   Diamanten / mein D. / Polnische Geschichten / Sklavin / Fred / Bajadere</p>
                <note xml:id="ad_U6">
@@ -166,7 +166,7 @@
             </div>
             <div xml:id="div_U7">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U7"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U7"/>
                   <hi rend="manual">Miszkath ..</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Regenschirm /</hi>
@@ -181,7 +181,7 @@
             </div>
             <div xml:id="div_U8">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U8"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U8"/>
                   <hi rend="manual">Molnar ...</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Zuckerbäcker Krone /</hi>
@@ -196,7 +196,7 @@
             </div>
             <div xml:id="div_U9">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U9"/> Petöfi ... Strick</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U9"/> Petöfi ... Strick</p>
                <note xml:id="ad_U9">
                   <listPerson>
                      <person xml:id="pmb22480">
@@ -207,7 +207,7 @@
             </div>
             <div xml:id="div_U10">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="U10"/>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="U10"/>
                   <hi rend="manual">Konod .. Brand d Leidensch</hi>.</p>
                <note xml:id="ad_U10">
                   <note>nicht ermittelt; vielleicht Verwechslung mit D468</note>

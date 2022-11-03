@@ -43,7 +43,7 @@
                <monogr>
                   <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
                      Bibliothek</title>
-                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <idno type="obsolet-schnitzler-lektueren" n="978-3-89913-978-5"/>
                   <editor role="hrsg">
                      <persName>
                         <forename>Achim</forename>
@@ -91,7 +91,7 @@
             </head>
             <div xml:id="div_L1">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L1"/>Aurel</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L1"/>Aurel</p>
                <note xml:id="ad_L1">
                   <listPerson>
                      <person xml:id="pmb65122">
@@ -102,7 +102,7 @@
             </div>
             <div xml:id="div_L2">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L2"/>Catull</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L2"/>Catull</p>
                <note xml:id="ad_L2">
                   <listPerson>
                      <person xml:id="pmb65123">
@@ -113,7 +113,7 @@
             </div>
             <div xml:id="div_L3">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L3"/>Caesar</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L3"/>Caesar</p>
                <note xml:id="ad_L3">
                   <listPerson>
                      <person xml:id="pmb14796">
@@ -124,10 +124,10 @@
             </div>
             <div xml:id="div_L4">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L4"/>Cicero</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L4"/>Cicero</p>
                <note xml:id="ad_L4">
                   <listPerson>
-                     <person xml:id="pmb65124">
+                     <person xml:id="pmb3511">
                         <persName>Marcus Tullius Cicero</persName>
                      </person>
                   </listPerson>
@@ -135,7 +135,7 @@
             </div>
             <div xml:id="div_L5">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L5"/>Cornelius Nepos</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L5"/>Cornelius Nepos</p>
                <note xml:id="ad_L5">
                   <listPerson>
                      <person xml:id="pmb65125">
@@ -146,7 +146,7 @@
             </div>
             <div xml:id="div_L6">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L6"/>Cornelius Rufus ... Alexander</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L6"/>Cornelius Rufus ... Alexander</p>
                <note xml:id="ad_L6">
                   <listPerson>
                      <person xml:id="pmb65126">
@@ -157,7 +157,7 @@
             </div>
             <div xml:id="div_L7">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L7"/>Horaz</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L7"/>Horaz</p>
                <note xml:id="ad_L7">
                   <listPerson>
                      <person xml:id="pmb3516">
@@ -168,7 +168,7 @@
             </div>
             <div xml:id="div_L8">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L8"/>Livius</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L8"/>Livius</p>
                <note xml:id="ad_L8">
                   <listPerson>
                      <person xml:id="pmb65127">
@@ -179,7 +179,7 @@
             </div>
             <div xml:id="div_L9">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L9"/>Marcial</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L9"/>Marcial</p>
                <note xml:id="ad_L9">
                   <listPerson>
                      <person xml:id="pmb65128">
@@ -190,7 +190,7 @@
             </div>
             <div xml:id="div_L10">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L10"/>Ovid</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L10"/>Ovid</p>
                <note xml:id="ad_L10">
                   <listPerson>
                      <person xml:id="pmb4079">
@@ -201,7 +201,7 @@
             </div>
             <div xml:id="div_L11">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L11"/>Plutarch</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L11"/>Plutarch</p>
                <note xml:id="ad_L11">
                   <listPerson>
                      <person xml:id="pmb22648">
@@ -212,7 +212,7 @@
             </div>
             <div xml:id="div_L12">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L12"/>Plautus .. Casina. /
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L12"/>Plautus .. Casina. /
                   Zwillingsbruder / Kaufmann / Poenulus</p>
                <note xml:id="ad_L12">
                   <listPerson>
@@ -224,7 +224,7 @@
             </div>
             <div xml:id="div_L13">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L13"/>Properz</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L13"/>Properz</p>
                <note xml:id="ad_L13">
                   <listPerson>
                      <person xml:id="pmb65130">
@@ -235,7 +235,7 @@
             </div>
             <div xml:id="div_L14">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L14"/>Salust</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L14"/>Salust</p>
                <note xml:id="ad_L14">
                   <listPerson>
                      <person xml:id="pmb65131">
@@ -246,7 +246,7 @@
             </div>
             <div xml:id="div_L15">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L15"/>Sweton</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L15"/>Sweton</p>
                <note xml:id="ad_L15">
                   <listPerson>
                      <person xml:id="pmb25732">
@@ -257,7 +257,7 @@
             </div>
             <div xml:id="div_L16">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L16"/>Tacitus</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L16"/>Tacitus</p>
                <note xml:id="ad_L16">
                   <listPerson>
                      <person xml:id="pmb38345">
@@ -268,7 +268,7 @@
             </div>
             <div xml:id="div_L17">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L17"/>Terenz .. Andros</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L17"/>Terenz .. Andros</p>
                <note xml:id="ad_L17">
                   <listPerson>
                      <person xml:id="pmb65132">
@@ -279,7 +279,7 @@
             </div>
             <div xml:id="div_L18">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L18"/>Tibull</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L18"/>Tibull</p>
                <note xml:id="ad_L18">
                   <listPerson>
                      <person xml:id="pmb65133">
@@ -290,7 +290,7 @@
             </div>
             <div xml:id="div_L19">
                <p>
-                  <idno type="schnitzler-lektueren" xml:id="L19"/>Vergil</p>
+                  <idno type="obsolet-schnitzler-lektueren" xml:id="L19"/>Vergil</p>
                <note xml:id="ad_L19">
                   <listPerson>
                      <person xml:id="pmb5849">

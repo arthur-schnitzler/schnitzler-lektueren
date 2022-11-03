@@ -43,7 +43,7 @@
                <monogr>
                   <title level="m">Arthur Schnitzlers Lektüren: Leseliste und virtuelle
                      Bibliothek</title>
-                  <idno type="schnitzler-lektueren" n="978-3-89913-978-5"/>
+                  <idno type="obsolet-schnitzler-lektueren" n="978-3-89913-978-5"/>
                   <editor role="hrsg">
                      <persName>
                         <forename>Achim</forename>
@@ -87,7 +87,7 @@
             </head>
             <div xml:id="div_GB1">
                <p>
-                  <idno xml:id="GB1" type="schnitzler-lektueren"/> Aldrich ... PRudence / Lebendig
+                  <idno xml:id="GB1" type="obsolet-schnitzler-lektueren"/> Aldrich ... PRudence / Lebendig
                   begraben / Palme</p>
                <note xml:id="ad_GB1">
                   <listPerson>
@@ -99,7 +99,7 @@
             </div>
             <div xml:id="div_GB2">
                <p>
-                  <idno xml:id="GB2" type="schnitzler-lektueren"/> Austine ... Persuation</p>
+                  <idno xml:id="GB2" type="obsolet-schnitzler-lektueren"/> Austine ... Persuation</p>
                <note xml:id="ad_GB2">
                   <listPerson>
                      <person xml:id="pmb65025">
@@ -110,7 +110,7 @@
             </div>
             <div xml:id="div_GB3">
                <p>
-                  <idno xml:id="GB3" type="schnitzler-lektueren"/> Boz .... Skizen / David
+                  <idno xml:id="GB3" type="obsolet-schnitzler-lektueren"/> Boz .... Skizen / David
                   Copperfield / Pickwickers / Sylvesterglocken / Nickebei / Dombey / der Verwünschte
                   / <hi rend="manual">zwei Städte /</hi>
                </p>
@@ -124,7 +124,7 @@
             </div>
             <div xml:id="div_GB4">
                <p>
-                  <idno xml:id="GB4" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB4" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">
                      <hi rend="underline">Buckle</hi> Engl Civil</hi>
                </p>
@@ -138,7 +138,7 @@
             </div>
             <div xml:id="div_GB5">
                <p>
-                  <idno xml:id="GB5" type="schnitzler-lektueren"/> Bulwer ... Pompei / Pelham /
+                  <idno xml:id="GB5" type="obsolet-schnitzler-lektueren"/> Bulwer ... Pompei / Pelham /
                   Nacht und Morgen / Maltraver / Alice</p>
                <note xml:id="ad_GB5">
                   <listPerson>
@@ -150,7 +150,7 @@
             </div>
             <div xml:id="div_GB6">
                <p>
-                  <idno xml:id="GB6" type="schnitzler-lektueren"/> Burns</p>
+                  <idno xml:id="GB6" type="obsolet-schnitzler-lektueren"/> Burns</p>
                <note xml:id="ad_GB6">
                   <listPerson>
                      <person xml:id="pmb65027">
@@ -161,7 +161,7 @@
             </div>
             <div xml:id="div_GB7">
                <p>
-                  <idno xml:id="GB7" type="schnitzler-lektueren"/> Byron</p>
+                  <idno xml:id="GB7" type="obsolet-schnitzler-lektueren"/> Byron</p>
                <note xml:id="ad_GB7">
                   <listPerson>
                      <person xml:id="pmb11057">
@@ -172,7 +172,7 @@
             </div>
             <div xml:id="div_GB8">
                <p>
-                  <idno xml:id="GB8" type="schnitzler-lektueren"/> Carlyle</p>
+                  <idno xml:id="GB8" type="obsolet-schnitzler-lektueren"/> Carlyle</p>
                <note xml:id="ad_GB8">
                   <listPerson>
                      <person xml:id="pmb11074">
@@ -183,7 +183,7 @@
             </div>
             <div xml:id="div_GB9">
                <p>
-                  <idno xml:id="GB9" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB9" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">
                      <hi rend="underline">Chesterton</hi> Mg</hi>
                </p>
@@ -197,7 +197,7 @@
             </div>
             <div xml:id="div_GB10">
                <p>
-                  <idno xml:id="GB10" type="schnitzler-lektueren"/> Elliot ... Adam B.</p>
+                  <idno xml:id="GB10" type="obsolet-schnitzler-lektueren"/> Elliot ... Adam B.</p>
                <note xml:id="ad_GB10">
                   <listPerson>
                      <person xml:id="pmb65028">
@@ -208,7 +208,7 @@
             </div>
             <div xml:id="div_GB11">
                <p>
-                  <idno xml:id="GB11" type="schnitzler-lektueren"/> Egerton .... Disslonanzen</p>
+                  <idno xml:id="GB11" type="obsolet-schnitzler-lektueren"/> Egerton .... Disslonanzen</p>
                <note xml:id="ad_GB11">
                   <listPerson>
                      <person xml:id="pmb65029">
@@ -219,7 +219,7 @@
             </div>
             <div xml:id="div_GB12">
                <p>
-                  <idno xml:id="GB12" type="schnitzler-lektueren"/> Finck ... Wagner</p>
+                  <idno xml:id="GB12" type="obsolet-schnitzler-lektueren"/> Finck ... Wagner</p>
                <note xml:id="ad_GB12">
                   <listPerson>
                      <person xml:id="pmb65030">
@@ -230,7 +230,7 @@
             </div>
             <div xml:id="div_GB13">
                <p>
-                  <idno xml:id="GB13" type="schnitzler-lektueren"/> Forster ... Dickens</p>
+                  <idno xml:id="GB13" type="obsolet-schnitzler-lektueren"/> Forster ... Dickens</p>
                <note xml:id="ad_GB13">
                   <listPerson>
                      <person xml:id="pmb65031">
@@ -241,7 +241,7 @@
             </div>
             <div xml:id="div_GB14">
                <p>
-                  <idno xml:id="GB14" type="schnitzler-lektueren"/> Green .... Schein der Schuld</p>
+                  <idno xml:id="GB14" type="obsolet-schnitzler-lektueren"/> Green .... Schein der Schuld</p>
                <note xml:id="ad_GB14">
                   <listPerson>
                      <person xml:id="pmb65032">
@@ -252,7 +252,7 @@
             </div>
             <div xml:id="div_GB15">
                <p>
-                  <idno xml:id="GB15" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB15" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Houghton ... Hindle Wakes</hi>
                </p>
                <note xml:id="ad_GB15">
@@ -265,7 +265,7 @@
             </div>
             <div xml:id="div_GB16">
                <p>
-                  <idno xml:id="GB16" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB16" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Heywood ... Engl. Reisende /</hi>
                </p>
                <note xml:id="ad_GB16">
@@ -278,7 +278,7 @@
             </div>
             <div xml:id="div_GB17">
                <p>
-                  <idno xml:id="GB17" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB17" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Harraden - Schiffe /</hi>
                </p>
                <note xml:id="ad_GB17">
@@ -291,7 +291,7 @@
             </div>
             <div xml:id="div_GB18">
                <p>
-                  <idno xml:id="GB18" type="schnitzler-lektueren"/> Jmes ... Pickering</p>
+                  <idno xml:id="GB18" type="obsolet-schnitzler-lektueren"/> Jmes ... Pickering</p>
                <note xml:id="ad_GB18">
                   <listPerson>
                      <person xml:id="pmb65035">
@@ -302,7 +302,7 @@
             </div>
             <div xml:id="div_GB19">
                <p>
-                  <idno xml:id="GB19" type="schnitzler-lektueren"/> Jer<hi rend="manual">o</hi>m<hi
+                  <idno xml:id="GB19" type="obsolet-schnitzler-lektueren"/> Jer<hi rend="manual">o</hi>m<hi
                      rend="manual">e</hi> ... Romanstudien <hi rend="manual">/ three men / Müssige
                      Gedanken /</hi>
                </p>
@@ -316,7 +316,7 @@
             </div>
             <div xml:id="div_GB20">
                <p>
-                  <idno xml:id="GB20" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB20" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Joyce,</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Artist, Joyce</hi>
@@ -331,7 +331,7 @@
             </div>
             <div xml:id="div_GB21">
                <p>
-                  <idno xml:id="GB21" type="schnitzler-lektueren"/> Kipling ... Schlichte
+                  <idno xml:id="GB21" type="obsolet-schnitzler-lektueren"/> Kipling ... Schlichte
                   Geschichten Indiens / Dschungel <hi rend="manual">/ schwarzer Jack /</hi>
                </p>
                <note xml:id="ad_GB21">
@@ -344,7 +344,7 @@
             </div>
             <div xml:id="div_GB22">
                <p>
-                  <idno xml:id="GB22" type="schnitzler-lektueren"/> Kytt .... Spanische Tragödie</p>
+                  <idno xml:id="GB22" type="obsolet-schnitzler-lektueren"/> Kytt .... Spanische Tragödie</p>
                <note xml:id="ad_GB22">
                   <listPerson>
                      <person xml:id="pmb65036">
@@ -355,7 +355,7 @@
             </div>
             <div xml:id="div_GB23">
                <p>
-                  <idno xml:id="GB23" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB23" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">
                      <hi rend="underline">Lawrence</hi> Aufstand Wüste</hi>
                </p>
@@ -369,7 +369,7 @@
             </div>
             <div xml:id="div_GB24">
                <p>
-                  <idno xml:id="GB24" type="schnitzler-lektueren"/> Lewes</p>
+                  <idno xml:id="GB24" type="obsolet-schnitzler-lektueren"/> Lewes</p>
                <note xml:id="ad_GB24">
                   <listPerson>
                      <person xml:id="pmb65037">
@@ -380,7 +380,7 @@
             </div>
             <div xml:id="div_GB25">
                <p>
-                  <idno xml:id="GB25" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB25" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">London ..</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Wolfshund /</hi>
@@ -395,7 +395,7 @@
             </div>
             <div xml:id="div_GB26">
                <p>
-                  <idno xml:id="GB26" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB26" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">
                      <hi rend="underline">Loos</hi> ... blondes</hi>
                </p>
@@ -409,7 +409,7 @@
             </div>
             <div xml:id="div_GB27">
                <p>
-                  <idno xml:id="GB27" type="schnitzler-lektueren"/> M<hi rend="manual">a</hi>ri<hi
+                  <idno xml:id="GB27" type="obsolet-schnitzler-lektueren"/> M<hi rend="manual">a</hi>ri<hi
                      rend="manual">a</hi>tt .... Peter Simple</p>
                <note xml:id="ad_GB27">
                   <listPerson>
@@ -421,7 +421,7 @@
             </div>
             <div xml:id="div_GB28">
                <p>
-                  <idno xml:id="GB28" type="schnitzler-lektueren"/> Mac<hi rend="manual">a</hi>ulay
+                  <idno xml:id="GB28" type="obsolet-schnitzler-lektueren"/> Mac<hi rend="manual">a</hi>ulay
                   ... Milto<hi rend="manual">n</hi>
                </p>
                <note xml:id="ad_GB28">
@@ -434,7 +434,7 @@
             </div>
             <div xml:id="div_GB29">
                <p>
-                  <idno xml:id="GB29" type="schnitzler-lektueren"/> Marlo<hi rend="manual">w</hi>e
+                  <idno xml:id="GB29" type="obsolet-schnitzler-lektueren"/> Marlo<hi rend="manual">w</hi>e
                   ... Faust / Eduard <hi rend="manual">II</hi>
                </p>
                <note xml:id="ad_GB29">
@@ -447,7 +447,7 @@
             </div>
             <div xml:id="div_GB30">
                <p>
-                  <idno xml:id="GB30" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB30" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">
                      <hi rend="underline">Melville</hi>, Taipi</hi>
                </p>
@@ -461,7 +461,7 @@
             </div>
             <div xml:id="div_GB31">
                <p>
-                  <idno xml:id="GB31" type="schnitzler-lektueren"/> Massinger ... Mitgift / Tyrann /
+                  <idno xml:id="GB31" type="obsolet-schnitzler-lektueren"/> Massinger ... Mitgift / Tyrann /
                   Volpone <hi rend="manual">/ röm. Mime / Bürger als Edel..</hi>
                </p>
                <note xml:id="ad_GB31_1">
@@ -481,7 +481,7 @@
             </div>
             <div xml:id="div_GB32">
                <p>
-                  <idno xml:id="GB32" type="schnitzler-lektueren"/> Morisson ....
+                  <idno xml:id="GB32" type="obsolet-schnitzler-lektueren"/> Morisson ....
                   Winkelgeschichten</p>
                <note xml:id="ad_GB32">
                   <listPerson>
@@ -493,7 +493,7 @@
             </div>
             <div xml:id="div_GB33">
                <p>
-                  <idno xml:id="GB33" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB33" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">M</hi>orice</p>
                <note xml:id="ad_GB33">
                   <listPerson>
@@ -505,7 +505,7 @@
             </div>
             <div xml:id="div_GB34">
                <p>
-                  <idno xml:id="GB34" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB34" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Meredith</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">/ Egoist /</hi>
@@ -520,7 +520,7 @@
             </div>
             <div xml:id="div_GB35">
                <p>
-                  <idno xml:id="GB35" type="schnitzler-lektueren"/> Ottolengi .... Cameenknopf</p>
+                  <idno xml:id="GB35" type="obsolet-schnitzler-lektueren"/> Ottolengi .... Cameenknopf</p>
                <note xml:id="ad_GB35">
                   <listPerson>
                      <person xml:id="pmb65044">
@@ -531,7 +531,7 @@
             </div>
             <div xml:id="div_GB36">
                <p>
-                  <idno xml:id="GB36" type="schnitzler-lektueren"/> Ottway</p>
+                  <idno xml:id="GB36" type="obsolet-schnitzler-lektueren"/> Ottway</p>
                <note xml:id="ad_GB36">
                   <listPerson>
                      <person xml:id="pmb22269">
@@ -542,7 +542,7 @@
             </div>
             <div xml:id="div_GB37">
                <p>
-                  <idno xml:id="GB37" type="schnitzler-lektueren"/> Poe</p>
+                  <idno xml:id="GB37" type="obsolet-schnitzler-lektueren"/> Poe</p>
                <note xml:id="ad_GB37">
                   <listPerson>
                      <person xml:id="pmb12428">
@@ -553,7 +553,7 @@
             </div>
             <div xml:id="div_GB38">
                <p>
-                  <idno xml:id="GB38" type="schnitzler-lektueren"/> Philips .... Wie im Spiegel /
+                  <idno xml:id="GB38" type="obsolet-schnitzler-lektueren"/> Philips .... Wie im Spiegel /
                   Jack</p>
                <note xml:id="ad_GB38">
                   <listPerson>
@@ -565,7 +565,7 @@
             </div>
             <div xml:id="div_GB39">
                <p>
-                  <idno xml:id="GB39" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB39" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Prescott ..</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Peru /</hi>
@@ -580,7 +580,7 @@
             </div>
             <div xml:id="div_GB40">
                <p>
-                  <idno xml:id="GB40" type="schnitzler-lektueren"/> Quida .... Napraxin</p>
+                  <idno xml:id="GB40" type="obsolet-schnitzler-lektueren"/> Quida .... Napraxin</p>
                <note xml:id="ad_GB40">
                   <listPerson>
                      <person xml:id="pmb65046">
@@ -591,7 +591,7 @@
             </div>
             <div xml:id="div_GB41">
                <p>
-                  <idno xml:id="GB41" type="schnitzler-lektueren"/> Shakespeare</p>
+                  <idno xml:id="GB41" type="obsolet-schnitzler-lektueren"/> Shakespeare</p>
                <note xml:id="ad_GB41">
                   <listPerson>
                      <person xml:id="pmb2412">
@@ -602,7 +602,7 @@
             </div>
             <div xml:id="div_GB42">
                <p>
-                  <idno xml:id="GB42" type="schnitzler-lektueren"/> Shaw <hi rend="manual"
+                  <idno xml:id="GB42" type="obsolet-schnitzler-lektueren"/> Shaw <hi rend="manual"
                      >viel.</hi>
                </p>
                <note xml:id="ad_GB42">
@@ -615,7 +615,7 @@
             </div>
             <div xml:id="div_GB43">
                <p>
-                  <idno xml:id="GB43" type="schnitzler-lektueren"/> Swift</p>
+                  <idno xml:id="GB43" type="obsolet-schnitzler-lektueren"/> Swift</p>
                <note xml:id="ad_GB43">
                   <listPerson>
                      <person xml:id="pmb10161">
@@ -626,7 +626,7 @@
             </div>
             <div xml:id="div_GB44">
                <p>
-                  <idno xml:id="GB44" type="schnitzler-lektueren"/> Sterne</p>
+                  <idno xml:id="GB44" type="obsolet-schnitzler-lektueren"/> Sterne</p>
                <note xml:id="ad_GB44">
                   <listPerson>
                      <person xml:id="pmb65047">
@@ -637,7 +637,7 @@
             </div>
             <div xml:id="div_GB45">
                <p>
-                  <idno xml:id="GB45" type="schnitzler-lektueren"/> Scott .... der schwarze Zweg</p>
+                  <idno xml:id="GB45" type="obsolet-schnitzler-lektueren"/> Scott .... der schwarze Zweg</p>
                <note xml:id="ad_GB45">
                   <listPerson>
                      <person xml:id="pmb65048">
@@ -648,7 +648,7 @@
             </div>
             <div xml:id="div_GB46">
                <p>
-                  <idno xml:id="GB46" type="schnitzler-lektueren"/> Sharidon</p>
+                  <idno xml:id="GB46" type="obsolet-schnitzler-lektueren"/> Sharidon</p>
                <note xml:id="ad_GB46">
                   <listPerson>
                      <person xml:id="pmb65049">
@@ -659,7 +659,7 @@
             </div>
             <div xml:id="div_GB47">
                <p>
-                  <idno xml:id="GB47" type="schnitzler-lektueren"/> Twain</p>
+                  <idno xml:id="GB47" type="obsolet-schnitzler-lektueren"/> Twain</p>
                <note xml:id="ad_GB47">
                   <listPerson>
                      <person xml:id="pmb26252">
@@ -670,7 +670,7 @@
             </div>
             <div xml:id="div_GB49">
                <p>
-                  <idno xml:id="GB49" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB49" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Voynich ..</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Stechfliege</hi> /</p>
@@ -684,7 +684,7 @@
             </div>
             <div xml:id="div_GB50">
                <p>
-                  <idno xml:id="GB50" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB50" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Wilde ...</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="manual">Gray / Salome /</hi>
@@ -699,7 +699,7 @@
             </div>
             <div xml:id="div_GB51">
                <p>
-                  <idno xml:id="GB51" type="schnitzler-lektueren"/>
+                  <idno xml:id="GB51" type="obsolet-schnitzler-lektueren"/>
                   <hi rend="manual">Wells</hi> - <hi rend="manual">Zeitmaschine</hi>
                </p>
                <note xml:id="ad_GB51">
