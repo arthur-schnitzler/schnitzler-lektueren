@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:df="http://example.com/df" xmlns:mam="personalShit" version="2.0"
-    exclude-result-prefixes="xsl tei xs">
+    xmlns:df="http://example.com/df"
+    xmlns:mam="whatever" version="3.0" exclude-result-prefixes="xsl tei xs">
+    <xsl:import href="LOD-idnos.xsl"/>
+    <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
+    <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:param name="works"
         select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>

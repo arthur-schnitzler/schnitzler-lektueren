@@ -10,7 +10,7 @@
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:template name="mam:idnosToLinks">
         <xsl:param name="idnos-of-current" as="node()"/>
-        <xsl:for-each select="$relevant-uris/descendant::item[not(@type)]">
+        <xsl:for-each select="$relevant-uris/descendant::item">
             <xsl:variable name="abbr" select="child::abbr"/>
             <xsl:variable name="uri-color" select="child::color" as="xs:string?"/>
             <xsl:if test="$idnos-of-current/descendant::tei:idno[@subtype = $abbr][1]">
