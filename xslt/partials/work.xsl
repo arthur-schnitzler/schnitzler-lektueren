@@ -52,17 +52,13 @@
                 <span class="infodesc mr-2"><xs:text>&#8594;</xs:text></span>
                 <span>
                     <xsl:for-each select="tei:author">
-                        <xsl:variable name="autor-ref" select="substring-after(@ref,'#')"/>
+                        <xsl:variable name="autor-ref" select="@key"/>
                         <a href="{concat($autor-ref,'.html')}">
                             <xsl:value-of select="."/>
                         </a>
                         <xsl:variable name="link"
                             select="key('konk-lookup', $autor-ref, $konkordanz)[1]/@target"/>
                         <xsl:text> </xsl:text>
-                        <span class="button">
-                            <a href="{concat($link, '#',$autor-ref)}" class="blinkwink leseliste-button"
-                                >Leseliste</a>
-                        </span>
                         <xsl:if test="not(position() = last())">
                            <br/>
                         </xsl:if>

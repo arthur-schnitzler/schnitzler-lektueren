@@ -50,6 +50,17 @@
                                             </xsl:variable>
                                             <xsl:variable name="titel"
                                                 select="normalize-space(tei:title[1]/text())"/>
+                                            <xsl:variable name="datum">
+                                                <xsl:choose>
+                                                    <xsl:when test="contains(tei:date/text(), '>&lt;')">
+                                                        <xsl:value-of select="substring-before(tei:date/text(), '>&lt;')"/>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:value-of select="tei:date"/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                            </xsl:variable>
+                                                select="normalize-space(tei:date[1]/text())"
                                             <xsl:for-each select="tei:author">
                                                 <tr>
                                                     <td>
@@ -81,7 +92,7 @@
                                                         </xsl:if>
                                                     </td>
                                                     <td>
-                                                        <xsl:value-of select="tei:date"/>
+                                                        <xsl:value-of select="$datum"/>
                                                     </td>
                                                 </tr>
                                             </xsl:for-each>

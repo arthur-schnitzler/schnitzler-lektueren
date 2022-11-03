@@ -58,6 +58,11 @@
                                                             </xsl:when>
                                                             <xsl:when
                                                                 test="$entity/tei:persName[1]/tei:surname[1]/text() and $entity/tei:persName[1]/tei:forename[1]/text()">
+                                                                <span hidden="true">
+                                                                    <xsl:value-of
+                                                                        select="$entity/tei:persName[1]/tei:surname[1]/text()"/><xsl:value-of
+                                                                        select="$entity/tei:persName[1]/tei:forename[1]/text()"/>
+                                                                </span>
                                                                 <xsl:value-of
                                                                     select="$entity/tei:persName[1]/tei:forename[1]/text()"/>
                                                                 <xsl:text> </xsl:text>
