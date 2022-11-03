@@ -149,12 +149,12 @@
                 </xsl:if>
             </div>
             <div class="werke">
-                <xsl:if test="key('authorwork-lookup', @xml:id, $works)[1]">
+                <xsl:if test="key('authorwork-lookup', '78572', $works)[1]">
                     <h2>Werke</h2>
                 </xsl:if>
                 <p/>
                 <ul class="dashed">
-                    <xsl:variable name="author-ref" select="./@xml:id"/>
+                    <xsl:variable name="author-ref" select="@xml:id"/>
                     <xsl:for-each
                         select="key('authorwork-lookup', @xml:id, $works)[not(tei:relatedItem)]">
                         <li>
