@@ -135,6 +135,20 @@
             <div id="mentions">
                 <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
                     <p class="buttonreihe">
+                        <xsl:variable name="link"
+                            select="key('konk-lookup', @xml:id, $konkordanz)[1]/@target"/>
+                        <a href="{concat($link, '#',@xml:id)}">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: #022954; color: white</xsl:text>
+                            </xsl:attribute>
+                            <xsl:text>Leseliste</xsl:text>
+                        </xsl:element>
+                        </a>
+                        <xsl:text> </xsl:text>
                         <xsl:variable name="idnos-of-current" as="node()">
                             <xsl:element name="nodeset_person">
                                 <xsl:for-each select="tei:idno">
