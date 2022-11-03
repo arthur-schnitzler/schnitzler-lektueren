@@ -19,6 +19,36 @@
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="card-body-index">
+            <div id="mentions">
+                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
+                    <p class="buttonreihe">
+                        <xsl:variable name="link"
+                            select="key('konk-lookup', @xml:id, $konkordanz)[1]/@target"/>
+                        <a href="{concat($link, '#',@xml:id)}">
+                            <xsl:element name="span">
+                                <xsl:attribute name="class">
+                                    <xsl:text>badge rounded-pill</xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="style">
+                                    <xsl:text>background-color: #022954; color: white</xsl:text>
+                                </xsl:attribute>
+                                <xsl:text>Leseliste</xsl:text>
+                            </xsl:element>
+                        </a>
+                        <xsl:text> </xsl:text>
+                        <xsl:variable name="idnos-of-current" as="node()">
+                            <xsl:element name="nodeset_person">
+                                <xsl:for-each select="tei:idno">
+                                    <xsl:copy-of select="."/>
+                                </xsl:for-each>
+                            </xsl:element>
+                        </xsl:variable>
+                        <xsl:call-template name="mam:idnosToLinks">
+                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+                        </xsl:call-template>
+                    </p>
+                </xsl:if>
+            </div>
             <xsl:variable name="lemma-name" select="tei:persName[(position() = 1)]" as="node()"/>
             <xsl:variable name="namensformen" as="node()">
                 <xsl:element name="listPerson">
@@ -132,36 +162,7 @@
                     </xsl:if>
                 </p>
             </xsl:if>
-            <div id="mentions">
-                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
-                    <p class="buttonreihe">
-                        <xsl:variable name="link"
-                            select="key('konk-lookup', @xml:id, $konkordanz)[1]/@target"/>
-                        <a href="{concat($link, '#',@xml:id)}">
-                        <xsl:element name="span">
-                            <xsl:attribute name="class">
-                                <xsl:text>badge rounded-pill</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>background-color: #022954; color: white</xsl:text>
-                            </xsl:attribute>
-                            <xsl:text>Leseliste</xsl:text>
-                        </xsl:element>
-                        </a>
-                        <xsl:text> </xsl:text>
-                        <xsl:variable name="idnos-of-current" as="node()">
-                            <xsl:element name="nodeset_person">
-                                <xsl:for-each select="tei:idno">
-                                    <xsl:copy-of select="."/>
-                                </xsl:for-each>
-                            </xsl:element>
-                        </xsl:variable>
-                        <xsl:call-template name="mam:idnosToLinks">
-                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
-                        </xsl:call-template>
-                    </p>
-                </xsl:if>
-            </div>
+            
             <div class="werke">
                 <xsl:if test="key('authorwork-lookup', @xml:id, $works)[1]">
                     <h2>Werke</h2>
