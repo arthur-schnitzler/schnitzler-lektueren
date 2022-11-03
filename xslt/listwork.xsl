@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="xsl tei xs">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="xsl tei xs"
+    xmlns:mam="whatever">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
         omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/work.xsl"/>
+    <xsl:import href="./partials/LOD-idnos.xsl"/>
     <xsl:param name="work-day" select="document('../data/indices/index_work_day.xml')"/>
     <xsl:key name="work-day-lookup" match="item/@when" use="ref"/>
     <xsl:variable name="teiSource" select="'listwork.xml'"/>
@@ -52,47 +54,60 @@
                                                 select="normalize-space(tei:title[1]/text())"/>
                                             <xsl:variable name="datum">
                                                 <xsl:choose>
-                                                    <xsl:when test="contains(tei:date/text(), '>&lt;')">
-                                                        <xsl:value-of select="substring-before(tei:date/text(), '>&lt;')"/>
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
-                                                        <xsl:value-of select="tei:date"/>
-                                                    </xsl:otherwise>
+                                                  <xsl:when test="contains(tei:date[1], '–')">
+                                                  <xsl:choose>
+                                                  <xsl:when
+                                                  test="normalize-space(tokenize(tei:date[1], '–')[1]) = normalize-space(tokenize(tei:date[1], '–')[2])">
+                                                  <xsl:value-of
+                                                  select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '–')[1])))"
+                                                  />
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <xsl:value-of
+                                                  select="mam:normalize-date(normalize-space(tei:date[1]))"
+                                                  />
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <xsl:value-of
+                                                  select="mam:normalize-date(tei:date[1])"/>
+                                                  </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:variable>
                                             <xsl:for-each select="tei:author">
                                                 <tr>
-                                                    <td>
-                                                        <xsl:element name="a">
-                                                            <xsl:attribute name="href">
-                                                                <xsl:value-of select="concat($id, '.html')"/>
-                                                            </xsl:attribute>
-                                                            <xsl:value-of select="$titel"/>
-                                                        </xsl:element>
-                                                    </td>
-                                                    <td>
-                                                        <a>
-                                                            <xsl:attribute name="href">
-                                                                <xsl:value-of select="concat(@ref, '.html')"/>
-                                                            </xsl:attribute>
-                                                            <xsl:value-of select="."/>
-                                                        </a>
-                                                        <xsl:if
-                                                            test="@role = 'editor' or @role = 'hat-herausgegeben'">
-                                                            <xsl:text> (Hrsg.)</xsl:text>
-                                                        </xsl:if>
-                                                        <xsl:if
-                                                            test="@role = 'translator' or @role = 'hat-ubersetzt'">
-                                                            <xsl:text> (Übersetzung)</xsl:text>
-                                                        </xsl:if>
-                                                        <xsl:if
-                                                            test="@role = 'illustrator' or @role = 'hat-illustriert'">
-                                                            <xsl:text> (Illustrationen)</xsl:text>
-                                                        </xsl:if>
-                                                    </td>
-                                                    <td>
-                                                        <xsl:value-of select="$datum"/>
-                                                    </td>
+                                                  <td>
+                                                  <xsl:element name="a">
+                                                  <xsl:attribute name="href">
+                                                  <xsl:value-of select="concat($id, '.html')"/>
+                                                  </xsl:attribute>
+                                                  <xsl:value-of select="$titel"/>
+                                                  </xsl:element>
+                                                  </td>
+                                                  <td>
+                                                  <a>
+                                                  <xsl:attribute name="href">
+                                                  <xsl:value-of select="concat(@ref, '.html')"/>
+                                                  </xsl:attribute>
+                                                  <xsl:value-of select="."/>
+                                                  </a>
+                                                  <xsl:if
+                                                  test="@role = 'editor' or @role = 'hat-herausgegeben'">
+                                                  <xsl:text> (Hrsg.)</xsl:text>
+                                                  </xsl:if>
+                                                  <xsl:if
+                                                  test="@role = 'translator' or @role = 'hat-ubersetzt'">
+                                                  <xsl:text> (Übersetzung)</xsl:text>
+                                                  </xsl:if>
+                                                  <xsl:if
+                                                  test="@role = 'illustrator' or @role = 'hat-illustriert'">
+                                                  <xsl:text> (Illustrationen)</xsl:text>
+                                                  </xsl:if>
+                                                  </td>
+                                                  <td>
+                                                  <xsl:value-of select="$datum"/>
+                                                  </td>
                                                 </tr>
                                             </xsl:for-each>
                                         </xsl:for-each>
