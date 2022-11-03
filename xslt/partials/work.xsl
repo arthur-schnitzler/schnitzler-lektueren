@@ -23,7 +23,7 @@
                     <p class="buttonreihe">
                         <xsl:variable name="link"
                             select="key('konk-lookup', tei:author/@key, $konkordanz)[1]/@target"/>
-                        <a href="{concat($link, '#',@xml:id)}">
+                        <a href="{concat($link, '#',tei:author/@key)}">
                             <xsl:element name="span">
                                 <xsl:attribute name="class">
                                     <xsl:text>badge rounded-pill</xsl:text>
