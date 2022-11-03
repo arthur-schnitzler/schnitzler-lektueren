@@ -61,7 +61,7 @@
                     </xsl:element>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:copy-of select="tei:pubPlace|tei:note[not(@type='collections')]|tei:ref|tei:relatedItem"/>
+            <xsl:copy-of select="tei:pubPlace|tei:note[not(@type='collections')]|tei:ref|tei:relatedItem|tei:editor|tei:title[not(@level='a')]"/>
             <xsl:if test="tei:ref">
                 <xsl:for-each select="tei:ref">
                     <xsl:element name="idno">

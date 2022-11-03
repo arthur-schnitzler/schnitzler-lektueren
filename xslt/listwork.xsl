@@ -51,9 +51,8 @@
                                     
                                     <tbody>
                                         <xsl:for-each select="./tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:listBibl[1]/tei:bibl[tei:title]">
-                                            
                                             <xsl:variable name="entry" select="." as="node()"/>
-                                            <xsl:for-each select="child::tei:author[@role='author' or not(@role)]">
+                                            <xsl:for-each select="child::tei:author">
                                                 <xsl:variable name="id">
                                                     <xsl:value-of select="substring-after(@ref,'#')"/>
                                                 </xsl:variable>

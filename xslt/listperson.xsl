@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="xsl tei xs">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="xsl tei xs" xmlns:mam="whatever">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
         omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
@@ -113,6 +113,7 @@
             </body>
         </html>
         <xsl:for-each select=".//tei:person[@xml:id]">
+            <xsl:variable name="entity" as="node()" select="."/>
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
             <xsl:variable name="name">
                 <xsl:choose>
@@ -130,8 +131,6 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <xsl:variable name="lebensdaten_geburtsdatum-und-ort"
-                select="./tei:birth[1]/tei:date[1]//text()"/>
             <xsl:result-document href="{$filename}">
                 <html xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:call-template name="html_head">
@@ -148,45 +147,11 @@
                                             <xsl:text> </xsl:text>
                                             <xsl:choose>
                                                 <xsl:when test="./tei:birth and ./tei:death">
-                                                  <span class="lebensdaten">
-                                                  <xsl:text>(</xsl:text>
-                                                  <xsl:choose>
-                                                  <xsl:when
-                                                  test="./tei:birth/tei:date and ./tei:birth/tei:placeName/tei:settlement">
-                                                  <xsl:value-of
-                                                  select="concat(./tei:birth/tei:date, ' ', ./tei:birth/tei:placeName/tei:settlement)"
-                                                  />
-                                                  </xsl:when>
-                                                  <xsl:when test="./tei:birth/tei:date">
-                                                  <xsl:value-of select="./tei:birth/tei:date"/>
-                                                  </xsl:when>
-                                                  <xsl:when
-                                                  test="./tei:birth/tei:placeName/tei:settlement">
-                                                  <xsl:value-of
-                                                  select="concat('geboren in ', ./tei:birth/tei:placeName/tei:settlement)"
-                                                  />
-                                                  </xsl:when>
-                                                  </xsl:choose>
-                                                  <xsl:text> – </xsl:text>
-                                                  <xsl:choose>
-                                                  <xsl:when
-                                                  test="./tei:death/tei:date and ./tei:death/tei:placeName/tei:settlement">
-                                                  <xsl:value-of
-                                                  select="concat(./tei:death/tei:date, ' ', ./tei:death/tei:placeName/tei:settlement)"
-                                                  />
-                                                  </xsl:when>
-                                                  <xsl:when test="./tei:death/tei:date">
-                                                  <xsl:value-of select="./tei:death/tei:date"/>
-                                                  </xsl:when>
-                                                  <xsl:when
-                                                  test="./tei:death/tei:placeName/tei:settlement">
-                                                  <xsl:value-of
-                                                  select="concat('geboren in ', ./tei:death/tei:placeName/tei:settlement)"
-                                                  />
-                                                  </xsl:when>
-                                                  </xsl:choose>
-                                                  <xsl:text>)</xsl:text>
-                                                  </span>
+                                                    <span class="lebensdaten">
+                                                        <xsl:text>(</xsl:text>
+                                                        <xsl:value-of select="mam:lebensdaten($entity)"/>
+                                                        <xsl:text>)</xsl:text>
+                                                    </span>
                                                 </xsl:when>
                                                 <xsl:when test="./tei:birth">
                                                   <span class="lebensdaten">
@@ -252,4 +217,51 @@
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
+    
+    <xsl:function name="mam:lebensdaten">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:variable name="geburtsort" as="xs:string?" select="$entity/tei:birth[1]/tei:settlement[1]/tei:placeName[1]"/>
+        <xsl:variable name="geburtsdatum" as="xs:string?" select="mam:normalize-date($entity/tei:birth[1]/tei:date[1]/text())"/>
+        <xsl:variable name="todessort" as="xs:string?" select="$entity/tei:death[1]/tei:settlement[1]/tei:placeName[1]"/>
+        <xsl:variable name="todesdatum" as="xs:string?" select="mam:normalize-date($entity/tei:death[1]/tei:date[1]/text())"/>
+        <xsl:choose>
+            <xsl:when test="$geburtsdatum !='' and $todesdatum != ''">
+                <xsl:value-of select="$geburtsdatum"/>
+                <xsl:if
+                    test="$geburtsort != ''">
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of
+                        select="$geburtsort"/>
+                </xsl:if>
+                <xsl:text> – </xsl:text>
+                <xsl:value-of select="$todesdatum"/>
+                <xsl:if
+                    test="$todessort != ''">
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of
+                        select="$todessort"/>
+                </xsl:if>
+            </xsl:when>
+            <xsl:when test="$geburtsdatum !=''">
+                <xsl:text>* </xsl:text>
+                <xsl:value-of select="$geburtsdatum"/>
+                <xsl:if
+                    test="$geburtsort != ''">
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of
+                        select="$geburtsort"/>
+                </xsl:if>
+            </xsl:when>
+            <xsl:when test="$todesdatum !=''">
+                <xsl:text>† </xsl:text>
+                <xsl:value-of select="$todesdatum"/>
+                <xsl:if
+                    test="$todessort != ''">
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of
+                        select="$todessort"/>
+                </xsl:if>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:function>
 </xsl:stylesheet>
