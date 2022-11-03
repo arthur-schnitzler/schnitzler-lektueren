@@ -30,7 +30,14 @@
                         </xsl:when>
                         <xsl:when test="$abbr = 'pmb'">
                             <xsl:variable name="pmb-entitytype" as="xs:string">
-                                <xsl:value-of select="tokenize($idnos-of-current/name(), '_')[2]"/>
+                                <xsl:choose>
+                                    <xsl:when test="tokenize($idnos-of-current/name(), '_')[2] = 'org'">
+                                        <xsl:text>institution</xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="tokenize($idnos-of-current/name(), '_')[2]"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </xsl:variable>
                             <xsl:variable name="pmb-number" as="xs:string">
                                 <xsl:choose>
