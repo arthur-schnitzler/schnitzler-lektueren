@@ -91,11 +91,7 @@
                                         <a title="Werke" href="listwork.html" class="nav-link"
                                             >Werke</a>
                                     </li>
-                                    <div class="dropdown-divider"/>
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="GND-BEACON" href="beacon.txt" class="nav-link"
-                                            >GND-BEACON</a>
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
