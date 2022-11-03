@@ -158,10 +158,21 @@
                     </xsl:for-each>
                 </xsl:if>
                 <xsl:if test="tei:date">
-                    <xsl:value-of select="tei:date"/>
-                    <xsl:if test="not(ends-with(tei:date, '.'))">
-                        <xsl:text>.</xsl:text>
-                    </xsl:if>
+                    <xsl:choose>
+                        <xsl:when test="contains(tei:date[1], '–')">
+                            <xsl:choose>
+                                <xsl:when test="normalize-space(tokenize(tei:date[1], '–')[1]) = normalize-space(tokenize(tei:date[1], '–')[2])">
+                                    <xsl:value-of select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '–')[1])))"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="mam:normalize-date(normalize-space(tei:date[1]))"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="mam:normalize-date(tei:date[1])"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:if>
                 <xsl:choose>
                     <xsl:when test="tei:title[@level = 'm'] and tei:title[@level = 's']">

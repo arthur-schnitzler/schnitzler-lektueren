@@ -60,10 +60,16 @@ are but links to pdfs etc. an URL can be added
         <caption>Jugend in Wien</caption>
         <url>http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien</url>
     </item>
+    
     <item>
         <abbr>wikidata</abbr>
         <caption>Wikidata</caption>
         <color>#0645ad</color>
+    </item>
+    <item>
+        <abbr>oebl</abbr>
+        <caption>ÖBL</caption>
+        <color>#a50021</color>
     </item>
     <item>
         <abbr>pmb</abbr>
@@ -80,6 +86,4 @@ are but links to pdfs etc. an URL can be added
         <caption>geoNames</caption>
         <color>#363</color>
     </item>
-    
-   
 </list>
