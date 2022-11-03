@@ -51,7 +51,7 @@
             <div class="mt-2">
                 <span class="infodesc mr-2"><xs:text>&#8594;</xs:text></span>
                 <span>
-                    <xsl:for-each select="tei:author">
+                    <xsl:for-each select="tei:author[@role='hat-geschaffen']">
                         <xsl:variable name="autor-ref" select="@key"/>
                         <a href="{concat($autor-ref,'.html')}">
                             <xsl:value-of select="."/>
