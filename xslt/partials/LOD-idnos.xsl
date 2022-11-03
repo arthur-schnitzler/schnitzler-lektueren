@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:mam="whatever" exclude-result-prefixes="xs" version="2.0">
+    xmlns:mam="whatever" exclude-result-prefixes="xs" version="3.0">
     <!-- This function gets as input a node with idnos as child element
     and checks them against the file of desired idnos and gives links
     as output
