@@ -107,7 +107,7 @@
                 </div>
             </body>
         </html>
-        <xsl:for-each select=".//tei:listBibl/tei:bibl">
+        <xsl:for-each select="descendant::tei:bibl[parent::tei:listBibl]">
             <xsl:variable name="filename" select="concat(@xml:id, '.html')"/>
             <xsl:variable name="name" select="./tei:title[1]/text()"></xsl:variable>
             <xsl:result-document href="{$filename}">
