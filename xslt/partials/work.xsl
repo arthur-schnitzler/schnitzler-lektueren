@@ -22,8 +22,8 @@
                 <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
                     <p class="buttonreihe">
                         <xsl:variable name="link"
-                            select="key('konk-lookup', tei:author/@key, $konkordanz)[1]/@target"/>
-                        <a href="{concat($link, '#',tei:author/@key)}">
+                            select="key('konk-lookup', tei:author[1]/@key, $konkordanz)[1]/@target"/>
+                        <a href="{concat($link, '#',tei:author[1]/@key)}">
                             <xsl:element name="span">
                                 <xsl:attribute name="class">
                                     <xsl:text>badge rounded-pill</xsl:text>

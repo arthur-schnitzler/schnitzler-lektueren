@@ -53,7 +53,6 @@
                                             <xsl:variable name="titel"
                                                 select="normalize-space(tei:title[1]/text())"/>
                                             <xsl:variable name="datum">
-                                                <xsl:choose>
                                                   <xsl:when test="contains(tei:date[1], '–')">
                                                   <xsl:choose>
                                                   <xsl:when
@@ -73,7 +72,6 @@
                                                   <xsl:value-of
                                                   select="mam:normalize-date(tei:date[1])"/>
                                                   </xsl:otherwise>
-                                                </xsl:choose>
                                             </xsl:variable>
                                             <xsl:for-each select="tei:author">
                                                 <tr>
