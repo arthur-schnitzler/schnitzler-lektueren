@@ -67,16 +67,27 @@
             </div>
             <p/>
             <div>
-                <xsl:if test="tei:title[@type='main']">
-                    <span class="titel">
-                        <xsl:value-of select="tei:title[@type='main']"/>
-                    </span>
-                    <xsl:if
-                        test="not(ends-with(tei:title[@type='main'], '?') or ends-with(tei:title[@type='main'], '!') or ends-with(tei:title[@type='main'], '.'))">
-                        <xsl:text>. </xsl:text>
-                    </xsl:if>
-                    <xsl:text>In: </xsl:text>
-                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="tei:title[@type='main' and following-sibling::tei:title[@level]]">
+                        <span class="titel">
+                            <xsl:value-of select="tei:title[@type='main']"/>
+                        </span>
+                        <xsl:if
+                            test="not(ends-with(tei:title[@type='main'], '?') or ends-with(tei:title[@type='main'], '!') or ends-with(tei:title[@type='main'], '.'))">
+                            <xsl:text>. </xsl:text>
+                        </xsl:if>
+                        <xsl:text>In: </xsl:text>
+                    </xsl:when>
+                    <xsl:when test="tei:title[@type='main']">
+                        <span class="titel">
+                            <xsl:value-of select="tei:title[@type='main']"/>
+                        </span>
+                        <xsl:if
+                            test="not(ends-with(tei:title[@type='main'], '?') or ends-with(tei:title[@type='main'], '!') or ends-with(tei:title[@type='main'], '.'))">
+                            <xsl:text>. </xsl:text>
+                        </xsl:if>
+                    </xsl:when>
+                </xsl:choose>
                 <xsl:choose>
                     <xsl:when test="tei:title[@level = 'm']">
                         <span class="titel">
@@ -191,7 +202,6 @@
                     <xsl:value-of select="tei:note"/>
                     <xsl:text>]</xsl:text>
                 </xsl:if>
-                
                 <xsl:if test="key('work-lookup', concat('#', @xml:id), $works)">
                     <ul class="dashed">
                         <xsl:for-each select="key('work-lookup', concat('#', @xml:id), $works)">
@@ -312,7 +322,6 @@
                                     <xsl:value-of select="tei:note"/>
                                     <xsl:text>]</xsl:text>
                                 </xsl:if>
-                                
                                 
                             </li>
                         </xsl:for-each>

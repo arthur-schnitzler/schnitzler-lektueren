@@ -66,6 +66,9 @@
                 <xsl:for-each select="tei:ref">
                     <xsl:element name="idno">
                         <xsl:attribute name="type">
+                            <xsl:text>URL</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="subtype">
                             <xsl:value-of select="@type"/>
                         </xsl:attribute>
                     </xsl:element>

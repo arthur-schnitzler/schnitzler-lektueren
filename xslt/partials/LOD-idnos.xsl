@@ -123,6 +123,7 @@
                 <xsl:variable name="current-idno" as="node()"
                     select="$idnos-of-current/descendant::tei:idno[@subtype = $abbr][1]"/>
                 <xsl:variable name="uri-color" select="child::color" as="xs:string?"/>
+                <xsl:value-of select="$current-idno"/><xsl:value-of select="$uri-color"/>
                 <xsl:element name="a">
                     <xsl:attribute name="href">
                         <xsl:value-of select="child::url"/>
