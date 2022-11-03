@@ -107,8 +107,8 @@
                 </div>
             </body>
         </html>
-        <xsl:for-each select=".//tei:bibl">
-            <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
+        <xsl:for-each select=".//tei:listBibl/tei:bibl">
+            <xsl:variable name="filename" select="concat(@xml:id, '.html')"/>
             <xsl:variable name="name" select="./tei:title[1]/text()"></xsl:variable>
             <xsl:result-document href="{$filename}">
                 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
