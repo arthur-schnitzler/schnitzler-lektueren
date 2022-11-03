@@ -2,6 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="personalShit" version="2.0" exclude-result-prefixes="xsl tei xs">
+    <xsl:import href="LOD-idnos.xsl"/>
+    <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
+    <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:param name="works"
         select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl" use="tei:author/@ref"/>
@@ -48,118 +51,20 @@
                 </p>
             </xsl:if>
             <div id="mentions">
-                <p class="buttonreihe">
-                    <xsl:variable name="link"
-                        select="key('konk-lookup', @xml:id, $konkordanz)[1]/@target"/>
-                    <span class="button">
-                    <a href="{concat($link, '#',@xml:id)}" class="blinkwink leseliste-button"
-                        >Leseliste</a>
-                    </span>
-                    <xsl:text> </xsl:text>
-                    <xsl:for-each
-                        select="child::tei:idno[not(@type = 'schnitzler-lektueren') and not(@type = 'gnd')]">
-                        <span class="button">
-                        <xsl:choose>
-                            <xsl:when test="not(. = '')">
-                                <span>
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="class">
-                                            <xsl:choose>
-                                                <xsl:when test="@type = 'gnd'">
-                                                  <xsl:text>wikipedia-button</xsl:text>
-                                                </xsl:when>
-                                                <xsl:when test="@type = 'schnitzler-briefe'">
-                                                  <xsl:text>briefe-button</xsl:text>
-                                                </xsl:when>
-                                                <xsl:when test="@type = 'schnitzler-tagebuch'">
-                                                  <xsl:text>tagebuch-button</xsl:text>
-                                                </xsl:when>
-                                                <xsl:when test="@type = 'schnitzler-bahr'">
-                                                  <xsl:text>bahrschnitzler-button</xsl:text>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of select="@type"/>
-                                                  <xsl:text>XXXX</xsl:text>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="."/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:element name="span">
-                                            <xsl:attribute name="class">
-                                                <xsl:value-of select="concat('color-', @type)"/>
-                                            </xsl:attribute>
-                                            <xsl:value-of select="mam:ahref-namen(@type)"/>
-                                        </xsl:element>
-                                    </xsl:element>
-                                </span>
-                                <xsl:text> </xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:element name="span">
-                                    <xsl:attribute name="class">
-                                        <xsl:text>color-inactive</xsl:text>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="mam:ahref-namen(@type)"/>
-                                </xsl:element>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:if test="position() = last()">
-                            <xsl:text> </xsl:text>
-                        </xsl:if>
-                        </span>
-                    </xsl:for-each>
-                    <span class="button">
-                    <xsl:element name="a">
-                        <xsl:attribute name="class">
-                            <xsl:text>PMB-button</xsl:text>
-                        </xsl:attribute>
-                        <xsl:attribute name="href">
-                            <xsl:value-of
-                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', substring-after(./@xml:id, 'pmb'), '/detail')"
-                            />
-                        </xsl:attribute>
-                        <xsl:attribute name="target">
-                            <xsl:text>_blank</xsl:text>
-                        </xsl:attribute>
-                        <xsl:element name="span">
-                            <xsl:attribute name="class">
-                                <xsl:text>color-PMB</xsl:text>
-                            </xsl:attribute>
-                            <xsl:text>PMB</xsl:text>
-                        </xsl:element>
-                    </xsl:element>
-                    </span>
-                    
-                    <xsl:if test="child::tei:idno[@type = 'gnd']">
-                        <xsl:text> </xsl:text>
-                        <span class="button">
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>wikipedia-button</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of
-                                    select="replace(child::tei:idno[@type = 'gnd'], 'https://d-nb.info/gnd/', 'http://tools.wmflabs.org/persondata/redirect/gnd/de/')"
-                                />
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:element name="span">
-                                <xsl:attribute name="class">
-                                    <xsl:text>wikipedia-color</xsl:text>
-                                </xsl:attribute>
-                                <xsl:value-of select="mam:ahref-namen('gnd')"/>
+                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
+                    <p class="buttonreihe">
+                        <xsl:variable name="idnos-of-current" as="node()">
+                            <xsl:element name="nodeset_work">
+                                <xsl:for-each select="tei:idno">
+                                    <xsl:copy-of select="."/>
+                                </xsl:for-each>
                             </xsl:element>
-                        </xsl:element>
-                        </span>
-                    </xsl:if>
-                </p>
+                        </xsl:variable>
+                        <xsl:call-template name="mam:idnosToLinks">
+                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+                        </xsl:call-template>
+                    </p>
+                </xsl:if>
             </div>
             <div class="werke">
                 <xsl:if test="key('authorwork-lookup', concat('#', ./@xml:id), $works)[1]">

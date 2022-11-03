@@ -49,7 +49,7 @@
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-8" style="margin: 0 auto; ">
-                                <p style="font-size:18px;line-heigth:27px;">Wohl im Jahre 1905 legte
+                                <p style="font-size:18px;line-height:27px;">Wohl im Jahre 1905 legte
                                     Arthur Schnitzler ein Typoskript an, das alle Autoren und Werke
                                     nennt, die er bis zu diesem Zeitpunkt gelesen hatte. Die
                                     Lektüreliste führte Schnitzler bis 1928, kurz vor seinem Tode,
