@@ -162,7 +162,6 @@
                     </xsl:if>
                 </p>
             </xsl:if>
-            
             <div class="werke">
                 <xsl:if test="key('authorwork-lookup', @xml:id, $works)[1]">
                     <h2>Werke</h2>
@@ -188,7 +187,8 @@
                                 </xsl:for-each>
                                 <xsl:text>) </xsl:text>
                             </xsl:if>
-                            <xsl:if test="tei:title[@type ='main']">
+                            <xsl:choose>
+                                <xsl:when test="tei:title[@type ='main'] and following-sibling::tei:title">
                                 <span class="titel">
                                     <xsl:value-of select="tei:title[@type ='main']"/>
                                 </span>
@@ -197,7 +197,17 @@
                                     <xsl:text>. </xsl:text>
                                 </xsl:if>
                                 <xsl:text>In: </xsl:text>
-                            </xsl:if>
+                                </xsl:when>
+                                <xsl:when test="tei:title[@type ='main']">
+                                    <span class="titel">
+                                        <xsl:value-of select="tei:title[@type ='main']"/>
+                                    </span>
+                                    <xsl:if
+                                        test="not(ends-with(tei:title[@type ='main'], '?') or ends-with(tei:title[@type ='main'], '!') or ends-with(tei:title[@type ='main'], '.'))">
+                                        <xsl:text>. </xsl:text>
+                                    </xsl:if>
+                                </xsl:when>
+                            </xsl:choose>
                             <xsl:choose>
                                 <xsl:when test="tei:title[@level = 'm']">
                                     <span class="titel">

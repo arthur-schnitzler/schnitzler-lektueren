@@ -30,6 +30,32 @@
      </xsl:element>
  </xsl:template>
     
+    <!-- Das holt die Orts-Idnos neu aus der PMB -->
+    <xsl:template match="tei:listPlace/tei:place">
+        <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+            <xsl:copy-of select="@*"/>
+            <xsl:variable name="nummer" select="replace(@xml:id, 'pmb', '')"/>
+            <!--<xsl:variable name="nummer" select="replace(replace(tei:idno[@type='pmb'], 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', '')"/>-->
+            <xsl:variable name="eintrag"
+                select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/apis/entities/tei/place/', $nummer))"
+                as="xs:string"/>
+            <xsl:copy-of select="descendant::tei:*[parent::tei:place and not(name()=idno)]"/>
+            <xsl:choose>
+                <xsl:when test="doc-available($eintrag)">
+                    <xsl:copy-of select="document($eintrag)/descendant::place/idno"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:element name="error">
+                        <xsl:attribute name="type">
+                            <xsl:text>place</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="$nummer"/>
+                    </xsl:element>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:element>
+    </xsl:template>
+    
     
     
  <!-- holt werke neu. pubPlace, notes werden kopiert 
