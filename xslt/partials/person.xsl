@@ -319,9 +319,8 @@
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
                                 <xsl:text>[</xsl:text>
-                                <xsl:if test="tei:note[@type='work_kind']">
-                                <xsl:value-of select="tokenize(tei:note[@type='work_kind'], '&gt;&gt;')[last()]"/>
-                                <xsl:text> </xsl:text>
+                                <xsl:if test="tei:note[@type='work_kind']"><xsl:value-of select="normalize-space(tokenize(tei:note[@type='work_kind'], '&gt;&gt;')[last()])"/>
+                                <xsl:text>; </xsl:text>
                                 </xsl:if>
                                 <xsl:value-of select="tei:note[not(@type='work_kind')]"/>
                                 <xsl:text>]</xsl:text>
