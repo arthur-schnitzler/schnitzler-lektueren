@@ -30,6 +30,16 @@ are but links to pdfs etc. an URL can be added
         <caption>Leseliste</caption>
         <color>#022954</color>
     </item>
+    <item  type="print">
+        <abbr>schnitzler-kino-buch</abbr>
+        <caption>Kino</caption>
+        <color>#B43C9C</color>
+    </item>
+    <item  type="print">
+        <abbr>schnitzler-kempny-buch</abbr>
+        <caption>Kempny Tagebuch</caption>
+        <color>#7B3F00</color>
+    </item>
     <item>
         <abbr>schnitzler-bahr</abbr>
         <caption>Schnitzler/Bahr</caption>
