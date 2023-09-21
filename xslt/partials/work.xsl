@@ -52,7 +52,16 @@
                 <span class="infodesc mr-2"><xs:text>&#8594;</xs:text></span>
                 <span>
                     <xsl:for-each select="tei:author[@role='hat-geschaffen']">
-                        <xsl:variable name="autor-ref" select="@key"/>
+                        <xsl:variable name="autor-ref">
+                            <xsl:choose>
+                                <xsl:when test="@ref">
+                                    <xsl:value-of select="@ref"/>
+                                </xsl:when>
+                                <xsl:when test="@key">
+                                    <xsl:value-of select="@key"/>
+                                </xsl:when>
+                            </xsl:choose>
+                        </xsl:variable>
                         <a href="{concat($autor-ref,'.html')}">
                             <xsl:value-of select="."/>
                         </a>
