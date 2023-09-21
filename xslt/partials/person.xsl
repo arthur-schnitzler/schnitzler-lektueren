@@ -9,6 +9,8 @@
         select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
         use="tei:author/@key/replace(., 'person__', 'pmb')"/>
+    <xsl:key name="authorwork-lookup-ref" match="tei:bibl"
+        use="tei:author/@ref/replace(., 'person__', 'pmb')"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
     <xsl:param name="konkordanz"
         select="document('../../data/indices/konkordanz.xml')"/>
@@ -335,6 +337,175 @@
                                     <xsl:call-template name="mam:idnosToLinks">
                                         <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
                                     </xsl:call-template>
+                        </li>
+                    </xsl:for-each>
+                    <!-- schneller hack für den fall, dass @ref statt @key verwendet wird: einfach code verdoppelt -->
+                    <xsl:for-each
+                        select="key('authorwork-lookup-ref', @xml:id, $works)[not(tei:relatedItem)]">
+                        <li>
+                            <xsl:if test="tei:author[2]">
+                                <xsl:text>(mit </xsl:text>
+                                <xsl:for-each select="tei:author[not(@ref = $author-ref)]">
+                                    <xsl:value-of select="."/>
+                                    <xsl:choose>
+                                        <xsl:when test="position() = last()">
+                                            <xsl:text>: </xsl:text>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:text>, </xsl:text>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each>
+                                <xsl:text>) </xsl:text>
+                            </xsl:if>
+                            <xsl:choose>
+                                <xsl:when test="tei:title[@type ='main'] and following-sibling::tei:title">
+                                    <span class="titel">
+                                        <xsl:value-of select="tei:title[@type ='main']"/>
+                                    </span>
+                                    <xsl:if
+                                        test="not(ends-with(tei:title[@type ='main'], '?') or ends-with(tei:title[@type ='main'], '!') or ends-with(tei:title[@type ='main'], '.'))">
+                                        <xsl:text>. </xsl:text>
+                                    </xsl:if>
+                                    <xsl:text>In: </xsl:text>
+                                </xsl:when>
+                                <xsl:when test="tei:title[@type ='main']">
+                                    <span class="titel">
+                                        <xsl:value-of select="tei:title[@type ='main']"/>
+                                    </span>
+                                    <xsl:if
+                                        test="not(ends-with(tei:title[@type ='main'], '?') or ends-with(tei:title[@type ='main'], '!') or ends-with(tei:title[@type ='main'], '.'))">
+                                        <xsl:text>. </xsl:text>
+                                    </xsl:if>
+                                </xsl:when>
+                            </xsl:choose>
+                            <xsl:choose>
+                                <xsl:when test="tei:title[@level = 'm']">
+                                    <span class="titel">
+                                        <xsl:value-of select="tei:title[@level = 'm']"/>
+                                    </span>
+                                    <xsl:if
+                                        test="not(ends-with(tei:title[@level = 'm'], '?') or ends-with(tei:title[@level = 'm'], '!') or ends-with(tei:title[@level = 'm'], '.'))">
+                                        <xsl:text>. </xsl:text>
+                                    </xsl:if>
+                                </xsl:when>
+                                <xsl:when test="tei:title[@level = 'j']">
+                                    <span class="titel">
+                                        <xsl:value-of select="tei:title[@level = 'j']"/>
+                                    </span>
+                                    <xsl:if
+                                        test="not(ends-with(tei:title[@level = 'j'], '?') or ends-with(tei:title[@level = 'j'], '!') or ends-with(tei:title[@level = 'j'], '.'))">
+                                        <xsl:text>. </xsl:text>
+                                    </xsl:if>
+                                </xsl:when>
+                                <xsl:when test="tei:title[@level = 's']">
+                                    <span class="titel">
+                                        <xsl:value-of select="tei:title[@level = 's']"/>
+                                    </span>
+                                    <xsl:if
+                                        test="not(ends-with(tei:title[@level = 's'], '?') or ends-with(tei:title[@level = 's'], '!') or ends-with(tei:title[@level = 's'], '.'))">
+                                        <xsl:text>. </xsl:text>
+                                    </xsl:if>
+                                </xsl:when>
+                            </xsl:choose>
+                            <xsl:if test="tei:editor[@role = 'hrsg']">
+                                <xsl:text>Hrsg. </xsl:text>
+                                <xsl:for-each select="tei:editor[@role = 'hrsg']">
+                                    <xsl:value-of select="."/>
+                                    <xsl:choose>
+                                        <xsl:when test="position() = last()">
+                                            <xsl:text>:</xsl:text>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:text>, </xsl:text>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each>
+                            </xsl:if>
+                            <xsl:if test="tei:editor[@role = 'translator']">
+                                <xsl:choose>
+                                    <xsl:when test="tei:editor[@role = 'translator']/text() = ''">
+                                        <xsl:text>[Ohne Übersetzerangabe.] </xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text>Übersetzt von </xsl:text>
+                                        <xsl:for-each select="tei:editor[@role = 'translator']">
+                                            <xsl:value-of select="."/>
+                                            <xsl:choose>
+                                                <xsl:when test="position() = last()">
+                                                    <xsl:text>. </xsl:text>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:text>, </xsl:text>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:for-each>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:if>
+                            <xsl:if test="not(tei:editor[@role = 'translator']) and tei:relatedItem">
+                                <xsl:text>[Ohne Übersetzerangabe.] </xsl:text>
+                            </xsl:if>
+                            <xsl:if test="tei:pubPlace">
+                                <xsl:for-each select="tei:pubPlace">
+                                    <xsl:apply-templates/>
+                                    <xsl:choose>
+                                        <xsl:when test="position() = last()">
+                                            <xsl:text> </xsl:text>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:text>, </xsl:text>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each>
+                            </xsl:if>
+                            <xsl:if test="tei:date">
+                                <xsl:choose>
+                                    <xsl:when test="contains(tei:date[1], '–')">
+                                        <xsl:choose>
+                                            <xsl:when test="normalize-space(tokenize(tei:date[1], '–')[1]) = normalize-space(tokenize(tei:date[1], '–')[2])">
+                                                <xsl:value-of select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '–')[1])))"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="mam:normalize-date(normalize-space(tei:date[1]))"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="mam:normalize-date(tei:date[1])"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:if>
+                            <xsl:choose>
+                                <xsl:when test="tei:title[@level = 'm'] and tei:title[@level = 's']">
+                                    <xsl:text> (</xsl:text>
+                                    <span class="titel">
+                                        <xsl:value-of select="tei:title[@level = 's']"/>
+                                    </span>
+                                    <xsl:text>)</xsl:text>
+                                </xsl:when>
+                            </xsl:choose>
+                            <xsl:if test="tei:note">
+                                <xsl:if test="parent::*/child::*[2]">
+                                    <xsl:text> </xsl:text>
+                                </xsl:if>
+                                <xsl:text>[</xsl:text>
+                                <xsl:if test="tei:note[@type='work_kind']"><xsl:value-of select="normalize-space(tokenize(tei:note[@type='work_kind'], '&gt;&gt;')[last()])"/>
+                                    <xsl:if test="following-sibling::tei:note"><xsl:text>; </xsl:text></xsl:if>
+                                </xsl:if>
+                                <xsl:value-of select="tei:note[not(@type='work_kind')]"/>
+                                <xsl:text>]</xsl:text>
+                            </xsl:if><xsl:text> </xsl:text>
+                            <xsl:variable name="idnos-of-current" as="node()">
+                                <xsl:element name="nodeset_person">
+                                    <xsl:for-each select="tei:idno">
+                                        <xsl:copy-of select="."/>
+                                    </xsl:for-each>
+                                </xsl:element>
+                            </xsl:variable>
+                            <xsl:call-template name="mam:idnosToLinks">
+                                <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+                            </xsl:call-template>
                         </li>
                     </xsl:for-each>
                 </ul>
