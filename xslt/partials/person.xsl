@@ -490,9 +490,17 @@
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
                                 <xsl:text>[</xsl:text>
-                                <xsl:if test="tei:note[@type='work_kind']"><xsl:value-of select="normalize-space(tokenize(tei:note[@type='work_kind'], '&gt;&gt;')[last()])"/>
-                                    <xsl:if test="following-sibling::tei:note"><xsl:text>; </xsl:text></xsl:if>
-                                </xsl:if>
+                                <xsl:for-each select="tei:note[@type='work_kind']">
+                                <xsl:value-of select="normalize-space(tokenize(., '&gt;&gt;')[last()])"/>
+                                    <xsl:choose>
+                                        <xsl:when test="not(position()=last())">
+                                        <xsl:text>, </xsl:text>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:text>; </xsl:text>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each>
                                 <xsl:value-of select="tei:note[not(@type='work_kind')]"/>
                                 <xsl:text>]</xsl:text>
                             </xsl:if><xsl:text> </xsl:text>
