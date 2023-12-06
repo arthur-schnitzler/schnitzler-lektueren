@@ -37,7 +37,8 @@
                                 <xsl:text>Leseliste</xsl:text>
                             </xsl:element>
                         </a>
-                        <xsl:text> </xsl:text>
+                    </p>
+                    <p class="buttonreihe">
                         <xsl:variable name="idnos-of-current" as="node()">
                             <xsl:element name="nodeset_person">
                                 <xsl:for-each select="tei:idno">
@@ -505,7 +506,7 @@
                                 <xsl:text>]</xsl:text>
                             </xsl:if><xsl:text> </xsl:text>
                             <xsl:variable name="idnos-of-current" as="node()">
-                                <xsl:element name="nodeset_person">
+                                <xsl:element name="nodeset_work">
                                     <xsl:for-each select="tei:idno">
                                         <xsl:copy-of select="."/>
                                     </xsl:for-each>
