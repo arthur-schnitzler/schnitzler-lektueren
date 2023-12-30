@@ -77,6 +77,7 @@
             <p/>
             <div>
                 <xsl:choose>
+                    <xsl:when test="tei:title[@type='main' and . = following-sibling::tei:title[@level ='m']]"/>
                     <xsl:when test="tei:title[@type='main' and following-sibling::tei:title[@level]]">
                         <span class="titel">
                             <xsl:value-of select="tei:title[@type='main']"/>
@@ -88,7 +89,7 @@
                         <xsl:text>In: </xsl:text>
                     </xsl:when>
                     <xsl:when test="tei:title[@type='main'] != following-sibling::tei:title[@level='m']">
-                        <span class="titel" style="color:red;">
+                        <span class="titel">
                             <xsl:value-of select="tei:title[@type='main']"/>
                         </span>
                         <xsl:if
@@ -99,7 +100,7 @@
                 </xsl:choose>
                 <xsl:choose>
                     <xsl:when test="tei:title[@level = 'm']">
-                        <span class="titel"  style="color:blue;">
+                        <span class="titel">
                             <xsl:value-of select="tei:title[@level = 'm']"/>
                         </span>
                         <xsl:if
