@@ -1,15 +1,15 @@
 /* Datatables, provided by https://github.com/babslgam*/
 
 div.dataTables_filter {
-  text-align:left !important;
+    text-align: left !important;
 }
 
 .btn-link {
-  font-size:20px;
+    font-size: 20px;
 }
 
 .exportbuttons {
-  text-align: right;
+    text-align: right;
 }
 
 .navbar {
@@ -17,17 +17,17 @@ div.dataTables_filter {
 }
 
 .dataTables_info {
-  text-align: center;
+    text-align: center;
 }
 
 .filters input {
-  width:100%;
-  padding: 3px;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
 }
 
 .dataTables_wrapper table {
-  width:100%;
+    width: 100%;
 }
 
 /**** Font Aweseome ***/
@@ -42,11 +42,11 @@ div.dataTables_filter {
 
 .card {
     margin-top: 1em;
-   
+
 }
 
 .index-card {
-    border-top: 5px solid #88dbdf; 
+    border-top: 5px solid #88dbdf;
     transition: transform .2s;
 }
 
@@ -83,7 +83,7 @@ p {
 }
 
 
-    
+
 
 
 span.ssQueryAndButton {
@@ -96,9 +96,9 @@ input#ssQuery {
     font-size: .9rem !important;
     border-radius: 30px !important;
     padding: .3rem 1.75rem .3rem .75rem !important;
-    border: 1px solid rgba(0,0,0,.075) !important;
+    border: 1px solid rgba(0, 0, 0, .075) !important;
     background-color: #fff !important;
-    color: rgba(0,0,0,.9) !important;
+    color: rgba(0, 0, 0, .9) !important;
 }
 
 button#ssDoSearch {
@@ -106,7 +106,7 @@ button#ssDoSearch {
     padding: 0 !important;
     background: 0 0 !important;
     cursor: pointer !important;
-    color: rgba(0,0,0,.6) !important;
+    color: rgba(0, 0, 0, .6) !important;
     margin-left: -4.1em !important;
     margin-top: .1em !important;
 }
@@ -125,66 +125,66 @@ button#ssDoSearch {
 
 details,
 summary {
-  display: inline;
-  vertical-align: super;
-  font-size: 0.75rem;
-  padding: 0 0.25rem;
+    display: inline;
+    vertical-align: super;
+    font-size: 0.75rem;
+    padding: 0 0.25rem;
 }
 summary {
-  cursor: pointer;
+    cursor: pointer;
 }
 .details-content {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 90%;
-  padding: 1rem;
-  font-size: 1rem;
-  background: lightyellow;
-  box-shadow: 0 0 100px black;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+    background: lightyellow;
+    box-shadow: 0 0 100px black;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 
 
 
-.autorname{
+.autorname {
     font-variant: small-caps;
 }
 
 h1.edierterText {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 120%;
-      color: black;
-      padding-top: 50px;
-      
+    font-family: "Times New Roman", Times, serif;
+    font-size: 120%;
+    color: black;
+    padding-top: 50px;
+
 }
 
 .edierterText {
-      color: black;
-        font-family: monospace, monospace;
-font-size: 120%;
+    color: black;
+    font-family: monospace, monospace;
+    font-size: 120%;
 
 }
 
 
 .herausgeberText {
-      font-size: 90%;
-      color: black;
-      font-family: sans-serif;
+    font-size: 90%;
+    color: black;
+    font-family: sans-serif;
 }
 
 .handschriftlich {
-    font-family:  "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 95%;
 }
 
 ul.no-bullets {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
 }
 
 ul.dashed {
@@ -200,7 +200,7 @@ ul.dashed > li:before {
 }
 
 ul.dashed > li {
-     margin-bottom: 18px;  
+    margin-bottom: 18px;
 }
 
 
@@ -208,7 +208,7 @@ ul.arrow {
     list-style: none;
     margin-left: 0.3em;
     padding-left: 1em;
-    margin-bottom:0em;
+    margin-bottom: 0em;
 }
 ul.arrow > li:before {
     display: inline-block;
@@ -219,39 +219,43 @@ ul.arrow > li:before {
 
 
 
-.container-fluid{
+.container-fluid {
     background-color: white;
 }
 
 .site {
     background-color: white;
 }
-.card-body{
-       /* background-color: #f1f1f1;*/
+.card-body {
+    /* background-color: #f1f1f1;*/
 }
 
-.color-schnitzler-tagebuch{
+.color-schnitzler-tagebuch {
     color: #037a33;
 }
 
-.color-schnitzler-briefe{
-    color:#A63437;
+.color-schnitzler-briefe {
+    color: #A63437;
 }
 
-.color-PMB{
+.color-PMB {
     color: #9B5F98;
 }
 
-.color-inactive{
+.color-inactive {
     color: #808080;
 }
 
 .navbar {
-  border-bottom: 5px solid #022954 !important;
+    border-bottom: 5px solid #022954 !important;
+}
+
+.card-header {
+    background-color: white;
 }
 
 .index-card {
-  border-top: 5px solid #022954 !important;
+    border-top: 5px solid #022954 !important;
 }
 
 .linksbuendig {
@@ -270,21 +274,21 @@ ul.arrow > li:before {
     text-align: justify;
 }
 
-.grid-container-element { 
-    display: grid; 
+.grid-container-element {
+    display: grid;
     grid-template-columns: 75% 25%; /*columns widths*/
-    grid-gap: 20px; 
-    border: none; 
-    width: 100%; 
+    grid-gap: 20px;
+    border: none;
+    width: 100%;
     margin: 0px;
-        background-color: white;
+    background-color: white;
 
-} 
-.grid-child-element { 
-    margin: 0px; 
-    border: none; 
-    
-   /* background-color: #f1f1f1;;*/
+}
+.grid-child-element {
+    margin: 0px;
+    border: none;
+
+    /* background-color: #f1f1f1;;*/
 
 }
 
@@ -292,32 +296,34 @@ ul.arrow > li:before {
     background-color: white;
 }
 
-.blinkwink { color: #022954;
-font-weight: bold;
+.blinkwink {
+    color: #022954;
+    font-weight: bold;
 
 }
 
 .herausgeberErgaenzung {
-font-family: sans-serif;
-    
+    font-family: sans-serif;
+
 }
 
 span.autorname::before {
-  content: "";
-  display: block;
-  height: 120px; /* fixed header height*/
-  margin: -120px 0 0; /* negative fixed header height */
+    content: "";
+    display: block;
+    height: 120px; /* fixed header height*/
+    margin: -120px 0 0; /* negative fixed header height */
 }
 
 head {
-     font-size: 120%;
+    font-size: 120%;
 }
-.lebensdaten{
-    font-size:60%
+.lebensdaten {
+    font-size: 60%
 }
 
 a.wikipedia-button {
-    display: inline-block;;
+    display: inline-block;
+    ;
     background-color: #fff;
     border: 1px solid black;
     border-radius: 20px;
@@ -326,11 +332,12 @@ a.wikipedia-button {
     font-weight: 600;
     color: black;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.PMB-button {
-    display: inline-block;;
+    display: inline-block;
+    ;
     background-color: #fff;
     border: 1px solid #9B5F98;
     border-radius: 20px;
@@ -339,11 +346,12 @@ a.PMB-button {
     font-weight: 600;
     color: #9B5F98;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.briefe-button {
-    display: inline-block;;
+    display: inline-block;
+    ;
     background-color: #fff;
     border: 1px solid #A63437;
     border-radius: 20px;
@@ -352,11 +360,12 @@ a.briefe-button {
     font-weight: 600;
     color: #A63437;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.leseliste-button {
-    display: inline-block;;
+    display: inline-block;
+    ;
     background-color: #fff;
     border: 1px solid #022954;
     border-radius: 20px;
@@ -365,7 +374,7 @@ a.leseliste-button {
     font-weight: 600;
     color: #022954;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.tagebuch-button {
@@ -378,7 +387,7 @@ a.tagebuch-button {
     font-weight: 600;
     color: #037a33;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.bahrschnitzler-button {
@@ -391,7 +400,7 @@ a.bahrschnitzler-button {
     font-weight: 600;
     color: orange;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.black-button {
@@ -404,11 +413,12 @@ a.black-button {
     font-weight: 600;
     color: black;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.wikipedia-workbutton {
-    display: inline-block;;
+    display: inline-block;
+    ;
     background-color: #fff;
     border: 0px solid black;
     border-radius: 10px;
@@ -417,11 +427,12 @@ a.wikipedia-workbutton {
     font-weight: 600;
     color: black;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.PMB-workbutton {
-    display: inline-block;;
+    display: inline-block;
+    ;
     background-color: #fff;
     border: 0px solid #9B5F98;
     border-radius: 10px;
@@ -430,11 +441,12 @@ a.PMB-workbutton {
     font-weight: 600;
     color: #9B5F98;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.briefe-workbutton {
-    display: inline-block;;
+    display: inline-block;
+    ;
     background-color: #fff;
     border: 0px solid #A63437;
     border-radius: 10px;
@@ -443,11 +455,12 @@ a.briefe-workbutton {
     font-weight: 600;
     color: #A63437;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.leseliste-workbutton {
-    display: inline-block;;
+    display: inline-block;
+    ;
     background-color: #fff;
     border: 0px solid #022954;
     border-radius: 10px;
@@ -456,7 +469,7 @@ a.leseliste-workbutton {
     font-weight: 600;
     color: #022954;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.tagebuch-workbutton {
@@ -469,7 +482,7 @@ a.tagebuch-workbutton {
     font-weight: 600;
     color: #037a33;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.bahrschnitzler-workbutton {
@@ -482,7 +495,7 @@ a.bahrschnitzler-workbutton {
     font-weight: 600;
     color: orange;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 a.black-workbutton {
@@ -495,19 +508,19 @@ a.black-workbutton {
     font-weight: 600;
     color: black;
     max-width: 10rem;
-    transition: background-color ease .2s,color ease .2s;
+    transition: background-color ease .2s, color ease .2s;
 }
 
 
 
 
 .button-group {
-         display: flex;
-      }
-      .button-group button {
-         font-size: 4rem;
-         border: 0;
-      }
+    display: flex;
+}
+.button-group button {
+    font-size: 4rem;
+    border: 0;
+}
 
 .titel {
     font-style: italic
@@ -516,15 +529,19 @@ a.black-workbutton {
 .werke {
     margin-bottom: 1em;
     margin-top: 2em;
-    
+
 }
 
-div.level2{
+div.level2 {
     margin-bottom: 3em;
-    
+
 }
 
-.buttonreihe{line-height: 2 ;
+.buttonreihe {
+    line-height: 2;
+    text-align: center;
 }
 
-.button{line-height: 1;}
+.button {
+    line-height: 1;
+}
