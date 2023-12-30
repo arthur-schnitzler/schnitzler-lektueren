@@ -193,7 +193,7 @@
                             <xsl:choose>
                                 <xsl:when test="tei:title[@type ='main' and . = following-sibling::tei:title[@level='m']]"/>
                                 <xsl:when test="tei:title[@type ='main'] and following-sibling::tei:title[@level]">
-                                <span class="titel" style="color: #AAABA1">
+                                <span class="titel">
                                     <xsl:value-of select="tei:title[@type ='main']"/>
                                 </span>
                                 <xsl:if
@@ -203,7 +203,7 @@
                                 <xsl:text>In: </xsl:text>
                                 </xsl:when>
                                 <xsl:when test="tei:title[@type ='main']">
-                                    <span class="titel" style="color: #AAABA2">
+                                    <span class="titel">
                                         <xsl:value-of select="tei:title[@type ='main']"/>
                                     </span>
                                     <xsl:if
@@ -214,7 +214,7 @@
                             </xsl:choose>
                             <xsl:choose>
                                 <xsl:when test="tei:title[@level = 'm']">
-                                    <span class="titel" style="color: #AAABA3">
+                                    <span class="titel">
                                         <xsl:value-of select="tei:title[@level = 'm']"/>
                                     </span>
                                     <xsl:if
@@ -373,7 +373,7 @@
                                     <xsl:text>In: </xsl:text>
                                 </xsl:when>
                                 <xsl:when test="tei:title[@type ='main']">
-                                    <span class="titel" style="color: #AAABA4">
+                                    <span class="titel" >
                                         <xsl:value-of select="tei:title[@type ='main']"/>
                                     </span>
                                     <xsl:if
@@ -384,7 +384,7 @@
                             </xsl:choose>
                             <xsl:choose>
                                 <xsl:when test="tei:title[@level = 'm']">
-                                    <span class="titel" style="color: #AAABA5">
+                                    <span class="titel">
                                         <xsl:value-of select="tei:title[@level = 'm']"/>
                                     </span>
                                     <xsl:if
@@ -393,7 +393,7 @@
                                     </xsl:if>
                                 </xsl:when>
                                 <xsl:when test="tei:title[@level = 'j']">
-                                    <span class="titel" style="color: #AAABA6">
+                                    <span class="titel">
                                         <xsl:value-of select="tei:title[@level = 'j']"/>
                                     </span>
                                     <xsl:if
@@ -402,7 +402,7 @@
                                     </xsl:if>
                                 </xsl:when>
                                 <xsl:when test="tei:title[@level = 's']">
-                                    <span class="titel" style="color: #AAABA7">
+                                    <span class="titel">
                                         <xsl:value-of select="tei:title[@level = 's']"/>
                                     </span>
                                     <xsl:if
