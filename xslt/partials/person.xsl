@@ -23,7 +23,7 @@
         <div class="card-body-index">
             <div id="mentions">
                 <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
-                    <p class="buttonreihe">
+                    <p class="buttonreihe" >
                         <xsl:variable name="link"
                             select="key('konk-lookup', @xml:id, $konkordanz)[1]/@target"/>
                         <a href="{concat($link, '#',@xml:id)}">
