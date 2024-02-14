@@ -77,8 +77,8 @@
             <p/>
             <div>
                 <xsl:choose>
-                    <xsl:when test="tei:title[@type='main' and . = following-sibling::tei:title[@level ='m']]"/>
-                    <xsl:when test="tei:title[@type='main' and following-sibling::tei:title[@level]]">
+                    <xsl:when test="tei:title[@type='main'] and tei:title[@level ='m']"/>
+                    <xsl:when test="tei:title[@type='main'] and tei:title[@level]">
                         <span class="titel">
                             <xsl:value-of select="tei:title[@type='main']"/>
                         </span>
