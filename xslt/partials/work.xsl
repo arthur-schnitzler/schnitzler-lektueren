@@ -88,7 +88,7 @@
                         </xsl:if>
                         <xsl:text>In: </xsl:text>
                     </xsl:when>
-                    <xsl:when test="tei:title[@type='main'] != following-sibling::tei:title[@level='m']">
+                    <xsl:when test="tei:title[@type='main'] != tei:title[@level='m']">
                         <span class="titel">
                             <xsl:value-of select="tei:title[@type='main']"/>
                         </span>
@@ -216,6 +216,7 @@
                     <ul class="dashed">
                         <xsl:for-each select="key('work-lookup', concat('#', @xml:id), $works)">
                             <li>
+                                
                                 <xsl:if test="tei:title[@type='main']">
                                     <span class="titel">
                                         <xsl:value-of select="tei:title[@type='main']"/>
