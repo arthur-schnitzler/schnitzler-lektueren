@@ -329,10 +329,8 @@
                                         <xsl:text>, </xsl:text>
                                     </xsl:if>
                                 </xsl:for-each>
-                                <xsl:if test="tei:note[@type='work_kind']">
-                                    <xsl:if test="tei:note[not(@type='work_kind')]"><xsl:text>; </xsl:text>
-                                        <xsl:value-of select="tei:note[not(@type='work_kind')]"/></xsl:if>
-                                </xsl:if>
+                                <xsl:if test="tei:note[@type='work_kind'] and tei:note[not(@type='work_kind')]"><xsl:text>; </xsl:text></xsl:if>
+                                <xsl:value-of select="normalize-space(tei:note[not(@type='work_kind')])"/>
                                 <xsl:text>]</xsl:text>
                             </xsl:if><xsl:text> </xsl:text>
                                     <xsl:variable name="idnos-of-current" as="node()">
@@ -500,17 +498,13 @@
                                 </xsl:if>
                                 <xsl:text>[</xsl:text>
                                 <xsl:for-each select="tei:note[@type='work_kind']">
-                                <xsl:value-of select="normalize-space(tokenize(., '&gt;&gt;')[last()])"/>
-                                    <xsl:choose>
-                                        <xsl:when test="not(position()=last())">
+                                    <xsl:value-of select="normalize-space(tokenize(., '&gt;&gt;')[last()])"/>
+                                    <xsl:if test="not(position()=last())">
                                         <xsl:text>, </xsl:text>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:text>; </xsl:text>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                                    </xsl:if>
                                 </xsl:for-each>
-                                <xsl:value-of select="tei:note[not(@type='work_kind')]"/>
+                                <xsl:if test="tei:note[@type='work_kind'] and tei:note[not(@type='work_kind')]"><xsl:text>; </xsl:text></xsl:if>
+                                <xsl:value-of select="normalize-space(tei:note[not(@type='work_kind')])"/>
                                 <xsl:text>]</xsl:text>
                             </xsl:if><xsl:text> </xsl:text>
                             <xsl:variable name="idnos-of-current" as="node()">
