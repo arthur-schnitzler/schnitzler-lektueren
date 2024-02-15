@@ -552,7 +552,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78585/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78585.html</idno>
-                  <note type="main">http://schnitzler-werkimport/D16_n1_w4</note>
                   <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="pmb78589">
@@ -5627,7 +5626,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78846.html</idno>
                   <title type="legacy-name-merge">Vierzig Jahre</title>
-                  <note type="main">http://schnitzler-werkimport/D212_n1_w2</note>
                   <pubPlace>Breslau</pubPlace>
                   <note>(Bände. 5–6)</note>
                </bibl>
@@ -14707,7 +14705,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79378/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79378.html</idno>
-                  <note type="main">http://schnitzler-werkimport/F86_n1_w1</note>
                   <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="pmb77028">
@@ -15888,7 +15885,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79445/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79445.html</idno>
-                  <note type="main">http://schnitzler-werkimport/F133_n1_w1</note>
                   <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="pmb79446">
@@ -17206,7 +17202,6 @@
                   <idno type="URL" subtype="wikipedia"
                      >https://de.wikipedia.org/wiki/Die_Erde_(Zola)</idno>
                   <note type="work_kind">Roman</note>
-                  <note type="main">http://schnitzler-werkimport/F182_n1_w8_o1</note>
                   <title level="s">Les Rougon-Macquart, Band 15</title>
                </bibl>
                <bibl xml:id="pmb77626">
@@ -20308,7 +20303,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79735/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79735.html</idno>
-                  <note type="main">http://schnitzler-werkimport/U6_n1_w9</note>
                   <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="pmb79736">
@@ -20317,7 +20311,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79736/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79736.html</idno>
-                  <note type="main">http://schnitzler-werkimport/U6_n1_w10</note>
                   <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="pmb79737">
@@ -20326,7 +20319,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79737/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79737.html</idno>
-                  <note type="main">http://schnitzler-werkimport/U6_n1_w11</note>
                   <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="pmb58077">
@@ -20543,8 +20535,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79768/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79768.html</idno>
-                  <note type="main">http://schnitzler-werkimport/P5_n1_w1_o1</note>
-                  <note> Originaltitel?</note>
+                  <note>Originaltitel?</note>
                </bibl>
                <bibl xml:id="pmb79771">
                   <title type="main">Zersplittert. Aus dem Kiewer Studentenleben</title>
@@ -25747,7 +25738,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/80004/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb80004.html</idno>
-                  <note type="main">http://schnitzler-werkimport/R32_n1_w15</note>
                   <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="pmb80023">
@@ -26007,7 +25997,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/80051/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb80051.html</idno>
-                  <note type="main">http://schnitzler-werkimport/R34_n1_w4_o1</note>
                   <note>nicht ermittelt</note>
                </bibl>
                <bibl xml:id="pmb77896">
