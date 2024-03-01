@@ -66,6 +66,16 @@ are but links to pdfs etc. an URL can be added
         <color>#801e23</color>
     </item>
     <item>
+        <abbr>bahr-textverzeichnis</abbr>
+        <caption>Bahr Textverzeichnis</caption>
+        <color>#8E4162</color>
+    </item>
+    <item>
+        <abbr>bahr-TSN</abbr>
+        <caption>Bahr Tagebücher</caption>
+        <color>#ce0000</color>
+    </item>
+    <item>
         <abbr>fackel</abbr>
         <caption>Fackel</caption>
         <color>#CE0F0B</color>
@@ -80,11 +90,11 @@ are but links to pdfs etc. an URL can be added
         <caption>Kalliope Verbundkatalog</caption>
         <color>#003574</color>
     </item>
-    <!--<item>
+    <item>
         <abbr>dritte-walpurgisnacht</abbr>
         <caption>Dritte Walpurgisnacht</caption>
-        <color>#a21a17</caption>
-    </item>-->
+        <color>#a21a17</color>
+    </item>
     <item>
         <abbr>schoenbach</abbr>
         <caption>Schönbach</caption>
