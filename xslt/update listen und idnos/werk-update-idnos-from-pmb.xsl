@@ -13,7 +13,7 @@
             <xsl:copy-of select="@*"/>
         <xsl:variable name="nummer" select="replace(@xml:id,'pmb','')"/>
         <xsl:variable name="eintrag"
-            select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/apis/entities/tei/work/', $nummer))"
+            select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/work/', $nummer))"
             as="xs:string"/>
             <xsl:choose>
                 <xsl:when test="doc-available($eintrag)">
