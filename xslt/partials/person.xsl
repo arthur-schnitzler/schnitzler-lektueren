@@ -330,7 +330,7 @@
                                     </xsl:if>
                                 </xsl:for-each>
                                 <xsl:if test="tei:note[@type='work_kind'] and tei:note[not(@type='work_kind')]"><xsl:text>; </xsl:text></xsl:if>
-                                <xsl:value-of select="normalize-space(tei:note[not(@type='work_kind')])"/>
+                                <xsl:value-of select="normalize-space(tei:note[not(@type='work_kind')][1])"/>
                                 <xsl:text>]</xsl:text>
                             </xsl:if><xsl:text> </xsl:text>
                                     <xsl:variable name="idnos-of-current" as="node()">
