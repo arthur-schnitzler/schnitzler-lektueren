@@ -25,7 +25,7 @@
             </xsl:choose>
         </xsl:template>
         <xsl:template match="tei:listOrg/tei:org[tei:idno[@subtype='pmb']]">
-            <xsl:variable name="nummer" select="replace(replace(tei:idno[@subtype='pmb']/text(), 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', '')"/>
+            <xsl:variable name="nummer" select="replace(replace(tei:idno[@subtype='pmb'][1]/text(), 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', '')"/>
             <xsl:variable name="eintrag"
                 select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/org/', $nummer))"
                 as="xs:string"/>
