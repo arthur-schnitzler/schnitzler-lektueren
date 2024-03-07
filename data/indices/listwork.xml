@@ -140,7 +140,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33624.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb33578">
                   <title type="main">Die Geschichte des Alî ibn Bekkâr mit Schams an-Nahâr</title>
@@ -156,7 +155,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33578.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb33604">
                   <title type="main">Yppl. Idylle in fünf Akten</title>
@@ -168,7 +166,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33604.html</idno>
                   <note type="work_kind">Unveröffentlichtes dramatisches Werk</note>
-                  <note type="work_kind">Unveröffentlichtes dramatisches Werk</note>
                </bibl>
                <bibl xml:id="pmb33606">
                   <title type="main">Der Fremde</title>
@@ -179,7 +176,6 @@
                      >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33606.html</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33606.html</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb78572">
@@ -295,7 +291,6 @@
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30965.html</idno>
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_link">http://dx.doi.org/10.17169/refubium-23815</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb31539">
                   <title type="main">Ashantee</title>
@@ -308,7 +303,6 @@
                      >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb31539.html</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31539.html</idno>
-                  <note type="work_kind">Novellensammlung</note>
                   <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb76531">
@@ -331,7 +325,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65602.html</idno>
                   <note type="work_kind">Gattungsunspezifisch</note>
-                  <note type="work_kind">Gattungsunspezifisch</note>
                </bibl>
                <bibl xml:id="pmb33686">
                   <title type="main">Märchen des Lebens</title>
@@ -344,7 +337,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33686.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33686.html</idno>
-                  <note type="work_kind">Novellensammlung</note>
                   <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78576">
@@ -362,7 +354,6 @@
                   <note type="work_kind">Tagebuch</note>
                   <title type="werk_bibliografische-angabe">Mein Tagebuch. Auszüge aus
                      Aufschreibungen der Jahre 1811 bis 1861. Frankfurt am Main</title>
-                  <note type="work_kind">Tagebuch</note>
                </bibl>
                <bibl xml:id="pmb78579">
                   <title type="main">Ruth. Erzählung</title>
@@ -376,7 +367,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78579.html</idno>
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">Ruth. Erzählung. Stuttgart</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb78577">
                   <title type="main">Friedrich Nietzsche in seinen Werken</title>
@@ -447,7 +437,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Gertrud. Tragödie des Herzens. Drei
                      Akte. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb31449">
                   <title type="main">Hansjörgs Erwachen. Romantisches Spiel in drei Akten</title>
@@ -466,7 +455,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31449.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
                   <title type="legacy-name-merge">Hansjörgs Erwachen</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb78582">
                   <title type="main">Nach Sibirien mit 100 000 Deutschen</title>
@@ -575,7 +563,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Der Gott der Rache. Berlin 1907.</title>
                   <title type="legacy-name-merge">Gott der Rache</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78590">
                   <title type="main">Got fun nekome</title>
@@ -707,7 +694,6 @@
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">In: Schwarzwälder Dorfgeschichten. Neue
                      Folge. Mannheim 1849</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb78604">
                   <title type="main">Die Geschichte des Diethelm von Buchenberg</title>
@@ -799,7 +785,6 @@
                   <note type="work_kind">Erzählsammlung</note>
                   <title type="werk_bibliografische-angabe">Unterwegs. Kleine Geschichten und
                      Lustspiele. Berlin</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb76900">
                   <title type="main">Rosen, die wir nicht erreichen. Ein Geschichtenband</title>
@@ -865,7 +850,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Der gute König. Lustspiel.
                      Stuttgart</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb76886">
                   <title type="main">Der gußeiserne Herrgott</title>
@@ -881,7 +865,6 @@
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">Der gußeiserne Herrgott. Berlin
                      1911.</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb78609">
                   <title type="main">Das deutsche Gaunerthum in seiner social-politischen
@@ -911,7 +894,6 @@
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb31707.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb31991">
                   <title type="main">Die gute Schule. Seelenstände</title>
@@ -929,7 +911,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Hermann Bahr: Die gute Schule.
                      Seelenstände. Berlin: S. Fischer 1890 (240 Seiten)</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb32244">
                   <title type="main">Die große Sünde</title>
@@ -942,7 +923,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32244.html</idno>
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb32244.html</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb30963">
@@ -976,7 +956,6 @@
                   <title type="werk_link"
                      >https://anno.onb.ac.at/cgi-content/anno-buch?apm=0&amp;aid=45</title>
                   <title type="legacy-name-merge">Die Mutter. Drama in drei Akten</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb30175">
                   <title type="main">Russische Reise</title>
@@ -994,7 +973,6 @@
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb30175.html</idno>
                   <note type="work_kind">Reisebericht</note>
-                  <note type="work_kind">Reisebericht</note>
                </bibl>
                <bibl xml:id="pmb32440">
                   <title type="main">Zur Kritik der Moderne</title>
@@ -1008,7 +986,6 @@
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb32440.html</idno>
                   <note type="work_kind">Textsammlung</note>
-                  <note type="work_kind">Textsammlung</note>
                </bibl>
                <bibl xml:id="pmb31275">
                   <title type="main">Studien zur Kritik der Moderne</title>
@@ -1021,7 +998,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31275.html</idno>
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb31275.html</idno>
-                  <note type="work_kind">Textsammlung</note>
                   <note type="work_kind">Textsammlung</note>
                </bibl>
                <bibl xml:id="pmb31945">
@@ -1042,8 +1018,7 @@
                      <bibl type="collections" n="23">manually created entity</bibl>
                   </note>
                   <note type="work_kind">Textsammlung</note>
-                  <title type="main">Die Überwindung des Naturalismus</title>
-                  <note type="work_kind">Textsammlung</note>
+                  
                </bibl>
                <bibl xml:id="pmb32246">
                   <title type="main">Fin de Siècle</title>
@@ -1059,7 +1034,6 @@
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb32246.html</idno>
                   <note type="work_kind">Novellensammlung</note>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb32248">
                   <title type="main">Neben der Liebe</title>
@@ -1072,7 +1046,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32248.html</idno>
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb32248.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb31999">
@@ -1093,7 +1066,6 @@
                      <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   </note>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb29947">
                   <title type="main">Wirkung in die Ferne und Anderes</title>
@@ -1108,7 +1080,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb29947.html</idno>
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb29947.html</idno>
-                  <note type="work_kind">Novellensammlung</note>
                   <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb29881">
@@ -1142,7 +1113,6 @@
                      drei Aufzügen. München: Albert Langen 1902 (229 Seiten).</title>
                   <title type="werk_link">http://books.google.com/books?id=1IGPWi-QvkIC</title>
                   <title type="legacy-name-merge">Der Krampus. Lustspiel in drei Aufzügen</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb29851">
                   <title type="main">Der Franzl. Fünf Bilder aus dem Leben eines guten
@@ -1164,7 +1134,6 @@
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb135241.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
                   <title type="legacy-name-merge">Der Franzl. Fünf Bilder eines guten Mannes</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb29901">
                   <title type="main">Sanna. Schauspiel in fünf Aufzügen</title>
@@ -1182,7 +1151,6 @@
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb29901.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb78611">
                   <title type="main">Zwölf aus der Steiermark. Roman</title>
@@ -1198,7 +1166,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Zwölf aus der Steiermark. Roman.
                      Leipzig</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78610">
                   <title type="main">Elisabeth Kött. Roman</title>
@@ -1212,7 +1179,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78610.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Elisabeth Kött. Roman. Leipzig</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77998">
                   <title type="main">Moderne Jugend</title>
@@ -1391,7 +1357,6 @@
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Die geschichtlichen Persönlichkeiten in
                      Jacob Casanova’s Memoiren. Berlin 1846.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb78624">
                   <title type="main">Das letzte Gericht. Eine Passion in vierzehn Stationen</title>
@@ -1443,7 +1408,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32832.html</idno>
                   <note type="work_kind">Novellensammlung</note>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb31535">
                   <title type="main">Der Tod Georgs</title>
@@ -1463,7 +1427,6 @@
                   <note type="work_kind">Erzählung</note>
                   <title type="alternative-name">Der Götterliebling</title>
                   <title type="werk_link">https://archive.org/details/dertodgeorgs00beergoog</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb30233">
                   <title type="main">Der Graf von Charolais. Ein Trauerspiel</title>
@@ -1483,7 +1446,6 @@
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30233.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
                   <title type="werk_arbeitstitel">Die unseelige Mitgift</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb78628">
                   <title type="main">Frau Hempels Tochter. Roman einer Berlinerin</title>
@@ -1524,7 +1486,6 @@
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Deutschland und der nächste Krieg.
                      Stuttgart 1912.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb77939">
                   <title type="main">Banditen. (Abenteuer einer Ballnacht.) Lustspiel in vier
@@ -1741,7 +1702,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Berthold Auerbach. Der Mann – Sein Werk
                      – Sein Nachlass. Mit einem Bildnis des Dichters. Stuttgart, Berlin</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb78642">
                   <title type="main">Auf der Spirale. Aus einem ungeschriebenen Zyklus</title>
@@ -1757,7 +1717,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Auf der Spirale. Aus einem
                      ungeschriebenen Zyklus. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78643">
                   <title type="main">Briefe</title>
@@ -1771,7 +1730,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78643.html</idno>
                   <note type="work_kind">Briefe</note>
                   <title type="werk_bibliografische-angabe">Briefe. Hannover, Leipzig 1895.</title>
-                  <note type="work_kind">Briefe</note>
                </bibl>
                <bibl xml:id="pmb65414">
                   <title type="main">Die Seele des Claude</title>
@@ -1780,7 +1738,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65414/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65414.html</idno>
-                  <note type="work_kind">Unveröffentlichtes Werk</note>
                   <note type="work_kind">Unveröffentlichtes Werk</note>
                </bibl>
                <bibl xml:id="pmb76902">
@@ -1833,7 +1790,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78644.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Der krasse Fuchs. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78114">
                   <title type="main">Charlotte von Stein</title>
@@ -1849,7 +1805,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Charlotte von Stein. Berlin
                      1910.</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb78115">
                   <title type="main">Goethe in vertraulichen Briefen seiner Zeitgenossen. Auch eine
@@ -1882,7 +1837,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Goethes Leben im Garten am Stern. Berlin
                      1909.</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb32103">
                   <title type="main">Goethe’s Sohn</title>
@@ -1895,7 +1849,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32103.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32103.html</idno>
-                  <note type="work_kind">Biografie</note>
                   <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb78117">
@@ -1914,7 +1867,6 @@
                      Berlin: Ernst Siegfried Mittler &amp; Sohn 1901</title>
                   <title type="werk_link"
                      >https://books.google.at/books/about/Goethes_Lebenskunst.html?id=1BVpEAAAQBAJ&amp;printsec=frontcover&amp;source=kp_read_button&amp;hl=de&amp;redir_esc=y#v=onepage&amp;q&amp;f=false</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb30329">
                   <title type="main">Erinnerungen aus meinem Leben</title>
@@ -1928,7 +1880,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30329.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30329.html</idno>
-                  <note type="work_kind">Autobiografie</note>
                   <note type="work_kind">Autobiografie</note>
                </bibl>
                <bibl xml:id="pmb77354">
@@ -1980,7 +1931,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Im Haus des alten Freiherrn. Roman.
                      Berlin 1913.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78649">
                   <title type="main">Rathsmädelgeschichten</title>
@@ -2020,7 +1970,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Der Rangierbahnhof. Roman.
                      Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78652">
                   <title type="main">Friedrich der Große. Ein Schauspiel in zwei Teilen</title>
@@ -2048,7 +1997,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Die Liebe Gottes. Ein ernstes Spiel.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78653">
                   <title type="main">Tagebuch einer Verlorenen. Von einer Toten</title>
@@ -2064,7 +2012,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Tagebuch einer Verlorenen. Von einer
                      Toten. Hrsg. M. Böhme:Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78654">
                   <title type="main">Seine Schuld. Roman</title>
@@ -2102,7 +2049,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31319.html</idno>
                   <note type="work_kind">Biografie</note>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb31545">
                   <title type="main">Karl Stauffer-Bern. Sein Leben. Seine Briefe. Seine
@@ -2116,7 +2062,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31545.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31545.html</idno>
-                  <note type="work_kind">Biografie</note>
                   <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb76812">
@@ -2203,7 +2148,6 @@
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb31977.html</idno>
                   <note type="work_kind">Geschichtswerk</note>
-                  <note type="work_kind">Geschichtswerk</note>
                </bibl>
                <bibl xml:id="pmb76815">
                   <title type="main">Hovedstrømninger i det nittende aarhundredes Litteratur</title>
@@ -2277,7 +2221,6 @@
                   <note type="work_kind">Erinnerungen</note>
                   <title type="werk_bibliografische-angabe">Memoiren einer Sozialistin. 1.
                      Lehrjahre. München</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb78660">
                   <title type="main">2. Kampfjahre</title>
@@ -2304,7 +2247,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Abschied von der Jugend. Ein
                      romantisches Lustspiel in drei Akten. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb59454">
                   <title type="main">Die Zeit Constantin’s des Großen</title>
@@ -2317,7 +2259,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59454.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb59454.html</idno>
-                  <note type="work_kind">Wissenschaftliches Werk</note>
                   <note type="work_kind">Wissenschaftliches Werk</note>
                </bibl>
                <bibl xml:id="pmb33674">
@@ -2332,7 +2273,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33674.html</idno>
                   <note type="work_kind">Fachliteratur</note>
-                  <note type="work_kind">Fachliteratur</note>
                </bibl>
                <bibl xml:id="pmb29965">
                   <title type="main">Simon Thums. Einige Tage aus seinem Leben</title>
@@ -2345,7 +2285,6 @@
                      >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29965.html</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb29965.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77008">
@@ -2371,7 +2310,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb48430.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb48430.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77006">
@@ -2420,7 +2358,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30289.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb30743">
                   <title type="main">Die verflixten Frauenzimmer</title>
@@ -2435,7 +2372,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30743.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30743.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb30673">
@@ -2452,7 +2388,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30673.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb78663">
                   <title type="main">Tagebuchblätter</title>
@@ -2466,7 +2401,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78663.html</idno>
                   <note type="work_kind">Tagebuch</note>
                   <title type="werk_bibliografische-angabe">Leipzig</title>
-                  <note type="work_kind">Tagebuch</note>
                </bibl>
                <bibl xml:id="pmb78664">
                   <title type="main">Aschermittwoch. Novelletten</title>
@@ -2495,7 +2429,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die Wiedergeburt des Melchior Dronte.
                      Der Roman einer Seelenwanderung. Wien</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78666">
                   <title type="main">Bernards Versuchung. Roman</title>
@@ -2552,7 +2485,6 @@
                   <title type="werk_bibliografische-angabe">Schauspielerleben im achtzehnten
                      Jahrhundert. Erinnerungen. Zum ersten Male veröffentlicht von Rudolf Schirmer.
                      Ebenhausen, [u. a.]</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb77806">
                   <title type="main">Gelüftete Masken. Allerlei Charakterköpfe</title>
@@ -2619,7 +2551,6 @@
                   <title type="werk_bibliografische-angabe">Tagebücher von seiner Jugend bis zur
                      Übersiedlung nach Wien. Auf Grund der Originalhandschrift mit Einleitung und
                      Anmerkungen. Berlin 1912.</title>
-                  <note type="work_kind">Tagebuch</note>
                </bibl>
                <bibl xml:id="pmb78673">
                   <title type="main">Costenoble über Grillparzer. Ungedruckte Notizen aus seinen
@@ -2737,7 +2668,6 @@
                   <note type="work_kind">Erinnerungen</note>
                   <title type="werk_bibliografische-angabe">Pariser Selbsterlebnisse während des
                      Krieges. München 1917.</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb78681">
                   <title type="main">Zwischen Vater und Sohn. Roman</title>
@@ -2765,7 +2695,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">D’ Schand’. Volksstück in sechs Bildern.
                      München</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb76970">
                   <title type="main">Der Mitmensch. Drama</title>
@@ -2818,7 +2747,6 @@
                   <note type="work_kind">Autobiografie</note>
                   <title type="werk_bibliografische-angabe">Die getreue von ihm selbst gemachte
                      Beschreibung seines Lebens. Ebenhausen</title>
-                  <note type="work_kind">Autobiografie</note>
                </bibl>
                <bibl xml:id="pmb78685">
                   <title type="main">Gedichte</title>
@@ -3189,7 +3117,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Hölderlin. Szenen aus einem Schicksal.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78704">
                   <title type="main">Die Herbstvögel. Schauspiel</title>
@@ -3279,7 +3206,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41344.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb32258">
                   <title type="main">Ein halber Held. Tragödie</title>
@@ -3295,7 +3221,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32258.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb33127">
                   <title type="main">Ritter Blaubart. Ein Märchenstück in fünf Aufzügen</title>
@@ -3308,7 +3233,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33127.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb33127.html</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb76740">
@@ -3349,7 +3273,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31899.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb76742">
                   <title type="main">Der natürliche Vater</title>
@@ -3379,7 +3302,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Münchhausen. Ein deutsches Schauspiel.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb76741">
                   <title type="main">Belinde. Ein Liebesstück in fünf Aufzügen</title>
@@ -3395,7 +3317,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Belinde. Ein Liebesstück in fünf
                      Aufzügen. Leipzig</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb76745">
                   <title type="main">Zeitwende. Ein Schauspiel in fünf Akten</title>
@@ -3411,7 +3332,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Zeitwende. Ein Schauspiel in fünf Akten.
                      Leipzig</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78716">
                   <title type="main">Berufstragik. Aus dem Taschenbuch eines Ingenieurs. Mit [...]
@@ -3453,7 +3373,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Die Fassade. Lustspiel in drei Aufzügen.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78717">
                   <title type="main">Abendlieder</title>
@@ -3608,7 +3527,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76909.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Freitagskind. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76908">
                   <title type="main">Die Prophezeiung und andere Novellen</title>
@@ -3678,7 +3596,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78383.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Stine. Berlin 1890.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78378">
                   <title type="main">Irrungen, Wirrungen. Roman</title>
@@ -3694,7 +3611,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Irrungen, Wirrungen. Roman. Leipzig
                      1888.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78376">
                   <title type="main">Effi Briest. Roman</title>
@@ -3708,7 +3624,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78376.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Effi Briest. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78381">
                   <title type="main">Meine Kinderjahre. Autobiographischer Roman</title>
@@ -3724,7 +3639,6 @@
                   <note type="work_kind">Autobiografie</note>
                   <title type="werk_bibliografische-angabe">Meine Kinderjahre. Autobiographischer
                      Roman. Berlin</title>
-                  <note type="work_kind">Autobiografie</note>
                </bibl>
                <bibl xml:id="pmb78386">
                   <title type="main">Von Zwanzig bis Dreißig. Autobiographisches</title>
@@ -3753,7 +3667,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Frau Jenny Treibel oder Wo sich Herz zum
                      Herzen find’t. Roman aus der Berliner Gesellschaft. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78375">
                   <title type="main">Die Poggenpuhls</title>
@@ -3767,7 +3680,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78375.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die Poggenpuhls. Berlin 1896.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78373">
                   <title type="main">Cécile. Roman</title>
@@ -3781,7 +3693,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78373.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Cécile. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78380">
                   <title type="main">L’Adultera</title>
@@ -3807,7 +3718,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78385.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Unwiederbringlich. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78384">
                   <title type="main">Unterm Birnbaum</title>
@@ -3821,7 +3731,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78384.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Unterm Birnbaum. Berlin 1885.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78382">
                   <title type="main">Schach von Wuthenow. Erzählung aus der Zeit des Regiments
@@ -3838,7 +3747,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Schach von Wuthenow. Erzählung aus der
                      Zeit des Regiments Gendarmes. Leipzig</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78372">
                   <title type="main">Briefe an seine Familie</title>
@@ -3852,7 +3760,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78372.html</idno>
                   <note type="work_kind">Briefe</note>
                   <title type="werk_bibliografische-angabe">Briefe an seine Familie. Berlin</title>
-                  <note type="work_kind">Briefe</note>
                </bibl>
                <bibl xml:id="pmb78371">
                   <title type="main">Briefe</title>
@@ -3880,7 +3787,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78374.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Der Stechlin. Berlin 1899.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78018">
                   <title type="main">Die Ursache. Eine Erzählung</title>
@@ -3936,7 +3842,6 @@
                   <note type="work_kind">Tagebuch</note>
                   <title type="werk_bibliografische-angabe">Indische Reise. Tagebuchblätter.
                      München</title>
-                  <note type="work_kind">Tagebuch</note>
                </bibl>
                <bibl xml:id="pmb76871">
                   <title type="main">Benvenuto Cellini</title>
@@ -4104,7 +4009,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33141.html</idno>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78163">
                   <title type="main">Der Untergang der Anna Hollmann. Erzählung</title>
@@ -4140,7 +4044,6 @@
                   <title type="werk_bibliografische-angabe">Heinrich Friedjung: Der Kampf um die
                      Vorherrschaft in Deutschland 1859 bis 1866. 2 Bde. Stuttgart: Cotta
                      1897–1898</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb78738">
                   <title type="main">Aus dem Lande der Verdammnis. Novelle</title>
@@ -4292,7 +4195,6 @@
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb61767.html</idno>
                   <note type="work_kind">Textsammlung</note>
-                  <note type="work_kind">Textsammlung</note>
                </bibl>
                <bibl xml:id="pmb43467">
                   <title type="main">Das Verlöbnis. Geschichte eines Knaben</title>
@@ -4311,7 +4213,6 @@
                   <note type="work_kind">Roman</note>
                   <note type="references"
                      >http://digital.slub-dresden.de/id39946221X-19011101/5</note>
-                  <note type="work_kind">Roman</note>
                   <note type="references"
                      >http://digital.slub-dresden.de/id39946221X-19011101/5</note>
                </bibl>
@@ -4329,7 +4230,6 @@
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Des Deutschen Reiches Schicksalsstunde.
                      Berlin 1914.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb78747">
                   <title type="main">Der Film. Seine Mittel – seine Ziele</title>
@@ -4468,7 +4368,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78757.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Arbeit. Berlin 1917.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78758">
                   <title type="main">Seeschlacht. Tragödie</title>
@@ -4496,7 +4395,6 @@
                   <note type="work_kind">Reisebericht</note>
                   <title type="werk_bibliografische-angabe">Moskau 1920. Tagebuchblätter.
                      Berlin</title>
-                  <note type="work_kind">Reisebericht</note>
                </bibl>
                <bibl xml:id="pmb78760">
                   <title type="main">Griechische Denker</title>
@@ -4512,7 +4410,6 @@
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Griechische Denker. Leipzig
                      1896.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb78764">
                   <title type="main">Wie Uli der Knecht glücklich wird. Eine Gabe für Dienstboten
@@ -4649,7 +4546,6 @@
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Südafrikanische Novellen. Frankfurt am
                      Main 1913.</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78774">
                   <title type="main">Die Sängerin</title>
@@ -4796,7 +4692,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Der Anfänger. Acht Bilder.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb58658">
                   <title type="main">Shakespeare und der deutsche Geist</title>
@@ -4809,7 +4704,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb58658.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb58658.html</idno>
-                  <note type="work_kind">Wissenschaftliches Werk</note>
                   <note type="work_kind">Wissenschaftliches Werk</note>
                </bibl>
                <bibl xml:id="pmb77090">
@@ -4838,7 +4732,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77088.html</idno>
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">George. Berlin 1920.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb78784">
                   <title type="main">Arthur Schopenhauer aus persönlichem Umgange dargestellt. Ein
@@ -4895,7 +4788,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30829.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30829.html</idno>
-                  <note type="work_kind">Biografie</note>
                   <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb78787">
@@ -5156,7 +5048,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Tantris der Narr. Drama in fünf Akten.
                      Leipzig</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78811">
                   <title type="main">Ahasverus in Rom. Dichtung</title>
@@ -5259,7 +5150,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Joachim von Brandt. Komödie.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78244">
                   <title type="main">Gleichnisse. Drei Novellen</title>
@@ -5311,7 +5201,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Abgeschossen. Österreichischer
                      Militär-Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78820">
                   <title type="main">Menschen von Gottes Gnaden. Erzählung</title>
@@ -5375,7 +5264,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Jettchen Geberts Geschichte. 1: Jettchen
                      Gebert. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78826">
                   <title type="main">Jettchen Geberts Geschichte. 2: Henriette Jacoby</title>
@@ -5428,7 +5316,6 @@
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb61800.html</idno>
                   <note type="work_kind">Einakter</note>
-                  <note type="work_kind">Einakter</note>
                </bibl>
                <bibl xml:id="pmb78829">
                   <title type="main">Laura Wunderl. Münchner Novellen</title>
@@ -5444,7 +5331,6 @@
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Laura Wunderl. Münchner Novellen.
                      Berlin</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78501">
                   <title type="main">Peter Camenzind</title>
@@ -5458,7 +5344,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78501.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Peter Camenzind. Berlin 1904.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78500">
                   <title type="main">Klingsors letzter Sommer. Erzählungen</title>
@@ -5474,7 +5359,6 @@
                   <note type="work_kind">Erzählsammlung</note>
                   <title type="werk_bibliografische-angabe">Klingsors letzter Sommer. Erzählungen.
                      Berlin</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb77303">
                   <title type="main">Kinder der Welt</title>
@@ -5881,7 +5765,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76933.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Jesus und Judas. Berlin 1891.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78310">
                   <title type="main">An die Schönheit. Trauerspiel</title>
@@ -5909,7 +5792,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Weiße Liebe. Roman aus dem Quartier
                      Latin. München</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78309">
                   <title type="main">Amerika heute und morgen. Reiseerlebnisse</title>
@@ -6090,7 +5972,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78852.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Thomas Kerkhoven. Roman. München</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb61781">
                   <title type="main">Professor Sylvan’s junge Ehe und andere Novellen</title>
@@ -6104,7 +5985,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61781.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb61781.html</idno>
-                  <note type="work_kind">Novellensammlung</note>
                   <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb77474">
@@ -6133,7 +6013,6 @@
                   <note type="work_kind">Skizze</note>
                   <title type="werk_bibliografische-angabe">Aus der Triumphgasse. Lebensskizzen.
                      Leipzig, Jena</title>
-                  <note type="work_kind">Skizze</note>
                </bibl>
                <bibl xml:id="pmb33638">
                   <title type="main">Der große Krieg in Deutschland</title>
@@ -6146,7 +6025,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33638.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33638.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb77472">
@@ -6191,7 +6069,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Die Hagestolzen. Ein Lustspiel in fünf
                      Aufzügen. Leipzig</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78856">
                   <title type="main">Verbrechen aus Ehrsucht. Ein ernsthaftes Familiengemählde in
@@ -6222,7 +6099,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Der Spieler. Ein Schauspiel in fünf
                      Aufzügen. Leipzig</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78860">
                   <title type="main">Münchhausen. Eine Geschichte in Arabesken</title>
@@ -6239,7 +6115,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Karl Leberecht Immermann: Münchhausen.
                      Eine Geschichte in Arabesken. In: Schriften. Band 8–11. Düsseldorf</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78858">
                   <title type="main">Die Epigonen. Familienmemoiren in neun Büchern</title>
@@ -6296,7 +6171,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Funchal. Eine Geschichte der Sehnsucht.
                      Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78862">
                   <title type="main">Der Hafen</title>
@@ -6310,7 +6184,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78862.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Der Hafen. Berlin 1910.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78863">
                   <title type="main">Die Flüchtlinge. Von einer Reise durch Holland hinter die
@@ -6374,7 +6247,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Pastor Ephraim Magnus. Drama.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78873">
                   <title type="main">Die Namenlosen. Roman</title>
@@ -6452,7 +6324,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die Familie von Barchwitz. Berlin
                      1899.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78879">
                   <title type="main">Nixchen. Ein Beitrag zur Psychologie der höheren
@@ -6522,7 +6393,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Von morgens bis mitternachts. Stück in
                      zwei Teilen. Potsdam</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78887">
                   <title type="main">Europa. Spiel und Tanz in fünf Aufzügen</title>
@@ -6553,7 +6423,6 @@
                   <title type="werk_bibliografische-angabe">Die Versuchung. Eine Tragödie unter
                      jungen Leuten aus dem Ende des vorigen Jahrhunderts in fünf Akten.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78884">
                   <title type="main">Die Koralle. Schauspiel in fünf Akten</title>
@@ -6581,7 +6450,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Das Frauenopfer. Schauspiel in drei
                      Akten. Potsdam</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78889">
                   <title type="main">Gas. Schauspiel in fünf Akten. Zweiter Teil: Schauspiel in drei
@@ -6709,7 +6577,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Das Tor. Roman. Berlin 1910.</title>
                   <title type="legacy-name-merge">Der Tor</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78905">
                   <title type="main">Aus dem Hofleben Maria Theresia’s. Von Adam Wolf. Nach den
@@ -6727,7 +6594,6 @@
                   <note type="work_kind">Erinnerungen</note>
                   <title type="werk_bibliografische-angabe">Aus dem Hofleben Maria Theresia’s. Von
                      Adam Wolf. Nach den Memoiren des J. Khevenhüller. Wien</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb62256">
                   <title type="main">Die Welt im Drama</title>
@@ -6744,7 +6610,6 @@
                      <bibl type="collections" n="5">legalkraus</bibl>
                   </note>
                   <note type="work_kind">Essaysammlung</note>
-                  <note type="work_kind">Essaysammlung</note>
                </bibl>
                <bibl xml:id="pmb78912">
                   <title type="main">Wellen. Roman</title>
@@ -6758,7 +6623,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78912.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Wellen. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78907">
                   <title type="main">Dumala. Roman</title>
@@ -6782,7 +6646,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78911.html</idno>
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Schwüle Tage. Novellen. Berlin</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78909">
                   <title type="main">Fürstinnen. Erzählung</title>
@@ -6796,7 +6659,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78909.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Fürstinnen. Erzählung. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78910">
                   <title type="main">Im stillen Winkel. Erzählungen</title>
@@ -6837,7 +6699,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Rahel. Eine biographische Skizze. Übers.
                      von Marie Franzos. Leipzig</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb78914">
                   <title type="main">Die Jakobiner in Oesterreich. Historischer Roman</title>
@@ -6893,7 +6754,6 @@
                   <note type="work_kind">Erinnerungen</note>
                   <title type="werk_bibliografische-angabe">Jugenderinnerungen Karl Friedrich’s von
                      Klöden. Leipzig</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb78918">
                   <title type="main">Die Verführung. Eine Tragödie in fünf Akten</title>
@@ -6909,7 +6769,6 @@
                   <note type="work_kind">Mehraktiges Drama</note>
                   <title type="werk_bibliografische-angabe">Die Verführung. Eine Tragödie in fünf
                      Akten. Berlin 1916.</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb78921">
                   <title type="main">Legende</title>
@@ -7060,7 +6919,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78935.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Das Exemplar. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78937">
                   <title type="main">Helene. Den Tod erkämpft. Zwei Erzählungen</title>
@@ -7136,7 +6994,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78942.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Harte Ehen. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78943">
                   <title type="main">Die Betrogenen. Berliner Sitten-Roman</title>
@@ -7176,7 +7033,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die Maringotte. Eine Erzählung.
                      Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78947">
                   <title type="main">Heinrich Roller oder Schillers Heimatjahre. Vaterländischer
@@ -7237,7 +7093,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb39748.html</idno>
                   <note type="work_kind">Biografie</note>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb78948">
                   <title type="main">Die Frauen um Goethe. Weimarer Interieurs</title>
@@ -7267,7 +7122,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Medusa. Tragödie in fünf Akten.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb30355">
                   <title type="main">Jugenderinnerungen eines alten Arztes</title>
@@ -7280,7 +7134,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30355.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30355.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb78953">
@@ -7369,7 +7222,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32310.html</idno>
                   <note type="work_kind">Text</note>
-                  <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb30095">
                   <title type="main">Das Wiener Stadt-Theater</title>
@@ -7382,7 +7234,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30095/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30095.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb78957">
@@ -7399,7 +7250,6 @@
                   <note type="work_kind">Tagebuch</note>
                   <title type="werk_bibliografische-angabe">Aus dem Tagebuch eines alten Wieners.
                      Wien 1907.</title>
-                  <note type="work_kind">Tagebuch</note>
                </bibl>
                <bibl xml:id="pmb78958">
                   <title type="main">Die Schmetterlingspuppe. Roman</title>
@@ -7465,7 +7315,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Hoche und Bonaparte. Drama in vier Akten
                      und historischer Anhang. Mit vier Essais. Halle an der Saale</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78962">
                   <title type="main">Consulat</title>
@@ -7476,7 +7325,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78962.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78962.html</idno>
-                  <note type="work_kind">Drama</note>
                   <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78965">
@@ -7506,7 +7354,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Nüremberch um 1522. Ein Schauspiel mit
                      seltsamen Geschehnissen erzählt von Charles Leyst. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78964">
                   <title type="main">Don Juan’s Mission. Drama in drei Akten</title>
@@ -7522,7 +7369,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Don Juan’s Mission. Drama in drei Akten.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb76656">
                   <title type="main">Alfred de Musset</title>
@@ -7597,7 +7443,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Paul Lindau: Arme Mädchen. In: Berlin.
                      Romane. Zwei Bände. Band 2, 1–2. Berlin, Stuttgart 1887.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76667">
                   <title type="main">Wunderliche Leute. Kleine Erzählungen</title>
@@ -7795,7 +7640,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Bismarck. Ein psychologischer Versuch.
                      Berlin</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb78982">
                   <title type="main">Aissa und Anderes. Gedichte von Lynx</title>
@@ -7823,7 +7667,6 @@
                   <note type="work_kind">Essaysammlung</note>
                   <title type="werk_bibliografische-angabe">Die drei Stufen der Erotik. Berlin
                      1913.</title>
-                  <note type="work_kind">Essaysammlung</note>
                </bibl>
                <bibl xml:id="pmb78542">
                   <title type="main">Grenzen der Seele</title>
@@ -7839,7 +7682,6 @@
                   <note type="work_kind">Essaysammlung</note>
                   <title type="werk_bibliografische-angabe">Grenzen der Seele. Berlin, Leipzig
                      1916.</title>
-                  <note type="work_kind">Essaysammlung</note>
                </bibl>
                <bibl xml:id="pmb78543">
                   <title type="main">Heiligenrast. Ein Roman aus alter Zeit</title>
@@ -7910,7 +7752,6 @@
                      <bibl type="collections" n="5">legalkraus</bibl>
                   </note>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76551">
                   <title type="main">Tristan. Sechs Novellen</title>
@@ -7936,7 +7777,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76545.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Fiorenza. Berlin 1905.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb30295">
                   <title type="main">Königliche Hoheit</title>
@@ -7949,7 +7789,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30295.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30295.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb76544">
@@ -7964,7 +7803,6 @@
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Der kleine Herr Friedemann. Novellen.
                      Berlin 1898.</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb33598">
                   <title type="main">Betrachtungen eines Unpolitischen</title>
@@ -7977,7 +7815,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33598.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33598.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76546">
@@ -8010,7 +7847,6 @@
                   <idno type="URL" subtype="wikipedia"
                      >https://de.wikipedia.org/wiki/Die_G%C3%B6ttinnen_oder_Die_drei_Romane_der_Herzogin_von_Assy</idno>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb31981">
                   <title type="main">Die Jagd nach Liebe</title>
@@ -8025,7 +7861,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31981.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31981.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76567">
@@ -8042,7 +7877,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Professor Unrat oder Das Ende eines
                      Tyrannen. Roman. München</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76560">
                   <title type="main">Flöten und Dolche. Novellen</title>
@@ -8058,7 +7892,6 @@
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Flöten und Dolche. Novellen.
                      München</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb76568">
                   <title type="main">Stürmische Morgen. Novellen</title>
@@ -8086,7 +7919,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33590.html</idno>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb30779">
                   <title type="main">Der Untertan</title>
@@ -8099,7 +7931,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30779.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30779.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb76556">
@@ -8125,7 +7956,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31289.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31289.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb78984">
@@ -8236,7 +8066,6 @@
                      >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43133.html</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb43133.html</idno>
-                  <note type="work_kind">Erzählung</note>
                   <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb76735">
@@ -8359,7 +8188,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die Stimme. Roman in Blättern.
                      Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78990">
                   <title type="main">Geschichte meines Lebens</title>
@@ -8387,7 +8215,6 @@
                   <note type="work_kind">Erzählsammlung</note>
                   <title type="werk_bibliografische-angabe">Lateinische Erzählungen. Wien
                      1904.</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb78991">
                   <title type="main">Heines »Junge Leiden«. Charakterbild in drei Aufzügen</title>
@@ -8434,7 +8261,6 @@
                      >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb39734.html</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb39734.html</idno>
-                  <note type="work_kind">Erzählsammlung</note>
                   <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb78998">
@@ -8521,7 +8347,6 @@
                   <note type="collections">
                      <bibl type="collections" n="5">legalkraus</bibl>
                   </note>
-                  <note type="work_kind">Novellensammlung</note>
                   <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb79001">
@@ -8673,7 +8498,6 @@
                   <note type="work_kind">Briefe</note>
                   <title type="werk_bibliografische-angabe">Eduard Mörikes Briefe. Ausgewählt und
                      eingeleitet von Will Vesper. Berlin</title>
-                  <note type="work_kind">Briefe</note>
                </bibl>
                <bibl xml:id="pmb79007">
                   <title type="main">Weltuntergang. Pygmalion. Dramen</title>
@@ -8775,7 +8599,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Die Politiker des Geistes. Sieben
                      Situationen. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79012">
                   <title type="main">Von Stufe zu Stufe. Bild in vier Acten</title>
@@ -8803,7 +8626,6 @@
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">Die Verwirrungen des Zöglings Törleß.
                      Wien, Berlin</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb79014">
                   <title type="main">Das verlorene Lied. Vier Einakter</title>
@@ -8857,7 +8679,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Menschen von gestern. Ein Berliner
                      Roman. München, Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79021">
                   <title type="main">Graveneck. Geschichtlicher Roman aus der zweiten Hälfte des
@@ -8960,7 +8781,6 @@
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb33063.html</idno>
                   <note type="work_kind">Essay</note>
-                  <note type="work_kind">Essay</note>
                </bibl>
                <bibl xml:id="pmb79031">
                   <title type="main">Der Mann mit dem Pferdekopf</title>
@@ -9056,7 +8876,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78414.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Normalmenschen. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78427">
                   <title type="main">Leben Quintus Fixlein, aus funfzehn Zettelkästen gezogen. Nebst
@@ -9217,7 +9036,6 @@
                   <note type="work_kind">Erzählsammlung</note>
                   <title type="werk_bibliografische-angabe">Phantasien eines Realisten. Dresden, [u.
                      a.] 1899.</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb78110">
                   <title type="main">Voltaire. Eine Charakteranalyse, in Verbindung mit Studien zur
@@ -9346,7 +9164,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Kaiser Joseph II. und seine Zeit.
                      Leipzig 1845.</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb79047">
                   <title type="main">Der General Bonaparte</title>
@@ -9486,7 +9303,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31589.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb77459">
                   <title type="main">Wölfe in der Nacht. Komödie in drei Akten</title>
@@ -9502,7 +9318,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Wölfe in der Nacht. Komödie in drei
                      Akten. Wien</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb77455">
                   <title type="main">Ich kenne sie. Novellen</title>
@@ -9612,7 +9427,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Die fünf Frankfurter. Lustspiel in drei
                      Akten. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79061">
                   <title type="main">Erzählungen</title>
@@ -9641,7 +9455,6 @@
                   <note type="work_kind">Erinnerungen</note>
                   <title type="werk_bibliografische-angabe">Der deutsche Lausbub in Amerika.
                      Erinnerungen und Eindrücke. Stuttgart</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb79063">
                   <title type="main">In der Fremdenlegion. Erinnerungen und Eindrücke</title>
@@ -9657,7 +9470,6 @@
                   <note type="work_kind">Erinnerungen</note>
                   <title type="werk_bibliografische-angabe">In der Fremdenlegion. Erinnerungen und
                      Eindrücke. Stuttgart</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb79065">
                   <title type="main">Studien</title>
@@ -9683,7 +9495,6 @@
                   <note type="work_kind">Monografie</note>
                   <title type="werk_bibliografische-angabe">Diderot’s Leben und Werk.
                      Königsberg</title>
-                  <note type="work_kind">Monografie</note>
                </bibl>
                <bibl xml:id="pmb77691">
                   <title type="main">Mann und Weib. Liebesgeschichten</title>
@@ -9734,7 +9545,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77687.html</idno>
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Allerhand Leute. Wien 1888.</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb77689">
                   <title type="main">Dorfsünden</title>
@@ -9748,7 +9558,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77689.html</idno>
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Dorfsünden. Wien 1887.</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78153">
                   <title type="main">Novellen aus Österreich</title>
@@ -9766,7 +9575,6 @@
                      1877.</title>
                   <title type="werk_link"
                      >https://www.deutschestextarchiv.de/book/show/saar_novellen_1877</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78150">
                   <title type="main">Drei Neue Novellen</title>
@@ -9798,7 +9606,6 @@
                      Novellen. Heidelberg: G. Weiß 1889. (Der Novellen dritte Sammlung)</title>
                   <title type="werk_link"
                      >http://www.zeno.org/Literatur/M/Saar,+Ferdinand+von/Erz%C3%A4hlungen/Novellen+aus+%C3%96sterreich/3.+Teil</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78151">
                   <title type="main">Frauenbilder. Zwei Novellen</title>
@@ -9828,7 +9635,6 @@
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Ginevra. Die Troglodytin. Zwei Novellen.
                      Leipzig</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78155">
                   <title type="main">Sämtliche Werke in zwölf Bände. Mit einer Biographie des
@@ -9928,7 +9734,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Parteien. Drama in 15 Szenen.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79073">
                   <title type="main">Meine Jagd nach dem Glück in Argentinien und Paraguay</title>
@@ -9944,7 +9749,6 @@
                   <note type="work_kind">Reisebericht</note>
                   <title type="werk_bibliografische-angabe">Meine Jagd nach dem Glück in Argentinien
                      und Paraguay. Leipzig 1921.</title>
-                  <note type="work_kind">Reisebericht</note>
                </bibl>
                <bibl xml:id="pmb79075">
                   <title type="main">Ekkehard. Eine Geschichte aus dem zehnten Jahrhundert</title>
@@ -10025,7 +9829,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Stefan und Elsa Hirrlinger. Ein Roman
                      aus der Zeit vor dem Kriege. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77328">
                   <title type="main">Caritas</title>
@@ -10039,7 +9842,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77328.html</idno>
                   <note type="work_kind">Erzählsammlung</note>
                   <title type="werk_bibliografische-angabe">Caritas. Wien 1905.</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb30855">
                   <title type="main">Glaube und Heimat. Die Tragödie eines Volkes</title>
@@ -10054,7 +9856,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30855.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30855.html</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb79080">
@@ -10076,7 +9877,6 @@
                   <title type="werk_bibliografische-angabe">Der im Irr-Garten der Liebe herum
                      taumelnde Cavalier. Oder: Reise- und LiebesGeschichte eines vornehmen Deutschen
                      von Adel, Herrn von St..Warnungsstadt</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79082">
                   <title type="main">Die drei Freier. Erzählung</title>
@@ -10368,7 +10168,6 @@
                   <title type="werk_bibliografische-angabe">Das häusliche Leben der europäischen
                      Kulturvölker vom Mittelalter bis zur zweiten Hälfte des XVIII. Jahrhunderts.
                      München</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb79106">
                   <title type="main">Wolf Castells Gast. Novelle</title>
@@ -10406,7 +10205,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Brandung. Schauspiel in drei Akten.
                      Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78173">
                   <title type="main">Biographie Schillers und Anleitung zur Critic seiner Werke. Mit
@@ -10475,7 +10273,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Tino Moralt. Kampf und Ende eines
                      Künstlers. Jena</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79112">
                   <title type="main">Mit Feuer und Schwert im Sudan. Meine Kämpfe mit den
@@ -10564,7 +10361,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79118.html</idno>
                   <note type="work_kind">Monografie</note>
                   <title type="werk_bibliografische-angabe">Das alte Burgtheater. Wien 1916.</title>
-                  <note type="work_kind">Monografie</note>
                </bibl>
                <bibl xml:id="pmb79119">
                   <title type="main">Kriegstagebuch »U 202«</title>
@@ -10581,7 +10377,6 @@
                   <note type="work_kind">Tagebuch</note>
                   <title type="werk_bibliografische-angabe">Kriegstagebuch »U 202«. Berlin
                      1916.</title>
-                  <note type="work_kind">Tagebuch</note>
                </bibl>
                <bibl xml:id="pmb79123">
                   <title type="main">Problematische Naturen. Roman</title>
@@ -10702,7 +10497,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79130.html</idno>
                   <note type="work_kind">Epos</note>
                   <title type="werk_bibliografische-angabe">Olympischer Frühling. Epos. Jena</title>
-                  <note type="work_kind">Epos</note>
                </bibl>
                <bibl xml:id="pmb79129">
                   <title type="main">Meine frühesten Erlebnisse</title>
@@ -10727,7 +10521,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33229.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb33229.html</idno>
-                  <note type="work_kind">Sachbuch</note>
                   <note type="work_kind">Sachbuch</note>
                </bibl>
                <bibl xml:id="pmb79132">
@@ -10778,7 +10571,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78477.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Meta Konegen. Drama. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78476">
                   <title type="main">Geschichten aus dem Mandelhaus</title>
@@ -10804,7 +10596,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78474.html</idno>
                   <note type="work_kind">Novellensammlung</note>
                   <title type="werk_bibliografische-angabe">Das Abendrot. Novellen. Berlin</title>
-                  <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb79134">
                   <title type="main">Du und ich. Die Geschichte eines armen Offiziers</title>
@@ -10870,7 +10661,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77498.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Die Kassette. Komödie. Leipzig</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb32087">
                   <title type="main">Die Hose. Ein bürgerliches Lustspiel</title>
@@ -10884,7 +10674,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32087.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb30873">
                   <title type="main">Der Snob. Komödie in drei Aufzügen</title>
@@ -10897,7 +10686,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30873.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30873.html</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb77496">
@@ -10914,7 +10702,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Bürger Schippel. Komödie in fünf
                      Aufzügen. Leipzig</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb77502">
                   <title type="main">Tabula rasa. Ein Schauspiel</title>
@@ -10943,7 +10730,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Voltaire. Sechs Vorträge.
                      Leipzig</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb79139">
                   <title type="main">Christian Friedrich Daniel Schubart’s Leben in seinen
@@ -10974,7 +10760,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Ulrich von Hutten. Leipzig
                      1858–1860.</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb79140">
                   <title type="main">Christian Märklin. Ein Lebens- und Charakterbild aus der
@@ -11064,7 +10849,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79150.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Lanvâl. Drama. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79151">
                   <title type="main">Lanzelot. Drama</title>
@@ -11088,7 +10872,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79152.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Larion. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76541">
                   <title type="main">High-life</title>
@@ -11156,7 +10939,6 @@
                   <note type="work_kind">Essaysammlung</note>
                   <title type="werk_bibliografische-angabe">Völker, Vaterländer und Fürsten. Ein
                      Beitrag zur Entwicklung Europas. München</title>
-                  <note type="work_kind">Essaysammlung</note>
                </bibl>
                <bibl xml:id="pmb79162">
                   <title type="main">Sphinx</title>
@@ -11189,7 +10971,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30677.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30677.html</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb77880">
@@ -11339,7 +11120,6 @@
                   <note type="work_kind">Autobiografie</note>
                   <title type="werk_bibliografische-angabe">Das Leben und die Abenteuer des armen
                      Mannes im Tockenburg. Leipzig 1852.</title>
-                  <note type="work_kind">Autobiografie</note>
                </bibl>
                <bibl xml:id="pmb32402">
                   <title type="main">Mit tausend Masten. Roman</title>
@@ -11352,7 +11132,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32402.html</idno>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb31649">
                   <title type="main">Auf gerettetem Kahn. Roman</title>
@@ -11364,7 +11143,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31649/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31649.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb31645">
@@ -11379,7 +11157,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31645.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31645.html</idno>
-                  <note type="work_kind">Erzählsammlung</note>
                   <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb76968">
@@ -11470,7 +11247,6 @@
                   <note type="work_kind">Erinnerungen</note>
                   <title type="werk_bibliografische-angabe">Mein Leben. Erinnerungen aus Österreichs
                      großer Welt. Band 1 (1788–1819). Hrsg. René van Rhyn:München 1913.</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb79183">
                   <title type="main">Mein Leben. Erinnerungen aus Österreichs großer Welt. Band 2
@@ -11511,7 +11287,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Louis Ferdinand, Prinz von Preußen. Ein
                      Drama. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb32326">
                   <title type="main">Ein Geschlecht</title>
@@ -11524,7 +11299,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32326.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32326.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb76586">
@@ -11586,7 +11360,6 @@
                      >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33626.html</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33626.html</idno>
-                  <note type="work_kind">Briefausgabe</note>
                   <note type="work_kind">Briefausgabe</note>
                </bibl>
                <bibl xml:id="pmb79187">
@@ -11795,7 +11568,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Robert Schumann. Eine Biographie.
                      Dresden 1858.</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb79198">
                   <title type="main">Robert Schumann. Eine Biographie. Vierte, umgearbeitete und
@@ -11811,7 +11583,6 @@
                   <note type="work_kind">Biografie</note>
                   <title type="werk_bibliografische-angabe">Robert Schumann. Eine Biographie. Hrsg.
                      W. von Wasielewski:Leipzig 1906.</title>
-                  <note type="work_kind">Biografie</note>
                </bibl>
                <bibl xml:id="pmb79199">
                   <title type="main">Der Dussel. Dramatische Parodie</title>
@@ -11886,7 +11657,6 @@
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">Nicht der Mörder, der Ermordete ist
                      schuldig. Eine Novelle. München</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb76575">
                   <title type="main">Gedichte</title>
@@ -11936,7 +11706,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78551.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die Galeere. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78550">
                   <title type="main">Der Kampf. Roman</title>
@@ -11960,7 +11729,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78554.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Tiere in Ketten. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78553">
                   <title type="main">Tanja. Drama in drei Akten</title>
@@ -12034,7 +11802,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77874.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Armut. Ein Trauerspiel. Leipzig</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb32091">
                   <title type="main">Kirbisch – oder Der Gendarm, die Schande und das Glück. Ein
@@ -12048,7 +11815,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32091.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32091.html</idno>
-                  <note type="work_kind">Epos</note>
                   <note type="work_kind">Epos</note>
                </bibl>
                <bibl xml:id="pmb78367">
@@ -12108,7 +11874,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">La Vallière. Dramatische Dichtung in 1
                      Vorspiel und fünf Akten. München, [u. a.]</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb77791">
                   <title type="main">Der Juwelier von Bagdad. Roman</title>
@@ -12119,7 +11884,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb77791.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77791.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77790">
@@ -12134,7 +11898,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Alte Liebeshändel. Roman. Wien
                      1909.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77792">
                   <title type="main">Die sexuelle Not</title>
@@ -12148,7 +11911,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77792.html</idno>
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Die sexuelle Not. Wien 1907.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb77796">
                   <title type="main">Tragische Motive</title>
@@ -12162,7 +11924,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77796.html</idno>
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Tragische Motive. Berlin 1911.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb79207">
                   <title type="main">Der Weltverkehr</title>
@@ -12193,7 +11954,6 @@
                   <note type="work_kind">Autobiografie</note>
                   <title type="werk_bibliografische-angabe">Der Lebensroman des Wit von Dörring.
                      Nach seinen Memoiren bearbeitet. Leipzig</title>
-                  <note type="work_kind">Autobiografie</note>
                </bibl>
                <bibl xml:id="pmb79209">
                   <title type="main">Tannhäuser. Ein Minnesang</title>
@@ -12299,7 +12059,6 @@
                   <note type="work_kind">Erzählsammlung</note>
                   <title type="werk_bibliografische-angabe">Firnwind. Neue Erzählungen.
                      Stuttgart</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb79215">
                   <title type="main">Aesthetik. 2 Teile. 1. Teil: Aesthetik. Geschichte der
@@ -12329,7 +12088,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79218.html</idno>
                   <note type="work_kind">Gedicht</note>
                   <title type="werk_bibliografische-angabe">Die helle Nacht. Gedicht. Berlin</title>
-                  <note type="work_kind">Gedicht</note>
                </bibl>
                <bibl xml:id="pmb79217">
                   <title type="main">Die fremde Frau. Roman</title>
@@ -12343,7 +12101,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79217.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die fremde Frau. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79219">
                   <title type="main">Die Kaiserstadt. Roman</title>
@@ -12357,7 +12114,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79219.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die Kaiserstadt. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79220">
                   <title type="main">Reise um die Pariser Welt</title>
@@ -12385,7 +12141,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Das Haus am Wege. Roman. Frankfurt am
                      Main</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb33716">
                   <title type="main">Die Liebe der Erika Ewald. Novellen</title>
@@ -12395,7 +12150,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33716/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33716.html</idno>
-                  <note type="work_kind">Novellensammlung</note>
                   <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb32532">
@@ -12407,7 +12161,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32532/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32532.html</idno>
-                  <note type="work_kind">Novellensammlung</note>
                   <note type="work_kind">Novellensammlung</note>
                </bibl>
                <bibl xml:id="pmb78561">
@@ -12424,7 +12177,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Ritualmord in Ungarn. Berlin
                      1914.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb78555">
                   <title type="main">Aufzeichnungen über eine Familie Klopfer</title>
@@ -12450,7 +12202,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78558.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Novellen um Claudia. Leipzig</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78557">
                   <title type="main">Der Streit um den Sergeanten Grischa</title>
@@ -12466,7 +12217,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Der Streit um den Sergeanten Grischa.
                      Potsdam, Berlin 1927.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78560">
                   <title type="main">Pont und Anna</title>
@@ -12480,7 +12230,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78560.html</idno>
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">Pont und Anna. Potsdam 1928.</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb79226">
                   <title type="main">Pariser Ehen</title>
@@ -12546,7 +12295,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">La femme de trente ans. Paris
                      1842.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76701">
                   <title type="main">Capitain Paz</title>
@@ -12704,7 +12452,6 @@
                      >https://de.wikipedia.org/wiki/Verlorene_Illusionen</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Illusions perdues. Paris 1837.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76731">
                   <title type="main">Physiologie du marriage ou Méditations de philosophie
@@ -12734,7 +12481,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76726.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Le père Goriot. Paris 1835.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76715">
                   <title type="main">La fausse maîtresse</title>
@@ -12804,7 +12550,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Le médecin de campagne. Paris
                      1833.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76709">
                   <title type="main">Histoire de la grandeur et de la décadence de César Biroteau,
@@ -12846,7 +12591,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76713.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">La cousine Bette. Paris 1846.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb33344">
                   <title type="main">Lettres à l’étrangère (1833–1842), (1842–1844)</title>
@@ -12872,7 +12616,6 @@
                      >https://gallica.bnf.fr/ark:/12148/bpt6k215311n.image#</title>
                   <title type="werk_link"
                      >https://gallica.bnf.fr/ark:/12148/bpt6k2153121/f57.item</title>
-                  <note type="work_kind">Briefausgabe</note>
                </bibl>
                <bibl xml:id="pmb76724">
                   <title type="main">Le lys dans la vallée</title>
@@ -12910,7 +12653,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Glanz und Elend der Kurtisanen.
                      Übersetzt von F. P. Greve. Leipzig 1909.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76732">
                   <title type="main">Splendeurs et misères des courtisanes</title>
@@ -12926,7 +12668,6 @@
                      <bibl type="collections" n="20">Händisch importiert</bibl>
                   </note>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79227">
                   <title type="main">L’enfer</title>
@@ -12940,7 +12681,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79227.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">L’enfer. Paris</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79228">
                   <title type="main">La Bague d’Annibal</title>
@@ -13010,7 +12750,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79230.html</idno>
                   <note type="work_kind">Tagebuch</note>
                   <title type="werk_bibliografische-angabe">Journal. Paris 1887.</title>
-                  <note type="work_kind">Tagebuch</note>
                </bibl>
                <bibl xml:id="pmb79232">
                   <title type="main">Mémoires secrets pour servir à l’histoire de la République des
@@ -13118,7 +12857,6 @@
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Das Lachen. Übersetzt von J.
                      Frankenberger, W. Fränzel. Jena 1914.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb79242">
                   <title type="main">Le rire. Essai sur la signification du comique</title>
@@ -13152,7 +12890,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77838.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Un mari pacifique. Paris 1901.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77832">
                   <title type="main">Amants et voleurs</title>
@@ -13222,7 +12959,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79250.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">La rencontre. Paris 1909.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79253">
                   <title type="main">Charlot s’amuse</title>
@@ -13330,7 +13066,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31785/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31785.html</idno>
-                  <note type="work_kind">Gattungsunspezifisch</note>
                   <note type="work_kind">Gattungsunspezifisch</note>
                </bibl>
                <bibl xml:id="pmb77976">
@@ -13581,7 +13316,6 @@
                   <note type="work_kind">Mehraktiges Drama</note>
                   <title type="werk_bibliografische-angabe">Der Tausch. Übersetzt von F. Blei.
                      München 1910.</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb79271">
                   <title type="main">L’arbre. Tête d’or. L’échange. Le repos du septième jour. La
@@ -13594,7 +13328,6 @@
                   <note type="collections">
                      <bibl type="collections" n="20">Händisch importiert</bibl>
                   </note>
-                  <note type="work_kind">Dramensammlung</note>
                   <note type="work_kind">Dramensammlung</note>
                </bibl>
                <bibl xml:id="pmb79275">
@@ -13679,7 +13412,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Adolph. Aus den gefundenen Papieren
                      eines Unbekannten. Pest 1817.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79281">
                   <title type="main">Adolphe. Anecdote trouvée dans les papiers d’un inconnu</title>
@@ -13728,7 +13460,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Une femme passa. Pièce en trois actes.
                      Paris</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79290">
                   <title type="main">Mitsou</title>
@@ -13745,7 +13476,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Mitsou. Übersetzt von E. Redtenbacher.
                      Wien, Berlin 1927.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79291">
                   <title type="main">Mitsou ou Comment l’esprit vient aux filles</title>
@@ -13868,7 +13598,6 @@
                   <note type="work_kind">Mehraktiges Drama</note>
                   <note type="references"> </note>
                   <title type="werk_bibliografische-angabe">Boubouroche. Paris 1900.</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb79302">
                   <title type="main">Jack. Mœurs contemporaines</title>
@@ -13977,7 +13706,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79239.html</idno>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79311">
                   <title type="main">Sapho. Mœurs parisiennes</title>
@@ -13990,7 +13718,6 @@
                      >http://www.wikidata.org/entity/Q19231273</idno>
                   <idno type="URL" subtype="wikipedia"
                      >https://de.wikipedia.org/wiki/Sappho_(Daudet)</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79309">
@@ -14029,7 +13756,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78172.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">La religieuse. Paris 1796.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb31657">
                   <title type="main">Jacques le fataliste et son maître</title>
@@ -14045,7 +13771,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31657.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="namensvariante">Jacques der Fatalist</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79312">
                   <title type="main">Monsieur, Madame et Bébé</title>
@@ -14073,7 +13798,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Les trois mousquetaires. Paris
                      1844.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77779">
                   <title type="main">Der Graf von Monte Christo</title>
@@ -14109,7 +13833,6 @@
                   <note type="work_kind">Erinnerungen</note>
                   <title type="werk_bibliografische-angabe">Mémoires d’un médecin. Paris
                      1846–1848.</title>
-                  <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb79313">
                   <title type="main">Fin du rêve</title>
@@ -14191,7 +13914,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32566.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32566.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb78293">
@@ -14294,7 +14016,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31493.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="namensvariante">Madame Bovary. Sitten der Provinz</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77892">
                   <title type="main">Salammbô</title>
@@ -14331,7 +14052,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77887.html</idno>
                   <note type="work_kind">Briefausgabe</note>
                   <title type="werk_bibliografische-angabe">Correspondance. Paris 1926–1933.</title>
-                  <note type="work_kind">Briefausgabe</note>
                </bibl>
                <bibl xml:id="pmb77893">
                   <title type="main">Trois Contes. Un cœur simple. Hérodias. La légende de Saint
@@ -14360,7 +14080,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">L’éducation sentimentale. Histoire d’un
                      jeune homme. Paris</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77891">
                   <title type="main">L’éducation sentimentale. Histoire d’un jeune homme. [2.
@@ -14435,7 +14154,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78227.html</idno>
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">Histoire comique. Paris 1903.</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb78231">
                   <title type="main">Le lys rouge</title>
@@ -14449,7 +14167,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78231.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Le lys rouge. Paris 1894.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78234">
                   <title type="main">Point de lendemain</title>
@@ -14533,7 +14250,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77801.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb79330">
                   <title type="main">Montmartre</title>
@@ -14547,7 +14263,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79330.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Montmartre. Paris 1910.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79331">
                   <title type="main">Avatar</title>
@@ -14667,7 +14382,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79344.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Suzanne et le Pacifique. Paris</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79343">
                   <title type="main">Simon le Pathétique</title>
@@ -14681,7 +14395,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79343.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Simon le Pathétique. Paris</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79342">
                   <title type="main">Siegfried et le Limousin</title>
@@ -14726,7 +14439,6 @@
                   </note>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Germinie Lacerteux. Paris 1864.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb30467">
                   <title type="main">Journal des Goncourt. Mémoires de la vie littéraire</title>
@@ -14753,7 +14465,6 @@
                   <note type="work_kind">Tagebuch</note>
                   <title type="legacy-name-merge">Tagebuch</title>
                   <title type="namensvariante">Journal der Goncourt</title>
-                  <note type="work_kind">Tagebuch</note>
                </bibl>
                <bibl xml:id="pmb78174">
                   <title type="main">Chérie</title>
@@ -14899,7 +14610,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Sixtine. Roman de la vie cérébrale.
                      Paris 1890.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77719">
                   <title type="main">Monsieur et Madame Cardinal</title>
@@ -15136,7 +14846,6 @@
                   </note>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">A rebours. Paris 1884.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79363">
                   <title type="main">Contes fantastiques</title>
@@ -15213,7 +14922,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79370.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">L’occident. Paris 1913.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79369">
                   <title type="main">La nuit est à nous</title>
@@ -15306,7 +15014,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30199.html</idno>
                   <note type="work_kind">Text</note>
-                  <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb78346">
                   <title type="main">Le lit</title>
@@ -15387,7 +15094,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30865.html</idno>
                   <note type="work_kind">Geschichtswerk</note>
-                  <note type="work_kind">Geschichtswerk</note>
                </bibl>
                <bibl xml:id="pmb77029">
                   <title type="main">Vieilles maisons, vieux papiers</title>
@@ -15403,7 +15109,6 @@
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Vieilles maisons, vieux papiers. Paris
                      1903.</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb79379">
                   <title type="main">Der Hinkende Teufel</title>
@@ -15426,7 +15131,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79382.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79382.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79380">
@@ -15456,7 +15160,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Histoire de Gil Blas de Santillane.
                      1715–1735.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79384">
                   <title type="main">Das Phantom der Oper</title>
@@ -15560,7 +15263,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Aphrodite. Ein antikes Sittenbild.
                      Budapest 1897.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79394">
                   <title type="main">Aphrodite. Mœurs antiques</title>
@@ -15576,7 +15278,6 @@
                      <bibl type="collections" n="20">Händisch importiert</bibl>
                      <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                   </note>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79395">
@@ -15786,7 +15487,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Guy de Maupassant: Fort comme la mort.
                      Paris: Paul Ollendorf 1889</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77860">
                   <title type="main">La maison Tellier</title>
@@ -16238,7 +15938,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb87237.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb31509">
                   <title type="main">Lorenzaccio. Drame romantique en cinq actes</title>
@@ -16256,7 +15955,6 @@
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q639990</idno>
                   <idno type="URL" subtype="wikipedia"
                      >https://de.wikipedia.org/wiki/Lorenzaccio</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb79423">
@@ -16295,7 +15993,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb77346.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77346.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79424">
@@ -16487,7 +16184,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="namensvariante">Geschichte von Ritter Des Grieux und Manon
                      Lescaut</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79441">
                   <title type="main">Lettres d’hommes</title>
@@ -16545,7 +16241,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79442.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Amoureuse. Paris</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79444">
                   <title type="main">Le vieil homme</title>
@@ -16559,7 +16254,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79444.html</idno>
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Le vieil homme. Paris 1911.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79445">
                   <title type="main">?? [Werk]</title>
@@ -16624,7 +16318,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79451.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Le diable au corps. Paris 1923.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79454">
                   <title type="main">Le bon plaisir</title>
@@ -16660,7 +16353,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79453.html</idno>
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">La peur de l’amour. Paris</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb79459">
                   <title type="main">Umkehr. Sittenbild in vier Akten</title>
@@ -16678,7 +16370,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Umkehr. Sittenbild in vier Akten.
                      Übersetzt von A. Förster. Berlin</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79457">
                   <title type="main">Le chemin retrouvé</title>
@@ -16723,7 +16414,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79461.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79461.html</idno>
-                  <note type="work_kind">Erinnerungen</note>
                   <note type="work_kind">Erinnerungen</note>
                </bibl>
                <bibl xml:id="pmb79462">
@@ -16831,7 +16521,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78079.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78079.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78077">
@@ -17080,7 +16769,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79493.html</idno>
                   <note type="work_kind">Erzählsammlung</note>
                   <title type="werk_bibliografische-angabe">Les frissonantes. Paris 1905.</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb79497">
                   <title type="main">Propos grivois</title>
@@ -17179,7 +16867,6 @@
                   <note type="work_kind">Roman</note>
                   <note type="references">None </note>
                   <title type="legacy-name-merge">De L’Amour</title>
-                  <note type="work_kind">Roman</note>
                   <note type="references">None </note>
                </bibl>
                <bibl xml:id="pmb77822">
@@ -17196,7 +16883,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Le rouge et le noir. Chronique du XIXe
                      siècle. Paris</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77821">
                   <title type="main">Leben des Henri Brulard</title>
@@ -17322,7 +17008,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Der ewige Jude. Übersetzt von F. W.
                      Bruckbräu. Augsburg 1844–1845.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79505">
                   <title type="main">Le juif errant</title>
@@ -17391,7 +17076,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30337.html</idno>
                   <note type="work_kind">Text</note>
-                  <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb78316">
                   <title type="main">Mon oncle Benjamin</title>
@@ -17413,7 +17097,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79510.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">La maison du péché. Paris 1899.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79511">
                   <title type="main">Herr und Madame Fernel</title>
@@ -17638,7 +17321,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Mon curé chez les riches. Paris
                      1923.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79536">
                   <title type="main">Servitude et grandeur militaires</title>
@@ -17810,7 +17492,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Im Bauch von Paris. Übersetzt von F.
                      Wohlfahrt. Großenhain 1882.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77624">
                   <title type="main">Le ventre de Paris</title>
@@ -17860,7 +17541,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Mutter Erde. Übersetzt von A. Schwarz.
                      Budapest 1888.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77605">
                   <title type="main">La Terre</title>
@@ -17877,7 +17557,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Émile Zola: . In: Les Rougon-Macquart,
                      Band 15. 1887.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77626">
                   <title type="main">L’œuvre</title>
@@ -17894,7 +17573,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Émile Zola: L’œuvre. In: Les
                      Rougon-Macquart, Band 14. Paris 1886.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77613">
                   <title type="main">Germinal. Socialer Roman</title>
@@ -17944,7 +17622,6 @@
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1138346</idno>
                   <idno type="URL" subtype="wikipedia"
                      >https://de.wikipedia.org/wiki/Nana_(Roman)</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77625">
@@ -18057,7 +17734,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Émile Zola: La joie de vivre. In: Les
                      Rougon-Macquart, Band 12. Paris 1884.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77609">
                   <title type="main">Die Schuld des Pastor Mouret</title>
@@ -18116,7 +17792,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">L’intrus. Übersetzt von Georges Hérelle.
                      Paris 1910.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78004">
                   <title type="main">L’innocente</title>
@@ -18134,7 +17809,6 @@
                      <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                   </note>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78006">
                   <title type="main">Triomphe de la mort</title>
@@ -18150,7 +17824,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Triomphe de la mort. Übersetzt von G.
                      Herelle. Paris 1886.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78007">
                   <title type="main">Trionfo della morte</title>
@@ -18169,7 +17842,6 @@
                      >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33283.html</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33283.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78002">
@@ -18221,7 +17893,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30985/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30985.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb79548">
@@ -18575,7 +18246,6 @@
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">Der Dreispitz. Übersetzt von H. Meister.
                      Leipzig 1886.</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb79577">
                   <title type="main">El sombrero de tres picos</title>
@@ -18631,7 +18301,6 @@
                   </note>
                   <note type="work_kind">Mehraktiges Drama</note>
                   <title type="werk_namensvariante">La vida es sueño</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb77246">
                   <title type="main">La vida es sueño</title>
@@ -18703,7 +18372,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb42941.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb42941.html</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb77239">
@@ -19389,7 +19057,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33610.html</idno>
                   <note type="work_kind">Roman</note>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77372">
                   <title type="main">The personal history, adventures, experience, and observation
@@ -19540,7 +19207,6 @@
                   <note type="work_kind">Studie</note>
                   <title type="werk_bibliografische-angabe">Geschichte der Zivilisation in England.
                      Übersetzt von A. Ruge. Leipzig, Heidelberg</title>
-                  <note type="work_kind">Studie</note>
                </bibl>
                <bibl xml:id="pmb79636">
                   <title type="main">History of civilisation in England</title>
@@ -19827,7 +19493,6 @@
                   <title type="werk_bibliografische-angabe">Thomas Heywood: Der englische Reisende.
                      In: Die Englische Bühne zu Shakespeare’s Zeit, Band 2. Übersetzt von F. A.
                      Gebke. Leipzig 1890.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79662">
                   <title type="main">The English traveller</title>
@@ -19908,7 +19573,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30325.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30325.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb77923">
@@ -20003,7 +19667,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79675.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79675.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79671">
@@ -20105,7 +19768,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Blondinen bevorzugt. Übersetzt von G.
                      Kauder. München 1927.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79684">
                   <title type="main">Gentlemen prefer blondes</title>
@@ -20127,7 +19789,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Peter Simple. Übersetzt von C. Kolb.
                      Stuttgart 1843.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79686">
                   <title type="main">Peter Simple</title>
@@ -20142,7 +19803,6 @@
                         gefunden</bibl>
                      <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                   </note>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79687">
@@ -20226,7 +19886,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Taipi. Ein Südsee-Erlebnis. Übersetzt
                      von K. Federn. Berlin 1927.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79694">
                   <title type="main">Typee. A peep of Polynesian life</title>
@@ -20378,7 +20037,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Der Egoist. Übersetzt von J. Sotteck.
                      Berlin 1905.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79706">
                   <title type="main">The egoist. A comedy in narrative</title>
@@ -20530,7 +20188,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Oscar Wilde: Dorian Gray. Übers. v.
                      Johannes Gaulke. Leipzig: Verlag von Max Spohr [1901]</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77598">
                   <title type="main">The picture of Dorian Gray</title>
@@ -20542,7 +20199,6 @@
                   <note type="collections">
                      <bibl type="collections" n="20">Händisch importiert</bibl>
                   </note>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77597">
@@ -20569,7 +20225,6 @@
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1149498</idno>
                   <idno type="URL" subtype="wikipedia"
                      >https://de.wikipedia.org/wiki/Salome_(Drama)</idno>
-                  <note type="work_kind">Einakter</note>
                   <note type="work_kind">Einakter</note>
                </bibl>
                <bibl xml:id="pmb76966">
@@ -20607,7 +20262,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Jahrmarkt der Eitelkeit. Übersetzt von
                      W. E. Drugulin. Grimma</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79726">
                   <title type="main">Vanity Fair, or, a novel without a hero</title>
@@ -20636,7 +20290,6 @@
                   <title type="werk_bibliografische-angabe">Die Geschichte von Arthur Pendennis,
                      seine Freuden und Leiden, seine Freunde und sein größter Feind. Leipzig
                      1849–1851.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79724">
                   <title type="main">The history of Pendennis</title>
@@ -20963,7 +20616,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb58077.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb58077.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79755">
@@ -21473,7 +21125,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Michael. Übersetzt von J. Koppel. Berlin
                      1906.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78284">
                   <title type="main">Mikael</title>
@@ -21557,7 +21208,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Am Weg. Übersetzt von E. Jonas. Berlin
                      1898.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78290">
                   <title type="main">Ved vejen</title>
@@ -21578,7 +21228,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30243.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30243.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78282">
@@ -21620,7 +21269,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30857.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30857.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb78287">
@@ -21803,7 +21451,6 @@
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32482.html</idno>
                   <note type="work_kind">Text</note>
-                  <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb78094">
                   <title type="main">Naar den nye vin blomster</title>
@@ -21827,7 +21474,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Flaggen über Stadt und Hafen. Übersetzt
                      von C. Mjöen. München</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78084">
                   <title type="main">Det flager i byen og på havnen</title>
@@ -21846,7 +21492,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb87241.html</idno>
                   <note type="work_kind">Erzählung</note>
                   <title type="werk_bibliografische-angabe">Übersetzt von C. Mjöen</title>
-                  <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb30331">
                   <title type="main">Mary</title>
@@ -21859,7 +21504,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30331.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30331.html</idno>
-                  <note type="work_kind">Erzählung</note>
                   <note type="work_kind">Erzählung</note>
                </bibl>
                <bibl xml:id="pmb79803">
@@ -21876,7 +21520,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Unser Reich. Übersetzt von C. Mjöen.
                      Berlin 1910.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79804">
                   <title type="main">Vort rike</title>
@@ -22277,7 +21920,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Müde Seelen. Roman. Übersetzt von M.
                      Herzfeld. Berlin 1893.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79847">
                   <title type="main">Trætte Mænd</title>
@@ -22404,7 +22046,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Das Buch vom Brüderchen. Übersetzt von
                      F. Marco. Berlin 1902.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78305">
                   <title type="main">Boken on Lille-Bror</title>
@@ -22518,7 +22159,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Mysterien. Übersetzt von M. von Borch.
                      Köln/Paris: Albert Langen 1894</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78040">
                   <title type="main">Mysterier</title>
@@ -22583,7 +22223,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Neue Erde. Roman. Übersetzt von M. von
                      Borch. Köln/Paris: Albert Langen 1894</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78042">
                   <title type="main">Ny Jord</title>
@@ -22607,7 +22246,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Benoni. Übersetzt von G. I. Klett.
                      München 1909.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78023">
                   <title type="main">Benoni. Roman</title>
@@ -22622,7 +22260,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Benoni. Roman. Einzige berechtigte
                      Übersetzung aus dem Norwegischen von Gertrud Ingeborg Klett</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78045">
                   <title type="main">Redakteur Lynge</title>
@@ -22666,7 +22303,6 @@
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78054.html</idno>
                   <note type="work_kind">Novelle</note>
-                  <note type="work_kind">Novelle</note>
                </bibl>
                <bibl xml:id="pmb78053">
                   <title type="main">Unter Herbststernen. Die Erzählung eines Wanderers</title>
@@ -22682,7 +22318,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Unter Herbststernen. Die Erzählung eines
                      Wanderers. Übersetzt von P. Klaiber. München</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78052">
                   <title type="main">Under høbststjærnen</title>
@@ -22748,7 +22383,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die Stadt Segelfoß. Übersetzt von P.
                      Klaiber. München 1916.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78047">
                   <title type="main">Segelfoss By</title>
@@ -22846,7 +22480,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Polens Töchter. Übersetzt von I. Anders.
                      Berlin 1919.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79858">
                   <title type="main">Polens Døtre</title>
@@ -22896,7 +22529,6 @@
                   <title type="werk_bibliografische-angabe">Ghetto. Übersetzt von Paul Raché.
                      Leipzig 1903.</title>
                   <title type="legacy-name-merge">Ghetto</title>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb79866">
                   <title type="main">König Rene’s Tochter. Lyrisches Drama</title>
@@ -23000,7 +22632,6 @@
                   <title type="werk_bibliografische-angabe">Berlin</title>
                   <title type="werk_link"
                      >https://www.projekt-gutenberg.org/jensenjo/madamado/madamedo.html</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78066">
                   <title type="main">Madame d’Ora</title>
@@ -23010,7 +22641,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78066/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78066.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78060">
@@ -23028,7 +22658,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Das Rad. Roman. Übersetzt von H. Mens.
                      Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78064">
                   <title type="main">Hjulet</title>
@@ -23131,7 +22760,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Gift. Übersetzt von C. von Sarauw.
                      Stuttgart 1886.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79880">
                   <title type="main">Gift</title>
@@ -23141,7 +22769,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79880/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79880.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79876">
@@ -23172,7 +22799,6 @@
                         gefunden</bibl>
                      <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                   </note>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79882">
@@ -23275,7 +22901,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Gösta Berling. Übersetzt von M.
                      Langfeldt. Leipzig 1896.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb78074">
                   <title type="main">Gösta Berlings Saga</title>
@@ -23397,7 +23022,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79893.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Eine Ehe. Roman. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79896">
                   <title type="main">Et samliv</title>
@@ -23568,7 +23192,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33235.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb33235.html</idno>
-                  <note type="work_kind">Roman</note>
                   <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb76682">
@@ -23770,7 +23393,6 @@
                   <note type="work_kind">Erzählsammlung</note>
                   <title type="werk_bibliografische-angabe">Übersetzt von I. D. Ziegeler-Glücksburg.
                      Stuttgart 1890</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb79927">
                   <title type="main">Staekkede vinger</title>
@@ -23898,7 +23520,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77254.html</idno>
                   <note type="work_kind">Essay</note>
                   <title type="werk_bibliografische-angabe">Zürich 1918.</title>
-                  <note type="work_kind">Essay</note>
                </bibl>
                <bibl xml:id="pmb77255">
                   <title type="main">Programma kommunistov (bol’ševikov)</title>
@@ -23947,7 +23568,6 @@
                   <title type="werk_bibliografische-angabe">Unter der Erde. Das Glück des Iwan
                      Habsvergessen / Zwei Erzählungen. Übersetzt von E. Röthgen. Leipzig
                      1899.</title>
-                  <note type="work_kind">Erzählsammlung</note>
                </bibl>
                <bibl xml:id="pmb79937">
                   <title type="main">Pod zemlȍj. Sčast’e Ivana-Nepomnjaščego</title>
@@ -23971,7 +23591,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Rodion Raskolnikoff. Schuld und Sühne.
                      Übersetzt von E. K. Rahsin. München 1909.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77749">
                   <title type="main">Prestuplenie i nakazanie. Roman v 6 častjach s ňpilogom</title>
@@ -23999,7 +23618,6 @@
                   <title type="werk_namensvariante">Vebrechen und Strafe</title>
                   <title type="werk_namensvariante">Rodion Raskolnikow</title>
                   <title type="werk_namensvariante">Преступление и наказание</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77740">
                   <title type="main">Erzählungen</title>
@@ -24129,7 +23747,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Der Idiot. Übersetzt von A. Scholz.
                      Berlin 1899.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77750">
                   <title type="main">Idiot</title>
@@ -24185,7 +23802,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Der Spieler. Aus den Erinnerungen eines
                      jungen Mannes. Übersetzt von L. A. Hauff. Berlin</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77741">
                   <title type="main">Igrok. Iz zapisok molodogo čeloveka</title>
@@ -24269,7 +23885,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Erniedrigte und Beleidigte. Übersetzt
                      von K. Jürgens. Stuttgart 1885.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77760">
                   <title type="main">Unižennye i oskorblënnye</title>
@@ -24374,7 +23989,6 @@
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31555.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch"
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31555.html</idno>
-                  <note type="work_kind">Text</note>
                   <note type="work_kind">Text</note>
                </bibl>
                <bibl xml:id="pmb77751">
@@ -24508,7 +24122,6 @@
                      Dämonen. In: Sämtliche Werke. Abt. 1, Bände. 5 und 6. Übersetzt von E. K.
                      Rahsin. München, u. a. 1906.</title>
                   <title type="legacy-name-merge">Dämonen</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77752">
                   <title type="main">Besy</title>
@@ -24529,7 +24142,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Fëdor Michajlovič Dostoevskij: Besy. In:
                      Russkij vestnik. 1871–1872.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79941">
                   <title type="main">Nju</title>
@@ -24545,7 +24157,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Nju. Übersetzt von A. Eliasberg, C.
                      Ritter. Berlin 1908.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79942">
                   <title type="main">Nju. Tragedija každogo dnja</title>
@@ -24593,7 +24204,6 @@
                   <note type="work_kind">Drama</note>
                   <title type="werk_bibliografische-angabe">Der Revisor. Übersetzt von A. von
                      Viedert. Berlin 1854.</title>
-                  <note type="work_kind">Drama</note>
                </bibl>
                <bibl xml:id="pmb79950">
                   <title type="main">Revizor</title>
@@ -24978,7 +24588,6 @@
                      1)</title>
                   <title type="werk_unter-diesem-namen-oder-kurzel-veroffentlicht">Herman
                      Heyermans</title>
-                  <note type="work_kind">Novelle</note>
                </bibl>
                <bibl xml:id="pmb79864">
                   <title type="main">’n Jodenstreek?</title>
@@ -24987,7 +24596,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/79864/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
                      >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79864.html</idno>
-                  <note type="work_kind">Novelle</note>
                   <note type="work_kind">Novelle</note>
                </bibl>
                <bibl xml:id="pmb79961">
@@ -25106,7 +24714,6 @@
                   <note type="work_kind">Singspiel</note>
                   <title type="werk_bibliografische-angabe">Der Kosacken-Offizier. Ein Singspiel in
                      1 Aufzug. Nach dem Französischen. Wien 1804.</title>
-                  <note type="work_kind">Singspiel</note>
                </bibl>
                <bibl xml:id="pmb79969">
                   <title type="main">Olga</title>
@@ -25348,7 +24955,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Die schwere Stunde. Übersetzt von A.
                      Ruckward. Berlin 1920.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb79989">
                   <title type="main">Muki rodov</title>
@@ -25594,7 +25200,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Anna Karenina. Übersetzt von W. P.
                      Graff. Berlin 1885.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77384">
                   <title type="main">Анна Каренина</title>
@@ -25609,7 +25214,6 @@
                      >https://de.wikipedia.org/wiki/Anna_Karenina</idno>
                   <note type="work_kind">Roman</note>
                   <title type="namensvariante">Anna Karenina</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb34996">
                   <title type="main">Krieg und Frieden</title>
@@ -25630,7 +25234,6 @@
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb34996.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="namensvariante">Война и миръ</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb77401">
                   <title type="main">Vojna i mir</title>
@@ -25654,7 +25257,6 @@
                      >https://de.wikipedia.org/wiki/Kindheit,_Knabenjahre,_J%C3%BCnglingsjahre</idno>
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb59336.html</idno>
-                  <note type="work_kind">Autobiografie</note>
                   <note type="work_kind">Autobiografie</note>
                </bibl>
                <bibl xml:id="pmb77387">
@@ -25764,7 +25366,6 @@
                   <idno type="URL" subtype="schnitzler-interviews"
                      >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb59342.html</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb77290">
                   <title type="main">Tri sestry</title>
@@ -25812,7 +25413,6 @@
                   <note type="work_kind">Novelle</note>
                   <title type="werk_bibliografische-angabe">Schatten des Todes. Übersetzt von K.
                      Holm. München 1902.</title>
-                  <note type="work_kind">Novelle</note>
                </bibl>
                <bibl xml:id="pmb77287">
                   <title type="main">Skucnaja istorija</title>
@@ -25888,7 +25488,6 @@
                      <bibl type="collections" n="20">Händisch importiert</bibl>
                   </note>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb77277">
                   <title type="main">Djadja Vanja</title>
@@ -25936,7 +25535,6 @@
                   <note type="work_kind">Novelle</note>
                   <title type="werk_bibliografische-angabe">Ein Zweikampf. Übersetzt von K. Holm.
                      München 1897.</title>
-                  <note type="work_kind">Novelle</note>
                </bibl>
                <bibl xml:id="pmb77278">
                   <title type="main">Duel’</title>
@@ -25963,7 +25561,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80003.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Was tun?Leipzig 1883.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb80002">
                   <title type="main">Čto delat’?</title>
@@ -26127,7 +25724,6 @@
                      >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80039.html</idno>
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Rauch. Mitau 1868.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb80014">
                   <title type="main">Dym</title>
@@ -26175,7 +25771,6 @@
                   <note type="work_kind">Roman</note>
                   <title type="werk_bibliografische-angabe">Punin und Baburin. Übersetzt von W.
                      Lange. Leipzig 1875.</title>
-                  <note type="work_kind">Roman</note>
                </bibl>
                <bibl xml:id="pmb80037">
                   <title type="main">Punin i Baburin</title>
@@ -26748,7 +26343,6 @@
                   <idno type="URL" subtype="wikipedia"
                      >https://de.wikipedia.org/wiki/Iphigenie_in_Aulis</idno>
                   <note type="work_kind">Mehraktiges Drama</note>
-                  <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb65384">
                   <title type="main">Iphigéneia hē en Aulídi</title>
@@ -26760,7 +26354,6 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/163701/</idno>
                   <idno type="URL" subtype="bahr-tsn"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb65384</idno>
-                  <note type="work_kind">Mehraktiges Drama</note>
                   <note type="work_kind">Mehraktiges Drama</note>
                </bibl>
                <bibl xml:id="pmb80060">
