@@ -8,9 +8,9 @@
     <xsl:param name="works"
         select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
-        use="tei:author/@key/replace(., 'person__', 'pmb')"/>
+        use="tei:author/@key/replace(., 'pmb', 'pmb')"/>
     <xsl:key name="authorwork-lookup-ref" match="tei:bibl"
-        use="tei:author/@ref/replace(., 'person__', 'pmb')"/>
+        use="tei:author/@ref/replace(., 'pmb', 'pmb')"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
     <xsl:param name="konkordanz"
         select="document('../../data/indices/konkordanz.xml')"/>
