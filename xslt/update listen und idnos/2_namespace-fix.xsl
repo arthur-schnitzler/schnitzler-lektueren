@@ -29,6 +29,6 @@
     </xsl:template>
     
     
-    <xsl:template match="//tei:title[@type='werk_bibliografische-angabe'][. = preceding-sibling::tei:title[@type='werk_bibliografische-angabe']]"/>
-    <xsl:template match="//tei:title[@type='main' and . = preceding-sibling::tei:title[@type='main']]"/>
+    <xsl:template match="//tei:title[@type='werk_bibliografische-angabe'][normalize-space(.) = normalize-space(preceding-sibling::tei:title[@type='werk_bibliografische-angabe'])]"/>
+    <xsl:template match="//tei:title[@type='main' and normalize-space(.) = normalize-space(preceding-sibling::tei:title[@type='main'])]"/>
 </xsl:stylesheet>

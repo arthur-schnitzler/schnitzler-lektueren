@@ -42,6 +42,8 @@
                                                 tabulator-formatter="html">Lebensdaten</th>
                                             <th scope="col" tabulator-headerFilter="input"
                                                 >Berufe</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                >Gender</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -53,14 +55,19 @@
                                             <tr>
                                                 <td>
                                                   <span hidden="true">
-                                                      <xsl:choose>
-                                                          <xsl:when test="starts-with($entity/tei:persName[1]/tei:forename[1]/text(), '??')">
-                                                              <xsl:text>ZZZ </xsl:text><!-- Vornamen mit ?? nach unten reihen -->
-                                                          </xsl:when>
-                                                          <xsl:when test="normalize-space($entity/tei:persName[1]/tei:forename[1]/text()) = ''">
-                                                              <xsl:value-of select="substring($entity/tei:persName[1]/tei:surname/text(), 1, 1)"/>
-                                                          </xsl:when>
-                                                      </xsl:choose>
+                                                  <xsl:choose>
+                                                  <xsl:when
+                                                  test="starts-with($entity/tei:persName[1]/tei:forename[1]/text(), '??')">
+                                                  <xsl:text>ZZZ </xsl:text>
+                                                  <!-- Vornamen mit ?? nach unten reihen -->
+                                                  </xsl:when>
+                                                  <xsl:when
+                                                  test="normalize-space($entity/tei:persName[1]/tei:forename[1]/text()) = ''">
+                                                  <xsl:value-of
+                                                  select="substring($entity/tei:persName[1]/tei:surname/text(), 1, 1)"
+                                                  />
+                                                  </xsl:when>
+                                                  </xsl:choose>
                                                   <xsl:value-of
                                                   select="$entity/tei:persName[1]/tei:forename[1]/text()"
                                                   />
@@ -81,10 +88,10 @@
                                                   test="starts-with($entity/tei:persName[1]/tei:surname[1]/text(), '??')">
                                                   <xsl:text>ZZZ </xsl:text>
                                                   </xsl:if>
-                                                      <xsl:if
-                                                          test="not($entity/tei:persName[1]/tei:surname[1]) or normalize-space($entity/tei:persName[1]/tei:surname[1]/text())=''">
-                                                          <xsl:text>ZZ </xsl:text>
-                                                      </xsl:if>
+                                                  <xsl:if
+                                                  test="not($entity/tei:persName[1]/tei:surname[1]) or normalize-space($entity/tei:persName[1]/tei:surname[1]/text()) = ''">
+                                                  <xsl:text>ZZ </xsl:text>
+                                                  </xsl:if>
                                                   <xsl:value-of
                                                   select="$entity/tei:persName[1]/tei:surname[1]/text()"
                                                   />
@@ -237,7 +244,9 @@
                                                   <item type="namensvariante">Namensvariante</item>
                                                   <item type="person_rufname">Rufname</item>
                                                   <item type="person_pseudonym">Pseudonym</item>
-                                                   <item type="person_geschieden_nachname">geschieden</item>
+                                                  <item type="person_geschieden_nachname"
+                                                  >geschieden</item>
+                                                  <item type="person_geschieden">geschieden</item>
                                                   <item type="person_ehename">Ehename</item>
                                                   <item type="person_ehename_nachname"
                                                   >Ehename</item>
@@ -300,6 +309,17 @@
                                                   </xsl:for-each>
                                                   </xsl:if>
                                                 </td>
+                                                <td>
+                                                  <xsl:choose>
+                                                  <xsl:when test="tei:sex/@value = 'female'">
+                                                  <xsl:text>weiblich</xsl:text>
+                                                  </xsl:when>
+                                                  <xsl:when test="tei:sex/@value = 'male'">
+                                                  <xsl:text>männlich</xsl:text>
+                                                  </xsl:when>
+                                                  <xsl:otherwise/>
+                                                  </xsl:choose>
+                                                </td>
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
@@ -334,7 +354,8 @@
             <xsl:variable name="entity" select="." as="node()"/>
             <xsl:result-document href="{$filename}">
                 <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
-                <html xmlns="http://www.w3.org/1999/xhtml" style="hyphens: auto;" lang="de" xml:lang="de">
+                <html xmlns="http://www.w3.org/1999/xhtml" style="hyphens: auto;" lang="de"
+                    xml:lang="de">
                     <xsl:call-template name="html_head">
                         <xsl:with-param name="html_title" select="$name"/>
                     </xsl:call-template>
@@ -386,6 +407,7 @@
                     <xsl:text> </xsl:text>
                     <xsl:value-of select="$geburtsort"/>
                 </xsl:if>
+                <xsl:text> – </xsl:text>
                 <xsl:value-of select="$todesdatum"/>
                 <xsl:if test="$todessort != ''">
                     <xsl:text> </xsl:text>

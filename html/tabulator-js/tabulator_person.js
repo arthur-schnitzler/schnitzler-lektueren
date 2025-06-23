@@ -19,6 +19,9 @@ var table = new Tabulator("#tabulator-table-person", {
         title: "Lebensdaten", field: "lebensdaten", sorter: "string", formatter: "html", responsive: 1, width:300
     }, {
         title: "Berufe", field: "berufe", sorter: "string", formatter: "html", responsive: 3, width:200
+    }, 
+    {
+        title: "Gender", field: "gener", sorter: "string", formatter: "html", responsive: 3, width:150
     }],
     initialSort:[ {
         column: "vorname", dir: "asc"

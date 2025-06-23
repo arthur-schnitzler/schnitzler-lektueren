@@ -20,9 +20,6 @@
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
-            <script src="https://code.highcharts.com/highcharts.js"/>
-            <script src="https://code.highcharts.com/modules/networkgraph.js"/>
-            <script src="https://code.highcharts.com/modules/exporting.js"/>
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
@@ -36,22 +33,6 @@
                             <div class="card-body">
                                 <div id="container"
                                     style="padding-bottom: 20px; width:100%; margin: auto"/>
-                                <div id="chart-buttons" class="text-center mt-3"
-                                    style="margin: auto; padding-bottom: 20px">
-                                    <button class="btn mx-1 chart-btn"
-                                        style="background-color: #A63437; color: white; border: none; padding: 5px 10px; font-size: 0.875rem;"
-                                        data-csv="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-charts/main/netzwerke/work_freq_corp_weights_directed/work_freq_corp_weights_directed_top30.csv"
-                                        >Top 30</button>
-                                    <button class="btn mx-1 chart-btn"
-                                        style="background-color: #A63437; color: white; border: none; padding: 5px 10px; font-size: 0.875rem;"
-                                        data-csv="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-charts/main/netzwerke/work_freq_corp_weights_directed/work_freq_corp_weights_directed_top100.csv"
-                                        >Top 100</button>
-                                    <button class="btn mx-1 chart-btn"
-                                        style="background-color: #A63437; color: white; border: none; padding: 5px 10px; font-size: 0.875rem;"
-                                        data-csv="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-charts/main/netzwerke/work_freq_corp_weights_directed/work_freq_corp_weights_directed_top500.csv"
-                                        >Top 500</button>
-                                </div>
-                                <script src="js/work_freq_corp_weights_directed.js"/>
                                 <table class="table table-sm display" id="tabulator-table-work">
                                     <thead>
                                         <tr>
