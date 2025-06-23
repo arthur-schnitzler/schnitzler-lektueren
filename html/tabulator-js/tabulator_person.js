@@ -21,7 +21,7 @@ var table = new Tabulator("#tabulator-table-person", {
         title: "Berufe", field: "berufe", sorter: "string", formatter: "html", responsive: 3, width:200
     }, 
     {
-        title: "Gender", field: "gener", sorter: "string", formatter: "html", responsive: 3, width:150
+        title: "Gender", field: "gender", sorter: "string", formatter: "html", responsive: 3, width:200
     }],
     initialSort:[ {
         column: "vorname", dir: "asc"

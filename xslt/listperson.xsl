@@ -22,13 +22,13 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     <div class="container">
-                        <div class="card">
+                        <div >
                             <div class="card-header" style="text-align:center">
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
                             </div>
-                            <div class="card-body">
+                            <div class="body">
                                 <table class="table table-sm display" id="tabulator-table-person">
                                     <thead>
                                         <tr>
@@ -317,7 +317,9 @@
                                                   <xsl:when test="tei:sex/@value = 'male'">
                                                   <xsl:text>männlich</xsl:text>
                                                   </xsl:when>
-                                                  <xsl:otherwise/>
+                                                  <xsl:otherwise>
+                                                      <xsl:text>unbekannt</xsl:text>
+                                                  </xsl:otherwise>
                                                   </xsl:choose>
                                                 </td>
                                             </tr>
