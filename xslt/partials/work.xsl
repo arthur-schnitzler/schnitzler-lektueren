@@ -4,7 +4,7 @@
     xmlns:df="http://example.com/df"
     xmlns:mam="whatever" version="3.0" exclude-result-prefixes="xsl tei xs">
     <xsl:import href="LOD-idnos.xsl"/>
-    <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
+    <xsl:param name="relevant-uris" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:param name="works"
         select="document('../../data/indices/listwork.xml')"/>

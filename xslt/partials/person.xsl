@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:import href="LOD-idnos.xsl"/>
-    <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
+    <xsl:param name="relevant-uris" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:param name="works"
         select="document('../../data/indices/listwork.xml')"/>
