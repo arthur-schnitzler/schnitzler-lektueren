@@ -518,7 +518,7 @@ a.black-workbutton {
     display: flex;
 }
 .button-group button {
-    font-size: 4rem;
+    font-size: 1rem;
     border: 0;
 }
 
