@@ -473,7 +473,7 @@
                </note>
                <note xml:id="ad_GB31_2">
                   <listPerson>
-                     <person ref="pmb11839">
+                     <person xml:id="pmb11839">
                         <persName>Ben Jonson</persName>
                      </person>
                   </listPerson>
