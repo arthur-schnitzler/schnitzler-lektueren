@@ -3653,6 +3653,11 @@
          </acdh:Person>
       </acdh:hasActor>
       <acdh:hasActor>
+         <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/11839">
+            <acdh:hasTitle xml:lang="und"> </acdh:hasTitle>
+         </acdh:Person>
+      </acdh:hasActor>
+      <acdh:hasActor>
          <acdh:Person rdf:about="https://id.acdh.oeaw.ac.at/pmb/65042">
             <acdh:hasTitle xml:lang="und"> </acdh:hasTitle>
          </acdh:Person>
