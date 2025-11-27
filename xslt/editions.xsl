@@ -219,14 +219,16 @@
                     </ul>
                 </xsl:when>
                 <xsl:when test="tei:listPerson/tei:person">
-                    <span class="autorname" id="{tei:listPerson/tei:person/@xml:id}"><b>
-                        <xsl:text>[</xsl:text>
-                        <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
-                        <xsl:text>] </xsl:text>
-                    </b>
-                    <xsl:text>&#8594;</xsl:text><a href="{concat(tei:listPerson/tei:person/@xml:id, '.html')}">
-                        <xsl:value-of select="normalize-space(tei:listPerson/tei:person/tei:persName/text())"/>
-                    </a></span>
+                    <a href="{concat(tei:listPerson/tei:person/@xml:id, '.html')}">
+                        <span class="autorname" id="{tei:listPerson/tei:person/@xml:id}"><b>
+                            <xsl:text>[</xsl:text>
+                            <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
+                            <xsl:text>] </xsl:text>
+                        </b>
+                        <xsl:text>&#8594;</xsl:text>
+                            <xsl:value-of select="normalize-space(tei:listPerson/tei:person/tei:persName/text())"/>
+                        </span>
+                    </a>
                 </xsl:when>
                 <xsl:when test="tei:note">
                     <b>
