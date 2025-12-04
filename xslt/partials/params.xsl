@@ -8,4 +8,6 @@
     <xsl:param name="html_title">schnitzler-lektueren</xsl:param>
     <xsl:param name="project_logo">../../html/img/schnitzler-lektueren.svg</xsl:param>
     <xsl:param name="base_url">https://schnitzler-lektueren.acdh.oeaw.ac.at</xsl:param>
+    <xsl:param name="current-edition" select="'schnitzler-lektueren'"/>
+    <xsl:param name="current-colour" select="'#88dbdf'"/>
 </xsl:stylesheet>

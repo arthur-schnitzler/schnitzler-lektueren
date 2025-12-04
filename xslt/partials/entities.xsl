@@ -2,9 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:param name="current-edition" select="'schnitzler-lektueren'"/>
-    <xsl:param name="current-colour" select="'#88dbdf'"/>
     <xsl:import href="./LOD-idnos.xsl"/>
+    <xsl:include href="./params.xsl"/>
     <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
     <!-- nur fürs Schnitzler-Tagebuch die folgenden beiden Einbindungen -->
     <xsl:param name="listperson" select="document('../../data/indices/listperson.xml')"/>
@@ -32,10 +31,8 @@
     <xsl:key name="work-day-lookup" match="item" use="ref"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <!-- Schnitzler-Lektüren -->
-    <xsl:param name="lektueren-konkordanz"
-        select="document('../../data/indices/konkordanz.xml')"/>
+    <xsl:param name="lektueren-konkordanz" select="document('../../data/indices/konkordanz.xml')"/>
     <xsl:key name="lektueren-konk-lookup" match="ref" use="@xml:id"/>
-    
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -471,9 +468,8 @@
                         <xsl:variable name="link"
                             select="key('lektueren-konk-lookup', @xml:id, $lektueren-konkordanz)[1]/@target"/>
                         <a href="{concat($link, '#', @xml:id)}"
-                            style="display: inline-block; background-color: #022954; color: white; padding: 0.5em 1em; border-radius: 0.25rem; text-decoration: none;">
-                            Zur Leseliste
-                        </a>
+                            style="display: inline-block; background-color: #022954; color: white; padding: 0.5em 1em; border-radius: 0.25rem; text-decoration: none;"
+                            > Zur Leseliste </a>
                     </p>
                 </xsl:if>
             </div>
@@ -573,7 +569,6 @@
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </xsl:variable>
-                              
                                 <xsl:choose>
                                     <xsl:when
                                         test="$autor-ref = 'pmb2121' and $current-edition = 'schnitzler-tagebuch'">
@@ -583,11 +578,11 @@
                                         <a href="pmb2121.html">
                                             <xsl:text>Arthur Schnitzler</xsl:text>
                                         </a>
-                                    </xsl:when> 
+                                    </xsl:when>
                                     <xsl:when test="$current-edition = 'schnitzler-tagebuch'">
                                         <xsl:variable name="author-lookup-mit-schraegstrich"
                                             select="
-                                            key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($autor-ref, 'pmb', ''), '/'),
+                                                key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($autor-ref, 'pmb', ''), '/'),
                                                 $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"/>
                                         <xsl:variable name="autor-ref-schnitzler-tagebuch">
                                             <xsl:choose>
@@ -1503,7 +1498,7 @@
                             <xsl:choose>
                                 <!-- Wenn mehr als 10 Erwähnungen -->
                                 <xsl:when test="$mentionCount > 10">
-                                    <div class="accordion" id="mentionsAccordion">
+                                    <div class="mentions-by-year">
                                         <!-- Gruppieren nach Jahr -->
                                         <xsl:for-each-group select="$mentions//tei:note"
                                             group-by="substring(@corresp, 1, 4)">
@@ -1511,15 +1506,8 @@
                                                 data-type="number" order="ascending"/>
                                             <xsl:variable name="year"
                                                 select="current-grouping-key()"/>
-                                            <xsl:variable name="accordionId"
-                                                select="concat('accordion-', $year)"/>
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="heading-{$year}">
-                                                  <button class="accordion-button collapsed"
-                                                  type="button" data-bs-toggle="collapse"
-                                                  data-bs-target="#{$accordionId}"
-                                                  aria-expanded="false"
-                                                  aria-controls="{$accordionId}">
+                                            <details class="year-details mb-3">
+                                                <summary class="year-summary">
                                                   <xsl:choose>
                                                   <xsl:when test="count(current-group()) = 1">
                                                   <xsl:value-of
@@ -1531,13 +1519,8 @@
                                                   />
                                                   </xsl:otherwise>
                                                   </xsl:choose>
-                                                  </button>
-                                                </h2>
-                                                <div id="{$accordionId}"
-                                                  class="accordion-collapse collapse"
-                                                  aria-labelledby="heading-{$year}"
-                                                  data-bs-parent="#mentionsAccordion">
-                                                  <div class="accordion-body">
+                                                </summary>
+                                                <div class="year-content">
                                                   <xsl:choose>
                                                   <xsl:when test="count(current-group()) > 10">
                                                   <xsl:for-each-group select="current-group()"
@@ -1546,7 +1529,11 @@
                                                   order="ascending"/>
                                                   <xsl:variable name="monthKey"
                                                   select="current-grouping-key()"/>
-                                                  <h3 class="mt-3">
+                                                  <details
+                                                  class="month-details ms-4 mb-3 bg-light rounded p-2"
+                                                  open="open">
+                                                  <summary
+                                                  class="month-summary p-2 bg-light rounded fw-medium">
                                                   <xsl:variable name="monthNum"
                                                   select="number(substring(current-grouping-key(), 6, 2))"/>
                                                   <xsl:choose>
@@ -1569,7 +1556,8 @@
                                                   <xsl:value-of select="current-grouping-key()"/>
                                                   </xsl:otherwise>
                                                   </xsl:choose>
-                                                  </h3>
+                                                  </summary>
+                                                  <div class="month-content py-2">
                                                   <ul class="dashed">
                                                   <xsl:for-each select="current-group()">
                                                   <xsl:sort select="replace(@corresp, '-', '')"
@@ -1585,6 +1573,8 @@
                                                   </li>
                                                   </xsl:for-each>
                                                   </ul>
+                                                  </div>
+                                                  </details>
                                                   </xsl:for-each-group>
                                                   </xsl:when>
                                                   <xsl:otherwise>
@@ -1608,9 +1598,8 @@
                                                   </ul>
                                                   </xsl:otherwise>
                                                   </xsl:choose>
-                                                  </div>
                                                 </div>
-                                            </div>
+                                            </details>
                                         </xsl:for-each-group>
                                     </div>
                                 </xsl:when>
