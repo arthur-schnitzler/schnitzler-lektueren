@@ -8,6 +8,15 @@
     <!-- nur fürs Schnitzler-Tagebuch die folgenden beiden Einbindungen -->
     <xsl:param name="listperson" select="document('../../data/indices/listperson.xml')"/>
     <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype = 'pmb']"/>
+    <!-- Korrespondenzen (nur für schnitzler-briefe) -->
+    <xsl:variable name="listcorrespondencePath" select="'../../data/indices/listcorrespondence.xml'"/>
+    <xsl:param name="listcorrespondence" select="
+            if (unparsed-text-available($listcorrespondencePath))
+            then
+                document($listcorrespondencePath)
+            else
+                ()"/>
+    <xsl:key name="correspondence-lookup" match="tei:personGrp[not(@ana='planned') and not(@xml:id='correspondence_null')]" use="tei:persName[@role='main'][1]/@ref"/>
     <xsl:variable name="listbiblPath" select="'../../data/indices/listbibl.xml'"/>
     <xsl:variable name="listworkPath" select="'../../data/indices/listwork.xml'"/>
     <xsl:param name="events"
@@ -322,6 +331,28 @@
             <xsl:call-template name="lod-reihe">
                 <xsl:with-param name="idno" select="$idnos"/>
             </xsl:call-template>
+            <xsl:if test="$current-edition = 'schnitzler-briefe'">
+                <xsl:variable name="person-ref" as="xs:string">
+                    <xsl:value-of select="concat('#pmb', replace(replace(@xml:id, 'person__', ''), 'pmb', ''))"/>
+                </xsl:variable>
+                <xsl:variable name="correspondence" select="key('correspondence-lookup', $person-ref, $listcorrespondence)"/>
+                <xsl:if test="$correspondence">
+                    <div class="korrespondenz">
+                        <legend>Korrespondenz</legend>
+                        <ul class="dashed">
+                            <li>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat('toc_', replace($correspondence/@xml:id, 'correspondence_', ''), '.html')"/>
+                                    </xsl:attribute>
+                                    <xsl:text>Zum Briefwechsel Schnitzler – </xsl:text>
+                                    <xsl:value-of select="$lemma-name"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </xsl:if>
+            </xsl:if>
             <div class="werke">
                 <xsl:variable name="author-ref" as="xs:string">
                     <xsl:choose>
