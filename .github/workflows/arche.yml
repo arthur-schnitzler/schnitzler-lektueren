@@ -3,6 +3,9 @@ name: ARCHE-Ingest
 on:
   workflow_dispatch
 
+permissions:
+  contents: write
+
 jobs:
   build_pages:
     name: Ingest Data into ARCHE
@@ -12,6 +15,16 @@ jobs:
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
+    - name: Sync entities.xsl from schnitzler-chronik-static
+      run: |
+        python3 check_entities_xsl.py
+        if [[ -n "$(git status --porcelain xslt/partials/entities.xsl)" ]]; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add xslt/partials/entities.xsl
+          git commit -m "chore: sync entities.xsl from schnitzler-chronik-static"
+          git push
+        fi
     - name: Install Saxon, Ant and Fundament
       run: |
         ./script.sh

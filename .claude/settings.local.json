@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sSL -o check_entities_xsl.py https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-tagebuch-static/refs/heads/main/check_entities_xsl.py)"
+    ]
+  }
+}
