@@ -3,6 +3,12 @@
     <property name="index" value="./data/meta/about.xml"/>
     <property name="target" value="./html"/>
     <property name="target_xml" value="./html/xml-view"/>
+    <exec executable="python3" failonerror="false">
+        <arg value="check_entities_xsl.py"/>
+    </exec>
+    <exec executable="python3" failonerror="false">
+        <arg value="xslt/export/fetch_relations.py"/>
+    </exec>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>

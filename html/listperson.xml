@@ -24620,7 +24620,7 @@
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161225/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65041/</idno>
                   <idno type="URL" subtype="schnitzler-lektueren"
-                     >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65041.html</idno>
+                     >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3630.html</idno>
                   <idno type="URL" subtype="bahr-textverzeichnis"
                      >https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3630.html</idno>
                   <idno type="URL" subtype="bahr-tsn"
@@ -24633,6 +24633,63 @@
                         url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Philip%20Massinger.jpg"
                      />
                   </figure>
+               </person>
+               <person xml:id="pmb11839">
+                  <persName>
+                     <forename>Ben</forename>
+                     <surname>Jonson</surname>
+                  </persName>
+                  <persName type="person_geburtsname_vorname">Benjamin</persName>
+                  <birth>
+                     <date when-iso="1572-06-11">11.06.1572</date>
+                     <settlement key="224">
+                        <placeName type="pref">London</placeName>
+                        <location>
+                           <geo>51,50853 -0,12574</geo>
+                        </location>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1637-08-06">06.08.1637</date>
+                     <settlement key="224">
+                        <placeName type="pref">London</placeName>
+                        <location>
+                           <geo>51,50853 -0,12574</geo>
+                        </location>
+                     </settlement>
+                  </death>
+                  <sex value="male"/>
+                  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+                  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118558323</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">
+                     https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16579.html
+                  </idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11839/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q193857</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ben_Jonson</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">
+                     https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11839.html
+                  </idno>
+                  <idno type="URL" subtype="hanslick-online">
+                     https://hanslick.acdh.oeaw.ac.at/hsl_person_id_4363.html
+                  </idno>
+                  <idno type="URL" subtype="bahr-textverzeichnis">
+                     https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11839.html
+                  </idno>
+                  <idno type="URL" subtype="bahr-tsn">
+                     https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11839
+                  </idno>
+                  <idno type="URL" subtype="zweig-digital">
+                     https://www.stefanzweig.digital/o:szd.personen/sdef:TEI/get#SZDPER.684
+                  </idno>
+                  <listBibl>
+                     <bibl type="collections" n="34">Stefan Zweig digital</bibl>
+                  </listBibl>
+                  <figure>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg/250px-Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg"/>
+                  </figure>
+                  <idno type="URL" subtype="schnitzler-lektueren"
+                     >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11839.html</idno>
                </person>
                <person xml:id="pmb64972">
                   <persName>
@@ -24708,6 +24765,41 @@
                         url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maupassant%20par%20Nadar.jpg"
                      />
                   </figure>
+               </person>
+               <person xml:id="pmb185843">
+                  <persName>
+                     <forename>Margarete</forename>
+                     <surname>Mauthner</surname>
+                  </persName>
+                  <persName type="person_geburtsname_nachname">Alexander</persName>
+                  <birth>
+                     <date when-iso="1863-07-07">1863-07-07</date>
+                     <settlement key="168">
+                        <placeName type="pref">Berlin</placeName>
+                        <location>
+                           <geo>52,52437 13,41053</geo>
+                        </location>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1947-04-24">1947-04-24</date>
+                     <settlement key="120282">
+                        <placeName type="pref">Johannesburg</placeName>
+                        <location>
+                           <geo>-26,2 28,04363</geo>
+                        </location>
+                     </settlement>
+                  </death>
+                  <sex value="female"/>
+                  <occupation key="116">Übersetzer/Übersetzerin</occupation>
+                  <occupation key="440">Kunstsammler/Kunstsammlerin</occupation>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/185843/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q29441758</idno>
+                  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116858303</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Margarete_Mauthner</idno>
+                  <listBibl>
+                     <bibl type="collections" n="24">manually created entity</bibl>
+                  </listBibl>
                </person>
                <person xml:id="pmb3386">
                   <persName>

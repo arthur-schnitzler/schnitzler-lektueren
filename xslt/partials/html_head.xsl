@@ -48,6 +48,7 @@
             <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css"
                 type="text/css"/>
             <link rel="stylesheet" href="css/style.css" type="text/css"/>
+            <link rel="stylesheet" href="css/entities.css" type="text/css"/>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"/>
             <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
             <script type="text/javascript">
@@ -74,6 +75,7 @@
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
                 })();</script>
             <!-- End Matomo Code -->
+            <script src="js/entity-tabs.js" defer="defer"></script>
         </head>
     </xsl:template>
 </xsl:stylesheet>
