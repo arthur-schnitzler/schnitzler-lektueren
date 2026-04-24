@@ -152,7 +152,7 @@
                         </div>
                      </div>
                      <div class="entity-main me-auto" style="max-width: 1400px;">
-                        <div class="entity-tabs"><button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button><button class="entity-tab-btn active" data-tab="tab-relationen">Relationen <span class="tab-count">14</span></button><details class="relationen-info-popup">
+                        <div class="entity-tabs"><button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen <span class="tab-count">1</span></button><button class="entity-tab-btn" data-tab="tab-relationen">Relationen <span class="tab-count">14</span></button><details class="relationen-info-popup">
                               <summary class="relationen-info-btn" title="Info zu Relationen" aria-label="Info zu Relationen">ⓘ</summary>
                               <div class="relationen-info-content">
                                  <p>Hier sind jene Beziehungen zu Entitäten (Personen, Werken, Orten, Organisationen,
@@ -163,11 +163,39 @@
                               </div>
                            </details>
                         </div>
-                        <div id="tab-erwaehnungen" class="entity-tab-panel">
-                           <p class="no-mentions-hint">Keine direkte Nennung in diesem Projekt. Siehe den Menüpunkt
-                              ›Relationen‹ für Werke und andere Beziehungen</p>
+                        <div id="tab-erwaehnungen" class="entity-tab-panel active">
+                           <div id="mentions"><span class="infodesc mr-2">
+                                 <legend>Erwähnungen</legend>
+                                 <div class="mentions-toolbar"><span class="mentions-summary"><span class="ms-mentions"><b>1</b> Erwähnung</span> · <span class="ms-years"><b class="neutral">1</b> Jahr</span></span></div>
+                                 <div id="mentions-chart">
+                                    <div class="chart-head">
+                                       <div class="legend"><span><span class="dot"></span>Erwähnungen</span></div><span>1879–1931</span></div><button type="button" class="mentions-chart-fs-btn" aria-label="Diagramm im Vollbild anzeigen" title="Vollbild (Klick auf Diagramm schließt)">⤢</button><svg viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet" aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
+                                       <line x1="50" y1="10" x2="50" y2="160" stroke="black" stroke-width="2"></line>
+                                       <line x1="50" y1="160" x2="580" y2="160" stroke="black" stroke-width="2"></line>
+                                       <text x="30" y="165" font-size="10" text-anchor="end">0</text>
+                                       <text x="30" y="115" font-size="10" text-anchor="end">10</text>
+                                       <text x="30" y="65" font-size="10" text-anchor="end">20</text>
+                                       <text x="30" y="15" font-size="10" text-anchor="end">30</text>
+                                       <text x="60" y="175" font-size="10" text-anchor="middle">1880</text>
+                                       <text x="160" y="175" font-size="10" text-anchor="middle">1890</text>
+                                       <text x="260" y="175" font-size="10" text-anchor="middle">1900</text>
+                                       <text x="360" y="175" font-size="10" text-anchor="middle">1910</text>
+                                       <text x="460" y="175" font-size="10" text-anchor="middle">1920</text>
+                                       <text x="560" y="175" font-size="10" text-anchor="middle">1930</text></svg></div>
+                                 <div id="mentions-liste">
+                                    <div class="mentions-by-year">
+                                       <details class="year-details" open="open">
+                                          <summary><span class="year-chevron"></span><span class="year-label">2021</span><span class="year-entries">1 Eintrag</span><span class="year-bar"><i style="width: 100%;"></i></span><span class="year-count">1</span></summary>
+                                          <div class="year-content">
+                                             <ul class="dashed">
+                                                <li class=""><a href="Frankreich.html#pmb9643">Leseliste – 02. Frankreich</a></li>
+                                             </ul>
+                                          </div>
+                                       </details>
+                                    </div>
+                                 </div></span></div>
                         </div>
-                        <div id="tab-relationen" class="entity-tab-panel active">
+                        <div id="tab-relationen" class="entity-tab-panel">
                            <div class="relationen">
                               <div class="rel-subnav"><button type="button" class="rel-subnav-btn active" data-rel-type="Werk">Werke <span class="c">14</span></button></div>
                               <div class="rel-section active" data-rel-type="Werk">
