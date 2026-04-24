@@ -30,6 +30,10 @@ jobs:
           git commit -m "chore: sync entity assets from schnitzler-chronik-static"
           git push
         fi
+    - name: Install Python dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        python3 -m pip install lxml acdh-tei-pyutils tqdm
     - name: Install Saxon, Ant and Fundament
       run: |
         ./script.sh

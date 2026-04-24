@@ -9,6 +9,9 @@
     <exec executable="python3" failonerror="false">
         <arg value="xslt/export/fetch_relations.py"/>
     </exec>
+    <exec executable="python3" failonerror="false">
+        <arg value="add_mentions.py"/>
+    </exec>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
