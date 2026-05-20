@@ -1,0 +1,29 @@
+{
+  "title": "Arthur Schnitzler: Lektüren. Digitale Edition der Leseliste",
+  "description": "<p>Digitale Edition der Leseliste Arthur Schnitzlers. TEI-XML-Daten und statische Webseite.</p><p>Quellcode: <a href=\"https://github.com/arthur-schnitzler/schnitzler-lektueren\">github.com/arthur-schnitzler/schnitzler-lektueren</a></p>",
+  "creators": [
+    {
+      "name": "Müller, Martin Anton",
+      "affiliation": "Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische Akademie der Wissenschaften",
+      "orcid": "0000-0002-0127-9109"
+    }
+  ],
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-SA-4.0",
+  "language": "deu",
+  "keywords": [
+    "Arthur Schnitzler",
+    "Wiener Moderne",
+    "Digital Scholarly Editing",
+    "Digital Humanities",
+    "Lektüre",
+    "Lesegewohnheiten",
+    "TEI"
+  ],
+  "communities": [
+    {
+      "identifier": "dh"
+    }
+  ]
+}
