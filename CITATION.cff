@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Edition zitieren, verwenden Sie bitte die folgenden Metadaten."
+type: dataset
+title: "Arthur Schnitzler: Lektüren. Digitale Edition der Leseliste"
+abstract: "Digitale Edition der Leseliste Arthur Schnitzlers. TEI-XML-Daten und statische Webseite."
+authors:
+  - family-names: "Müller"
+    given-names: "Martin Anton"
+    orcid: "https://orcid.org/0000-0002-0127-9109"
+    affiliation: "Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische Akademie der Wissenschaften"
+repository-code: "https://github.com/arthur-schnitzler/schnitzler-lektueren"
+license: CC-BY-SA-4.0
+keywords:
+  - "Arthur Schnitzler"
+  - "Wiener Moderne"
+  - "Digital Scholarly Editing"
+  - "Digital Humanities"
+  - "Lektüre"
+  - "Lesegewohnheiten"
+  - "TEI"
