@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:mam="myOneAndOnly">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,7 +51,286 @@
                     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
                 })();</script><script src="js/entity-tabs.js" defer="defer"></script></head>
-   <body class="page">
+   <body class="page lektueren-edition">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&amp;display=swap" type="text/css" />
+      <style type="text/css">
+body.lektueren-edition {
+  --lk-ink:       #1a1814;
+  --lk-ink-soft:  #4a463f;
+  --lk-muted:     #8a8378;
+  --lk-rule:      #e6e1d6;
+  --lk-rule-soft: #f0ecdf;
+  --lk-accent:    #7d3325;
+  --lk-accent-soft: #9b5048;
+  --lk-editor:    #6b6359;
+  --lk-serif: "Source Serif 4", "EB Garamond", Georgia, serif;
+  --lk-sans:  "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
+  --lk-mono:  "Courier Prime", "Courier New", ui-monospace, monospace;
+}
+
+/* ---------- Alpha navigation bar ---------- */
+.lk-alpha-bar {
+  position: sticky;
+  top: 56px;
+  z-index: 1020;
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--lk-rule);
+}
+.lk-alpha-nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 48px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 0;
+  font-family: var(--lk-sans);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.lk-alpha-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 26px;
+  padding: 0 6px;
+  color: var(--lk-ink-soft);
+  border-right: 1px solid var(--lk-rule-soft);
+  text-decoration: none;
+}
+.lk-alpha-nav a:first-child { border-left: 1px solid var(--lk-rule-soft); }
+.lk-alpha-nav a.lk-empty { color: var(--lk-rule); pointer-events: none; }
+.lk-alpha-nav a:hover:not(.lk-empty) { color: var(--lk-accent); background: #f7f3e8; }
+
+/* ---------- Masthead ---------- */
+.lk-masthead {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 48px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: end;
+}
+.lk-eyebrow {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--lk-accent);
+  margin: 0 0 12px;
+}
+.lk-title {
+  font-family: var(--lk-serif);
+  font-weight: 500;
+  font-size: clamp(40px, 5.5vw, 84px);
+  line-height: 0.96;
+  letter-spacing: -0.018em;
+  margin: 0;
+  color: var(--lk-ink);
+}
+.lk-title em {
+  font-style: italic;
+  color: var(--lk-accent);
+  font-weight: 400;
+}
+.lk-meta-count {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  text-align: right;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.lk-num {
+  font-family: var(--lk-serif);
+  font-size: 52px;
+  color: var(--lk-accent);
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Index list ---------- */
+.lk-index {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 80px;
+}
+.lk-letter-anchor {
+  display: block;
+  position: relative;
+  height: 0;
+  scroll-margin-top: 130px;
+}
+
+/* ---------- Entry row ---------- */
+.lk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) 72px;
+  gap: 32px;
+  padding: 14px 0;
+  align-items: baseline;
+  border-top: 1px solid var(--lk-rule-soft);
+}
+.lk-row:first-of-type { border-top: none; }
+
+/* Edition text column */
+.lk-note {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--lk-ink);
+  hyphens: auto;
+  word-break: break-word;
+}
+.lk-note.handwritten {
+  font-family: var(--lk-serif);
+  font-size: 19px;
+  font-feature-settings: "onum" 1;
+}
+.lk-note.typewritten {
+  font-family: var(--lk-mono);
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+.lk-note s {
+  color: #b8b0a3;
+  text-decoration-thickness: 1px;
+}
+.lk-supplied { color: var(--lk-muted); }
+
+/* Authors column */
+.lk-authors {
+  font-family: var(--lk-sans);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 5px;
+}
+.lk-author-link {
+  color: var(--lk-editor);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  border-bottom: 1px solid transparent;
+  transition: color 120ms, border-color 120ms;
+  display: inline;
+  text-decoration: none;
+}
+.lk-author-link:hover {
+  color: var(--lk-accent);
+  border-bottom-color: var(--lk-accent);
+}
+.lk-arrow {
+  color: var(--lk-muted);
+  margin-right: 4px;
+  font-size: 13px;
+}
+.lk-author-link:hover .lk-arrow { color: var(--lk-accent); }
+.lk-meta-tag {
+  font-family: var(--lk-sans);
+  font-size: 11.5px;
+  color: var(--lk-muted);
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+}
+.lk-meta-tag.unident { color: var(--lk-accent-soft); }
+.lk-no-authors {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Tag column */
+.lk-tag {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--lk-accent);
+  text-align: right;
+  padding-top: 7px;
+  white-space: nowrap;
+}
+
+/* ---------- Colophon ---------- */
+.lk-colophon {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 48px 64px;
+  border-top: 1px solid var(--lk-rule);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  font-family: var(--lk-sans);
+  font-size: 13.5px;
+  color: var(--lk-muted);
+  line-height: 1.7;
+}
+.lk-colophon h3 {
+  font-family: var(--lk-sans);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--lk-ink);
+  margin: 0 0 12px;
+}
+.lk-colophon a { color: var(--lk-ink-soft); border-bottom: 1px solid var(--lk-rule); text-decoration: none; }
+.lk-colophon a:hover { color: var(--lk-accent); border-bottom-color: var(--lk-accent); }
+
+/* ---------- Back to top ---------- */
+.lk-totop {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--lk-ink);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-family: var(--lk-sans);
+  font-size: 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms;
+  z-index: 30;
+  border: none;
+  cursor: pointer;
+}
+.lk-totop.show { opacity: 1; pointer-events: auto; }
+.lk-totop:hover { background: var(--lk-accent); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .lk-alpha-nav, .lk-masthead, .lk-index, .lk-colophon { padding-left: 24px; padding-right: 24px; }
+  .lk-masthead { grid-template-columns: 1fr; gap: 20px; }
+  .lk-meta-count { text-align: left; }
+  .lk-row { grid-template-columns: 1fr 64px; row-gap: 6px; gap: 16px; padding: 18px 0; }
+  .lk-note { grid-column: 1; }
+  .lk-tag { grid-column: 2; grid-row: 1; padding-top: 7px; }
+  .lk-authors { grid-column: 1 / -1; padding-top: 0; }
+  .lk-colophon { grid-template-columns: 1fr; }
+}
+@media (max-width: 540px) {
+  .lk-note { font-size: 17px; }
+  .lk-note.handwritten { font-size: 18px; }
+}
+@media print {
+  .lk-alpha-bar, .lk-totop { display: none; }
+  .lk-row { break-inside: avoid; }
+}
+                </style>
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -81,393 +360,386 @@
                </div>
             </nav>
          </div>
-         <div class="container-fluid">
-            <div class="card" data-index="true">
-               <div class="card-body">
-                  
-                  <h1 class="edierterText">
-                     <span class="handschriftlich">England.</span>
-                     </h1>
-                  <div class="grid-container-element">
-                     
-                     <div class="grid-child-element edierterText" id="GB1">
-                         Aldrich ... PRudence / Lebendig
-                        begraben / Palme</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65024.html" id="pmb65024"><span style="font-variant: small-caps;"><b>[GB1] </b>→Thomas Bailey Aldrich</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB2">
-                         Austine ... Persuation</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65025.html" id="pmb65025"><span style="font-variant: small-caps;"><b>[GB2] </b>→Jane Austen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB3">
-                         Boz .... Skizen / David
-                        Copperfield / Pickwickers / Sylvesterglocken / Nickebei / Dombey / der Verwünschte
-                        / <span class="handschriftlich">zwei Städte /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11153.html" id="pmb11153"><span style="font-variant: small-caps;"><b>[GB3] </b>→Charles Dickens</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB4">
-                        
-                        <span class="handschriftlich">
-                           <u>Buckle</u> Engl Civil</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb14666.html" id="pmb14666"><span style="font-variant: small-caps;"><b>[GB4] </b>→Henry Thomas Buckle</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB5">
-                         Bulwer ... Pompei / Pelham /
-                        Nacht und Morgen / Maltraver / Alice</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65026.html" id="pmb65026"><span style="font-variant: small-caps;"><b>[GB5] </b>→Edward George Bulwer-Lytton</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB6">
-                         Burns</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65027.html" id="pmb65027"><span style="font-variant: small-caps;"><b>[GB6] </b>→Robert Burns</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB7">
-                         Byron</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11057.html" id="pmb11057"><span style="font-variant: small-caps;"><b>[GB7] </b>→George Gordon Noël Lord Byron</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB8">
-                         Carlyle</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11074.html" id="pmb11074"><span style="font-variant: small-caps;"><b>[GB8] </b>→Thomas Carlyle</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB9">
-                        
-                        <span class="handschriftlich">
-                           <u>Chesterton</u> Mg</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb14936.html" id="pmb14936"><span style="font-variant: small-caps;"><b>[GB9] </b>→Gilbert Keith Chesterton</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB10">
-                         Elliot ... Adam B.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65028.html" id="pmb65028"><span style="font-variant: small-caps;"><b>[GB10] </b>→George Eliot</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB11">
-                         Egerton .... Disslonanzen</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65029.html" id="pmb65029"><span style="font-variant: small-caps;"><b>[GB11] </b>→George Egerton</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB12">
-                         Finck ... Wagner</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65030.html" id="pmb65030"><span style="font-variant: small-caps;"><b>[GB12] </b>→Henry Theophilus Finck</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB13">
-                         Forster ... Dickens</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65031.html" id="pmb65031"><span style="font-variant: small-caps;"><b>[GB13] </b>→John Forster</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB14">
-                         Green .... Schein der Schuld</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65032.html" id="pmb65032"><span style="font-variant: small-caps;"><b>[GB14] </b>→A[nna] K[atharine] Green</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB15">
-                        
-                        <span class="handschriftlich">Houghton ... Hindle Wakes</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65033.html" id="pmb65033"><span style="font-variant: small-caps;"><b>[GB15] </b>→William Stanley Houghton</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB16">
-                        
-                        <span class="handschriftlich">Heywood ... Engl. Reisende /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb18254.html" id="pmb18254"><span style="font-variant: small-caps;"><b>[GB16] </b>→Thomas Heywood</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB17">
-                        
-                        <span class="handschriftlich">Harraden - Schiffe /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65034.html" id="pmb65034"><span style="font-variant: small-caps;"><b>[GB17] </b>→Beatrice Harraden</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB18">
-                         Jmes ... Pickering</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65035.html" id="pmb65035"><span style="font-variant: small-caps;"><b>[GB18] </b>→Henry James</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB19">
-                         Jer<span class="handschriftlich">o</span>m<span class="handschriftlich">e</span> ... Romanstudien <span class="handschriftlich">/ three men / Müssige
-                           Gedanken /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2697.html" id="pmb2697"><span style="font-variant: small-caps;"><b>[GB19] </b>→Jerome Klapka Jerome</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB20">
-                        
-                        <span class="handschriftlich">Joyce,</span>
-                        
-                        <span class="handschriftlich">Artist, Joyce</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8049.html" id="pmb8049"><span style="font-variant: small-caps;"><b>[GB20] </b>→James Joyce</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB21">
-                         Kipling ... Schlichte
-                        Geschichten Indiens / Dschungel <span class="handschriftlich">/ schwarzer Jack /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8204.html" id="pmb8204"><span style="font-variant: small-caps;"><b>[GB21] </b>→Rudyard Kipling</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB22">
-                         Kytt .... Spanische Tragödie</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65036.html" id="pmb65036"><span style="font-variant: small-caps;"><b>[GB22] </b>→Thomas Kyd</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB23">
-                        
-                        <span class="handschriftlich">
-                           <u>Lawrence</u> Aufstand Wüste</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb20184.html" id="pmb20184"><span style="font-variant: small-caps;"><b>[GB23] </b>→Thomas Edward Lawrence</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB24">
-                         Lewes</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65037.html" id="pmb65037"><span style="font-variant: small-caps;"><b>[GB24] </b>→Georg Henry Lewes</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB25">
-                        
-                        <span class="handschriftlich">London ..</span>
-                        
-                        <span class="handschriftlich">Wolfshund /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8699.html" id="pmb8699"><span style="font-variant: small-caps;"><b>[GB25] </b>→Jack London</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB26">
-                        
-                        <span class="handschriftlich">
-                           <u>Loos</u> ... blondes</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb20591.html" id="pmb20591"><span style="font-variant: small-caps;"><b>[GB26] </b>→Anita Loos</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB27">
-                         M<span class="handschriftlich">a</span>ri<span class="handschriftlich">a</span>tt .... Peter Simple</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65038.html" id="pmb65038"><span style="font-variant: small-caps;"><b>[GB27] </b>→Frederick Marryatt</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB28">
-                         Mac<span class="handschriftlich">a</span>ulay
-                        ... Milto<span class="handschriftlich">n</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65039.html" id="pmb65039"><span style="font-variant: small-caps;"><b>[GB28] </b>→Thomas Babington Macaulay</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB29">
-                         Marlo<span class="handschriftlich">w</span>e
-                        ... Faust / Eduard <span class="handschriftlich">II</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65040.html" id="pmb65040"><span style="font-variant: small-caps;"><b>[GB29] </b>→Christopher Marlowe</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB30">
-                        
-                        <span class="handschriftlich">
-                           <u>Melville</u>, Taipi</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8897.html" id="pmb8897"><span style="font-variant: small-caps;"><b>[GB30] </b>→Herman Melville</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB31">
-                         Massinger ... Mitgift / Tyrann /
-                        Volpone <span class="handschriftlich">/ röm. Mime / Bürger als Edel..</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3630.html" id="pmb3630"><span style="font-variant: small-caps;"><b>[GB31] </b>→Philip Massinger</span></a></div>
-                     
-                     <div class="grid-child-element edierterText"></div>
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11839.html" id="pmb11839"><span style="font-variant: small-caps;"><b>[GB31] </b>→Ben Jonson</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB32">
-                         Morisson ....
-                        Winkelgeschichten</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65042.html" id="pmb65042"><span style="font-variant: small-caps;"><b>[GB32] </b>→Arthur Morrison</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB33">
-                        
-                        <span class="handschriftlich">M</span>orice</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65043.html" id="pmb65043"><span style="font-variant: small-caps;"><b>[GB33] </b>→William Morris</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB34">
-                        
-                        <span class="handschriftlich">Meredith</span>
-                        
-                        <span class="handschriftlich">/ Egoist /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb21338.html" id="pmb21338"><span style="font-variant: small-caps;"><b>[GB34] </b>→George Meredith</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB35">
-                         Ottolengi .... Cameenknopf</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65044.html" id="pmb65044"><span style="font-variant: small-caps;"><b>[GB35] </b>→Rodrigues Ottolengui</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB36">
-                         Ottway</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb22269.html" id="pmb22269"><span style="font-variant: small-caps;"><b>[GB36] </b>→Thomas Otway</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB37">
-                         Poe</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12428.html" id="pmb12428"><span style="font-variant: small-caps;"><b>[GB37] </b>→Edgar Allan Poe</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB38">
-                         Philips .... Wie im Spiegel /
-                        Jack</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65045.html" id="pmb65045"><span style="font-variant: small-caps;"><b>[GB38] </b>→Francis Charles Philips</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB39">
-                        
-                        <span class="handschriftlich">Prescott ..</span>
-                        
-                        <span class="handschriftlich">Peru /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb9367.html" id="pmb9367"><span style="font-variant: small-caps;"><b>[GB39] </b>→William Prescott</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB40">
-                         Quida .... Napraxin</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65046.html" id="pmb65046"><span style="font-variant: small-caps;"><b>[GB40] </b>→Ouida</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB41">
-                         Shakespeare</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2412.html" id="pmb2412"><span style="font-variant: small-caps;"><b>[GB41] </b>→William Shakespeare</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB42">
-                         Shaw <span class="handschriftlich">viel.</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2381.html" id="pmb2381"><span style="font-variant: small-caps;"><b>[GB42] </b>→George Bernard Shaw</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB43">
-                         Swift</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb10161.html" id="pmb10161"><span style="font-variant: small-caps;"><b>[GB43] </b>→Jonathan Swift</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB44">
-                         Sterne</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65047.html" id="pmb65047"><span style="font-variant: small-caps;"><b>[GB44] </b>→Laurence Sterne</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB45">
-                         Scott .... der schwarze Zweg</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65048.html" id="pmb65048"><span style="font-variant: small-caps;"><b>[GB45] </b>→Walter Scott</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB46">
-                         Sharidon</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65049.html" id="pmb65049"><span style="font-variant: small-caps;"><b>[GB46] </b>→Richard Brinsley Sheridan</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB47">
-                         Twain</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26252.html" id="pmb26252"><span style="font-variant: small-caps;"><b>[GB47] </b>→Mark Twain</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB49">
-                        
-                        <span class="handschriftlich">Voynich ..</span>
-                        
-                        <span class="handschriftlich">Stechfliege</span> /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65050.html" id="pmb65050"><span style="font-variant: small-caps;"><b>[GB49] </b>→Ethel Lilian Voynich</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB50">
-                        
-                        <span class="handschriftlich">Wilde ...</span>
-                        
-                        <span class="handschriftlich">Gray / Salome /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb13115.html" id="pmb13115"><span style="font-variant: small-caps;"><b>[GB50] </b>→Oscar Wilde</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB51">
-                        
-                        <span class="handschriftlich">Wells</span> - <span class="handschriftlich">Zeitmaschine</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5815.html" id="pmb5815"><span style="font-variant: small-caps;"><b>[GB51] </b>→H. G. Wells</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="GB48">Th<span class="handschriftlich">e</span>ckeray <span class="handschriftlich">... Jahrm. / Pend. / Snob /
-                           Esmond /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb25962.html" id="pmb25962"><span style="font-variant: small-caps;"><b>[GB48] </b>→William Makepeace Thackeray</span></a></div>
-                     </div>
-                  </div>
-            </div>
+         <div class="lk-alpha-bar">
+            <nav class="lk-alpha-nav" aria-label="Alphabetische Navigation"><a href="#letter-A">A</a><a href="#letter-B">B</a><a href="#letter-C">C</a><a class="lk-empty">D</a><a href="#letter-E">E</a><a href="#letter-F">F</a><a href="#letter-G">G</a><a href="#letter-H">H</a><a class="lk-empty">I</a><a href="#letter-J">J</a><a href="#letter-K">K</a><a href="#letter-L">L</a><a href="#letter-M">M</a><a class="lk-empty">N</a><a href="#letter-O">O</a><a href="#letter-P">P</a><a href="#letter-Q">Q</a><a class="lk-empty">R</a><a href="#letter-S">S</a><a href="#letter-T">T</a><a class="lk-empty">U</a><a href="#letter-V">V</a><a href="#letter-W">W</a><a class="lk-empty">X</a><a class="lk-empty">Y</a><a class="lk-empty">Z</a></nav>
          </div>
-         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+         <div class="lk-masthead">
+            <div>
+               <p class="lk-eyebrow">Schnitzler-Lektüren · Leseliste</p>
+               <h1 class="lk-title"><em>England.</em></h1>
+            </div>
+            <div class="lk-meta-count"><span class="lk-num">51</span>
+               Einträge
+               </div>
+         </div>
+         <main class="lk-index" data-index="true"><span class="lk-letter-anchor" id="letter-A"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Aldrich ... PRudence / Lebendig
+                  begraben / Palme</div>
+               <div class="lk-authors"><a href="pmb65024.html" class="lk-author-link"><span class="lk-arrow">→</span>Thomas Bailey Aldrich</a></div>
+               <div class="lk-tag">[GB1]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Austine ... Persuation</div>
+               <div class="lk-authors"><a href="pmb65025.html" class="lk-author-link"><span class="lk-arrow">→</span>Jane Austen</a></div>
+               <div class="lk-tag">[GB2]</div>
+            </div><span class="lk-letter-anchor" id="letter-B"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Boz .... Skizen / David
+                  Copperfield / Pickwickers / Sylvesterglocken / Nickebei / Dombey / der Verwünschte
+                  / zwei Städte /
+                  </div>
+               <div class="lk-authors"><a href="pmb11153.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles Dickens</a></div>
+               <div class="lk-tag">[GB3]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Buckle</u> Engl Civil
+                  </div>
+               <div class="lk-authors"><a href="pmb14666.html" class="lk-author-link"><span class="lk-arrow">→</span>Henry Thomas Buckle</a></div>
+               <div class="lk-tag">[GB4]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Bulwer ... Pompei / Pelham /
+                  Nacht und Morgen / Maltraver / Alice</div>
+               <div class="lk-authors"><a href="pmb65026.html" class="lk-author-link"><span class="lk-arrow">→</span>Edward George Bulwer-Lytton</a></div>
+               <div class="lk-tag">[GB5]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Burns</div>
+               <div class="lk-authors"><a href="pmb65027.html" class="lk-author-link"><span class="lk-arrow">→</span>Robert Burns</a></div>
+               <div class="lk-tag">[GB6]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Byron</div>
+               <div class="lk-authors"><a href="pmb11057.html" class="lk-author-link"><span class="lk-arrow">→</span>George Gordon Noël Lord Byron</a></div>
+               <div class="lk-tag">[GB7]</div>
+            </div><span class="lk-letter-anchor" id="letter-C"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Carlyle</div>
+               <div class="lk-authors"><a href="pmb11074.html" class="lk-author-link"><span class="lk-arrow">→</span>Thomas Carlyle</a></div>
+               <div class="lk-tag">[GB8]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Chesterton</u> Mg
+                  </div>
+               <div class="lk-authors"><a href="pmb14936.html" class="lk-author-link"><span class="lk-arrow">→</span>Gilbert Keith Chesterton</a></div>
+               <div class="lk-tag">[GB9]</div>
+            </div><span class="lk-letter-anchor" id="letter-E"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Elliot ... Adam B.</div>
+               <div class="lk-authors"><a href="pmb65028.html" class="lk-author-link"><span class="lk-arrow">→</span>George Eliot</a></div>
+               <div class="lk-tag">[GB10]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Egerton .... Disslonanzen</div>
+               <div class="lk-authors"><a href="pmb65029.html" class="lk-author-link"><span class="lk-arrow">→</span>George Egerton</a></div>
+               <div class="lk-tag">[GB11]</div>
+            </div><span class="lk-letter-anchor" id="letter-F"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Finck ... Wagner</div>
+               <div class="lk-authors"><a href="pmb65030.html" class="lk-author-link"><span class="lk-arrow">→</span>Henry Theophilus Finck</a></div>
+               <div class="lk-tag">[GB12]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Forster ... Dickens</div>
+               <div class="lk-authors"><a href="pmb65031.html" class="lk-author-link"><span class="lk-arrow">→</span>John Forster</a></div>
+               <div class="lk-tag">[GB13]</div>
+            </div><span class="lk-letter-anchor" id="letter-G"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Green .... Schein der Schuld</div>
+               <div class="lk-authors"><a href="pmb65032.html" class="lk-author-link"><span class="lk-arrow">→</span>A[nna] K[atharine] Green</a></div>
+               <div class="lk-tag">[GB14]</div>
+            </div><span class="lk-letter-anchor" id="letter-H"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Houghton ... Hindle Wakes
+                  </div>
+               <div class="lk-authors"><a href="pmb65033.html" class="lk-author-link"><span class="lk-arrow">→</span>William Stanley Houghton</a></div>
+               <div class="lk-tag">[GB15]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Heywood ... Engl. Reisende /
+                  </div>
+               <div class="lk-authors"><a href="pmb18254.html" class="lk-author-link"><span class="lk-arrow">→</span>Thomas Heywood</a></div>
+               <div class="lk-tag">[GB16]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Harraden - Schiffe /
+                  </div>
+               <div class="lk-authors"><a href="pmb65034.html" class="lk-author-link"><span class="lk-arrow">→</span>Beatrice Harraden</a></div>
+               <div class="lk-tag">[GB17]</div>
+            </div><span class="lk-letter-anchor" id="letter-J"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Jmes ... Pickering</div>
+               <div class="lk-authors"><a href="pmb65035.html" class="lk-author-link"><span class="lk-arrow">→</span>Henry James</a></div>
+               <div class="lk-tag">[GB18]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Jerome ... Romanstudien / three men / Müssige
+                  Gedanken /
+                  </div>
+               <div class="lk-authors"><a href="pmb2697.html" class="lk-author-link"><span class="lk-arrow">→</span>Jerome Klapka Jerome</a></div>
+               <div class="lk-tag">[GB19]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Joyce,
+                   
+                  Artist, Joyce
+                  </div>
+               <div class="lk-authors"><a href="pmb8049.html" class="lk-author-link"><span class="lk-arrow">→</span>James Joyce</a></div>
+               <div class="lk-tag">[GB20]</div>
+            </div><span class="lk-letter-anchor" id="letter-K"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Kipling ... Schlichte
+                  Geschichten Indiens / Dschungel / schwarzer Jack /
+                  </div>
+               <div class="lk-authors"><a href="pmb8204.html" class="lk-author-link"><span class="lk-arrow">→</span>Rudyard Kipling</a></div>
+               <div class="lk-tag">[GB21]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Kytt .... Spanische Tragödie</div>
+               <div class="lk-authors"><a href="pmb65036.html" class="lk-author-link"><span class="lk-arrow">→</span>Thomas Kyd</a></div>
+               <div class="lk-tag">[GB22]</div>
+            </div><span class="lk-letter-anchor" id="letter-L"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Lawrence</u> Aufstand Wüste
+                  </div>
+               <div class="lk-authors"><a href="pmb20184.html" class="lk-author-link"><span class="lk-arrow">→</span>Thomas Edward Lawrence</a></div>
+               <div class="lk-tag">[GB23]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Lewes</div>
+               <div class="lk-authors"><a href="pmb65037.html" class="lk-author-link"><span class="lk-arrow">→</span>Georg Henry Lewes</a></div>
+               <div class="lk-tag">[GB24]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  London ..
+                   
+                  Wolfshund /
+                  </div>
+               <div class="lk-authors"><a href="pmb8699.html" class="lk-author-link"><span class="lk-arrow">→</span>Jack London</a></div>
+               <div class="lk-tag">[GB25]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Loos</u> ... blondes
+                  </div>
+               <div class="lk-authors"><a href="pmb20591.html" class="lk-author-link"><span class="lk-arrow">→</span>Anita Loos</a></div>
+               <div class="lk-tag">[GB26]</div>
+            </div><span class="lk-letter-anchor" id="letter-M"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Mariatt .... Peter Simple</div>
+               <div class="lk-authors"><a href="pmb65038.html" class="lk-author-link"><span class="lk-arrow">→</span>Frederick Marryatt</a></div>
+               <div class="lk-tag">[GB27]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Macaulay
+                  ... Milton
+                  </div>
+               <div class="lk-authors"><a href="pmb65039.html" class="lk-author-link"><span class="lk-arrow">→</span>Thomas Babington Macaulay</a></div>
+               <div class="lk-tag">[GB28]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Marlowe
+                  ... Faust / Eduard II
+                  </div>
+               <div class="lk-authors"><a href="pmb65040.html" class="lk-author-link"><span class="lk-arrow">→</span>Christopher Marlowe</a></div>
+               <div class="lk-tag">[GB29]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Melville</u>, Taipi
+                  </div>
+               <div class="lk-authors"><a href="pmb8897.html" class="lk-author-link"><span class="lk-arrow">→</span>Herman Melville</a></div>
+               <div class="lk-tag">[GB30]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Massinger ... Mitgift / Tyrann /
+                  Volpone / röm. Mime / Bürger als Edel..
+                  </div>
+               <div class="lk-authors"><a href="pmb3630.html" class="lk-author-link"><span class="lk-arrow">→</span>Philip Massinger</a><a href="pmb11839.html" class="lk-author-link"><span class="lk-arrow">→</span>Ben Jonson</a></div>
+               <div class="lk-tag">[GB31]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Morisson ....
+                  Winkelgeschichten</div>
+               <div class="lk-authors"><a href="pmb65042.html" class="lk-author-link"><span class="lk-arrow">→</span>Arthur Morrison</a></div>
+               <div class="lk-tag">[GB32]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Morice</div>
+               <div class="lk-authors"><a href="pmb65043.html" class="lk-author-link"><span class="lk-arrow">→</span>William Morris</a></div>
+               <div class="lk-tag">[GB33]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Meredith
+                   
+                  / Egoist /
+                  </div>
+               <div class="lk-authors"><a href="pmb21338.html" class="lk-author-link"><span class="lk-arrow">→</span>George Meredith</a></div>
+               <div class="lk-tag">[GB34]</div>
+            </div><span class="lk-letter-anchor" id="letter-O"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Ottolengi .... Cameenknopf</div>
+               <div class="lk-authors"><a href="pmb65044.html" class="lk-author-link"><span class="lk-arrow">→</span>Rodrigues Ottolengui</a></div>
+               <div class="lk-tag">[GB35]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Ottway</div>
+               <div class="lk-authors"><a href="pmb22269.html" class="lk-author-link"><span class="lk-arrow">→</span>Thomas Otway</a></div>
+               <div class="lk-tag">[GB36]</div>
+            </div><span class="lk-letter-anchor" id="letter-P"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Poe</div>
+               <div class="lk-authors"><a href="pmb12428.html" class="lk-author-link"><span class="lk-arrow">→</span>Edgar Allan Poe</a></div>
+               <div class="lk-tag">[GB37]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Philips .... Wie im Spiegel /
+                  Jack</div>
+               <div class="lk-authors"><a href="pmb65045.html" class="lk-author-link"><span class="lk-arrow">→</span>Francis Charles Philips</a></div>
+               <div class="lk-tag">[GB38]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Prescott ..
+                   
+                  Peru /
+                  </div>
+               <div class="lk-authors"><a href="pmb9367.html" class="lk-author-link"><span class="lk-arrow">→</span>William Prescott</a></div>
+               <div class="lk-tag">[GB39]</div>
+            </div><span class="lk-letter-anchor" id="letter-Q"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Quida .... Napraxin</div>
+               <div class="lk-authors"><a href="pmb65046.html" class="lk-author-link"><span class="lk-arrow">→</span>Ouida</a></div>
+               <div class="lk-tag">[GB40]</div>
+            </div><span class="lk-letter-anchor" id="letter-S"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Shakespeare</div>
+               <div class="lk-authors"><a href="pmb2412.html" class="lk-author-link"><span class="lk-arrow">→</span>William Shakespeare</a></div>
+               <div class="lk-tag">[GB41]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Shaw viel.
+                  </div>
+               <div class="lk-authors"><a href="pmb2381.html" class="lk-author-link"><span class="lk-arrow">→</span>George Bernard Shaw</a></div>
+               <div class="lk-tag">[GB42]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Swift</div>
+               <div class="lk-authors"><a href="pmb10161.html" class="lk-author-link"><span class="lk-arrow">→</span>Jonathan Swift</a></div>
+               <div class="lk-tag">[GB43]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Sterne</div>
+               <div class="lk-authors"><a href="pmb65047.html" class="lk-author-link"><span class="lk-arrow">→</span>Laurence Sterne</a></div>
+               <div class="lk-tag">[GB44]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Scott .... der schwarze Zweg</div>
+               <div class="lk-authors"><a href="pmb65048.html" class="lk-author-link"><span class="lk-arrow">→</span>Walter Scott</a></div>
+               <div class="lk-tag">[GB45]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Sharidon</div>
+               <div class="lk-authors"><a href="pmb65049.html" class="lk-author-link"><span class="lk-arrow">→</span>Richard Brinsley Sheridan</a></div>
+               <div class="lk-tag">[GB46]</div>
+            </div><span class="lk-letter-anchor" id="letter-T"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Twain</div>
+               <div class="lk-authors"><a href="pmb26252.html" class="lk-author-link"><span class="lk-arrow">→</span>Mark Twain</a></div>
+               <div class="lk-tag">[GB47]</div>
+            </div><span class="lk-letter-anchor" id="letter-V"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Voynich ..
+                   
+                  Stechfliege /</div>
+               <div class="lk-authors"><a href="pmb65050.html" class="lk-author-link"><span class="lk-arrow">→</span>Ethel Lilian Voynich</a></div>
+               <div class="lk-tag">[GB49]</div>
+            </div><span class="lk-letter-anchor" id="letter-W"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Wilde ...
+                   
+                  Gray / Salome /
+                  </div>
+               <div class="lk-authors"><a href="pmb13115.html" class="lk-author-link"><span class="lk-arrow">→</span>Oscar Wilde</a></div>
+               <div class="lk-tag">[GB50]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Wells - Zeitmaschine
+                  </div>
+               <div class="lk-authors"><a href="pmb5815.html" class="lk-author-link"><span class="lk-arrow">→</span>H. G. Wells</a></div>
+               <div class="lk-tag">[GB51]</div>
+            </div><span class="lk-letter-anchor" id="letter-T"></span><div class="lk-row">
+               <div class="lk-note handwritten">Theckeray ... Jahrm. / Pend. / Snob /
+                  Esmond /
+                  </div>
+               <div class="lk-authors"><a href="pmb25962.html" class="lk-author-link"><span class="lk-arrow">→</span>William Makepeace Thackeray</a></div>
+               <div class="lk-tag">[GB48]</div>
+            </div>
+         </main>
+         <div class="lk-colophon">
+            <div>
+               <h3>Edition</h3>
+               Aus der Mikroverfilmung der Lektüreliste, bearbeitet im Rahmen des Projekts
+               <i>Schnitzler-Lektüren</i> am Austrian Centre for Digital Humanities and
+               Cultural Heritage (ACDH-CH).
+               </div>
+            <div>
+               <h3>Weiterführend</h3><a href="about.html">Vorwort</a> ·
+               <a href="einleitung.html">Einleitung</a> ·
+               <a href="edition.html">Zur Edition</a> ·
+               <a href="literatur.html">Literatur</a></div>
+         </div><button class="lk-totop" id="lk-totop" aria-label="Nach oben">↑</button><div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
                   KONTAKT
@@ -527,6 +799,16 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
-   </body>
+         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div><script type="text/javascript">
+(function () {
+  var btn = document.getElementById('lk-totop');
+  if (!btn) return;
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('show', window.scrollY &gt; 600);
+  }, { passive: true });
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+                </script></body>
 </html>

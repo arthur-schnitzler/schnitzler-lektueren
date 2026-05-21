@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:mam="myOneAndOnly">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,7 +51,286 @@
                     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
                 })();</script><script src="js/entity-tabs.js" defer="defer"></script></head>
-   <body class="page">
+   <body class="page lektueren-edition">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&amp;display=swap" type="text/css" />
+      <style type="text/css">
+body.lektueren-edition {
+  --lk-ink:       #1a1814;
+  --lk-ink-soft:  #4a463f;
+  --lk-muted:     #8a8378;
+  --lk-rule:      #e6e1d6;
+  --lk-rule-soft: #f0ecdf;
+  --lk-accent:    #7d3325;
+  --lk-accent-soft: #9b5048;
+  --lk-editor:    #6b6359;
+  --lk-serif: "Source Serif 4", "EB Garamond", Georgia, serif;
+  --lk-sans:  "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
+  --lk-mono:  "Courier Prime", "Courier New", ui-monospace, monospace;
+}
+
+/* ---------- Alpha navigation bar ---------- */
+.lk-alpha-bar {
+  position: sticky;
+  top: 56px;
+  z-index: 1020;
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--lk-rule);
+}
+.lk-alpha-nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 48px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 0;
+  font-family: var(--lk-sans);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.lk-alpha-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 26px;
+  padding: 0 6px;
+  color: var(--lk-ink-soft);
+  border-right: 1px solid var(--lk-rule-soft);
+  text-decoration: none;
+}
+.lk-alpha-nav a:first-child { border-left: 1px solid var(--lk-rule-soft); }
+.lk-alpha-nav a.lk-empty { color: var(--lk-rule); pointer-events: none; }
+.lk-alpha-nav a:hover:not(.lk-empty) { color: var(--lk-accent); background: #f7f3e8; }
+
+/* ---------- Masthead ---------- */
+.lk-masthead {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 48px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: end;
+}
+.lk-eyebrow {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--lk-accent);
+  margin: 0 0 12px;
+}
+.lk-title {
+  font-family: var(--lk-serif);
+  font-weight: 500;
+  font-size: clamp(40px, 5.5vw, 84px);
+  line-height: 0.96;
+  letter-spacing: -0.018em;
+  margin: 0;
+  color: var(--lk-ink);
+}
+.lk-title em {
+  font-style: italic;
+  color: var(--lk-accent);
+  font-weight: 400;
+}
+.lk-meta-count {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  text-align: right;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.lk-num {
+  font-family: var(--lk-serif);
+  font-size: 52px;
+  color: var(--lk-accent);
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Index list ---------- */
+.lk-index {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 80px;
+}
+.lk-letter-anchor {
+  display: block;
+  position: relative;
+  height: 0;
+  scroll-margin-top: 130px;
+}
+
+/* ---------- Entry row ---------- */
+.lk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) 72px;
+  gap: 32px;
+  padding: 14px 0;
+  align-items: baseline;
+  border-top: 1px solid var(--lk-rule-soft);
+}
+.lk-row:first-of-type { border-top: none; }
+
+/* Edition text column */
+.lk-note {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--lk-ink);
+  hyphens: auto;
+  word-break: break-word;
+}
+.lk-note.handwritten {
+  font-family: var(--lk-serif);
+  font-size: 19px;
+  font-feature-settings: "onum" 1;
+}
+.lk-note.typewritten {
+  font-family: var(--lk-mono);
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+.lk-note s {
+  color: #b8b0a3;
+  text-decoration-thickness: 1px;
+}
+.lk-supplied { color: var(--lk-muted); }
+
+/* Authors column */
+.lk-authors {
+  font-family: var(--lk-sans);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 5px;
+}
+.lk-author-link {
+  color: var(--lk-editor);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  border-bottom: 1px solid transparent;
+  transition: color 120ms, border-color 120ms;
+  display: inline;
+  text-decoration: none;
+}
+.lk-author-link:hover {
+  color: var(--lk-accent);
+  border-bottom-color: var(--lk-accent);
+}
+.lk-arrow {
+  color: var(--lk-muted);
+  margin-right: 4px;
+  font-size: 13px;
+}
+.lk-author-link:hover .lk-arrow { color: var(--lk-accent); }
+.lk-meta-tag {
+  font-family: var(--lk-sans);
+  font-size: 11.5px;
+  color: var(--lk-muted);
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+}
+.lk-meta-tag.unident { color: var(--lk-accent-soft); }
+.lk-no-authors {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Tag column */
+.lk-tag {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--lk-accent);
+  text-align: right;
+  padding-top: 7px;
+  white-space: nowrap;
+}
+
+/* ---------- Colophon ---------- */
+.lk-colophon {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 48px 64px;
+  border-top: 1px solid var(--lk-rule);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  font-family: var(--lk-sans);
+  font-size: 13.5px;
+  color: var(--lk-muted);
+  line-height: 1.7;
+}
+.lk-colophon h3 {
+  font-family: var(--lk-sans);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--lk-ink);
+  margin: 0 0 12px;
+}
+.lk-colophon a { color: var(--lk-ink-soft); border-bottom: 1px solid var(--lk-rule); text-decoration: none; }
+.lk-colophon a:hover { color: var(--lk-accent); border-bottom-color: var(--lk-accent); }
+
+/* ---------- Back to top ---------- */
+.lk-totop {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--lk-ink);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-family: var(--lk-sans);
+  font-size: 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms;
+  z-index: 30;
+  border: none;
+  cursor: pointer;
+}
+.lk-totop.show { opacity: 1; pointer-events: auto; }
+.lk-totop:hover { background: var(--lk-accent); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .lk-alpha-nav, .lk-masthead, .lk-index, .lk-colophon { padding-left: 24px; padding-right: 24px; }
+  .lk-masthead { grid-template-columns: 1fr; gap: 20px; }
+  .lk-meta-count { text-align: left; }
+  .lk-row { grid-template-columns: 1fr 64px; row-gap: 6px; gap: 16px; padding: 18px 0; }
+  .lk-note { grid-column: 1; }
+  .lk-tag { grid-column: 2; grid-row: 1; padding-top: 7px; }
+  .lk-authors { grid-column: 1 / -1; padding-top: 0; }
+  .lk-colophon { grid-template-columns: 1fr; }
+}
+@media (max-width: 540px) {
+  .lk-note { font-size: 17px; }
+  .lk-note.handwritten { font-size: 18px; }
+}
+@media print {
+  .lk-alpha-bar, .lk-totop { display: none; }
+  .lk-row { break-inside: avoid; }
+}
+                </style>
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -81,123 +360,126 @@
                </div>
             </nav>
          </div>
-         <div class="container-fluid">
-            <div class="card" data-index="true">
-               <div class="card-body">
-                  
-                  <h1 class="edierterText">
-                     <span class="handschriftlich">Italien</span>
-                     </h1>
-                  <div class="grid-container-element">
-                     
-                     <div class="grid-child-element edierterText" id="I1">
-                        Alfieri .... König Philipp</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65008.html" id="pmb65008"><span style="font-variant: small-caps;"><b>[I1] </b>→Vittorio Alfieri</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I2">
-                        Anunzio .... L’intrus / triomphe de
-                        la mort / Lust</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2142.html" id="pmb2142"><span style="font-variant: small-caps;"><b>[I2] </b>→Gabriele D’Annunzio</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I3">
-                        Boccazio ....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65009.html" id="pmb65009"><span style="font-variant: small-caps;"><b>[I3] </b>→Giovanni Boccaccio</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I4">
-                        Cossa ... Nero</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65010.html" id="pmb65010"><span style="font-variant: small-caps;"><b>[I4] </b>→Pietro Cossa</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I5">
-                        Dante ..... Neues Leben</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3326.html" id="pmb3326"><span style="font-variant: small-caps;"><b>[I5] </b>→Dante Alighieri</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I6">
-                        Ferari .... Selbstmord</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65011.html" id="pmb65011"><span style="font-variant: small-caps;"><b>[I6] </b>→Paolo Ferrari</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I7">
-                        Farina .... Aus des Meeres Schaum /
-                        aus den Seiten <span class="herausgeberErgaenzung">[/]</span> Laurinas Gatte / Blinde Liebe / Ich / Mein
-                        Sohn</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65012.html" id="pmb65012"><span style="font-variant: small-caps;"><b>[I7] </b>→Salvatore Farina</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I8">
-                        Goldoni ….</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5892.html" id="pmb5892"><span style="font-variant: small-caps;"><b>[I8] </b>→Carlo Goldoni</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I9">
-                        
-                        <span class="handschriftlich">Infessura: röm. Tgb</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb18688.html" id="pmb18688"><span style="font-variant: small-caps;"><b>[I9] </b>→Stefano Infessura</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I10">
-                        Maffei .... Merope</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65013.html" id="pmb65013"><span style="font-variant: small-caps;"><b>[I10] </b>→Francesco Scipione Maffei</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I11">
-                        Manzoni .... Verlobte</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65014.html" id="pmb65014"><span style="font-variant: small-caps;"><b>[I11] </b>→Alessandro Manzoni</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I12">
-                        Macciavelli ... Fürst</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65015.html" id="pmb65015"><span style="font-variant: small-caps;"><b>[I12] </b>→Niccolò Machiavelli</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I13">
-                        Nera ... Theresa / Strafe /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb28753.html" id="pmb28753"><span style="font-variant: small-caps;"><b>[I13] </b>→Neera</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I14">
-                        Pelico ... Meine Gefängnisse</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65016.html" id="pmb65016"><span style="font-variant: small-caps;"><b>[I14] </b>→Silvio Pellico</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I15">
-                        
-                        <span class="handschriftlich">Serao ..</span>
-                        
-                        <span class="handschriftlich">nach der Verzeihung /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb24844.html" id="pmb24844"><span style="font-variant: small-caps;"><b>[I15] </b>→Matilde Serao</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="I16">
-                        Verga .. Wie, wann warum</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65017.html" id="pmb65017"><span style="font-variant: small-caps;"><b>[I16] </b>→Giovanni Verga</span></a></div>
-                     </div>
-                  </div>
-            </div>
+         <div class="lk-alpha-bar">
+            <nav class="lk-alpha-nav" aria-label="Alphabetische Navigation"><a href="#letter-A">A</a><a href="#letter-B">B</a><a href="#letter-C">C</a><a href="#letter-D">D</a><a class="lk-empty">E</a><a href="#letter-F">F</a><a href="#letter-G">G</a><a class="lk-empty">H</a><a href="#letter-I">I</a><a class="lk-empty">J</a><a class="lk-empty">K</a><a class="lk-empty">L</a><a href="#letter-M">M</a><a href="#letter-N">N</a><a class="lk-empty">O</a><a href="#letter-P">P</a><a class="lk-empty">Q</a><a class="lk-empty">R</a><a href="#letter-S">S</a><a class="lk-empty">T</a><a class="lk-empty">U</a><a href="#letter-V">V</a><a class="lk-empty">W</a><a class="lk-empty">X</a><a class="lk-empty">Y</a><a class="lk-empty">Z</a></nav>
          </div>
-         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+         <div class="lk-masthead">
+            <div>
+               <p class="lk-eyebrow">Schnitzler-Lektüren · Leseliste</p>
+               <h1 class="lk-title"><em>Italien</em></h1>
+            </div>
+            <div class="lk-meta-count"><span class="lk-num">16</span>
+               Einträge
+               </div>
+         </div>
+         <main class="lk-index" data-index="true"><span class="lk-letter-anchor" id="letter-A"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Alfieri .... König Philipp</div>
+               <div class="lk-authors"><a href="pmb65008.html" class="lk-author-link"><span class="lk-arrow">→</span>Vittorio Alfieri</a></div>
+               <div class="lk-tag">[I1]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Anunzio .... L’intrus / triomphe de
+                  la mort / Lust</div>
+               <div class="lk-authors"><a href="pmb2142.html" class="lk-author-link"><span class="lk-arrow">→</span>Gabriele D’Annunzio</a></div>
+               <div class="lk-tag">[I2]</div>
+            </div><span class="lk-letter-anchor" id="letter-B"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Boccazio ....</div>
+               <div class="lk-authors"><a href="pmb65009.html" class="lk-author-link"><span class="lk-arrow">→</span>Giovanni Boccaccio</a></div>
+               <div class="lk-tag">[I3]</div>
+            </div><span class="lk-letter-anchor" id="letter-C"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Cossa ... Nero</div>
+               <div class="lk-authors"><a href="pmb65010.html" class="lk-author-link"><span class="lk-arrow">→</span>Pietro Cossa</a></div>
+               <div class="lk-tag">[I4]</div>
+            </div><span class="lk-letter-anchor" id="letter-D"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Dante ..... Neues Leben</div>
+               <div class="lk-authors"><a href="pmb3326.html" class="lk-author-link"><span class="lk-arrow">→</span>Dante Alighieri</a></div>
+               <div class="lk-tag">[I5]</div>
+            </div><span class="lk-letter-anchor" id="letter-F"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Ferari .... Selbstmord</div>
+               <div class="lk-authors"><a href="pmb65011.html" class="lk-author-link"><span class="lk-arrow">→</span>Paolo Ferrari</a></div>
+               <div class="lk-tag">[I6]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Farina .... Aus des Meeres Schaum /
+                  aus den Seiten <span class="lk-supplied">[/]</span> Laurinas Gatte / Blinde Liebe / Ich / Mein
+                  Sohn</div>
+               <div class="lk-authors"><a href="pmb65012.html" class="lk-author-link"><span class="lk-arrow">→</span>Salvatore Farina</a></div>
+               <div class="lk-tag">[I7]</div>
+            </div><span class="lk-letter-anchor" id="letter-G"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Goldoni ….</div>
+               <div class="lk-authors"><a href="pmb5892.html" class="lk-author-link"><span class="lk-arrow">→</span>Carlo Goldoni</a></div>
+               <div class="lk-tag">[I8]</div>
+            </div><span class="lk-letter-anchor" id="letter-I"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Infessura: röm. Tgb
+                  </div>
+               <div class="lk-authors"><a href="pmb18688.html" class="lk-author-link"><span class="lk-arrow">→</span>Stefano Infessura</a></div>
+               <div class="lk-tag">[I9]</div>
+            </div><span class="lk-letter-anchor" id="letter-M"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Maffei .... Merope</div>
+               <div class="lk-authors"><a href="pmb65013.html" class="lk-author-link"><span class="lk-arrow">→</span>Francesco Scipione Maffei</a></div>
+               <div class="lk-tag">[I10]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Manzoni .... Verlobte</div>
+               <div class="lk-authors"><a href="pmb65014.html" class="lk-author-link"><span class="lk-arrow">→</span>Alessandro Manzoni</a></div>
+               <div class="lk-tag">[I11]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Macciavelli ... Fürst</div>
+               <div class="lk-authors"><a href="pmb65015.html" class="lk-author-link"><span class="lk-arrow">→</span>Niccolò Machiavelli</a></div>
+               <div class="lk-tag">[I12]</div>
+            </div><span class="lk-letter-anchor" id="letter-N"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Nera ... Theresa / Strafe /</div>
+               <div class="lk-authors"><a href="pmb28753.html" class="lk-author-link"><span class="lk-arrow">→</span>Neera</a></div>
+               <div class="lk-tag">[I13]</div>
+            </div><span class="lk-letter-anchor" id="letter-P"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Pelico ... Meine Gefängnisse</div>
+               <div class="lk-authors"><a href="pmb65016.html" class="lk-author-link"><span class="lk-arrow">→</span>Silvio Pellico</a></div>
+               <div class="lk-tag">[I14]</div>
+            </div><span class="lk-letter-anchor" id="letter-S"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Serao ..
+                   
+                  nach der Verzeihung /
+                  </div>
+               <div class="lk-authors"><a href="pmb24844.html" class="lk-author-link"><span class="lk-arrow">→</span>Matilde Serao</a></div>
+               <div class="lk-tag">[I15]</div>
+            </div><span class="lk-letter-anchor" id="letter-V"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Verga .. Wie, wann warum</div>
+               <div class="lk-authors"><a href="pmb65017.html" class="lk-author-link"><span class="lk-arrow">→</span>Giovanni Verga</a></div>
+               <div class="lk-tag">[I16]</div>
+            </div>
+         </main>
+         <div class="lk-colophon">
+            <div>
+               <h3>Edition</h3>
+               Aus der Mikroverfilmung der Lektüreliste, bearbeitet im Rahmen des Projekts
+               <i>Schnitzler-Lektüren</i> am Austrian Centre for Digital Humanities and
+               Cultural Heritage (ACDH-CH).
+               </div>
+            <div>
+               <h3>Weiterführend</h3><a href="about.html">Vorwort</a> ·
+               <a href="einleitung.html">Einleitung</a> ·
+               <a href="edition.html">Zur Edition</a> ·
+               <a href="literatur.html">Literatur</a></div>
+         </div><button class="lk-totop" id="lk-totop" aria-label="Nach oben">↑</button><div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
                   KONTAKT
@@ -257,6 +539,16 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
-   </body>
+         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div><script type="text/javascript">
+(function () {
+  var btn = document.getElementById('lk-totop');
+  if (!btn) return;
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('show', window.scrollY &gt; 600);
+  }, { passive: true });
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+                </script></body>
 </html>

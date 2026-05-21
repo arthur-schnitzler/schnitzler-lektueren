@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:mam="myOneAndOnly">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,7 +51,286 @@
                     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
                 })();</script><script src="js/entity-tabs.js" defer="defer"></script></head>
-   <body class="page">
+   <body class="page lektueren-edition">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&amp;display=swap" type="text/css" />
+      <style type="text/css">
+body.lektueren-edition {
+  --lk-ink:       #1a1814;
+  --lk-ink-soft:  #4a463f;
+  --lk-muted:     #8a8378;
+  --lk-rule:      #e6e1d6;
+  --lk-rule-soft: #f0ecdf;
+  --lk-accent:    #7d3325;
+  --lk-accent-soft: #9b5048;
+  --lk-editor:    #6b6359;
+  --lk-serif: "Source Serif 4", "EB Garamond", Georgia, serif;
+  --lk-sans:  "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
+  --lk-mono:  "Courier Prime", "Courier New", ui-monospace, monospace;
+}
+
+/* ---------- Alpha navigation bar ---------- */
+.lk-alpha-bar {
+  position: sticky;
+  top: 56px;
+  z-index: 1020;
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--lk-rule);
+}
+.lk-alpha-nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 48px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 0;
+  font-family: var(--lk-sans);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.lk-alpha-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 26px;
+  padding: 0 6px;
+  color: var(--lk-ink-soft);
+  border-right: 1px solid var(--lk-rule-soft);
+  text-decoration: none;
+}
+.lk-alpha-nav a:first-child { border-left: 1px solid var(--lk-rule-soft); }
+.lk-alpha-nav a.lk-empty { color: var(--lk-rule); pointer-events: none; }
+.lk-alpha-nav a:hover:not(.lk-empty) { color: var(--lk-accent); background: #f7f3e8; }
+
+/* ---------- Masthead ---------- */
+.lk-masthead {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 48px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: end;
+}
+.lk-eyebrow {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--lk-accent);
+  margin: 0 0 12px;
+}
+.lk-title {
+  font-family: var(--lk-serif);
+  font-weight: 500;
+  font-size: clamp(40px, 5.5vw, 84px);
+  line-height: 0.96;
+  letter-spacing: -0.018em;
+  margin: 0;
+  color: var(--lk-ink);
+}
+.lk-title em {
+  font-style: italic;
+  color: var(--lk-accent);
+  font-weight: 400;
+}
+.lk-meta-count {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  text-align: right;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.lk-num {
+  font-family: var(--lk-serif);
+  font-size: 52px;
+  color: var(--lk-accent);
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Index list ---------- */
+.lk-index {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 80px;
+}
+.lk-letter-anchor {
+  display: block;
+  position: relative;
+  height: 0;
+  scroll-margin-top: 130px;
+}
+
+/* ---------- Entry row ---------- */
+.lk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) 72px;
+  gap: 32px;
+  padding: 14px 0;
+  align-items: baseline;
+  border-top: 1px solid var(--lk-rule-soft);
+}
+.lk-row:first-of-type { border-top: none; }
+
+/* Edition text column */
+.lk-note {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--lk-ink);
+  hyphens: auto;
+  word-break: break-word;
+}
+.lk-note.handwritten {
+  font-family: var(--lk-serif);
+  font-size: 19px;
+  font-feature-settings: "onum" 1;
+}
+.lk-note.typewritten {
+  font-family: var(--lk-mono);
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+.lk-note s {
+  color: #b8b0a3;
+  text-decoration-thickness: 1px;
+}
+.lk-supplied { color: var(--lk-muted); }
+
+/* Authors column */
+.lk-authors {
+  font-family: var(--lk-sans);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 5px;
+}
+.lk-author-link {
+  color: var(--lk-editor);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  border-bottom: 1px solid transparent;
+  transition: color 120ms, border-color 120ms;
+  display: inline;
+  text-decoration: none;
+}
+.lk-author-link:hover {
+  color: var(--lk-accent);
+  border-bottom-color: var(--lk-accent);
+}
+.lk-arrow {
+  color: var(--lk-muted);
+  margin-right: 4px;
+  font-size: 13px;
+}
+.lk-author-link:hover .lk-arrow { color: var(--lk-accent); }
+.lk-meta-tag {
+  font-family: var(--lk-sans);
+  font-size: 11.5px;
+  color: var(--lk-muted);
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+}
+.lk-meta-tag.unident { color: var(--lk-accent-soft); }
+.lk-no-authors {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Tag column */
+.lk-tag {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--lk-accent);
+  text-align: right;
+  padding-top: 7px;
+  white-space: nowrap;
+}
+
+/* ---------- Colophon ---------- */
+.lk-colophon {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 48px 64px;
+  border-top: 1px solid var(--lk-rule);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  font-family: var(--lk-sans);
+  font-size: 13.5px;
+  color: var(--lk-muted);
+  line-height: 1.7;
+}
+.lk-colophon h3 {
+  font-family: var(--lk-sans);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--lk-ink);
+  margin: 0 0 12px;
+}
+.lk-colophon a { color: var(--lk-ink-soft); border-bottom: 1px solid var(--lk-rule); text-decoration: none; }
+.lk-colophon a:hover { color: var(--lk-accent); border-bottom-color: var(--lk-accent); }
+
+/* ---------- Back to top ---------- */
+.lk-totop {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--lk-ink);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-family: var(--lk-sans);
+  font-size: 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms;
+  z-index: 30;
+  border: none;
+  cursor: pointer;
+}
+.lk-totop.show { opacity: 1; pointer-events: auto; }
+.lk-totop:hover { background: var(--lk-accent); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .lk-alpha-nav, .lk-masthead, .lk-index, .lk-colophon { padding-left: 24px; padding-right: 24px; }
+  .lk-masthead { grid-template-columns: 1fr; gap: 20px; }
+  .lk-meta-count { text-align: left; }
+  .lk-row { grid-template-columns: 1fr 64px; row-gap: 6px; gap: 16px; padding: 18px 0; }
+  .lk-note { grid-column: 1; }
+  .lk-tag { grid-column: 2; grid-row: 1; padding-top: 7px; }
+  .lk-authors { grid-column: 1 / -1; padding-top: 0; }
+  .lk-colophon { grid-template-columns: 1fr; }
+}
+@media (max-width: 540px) {
+  .lk-note { font-size: 17px; }
+  .lk-note.handwritten { font-size: 18px; }
+}
+@media print {
+  .lk-alpha-bar, .lk-totop { display: none; }
+  .lk-row { break-inside: avoid; }
+}
+                </style>
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -81,315 +360,308 @@
                </div>
             </nav>
          </div>
-         <div class="container-fluid">
-            <div class="card" data-index="true">
-               <div class="card-body">
-                  
-                  
-                  <h1 class="edierterText">
-                     <span class="handschriftlich">Russland.</span>
-                     </h1>
-                  <div class="grid-container-element">
-                     
-                     <div class="grid-child-element edierterText" id="R1">
-                        
-                        <span class="handschriftlich">
-                           <u>Andrejew</u> ... d Gedanke /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb28321.html" id="pmb28321"><span style="font-variant: small-caps;"><b>[R1] </b>→Leonid Nikolaevič Andreev</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R2">
-                        
-                        <u>Baranzewitez</u> .... Sklavin /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65092.html" id="pmb65092"><span style="font-variant: small-caps;"><b>[R2] </b>→Kazimir Stanislavovič Barancevič</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R3">
-                        
-                        <span class="handschriftlich">
-                           <u>Bucharin.</u>
-                           </span>
-                        
-                        <span class="handschriftlich">Bolschewism. /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5564.html" id="pmb5564"><span style="font-variant: small-caps;"><b>[R3] </b>→Nikolaj Ivanovič Bucharin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R4">
-                        
-                        <u>Danilowski</u> ... Familienchronik</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65093.html" id="pmb65093"><span style="font-variant: small-caps;"><b>[R4] </b>→Grigorij Petrovič Danilevskij</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R5">
-                        
-                        <u>Dazenko</u> ... Unter der Erde / Jona</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb87895.html" id="pmb87895"><span style="font-variant: small-caps;"><b>[R5] </b>→Vasily Ivanovich Nemirovich-Danchenko</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R6">
-                        
-                        <u>Dostojewski</u> ... Raskolnikoff / Novellen / Nachwuchs /
-                        Aus dem toten Haus / Totes Herz / Doppelgänger / Idiot / Hahnrei / Spieler /
-                        Nettchen / Onkels Traum / Erniedrigte / Eifersüchtige / Krotkaja <span class="handschriftlich">/ Dumme Geschichte / Karamasow / 9 Briefe / j. Weib / Weiße Nächte / schwaches
-                           Herz / Dämonen /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4006.html" id="pmb4006"><span style="font-variant: small-caps;"><b>[R6] </b>→Fjodor M. Dostojevskij</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R7">
-                        
-                        <span class="handschriftlich">
-                           <u>Dymow</u>. Nju / Wlass /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6902.html" id="pmb6902"><span style="font-variant: small-caps;"><b>[R7] </b>→Ossip Dymow</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R8">
-                        
-                        <u>Gogol</u> ... Revisor / Tote Seelen / Mondnacht / Taras
-                        Bulba / <span class="handschriftlich">Heiratsgesch /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb17144.html" id="pmb17144"><span style="font-variant: small-caps;"><b>[R8] </b>→Nikolai W. Gogol</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R9">
-                        
-                        <u>Garschin</u> ... Novellen / Gon</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65095.html" id="pmb65095"><span style="font-variant: small-caps;"><b>[R9] </b>→Vsevolod Michajlovič Garšin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R10">
-                        
-                        <u>Gonscharow</u> ... Abgrund / Oblomow</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65096.html" id="pmb65096"><span style="font-variant: small-caps;"><b>[R10] </b>→Ivan Aleksandrovič Gončarov</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R11">
-                        
-                        <u>Gorki</u> ... Fama / Warenko / Bilger / Verlorene Leute /
-                        Aus Langeweile /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2323.html" id="pmb2323"><span style="font-variant: small-caps;"><b>[R11] </b>→Maxim Gorkij</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R12">
-                        
-                        <u>Herzen</u>... Wer ist schuld /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65097.html" id="pmb65097"><span style="font-variant: small-caps;"><b>[R12] </b>→Aleksandr Ivanovič Gercen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R13">
-                        
-                        <span class="handschriftlich">
-                           <u>Juschkewitsch</u> ein Judenstreich /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><b>[R13] </b> [Verwechslung]</div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R14">
-                        
-                        <u>Korolenko</u> ... Der blinde Musiker /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65098.html" id="pmb65098"><span style="font-variant: small-caps;"><b>[R14] </b>→Vladimir Galaktionovič Korolenko</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R15">
-                        
-                        <span class="handschriftlich">
-                           <u>Kuprin</u> ...</span>
-                        
-                        <span class="handschriftlich">Duell /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb19872.html" id="pmb19872"><span style="font-variant: small-caps;"><b>[R15] </b>→Alexander I. Kuprin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R16">
-                        
-                        <u>Lermontow</u> .... Held unserer Zeit</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65099.html" id="pmb65099"><span style="font-variant: small-caps;"><b>[R16] </b>→Michail Jur’evič Lermontov</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R17">
-                        
-                        <span class="handschriftlich">
-                           <u>Ljeskow</u> ...</span>
-                        
-                        <span class="handschriftlich">Toupetkünstler / Kosakenoffizier /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65100.html" id="pmb65100"><span style="font-variant: small-caps;"><b>[R17] </b>→Nikolaj Semënovič Leskov</span></a></div>
-                     
-                     <div class="grid-child-element edierterText"></div>
-                     <div class="grid-child-element herausgeberText weisserHintergrund"></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R18">
-                        
-                        <u>Markewicz</u> ... Olga /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65102.html" id="pmb65102"><span style="font-variant: small-caps;"><b>[R18] </b>→Boleslav Michajlovič Markevič</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R19">
-                        
-                        <u>Marlinski</u> ... Erzählungen /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65103.html" id="pmb65103"><span style="font-variant: small-caps;"><b>[R19] </b>→Alexander Alexandrowitsch Bestuschew</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R20">
-                        
-                        <u>Metscherski</u> ... Fr Petersburg / G.. / Gré
-                        Missverständnisse / Realisten / Kursistin / Lukarow /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65104.html" id="pmb65104"><span style="font-variant: small-caps;"><b>[R20] </b>→Vladimir Petrovič Meščerskij</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R21">
-                        
-                        <u>Michailow</u> ... Alte Nester /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65105.html" id="pmb65105"><span style="font-variant: small-caps;"><b>[R21] </b>→Aleksandr Konstantinovič Šeller-Michajlov</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R22">
-                        
-                        <u>Mikulicz</u> ... Mimi /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65106.html" id="pmb65106"><span style="font-variant: small-caps;"><b>[R22] </b>→V. Mikulič</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R23">
-                        
-                        <span class="handschriftlich">
-                           <u>Panin</u> Dunkle Stunde</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb22333.html" id="pmb22333"><span style="font-variant: small-caps;"><b>[R23] </b>→Victor Panin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R24">
-                        
-                        <u>Pisemski</u> ... Im Strudel / Tausend Seelen /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65107.html" id="pmb65107"><span style="font-variant: small-caps;"><b>[R24] </b>→Aleksej Feofilaktovič Pisemskij</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R25">
-                        
-                        <u>
-                           <span class="handschriftlich">P</span>otjechin</u> ... Schlinge</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65108.html" id="pmb65108"><span style="font-variant: small-caps;"><b>[R25] </b>→Nikolaj Antipovič Potechin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R26">
-                        
-                        <u>Puschkin</u> ...</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65109.html" id="pmb65109"><span style="font-variant: small-caps;"><b>[R26] </b>→Aleksandr Sergeevič Puškin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R27">
-                        
-                        <u>Sanjekowicz</u> ... Opfer /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65110.html" id="pmb65110"><span style="font-variant: small-caps;"><b>[R27] </b>→Konstantin Michajlovič Stanjukovič</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R28">
-                        
-                        <u>Sologu<span class="handschriftlich">b</span>
-                           </u> ... Vornehme Welt / Schatten /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65112.html" id="pmb65112"><span style="font-variant: small-caps;"><b>[R28] </b>→Vladimir Aleksandroviâ Sollogub</span></a></div>
-                     
-                     <div class="grid-child-element edierterText"></div>
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65111.html" id="pmb65111"><span style="font-variant: small-caps;"><b>[R28] </b>→Fjodor Sologub</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R29">
-                        
-                        <u>Tolstoi</u> ... <span class="handschriftlich">Nov / Ann Kar / Krieg u Fr
-                           / Lebenstufen</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3739.html" id="pmb3739"><span style="font-variant: small-caps;"><b>[R29] </b>→Leo N. von Tolstoi</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R30">
-                        
-                        <u>Tschechow</u> ... Dämmerung / Starjer Tabak / Ja die
-                        Frauenzimmer / Drei Schwestern / Möve / Schatten des Todes / Gottgefälliges Haus /
-                        <span class="handschriftlich">Kätzchen / Wanja / Liebe / Zweikampf /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3603.html" id="pmb3603"><span style="font-variant: small-caps;"><b>[R30] </b>→Anton Pavlovič Čechov</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R31">
-                        
-                        <u>Tscherniewski</u> ... <span class="handschriftlich">Was thun</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26220.html" id="pmb26220"><span style="font-variant: small-caps;"><b>[R31] </b>→Nikolaj Gavrilovič Černyševskij</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R32">
-                        
-                        <u>Turgeniew</u> ... Unglückliche / Erste Liebe / Ueberflüssige
-                        / Faust / Adeliges Nest / Neue Generation / Rauch <span class="herausgeberErgaenzung">[/]</span> Väter und
-                        Söhne / Punin / Lear / Frülingswogen / Lukeria / Raufbold / Milicz / Vison
-                        <span class="herausgeberErgaenzung">[/]</span> Patschu / Helene / Erinnerungen / Rudin / Begegnung / Mumu
-                        / Jäger / Geschicht. eines alten Manns</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26238.html" id="pmb26238"><span style="font-variant: small-caps;"><b>[R32] </b>→Ivan Sergeevič Turgenev</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R33">
-                        
-                        <del>
-                           <span class="handschriftlich">Weyssenhoff,</span>
-                           
-                           <span class="handschriftlich">Podfilipski</span>
-                           </del>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><b>[R33] </b> [Durchgestrichen; siehe P8]</div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="R34">
-                        
-                        <span class="handschriftlich">
-                           <u>Wereschagin</u> ...</span>
-                        
-                        <span class="handschriftlich">/ Jugender / Kriegser. /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26950.html" id="pmb26950"><span style="font-variant: small-caps;"><b>[R34] </b>→Vasilij Vasil’evič Vereščagin</span></a></div>
-                     </div>
-                  
-                  
-                  </div>
-            </div>
+         <div class="lk-alpha-bar">
+            <nav class="lk-alpha-nav" aria-label="Alphabetische Navigation"><a href="#letter-A">A</a><a href="#letter-B">B</a><a class="lk-empty">C</a><a href="#letter-D">D</a><a class="lk-empty">E</a><a class="lk-empty">F</a><a href="#letter-G">G</a><a href="#letter-H">H</a><a class="lk-empty">I</a><a href="#letter-J">J</a><a href="#letter-K">K</a><a href="#letter-L">L</a><a href="#letter-M">M</a><a class="lk-empty">N</a><a class="lk-empty">O</a><a href="#letter-P">P</a><a class="lk-empty">Q</a><a class="lk-empty">R</a><a href="#letter-S">S</a><a href="#letter-T">T</a><a class="lk-empty">U</a><a class="lk-empty">V</a><a href="#letter-W">W</a><a class="lk-empty">X</a><a class="lk-empty">Y</a><a class="lk-empty">Z</a></nav>
          </div>
-         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+         <div class="lk-masthead">
+            <div>
+               <p class="lk-eyebrow">Schnitzler-Lektüren · Leseliste</p>
+               <h1 class="lk-title"><em>Russland.</em></h1>
+            </div>
+            <div class="lk-meta-count"><span class="lk-num">34</span>
+               Einträge
+               </div>
+         </div>
+         <main class="lk-index" data-index="true"><span class="lk-letter-anchor" id="letter-A"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Andrejew</u> ... d Gedanke /
+                  </div>
+               <div class="lk-authors"><a href="pmb28321.html" class="lk-author-link"><span class="lk-arrow">→</span>Leonid Nikolaevič Andreev</a></div>
+               <div class="lk-tag">[R1]</div>
+            </div><span class="lk-letter-anchor" id="letter-B"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Baranzewitez</u> .... Sklavin /</div>
+               <div class="lk-authors"><a href="pmb65092.html" class="lk-author-link"><span class="lk-arrow">→</span>Kazimir Stanislavovič Barancevič</a></div>
+               <div class="lk-tag">[R2]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Bucharin.</u>
+                  
+                   
+                  Bolschewism. /
+                  </div>
+               <div class="lk-authors"><a href="pmb5564.html" class="lk-author-link"><span class="lk-arrow">→</span>Nikolaj Ivanovič Bucharin</a></div>
+               <div class="lk-tag">[R3]</div>
+            </div><span class="lk-letter-anchor" id="letter-D"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Danilowski</u> ... Familienchronik</div>
+               <div class="lk-authors"><a href="pmb65093.html" class="lk-author-link"><span class="lk-arrow">→</span>Grigorij Petrovič Danilevskij</a></div>
+               <div class="lk-tag">[R4]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Dazenko</u> ... Unter der Erde / Jona</div>
+               <div class="lk-authors"><a href="pmb87895.html" class="lk-author-link"><span class="lk-arrow">→</span>Vasily Ivanovich Nemirovich-Danchenko</a></div>
+               <div class="lk-tag">[R5]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>Dostojewski</u> ... Raskolnikoff / Novellen / Nachwuchs /
+                  Aus dem toten Haus / Totes Herz / Doppelgänger / Idiot / Hahnrei / Spieler /
+                  Nettchen / Onkels Traum / Erniedrigte / Eifersüchtige / Krotkaja / Dumme Geschichte / Karamasow / 9 Briefe / j. Weib / Weiße Nächte / schwaches
+                  Herz / Dämonen /
+                  </div>
+               <div class="lk-authors"><a href="pmb4006.html" class="lk-author-link"><span class="lk-arrow">→</span>Fjodor M. Dostojevskij</a></div>
+               <div class="lk-tag">[R6]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Dymow</u>. Nju / Wlass /
+                  </div>
+               <div class="lk-authors"><a href="pmb6902.html" class="lk-author-link"><span class="lk-arrow">→</span>Ossip Dymow</a></div>
+               <div class="lk-tag">[R7]</div>
+            </div><span class="lk-letter-anchor" id="letter-G"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>Gogol</u> ... Revisor / Tote Seelen / Mondnacht / Taras
+                  Bulba / Heiratsgesch /
+                  </div>
+               <div class="lk-authors"><a href="pmb17144.html" class="lk-author-link"><span class="lk-arrow">→</span>Nikolai W. Gogol</a></div>
+               <div class="lk-tag">[R8]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Garschin</u> ... Novellen / Gon</div>
+               <div class="lk-authors"><a href="pmb65095.html" class="lk-author-link"><span class="lk-arrow">→</span>Vsevolod Michajlovič Garšin</a></div>
+               <div class="lk-tag">[R9]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Gonscharow</u> ... Abgrund / Oblomow</div>
+               <div class="lk-authors"><a href="pmb65096.html" class="lk-author-link"><span class="lk-arrow">→</span>Ivan Aleksandrovič Gončarov</a></div>
+               <div class="lk-tag">[R10]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Gorki</u> ... Fama / Warenko / Bilger / Verlorene Leute /
+                  Aus Langeweile /</div>
+               <div class="lk-authors"><a href="pmb2323.html" class="lk-author-link"><span class="lk-arrow">→</span>Maxim Gorkij</a></div>
+               <div class="lk-tag">[R11]</div>
+            </div><span class="lk-letter-anchor" id="letter-H"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Herzen</u>... Wer ist schuld /</div>
+               <div class="lk-authors"><a href="pmb65097.html" class="lk-author-link"><span class="lk-arrow">→</span>Aleksandr Ivanovič Gercen</a></div>
+               <div class="lk-tag">[R12]</div>
+            </div><span class="lk-letter-anchor" id="letter-J"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Juschkewitsch</u> ein Judenstreich /
+                  </div>
+               <div class="lk-authors"><span class="lk-no-authors">— Verwechslung</span></div>
+               <div class="lk-tag">[R13]</div>
+            </div><span class="lk-letter-anchor" id="letter-K"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Korolenko</u> ... Der blinde Musiker /</div>
+               <div class="lk-authors"><a href="pmb65098.html" class="lk-author-link"><span class="lk-arrow">→</span>Vladimir Galaktionovič Korolenko</a></div>
+               <div class="lk-tag">[R14]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Kuprin</u> ...
+                   
+                  Duell /
+                  </div>
+               <div class="lk-authors"><a href="pmb19872.html" class="lk-author-link"><span class="lk-arrow">→</span>Alexander I. Kuprin</a></div>
+               <div class="lk-tag">[R15]</div>
+            </div><span class="lk-letter-anchor" id="letter-L"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Lermontow</u> .... Held unserer Zeit</div>
+               <div class="lk-authors"><a href="pmb65099.html" class="lk-author-link"><span class="lk-arrow">→</span>Michail Jur’evič Lermontov</a></div>
+               <div class="lk-tag">[R16]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Ljeskow</u> ...
+                   
+                  Toupetkünstler / Kosakenoffizier /
+                  </div>
+               <div class="lk-authors"><a href="pmb65100.html" class="lk-author-link"><span class="lk-arrow">→</span>Nikolaj Semënovič Leskov</a></div>
+               <div class="lk-tag">[R17]</div>
+            </div><span class="lk-letter-anchor" id="letter-M"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Markewicz</u> ... Olga /</div>
+               <div class="lk-authors"><a href="pmb65102.html" class="lk-author-link"><span class="lk-arrow">→</span>Boleslav Michajlovič Markevič</a></div>
+               <div class="lk-tag">[R18]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Marlinski</u> ... Erzählungen /</div>
+               <div class="lk-authors"><a href="pmb65103.html" class="lk-author-link"><span class="lk-arrow">→</span>Alexander Alexandrowitsch Bestuschew</a></div>
+               <div class="lk-tag">[R19]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Metscherski</u> ... Fr Petersburg / G.. / Gré
+                  Missverständnisse / Realisten / Kursistin / Lukarow /</div>
+               <div class="lk-authors"><a href="pmb65104.html" class="lk-author-link"><span class="lk-arrow">→</span>Vladimir Petrovič Meščerskij</a></div>
+               <div class="lk-tag">[R20]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Michailow</u> ... Alte Nester /</div>
+               <div class="lk-authors"><a href="pmb65105.html" class="lk-author-link"><span class="lk-arrow">→</span>Aleksandr Konstantinovič Šeller-Michajlov</a></div>
+               <div class="lk-tag">[R21]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Mikulicz</u> ... Mimi /</div>
+               <div class="lk-authors"><a href="pmb65106.html" class="lk-author-link"><span class="lk-arrow">→</span>V. Mikulič</a></div>
+               <div class="lk-tag">[R22]</div>
+            </div><span class="lk-letter-anchor" id="letter-P"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Panin</u> Dunkle Stunde
+                  </div>
+               <div class="lk-authors"><a href="pmb22333.html" class="lk-author-link"><span class="lk-arrow">→</span>Victor Panin</a></div>
+               <div class="lk-tag">[R23]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Pisemski</u> ... Im Strudel / Tausend Seelen /</div>
+               <div class="lk-authors"><a href="pmb65107.html" class="lk-author-link"><span class="lk-arrow">→</span>Aleksej Feofilaktovič Pisemskij</a></div>
+               <div class="lk-tag">[R24]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>
+                     Potjechin</u> ... Schlinge</div>
+               <div class="lk-authors"><a href="pmb65108.html" class="lk-author-link"><span class="lk-arrow">→</span>Nikolaj Antipovič Potechin</a></div>
+               <div class="lk-tag">[R25]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Puschkin</u> ...</div>
+               <div class="lk-authors"><a href="pmb65109.html" class="lk-author-link"><span class="lk-arrow">→</span>Aleksandr Sergeevič Puškin</a></div>
+               <div class="lk-tag">[R26]</div>
+            </div><span class="lk-letter-anchor" id="letter-S"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Sanjekowicz</u> ... Opfer /</div>
+               <div class="lk-authors"><a href="pmb65110.html" class="lk-author-link"><span class="lk-arrow">→</span>Konstantin Michajlovič Stanjukovič</a></div>
+               <div class="lk-tag">[R27]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>Sologub
+                     </u> ... Vornehme Welt / Schatten /</div>
+               <div class="lk-authors"><a href="pmb65112.html" class="lk-author-link"><span class="lk-arrow">→</span>Vladimir Aleksandroviâ Sollogub</a><a href="pmb65111.html" class="lk-author-link"><span class="lk-arrow">→</span>Fjodor Sologub</a></div>
+               <div class="lk-tag">[R28]</div>
+            </div><span class="lk-letter-anchor" id="letter-T"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>Tolstoi</u> ... Nov / Ann Kar / Krieg u Fr
+                  / Lebenstufen
+                  </div>
+               <div class="lk-authors"><a href="pmb3739.html" class="lk-author-link"><span class="lk-arrow">→</span>Leo N. von Tolstoi</a></div>
+               <div class="lk-tag">[R29]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>Tschechow</u> ... Dämmerung / Starjer Tabak / Ja die
+                  Frauenzimmer / Drei Schwestern / Möve / Schatten des Todes / Gottgefälliges Haus /
+                  Kätzchen / Wanja / Liebe / Zweikampf /
+                  </div>
+               <div class="lk-authors"><a href="pmb3603.html" class="lk-author-link"><span class="lk-arrow">→</span>Anton Pavlovič Čechov</a></div>
+               <div class="lk-tag">[R30]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>Tscherniewski</u> ... Was thun
+                  </div>
+               <div class="lk-authors"><a href="pmb26220.html" class="lk-author-link"><span class="lk-arrow">→</span>Nikolaj Gavrilovič Černyševskij</a></div>
+               <div class="lk-tag">[R31]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Turgeniew</u> ... Unglückliche / Erste Liebe / Ueberflüssige
+                  / Faust / Adeliges Nest / Neue Generation / Rauch <span class="lk-supplied">[/]</span> Väter und
+                  Söhne / Punin / Lear / Frülingswogen / Lukeria / Raufbold / Milicz / Vison
+                  <span class="lk-supplied">[/]</span> Patschu / Helene / Erinnerungen / Rudin / Begegnung / Mumu
+                  / Jäger / Geschicht. eines alten Manns</div>
+               <div class="lk-authors"><a href="pmb26238.html" class="lk-author-link"><span class="lk-arrow">→</span>Ivan Sergeevič Turgenev</a></div>
+               <div class="lk-tag">[R32]</div>
+            </div><span class="lk-letter-anchor" id="letter-W"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <s>
+                     Weyssenhoff,
+                      
+                     Podfilipski
+                     </s>
+                  </div>
+               <div class="lk-authors"><span class="lk-no-authors">— Durchgestrichen; siehe P8</span></div>
+               <div class="lk-tag">[R33]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Wereschagin</u> ...
+                   
+                  / Jugender / Kriegser. /
+                  </div>
+               <div class="lk-authors"><a href="pmb26950.html" class="lk-author-link"><span class="lk-arrow">→</span>Vasilij Vasil’evič Vereščagin</a></div>
+               <div class="lk-tag">[R34]</div>
+            </div>
+         </main>
+         <div class="lk-colophon">
+            <div>
+               <h3>Edition</h3>
+               Aus der Mikroverfilmung der Lektüreliste, bearbeitet im Rahmen des Projekts
+               <i>Schnitzler-Lektüren</i> am Austrian Centre for Digital Humanities and
+               Cultural Heritage (ACDH-CH).
+               </div>
+            <div>
+               <h3>Weiterführend</h3><a href="about.html">Vorwort</a> ·
+               <a href="einleitung.html">Einleitung</a> ·
+               <a href="edition.html">Zur Edition</a> ·
+               <a href="literatur.html">Literatur</a></div>
+         </div><button class="lk-totop" id="lk-totop" aria-label="Nach oben">↑</button><div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
                   KONTAKT
@@ -449,6 +721,16 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
-   </body>
+         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div><script type="text/javascript">
+(function () {
+  var btn = document.getElementById('lk-totop');
+  if (!btn) return;
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('show', window.scrollY &gt; 600);
+  }, { passive: true });
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+                </script></body>
 </html>

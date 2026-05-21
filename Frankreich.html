@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:mam="myOneAndOnly">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,7 +51,286 @@
                     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
                 })();</script><script src="js/entity-tabs.js" defer="defer"></script></head>
-   <body class="page">
+   <body class="page lektueren-edition">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&amp;display=swap" type="text/css" />
+      <style type="text/css">
+body.lektueren-edition {
+  --lk-ink:       #1a1814;
+  --lk-ink-soft:  #4a463f;
+  --lk-muted:     #8a8378;
+  --lk-rule:      #e6e1d6;
+  --lk-rule-soft: #f0ecdf;
+  --lk-accent:    #7d3325;
+  --lk-accent-soft: #9b5048;
+  --lk-editor:    #6b6359;
+  --lk-serif: "Source Serif 4", "EB Garamond", Georgia, serif;
+  --lk-sans:  "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
+  --lk-mono:  "Courier Prime", "Courier New", ui-monospace, monospace;
+}
+
+/* ---------- Alpha navigation bar ---------- */
+.lk-alpha-bar {
+  position: sticky;
+  top: 56px;
+  z-index: 1020;
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--lk-rule);
+}
+.lk-alpha-nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 48px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 0;
+  font-family: var(--lk-sans);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.lk-alpha-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 26px;
+  padding: 0 6px;
+  color: var(--lk-ink-soft);
+  border-right: 1px solid var(--lk-rule-soft);
+  text-decoration: none;
+}
+.lk-alpha-nav a:first-child { border-left: 1px solid var(--lk-rule-soft); }
+.lk-alpha-nav a.lk-empty { color: var(--lk-rule); pointer-events: none; }
+.lk-alpha-nav a:hover:not(.lk-empty) { color: var(--lk-accent); background: #f7f3e8; }
+
+/* ---------- Masthead ---------- */
+.lk-masthead {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 48px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: end;
+}
+.lk-eyebrow {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--lk-accent);
+  margin: 0 0 12px;
+}
+.lk-title {
+  font-family: var(--lk-serif);
+  font-weight: 500;
+  font-size: clamp(40px, 5.5vw, 84px);
+  line-height: 0.96;
+  letter-spacing: -0.018em;
+  margin: 0;
+  color: var(--lk-ink);
+}
+.lk-title em {
+  font-style: italic;
+  color: var(--lk-accent);
+  font-weight: 400;
+}
+.lk-meta-count {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  text-align: right;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.lk-num {
+  font-family: var(--lk-serif);
+  font-size: 52px;
+  color: var(--lk-accent);
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Index list ---------- */
+.lk-index {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 80px;
+}
+.lk-letter-anchor {
+  display: block;
+  position: relative;
+  height: 0;
+  scroll-margin-top: 130px;
+}
+
+/* ---------- Entry row ---------- */
+.lk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) 72px;
+  gap: 32px;
+  padding: 14px 0;
+  align-items: baseline;
+  border-top: 1px solid var(--lk-rule-soft);
+}
+.lk-row:first-of-type { border-top: none; }
+
+/* Edition text column */
+.lk-note {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--lk-ink);
+  hyphens: auto;
+  word-break: break-word;
+}
+.lk-note.handwritten {
+  font-family: var(--lk-serif);
+  font-size: 19px;
+  font-feature-settings: "onum" 1;
+}
+.lk-note.typewritten {
+  font-family: var(--lk-mono);
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+.lk-note s {
+  color: #b8b0a3;
+  text-decoration-thickness: 1px;
+}
+.lk-supplied { color: var(--lk-muted); }
+
+/* Authors column */
+.lk-authors {
+  font-family: var(--lk-sans);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 5px;
+}
+.lk-author-link {
+  color: var(--lk-editor);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  border-bottom: 1px solid transparent;
+  transition: color 120ms, border-color 120ms;
+  display: inline;
+  text-decoration: none;
+}
+.lk-author-link:hover {
+  color: var(--lk-accent);
+  border-bottom-color: var(--lk-accent);
+}
+.lk-arrow {
+  color: var(--lk-muted);
+  margin-right: 4px;
+  font-size: 13px;
+}
+.lk-author-link:hover .lk-arrow { color: var(--lk-accent); }
+.lk-meta-tag {
+  font-family: var(--lk-sans);
+  font-size: 11.5px;
+  color: var(--lk-muted);
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+}
+.lk-meta-tag.unident { color: var(--lk-accent-soft); }
+.lk-no-authors {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Tag column */
+.lk-tag {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--lk-accent);
+  text-align: right;
+  padding-top: 7px;
+  white-space: nowrap;
+}
+
+/* ---------- Colophon ---------- */
+.lk-colophon {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 48px 64px;
+  border-top: 1px solid var(--lk-rule);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  font-family: var(--lk-sans);
+  font-size: 13.5px;
+  color: var(--lk-muted);
+  line-height: 1.7;
+}
+.lk-colophon h3 {
+  font-family: var(--lk-sans);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--lk-ink);
+  margin: 0 0 12px;
+}
+.lk-colophon a { color: var(--lk-ink-soft); border-bottom: 1px solid var(--lk-rule); text-decoration: none; }
+.lk-colophon a:hover { color: var(--lk-accent); border-bottom-color: var(--lk-accent); }
+
+/* ---------- Back to top ---------- */
+.lk-totop {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--lk-ink);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-family: var(--lk-sans);
+  font-size: 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms;
+  z-index: 30;
+  border: none;
+  cursor: pointer;
+}
+.lk-totop.show { opacity: 1; pointer-events: auto; }
+.lk-totop:hover { background: var(--lk-accent); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .lk-alpha-nav, .lk-masthead, .lk-index, .lk-colophon { padding-left: 24px; padding-right: 24px; }
+  .lk-masthead { grid-template-columns: 1fr; gap: 20px; }
+  .lk-meta-count { text-align: left; }
+  .lk-row { grid-template-columns: 1fr 64px; row-gap: 6px; gap: 16px; padding: 18px 0; }
+  .lk-note { grid-column: 1; }
+  .lk-tag { grid-column: 2; grid-row: 1; padding-top: 7px; }
+  .lk-authors { grid-column: 1 / -1; padding-top: 0; }
+  .lk-colophon { grid-template-columns: 1fr; }
+}
+@media (max-width: 540px) {
+  .lk-note { font-size: 17px; }
+  .lk-note.handwritten { font-size: 18px; }
+}
+@media print {
+  .lk-alpha-bar, .lk-totop { display: none; }
+  .lk-row { break-inside: avoid; }
+}
+                </style>
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -81,1417 +360,1392 @@
                </div>
             </nav>
          </div>
-         <div class="container-fluid">
-            <div class="card" data-index="true">
-               <div class="card-body">
-                  
-                  
-                  
-                  <h1 class="edierterText">
-                     <span class="handschriftlich">Frankreich.</span>
-                     </h1>
-                  <div class="grid-container-element">
-                     
-                     <div class="grid-child-element edierterText" id="F1">
-                        
-                        <u>About</u> ... Pariser Ehen / Mann mit dem ab. Ohr /L
-                        infame.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64926.html" id="pmb64926"><span style="font-variant: small-caps;"><b>[F1] </b>→Edmond About</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F2">
-                        
-                        <u>Augier</u> ....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2815.html" id="pmb2815"><span style="font-variant: small-caps;"><b>[F2] </b>→Émile Augier</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F3">
-                        
-                        <u>Ba<span class="handschriftlich">lz</span>a<span class="handschriftlich">c</span>
-                           </u> ... Femme de trente / Paz / Ballsp. Katze / Blutrache / Mundtot / Chabert /
-                        Honorine / Peau -- Illusion / Pysid. den mariage / Père Goriot / Fausse Maitresse
-                        / Etude de f. / Paix de m. <span class="herausgeberErgaenzung">[/]</span> Double famille / Grandet / Med.
-                        de Camp. / Biroteau / Vielle fille / Cousine Bet. / Lettre à l’étr. / <span class="handschriftlich">Lys dans le vallée (dtsch)</span>
-                        
-                        <span class="handschriftlich">/ Pamela Giraud / Glanz u. Elend der Curtis /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb10825.html" id="pmb10825"><span style="font-variant: small-caps;"><b>[F3] </b>→Honoré de Balzac</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F4">
-                        
-                        <span class="handschriftlich">Barbusse.</span>
-                        
-                        <span class="handschriftlich">l’enfer /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6109.html" id="pmb6109"><span style="font-variant: small-caps;"><b>[F4] </b>→Henri Barbusse</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F5">
-                        Barbey ..... Bague /
-                        Diaboliques</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4266.html" id="pmb4266"><span style="font-variant: small-caps;"><b>[F5] </b>→Jules-Amédée Barbey d’Aurevilly</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F6">
-                        Barès .... Homme libre / <span class="handschriftlich">J</span>ardin de Ber<span class="handschriftlich">en</span> /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3892.html" id="pmb3892"><span style="font-variant: small-caps;"><b>[F6] </b>→Maurice Barrès</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F7">
-                        Baskirtscheff .... Lettre /
-                        Journal</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb13797.html" id="pmb13797"><span style="font-variant: small-caps;"><b>[F7] </b>→Marie Bashkirtseff</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F8">
-                        Beaumarchais ...</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb10857.html" id="pmb10857"><span style="font-variant: small-caps;"><b>[F8] </b>→Pierre Augustin Caron de Beaumarchais</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F9">
-                        
-                        <span class="handschriftlich">
-                           <u>Beauchemont</u> - Mem.</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64929.html" id="pmb64929"><span style="font-variant: small-caps;"><b>[F9] </b>→Louis Petit de Bachaumont</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F10">
-                        Becque ....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb13897.html" id="pmb13897"><span style="font-variant: small-caps;"><b>[F10] </b>→Henri Becque</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F11">
-                        Belot ... Article <span class="handschriftlich">47</span> / Mund der Frau X / Blutweib</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb14752.html" id="pmb14752"><span style="font-variant: small-caps;"><b>[F11] </b>→Adolphe Bélot</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F12">
-                        Bentzon .... Mariage de Jaques</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64930.html" id="pmb64930"><span style="font-variant: small-caps;"><b>[F12] </b>→Thérèse Bentzon</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F13">
-                        
-                        <span class="handschriftlich">
-                           <u>Bernstein,</u> Felix</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3663.html" id="pmb3663"><span style="font-variant: small-caps;"><b>[F13] </b>→Henri Léon Bernstein</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F14">
-                        
-                        <span class="handschriftlich">Bergson Lachen /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6257.html" id="pmb6257"><span style="font-variant: small-caps;"><b>[F14] </b>→Henri Bergson</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F15">
-                        
-                        <span class="handschriftlich">
-                           <u>Tr. Bernard</u> - jeune homme rangé / Mari pacif. /
-                           amants et voleur / Mathilde / Jeanne Doré /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb10893.html" id="pmb10893"><span style="font-variant: small-caps;"><b>[F15] </b>→Tristan Bernard</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F16">
-                        
-                        <span class="handschriftlich">
-                           <u>Berlioz</u>. Erinnerungen /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6263.html" id="pmb6263"><span style="font-variant: small-caps;"><b>[F16] </b>→Hector Berlioz</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F17">
-                        
-                        <span class="handschriftlich">
-                           <u>Berton</u>. Rencontre /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6284.html" id="pmb6284"><span style="font-variant: small-caps;"><b>[F17] </b>→Pierre Berton</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F18">
-                        Bonetain .... Charlot / au large
-                        /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64931.html" id="pmb64931"><span style="font-variant: small-caps;"><b>[F18] </b>→Paul Bonetain</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F19">
-                        Bo<span class="handschriftlich">u</span>rget -
-                        .... Mensonge / Cornelis / Disciple / pastels / irreparable / crime d’amour /
-                        cruel enigme / physil. de l’amour moderne, coeur de femme / ess. de Psych. cont. /
-                        <span class="handschriftlich">le tribun /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4026.html" id="pmb4026"><span style="font-variant: small-caps;"><b>[F19] </b>→Paul Bourget</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F20">
-                        Baucage / Perle</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64932.html" id="pmb64932"><span style="font-variant: small-caps;"><b>[F20] </b>→Henri Bocage</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F21">
-                        Brentome …. Vie des dames galantes
-                        /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb14487.html" id="pmb14487"><span style="font-variant: small-caps;"><b>[F21] </b>→Pierre Bourdeille de Brantôme</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F22">
-                        Brieux .... Menage d’artiste / <span class="handschriftlich">Susette /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4791.html" id="pmb4791"><span style="font-variant: small-caps;"><b>[F22] </b>→Eugène Brieux</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F23">
-                        Cadole .... la chère madame /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2560.html" id="pmb2560"><span style="font-variant: small-caps;"><b>[F23] </b>→Victor Édouard Cadol</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F24">
-                        Chavette .... Erbe des
-                        Schmarotzers / Lilly /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64933.html" id="pmb64933"><span style="font-variant: small-caps;"><b>[F24] </b>→Eugène Vachette</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F25">
-                        
-                        <span class="handschriftlich">Chodl. Lian. d</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb20018.html" id="pmb20018"><span style="font-variant: small-caps;"><b>[F25] </b>→Pierre Choderlos de Laclos</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F26">
-                        Cherbulie<span class="handschriftlich">z</span>
-                        .... Bolski /, Teterol / S. Brohl / Isabella / Kostia / Les fiancés de M. /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64934.html" id="pmb64934"><span style="font-variant: small-caps;"><b>[F26] </b>→Victor Charles Cherbuliez</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F27">
-                        
-                        <span class="handschriftlich">Claudel ..Tausch /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6660.html" id="pmb6660"><span style="font-variant: small-caps;"><b>[F27] </b>→Paul Claudel</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F28">
-                        Clare<span class="handschriftlich">t</span>ie
-                        ... Herr Minister / Kandidat / Zilah / Maitresse</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2500.html" id="pmb2500"><span style="font-variant: small-caps;"><b>[F28] </b>→Jules Claretie</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F29">
-                        Constant Adolf .....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb15088.html" id="pmb15088"><span style="font-variant: small-caps;"><b>[F29] </b>→Benjamin Constant</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F30">
-                        Confession d’une rep<span class="handschriftlich">e</span>ntie</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64935.html" id="pmb64935"><span style="font-variant: small-caps;"><b>[F30] </b>→Georges-Clément Lechartier</span></a></div>
-                     
-                     <div class="grid-child-element edierterText"></div>
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64936.html" id="pmb64936"><span style="font-variant: small-caps;"><b>[F30] </b>→Olivier de Tréville</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F31">
-                        
-                        <span class="handschriftlich">Coolus .. Une fémme passa /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb15094.html" id="pmb15094"><span style="font-variant: small-caps;"><b>[F31] </b>→Romain Coolus</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F32">
-                        
-                        <span class="handschriftlich">
-                           <u>Colett</u>
-                           </span>
-                        
-                        <span class="handschriftlich">Mitsu</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb15054.html" id="pmb15054"><span style="font-variant: small-caps;"><b>[F32] </b>→Sidonie-Gabrielle Colette</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F33">
-                        Coppeé Henriette ./.. Comtes rap.
-                        / Contes en prose</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64937.html" id="pmb64937"><span style="font-variant: small-caps;"><b>[F33] </b>→François Coppée</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F34">
-                        
-                        <span class="handschriftlich">
-                           <u>Cremy</u> Memoiren /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb21505.html" id="pmb21505"><span style="font-variant: small-caps;"><b>[F34] </b>→Anne d' Aubourg de La Bove Miremont</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F35">
-                        Curel .... L’amour brode</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb15170.html" id="pmb15170"><span style="font-variant: small-caps;"><b>[F35] </b>→François de Curel</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F36">
-                        
-                        <span class="handschriftlich">Courteline -.. train 47 / Madeleine / Boubaouroche /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4865.html" id="pmb4865"><span style="font-variant: small-caps;"><b>[F36] </b>→Georges Courteline</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F37">
-                        Daudet ..... Jaques / Frommont /
-                        Tartarin / Dingsda / Künstlerehen / Montagsgesch. / Sap<span class="handschriftlich">p</span>ho
-                        /Immortelle Rois en exile é</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11134.html" id="pmb11134"><span style="font-variant: small-caps;"><b>[F37] </b>→Alphonse Daudet</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F38">
-                        Delpi ....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64938.html" id="pmb64938"><span style="font-variant: small-caps;"><b>[F38] </b>→Albert Delpit</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F39">
-                        Destouche -</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64939.html" id="pmb64939"><span style="font-variant: small-caps;"><b>[F39] </b>→Philippe Néricault Destouches</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F40">
-                        Diderot <span class="handschriftlich">Relig /
-                           Jacques / etc.</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11157.html" id="pmb11157"><span style="font-variant: small-caps;"><b>[F40] </b>→Denis Diderot</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F41">
-                        Droze .... Monsieur madame BB.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64940.html" id="pmb64940"><span style="font-variant: small-caps;"><b>[F41] </b>→Gustave Droz</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F42">
-                        Dumas père .... Mus<span class="handschriftlich">c</span>et<span class="handschriftlich">aire</span> / Monte Christo / <span class="handschriftlich">Mem. /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11190.html" id="pmb11190"><span style="font-variant: small-caps;"><b>[F42] </b>→Alexandre père Dumas</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F43">
-                        Dumas fils .....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb15512.html" id="pmb15512"><span style="font-variant: small-caps;"><b>[F43] </b>→Alexandre fils Dumas</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F44">
-                        Duruy ...... Fin du reve</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64941.html" id="pmb64941"><span style="font-variant: small-caps;"><b>[F44] </b>→George Duruy</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F45">
-                        Duval .... le premier amant é /
-                        Rabastin</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6892.html" id="pmb6892"><span style="font-variant: small-caps;"><b>[F45] </b>→Georges Duval</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F46">
-                        
-                        <span class="handschriftlich">
-                           <u>Duvern</u> Mort la bête, u. a. -</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6895.html" id="pmb6895"><span style="font-variant: small-caps;"><b>[F46] </b>→Henri Duvernois</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F47">
-                        
-                        <span class="handschriftlich">
-                           <u>Farrèr</u> ... Civilisés / Lox / L’homme qui assassina
-                           /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11297.html" id="pmb11297"><span style="font-variant: small-caps;"><b>[F47] </b>→Claude Farrère</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F48">
-                         Feydeau ... Chalis / Fanni /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64942.html" id="pmb64942"><span style="font-variant: small-caps;"><b>[F48] </b>→Ernest-Aymé Feydeau</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F49">
-                         Feullet ..... Liebschaften
-                        Philipps / Camorse /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11315.html" id="pmb11315"><span style="font-variant: small-caps;"><b>[F49] </b>→Octave Feuillet</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F50">
-                         Flaubert ..... Bauvary / Salambo
-                        / Lettre Sand <span class="herausgeberErgaenzung">[/]</span> Correspond. / Trois Contes <span class="handschriftlich">/ Educ. sent /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11330.html" id="pmb11330"><span style="font-variant: small-caps;"><b>[F50] </b>→Gustave Flaubert</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F51">
-                        
-                        <span class="handschriftlich">
-                           <u>Fleg</u> ... message / l’enf. prophète</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb7170.html" id="pmb7170"><span style="font-variant: small-caps;"><b>[F51] </b>→Edmond Fleg</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F52">
-                         France ..... Bonart / Orme /
-                        Roman com. / lys rouge <span class="handschriftlich">/ lendemain ami / mannequin d’osier /
-                           Thaïs / piere blanche /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4279.html" id="pmb4279"><span style="font-variant: small-caps;"><b>[F52] </b>→Anatole France</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F53">
-                        
-                        <span class="handschriftlich">Fromentin ... Dominik</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb7279.html" id="pmb7279"><span style="font-variant: small-caps;"><b>[F53] </b>→Eugène Fromentin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F54">
-                        
-                        <span class="handschriftlich">
-                           <u>Flers</u> .. Pape / Buridan</span> /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11337.html" id="pmb11337"><span style="font-variant: small-caps;"><b>[F54] </b>→Robert de Flers</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F55">
-                        
-                        <span class="handschriftlich">
-                           <u>Fronday</u> .. Montmartre /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb16737.html" id="pmb16737"><span style="font-variant: small-caps;"><b>[F55] </b>→Pierre Frondaie</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F56">
-                        Gautier .... Avatar / Fortulio /
-                        Mademoiselle Maupin</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64943.html" id="pmb64943"><span style="font-variant: small-caps;"><b>[F56] </b>→Théophile Gautier</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F57">
-                        Gabor<span class="handschriftlich">iau</span> ..
-                        Das rote Tuch / Fasc. 113</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64944.html" id="pmb64944"><span style="font-variant: small-caps;"><b>[F57] </b>→Émile Gaboriau</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F58">
-                        
-                        <span class="handschriftlich">
-                           <u>Gasquet</u>
-                           </span>. <span class="handschriftlich">Il ya une volupté d. l. doul.</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb7350.html" id="pmb7350"><span style="font-variant: small-caps;"><b>[F58] </b>→Joachim Gasquet</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F59">
-                        Girardin ..</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb17053.html" id="pmb17053"><span style="font-variant: small-caps;"><b>[F59] </b>→Delphine Girardin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F60">
-                        
-                        <span class="handschriftlich">Gogh,</span>
-                        
-                        <span class="handschriftlich">Briefe</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11464.html" id="pmb11464"><span style="font-variant: small-caps;"><b>[F60] </b>→Vincent van Gogh</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F61">
-                        
-                        <span class="handschriftlich">Giraudoux Suzanne, Simon, le lim</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb7417.html" id="pmb7417"><span style="font-variant: small-caps;"><b>[F61] </b>→Jean Giraudoux</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F62">
-                        Goncourt .... Meperin / <span class="handschriftlich">La</span>certeux / Journale / Cherie <span class="herausgeberErgaenzung">[/]</span> Fille
-                        Elisa / Nan. Salomon /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><b>[F62]<br /></b><ul class="arrow">
-                           <li><a href="pmb11500.html" id="pmb11500"><span style="font-variant: small-caps;">Edmond Huot de Goncourt</span></a></li>
-                           <li><a href="pmb2925.html" id="pmb2925"><span style="font-variant: small-caps;">Jules Huot de Goncourt</span></a></li>
-                        </ul>
-                     </div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F63">
-                        Greville / Dosia</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64945.html" id="pmb64945"><span style="font-variant: small-caps;"><b>[F63] </b>→Henry Gréville</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F64">
-                        Gramon<span class="handschriftlich">t</span>
-                        .... Memoire<span class="handschriftlich">s</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64946.html" id="pmb64946"><span style="font-variant: small-caps;"><b>[F64] </b>→Ferdinand de Comte</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F65">
-                        Giullemot ... Lettres a un
-                        amant</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64947.html" id="pmb64947"><span style="font-variant: small-caps;"><b>[F65] </b>→Maurice Guillemot</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F66">
-                        G<span class="handschriftlich">y</span>p. ...
-                        Lulu / Pauvre petite femme / aux hais les Phych <span class="herausgeberErgaenzung">[/]</span> auto<span class="handschriftlich">u</span>r du mariage</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb21501.html" id="pmb21501"><span style="font-variant: small-caps;"><b>[F66] </b>→Sibylle de Mirabeau</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F67">
-                        
-                        <span class="handschriftlich">Gourmont Sixtina /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64948.html" id="pmb64948"><span style="font-variant: small-caps;"><b>[F67] </b>→Remy de Gourmont</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F68">
-                        Hal<span class="handschriftlich">e</span>vy
-                        ..... Monsieur et Madame Cardinal</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4197.html" id="pmb4197"><span style="font-variant: small-caps;"><b>[F68] </b>→Ludovic Halévy</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F69">
-                        Halleys ..... Beaumarchais</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64949.html" id="pmb64949"><span style="font-variant: small-caps;"><b>[F69] </b>→Léon Halévy</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F70">
-                        Hennique .... Esther Brandes</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64950.html" id="pmb64950"><span style="font-variant: small-caps;"><b>[F70] </b>→Léon Hennique</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F71">
-                        Her<span class="handschriftlich">v</span>ieu
-                        ..... Flirt / peinte<span class="handschriftlich">s</span> par eux / <span class="handschriftlich">Armature
-                           / dédale /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb18201.html" id="pmb18201"><span style="font-variant: small-caps;"><b>[F71] </b>→Paul Ernest Hervieu</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F72">
-                        
-                        <span class="handschriftlich">Hermant .. transatlantique / Char d l’etat / trains lu /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11657.html" id="pmb11657"><span style="font-variant: small-caps;"><b>[F72] </b>→Abel Hermant</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F73">
-                        Hessem .... Oeuvre de la chaire
-                        /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64951.html" id="pmb64951"><span style="font-variant: small-caps;"><b>[F73] </b>→Louis de Hessem</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F74">
-                        Hugo .... Nôtre dame / König
-                        amüsiert sich / Hernany</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5359.html" id="pmb5359"><span style="font-variant: small-caps;"><b>[F74] </b>→Victor Hugo</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F75">
-                        
-                        <span class="handschriftlich">
-                           <u>Houssaye</u> 1814 / 1815 / Louis <u>XVI</u> /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb18586.html" id="pmb18586"><span style="font-variant: small-caps;"><b>[F75] </b>→Henry Houssaye</span></a></div>
-                     
-                     <div class="grid-child-element edierterText"></div>
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64952.html" id="pmb64952"><span style="font-variant: small-caps;"><b>[F75] </b>→Arsène Houssaye</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F76">
-                        H<span class="handschriftlich">uy</span>smens
-                        .... on menage / à rebours</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64953.html" id="pmb64953"><span style="font-variant: small-caps;"><b>[F76] </b>→Joris-Karl Huysmans</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F77">
-                        
-                        <span class="handschriftlich">Janin.</span>
-                        
-                        <span class="handschriftlich">Contes /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64954.html" id="pmb64954"><span style="font-variant: small-caps;"><b>[F77] </b>→Jules Gabriel Janin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F78">
-                        
-                        <span class="handschriftlich">
-                           <u>Istrati</u>
-                           </span>
-                        
-                        <span class="handschriftlich">Kiralina</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64955.html" id="pmb64955"><span style="font-variant: small-caps;"><b>[F78] </b>→Panaït Istrati</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F79">
-                        Karr .... Plus ça change</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64956.html" id="pmb64956"><span style="font-variant: small-caps;"><b>[F79] </b>→Alphonse Karr</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F80">
-                        
-                        <span class="handschriftlich">
-                           <u>Kessel</u>
-                           </span>
-                        
-                        <span class="handschriftlich">Equipage</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64957.html" id="pmb64957"><span style="font-variant: small-caps;"><b>[F80] </b>→Joseph Kessel</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F81">
-                        
-                        <span class="handschriftlich">
-                           <u>Kistemaekers</u> ... Occident / nuit est à nous</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb19365.html" id="pmb19365"><span style="font-variant: small-caps;"><b>[F81] </b>→Henry Kistemaekers</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F82">
-                        Laforest ..... Contes por
-                        beigneuse / Gaga</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64958.html" id="pmb64958"><span style="font-variant: small-caps;"><b>[F82] </b>→Jean-Louis Dubut de Laforest</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F83">
-                        Lamartine .... Raphael <span class="handschriftlich">/ Souvenirs /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8436.html" id="pmb8436"><span style="font-variant: small-caps;"><b>[F83] </b>→Alphonse de Lamartine</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F84">
-                        Laved<span class="handschriftlich">a</span>n
-                        .... Nocturne / le lit <span class="handschriftlich">/ Grands heures /</span> [durchgestrichen]
-                        <span class="handschriftlich">/ Gout de vice /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2488.html" id="pmb2488"><span style="font-variant: small-caps;"><b>[F84] </b>→Henri Léon Lavedan</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F85">
-                        Lachau<span class="handschriftlich">d</span>
-                        ..... Cabotinage</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64959.html" id="pmb64959"><span style="font-variant: small-caps;"><b>[F85] </b>→Georges Lachaud</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F86">
-                        Leclerke .... Les claireux</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64960.html" id="pmb64960"><span style="font-variant: small-caps;"><b>[F86] </b>→Théodore Leclercq</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F87">
-                        
-                        <span class="handschriftlich">Lenotre .. Revolutions / Guill / Vielles maisons /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3176.html" id="pmb3176"><span style="font-variant: small-caps;"><b>[F87] </b>→G. Lenotre</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F88">
-                        Lesage ..... Hinkender Teufel <span class="handschriftlich">/ Diable boit / Gil blas /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb20342.html" id="pmb20342"><span style="font-variant: small-caps;"><b>[F88] </b>→Alain René Lesage</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F89">
-                        
-                        <span class="handschriftlich">
-                           <u>Leroux</u>. Phant.</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64961.html" id="pmb64961"><span style="font-variant: small-caps;"><b>[F89] </b>→Gaston Leroux</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F90">
-                        Leroi ..... Lauriane.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64962.html" id="pmb64962"><span style="font-variant: small-caps;"><b>[F90] </b>→Louis Leroy</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F91">
-                        Lesclite .... Femme impossible</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64963.html" id="pmb64963"><span style="font-variant: small-caps;"><b>[F91] </b>→Richard Lesclide</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F92">
-                        Le Grand .. homme de quarante
-                        ans</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64965.html" id="pmb64965"><span style="font-variant: small-caps;"><b>[F92] </b>→Christophe Barthélemy Fagan</span></a><br />[Verwechslung mit <span class="autorname">Jacques Le Grand</span> (Pseudonym von Richard Lesclide)]</div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F93">
-                        Lesieur .... Nevrosé / vie
-                        tragique</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64966.html" id="pmb64966"><span style="font-variant: small-caps;"><b>[F93] </b>→Jeanne Lapauze</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F94">
-                        Loti ..... Paicheur D Island</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12114.html" id="pmb12114"><span style="font-variant: small-caps;"><b>[F94] </b>→Pierre Loti</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F95">
-                        Louise .... Aphrodite</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8719.html" id="pmb8719"><span style="font-variant: small-caps;"><b>[F95] </b>→Pierre Louis Louÿs</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F96">
-                        
-                        <span class="handschriftlich">Ligne. /</span>
-                        
-                        <span class="handschriftlich">Erinnerungen /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8642.html" id="pmb8642"><span style="font-variant: small-caps;"><b>[F96] </b>→Charles Joseph von Ligne</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F97">
-                        Maeterlink</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12156.html" id="pmb12156"><span style="font-variant: small-caps;"><b>[F97] </b>→Maurice Maeterlinck</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F98">
-                        Malot .... Cara / Bacara /
-                        Tubernin / amour de Jaques</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64967.html" id="pmb64967"><span style="font-variant: small-caps;"><b>[F98] </b>→Hector Henri Malot</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F99">
-                        Marmontelle ..... Contes
-                        moraux.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64968.html" id="pmb64968"><span style="font-variant: small-caps;"><b>[F99] </b>→Jean-François Marmontel</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F100">
-                         Margérite .... Amant.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64969.html" id="pmb64969"><span style="font-variant: small-caps;"><b>[F100] </b>→Paul Margueritte</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F101">
-                         Martelle ... Mins aux dames</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64970.html" id="pmb64970"><span style="font-variant: small-caps;"><b>[F101] </b>→Tancrède Martel</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F102">
-                         Marnit</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5459.html" id="pmb5459"><span style="font-variant: small-caps;"><b>[F102] </b>→Jeanne Marni</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F103">
-                         Masgaroi .... Amour défendue </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64971.html" id="pmb64971"><span style="font-variant: small-caps;"><b>[F103] </b>→Pierre Wolff</span></a><br />[Verwechslung?]</div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F104">
-                         Marbot.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3445.html" id="pmb3445"><span style="font-variant: small-caps;"><b>[F104] </b>→Marcellin Marbot</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F105">
-                         Matthey</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64972.html" id="pmb64972"><span style="font-variant: small-caps;"><b>[F105] </b>→Maja Matthey</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F106">
-                         Mariveau</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12187.html" id="pmb12187"><span style="font-variant: small-caps;"><b>[F106] </b>→Pierre Carlet de Marivaux</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F107">
-                         Maupassant .... Mo<span class="handschriftlich">n</span>t <span class="handschriftlich">O</span>riol / Horla / Pierre et Jean /
-                        Bel ami / la petite roque / Heritage. / une vie / Main gauche / fort comme la mort
-                        / <span class="handschriftlich">T</span>ellier / Rondoli <span class="herausgeberErgaenzung">[/]</span> Paix de menage.
-                        / In. beauté / Contes du jour et de la nuit / Père Milon / Nôtre coeur / <span class="handschriftlich">m</span> parent <span class="handschriftlich">/ Colporteur /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12201.html" id="pmb12201"><span style="font-variant: small-caps;"><b>[F107] </b>→Guy de Maupassant</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F108">
-                         Mendes ..... jupe courte /
-                        monstre paris. souper des pl. <span class="herausgeberErgaenzung">[/]</span> cruel berceau / rom. rouge /
-                        pour lire au couvent <span class="herausgeberErgaenzung">[/]</span> feuille d enverte / premiere maitresse
-                        / oiseau bleu / jeune fille / l’art d’aimer</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb21317.html" id="pmb21317"><span style="font-variant: small-caps;"><b>[F108] </b>→Catulle Mendès</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F109">
-                        
-                        <span class="handschriftlich">
-                           <u>Mere</u>,</span>
-                        
-                        <span class="handschriftlich">danse de minuit</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64973.html" id="pmb64973"><span style="font-variant: small-caps;"><b>[F109] </b>→Charles Méré</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F110">
-                         Merouvel .... Lyses aux
-                        ruisseau</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64974.html" id="pmb64974"><span style="font-variant: small-caps;"><b>[F110] </b>→Charles Mérouvel</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F111">
-                         Metellier. l’envie / la chaire
-                        /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5125.html" id="pmb5125"><span style="font-variant: small-caps;"><b>[F111] </b>→Oscar Méténier</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F112">
-                         Murabeau Lettres a Sophie</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb21497.html" id="pmb21497"><span style="font-variant: small-caps;"><b>[F112] </b>→Honoré Gabriel de Mirabeau</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F113">
-                         Michelier</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64975.html" id="pmb64975"><span style="font-variant: small-caps;"><b>[F113] </b>→Jules Michelet</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F114">
-                         Mirbeau ... Calvaire / femme de
-                        chambre</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8948.html" id="pmb8948"><span style="font-variant: small-caps;"><b>[F114] </b>→Octave Mirbeau</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F115">
-                         Moliere</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3272.html" id="pmb3272"><span style="font-variant: small-caps;"><b>[F115] </b>→Jean-Baptiste Molière</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F116">
-                         Montepin ... Sünderinnen</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64976.html" id="pmb64976"><span style="font-variant: small-caps;"><b>[F116] </b>→Xavier-Aymon, Comte de Montépin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F117">
-                         Monroi ... le paicher capital /
-                        homme vari -</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64977.html" id="pmb64977"><span style="font-variant: small-caps;"><b>[F117] </b>→Richard O’Monroy</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F118">
-                         Musset .... Zwisch. Tür und
-                        Angel / Launen einer Frau <span class="herausgeberErgaenzung">[/]</span> Caprices / Confession / Contes /
-                        Nouvelles / Lorenzagio</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12311.html" id="pmb12311"><span style="font-variant: small-caps;"><b>[F118] </b>→Alfred de Musset</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F119">
-                         Musset Paule .... Alfred de
-                        Musset</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64978.html" id="pmb64978"><span style="font-variant: small-caps;"><b>[F119] </b>→Paul Edme de Musset</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F120">
-                         Murget ... Zigeunerleben</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8987.html" id="pmb8987"><span style="font-variant: small-caps;"><b>[F120] </b>→Henri Murger</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F121">
-                         Nerval</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64979.html" id="pmb64979"><span style="font-variant: small-caps;"><b>[F121] </b>→Gérard de Nerval</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F122">
-                         Nizet .... Sugestion</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64980.html" id="pmb64980"><span style="font-variant: small-caps;"><b>[F122] </b>→Henri Nizet</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F123">
-                         Nodier ...
-                        Jugenderinnerungen</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64981.html" id="pmb64981"><span style="font-variant: small-caps;"><b>[F123] </b>→Jean Charles Emmanuel Nodier</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F124">
-                         Nozoff .... Russie galante</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64982.html" id="pmb64982"><span style="font-variant: small-caps;"><b>[F124] </b>→Serge Nossoff</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F125">
-                         Peladan .... Gynandre</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64983.html" id="pmb64983"><span style="font-variant: small-caps;"><b>[F125] </b>→Joséphin Péladan</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F126">
-                         Perret ... Droite à l’amour</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64984.html" id="pmb64984"><span style="font-variant: small-caps;"><b>[F126] </b>→Paul Perret</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F127">
-                        
-                        <span class="handschriftlich">Philippe ...</span>
-                        
-                        <span class="handschriftlich">Mère et enfant / Bubu / Croquignole / petite ville /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5604.html" id="pmb5604"><span style="font-variant: small-caps;"><b>[F127] </b>→Charles-Louis Philippe</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F128">
-                         Pigault lebrun .... enfant den
-                        Carneval. / Angelique</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64985.html" id="pmb64985"><span style="font-variant: small-caps;"><b>[F128] </b>→Charles-Antoine-Guillaume Pigault de l’Épinoy Pigault-Lebrun</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F129">
-                         Pairebrune .... Jean <span class="handschriftlich">B</span>ernard</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64986.html" id="pmb64986"><span style="font-variant: small-caps;"><b>[F129] </b>→Georges de Peyrebrune</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F130">
-                         Prevost .... Manon</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4112.html" id="pmb4112"><span style="font-variant: small-caps;"><b>[F130] </b>→Antoine-François Prévost</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F131">
-                         Provin ... Lettres d’hommes /
-                        Pasionette <span class="handschriftlich">/ dial. d’am / cromme elle nous prennent /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb22901.html" id="pmb22901"><span style="font-variant: small-caps;"><b>[F131] </b>→Michel Provins</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F132">
-                        
-                        <span class="handschriftlich">
-                           <u>Portoriche</u>
-                           </span>
-                        
-                        <span class="handschriftlich">...</span>
-                        
-                        <span class="handschriftlich">Amoureuse / Le vieil homme /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb22824.html" id="pmb22824"><span style="font-variant: small-caps;"><b>[F132] </b>→Georges de Porto-Riche</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F133">
-                        
-                        <span class="handschriftlich">
-                           <u>Pontaille</u>
-                           </span>
-                        
-                        <span class="handschriftlich">l’infanterie de la peau</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64987.html" id="pmb64987"><span style="font-variant: small-caps;"><b>[F133] </b>→Édouard Pontal</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F134">
-                        
-                        <span class="handschriftlich">Rabelais Gargantua</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64988.html" id="pmb64988"><span style="font-variant: small-caps;"><b>[F134] </b>→François Rabelais</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F135">
-                         Rabusson .... L’épusée</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64989.html" id="pmb64989"><span style="font-variant: small-caps;"><b>[F135] </b>→Henry Rabusson</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F136">
-                         Rachil<span class="handschriftlich">de</span>
-                        ... Theater</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64990.html" id="pmb64990"><span style="font-variant: small-caps;"><b>[F136] </b>→Rachilde</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F137">
-                        
-                        <span class="handschriftlich">
-                           <u>Radiguet</u> Diable</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb22991.html" id="pmb22991"><span style="font-variant: small-caps;"><b>[F137] </b>→Raymond Radiguet</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F138">
-                         Regaier .... bon plaisir <span class="handschriftlich">/ double maitresse / peur de l’amour</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12591.html" id="pmb12591"><span style="font-variant: small-caps;"><b>[F138] </b>→Henri de Régnier</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F139">
-                         Raignault ... Umkehr</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb23149.html" id="pmb23149"><span style="font-variant: small-caps;"><b>[F139] </b>→Hippolyte François Regnier-Destourbet</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F140">
-                        
-                        <span class="handschriftlich">
-                           <u>Renard</u> Crimes.</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4460.html" id="pmb4460"><span style="font-variant: small-caps;"><b>[F140] </b>→Jules Renard</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F141">
-                         Renan <span class="handschriftlich">/
-                           ....</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb9484.html" id="pmb9484"><span style="font-variant: small-caps;"><b>[F141] </b>→Ernest Renan</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F142">
-                         Resti<span class="handschriftlich">f</span>e
-                        ..</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3978.html" id="pmb3978"><span style="font-variant: small-caps;"><b>[F142] </b>→Nicolas Rétif de la Bretonne</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F143">
-                        
-                        <span class="handschriftlich">
-                           <u>Retz</u> Mem /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb9500.html" id="pmb9500"><span style="font-variant: small-caps;"><b>[F143] </b>→Jean François Paul de Retz</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F144">
-                         Ricard .... secret de femme</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64991.html" id="pmb64991"><span style="font-variant: small-caps;"><b>[F144] </b>→Jules Ricard</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F145">
-                         Richepin .... Mad. Vogelleim /
-                        mort bizard </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64992.html" id="pmb64992"><span style="font-variant: small-caps;"><b>[F145] </b>→Jean Richepin</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F146">
-                         Rousseau ....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12582.html" id="pmb12582"><span style="font-variant: small-caps;"><b>[F146] </b>→Jean-Jacques Rousseau</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F147">
-                         Rod .... Leilof / femme de Henri
-                        Vanneau / les trois coeurs <span class="herausgeberErgaenzung">[/]</span>
-                        <del>Stend<span class="handschriftlich">h</span>al</del>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64993.html" id="pmb64993"><span style="font-variant: small-caps;"><b>[F147] </b>→Édouard Rod</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F148">
-                        
-                        <span class="handschriftlich">Rolland ...</span>
-                        
-                        <span class="handschriftlich">Jean Cristophe / -</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12543.html" id="pmb12543"><span style="font-variant: small-caps;"><b>[F148] </b>→Romain Rolland</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F149">
-                        
-                        <span class="handschriftlich">J</span>
-                        
-                        <span class="handschriftlich">
-                           <u>Romains</u>,</span>
-                        
-                        <span class="handschriftlich">mort de quelqu’un</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb9562.html" id="pmb9562"><span style="font-variant: small-caps;"><b>[F149] </b>→Jules Romains</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F150">
-                        
-                        <span class="handschriftlich">
-                           <u>Rotschild</u>
-                           </span>
-                        
-                        <span class="handschriftlich">le ravage /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb9596.html" id="pmb9596"><span style="font-variant: small-caps;"><b>[F150] </b>→Henri de Rothschild</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F151">
-                         Sand ..... Indiana / Lavinia /
-                        Paula / Cora / des Hauses Dämon <span class="handschriftlich">/ Claudia / Lettres Musset in 4
-                           Bdn /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb9643.html" id="pmb9643"><span style="font-variant: small-caps;"><b>[F151] </b>→George Sand</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F152">
-                         Saturnin .... P<span class="handschriftlich">o</span>rtier de Chartreuse</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64994.html" id="pmb64994"><span style="font-variant: small-caps;"><b>[F152] </b>→Jean-Charles Gervaise de Latouche</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F153">
-                         Sardou</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12624.html" id="pmb12624"><span style="font-variant: small-caps;"><b>[F153] </b>→Victorien Sardou</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F154">
-                         Scaron .... Roman comique</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64995.html" id="pmb64995"><span style="font-variant: small-caps;"><b>[F154] </b>→Paul Scarron</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F155">
-                         Scholl .... Peines den coeur /
-                        Liebhaber seiner Frau</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64996.html" id="pmb64996"><span style="font-variant: small-caps;"><b>[F155] </b>→Aurélien Scholl</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F156">
-                        
-                        <span class="handschriftlich">Scheffer ..</span>
-                        
-                        <span class="handschriftlich">frissonannte</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb24079.html" id="pmb24079"><span style="font-variant: small-caps;"><b>[F156] </b>→Robert Scheffer</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F157">
-                         Sylvester .... Propos Grivois /
-                        Hist. inconv. <span class="herausgeberErgaenzung">[/]</span> histoure joieuse / trente farce / hist.
-                        Follâtre</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64997.html" id="pmb64997"><span style="font-variant: small-caps;"><b>[F157] </b>→Armand Silvestre</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F158">
-                         Scribe</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12756.html" id="pmb12756"><span style="font-variant: small-caps;"><b>[F158] </b>→Eugène Scribe</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F159">
-                        
-                        <span class="handschriftlich">Ségur,</span>
-                        
-                        <span class="handschriftlich">l’anneau charnel</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb63295.html" id="pmb63295"><span style="font-variant: small-caps;"><b>[F159] </b>→Nicolas Ségur</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F160">
-                         Stendhal .... Liebe / Rouge et
-                        noir / Broulard / Egotisme / Chartreuse <span class="handschriftlich">/ Armance /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb28820.html" id="pmb28820"><span style="font-variant: small-caps;"><b>[F160] </b>→Stendhal</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F161">
-                         Souvestre .... Philosoph / am
-                        Kamin</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64998.html" id="pmb64998"><span style="font-variant: small-caps;"><b>[F161] </b>→Émile Souvestre</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F162">
-                         Sue ..... der ewige jude </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb10134.html" id="pmb10134"><span style="font-variant: small-caps;"><b>[F162] </b>→Eugène Sue</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F163">
-                        
-                        <u>Taine</u> ....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12913.html" id="pmb12913"><span style="font-variant: small-caps;"><b>[F163] </b>→Hippolyte Taine</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F164">
-                        
-                        <u>Talma</u> .... Memoiren</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb64999.html" id="pmb64999"><span style="font-variant: small-caps;"><b>[F164] </b>→François-Joseph Talma</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F165">
-                        
-                        <u>Theur<span class="handschriftlich">i</span>eut</u> .... Scene de la vie
-                        intime / Paradise d’enfant</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65000.html" id="pmb65000"><span style="font-variant: small-caps;"><b>[F165] </b>→Claude Adhémar André Theuriet</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F166">
-                        
-                        <u>Tillier</u> .... Onkel Benjamin</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2717.html" id="pmb2717"><span style="font-variant: small-caps;"><b>[F166] </b>→Claude Tillier</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F167">
-                        
-                        <span class="handschriftlich">
-                           <u>Tynaire</u>. mais. de peche /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26069.html" id="pmb26069"><span style="font-variant: small-caps;"><b>[F167] </b>→Marcelle Tinayre</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F168">
-                        
-                        <u>Ulbach</u> .... Fernelle</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65001.html" id="pmb65001"><span style="font-variant: small-caps;"><b>[F168] </b>→Louis Ulbach</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F169">
-                         Valdaigne .... amour du proch<span class="handschriftlich">ain</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65002.html" id="pmb65002"><span style="font-variant: small-caps;"><b>[F169] </b>→Charles Lucien Louis</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F170">
-                         Vastricouard .... Vielle garde /
-                        Vierge</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><b>[F170]<br /></b><ul class="arrow">
-                           <li><a href="pmb65003.html" id="pmb65003"><span style="font-variant: small-caps;">Raoul Vast</span></a></li>
-                           <li><a href="pmb65004.html" id="pmb65004"><span style="font-variant: small-caps;">Gustave Ricouard</span></a></li>
-                        </ul>
-                     </div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F171">
-                         Valmaître .... Paris impure</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65005.html" id="pmb65005"><span style="font-variant: small-caps;"><b>[F171] </b>→Charles VirmaÎTre</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F172">
-                        
-                        <span class="handschriftlich">
-                           <u>Vanderem</u> Victime /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26399.html" id="pmb26399"><span style="font-variant: small-caps;"><b>[F172] </b>→Fernand Vandérem</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F173">
-                         Veber .... L’aventure</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26421.html" id="pmb26421"><span style="font-variant: small-caps;"><b>[F173] </b>→Pierre Veber</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F174">
-                         Verne. Reise um die Erde /
-                        20,000 Meilen / Hataras Ochs / Mittelpunkt der Erde, Courier des <span class="handschriftlich">Z</span>aren <span class="herausgeberErgaenzung">[/]</span> zum Mond /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb10344.html" id="pmb10344"><span style="font-variant: small-caps;"><b>[F174] </b>→Jules Verne</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F175">
-                        
-                        <span class="handschriftlich">
-                           <u>Vautel</u> Mon curé ch</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26419.html" id="pmb26419"><span style="font-variant: small-caps;"><b>[F175] </b>→Clément Vautel</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F176">
-                         Vigny ... Grandeur </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb26468.html" id="pmb26468"><span style="font-variant: small-caps;"><b>[F176] </b>→Alfred-Victor de Vigny</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F177">
-                         Villmot .... P<span class="handschriftlich">e</span>tise de coeur.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65006.html" id="pmb65006"><span style="font-variant: small-caps;"><b>[F177] </b>→Émile Villemot</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F178">
-                         Villiers .... Contes cru<span class="handschriftlich">e</span>ls.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65007.html" id="pmb65007"><span style="font-variant: small-caps;"><b>[F178] </b>→Philippe-Auguste, Comte de Villiers de l’Isle-Adam</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F179">
-                         Voltaire</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb3124.html" id="pmb3124"><span style="font-variant: small-caps;"><b>[F179] </b>→François-Marie Voltaire</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F180">
-                        
-                        <span class="handschriftlich">
-                           <u>Vildrac</u>
-                           </span>
-                        
-                        <span class="handschriftlich">le pegase</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb10367.html" id="pmb10367"><span style="font-variant: small-caps;"><b>[F180] </b>→Charles Vildrac</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F181">
-                        
-                        <span class="handschriftlich">Xannof. -</span>
-                        
-                        <span class="handschriftlich">pour rire</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb27405.html" id="pmb27405"><span style="font-variant: small-caps;"><b>[F181] </b>→Léon Xanrof</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="F182">
-                         Zola ... Erzählungen an Ninon /
-                        moralische Nov <span class="herausgeberErgaenzung">[/]</span> realistische Novellen / Glüch der R. M. /
-                        Halali <span class="herausgeberErgaenzung">[/]</span> Bauch von Paris / Einnahme von Plassants / Erde /
-                        oeuvre / Germinal / Nana / Assomoi / Ra<span class="handschriftlich">qu</span>in / Nentasse /
-                        Mad. <span class="handschriftlich">J</span>era<span class="handschriftlich">t</span> / Bête humaine /
-                        coquville / joie de vivre / Mouret</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb13194.html" id="pmb13194"><span style="font-variant: small-caps;"><b>[F182] </b>→Émile Zola</span></a></div>
-                     </div>
-                  
-                  </div>
-            </div>
+         <div class="lk-alpha-bar">
+            <nav class="lk-alpha-nav" aria-label="Alphabetische Navigation"><a href="#letter-A">A</a><a href="#letter-B">B</a><a href="#letter-C">C</a><a href="#letter-D">D</a><a class="lk-empty">E</a><a href="#letter-F">F</a><a href="#letter-G">G</a><a href="#letter-H">H</a><a href="#letter-I">I</a><a href="#letter-J">J</a><a href="#letter-K">K</a><a href="#letter-L">L</a><a href="#letter-M">M</a><a href="#letter-N">N</a><a class="lk-empty">O</a><a href="#letter-P">P</a><a class="lk-empty">Q</a><a href="#letter-R">R</a><a href="#letter-S">S</a><a href="#letter-T">T</a><a href="#letter-U">U</a><a href="#letter-V">V</a><a class="lk-empty">W</a><a href="#letter-X">X</a><a class="lk-empty">Y</a><a href="#letter-Z">Z</a></nav>
          </div>
-         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+         <div class="lk-masthead">
+            <div>
+               <p class="lk-eyebrow">Schnitzler-Lektüren · Leseliste</p>
+               <h1 class="lk-title"><em>Frankreich.</em></h1>
+            </div>
+            <div class="lk-meta-count"><span class="lk-num">182</span>
+               Einträge
+               </div>
+         </div>
+         <main class="lk-index" data-index="true"><span class="lk-letter-anchor" id="letter-A"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>About</u> ... Pariser Ehen / Mann mit dem ab. Ohr /L
+                  infame.</div>
+               <div class="lk-authors"><a href="pmb64926.html" class="lk-author-link"><span class="lk-arrow">→</span>Edmond About</a></div>
+               <div class="lk-tag">[F1]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Augier</u> ....</div>
+               <div class="lk-authors"><a href="pmb2815.html" class="lk-author-link"><span class="lk-arrow">→</span>Émile Augier</a></div>
+               <div class="lk-tag">[F2]</div>
+            </div><span class="lk-letter-anchor" id="letter-B"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>Balzac
+                     </u> ... Femme de trente / Paz / Ballsp. Katze / Blutrache / Mundtot / Chabert /
+                  Honorine / Peau -- Illusion / Pysid. den mariage / Père Goriot / Fausse Maitresse
+                  / Etude de f. / Paix de m. <span class="lk-supplied">[/]</span> Double famille / Grandet / Med.
+                  de Camp. / Biroteau / Vielle fille / Cousine Bet. / Lettre à l’étr. / Lys dans le vallée (dtsch)
+                   
+                  / Pamela Giraud / Glanz u. Elend der Curtis /
+                  </div>
+               <div class="lk-authors"><a href="pmb10825.html" class="lk-author-link"><span class="lk-arrow">→</span>Honoré de Balzac</a></div>
+               <div class="lk-tag">[F3]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Barbusse.
+                   
+                  l’enfer /
+                  </div>
+               <div class="lk-authors"><a href="pmb6109.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Barbusse</a></div>
+               <div class="lk-tag">[F4]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Barbey ..... Bague /
+                  Diaboliques</div>
+               <div class="lk-authors"><a href="pmb4266.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules-Amédée Barbey d’Aurevilly</a></div>
+               <div class="lk-tag">[F5]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Barès .... Homme libre / Jardin de Beren /</div>
+               <div class="lk-authors"><a href="pmb3892.html" class="lk-author-link"><span class="lk-arrow">→</span>Maurice Barrès</a></div>
+               <div class="lk-tag">[F6]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Baskirtscheff .... Lettre /
+                  Journal</div>
+               <div class="lk-authors"><a href="pmb13797.html" class="lk-author-link"><span class="lk-arrow">→</span>Marie Bashkirtseff</a></div>
+               <div class="lk-tag">[F7]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Beaumarchais ...</div>
+               <div class="lk-authors"><a href="pmb10857.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Augustin Caron de Beaumarchais</a></div>
+               <div class="lk-tag">[F8]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Beauchemont</u> - Mem.
+                  </div>
+               <div class="lk-authors"><a href="pmb64929.html" class="lk-author-link"><span class="lk-arrow">→</span>Louis Petit de Bachaumont</a></div>
+               <div class="lk-tag">[F9]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Becque ....</div>
+               <div class="lk-authors"><a href="pmb13897.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Becque</a></div>
+               <div class="lk-tag">[F10]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Belot ... Article 47 / Mund der Frau X / Blutweib</div>
+               <div class="lk-authors"><a href="pmb14752.html" class="lk-author-link"><span class="lk-arrow">→</span>Adolphe Bélot</a></div>
+               <div class="lk-tag">[F11]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Bentzon .... Mariage de Jaques</div>
+               <div class="lk-authors"><a href="pmb64930.html" class="lk-author-link"><span class="lk-arrow">→</span>Thérèse Bentzon</a></div>
+               <div class="lk-tag">[F12]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Bernstein,</u> Felix
+                  </div>
+               <div class="lk-authors"><a href="pmb3663.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Léon Bernstein</a></div>
+               <div class="lk-tag">[F13]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Bergson Lachen /
+                  </div>
+               <div class="lk-authors"><a href="pmb6257.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Bergson</a></div>
+               <div class="lk-tag">[F14]</div>
+            </div><span class="lk-letter-anchor" id="letter-T"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Tr. Bernard</u> - jeune homme rangé / Mari pacif. /
+                  amants et voleur / Mathilde / Jeanne Doré /
+                  </div>
+               <div class="lk-authors"><a href="pmb10893.html" class="lk-author-link"><span class="lk-arrow">→</span>Tristan Bernard</a></div>
+               <div class="lk-tag">[F15]</div>
+            </div><span class="lk-letter-anchor" id="letter-B"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Berlioz</u>. Erinnerungen /
+                  </div>
+               <div class="lk-authors"><a href="pmb6263.html" class="lk-author-link"><span class="lk-arrow">→</span>Hector Berlioz</a></div>
+               <div class="lk-tag">[F16]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Berton</u>. Rencontre /
+                  </div>
+               <div class="lk-authors"><a href="pmb6284.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Berton</a></div>
+               <div class="lk-tag">[F17]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Bonetain .... Charlot / au large
+                  /</div>
+               <div class="lk-authors"><a href="pmb64931.html" class="lk-author-link"><span class="lk-arrow">→</span>Paul Bonetain</a></div>
+               <div class="lk-tag">[F18]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Bourget -
+                  .... Mensonge / Cornelis / Disciple / pastels / irreparable / crime d’amour /
+                  cruel enigme / physil. de l’amour moderne, coeur de femme / ess. de Psych. cont. /
+                  le tribun /
+                  </div>
+               <div class="lk-authors"><a href="pmb4026.html" class="lk-author-link"><span class="lk-arrow">→</span>Paul Bourget</a></div>
+               <div class="lk-tag">[F19]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Baucage / Perle</div>
+               <div class="lk-authors"><a href="pmb64932.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Bocage</a></div>
+               <div class="lk-tag">[F20]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Brentome …. Vie des dames galantes
+                  /</div>
+               <div class="lk-authors"><a href="pmb14487.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Bourdeille de Brantôme</a></div>
+               <div class="lk-tag">[F21]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Brieux .... Menage d’artiste / Susette /
+                  </div>
+               <div class="lk-authors"><a href="pmb4791.html" class="lk-author-link"><span class="lk-arrow">→</span>Eugène Brieux</a></div>
+               <div class="lk-tag">[F22]</div>
+            </div><span class="lk-letter-anchor" id="letter-C"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Cadole .... la chère madame /</div>
+               <div class="lk-authors"><a href="pmb2560.html" class="lk-author-link"><span class="lk-arrow">→</span>Victor Édouard Cadol</a></div>
+               <div class="lk-tag">[F23]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Chavette .... Erbe des
+                  Schmarotzers / Lilly /</div>
+               <div class="lk-authors"><a href="pmb64933.html" class="lk-author-link"><span class="lk-arrow">→</span>Eugène Vachette</a></div>
+               <div class="lk-tag">[F24]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Chodl. Lian. d
+                  </div>
+               <div class="lk-authors"><a href="pmb20018.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Choderlos de Laclos</a></div>
+               <div class="lk-tag">[F25]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Cherbuliez
+                  .... Bolski /, Teterol / S. Brohl / Isabella / Kostia / Les fiancés de M. /</div>
+               <div class="lk-authors"><a href="pmb64934.html" class="lk-author-link"><span class="lk-arrow">→</span>Victor Charles Cherbuliez</a></div>
+               <div class="lk-tag">[F26]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Claudel ..Tausch /
+                  </div>
+               <div class="lk-authors"><a href="pmb6660.html" class="lk-author-link"><span class="lk-arrow">→</span>Paul Claudel</a></div>
+               <div class="lk-tag">[F27]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Claretie
+                  ... Herr Minister / Kandidat / Zilah / Maitresse</div>
+               <div class="lk-authors"><a href="pmb2500.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules Claretie</a></div>
+               <div class="lk-tag">[F28]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Constant Adolf .....</div>
+               <div class="lk-authors"><a href="pmb15088.html" class="lk-author-link"><span class="lk-arrow">→</span>Benjamin Constant</a></div>
+               <div class="lk-tag">[F29]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Confession d’une repentie</div>
+               <div class="lk-authors"><a href="pmb64935.html" class="lk-author-link"><span class="lk-arrow">→</span>Georges-Clément Lechartier</a><a href="pmb64936.html" class="lk-author-link"><span class="lk-arrow">→</span>Olivier de Tréville</a></div>
+               <div class="lk-tag">[F30]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Coolus .. Une fémme passa /
+                  </div>
+               <div class="lk-authors"><a href="pmb15094.html" class="lk-author-link"><span class="lk-arrow">→</span>Romain Coolus</a></div>
+               <div class="lk-tag">[F31]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Colett</u>
+                  
+                   
+                  Mitsu
+                  </div>
+               <div class="lk-authors"><a href="pmb15054.html" class="lk-author-link"><span class="lk-arrow">→</span>Sidonie-Gabrielle Colette</a></div>
+               <div class="lk-tag">[F32]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Coppeé Henriette ./.. Comtes rap.
+                  / Contes en prose</div>
+               <div class="lk-authors"><a href="pmb64937.html" class="lk-author-link"><span class="lk-arrow">→</span>François Coppée</a></div>
+               <div class="lk-tag">[F33]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Cremy</u> Memoiren /
+                  </div>
+               <div class="lk-authors"><a href="pmb21505.html" class="lk-author-link"><span class="lk-arrow">→</span>Anne d' Aubourg de La Bove Miremont</a></div>
+               <div class="lk-tag">[F34]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Curel .... L’amour brode</div>
+               <div class="lk-authors"><a href="pmb15170.html" class="lk-author-link"><span class="lk-arrow">→</span>François de Curel</a></div>
+               <div class="lk-tag">[F35]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Courteline -.. train 47 / Madeleine / Boubaouroche /
+                  </div>
+               <div class="lk-authors"><a href="pmb4865.html" class="lk-author-link"><span class="lk-arrow">→</span>Georges Courteline</a></div>
+               <div class="lk-tag">[F36]</div>
+            </div><span class="lk-letter-anchor" id="letter-D"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  Daudet ..... Jaques / Frommont /
+                  Tartarin / Dingsda / Künstlerehen / Montagsgesch. / Sappho
+                  /Immortelle Rois en exile é</div>
+               <div class="lk-authors"><a href="pmb11134.html" class="lk-author-link"><span class="lk-arrow">→</span>Alphonse Daudet</a></div>
+               <div class="lk-tag">[F37]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Delpi ....</div>
+               <div class="lk-authors"><a href="pmb64938.html" class="lk-author-link"><span class="lk-arrow">→</span>Albert Delpit</a></div>
+               <div class="lk-tag">[F38]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Destouche -</div>
+               <div class="lk-authors"><a href="pmb64939.html" class="lk-author-link"><span class="lk-arrow">→</span>Philippe Néricault Destouches</a></div>
+               <div class="lk-tag">[F39]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Diderot Relig /
+                  Jacques / etc.
+                  </div>
+               <div class="lk-authors"><a href="pmb11157.html" class="lk-author-link"><span class="lk-arrow">→</span>Denis Diderot</a></div>
+               <div class="lk-tag">[F40]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Droze .... Monsieur madame BB.</div>
+               <div class="lk-authors"><a href="pmb64940.html" class="lk-author-link"><span class="lk-arrow">→</span>Gustave Droz</a></div>
+               <div class="lk-tag">[F41]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Dumas père .... Muscetaire / Monte Christo / Mem. /
+                  </div>
+               <div class="lk-authors"><a href="pmb11190.html" class="lk-author-link"><span class="lk-arrow">→</span>Alexandre père Dumas</a></div>
+               <div class="lk-tag">[F42]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Dumas fils .....</div>
+               <div class="lk-authors"><a href="pmb15512.html" class="lk-author-link"><span class="lk-arrow">→</span>Alexandre fils Dumas</a></div>
+               <div class="lk-tag">[F43]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Duruy ...... Fin du reve</div>
+               <div class="lk-authors"><a href="pmb64941.html" class="lk-author-link"><span class="lk-arrow">→</span>George Duruy</a></div>
+               <div class="lk-tag">[F44]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Duval .... le premier amant é /
+                  Rabastin</div>
+               <div class="lk-authors"><a href="pmb6892.html" class="lk-author-link"><span class="lk-arrow">→</span>Georges Duval</a></div>
+               <div class="lk-tag">[F45]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Duvern</u> Mort la bête, u. a. -
+                  </div>
+               <div class="lk-authors"><a href="pmb6895.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Duvernois</a></div>
+               <div class="lk-tag">[F46]</div>
+            </div><span class="lk-letter-anchor" id="letter-F"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Farrèr</u> ... Civilisés / Lox / L’homme qui assassina
+                  /
+                  </div>
+               <div class="lk-authors"><a href="pmb11297.html" class="lk-author-link"><span class="lk-arrow">→</span>Claude Farrère</a></div>
+               <div class="lk-tag">[F47]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Feydeau ... Chalis / Fanni /</div>
+               <div class="lk-authors"><a href="pmb64942.html" class="lk-author-link"><span class="lk-arrow">→</span>Ernest-Aymé Feydeau</a></div>
+               <div class="lk-tag">[F48]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Feullet ..... Liebschaften
+                  Philipps / Camorse /</div>
+               <div class="lk-authors"><a href="pmb11315.html" class="lk-author-link"><span class="lk-arrow">→</span>Octave Feuillet</a></div>
+               <div class="lk-tag">[F49]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Flaubert ..... Bauvary / Salambo
+                  / Lettre Sand <span class="lk-supplied">[/]</span> Correspond. / Trois Contes / Educ. sent /
+                  </div>
+               <div class="lk-authors"><a href="pmb11330.html" class="lk-author-link"><span class="lk-arrow">→</span>Gustave Flaubert</a></div>
+               <div class="lk-tag">[F50]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Fleg</u> ... message / l’enf. prophète
+                  </div>
+               <div class="lk-authors"><a href="pmb7170.html" class="lk-author-link"><span class="lk-arrow">→</span>Edmond Fleg</a></div>
+               <div class="lk-tag">[F51]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   France ..... Bonart / Orme /
+                  Roman com. / lys rouge / lendemain ami / mannequin d’osier /
+                  Thaïs / piere blanche /
+                  </div>
+               <div class="lk-authors"><a href="pmb4279.html" class="lk-author-link"><span class="lk-arrow">→</span>Anatole France</a></div>
+               <div class="lk-tag">[F52]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Fromentin ... Dominik
+                  </div>
+               <div class="lk-authors"><a href="pmb7279.html" class="lk-author-link"><span class="lk-arrow">→</span>Eugène Fromentin</a></div>
+               <div class="lk-tag">[F53]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Flers</u> .. Pape / Buridan /</div>
+               <div class="lk-authors"><a href="pmb11337.html" class="lk-author-link"><span class="lk-arrow">→</span>Robert de Flers</a></div>
+               <div class="lk-tag">[F54]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Fronday</u> .. Montmartre /
+                  </div>
+               <div class="lk-authors"><a href="pmb16737.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Frondaie</a></div>
+               <div class="lk-tag">[F55]</div>
+            </div><span class="lk-letter-anchor" id="letter-G"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Gautier .... Avatar / Fortulio /
+                  Mademoiselle Maupin</div>
+               <div class="lk-authors"><a href="pmb64943.html" class="lk-author-link"><span class="lk-arrow">→</span>Théophile Gautier</a></div>
+               <div class="lk-tag">[F56]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Gaboriau ..
+                  Das rote Tuch / Fasc. 113</div>
+               <div class="lk-authors"><a href="pmb64944.html" class="lk-author-link"><span class="lk-arrow">→</span>Émile Gaboriau</a></div>
+               <div class="lk-tag">[F57]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Gasquet</u>
+                  . Il ya une volupté d. l. doul.
+                  </div>
+               <div class="lk-authors"><a href="pmb7350.html" class="lk-author-link"><span class="lk-arrow">→</span>Joachim Gasquet</a></div>
+               <div class="lk-tag">[F58]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Girardin ..</div>
+               <div class="lk-authors"><a href="pmb17053.html" class="lk-author-link"><span class="lk-arrow">→</span>Delphine Girardin</a></div>
+               <div class="lk-tag">[F59]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Gogh,
+                   
+                  Briefe
+                  </div>
+               <div class="lk-authors"><a href="pmb11464.html" class="lk-author-link"><span class="lk-arrow">→</span>Vincent van Gogh</a></div>
+               <div class="lk-tag">[F60]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Giraudoux Suzanne, Simon, le lim
+                  </div>
+               <div class="lk-authors"><a href="pmb7417.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean Giraudoux</a></div>
+               <div class="lk-tag">[F61]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Goncourt .... Meperin / Lacerteux / Journale / Cherie <span class="lk-supplied">[/]</span> Fille
+                  Elisa / Nan. Salomon /</div>
+               <div class="lk-authors"><a href="pmb11500.html" class="lk-author-link"><span class="lk-arrow">→</span>Edmond Huot de Goncourt</a><a href="pmb2925.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules Huot de Goncourt</a></div>
+               <div class="lk-tag">[F62]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Greville / Dosia</div>
+               <div class="lk-authors"><a href="pmb64945.html" class="lk-author-link"><span class="lk-arrow">→</span>Henry Gréville</a></div>
+               <div class="lk-tag">[F63]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Gramont
+                  .... Memoires
+                  </div>
+               <div class="lk-authors"><a href="pmb64946.html" class="lk-author-link"><span class="lk-arrow">→</span>Ferdinand de Comte</a></div>
+               <div class="lk-tag">[F64]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Giullemot ... Lettres a un
+                  amant</div>
+               <div class="lk-authors"><a href="pmb64947.html" class="lk-author-link"><span class="lk-arrow">→</span>Maurice Guillemot</a></div>
+               <div class="lk-tag">[F65]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Gyp. ...
+                  Lulu / Pauvre petite femme / aux hais les Phych <span class="lk-supplied">[/]</span> autour du mariage</div>
+               <div class="lk-authors"><a href="pmb21501.html" class="lk-author-link"><span class="lk-arrow">→</span>Sibylle de Mirabeau</a></div>
+               <div class="lk-tag">[F66]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Gourmont Sixtina /
+                  </div>
+               <div class="lk-authors"><a href="pmb64948.html" class="lk-author-link"><span class="lk-arrow">→</span>Remy de Gourmont</a></div>
+               <div class="lk-tag">[F67]</div>
+            </div><span class="lk-letter-anchor" id="letter-H"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  Halevy
+                  ..... Monsieur et Madame Cardinal</div>
+               <div class="lk-authors"><a href="pmb4197.html" class="lk-author-link"><span class="lk-arrow">→</span>Ludovic Halévy</a></div>
+               <div class="lk-tag">[F68]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Halleys ..... Beaumarchais</div>
+               <div class="lk-authors"><a href="pmb64949.html" class="lk-author-link"><span class="lk-arrow">→</span>Léon Halévy</a></div>
+               <div class="lk-tag">[F69]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Hennique .... Esther Brandes</div>
+               <div class="lk-authors"><a href="pmb64950.html" class="lk-author-link"><span class="lk-arrow">→</span>Léon Hennique</a></div>
+               <div class="lk-tag">[F70]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Hervieu
+                  ..... Flirt / peintes par eux / Armature
+                  / dédale /
+                  </div>
+               <div class="lk-authors"><a href="pmb18201.html" class="lk-author-link"><span class="lk-arrow">→</span>Paul Ernest Hervieu</a></div>
+               <div class="lk-tag">[F71]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Hermant .. transatlantique / Char d l’etat / trains lu /
+                  </div>
+               <div class="lk-authors"><a href="pmb11657.html" class="lk-author-link"><span class="lk-arrow">→</span>Abel Hermant</a></div>
+               <div class="lk-tag">[F72]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Hessem .... Oeuvre de la chaire
+                  /</div>
+               <div class="lk-authors"><a href="pmb64951.html" class="lk-author-link"><span class="lk-arrow">→</span>Louis de Hessem</a></div>
+               <div class="lk-tag">[F73]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Hugo .... Nôtre dame / König
+                  amüsiert sich / Hernany</div>
+               <div class="lk-authors"><a href="pmb5359.html" class="lk-author-link"><span class="lk-arrow">→</span>Victor Hugo</a></div>
+               <div class="lk-tag">[F74]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Houssaye</u> 1814 / 1815 / Louis <u>XVI</u> /
+                  </div>
+               <div class="lk-authors"><a href="pmb18586.html" class="lk-author-link"><span class="lk-arrow">→</span>Henry Houssaye</a><a href="pmb64952.html" class="lk-author-link"><span class="lk-arrow">→</span>Arsène Houssaye</a></div>
+               <div class="lk-tag">[F75]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Huysmens
+                  .... on menage / à rebours</div>
+               <div class="lk-authors"><a href="pmb64953.html" class="lk-author-link"><span class="lk-arrow">→</span>Joris-Karl Huysmans</a></div>
+               <div class="lk-tag">[F76]</div>
+            </div><span class="lk-letter-anchor" id="letter-J"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Janin.
+                   
+                  Contes /
+                  </div>
+               <div class="lk-authors"><a href="pmb64954.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules Gabriel Janin</a></div>
+               <div class="lk-tag">[F77]</div>
+            </div><span class="lk-letter-anchor" id="letter-I"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Istrati</u>
+                  
+                   
+                  Kiralina
+                  </div>
+               <div class="lk-authors"><a href="pmb64955.html" class="lk-author-link"><span class="lk-arrow">→</span>Panaït Istrati</a></div>
+               <div class="lk-tag">[F78]</div>
+            </div><span class="lk-letter-anchor" id="letter-K"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Karr .... Plus ça change</div>
+               <div class="lk-authors"><a href="pmb64956.html" class="lk-author-link"><span class="lk-arrow">→</span>Alphonse Karr</a></div>
+               <div class="lk-tag">[F79]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Kessel</u>
+                  
+                   
+                  Equipage
+                  </div>
+               <div class="lk-authors"><a href="pmb64957.html" class="lk-author-link"><span class="lk-arrow">→</span>Joseph Kessel</a></div>
+               <div class="lk-tag">[F80]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Kistemaekers</u> ... Occident / nuit est à nous
+                  </div>
+               <div class="lk-authors"><a href="pmb19365.html" class="lk-author-link"><span class="lk-arrow">→</span>Henry Kistemaekers</a></div>
+               <div class="lk-tag">[F81]</div>
+            </div><span class="lk-letter-anchor" id="letter-L"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Laforest ..... Contes por
+                  beigneuse / Gaga</div>
+               <div class="lk-authors"><a href="pmb64958.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean-Louis Dubut de Laforest</a></div>
+               <div class="lk-tag">[F82]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Lamartine .... Raphael / Souvenirs /
+                  </div>
+               <div class="lk-authors"><a href="pmb8436.html" class="lk-author-link"><span class="lk-arrow">→</span>Alphonse de Lamartine</a></div>
+               <div class="lk-tag">[F83]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Lavedan
+                  .... Nocturne / le lit / Grands heures / [durchgestrichen]
+                  / Gout de vice /
+                  </div>
+               <div class="lk-authors"><a href="pmb2488.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Léon Lavedan</a></div>
+               <div class="lk-tag">[F84]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Lachaud
+                  ..... Cabotinage</div>
+               <div class="lk-authors"><a href="pmb64959.html" class="lk-author-link"><span class="lk-arrow">→</span>Georges Lachaud</a></div>
+               <div class="lk-tag">[F85]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Leclerke .... Les claireux</div>
+               <div class="lk-authors"><a href="pmb64960.html" class="lk-author-link"><span class="lk-arrow">→</span>Théodore Leclercq</a></div>
+               <div class="lk-tag">[F86]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Lenotre .. Revolutions / Guill / Vielles maisons /
+                  </div>
+               <div class="lk-authors"><a href="pmb3176.html" class="lk-author-link"><span class="lk-arrow">→</span>G. Lenotre</a></div>
+               <div class="lk-tag">[F87]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  Lesage ..... Hinkender Teufel / Diable boit / Gil blas /
+                  </div>
+               <div class="lk-authors"><a href="pmb20342.html" class="lk-author-link"><span class="lk-arrow">→</span>Alain René Lesage</a></div>
+               <div class="lk-tag">[F88]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Leroux</u>. Phant.
+                  </div>
+               <div class="lk-authors"><a href="pmb64961.html" class="lk-author-link"><span class="lk-arrow">→</span>Gaston Leroux</a></div>
+               <div class="lk-tag">[F89]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Leroi ..... Lauriane.</div>
+               <div class="lk-authors"><a href="pmb64962.html" class="lk-author-link"><span class="lk-arrow">→</span>Louis Leroy</a></div>
+               <div class="lk-tag">[F90]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Lesclite .... Femme impossible</div>
+               <div class="lk-authors"><a href="pmb64963.html" class="lk-author-link"><span class="lk-arrow">→</span>Richard Lesclide</a></div>
+               <div class="lk-tag">[F91]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Le Grand .. homme de quarante
+                  ans</div>
+               <div class="lk-authors"><a href="pmb64965.html" class="lk-author-link"><span class="lk-arrow">→</span>Christophe Barthélemy Fagan</a><div class="lk-meta-tag">※ Verwechslung mit Jacques Le Grand (Pseudonym von Richard Lesclide)</div>
+               </div>
+               <div class="lk-tag">[F92]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Lesieur .... Nevrosé / vie
+                  tragique</div>
+               <div class="lk-authors"><a href="pmb64966.html" class="lk-author-link"><span class="lk-arrow">→</span>Jeanne Lapauze</a></div>
+               <div class="lk-tag">[F93]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Loti ..... Paicheur D Island</div>
+               <div class="lk-authors"><a href="pmb12114.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Loti</a></div>
+               <div class="lk-tag">[F94]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Louise .... Aphrodite</div>
+               <div class="lk-authors"><a href="pmb8719.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Louis Louÿs</a></div>
+               <div class="lk-tag">[F95]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Ligne. /
+                   
+                  Erinnerungen /
+                  </div>
+               <div class="lk-authors"><a href="pmb8642.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles Joseph von Ligne</a></div>
+               <div class="lk-tag">[F96]</div>
+            </div><span class="lk-letter-anchor" id="letter-M"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Maeterlink</div>
+               <div class="lk-authors"><a href="pmb12156.html" class="lk-author-link"><span class="lk-arrow">→</span>Maurice Maeterlinck</a></div>
+               <div class="lk-tag">[F97]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Malot .... Cara / Bacara /
+                  Tubernin / amour de Jaques</div>
+               <div class="lk-authors"><a href="pmb64967.html" class="lk-author-link"><span class="lk-arrow">→</span>Hector Henri Malot</a></div>
+               <div class="lk-tag">[F98]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Marmontelle ..... Contes
+                  moraux.</div>
+               <div class="lk-authors"><a href="pmb64968.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean-François Marmontel</a></div>
+               <div class="lk-tag">[F99]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Margérite .... Amant.</div>
+               <div class="lk-authors"><a href="pmb64969.html" class="lk-author-link"><span class="lk-arrow">→</span>Paul Margueritte</a></div>
+               <div class="lk-tag">[F100]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Martelle ... Mins aux dames</div>
+               <div class="lk-authors"><a href="pmb64970.html" class="lk-author-link"><span class="lk-arrow">→</span>Tancrède Martel</a></div>
+               <div class="lk-tag">[F101]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Marnit</div>
+               <div class="lk-authors"><a href="pmb5459.html" class="lk-author-link"><span class="lk-arrow">→</span>Jeanne Marni</a></div>
+               <div class="lk-tag">[F102]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Masgaroi .... Amour défendue </div>
+               <div class="lk-authors"><a href="pmb64971.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Wolff</a><div class="lk-meta-tag">※ Verwechslung?</div>
+               </div>
+               <div class="lk-tag">[F103]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Marbot.</div>
+               <div class="lk-authors"><a href="pmb3445.html" class="lk-author-link"><span class="lk-arrow">→</span>Marcellin Marbot</a></div>
+               <div class="lk-tag">[F104]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Matthey</div>
+               <div class="lk-authors"><a href="pmb64972.html" class="lk-author-link"><span class="lk-arrow">→</span>Maja Matthey</a></div>
+               <div class="lk-tag">[F105]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Mariveau</div>
+               <div class="lk-authors"><a href="pmb12187.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Carlet de Marivaux</a></div>
+               <div class="lk-tag">[F106]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Maupassant .... Mont Oriol / Horla / Pierre et Jean /
+                  Bel ami / la petite roque / Heritage. / une vie / Main gauche / fort comme la mort
+                  / Tellier / Rondoli <span class="lk-supplied">[/]</span> Paix de menage.
+                  / In. beauté / Contes du jour et de la nuit / Père Milon / Nôtre coeur / m parent / Colporteur /
+                  </div>
+               <div class="lk-authors"><a href="pmb12201.html" class="lk-author-link"><span class="lk-arrow">→</span>Guy de Maupassant</a></div>
+               <div class="lk-tag">[F107]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Mendes ..... jupe courte /
+                  monstre paris. souper des pl. <span class="lk-supplied">[/]</span> cruel berceau / rom. rouge /
+                  pour lire au couvent <span class="lk-supplied">[/]</span> feuille d enverte / premiere maitresse
+                  / oiseau bleu / jeune fille / l’art d’aimer</div>
+               <div class="lk-authors"><a href="pmb21317.html" class="lk-author-link"><span class="lk-arrow">→</span>Catulle Mendès</a></div>
+               <div class="lk-tag">[F108]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Mere</u>,
+                   
+                  danse de minuit
+                  </div>
+               <div class="lk-authors"><a href="pmb64973.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles Méré</a></div>
+               <div class="lk-tag">[F109]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Merouvel .... Lyses aux
+                  ruisseau</div>
+               <div class="lk-authors"><a href="pmb64974.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles Mérouvel</a></div>
+               <div class="lk-tag">[F110]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Metellier. l’envie / la chaire
+                  /</div>
+               <div class="lk-authors"><a href="pmb5125.html" class="lk-author-link"><span class="lk-arrow">→</span>Oscar Méténier</a></div>
+               <div class="lk-tag">[F111]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Murabeau Lettres a Sophie</div>
+               <div class="lk-authors"><a href="pmb21497.html" class="lk-author-link"><span class="lk-arrow">→</span>Honoré Gabriel de Mirabeau</a></div>
+               <div class="lk-tag">[F112]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Michelier</div>
+               <div class="lk-authors"><a href="pmb64975.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules Michelet</a></div>
+               <div class="lk-tag">[F113]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Mirbeau ... Calvaire / femme de
+                  chambre</div>
+               <div class="lk-authors"><a href="pmb8948.html" class="lk-author-link"><span class="lk-arrow">→</span>Octave Mirbeau</a></div>
+               <div class="lk-tag">[F114]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Moliere</div>
+               <div class="lk-authors"><a href="pmb3272.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean-Baptiste Molière</a></div>
+               <div class="lk-tag">[F115]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Montepin ... Sünderinnen</div>
+               <div class="lk-authors"><a href="pmb64976.html" class="lk-author-link"><span class="lk-arrow">→</span>Xavier-Aymon, Comte de Montépin</a></div>
+               <div class="lk-tag">[F116]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Monroi ... le paicher capital /
+                  homme vari -</div>
+               <div class="lk-authors"><a href="pmb64977.html" class="lk-author-link"><span class="lk-arrow">→</span>Richard O’Monroy</a></div>
+               <div class="lk-tag">[F117]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Musset .... Zwisch. Tür und
+                  Angel / Launen einer Frau <span class="lk-supplied">[/]</span> Caprices / Confession / Contes /
+                  Nouvelles / Lorenzagio</div>
+               <div class="lk-authors"><a href="pmb12311.html" class="lk-author-link"><span class="lk-arrow">→</span>Alfred de Musset</a></div>
+               <div class="lk-tag">[F118]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Musset Paule .... Alfred de
+                  Musset</div>
+               <div class="lk-authors"><a href="pmb64978.html" class="lk-author-link"><span class="lk-arrow">→</span>Paul Edme de Musset</a></div>
+               <div class="lk-tag">[F119]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Murget ... Zigeunerleben</div>
+               <div class="lk-authors"><a href="pmb8987.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Murger</a></div>
+               <div class="lk-tag">[F120]</div>
+            </div><span class="lk-letter-anchor" id="letter-N"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Nerval</div>
+               <div class="lk-authors"><a href="pmb64979.html" class="lk-author-link"><span class="lk-arrow">→</span>Gérard de Nerval</a></div>
+               <div class="lk-tag">[F121]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Nizet .... Sugestion</div>
+               <div class="lk-authors"><a href="pmb64980.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri Nizet</a></div>
+               <div class="lk-tag">[F122]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Nodier ...
+                  Jugenderinnerungen</div>
+               <div class="lk-authors"><a href="pmb64981.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean Charles Emmanuel Nodier</a></div>
+               <div class="lk-tag">[F123]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Nozoff .... Russie galante</div>
+               <div class="lk-authors"><a href="pmb64982.html" class="lk-author-link"><span class="lk-arrow">→</span>Serge Nossoff</a></div>
+               <div class="lk-tag">[F124]</div>
+            </div><span class="lk-letter-anchor" id="letter-P"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Peladan .... Gynandre</div>
+               <div class="lk-authors"><a href="pmb64983.html" class="lk-author-link"><span class="lk-arrow">→</span>Joséphin Péladan</a></div>
+               <div class="lk-tag">[F125]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Perret ... Droite à l’amour</div>
+               <div class="lk-authors"><a href="pmb64984.html" class="lk-author-link"><span class="lk-arrow">→</span>Paul Perret</a></div>
+               <div class="lk-tag">[F126]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Philippe ...
+                   
+                  Mère et enfant / Bubu / Croquignole / petite ville /
+                  </div>
+               <div class="lk-authors"><a href="pmb5604.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles-Louis Philippe</a></div>
+               <div class="lk-tag">[F127]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Pigault lebrun .... enfant den
+                  Carneval. / Angelique</div>
+               <div class="lk-authors"><a href="pmb64985.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles-Antoine-Guillaume Pigault de l’Épinoy Pigault-Lebrun</a></div>
+               <div class="lk-tag">[F128]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Pairebrune .... Jean Bernard</div>
+               <div class="lk-authors"><a href="pmb64986.html" class="lk-author-link"><span class="lk-arrow">→</span>Georges de Peyrebrune</a></div>
+               <div class="lk-tag">[F129]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Prevost .... Manon</div>
+               <div class="lk-authors"><a href="pmb4112.html" class="lk-author-link"><span class="lk-arrow">→</span>Antoine-François Prévost</a></div>
+               <div class="lk-tag">[F130]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Provin ... Lettres d’hommes /
+                  Pasionette / dial. d’am / cromme elle nous prennent /
+                  </div>
+               <div class="lk-authors"><a href="pmb22901.html" class="lk-author-link"><span class="lk-arrow">→</span>Michel Provins</a></div>
+               <div class="lk-tag">[F131]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Portoriche</u>
+                  
+                   
+                  ...
+                   
+                  Amoureuse / Le vieil homme /
+                  </div>
+               <div class="lk-authors"><a href="pmb22824.html" class="lk-author-link"><span class="lk-arrow">→</span>Georges de Porto-Riche</a></div>
+               <div class="lk-tag">[F132]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Pontaille</u>
+                  
+                   
+                  l’infanterie de la peau
+                  </div>
+               <div class="lk-authors"><a href="pmb64987.html" class="lk-author-link"><span class="lk-arrow">→</span>Édouard Pontal</a></div>
+               <div class="lk-tag">[F133]</div>
+            </div><span class="lk-letter-anchor" id="letter-R"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Rabelais Gargantua
+                  </div>
+               <div class="lk-authors"><a href="pmb64988.html" class="lk-author-link"><span class="lk-arrow">→</span>François Rabelais</a></div>
+               <div class="lk-tag">[F134]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Rabusson .... L’épusée</div>
+               <div class="lk-authors"><a href="pmb64989.html" class="lk-author-link"><span class="lk-arrow">→</span>Henry Rabusson</a></div>
+               <div class="lk-tag">[F135]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Rachilde
+                  ... Theater</div>
+               <div class="lk-authors"><a href="pmb64990.html" class="lk-author-link"><span class="lk-arrow">→</span>Rachilde</a></div>
+               <div class="lk-tag">[F136]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Radiguet</u> Diable
+                  </div>
+               <div class="lk-authors"><a href="pmb22991.html" class="lk-author-link"><span class="lk-arrow">→</span>Raymond Radiguet</a></div>
+               <div class="lk-tag">[F137]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Regaier .... bon plaisir / double maitresse / peur de l’amour
+                  </div>
+               <div class="lk-authors"><a href="pmb12591.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri de Régnier</a></div>
+               <div class="lk-tag">[F138]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Raignault ... Umkehr</div>
+               <div class="lk-authors"><a href="pmb23149.html" class="lk-author-link"><span class="lk-arrow">→</span>Hippolyte François Regnier-Destourbet</a></div>
+               <div class="lk-tag">[F139]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Renard</u> Crimes.
+                  </div>
+               <div class="lk-authors"><a href="pmb4460.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules Renard</a></div>
+               <div class="lk-tag">[F140]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Renan /
+                  ....
+                  </div>
+               <div class="lk-authors"><a href="pmb9484.html" class="lk-author-link"><span class="lk-arrow">→</span>Ernest Renan</a></div>
+               <div class="lk-tag">[F141]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Restife
+                  ..</div>
+               <div class="lk-authors"><a href="pmb3978.html" class="lk-author-link"><span class="lk-arrow">→</span>Nicolas Rétif de la Bretonne</a></div>
+               <div class="lk-tag">[F142]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Retz</u> Mem /
+                  </div>
+               <div class="lk-authors"><a href="pmb9500.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean François Paul de Retz</a></div>
+               <div class="lk-tag">[F143]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Ricard .... secret de femme</div>
+               <div class="lk-authors"><a href="pmb64991.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules Ricard</a></div>
+               <div class="lk-tag">[F144]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Richepin .... Mad. Vogelleim /
+                  mort bizard </div>
+               <div class="lk-authors"><a href="pmb64992.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean Richepin</a></div>
+               <div class="lk-tag">[F145]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Rousseau ....</div>
+               <div class="lk-authors"><a href="pmb12582.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean-Jacques Rousseau</a></div>
+               <div class="lk-tag">[F146]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Rod .... Leilof / femme de Henri
+                  Vanneau / les trois coeurs <span class="lk-supplied">[/]</span>
+                  <s>Stendhal</s>
+                  </div>
+               <div class="lk-authors"><a href="pmb64993.html" class="lk-author-link"><span class="lk-arrow">→</span>Édouard Rod</a></div>
+               <div class="lk-tag">[F147]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Rolland ...
+                   
+                  Jean Cristophe / -
+                  </div>
+               <div class="lk-authors"><a href="pmb12543.html" class="lk-author-link"><span class="lk-arrow">→</span>Romain Rolland</a></div>
+               <div class="lk-tag">[F148]</div>
+            </div><span class="lk-letter-anchor" id="letter-J"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  J
+                   
+                  
+                  <u>Romains</u>,
+                   
+                  mort de quelqu’un
+                  </div>
+               <div class="lk-authors"><a href="pmb9562.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules Romains</a></div>
+               <div class="lk-tag">[F149]</div>
+            </div><span class="lk-letter-anchor" id="letter-R"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Rotschild</u>
+                  
+                   
+                  le ravage /
+                  </div>
+               <div class="lk-authors"><a href="pmb9596.html" class="lk-author-link"><span class="lk-arrow">→</span>Henri de Rothschild</a></div>
+               <div class="lk-tag">[F150]</div>
+            </div><span class="lk-letter-anchor" id="letter-S"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Sand ..... Indiana / Lavinia /
+                  Paula / Cora / des Hauses Dämon / Claudia / Lettres Musset in 4
+                  Bdn /
+                  </div>
+               <div class="lk-authors"><a href="pmb9643.html" class="lk-author-link"><span class="lk-arrow">→</span>George Sand</a></div>
+               <div class="lk-tag">[F151]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Saturnin .... Portier de Chartreuse</div>
+               <div class="lk-authors"><a href="pmb64994.html" class="lk-author-link"><span class="lk-arrow">→</span>Jean-Charles Gervaise de Latouche</a></div>
+               <div class="lk-tag">[F152]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Sardou</div>
+               <div class="lk-authors"><a href="pmb12624.html" class="lk-author-link"><span class="lk-arrow">→</span>Victorien Sardou</a></div>
+               <div class="lk-tag">[F153]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Scaron .... Roman comique</div>
+               <div class="lk-authors"><a href="pmb64995.html" class="lk-author-link"><span class="lk-arrow">→</span>Paul Scarron</a></div>
+               <div class="lk-tag">[F154]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Scholl .... Peines den coeur /
+                  Liebhaber seiner Frau</div>
+               <div class="lk-authors"><a href="pmb64996.html" class="lk-author-link"><span class="lk-arrow">→</span>Aurélien Scholl</a></div>
+               <div class="lk-tag">[F155]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Scheffer ..
+                   
+                  frissonannte
+                  </div>
+               <div class="lk-authors"><a href="pmb24079.html" class="lk-author-link"><span class="lk-arrow">→</span>Robert Scheffer</a></div>
+               <div class="lk-tag">[F156]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Sylvester .... Propos Grivois /
+                  Hist. inconv. <span class="lk-supplied">[/]</span> histoure joieuse / trente farce / hist.
+                  Follâtre</div>
+               <div class="lk-authors"><a href="pmb64997.html" class="lk-author-link"><span class="lk-arrow">→</span>Armand Silvestre</a></div>
+               <div class="lk-tag">[F157]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Scribe</div>
+               <div class="lk-authors"><a href="pmb12756.html" class="lk-author-link"><span class="lk-arrow">→</span>Eugène Scribe</a></div>
+               <div class="lk-tag">[F158]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Ségur,
+                   
+                  l’anneau charnel
+                  </div>
+               <div class="lk-authors"><a href="pmb63295.html" class="lk-author-link"><span class="lk-arrow">→</span>Nicolas Ségur</a></div>
+               <div class="lk-tag">[F159]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Stendhal .... Liebe / Rouge et
+                  noir / Broulard / Egotisme / Chartreuse / Armance /
+                  </div>
+               <div class="lk-authors"><a href="pmb28820.html" class="lk-author-link"><span class="lk-arrow">→</span>Stendhal</a></div>
+               <div class="lk-tag">[F160]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Souvestre .... Philosoph / am
+                  Kamin</div>
+               <div class="lk-authors"><a href="pmb64998.html" class="lk-author-link"><span class="lk-arrow">→</span>Émile Souvestre</a></div>
+               <div class="lk-tag">[F161]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Sue ..... der ewige jude </div>
+               <div class="lk-authors"><a href="pmb10134.html" class="lk-author-link"><span class="lk-arrow">→</span>Eugène Sue</a></div>
+               <div class="lk-tag">[F162]</div>
+            </div><span class="lk-letter-anchor" id="letter-T"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Taine</u> ....</div>
+               <div class="lk-authors"><a href="pmb12913.html" class="lk-author-link"><span class="lk-arrow">→</span>Hippolyte Taine</a></div>
+               <div class="lk-tag">[F163]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Talma</u> .... Memoiren</div>
+               <div class="lk-authors"><a href="pmb64999.html" class="lk-author-link"><span class="lk-arrow">→</span>François-Joseph Talma</a></div>
+               <div class="lk-tag">[F164]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  <u>Theurieut</u> .... Scene de la vie
+                  intime / Paradise d’enfant</div>
+               <div class="lk-authors"><a href="pmb65000.html" class="lk-author-link"><span class="lk-arrow">→</span>Claude Adhémar André Theuriet</a></div>
+               <div class="lk-tag">[F165]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Tillier</u> .... Onkel Benjamin</div>
+               <div class="lk-authors"><a href="pmb2717.html" class="lk-author-link"><span class="lk-arrow">→</span>Claude Tillier</a></div>
+               <div class="lk-tag">[F166]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Tynaire</u>. mais. de peche /
+                  </div>
+               <div class="lk-authors"><a href="pmb26069.html" class="lk-author-link"><span class="lk-arrow">→</span>Marcelle Tinayre</a></div>
+               <div class="lk-tag">[F167]</div>
+            </div><span class="lk-letter-anchor" id="letter-U"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  
+                  <u>Ulbach</u> .... Fernelle</div>
+               <div class="lk-authors"><a href="pmb65001.html" class="lk-author-link"><span class="lk-arrow">→</span>Louis Ulbach</a></div>
+               <div class="lk-tag">[F168]</div>
+            </div><span class="lk-letter-anchor" id="letter-V"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Valdaigne .... amour du prochain
+                  </div>
+               <div class="lk-authors"><a href="pmb65002.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles Lucien Louis</a></div>
+               <div class="lk-tag">[F169]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Vastricouard .... Vielle garde /
+                  Vierge</div>
+               <div class="lk-authors"><a href="pmb65003.html" class="lk-author-link"><span class="lk-arrow">→</span>Raoul Vast</a><a href="pmb65004.html" class="lk-author-link"><span class="lk-arrow">→</span>Gustave Ricouard</a></div>
+               <div class="lk-tag">[F170]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Valmaître .... Paris impure</div>
+               <div class="lk-authors"><a href="pmb65005.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles VirmaÎTre</a></div>
+               <div class="lk-tag">[F171]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Vanderem</u> Victime /
+                  </div>
+               <div class="lk-authors"><a href="pmb26399.html" class="lk-author-link"><span class="lk-arrow">→</span>Fernand Vandérem</a></div>
+               <div class="lk-tag">[F172]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Veber .... L’aventure</div>
+               <div class="lk-authors"><a href="pmb26421.html" class="lk-author-link"><span class="lk-arrow">→</span>Pierre Veber</a></div>
+               <div class="lk-tag">[F173]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Verne. Reise um die Erde /
+                  20,000 Meilen / Hataras Ochs / Mittelpunkt der Erde, Courier des Zaren <span class="lk-supplied">[/]</span> zum Mond /</div>
+               <div class="lk-authors"><a href="pmb10344.html" class="lk-author-link"><span class="lk-arrow">→</span>Jules Verne</a></div>
+               <div class="lk-tag">[F174]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Vautel</u> Mon curé ch
+                  </div>
+               <div class="lk-authors"><a href="pmb26419.html" class="lk-author-link"><span class="lk-arrow">→</span>Clément Vautel</a></div>
+               <div class="lk-tag">[F175]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Vigny ... Grandeur </div>
+               <div class="lk-authors"><a href="pmb26468.html" class="lk-author-link"><span class="lk-arrow">→</span>Alfred-Victor de Vigny</a></div>
+               <div class="lk-tag">[F176]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Villmot .... Petise de coeur.</div>
+               <div class="lk-authors"><a href="pmb65006.html" class="lk-author-link"><span class="lk-arrow">→</span>Émile Villemot</a></div>
+               <div class="lk-tag">[F177]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Villiers .... Contes cruels.</div>
+               <div class="lk-authors"><a href="pmb65007.html" class="lk-author-link"><span class="lk-arrow">→</span>Philippe-Auguste, Comte de Villiers de l’Isle-Adam</a></div>
+               <div class="lk-tag">[F178]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Voltaire</div>
+               <div class="lk-authors"><a href="pmb3124.html" class="lk-author-link"><span class="lk-arrow">→</span>François-Marie Voltaire</a></div>
+               <div class="lk-tag">[F179]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Vildrac</u>
+                  
+                   
+                  le pegase
+                  </div>
+               <div class="lk-authors"><a href="pmb10367.html" class="lk-author-link"><span class="lk-arrow">→</span>Charles Vildrac</a></div>
+               <div class="lk-tag">[F180]</div>
+            </div><span class="lk-letter-anchor" id="letter-X"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Xannof. -
+                   
+                  pour rire
+                  </div>
+               <div class="lk-authors"><a href="pmb27405.html" class="lk-author-link"><span class="lk-arrow">→</span>Léon Xanrof</a></div>
+               <div class="lk-tag">[F181]</div>
+            </div><span class="lk-letter-anchor" id="letter-Z"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Zola ... Erzählungen an Ninon /
+                  moralische Nov <span class="lk-supplied">[/]</span> realistische Novellen / Glüch der R. M. /
+                  Halali <span class="lk-supplied">[/]</span> Bauch von Paris / Einnahme von Plassants / Erde /
+                  oeuvre / Germinal / Nana / Assomoi / Raquin / Nentasse /
+                  Mad. Jerat / Bête humaine /
+                  coquville / joie de vivre / Mouret</div>
+               <div class="lk-authors"><a href="pmb13194.html" class="lk-author-link"><span class="lk-arrow">→</span>Émile Zola</a></div>
+               <div class="lk-tag">[F182]</div>
+            </div>
+         </main>
+         <div class="lk-colophon">
+            <div>
+               <h3>Edition</h3>
+               Aus der Mikroverfilmung der Lektüreliste, bearbeitet im Rahmen des Projekts
+               <i>Schnitzler-Lektüren</i> am Austrian Centre for Digital Humanities and
+               Cultural Heritage (ACDH-CH).
+               </div>
+            <div>
+               <h3>Weiterführend</h3><a href="about.html">Vorwort</a> ·
+               <a href="einleitung.html">Einleitung</a> ·
+               <a href="edition.html">Zur Edition</a> ·
+               <a href="literatur.html">Literatur</a></div>
+         </div><button class="lk-totop" id="lk-totop" aria-label="Nach oben">↑</button><div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
                   KONTAKT
@@ -1551,6 +1805,16 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
-   </body>
+         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div><script type="text/javascript">
+(function () {
+  var btn = document.getElementById('lk-totop');
+  if (!btn) return;
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('show', window.scrollY &gt; 600);
+  }, { passive: true });
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+                </script></body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:mam="myOneAndOnly">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,7 +51,286 @@
                     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
                 })();</script><script src="js/entity-tabs.js" defer="defer"></script></head>
-   <body class="page">
+   <body class="page lektueren-edition">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&amp;display=swap" type="text/css" />
+      <style type="text/css">
+body.lektueren-edition {
+  --lk-ink:       #1a1814;
+  --lk-ink-soft:  #4a463f;
+  --lk-muted:     #8a8378;
+  --lk-rule:      #e6e1d6;
+  --lk-rule-soft: #f0ecdf;
+  --lk-accent:    #7d3325;
+  --lk-accent-soft: #9b5048;
+  --lk-editor:    #6b6359;
+  --lk-serif: "Source Serif 4", "EB Garamond", Georgia, serif;
+  --lk-sans:  "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
+  --lk-mono:  "Courier Prime", "Courier New", ui-monospace, monospace;
+}
+
+/* ---------- Alpha navigation bar ---------- */
+.lk-alpha-bar {
+  position: sticky;
+  top: 56px;
+  z-index: 1020;
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--lk-rule);
+}
+.lk-alpha-nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 48px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 0;
+  font-family: var(--lk-sans);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.lk-alpha-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 26px;
+  padding: 0 6px;
+  color: var(--lk-ink-soft);
+  border-right: 1px solid var(--lk-rule-soft);
+  text-decoration: none;
+}
+.lk-alpha-nav a:first-child { border-left: 1px solid var(--lk-rule-soft); }
+.lk-alpha-nav a.lk-empty { color: var(--lk-rule); pointer-events: none; }
+.lk-alpha-nav a:hover:not(.lk-empty) { color: var(--lk-accent); background: #f7f3e8; }
+
+/* ---------- Masthead ---------- */
+.lk-masthead {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 48px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: end;
+}
+.lk-eyebrow {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--lk-accent);
+  margin: 0 0 12px;
+}
+.lk-title {
+  font-family: var(--lk-serif);
+  font-weight: 500;
+  font-size: clamp(40px, 5.5vw, 84px);
+  line-height: 0.96;
+  letter-spacing: -0.018em;
+  margin: 0;
+  color: var(--lk-ink);
+}
+.lk-title em {
+  font-style: italic;
+  color: var(--lk-accent);
+  font-weight: 400;
+}
+.lk-meta-count {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  text-align: right;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.lk-num {
+  font-family: var(--lk-serif);
+  font-size: 52px;
+  color: var(--lk-accent);
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Index list ---------- */
+.lk-index {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 80px;
+}
+.lk-letter-anchor {
+  display: block;
+  position: relative;
+  height: 0;
+  scroll-margin-top: 130px;
+}
+
+/* ---------- Entry row ---------- */
+.lk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) 72px;
+  gap: 32px;
+  padding: 14px 0;
+  align-items: baseline;
+  border-top: 1px solid var(--lk-rule-soft);
+}
+.lk-row:first-of-type { border-top: none; }
+
+/* Edition text column */
+.lk-note {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--lk-ink);
+  hyphens: auto;
+  word-break: break-word;
+}
+.lk-note.handwritten {
+  font-family: var(--lk-serif);
+  font-size: 19px;
+  font-feature-settings: "onum" 1;
+}
+.lk-note.typewritten {
+  font-family: var(--lk-mono);
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+.lk-note s {
+  color: #b8b0a3;
+  text-decoration-thickness: 1px;
+}
+.lk-supplied { color: var(--lk-muted); }
+
+/* Authors column */
+.lk-authors {
+  font-family: var(--lk-sans);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 5px;
+}
+.lk-author-link {
+  color: var(--lk-editor);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  border-bottom: 1px solid transparent;
+  transition: color 120ms, border-color 120ms;
+  display: inline;
+  text-decoration: none;
+}
+.lk-author-link:hover {
+  color: var(--lk-accent);
+  border-bottom-color: var(--lk-accent);
+}
+.lk-arrow {
+  color: var(--lk-muted);
+  margin-right: 4px;
+  font-size: 13px;
+}
+.lk-author-link:hover .lk-arrow { color: var(--lk-accent); }
+.lk-meta-tag {
+  font-family: var(--lk-sans);
+  font-size: 11.5px;
+  color: var(--lk-muted);
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+}
+.lk-meta-tag.unident { color: var(--lk-accent-soft); }
+.lk-no-authors {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Tag column */
+.lk-tag {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--lk-accent);
+  text-align: right;
+  padding-top: 7px;
+  white-space: nowrap;
+}
+
+/* ---------- Colophon ---------- */
+.lk-colophon {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 48px 64px;
+  border-top: 1px solid var(--lk-rule);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  font-family: var(--lk-sans);
+  font-size: 13.5px;
+  color: var(--lk-muted);
+  line-height: 1.7;
+}
+.lk-colophon h3 {
+  font-family: var(--lk-sans);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--lk-ink);
+  margin: 0 0 12px;
+}
+.lk-colophon a { color: var(--lk-ink-soft); border-bottom: 1px solid var(--lk-rule); text-decoration: none; }
+.lk-colophon a:hover { color: var(--lk-accent); border-bottom-color: var(--lk-accent); }
+
+/* ---------- Back to top ---------- */
+.lk-totop {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--lk-ink);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-family: var(--lk-sans);
+  font-size: 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms;
+  z-index: 30;
+  border: none;
+  cursor: pointer;
+}
+.lk-totop.show { opacity: 1; pointer-events: auto; }
+.lk-totop:hover { background: var(--lk-accent); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .lk-alpha-nav, .lk-masthead, .lk-index, .lk-colophon { padding-left: 24px; padding-right: 24px; }
+  .lk-masthead { grid-template-columns: 1fr; gap: 20px; }
+  .lk-meta-count { text-align: left; }
+  .lk-row { grid-template-columns: 1fr 64px; row-gap: 6px; gap: 16px; padding: 18px 0; }
+  .lk-note { grid-column: 1; }
+  .lk-tag { grid-column: 2; grid-row: 1; padding-top: 7px; }
+  .lk-authors { grid-column: 1 / -1; padding-top: 0; }
+  .lk-colophon { grid-template-columns: 1fr; }
+}
+@media (max-width: 540px) {
+  .lk-note { font-size: 17px; }
+  .lk-note.handwritten { font-size: 18px; }
+}
+@media print {
+  .lk-alpha-bar, .lk-totop { display: none; }
+  .lk-row { break-inside: avoid; }
+}
+                </style>
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -81,445 +360,439 @@
                </div>
             </nav>
          </div>
-         <div class="container-fluid">
-            <div class="card" data-index="true">
-               <div class="card-body">
-                  
-                  <h1 class="edierterText">
-                     <span class="handschriftlich">Norden ....</span>
-                     </h1>
-                  <div class="grid-container-element">
-                     
-                     <div class="grid-child-element edierterText" id="N1">
-                        Agrel ... Einsam / gerettet</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65062.html" id="pmb65062"><span style="font-variant: small-caps;"><b>[N1] </b>→Stig Stigson</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N2">
-                        Ahlgren ... Marianne /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65063.html" id="pmb65063"><span style="font-variant: small-caps;"><b>[N2] </b>→Victoria Maria Benedictsson</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N3">
-                        Andersen .... Improvisator / Geiger
-                        / Märchen / Memoiren</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5981.html" id="pmb5981"><span style="font-variant: small-caps;"><b>[N3] </b>→Hans Christian Andersen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N4">
-                        
-                        <span class="handschriftlich">
-                           <u>Bang</u> ... Exc Nov / Michael / Tine / Caja / Selts
-                           Gesch / Am Weg / Ludwhöhe / –Selts Gesch / Zusbruch /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb10828.html" id="pmb10828"><span style="font-variant: small-caps;"><b>[N4] </b>→Herman Bang</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N5">
-                        
-                        <span class="handschriftlich">Berger .. Tgb e Eins</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb14062.html" id="pmb14062"><span style="font-variant: small-caps;"><b>[N5] </b>→Johan Henning Berger</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N6">
-                        Bergsoe .... Ital. Novellen /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65064.html" id="pmb65064"><span style="font-variant: small-caps;"><b>[N6] </b>→Vilhelm Bergsøe</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N7">
-                         Björnson ... Fröhlicher Bursch /
-                        Sigurt / Hulda / Arne / Sünöve / Handschuh / <span class="handschriftlich">wenn d Wein blüht /
-                           Es flaggen / Mary /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2400.html" id="pmb2400"><span style="font-variant: small-caps;"><b>[N7] </b>→Bjørnstjerne Bjørnson</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N8">
-                        
-                        <span class="handschriftlich">Bojer ..</span>
-                        
-                        <span class="handschriftlich">Unser Reich /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6360.html" id="pmb6360"><span style="font-variant: small-caps;"><b>[N8] </b>→Johan Bojer</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N9">
-                         Bojesen .... Glitzer / N<span class="handschriftlich">a</span>men verlo<span class="handschriftlich">r</span>en / Danebrog /
-                        Faustkomentar</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65065.html" id="pmb65065"><span style="font-variant: small-caps;"><b>[N9] </b>→Hjalmar Hjorth Boyesen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N10">
-                        
-                        <span class="handschriftlich">
-                           <u>Bruun</u> Pan / Zantens gl. Zeit /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6477.html" id="pmb6477"><span style="font-variant: small-caps;"><b>[N10] </b>→Laurids Bruun</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N11">
-                         Christiansen .... Lotte /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65066.html" id="pmb65066"><span style="font-variant: small-caps;"><b>[N11] </b>→Arne Einar Christiansen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N12">
-                         Consience ... Armer Edelmann
-                        /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb6691.html" id="pmb6691"><span style="font-variant: small-caps;"><b>[N12] </b>→Hendrik Conscience</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N13">
-                         Dilling .... Novellen</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65067.html" id="pmb65067"><span style="font-variant: small-caps;"><b>[N13] </b>→Lars Dilling</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N14">
-                         Esma ... Alte Schuld</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65068.html" id="pmb65068"><span style="font-variant: small-caps;"><b>[N14] </b>→Gustav Frederik Esmann</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N15">
-                         Elsberg ... Gefährliche Leute</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65069.html" id="pmb65069"><span style="font-variant: small-caps;"><b>[N15] </b>→Kristian Elster</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N16">
-                         Ewald ... Alte Stube /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65070.html" id="pmb65070"><span style="font-variant: small-caps;"><b>[N16] </b>→Carl Ewald</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N17">
-                        
-                        <span class="handschriftlich">Eeden ....</span>
-                        
-                        <span class="handschriftlich">Wie Stürme segnen /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb15671.html" id="pmb15671"><span style="font-variant: small-caps;"><b>[N17] </b>→Frederik Willem van Eeden</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N18">
-                         Gaborg ... Männerwelt / Bei Mama
-                        / Begräbnis / <del>
-                           <u>Uversoon</u>
-                           </del> Unversöhnt / Müde Seelen / Bauerstudenten / Paulus / Frieden /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65071.html" id="pmb65071"><span style="font-variant: small-caps;"><b>[N18] </b>→Arne Garborg</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N19">
-                        
-                        <span class="handschriftlich">
-                           <u>Geijerstam</u>
-                           </span>
-                        
-                        <span class="handschriftlich">Alte Briefe / Kom. d Ehe / Buch v Brüderchen /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb7363.html" id="pmb7363"><span style="font-variant: small-caps;"><b>[N19] </b>→Gustaf af Geijerstam</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N20">
-                         Gylnborg ... Alltagsgeschichten
-                        /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65072.html" id="pmb65072"><span style="font-variant: small-caps;"><b>[N20] </b>→Thomasine Christine Gyllembourg-Ehrensvärd</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N21">
-                         Hamsun .... Hunger / Hazard / Pan
-                        / Mysterien / / Märchenwelt / Saba / <span class="handschriftlich">Neue Erde / Benoni / Lynge
-                           / Victoria / Herbststurm / letzte Freude / Kinder der Zeit / Segelfoss / Segen
-                           d. Erde</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11570.html" id="pmb11570"><span style="font-variant: small-caps;"><b>[N21] </b>→Knut Hamsun</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N22">
-                         Handson ... Paria / Alltagsfrauen
-                        / Sensitiva</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65073.html" id="pmb65073"><span style="font-variant: small-caps;"><b>[N22] </b>→Ola Hansson</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N23">
-                        
-                        <span class="handschriftlich">Hennings… Polens Töchter / Vielgel. Eva</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb18119.html" id="pmb18119"><span style="font-variant: small-caps;"><b>[N23] </b>→Agnes Henningsen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N24">
-                        
-                        <span class="handschriftlich">Heijermans .. Ghetto</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb7767.html" id="pmb7767"><span style="font-variant: small-caps;"><b>[N24] </b>→Herman Heijermans</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N25">
-                         Hertz … Renees Tochter</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65074.html" id="pmb65074"><span style="font-variant: small-caps;"><b>[N25] </b>→Henrik Hertz</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N26">
-                         Heiberg ... Vidas</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65075.html" id="pmb65075"><span style="font-variant: small-caps;"><b>[N26] </b>→Gunnar Heiberg</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N27">
-                         Hedenstjerna ... Schwedische
-                        Bilder </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65076.html" id="pmb65076"><span style="font-variant: small-caps;"><b>[N27] </b>→Carl Josef Alfred af Hedenstjerna</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N28">
-                         Holberg.</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb7897.html" id="pmb7897"><span style="font-variant: small-caps;"><b>[N28] </b>→Ludvig Holberg</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N29">
-                         Ibsen</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11798.html" id="pmb11798"><span style="font-variant: small-caps;"><b>[N29] </b>→Henrik Ibsen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N30">
-                         Ja<span class="handschriftlich">c</span>obs<span class="handschriftlich">en</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11809.html" id="pmb11809"><span style="font-variant: small-caps;"><b>[N30] </b>→Jens Peter Jacobsen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N31">
-                        
-                        <span class="handschriftlich">Jensen ....</span>
-                        
-                        <span class="handschriftlich">Die Welt ist tief / Md dora / Rad / Himerldsgesch /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb11820.html" id="pmb11820"><span style="font-variant: small-caps;"><b>[N31] </b>→Johannes Vilhelm Jensen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N32">
-                        
-                        <span class="handschriftlich">
-                           <u>Sig. Ibsen</u> ..</span>
-                        
-                        <span class="handschriftlich">Tempel d Erinnerung /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65077.html" id="pmb65077"><span style="font-variant: small-caps;"><b>[N32] </b>→Sigurd Ibsen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N33">
-                         Keller ..... Novellen</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><b>[N33] </b> [nicht ermittelt]</div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N34">
-                         Kieland ... Garman / Gift /
-                        Fortuna / Novelleten <span class="herausgeberErgaenzung">[/]</span> Arbeit </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb19308.html" id="pmb19308"><span style="font-variant: small-caps;"><b>[N34] </b>→Alexander Lange Kielland</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N35">
-                         Kirkegar<span class="handschriftlich">d</span>
-                        ....</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb19317.html" id="pmb19317"><span style="font-variant: small-caps;"><b>[N35] </b>→Søren Aabye Kierkegaard</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N36">
-                        
-                        <span class="handschriftlich">Kjär ..</span>
-                        
-                        <span class="handschriftlich">Tag der Rechenschaft /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65078.html" id="pmb65078"><span style="font-variant: small-caps;"><b>[N36] </b>→Nils Kjær</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N37">
-                         Krog .... Albertine</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65079.html" id="pmb65079"><span style="font-variant: small-caps;"><b>[N37] </b>→Christian Krohg</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N38">
-                         Lagerlöf ... Gösta Berling /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb8422.html" id="pmb8422"><span style="font-variant: small-caps;"><b>[N38] </b>→Selma Lagerlöf</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N39">
-                         Lefler ... Weiblichkeit und
-                        Erotik</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65080.html" id="pmb65080"><span style="font-variant: small-caps;"><b>[N39] </b>→Anne Charlotte Leffler</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N40">
-                         Lie ... Hellseher / Lebendig
-                        verurteilt / Maltröm / Gije <span class="handschriftlich">/ Ehe /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5883.html" id="pmb5883"><span style="font-variant: small-caps;"><b>[N40] </b>→Jonas Lie</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N41">
-                         Molbech .... Ambrosius</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65081.html" id="pmb65081"><span style="font-variant: small-caps;"><b>[N41] </b>→Christian Knud Frederik Molbech</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N42">
-                        
-                        <span class="handschriftlich">Madelung ....</span>
-                        
-                        <span class="handschriftlich">Gezeichnete / Jagd / Sterlet /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4354.html" id="pmb4354"><span style="font-variant: small-caps;"><b>[N42] </b>→Aage Madelung</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N43">
-                         Multatuli .... Havelar /
-                        Liebesbriefe / Walter</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb15285.html" id="pmb15285"><span style="font-variant: small-caps;"><b>[N43] </b>→Eduard Douwes Dekker</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N44">
-                        
-                        <span class="handschriftlich">Michaelis ..</span>
-                        
-                        <span class="handschriftlich">Aebelo / Giuditta / 1812 /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12251.html" id="pmb12251"><span style="font-variant: small-caps;"><b>[N44] </b>→Sophus Michaëlis</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N45">
-                        
-                        <span class="handschriftlich">Michaelis K ....</span>
-                        
-                        <span class="handschriftlich">Ulla Tangel / Gefahrl Alter /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb4408.html" id="pmb4408"><span style="font-variant: small-caps;"><b>[N45] </b>→Karin Michaëlis</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N46">
-                         Nansen ... <span class="handschriftlich">(fast alles</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb2357.html" id="pmb2357"><span style="font-variant: small-caps;"><b>[N46] </b>→Peter Nansen</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N47">
-                         Obstfelder .... Kreuz</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65082.html" id="pmb65082"><span style="font-variant: small-caps;"><b>[N47] </b>→Sigbjørn Obstfelder</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N48">
-                         Oelschläger .. Aladin / Coreggio
-                        / Hamlet</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65083.html" id="pmb65083"><span style="font-variant: small-caps;"><b>[N48] </b>→Adam Gottlob Oehlenschläger</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N49">
-                         Pontopidan .... Kirchenraub</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb5380.html" id="pmb5380"><span style="font-variant: small-caps;"><b>[N49] </b>→Henrik Pontoppidan</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N50">
-                        
-                        <span class="handschriftlich">Rung ...</span>
-                        
-                        <span class="handschriftlich">Weiße Yacht</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65085.html" id="pmb65085"><span style="font-variant: small-caps;"><b>[N50] </b>→Otto Rung</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N51">
-                         Schandor<span class="handschriftlich">ph</span>. Erste Liebe</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65086.html" id="pmb65086"><span style="font-variant: small-caps;"><b>[N51] </b>→Christian Frederik Sophus Schandorph</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N52">
-                         Schmidt ... Novellen</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65087.html" id="pmb65087"><span style="font-variant: small-caps;"><b>[N52] </b>→Rudolf Schmidt</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N53">
-                         Sram</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65088.html" id="pmb65088"><span style="font-variant: small-caps;"><b>[N53] </b>→Amalie Skram</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N54">
-                        
-                        <span class="handschriftlich">Steenbuch Kl. Dramen /</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65089.html" id="pmb65089"><span style="font-variant: small-caps;"><b>[N54] </b>→Axel Steenbuch</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N55">
-                         Strindberg <span class="handschriftlich">..... vieles –</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb12877.html" id="pmb12877"><span style="font-variant: small-caps;"><b>[N55] </b>→August Strindberg</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N56">
-                         Tegner ...</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65090.html" id="pmb65090"><span style="font-variant: small-caps;"><b>[N56] </b>→Esaias Tegnér</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="N57">
-                         Winterhelm</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65091.html" id="pmb65091"><span style="font-variant: small-caps;"><b>[N57] </b>→Kristian Winterhjelm</span></a></div>
-                     </div>
-                  
-                  </div>
-            </div>
+         <div class="lk-alpha-bar">
+            <nav class="lk-alpha-nav" aria-label="Alphabetische Navigation"><a href="#letter-A">A</a><a href="#letter-B">B</a><a href="#letter-C">C</a><a href="#letter-D">D</a><a href="#letter-E">E</a><a class="lk-empty">F</a><a href="#letter-G">G</a><a href="#letter-H">H</a><a href="#letter-I">I</a><a href="#letter-J">J</a><a href="#letter-K">K</a><a href="#letter-L">L</a><a href="#letter-M">M</a><a href="#letter-N">N</a><a href="#letter-O">O</a><a href="#letter-P">P</a><a class="lk-empty">Q</a><a href="#letter-R">R</a><a href="#letter-S">S</a><a href="#letter-T">T</a><a class="lk-empty">U</a><a class="lk-empty">V</a><a href="#letter-W">W</a><a class="lk-empty">X</a><a class="lk-empty">Y</a><a class="lk-empty">Z</a></nav>
          </div>
-         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+         <div class="lk-masthead">
+            <div>
+               <p class="lk-eyebrow">Schnitzler-Lektüren · Leseliste</p>
+               <h1 class="lk-title">Norden <em>....</em></h1>
+            </div>
+            <div class="lk-meta-count"><span class="lk-num">57</span>
+               Einträge
+               </div>
+         </div>
+         <main class="lk-index" data-index="true"><span class="lk-letter-anchor" id="letter-A"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Agrel ... Einsam / gerettet</div>
+               <div class="lk-authors"><a href="pmb65062.html" class="lk-author-link"><span class="lk-arrow">→</span>Stig Stigson</a></div>
+               <div class="lk-tag">[N1]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Ahlgren ... Marianne /</div>
+               <div class="lk-authors"><a href="pmb65063.html" class="lk-author-link"><span class="lk-arrow">→</span>Victoria Maria Benedictsson</a></div>
+               <div class="lk-tag">[N2]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Andersen .... Improvisator / Geiger
+                  / Märchen / Memoiren</div>
+               <div class="lk-authors"><a href="pmb5981.html" class="lk-author-link"><span class="lk-arrow">→</span>Hans Christian Andersen</a></div>
+               <div class="lk-tag">[N3]</div>
+            </div><span class="lk-letter-anchor" id="letter-B"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Bang</u> ... Exc Nov / Michael / Tine / Caja / Selts
+                  Gesch / Am Weg / Ludwhöhe / –Selts Gesch / Zusbruch /
+                  </div>
+               <div class="lk-authors"><a href="pmb10828.html" class="lk-author-link"><span class="lk-arrow">→</span>Herman Bang</a></div>
+               <div class="lk-tag">[N4]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Berger .. Tgb e Eins
+                  </div>
+               <div class="lk-authors"><a href="pmb14062.html" class="lk-author-link"><span class="lk-arrow">→</span>Johan Henning Berger</a></div>
+               <div class="lk-tag">[N5]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Bergsoe .... Ital. Novellen /</div>
+               <div class="lk-authors"><a href="pmb65064.html" class="lk-author-link"><span class="lk-arrow">→</span>Vilhelm Bergsøe</a></div>
+               <div class="lk-tag">[N6]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Björnson ... Fröhlicher Bursch /
+                  Sigurt / Hulda / Arne / Sünöve / Handschuh / wenn d Wein blüht /
+                  Es flaggen / Mary /
+                  </div>
+               <div class="lk-authors"><a href="pmb2400.html" class="lk-author-link"><span class="lk-arrow">→</span>Bjørnstjerne Bjørnson</a></div>
+               <div class="lk-tag">[N7]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Bojer ..
+                   
+                  Unser Reich /
+                  </div>
+               <div class="lk-authors"><a href="pmb6360.html" class="lk-author-link"><span class="lk-arrow">→</span>Johan Bojer</a></div>
+               <div class="lk-tag">[N8]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Bojesen .... Glitzer / Namen verloren / Danebrog /
+                  Faustkomentar</div>
+               <div class="lk-authors"><a href="pmb65065.html" class="lk-author-link"><span class="lk-arrow">→</span>Hjalmar Hjorth Boyesen</a></div>
+               <div class="lk-tag">[N9]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Bruun</u> Pan / Zantens gl. Zeit /
+                  </div>
+               <div class="lk-authors"><a href="pmb6477.html" class="lk-author-link"><span class="lk-arrow">→</span>Laurids Bruun</a></div>
+               <div class="lk-tag">[N10]</div>
+            </div><span class="lk-letter-anchor" id="letter-C"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Christiansen .... Lotte /</div>
+               <div class="lk-authors"><a href="pmb65066.html" class="lk-author-link"><span class="lk-arrow">→</span>Arne Einar Christiansen</a></div>
+               <div class="lk-tag">[N11]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Consience ... Armer Edelmann
+                  /</div>
+               <div class="lk-authors"><a href="pmb6691.html" class="lk-author-link"><span class="lk-arrow">→</span>Hendrik Conscience</a></div>
+               <div class="lk-tag">[N12]</div>
+            </div><span class="lk-letter-anchor" id="letter-D"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Dilling .... Novellen</div>
+               <div class="lk-authors"><a href="pmb65067.html" class="lk-author-link"><span class="lk-arrow">→</span>Lars Dilling</a></div>
+               <div class="lk-tag">[N13]</div>
+            </div><span class="lk-letter-anchor" id="letter-E"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Esma ... Alte Schuld</div>
+               <div class="lk-authors"><a href="pmb65068.html" class="lk-author-link"><span class="lk-arrow">→</span>Gustav Frederik Esmann</a></div>
+               <div class="lk-tag">[N14]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Elsberg ... Gefährliche Leute</div>
+               <div class="lk-authors"><a href="pmb65069.html" class="lk-author-link"><span class="lk-arrow">→</span>Kristian Elster</a></div>
+               <div class="lk-tag">[N15]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Ewald ... Alte Stube /</div>
+               <div class="lk-authors"><a href="pmb65070.html" class="lk-author-link"><span class="lk-arrow">→</span>Carl Ewald</a></div>
+               <div class="lk-tag">[N16]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Eeden ....
+                   
+                  Wie Stürme segnen /
+                  </div>
+               <div class="lk-authors"><a href="pmb15671.html" class="lk-author-link"><span class="lk-arrow">→</span>Frederik Willem van Eeden</a></div>
+               <div class="lk-tag">[N17]</div>
+            </div><span class="lk-letter-anchor" id="letter-G"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Gaborg ... Männerwelt / Bei Mama
+                  / Begräbnis / <s>
+                     <u>Uversoon</u>
+                     </s> Unversöhnt / Müde Seelen / Bauerstudenten / Paulus / Frieden /</div>
+               <div class="lk-authors"><a href="pmb65071.html" class="lk-author-link"><span class="lk-arrow">→</span>Arne Garborg</a></div>
+               <div class="lk-tag">[N18]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Geijerstam</u>
+                  
+                   
+                  Alte Briefe / Kom. d Ehe / Buch v Brüderchen /
+                  </div>
+               <div class="lk-authors"><a href="pmb7363.html" class="lk-author-link"><span class="lk-arrow">→</span>Gustaf af Geijerstam</a></div>
+               <div class="lk-tag">[N19]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Gylnborg ... Alltagsgeschichten
+                  /</div>
+               <div class="lk-authors"><a href="pmb65072.html" class="lk-author-link"><span class="lk-arrow">→</span>Thomasine Christine Gyllembourg-Ehrensvärd</a></div>
+               <div class="lk-tag">[N20]</div>
+            </div><span class="lk-letter-anchor" id="letter-H"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Hamsun .... Hunger / Hazard / Pan
+                  / Mysterien / / Märchenwelt / Saba / Neue Erde / Benoni / Lynge
+                  / Victoria / Herbststurm / letzte Freude / Kinder der Zeit / Segelfoss / Segen
+                  d. Erde
+                  </div>
+               <div class="lk-authors"><a href="pmb11570.html" class="lk-author-link"><span class="lk-arrow">→</span>Knut Hamsun</a></div>
+               <div class="lk-tag">[N21]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Handson ... Paria / Alltagsfrauen
+                  / Sensitiva</div>
+               <div class="lk-authors"><a href="pmb65073.html" class="lk-author-link"><span class="lk-arrow">→</span>Ola Hansson</a></div>
+               <div class="lk-tag">[N22]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Hennings… Polens Töchter / Vielgel. Eva
+                  </div>
+               <div class="lk-authors"><a href="pmb18119.html" class="lk-author-link"><span class="lk-arrow">→</span>Agnes Henningsen</a></div>
+               <div class="lk-tag">[N23]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Heijermans .. Ghetto
+                  </div>
+               <div class="lk-authors"><a href="pmb7767.html" class="lk-author-link"><span class="lk-arrow">→</span>Herman Heijermans</a></div>
+               <div class="lk-tag">[N24]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Hertz … Renees Tochter</div>
+               <div class="lk-authors"><a href="pmb65074.html" class="lk-author-link"><span class="lk-arrow">→</span>Henrik Hertz</a></div>
+               <div class="lk-tag">[N25]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Heiberg ... Vidas</div>
+               <div class="lk-authors"><a href="pmb65075.html" class="lk-author-link"><span class="lk-arrow">→</span>Gunnar Heiberg</a></div>
+               <div class="lk-tag">[N26]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Hedenstjerna ... Schwedische
+                  Bilder </div>
+               <div class="lk-authors"><a href="pmb65076.html" class="lk-author-link"><span class="lk-arrow">→</span>Carl Josef Alfred af Hedenstjerna</a></div>
+               <div class="lk-tag">[N27]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Holberg.</div>
+               <div class="lk-authors"><a href="pmb7897.html" class="lk-author-link"><span class="lk-arrow">→</span>Ludvig Holberg</a></div>
+               <div class="lk-tag">[N28]</div>
+            </div><span class="lk-letter-anchor" id="letter-I"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Ibsen</div>
+               <div class="lk-authors"><a href="pmb11798.html" class="lk-author-link"><span class="lk-arrow">→</span>Henrik Ibsen</a></div>
+               <div class="lk-tag">[N29]</div>
+            </div><span class="lk-letter-anchor" id="letter-J"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Jacobsen
+                  </div>
+               <div class="lk-authors"><a href="pmb11809.html" class="lk-author-link"><span class="lk-arrow">→</span>Jens Peter Jacobsen</a></div>
+               <div class="lk-tag">[N30]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Jensen ....
+                   
+                  Die Welt ist tief / Md dora / Rad / Himerldsgesch /
+                  </div>
+               <div class="lk-authors"><a href="pmb11820.html" class="lk-author-link"><span class="lk-arrow">→</span>Johannes Vilhelm Jensen</a></div>
+               <div class="lk-tag">[N31]</div>
+            </div><span class="lk-letter-anchor" id="letter-S"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Sig. Ibsen</u> ..
+                   
+                  Tempel d Erinnerung /
+                  </div>
+               <div class="lk-authors"><a href="pmb65077.html" class="lk-author-link"><span class="lk-arrow">→</span>Sigurd Ibsen</a></div>
+               <div class="lk-tag">[N32]</div>
+            </div><span class="lk-letter-anchor" id="letter-K"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Keller ..... Novellen</div>
+               <div class="lk-authors"><span class="lk-no-authors">— nicht ermittelt</span></div>
+               <div class="lk-tag">[N33]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Kieland ... Garman / Gift /
+                  Fortuna / Novelleten <span class="lk-supplied">[/]</span> Arbeit </div>
+               <div class="lk-authors"><a href="pmb19308.html" class="lk-author-link"><span class="lk-arrow">→</span>Alexander Lange Kielland</a></div>
+               <div class="lk-tag">[N34]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Kirkegard
+                  ....</div>
+               <div class="lk-authors"><a href="pmb19317.html" class="lk-author-link"><span class="lk-arrow">→</span>Søren Aabye Kierkegaard</a></div>
+               <div class="lk-tag">[N35]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Kjär ..
+                   
+                  Tag der Rechenschaft /
+                  </div>
+               <div class="lk-authors"><a href="pmb65078.html" class="lk-author-link"><span class="lk-arrow">→</span>Nils Kjær</a></div>
+               <div class="lk-tag">[N36]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Krog .... Albertine</div>
+               <div class="lk-authors"><a href="pmb65079.html" class="lk-author-link"><span class="lk-arrow">→</span>Christian Krohg</a></div>
+               <div class="lk-tag">[N37]</div>
+            </div><span class="lk-letter-anchor" id="letter-L"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Lagerlöf ... Gösta Berling /</div>
+               <div class="lk-authors"><a href="pmb8422.html" class="lk-author-link"><span class="lk-arrow">→</span>Selma Lagerlöf</a></div>
+               <div class="lk-tag">[N38]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Lefler ... Weiblichkeit und
+                  Erotik</div>
+               <div class="lk-authors"><a href="pmb65080.html" class="lk-author-link"><span class="lk-arrow">→</span>Anne Charlotte Leffler</a></div>
+               <div class="lk-tag">[N39]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Lie ... Hellseher / Lebendig
+                  verurteilt / Maltröm / Gije / Ehe /
+                  </div>
+               <div class="lk-authors"><a href="pmb5883.html" class="lk-author-link"><span class="lk-arrow">→</span>Jonas Lie</a></div>
+               <div class="lk-tag">[N40]</div>
+            </div><span class="lk-letter-anchor" id="letter-M"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Molbech .... Ambrosius</div>
+               <div class="lk-authors"><a href="pmb65081.html" class="lk-author-link"><span class="lk-arrow">→</span>Christian Knud Frederik Molbech</a></div>
+               <div class="lk-tag">[N41]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Madelung ....
+                   
+                  Gezeichnete / Jagd / Sterlet /
+                  </div>
+               <div class="lk-authors"><a href="pmb4354.html" class="lk-author-link"><span class="lk-arrow">→</span>Aage Madelung</a></div>
+               <div class="lk-tag">[N42]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Multatuli .... Havelar /
+                  Liebesbriefe / Walter</div>
+               <div class="lk-authors"><a href="pmb15285.html" class="lk-author-link"><span class="lk-arrow">→</span>Eduard Douwes Dekker</a></div>
+               <div class="lk-tag">[N43]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Michaelis ..
+                   
+                  Aebelo / Giuditta / 1812 /
+                  </div>
+               <div class="lk-authors"><a href="pmb12251.html" class="lk-author-link"><span class="lk-arrow">→</span>Sophus Michaëlis</a></div>
+               <div class="lk-tag">[N44]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Michaelis K ....
+                   
+                  Ulla Tangel / Gefahrl Alter /
+                  </div>
+               <div class="lk-authors"><a href="pmb4408.html" class="lk-author-link"><span class="lk-arrow">→</span>Karin Michaëlis</a></div>
+               <div class="lk-tag">[N45]</div>
+            </div><span class="lk-letter-anchor" id="letter-N"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Nansen ... (fast alles
+                  </div>
+               <div class="lk-authors"><a href="pmb2357.html" class="lk-author-link"><span class="lk-arrow">→</span>Peter Nansen</a></div>
+               <div class="lk-tag">[N46]</div>
+            </div><span class="lk-letter-anchor" id="letter-O"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Obstfelder .... Kreuz</div>
+               <div class="lk-authors"><a href="pmb65082.html" class="lk-author-link"><span class="lk-arrow">→</span>Sigbjørn Obstfelder</a></div>
+               <div class="lk-tag">[N47]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Oelschläger .. Aladin / Coreggio
+                  / Hamlet</div>
+               <div class="lk-authors"><a href="pmb65083.html" class="lk-author-link"><span class="lk-arrow">→</span>Adam Gottlob Oehlenschläger</a></div>
+               <div class="lk-tag">[N48]</div>
+            </div><span class="lk-letter-anchor" id="letter-P"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Pontopidan .... Kirchenraub</div>
+               <div class="lk-authors"><a href="pmb5380.html" class="lk-author-link"><span class="lk-arrow">→</span>Henrik Pontoppidan</a></div>
+               <div class="lk-tag">[N49]</div>
+            </div><span class="lk-letter-anchor" id="letter-R"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Rung ...
+                   
+                  Weiße Yacht
+                  </div>
+               <div class="lk-authors"><a href="pmb65085.html" class="lk-author-link"><span class="lk-arrow">→</span>Otto Rung</a></div>
+               <div class="lk-tag">[N50]</div>
+            </div><span class="lk-letter-anchor" id="letter-S"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                   Schandorph. Erste Liebe</div>
+               <div class="lk-authors"><a href="pmb65086.html" class="lk-author-link"><span class="lk-arrow">→</span>Christian Frederik Sophus Schandorph</a></div>
+               <div class="lk-tag">[N51]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Schmidt ... Novellen</div>
+               <div class="lk-authors"><a href="pmb65087.html" class="lk-author-link"><span class="lk-arrow">→</span>Rudolf Schmidt</a></div>
+               <div class="lk-tag">[N52]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                   Sram</div>
+               <div class="lk-authors"><a href="pmb65088.html" class="lk-author-link"><span class="lk-arrow">→</span>Amalie Skram</a></div>
+               <div class="lk-tag">[N53]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Steenbuch Kl. Dramen /
+                  </div>
+               <div class="lk-authors"><a href="pmb65089.html" class="lk-author-link"><span class="lk-arrow">→</span>Axel Steenbuch</a></div>
+               <div class="lk-tag">[N54]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note handwritten">
+                   Strindberg ..... vieles –
+                  </div>
+               <div class="lk-authors"><a href="pmb12877.html" class="lk-author-link"><span class="lk-arrow">→</span>August Strindberg</a></div>
+               <div class="lk-tag">[N55]</div>
+            </div><span class="lk-letter-anchor" id="letter-T"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Tegner ...</div>
+               <div class="lk-authors"><a href="pmb65090.html" class="lk-author-link"><span class="lk-arrow">→</span>Esaias Tegnér</a></div>
+               <div class="lk-tag">[N56]</div>
+            </div><span class="lk-letter-anchor" id="letter-W"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                   Winterhelm</div>
+               <div class="lk-authors"><a href="pmb65091.html" class="lk-author-link"><span class="lk-arrow">→</span>Kristian Winterhjelm</a></div>
+               <div class="lk-tag">[N57]</div>
+            </div>
+         </main>
+         <div class="lk-colophon">
+            <div>
+               <h3>Edition</h3>
+               Aus der Mikroverfilmung der Lektüreliste, bearbeitet im Rahmen des Projekts
+               <i>Schnitzler-Lektüren</i> am Austrian Centre for Digital Humanities and
+               Cultural Heritage (ACDH-CH).
+               </div>
+            <div>
+               <h3>Weiterführend</h3><a href="about.html">Vorwort</a> ·
+               <a href="einleitung.html">Einleitung</a> ·
+               <a href="edition.html">Zur Edition</a> ·
+               <a href="literatur.html">Literatur</a></div>
+         </div><button class="lk-totop" id="lk-totop" aria-label="Nach oben">↑</button><div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
                   KONTAKT
@@ -579,6 +852,16 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
-   </body>
+         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div><script type="text/javascript">
+(function () {
+  var btn = document.getElementById('lk-totop');
+  if (!btn) return;
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('show', window.scrollY &gt; 600);
+  }, { passive: true });
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+                </script></body>
 </html>

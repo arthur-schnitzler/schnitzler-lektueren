@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:mam="myOneAndOnly">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,7 +51,286 @@
                     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
                 })();</script><script src="js/entity-tabs.js" defer="defer"></script></head>
-   <body class="page">
+   <body class="page lektueren-edition">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&amp;display=swap" type="text/css" />
+      <style type="text/css">
+body.lektueren-edition {
+  --lk-ink:       #1a1814;
+  --lk-ink-soft:  #4a463f;
+  --lk-muted:     #8a8378;
+  --lk-rule:      #e6e1d6;
+  --lk-rule-soft: #f0ecdf;
+  --lk-accent:    #7d3325;
+  --lk-accent-soft: #9b5048;
+  --lk-editor:    #6b6359;
+  --lk-serif: "Source Serif 4", "EB Garamond", Georgia, serif;
+  --lk-sans:  "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
+  --lk-mono:  "Courier Prime", "Courier New", ui-monospace, monospace;
+}
+
+/* ---------- Alpha navigation bar ---------- */
+.lk-alpha-bar {
+  position: sticky;
+  top: 56px;
+  z-index: 1020;
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--lk-rule);
+}
+.lk-alpha-nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 48px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 0;
+  font-family: var(--lk-sans);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.lk-alpha-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 26px;
+  padding: 0 6px;
+  color: var(--lk-ink-soft);
+  border-right: 1px solid var(--lk-rule-soft);
+  text-decoration: none;
+}
+.lk-alpha-nav a:first-child { border-left: 1px solid var(--lk-rule-soft); }
+.lk-alpha-nav a.lk-empty { color: var(--lk-rule); pointer-events: none; }
+.lk-alpha-nav a:hover:not(.lk-empty) { color: var(--lk-accent); background: #f7f3e8; }
+
+/* ---------- Masthead ---------- */
+.lk-masthead {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 48px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: end;
+}
+.lk-eyebrow {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--lk-accent);
+  margin: 0 0 12px;
+}
+.lk-title {
+  font-family: var(--lk-serif);
+  font-weight: 500;
+  font-size: clamp(40px, 5.5vw, 84px);
+  line-height: 0.96;
+  letter-spacing: -0.018em;
+  margin: 0;
+  color: var(--lk-ink);
+}
+.lk-title em {
+  font-style: italic;
+  color: var(--lk-accent);
+  font-weight: 400;
+}
+.lk-meta-count {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  text-align: right;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.lk-num {
+  font-family: var(--lk-serif);
+  font-size: 52px;
+  color: var(--lk-accent);
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Index list ---------- */
+.lk-index {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 80px;
+}
+.lk-letter-anchor {
+  display: block;
+  position: relative;
+  height: 0;
+  scroll-margin-top: 130px;
+}
+
+/* ---------- Entry row ---------- */
+.lk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) 72px;
+  gap: 32px;
+  padding: 14px 0;
+  align-items: baseline;
+  border-top: 1px solid var(--lk-rule-soft);
+}
+.lk-row:first-of-type { border-top: none; }
+
+/* Edition text column */
+.lk-note {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--lk-ink);
+  hyphens: auto;
+  word-break: break-word;
+}
+.lk-note.handwritten {
+  font-family: var(--lk-serif);
+  font-size: 19px;
+  font-feature-settings: "onum" 1;
+}
+.lk-note.typewritten {
+  font-family: var(--lk-mono);
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+.lk-note s {
+  color: #b8b0a3;
+  text-decoration-thickness: 1px;
+}
+.lk-supplied { color: var(--lk-muted); }
+
+/* Authors column */
+.lk-authors {
+  font-family: var(--lk-sans);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 5px;
+}
+.lk-author-link {
+  color: var(--lk-editor);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  border-bottom: 1px solid transparent;
+  transition: color 120ms, border-color 120ms;
+  display: inline;
+  text-decoration: none;
+}
+.lk-author-link:hover {
+  color: var(--lk-accent);
+  border-bottom-color: var(--lk-accent);
+}
+.lk-arrow {
+  color: var(--lk-muted);
+  margin-right: 4px;
+  font-size: 13px;
+}
+.lk-author-link:hover .lk-arrow { color: var(--lk-accent); }
+.lk-meta-tag {
+  font-family: var(--lk-sans);
+  font-size: 11.5px;
+  color: var(--lk-muted);
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+}
+.lk-meta-tag.unident { color: var(--lk-accent-soft); }
+.lk-no-authors {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  color: var(--lk-muted);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Tag column */
+.lk-tag {
+  font-family: var(--lk-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--lk-accent);
+  text-align: right;
+  padding-top: 7px;
+  white-space: nowrap;
+}
+
+/* ---------- Colophon ---------- */
+.lk-colophon {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 48px 64px;
+  border-top: 1px solid var(--lk-rule);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  font-family: var(--lk-sans);
+  font-size: 13.5px;
+  color: var(--lk-muted);
+  line-height: 1.7;
+}
+.lk-colophon h3 {
+  font-family: var(--lk-sans);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--lk-ink);
+  margin: 0 0 12px;
+}
+.lk-colophon a { color: var(--lk-ink-soft); border-bottom: 1px solid var(--lk-rule); text-decoration: none; }
+.lk-colophon a:hover { color: var(--lk-accent); border-bottom-color: var(--lk-accent); }
+
+/* ---------- Back to top ---------- */
+.lk-totop {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--lk-ink);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-family: var(--lk-sans);
+  font-size: 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms;
+  z-index: 30;
+  border: none;
+  cursor: pointer;
+}
+.lk-totop.show { opacity: 1; pointer-events: auto; }
+.lk-totop:hover { background: var(--lk-accent); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .lk-alpha-nav, .lk-masthead, .lk-index, .lk-colophon { padding-left: 24px; padding-right: 24px; }
+  .lk-masthead { grid-template-columns: 1fr; gap: 20px; }
+  .lk-meta-count { text-align: left; }
+  .lk-row { grid-template-columns: 1fr 64px; row-gap: 6px; gap: 16px; padding: 18px 0; }
+  .lk-note { grid-column: 1; }
+  .lk-tag { grid-column: 2; grid-row: 1; padding-top: 7px; }
+  .lk-authors { grid-column: 1 / -1; padding-top: 0; }
+  .lk-colophon { grid-template-columns: 1fr; }
+}
+@media (max-width: 540px) {
+  .lk-note { font-size: 17px; }
+  .lk-note.handwritten { font-size: 18px; }
+}
+@media print {
+  .lk-alpha-bar, .lk-totop { display: none; }
+  .lk-row { break-inside: avoid; }
+}
+                </style>
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-lektueren/lektueren-logo.jpg" class="img-fluid" alt="Schnitzler Lektueren" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -81,83 +360,92 @@
                </div>
             </nav>
          </div>
-         <div class="container-fluid">
-            <div class="card" data-index="true">
-               <div class="card-body">
-                  
-                  <h1 class="edierterText">
-                     <span class="handschriftlich">Polen..</span> Czechen..</h1>
-                  <div class="grid-container-element">
-                     
-                     <div class="grid-child-element edierterText" id="P1">
-                        Fredro ... Dr. Müller / Mentor</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65055.html" id="pmb65055"><span style="font-variant: small-caps;"><b>[P1] </b>→Graf Jan Aleksander Fredro</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="P2">
-                        Kraczewski …. Dämon / alte und neue
-                        Zeit / ohne Herz /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65056.html" id="pmb65056"><span style="font-variant: small-caps;"><b>[P2] </b>→Josef Ignacy Kraszewski</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="P3">
-                        
-                        <span class="handschriftlich">
-                           <u>Capek</u> ..</span>
-                        
-                        <span class="handschriftlich">Gottesmarter</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb13216.html" id="pmb13216"><span style="font-variant: small-caps;"><b>[P3] </b>→Karel Čapek</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="P4">
-                        Mikiewicz ..</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65057.html" id="pmb65057"><span style="font-variant: small-caps;"><b>[P4] </b>→Adam Mickiewicz</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="P5">
-                        Polonski ... Ehrlicher Kauz /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65058.html" id="pmb65058"><span style="font-variant: small-caps;"><b>[P5] </b>→Jakov Petrovič Polonskij</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="P6">
-                        Simirazki .... Zersplittert</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65059.html" id="pmb65059"><span style="font-variant: small-caps;"><b>[P6] </b>→Henryk Sienkiewicz</span></a><br />[Verwechslung, siehe P7]</div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="P7">
-                        Sienkiewicz … Dorfgeschichten / Der
-                        Dritte / Lux / Bartel /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65060.html" id="pmb65060"><span style="font-variant: small-caps;"><b>[P7] </b>→Henryk Sienkiewicz</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="P8">
-                        
-                        <span class="handschriftlich">Weyssenhoff,</span>
-                        
-                        <span class="handschriftlich">Podfilipski</span>
-                        </div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb65061.html" id="pmb65061"><span style="font-variant: small-caps;"><b>[P8] </b>→Józef Weyssenhoff</span></a></div>
-                     
-                     
-                     <div class="grid-child-element edierterText" id="P9">
-                        
-                        <span class="handschriftlich">Zapolska .. Hölle</span> /</div>
-                     
-                     <div class="grid-child-element herausgeberText weisserHintergrund"><a href="pmb27428.html" id="pmb27428"><span style="font-variant: small-caps;"><b>[P9] </b>→Gabryela Zapolska</span></a></div>
-                     </div>
-                  </div>
-            </div>
+         <div class="lk-alpha-bar">
+            <nav class="lk-alpha-nav" aria-label="Alphabetische Navigation"><a class="lk-empty">A</a><a class="lk-empty">B</a><a href="#letter-C">C</a><a class="lk-empty">D</a><a class="lk-empty">E</a><a href="#letter-F">F</a><a class="lk-empty">G</a><a class="lk-empty">H</a><a class="lk-empty">I</a><a class="lk-empty">J</a><a href="#letter-K">K</a><a class="lk-empty">L</a><a href="#letter-M">M</a><a class="lk-empty">N</a><a class="lk-empty">O</a><a href="#letter-P">P</a><a class="lk-empty">Q</a><a class="lk-empty">R</a><a href="#letter-S">S</a><a class="lk-empty">T</a><a class="lk-empty">U</a><a class="lk-empty">V</a><a href="#letter-W">W</a><a class="lk-empty">X</a><a class="lk-empty">Y</a><a href="#letter-Z">Z</a></nav>
          </div>
-         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+         <div class="lk-masthead">
+            <div>
+               <p class="lk-eyebrow">Schnitzler-Lektüren · Leseliste</p>
+               <h1 class="lk-title">Polen.. <em>Czechen..</em></h1>
+            </div>
+            <div class="lk-meta-count"><span class="lk-num">9</span>
+               Einträge
+               </div>
+         </div>
+         <main class="lk-index" data-index="true"><span class="lk-letter-anchor" id="letter-F"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Fredro ... Dr. Müller / Mentor</div>
+               <div class="lk-authors"><a href="pmb65055.html" class="lk-author-link"><span class="lk-arrow">→</span>Graf Jan Aleksander Fredro</a></div>
+               <div class="lk-tag">[P1]</div>
+            </div><span class="lk-letter-anchor" id="letter-K"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Kraczewski …. Dämon / alte und neue
+                  Zeit / ohne Herz /</div>
+               <div class="lk-authors"><a href="pmb65056.html" class="lk-author-link"><span class="lk-arrow">→</span>Josef Ignacy Kraszewski</a></div>
+               <div class="lk-tag">[P2]</div>
+            </div><span class="lk-letter-anchor" id="letter-C"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  
+                  <u>Capek</u> ..
+                   
+                  Gottesmarter
+                  </div>
+               <div class="lk-authors"><a href="pmb13216.html" class="lk-author-link"><span class="lk-arrow">→</span>Karel Čapek</a></div>
+               <div class="lk-tag">[P3]</div>
+            </div><span class="lk-letter-anchor" id="letter-M"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Mikiewicz ..</div>
+               <div class="lk-authors"><a href="pmb65057.html" class="lk-author-link"><span class="lk-arrow">→</span>Adam Mickiewicz</a></div>
+               <div class="lk-tag">[P4]</div>
+            </div><span class="lk-letter-anchor" id="letter-P"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Polonski ... Ehrlicher Kauz /</div>
+               <div class="lk-authors"><a href="pmb65058.html" class="lk-author-link"><span class="lk-arrow">→</span>Jakov Petrovič Polonskij</a></div>
+               <div class="lk-tag">[P5]</div>
+            </div><span class="lk-letter-anchor" id="letter-S"></span><div class="lk-row">
+               <div class="lk-note typewritten">
+                  Simirazki .... Zersplittert</div>
+               <div class="lk-authors"><a href="pmb65059.html" class="lk-author-link"><span class="lk-arrow">→</span>Henryk Sienkiewicz</a><div class="lk-meta-tag">※ Verwechslung, siehe P7</div>
+               </div>
+               <div class="lk-tag">[P6]</div>
+            </div>
+            <div class="lk-row">
+               <div class="lk-note typewritten">
+                  Sienkiewicz … Dorfgeschichten / Der
+                  Dritte / Lux / Bartel /</div>
+               <div class="lk-authors"><a href="pmb65060.html" class="lk-author-link"><span class="lk-arrow">→</span>Henryk Sienkiewicz</a></div>
+               <div class="lk-tag">[P7]</div>
+            </div><span class="lk-letter-anchor" id="letter-W"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Weyssenhoff,
+                   
+                  Podfilipski
+                  </div>
+               <div class="lk-authors"><a href="pmb65061.html" class="lk-author-link"><span class="lk-arrow">→</span>Józef Weyssenhoff</a></div>
+               <div class="lk-tag">[P8]</div>
+            </div><span class="lk-letter-anchor" id="letter-Z"></span><div class="lk-row">
+               <div class="lk-note handwritten">
+                  
+                  Zapolska .. Hölle /</div>
+               <div class="lk-authors"><a href="pmb27428.html" class="lk-author-link"><span class="lk-arrow">→</span>Gabryela Zapolska</a></div>
+               <div class="lk-tag">[P9]</div>
+            </div>
+         </main>
+         <div class="lk-colophon">
+            <div>
+               <h3>Edition</h3>
+               Aus der Mikroverfilmung der Lektüreliste, bearbeitet im Rahmen des Projekts
+               <i>Schnitzler-Lektüren</i> am Austrian Centre for Digital Humanities and
+               Cultural Heritage (ACDH-CH).
+               </div>
+            <div>
+               <h3>Weiterführend</h3><a href="about.html">Vorwort</a> ·
+               <a href="einleitung.html">Einleitung</a> ·
+               <a href="edition.html">Zur Edition</a> ·
+               <a href="literatur.html">Literatur</a></div>
+         </div><button class="lk-totop" id="lk-totop" aria-label="Nach oben">↑</button><div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
                   KONTAKT
@@ -217,6 +505,16 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
-   </body>
+         <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div><script type="text/javascript">
+(function () {
+  var btn = document.getElementById('lk-totop');
+  if (!btn) return;
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('show', window.scrollY &gt; 600);
+  }, { passive: true });
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+                </script></body>
 </html>
