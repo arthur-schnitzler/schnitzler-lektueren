@@ -342,7 +342,7 @@ body.lektueren-edition {
                         <xsl:otherwise>
                             <!-- Fallback layout for non-list documents (e.g. Lectuere.xml) -->
                             <div class="container-fluid">
-                                <div class="card" style="margin-top:2em">
+                                <div class="card" style="margin-top:2em" data-index="true">
                                     <div class="card-body">
                                         <xsl:apply-templates select=".//tei:body"/>
                                     </div>
@@ -422,7 +422,7 @@ body.lektueren-edition {
             </xsl:if>
         </div>
 
-        <main class="lk-index">
+        <main class="lk-index" data-index="true">
             <xsl:apply-templates select="tei:div[starts-with(@xml:id, 'div_')]"/>
         </main>
 
