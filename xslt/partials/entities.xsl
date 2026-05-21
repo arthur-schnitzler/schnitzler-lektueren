@@ -21,12 +21,10 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <div class="entity-page" style="--project-color: {$current-colour};">
+        <article class="entity-page" aria-labelledby="entity-title" style="--project-color: {$current-colour};">
             <!-- Breadcrumbs -->
-            <div class="crumbs mt-1">
+            <nav class="crumbs mt-1" aria-label="Brotkrumennavigation">
                 <span class="type-pill">Person</span>
-                <span>Register</span>
-                <span class="sep">/</span>
                 <a href="listperson.html">Personen</a>
                 <span class="sep">/</span>
                 <xsl:choose>
@@ -45,9 +43,9 @@
                             select="normalize-space(child::tei:persName[1]/tei:surname[1])"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </div>
+            </nav>
             <!-- Titel -->
-            <h1 class="entity-name">
+            <h1 id="entity-title" class="entity-name">
                 <xsl:choose>
                     <xsl:when
                         test="child::tei:persName[1]/tei:forename[1] and child::tei:persName[1]/tei:surname[1]">
@@ -88,18 +86,12 @@
             <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
-                <div class="entity-sidebar">
+                <aside class="entity-sidebar" aria-label="Steckbrief">
                     <xsl:call-template name="person-portrait-card">
                         <xsl:with-param name="entity" select="."/>
                         <xsl:with-param name="namensformen" select="$namensformen"/>
                         <xsl:with-param name="surname-fallback"
                             select="string($lemma-name//tei:surname)"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="lod-normdaten">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="lod-ressourcen">
-                        <xsl:with-param name="idno" select="$idnos"/>
                     </xsl:call-template>
                     <xsl:call-template name="person-korrespondenz">
                         <xsl:with-param name="entity" select="."/>
@@ -108,17 +100,24 @@
                     <xsl:call-template name="person-leseliste">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
-                </div>
+                    <xsl:call-template name="lod-ressourcen">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-normdaten">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                </aside>
                 <!-- Rechte Spalte: Tabs -->
-                <div class="entity-main me-auto" style="max-width: 1400px;">
-                    <div class="entity-tabs">
+                <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                    <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                         <xsl:call-template name="entity-tab-buttons">
                             <xsl:with-param name="hasMentions" select="$hasMentions"/>
                             <xsl:with-param name="mentionsCount" select="$mentionsCount"/>
                             <xsl:with-param name="relationsCount" select="$relationsCount"/>
                         </xsl:call-template>
                     </div>
-                    <div id="tab-erwaehnungen"
+                    <div id="tab-erwaehnungen" role="tabpanel"
+                        aria-labelledby="btn-tab-erwaehnungen" tabindex="0"
                         class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
                         <xsl:choose>
                             <xsl:when test="$hasMentions">
@@ -131,15 +130,16 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </div>
-                    <div id="tab-relationen"
+                    <div id="tab-relationen" role="tabpanel"
+                        aria-labelledby="btn-tab-relationen" tabindex="0"
                         class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                         <xsl:call-template name="relationen-block">
                             <xsl:with-param name="rel-items" select="$rel-items"/>
                         </xsl:call-template>
                     </div>
-                </div>
+                </section>
             </div>
-        </div>
+        </article>
     </xsl:template>
     <!-- PERSON: Sub-Templates -->
     <!-- Lebensdaten (* Geburt · † Tod) unter dem h1 -->
@@ -199,7 +199,7 @@
         <div class="entity-portrait-card{if (not($has-image)) then ' no-image' else ''}">
             <xsl:if test="$has-image">
                 <div class="entity-portrait-frame">
-                    <img src="{$entity/tei:figure/tei:graphic/@url}" alt="Portrait"/>
+                    <img src="{$entity/tei:figure/tei:graphic/@url}" alt=""/>
                 </div>
             </xsl:if>
             <div class="entity-portrait-meta">
@@ -604,7 +604,11 @@
         <xsl:param name="hasMentions" as="xs:boolean"/>
         <xsl:param name="mentionsCount" as="xs:integer" select="0"/>
         <xsl:param name="relationsCount" as="xs:integer" select="0"/>
-        <button class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
+        <button id="btn-tab-erwaehnungen" type="button" role="tab"
+            aria-controls="tab-erwaehnungen"
+            aria-selected="{if ($hasMentions) then 'true' else 'false'}"
+            tabindex="{if ($hasMentions) then '0' else '-1'}"
+            class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
             data-tab="tab-erwaehnungen">
             <xsl:text>Erwähnungen</xsl:text>
             <xsl:if test="$mentionsCount gt 0">
@@ -614,7 +618,11 @@
                 </span>
             </xsl:if>
         </button>
-        <button class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
+        <button id="btn-tab-relationen" type="button" role="tab"
+            aria-controls="tab-relationen"
+            aria-selected="{if ($hasMentions) then 'false' else 'true'}"
+            tabindex="{if ($hasMentions) then '-1' else '0'}"
+            class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
             data-tab="tab-relationen">
             <xsl:text>Relationen</xsl:text>
             <xsl:if test="$relationsCount gt 0">
@@ -745,12 +753,10 @@
             </xsl:element>
         </xsl:variable>
         <xsl:variable name="workPage" select="'listbibl.html'"/>
-        <div class="entity-page" style="--project-color: {$current-colour};">
+        <article class="entity-page" aria-labelledby="entity-title" style="--project-color: {$current-colour};">
             <!-- Breadcrumbs -->
-            <div class="crumbs mt-1">
+            <nav class="crumbs mt-1" aria-label="Brotkrumennavigation">
                 <span class="type-pill">Werk</span>
-                <span>Register</span>
-                <span class="sep">/</span>
                 <xsl:choose>
                     <xsl:when test="$workPage = 'listbibl.html'">
                         <a href="listbibl.html">Werke</a>
@@ -771,9 +777,9 @@
                         <xsl:value-of select="normalize-space(child::tei:title[1])"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </div>
+            </nav>
             <!-- Titel -->
-            <h1 class="entity-name">
+            <h1 id="entity-title" class="entity-name">
                 <xsl:value-of select="normalize-space(child::tei:title[1])"/>
             </h1>
             <xsl:variable name="hasMentions" select="mam:has-mentions(., 'title')" as="xs:boolean"/>
@@ -793,13 +799,7 @@
             <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
-                <div class="entity-sidebar">
-                    <xsl:call-template name="lod-normdaten">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="lod-ressourcen">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
+                <aside class="entity-sidebar" aria-label="Steckbrief">
                     <xsl:if test="tei:author">
                         <xsl:call-template name="work-erscheinungsdatum">
                             <xsl:with-param name="entity" select="."/>
@@ -808,17 +808,24 @@
                     <xsl:call-template name="work-links">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
-                </div>
+                    <xsl:call-template name="lod-ressourcen">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-normdaten">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                </aside>
                 <!-- Rechte Spalte: Tabs -->
-                <div class="entity-main me-auto" style="max-width: 1400px;">
-                    <div class="entity-tabs">
+                <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                    <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                         <xsl:call-template name="entity-tab-buttons">
                             <xsl:with-param name="hasMentions" select="$hasMentions"/>
                             <xsl:with-param name="mentionsCount" select="$mentionsCount"/>
                             <xsl:with-param name="relationsCount" select="$relationsCount"/>
                         </xsl:call-template>
                     </div>
-                    <div id="tab-erwaehnungen"
+                    <div id="tab-erwaehnungen" role="tabpanel"
+                        aria-labelledby="btn-tab-erwaehnungen" tabindex="0"
                         class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
                         <xsl:choose>
                             <xsl:when test="$hasMentions">
@@ -831,15 +838,16 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </div>
-                    <div id="tab-relationen"
+                    <div id="tab-relationen" role="tabpanel"
+                        aria-labelledby="btn-tab-relationen" tabindex="0"
                         class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                         <xsl:call-template name="relationen-block">
                             <xsl:with-param name="rel-items" select="$rel-items"/>
                         </xsl:call-template>
                     </div>
-                </div>
+                </section>
             </div>
-        </div>
+        </article>
     </xsl:template>
     <!-- WORK: Sub-Templates -->
     <!-- Erscheinungsdatum (tei:date[1]) -->
@@ -947,12 +955,10 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <div class="entity-page" style="--project-color: {$current-colour};">
+        <article class="entity-page" aria-labelledby="entity-title" style="--project-color: {$current-colour};">
             <!-- Breadcrumbs -->
-            <div class="crumbs mt-1">
+            <nav class="crumbs mt-1" aria-label="Brotkrumennavigation">
                 <span class="type-pill">Ort</span>
-                <span>Register</span>
-                <span class="sep">/</span>
                 <a href="listplace.html">Orte</a>
                 <span class="sep">/</span>
                 <xsl:choose>
@@ -964,9 +970,9 @@
                         <xsl:value-of select="normalize-space(child::tei:placeName[1])"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </div>
+            </nav>
             <!-- Titel -->
-            <h1 class="entity-name">
+            <h1 id="entity-title" class="entity-name">
                 <xsl:value-of select="normalize-space(child::tei:placeName[1])"/>
             </h1>
             <xsl:variable name="hasMentions" select="mam:has-mentions(., 'placeName')"
@@ -988,30 +994,31 @@
             <div class="container-fluid">
                 <div class="card-body-index entity-layout">
                     <!-- Linke Spalte: Steckbrief -->
-                    <div class="entity-sidebar">
-                        <xsl:call-template name="lod-normdaten">
-                            <xsl:with-param name="idno" select="$idnos"/>
-                        </xsl:call-template>
-                        <xsl:call-template name="lod-ressourcen">
-                            <xsl:with-param name="idno" select="$idnos"/>
-                        </xsl:call-template>
+                    <aside class="entity-sidebar" aria-label="Steckbrief">
                         <xsl:call-template name="place-namensvarianten">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
                         <xsl:call-template name="place-map">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
-                    </div>
+                        <xsl:call-template name="lod-ressourcen">
+                            <xsl:with-param name="idno" select="$idnos"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="lod-normdaten">
+                            <xsl:with-param name="idno" select="$idnos"/>
+                        </xsl:call-template>
+                    </aside>
                     <!-- Rechte Spalte: Tabs -->
-                    <div class="entity-main me-auto" style="max-width: 1400px;">
-                        <div class="entity-tabs">
+                    <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                        <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                             <xsl:call-template name="entity-tab-buttons">
                                 <xsl:with-param name="hasMentions" select="$hasMentions"/>
                                 <xsl:with-param name="mentionsCount" select="$mentionsCount"/>
                                 <xsl:with-param name="relationsCount" select="$relationsCount"/>
                             </xsl:call-template>
                         </div>
-                        <div id="tab-erwaehnungen"
+                        <div id="tab-erwaehnungen" role="tabpanel"
+                            aria-labelledby="btn-tab-erwaehnungen" tabindex="0"
                             class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
                             <xsl:choose>
                                 <xsl:when test="$hasMentions">
@@ -1024,16 +1031,17 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </div>
-                        <div id="tab-relationen"
+                        <div id="tab-relationen" role="tabpanel"
+                            aria-labelledby="btn-tab-relationen" tabindex="0"
                             class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                             <xsl:call-template name="relationen-block">
                                 <xsl:with-param name="rel-items" select="$rel-items"/>
                             </xsl:call-template>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
-        </div>
+        </article>
     </xsl:template>
     <!-- PLACE: Sub-Templates -->
     <!-- Leaflet-Karte mit dem ersten geo-Wert -->
@@ -1042,7 +1050,7 @@
         <xsl:if test="$entity//tei:geo/text()">
             <div class="side-block">
                 <h3>Karte</h3>
-                <div id="mapid"> </div>
+                <div id="mapid" role="region" aria-label="Karte"> </div>
             </div>
             <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
                 integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -1134,12 +1142,10 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <div class="entity-page" style="--project-color: {$current-colour};">
-            <div class="crumbs mt-1">
+        <article class="entity-page" aria-labelledby="entity-title" style="--project-color: {$current-colour};">
+            <nav class="crumbs mt-1" aria-label="Brotkrumennavigation">
                 <span class="type-pill">Institution</span>
-                <span>Register</span>
-                <span class="sep">/</span>
-                <a href="listorg.html">Institutionen</a>
+                 <a href="listorg.html">Institutionen</a>
                 <span class="sep">/</span>
                 <xsl:choose>
                     <xsl:when test="string-length(child::tei:orgName[1]) > 25">
@@ -1150,9 +1156,9 @@
                         <xsl:value-of select="normalize-space(child::tei:orgName[1])"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </div>
+            </nav>
             <!-- Titel -->
-            <h1 class="entity-name">
+            <h1 id="entity-title" class="entity-name">
                 <xsl:value-of select="normalize-space(child::tei:orgName[1])"/>
             </h1>
             <xsl:variable name="hasMentions" select="mam:has-mentions(., 'orgName')" as="xs:boolean"/>
@@ -1172,30 +1178,31 @@
             <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
-                <div class="entity-sidebar">
-                    <xsl:call-template name="lod-normdaten">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="lod-ressourcen">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
+                <aside class="entity-sidebar" aria-label="Steckbrief">
                     <xsl:call-template name="org-namensvarianten">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
                     <xsl:call-template name="org-orte">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
-                </div>
+                    <xsl:call-template name="lod-ressourcen">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-normdaten">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                </aside>
                 <!-- Rechte Spalte: Tabs -->
-                <div class="entity-main me-auto" style="max-width: 1400px;">
-                    <div class="entity-tabs">
+                <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                    <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                         <xsl:call-template name="entity-tab-buttons">
                             <xsl:with-param name="hasMentions" select="$hasMentions"/>
                             <xsl:with-param name="mentionsCount" select="$mentionsCount"/>
                             <xsl:with-param name="relationsCount" select="$relationsCount"/>
                         </xsl:call-template>
                     </div>
-                    <div id="tab-erwaehnungen"
+                    <div id="tab-erwaehnungen" role="tabpanel"
+                        aria-labelledby="btn-tab-erwaehnungen" tabindex="0"
                         class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
                         <xsl:choose>
                             <xsl:when test="$hasMentions">
@@ -1208,15 +1215,16 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </div>
-                    <div id="tab-relationen"
+                    <div id="tab-relationen" role="tabpanel"
+                        aria-labelledby="btn-tab-relationen" tabindex="0"
                         class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                         <xsl:call-template name="relationen-block">
                             <xsl:with-param name="rel-items" select="$rel-items"/>
                         </xsl:call-template>
                     </div>
-                </div>
+                </section>
             </div>
-        </div>
+        </article>
     </xsl:template>
     <!-- ORG: Sub-Templates -->
     <!-- Alternative orgName-Werte als Komma-Liste -->
@@ -1315,11 +1323,9 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <div class="entity-page" style="--project-color: {$current-colour};">
-            <div class="crumbs mt-1">
+        <article class="entity-page" aria-labelledby="entity-title" style="--project-color: {$current-colour};">
+            <nav class="crumbs mt-1" aria-label="Brotkrumennavigation">
                 <span class="type-pill">Ereignis</span>
-                <span>Register</span>
-                <span class="sep">/</span>
                 <a href="listevent.html">Ereignisse</a>
                 <span class="sep">/</span>
                 <xsl:choose>
@@ -1331,9 +1337,9 @@
                         <xsl:value-of select="normalize-space(child::tei:eventName[1])"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </div>
+            </nav>
             <!-- Titel -->
-            <h1 class="entity-name">
+            <h1 id="entity-title" class="entity-name">
                 <xsl:value-of select="normalize-space(child::tei:eventName[1])"/>
             </h1>
             <xsl:variable name="hasMentions" select="mam:has-mentions(., 'eventName')"
@@ -1355,15 +1361,9 @@
             <div class="container-fluid">
                 <div class="card-body-index entity-layout">
                     <!-- Linke Spalte: Steckbrief -->
-                    <div class="entity-sidebar">
+                    <aside class="entity-sidebar" aria-label="Steckbrief">
                         <xsl:call-template name="event-row-datum">
                             <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                        <xsl:call-template name="lod-normdaten">
-                            <xsl:with-param name="idno" select="$idnos"/>
-                        </xsl:call-template>
-                        <xsl:call-template name="lod-ressourcen">
-                            <xsl:with-param name="idno" select="$idnos"/>
                         </xsl:call-template>
                         <xsl:call-template name="event-row-veranstaltungsort">
                             <xsl:with-param name="entity" select="."/>
@@ -1374,17 +1374,24 @@
                         <xsl:call-template name="event-row-tageszeitungen">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
-                    </div>
+                        <xsl:call-template name="lod-ressourcen">
+                            <xsl:with-param name="idno" select="$idnos"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="lod-normdaten">
+                            <xsl:with-param name="idno" select="$idnos"/>
+                        </xsl:call-template>
+                    </aside>
                     <!-- Rechte Spalte: Tabs -->
-                    <div class="entity-main me-auto" style="max-width: 1400px;">
-                        <div class="entity-tabs">
+                    <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                        <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                             <xsl:call-template name="entity-tab-buttons">
                                 <xsl:with-param name="hasMentions" select="$hasMentions"/>
                                 <xsl:with-param name="mentionsCount" select="$mentionsCount"/>
                                 <xsl:with-param name="relationsCount" select="$relationsCount"/>
                             </xsl:call-template>
                         </div>
-                        <div id="tab-erwaehnungen"
+                        <div id="tab-erwaehnungen" role="tabpanel"
+                            aria-labelledby="btn-tab-erwaehnungen" tabindex="0"
                             class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
                             <xsl:choose>
                                 <xsl:when test="$hasMentions">
@@ -1397,16 +1404,17 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </div>
-                        <div id="tab-relationen"
+                        <div id="tab-relationen" role="tabpanel"
+                            aria-labelledby="btn-tab-relationen" tabindex="0"
                             class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                             <xsl:call-template name="relationen-block">
                                 <xsl:with-param name="rel-items" select="$rel-items"/>
                             </xsl:call-template>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
-        </div>
+        </article>
     </xsl:template>
     <!-- EVENT: Sub-Templates -->
     <!-- Buttonreihe mit LOD-Idnos -->
@@ -1486,7 +1494,7 @@
                                 <xsl:value-of select="normalize-space(tei:placeName)"/>
                             </xsl:element>
                             <xsl:if test="./tei:location/tei:geo">
-                                <div id="map_detail"
+                                <div id="map_detail" role="region" aria-label="Karte"
                                     style="height: 200px; width: 100%; margin-top: .5rem;"/>
                                 <xsl:variable name="mlat"
                                     select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[1], ',', '.')"/>
@@ -1502,7 +1510,7 @@
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="$openstreetmapurl"/>
                                         </xsl:attribute>
-                                        <i class="bi bi-box-arrow-up-right"/> OpenStreetMap </a>
+                                        <i class="bi bi-box-arrow-up-right" aria-hidden="true"/> OpenStreetMap </a>
                                 </div>
                             </xsl:if>
                         </li>
@@ -1778,7 +1786,7 @@
             </xsl:variable>
             <div id="mentions">
                 <span class="infodesc mr-2">
-                    <legend>Erwähnungen</legend>
+                    <h2 class="visually-hidden">Erwähnungen</h2>
                     <!-- Toolbar: Kommentar-Toggle + Summary -->
                     <div class="mentions-toolbar">
                         <xsl:if test="$commentaryMentionCount > 0">
@@ -1786,7 +1794,7 @@
                                 <label class="switch">
                                     <input type="checkbox" id="toggle-commentary-mentions"
                                         checked="checked"/>
-                                    <span class="i-slider round"/>
+                                    <span class="i-slider round" aria-hidden="true"/>
                                 </label>
                                 <span class="opt-title">Kommentar berücksichtigen</span>
                             </div>
@@ -1814,12 +1822,12 @@
                         <div class="chart-head">
                             <div class="legend">
                                 <span>
-                                    <span class="dot"/>
+                                    <span class="dot" aria-hidden="true"/>
                                     <xsl:text>Erwähnungen</xsl:text>
                                 </span>
                                 <xsl:if test="$commentaryMentionCount > 0">
                                     <span>
-                                        <span class="dot k"/>
+                                        <span class="dot k" aria-hidden="true"/>
                                         <xsl:text>im Kommentar</xsl:text>
                                     </span>
                                 </xsl:if>
@@ -1944,7 +1952,7 @@
                                         <xsl:attribute name="open">open</xsl:attribute>
                                     </xsl:if>
                                     <summary>
-                                                <span class="year-chevron"/>
+                                                <span class="year-chevron" aria-hidden="true"/>
                                                 <span class="year-label">
                                                   <xsl:value-of select="$year"/>
                                                 </span>
@@ -1956,7 +1964,7 @@
                                                   <xsl:otherwise>äge</xsl:otherwise>
                                                   </xsl:choose>
                                                 </span>
-                                                <span class="year-bar">
+                                                <span class="year-bar" aria-hidden="true">
                                                   <i style="width: {$bar-pct}%;"/>
                                                 </span>
                                                 <span class="year-count">
@@ -2054,7 +2062,7 @@
         <div id="lod-mentions">
             <xsl:if
                 test="key('only-relevant-uris', $idno/tei:idno[not(@subtype = $current-edition)]/@subtype, $relevant-uris)[1]">
-                <legend>Ressourcen</legend>
+                <h2 class="lod-heading">Ressourcen</h2>
                 <p class="buttonreihe">
                     <xsl:variable name="idnos-of-current" as="node()">
                         <xsl:element name="nodeset_person">
@@ -2168,105 +2176,17 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    <!-- Hilfsfunktion: Prüft, ob eine pmb-ID in einem der Projekt-Indizes vorkommt.
-         Sucht zusätzlich über die PMB-ID aus <idno subtype="pmb">, damit auch
-         Indizes mit abweichender xml:id-Konvention (z. B. schnitzler-tagebuch,
-         'person_<interne-id>') gefunden werden. -->
+    <!-- Hilfsfunktion: Prüft, ob eine pmb-ID in einem der Projekt-Indizes vorkommt -->
     <xsl:function name="mam:in-project" as="xs:boolean">
         <xsl:param name="pmbId" as="xs:string"/>
-        <xsl:variable name="num" select="mam:pmb-num($pmbId)"/>
         <xsl:sequence select="
                 $pmbId != '' and (
-                ($listperson and (
-                exists(key('project-person-xmlid', $pmbId, $listperson))
-                or ($num != '' and exists(key('project-person-by-pmb', $num, $listperson)))
-                )) or
-                ($listorg and (
-                exists(key('project-org-xmlid', $pmbId, $listorg))
-                or ($num != '' and exists(key('project-org-by-pmb', $num, $listorg)))
-                )) or
-                ($places and (
-                exists(key('project-place-xmlid', $pmbId, $places))
-                or ($num != '' and exists(key('project-place-by-pmb', $num, $places)))
-                )) or
-                ($events and (
-                exists(key('project-event-xmlid', $pmbId, $events))
-                or ($num != '' and exists(key('project-event-by-pmb', $num, $events)))
-                )) or
-                ($works and (
-                exists(key('project-bibl-xmlid', $pmbId, $works))
-                or ($num != '' and exists(key('project-bibl-by-pmb', $num, $works)))
-                ))
+                ($listperson and exists(key('project-person-xmlid', $pmbId, $listperson))) or
+                ($listorg and exists(key('project-org-xmlid', $pmbId, $listorg))) or
+                ($places and exists(key('project-place-xmlid', $pmbId, $places))) or
+                ($events and exists(key('project-event-xmlid', $pmbId, $events))) or
+                ($works and exists(key('project-bibl-xmlid', $pmbId, $works)))
                 )"/>
-    </xsl:function>
-    <!-- Liefert für eine PMB-ID die tatsächliche xml:id im Projekt-Index.
-         Fällt auf die pmb-Form zurück, wenn kein abweichender Eintrag gefunden
-         wird. Wird für href-Ziele (Relationen-Links) benötigt. -->
-    <xsl:function name="mam:project-xmlid" as="xs:string">
-        <xsl:param name="pmbId" as="xs:string"/>
-        <xsl:param name="type" as="xs:string?"/>
-        <xsl:variable name="num" select="mam:pmb-num($pmbId)"/>
-        <xsl:choose>
-            <xsl:when test="$type = 'Person' and $listperson
-                            and not(exists(key('project-person-xmlid', $pmbId, $listperson)))
-                            and $num != ''
-                            and exists(key('project-person-by-pmb', $num, $listperson))">
-                <xsl:value-of
-                    select="string(key('project-person-by-pmb', $num, $listperson)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:when test="$type = 'Ort' and $places
-                            and not(exists(key('project-place-xmlid', $pmbId, $places)))
-                            and $num != ''
-                            and exists(key('project-place-by-pmb', $num, $places))">
-                <xsl:value-of
-                    select="string(key('project-place-by-pmb', $num, $places)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:when test="($type = 'Institution' or $type = 'Organisation') and $listorg
-                            and not(exists(key('project-org-xmlid', $pmbId, $listorg)))
-                            and $num != ''
-                            and exists(key('project-org-by-pmb', $num, $listorg))">
-                <xsl:value-of
-                    select="string(key('project-org-by-pmb', $num, $listorg)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:when test="($type = 'Ereignis' or $type = 'Veranstaltung') and $events
-                            and not(exists(key('project-event-xmlid', $pmbId, $events)))
-                            and $num != ''
-                            and exists(key('project-event-by-pmb', $num, $events))">
-                <xsl:value-of
-                    select="string(key('project-event-by-pmb', $num, $events)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:when test="$type = 'Werk' and $works
-                            and not(exists(key('project-bibl-xmlid', $pmbId, $works)))
-                            and $num != ''
-                            and exists(key('project-bibl-by-pmb', $num, $works))">
-                <xsl:value-of
-                    select="string(key('project-bibl-by-pmb', $num, $works)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="$pmbId"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:function>
-    <!-- Liefert die PMB-ID (rein numerisch) der aktuellen Entität.
-         Bevorzugt die xml:id, wenn sie 'pmb<N>' ist; sonst Fallback auf
-         <idno subtype="pmb"> (z. B. 'person_13473' → 10848). -->
-    <xsl:function name="mam:entity-pmb-num" as="xs:string">
-        <xsl:param name="entity" as="node()"/>
-        <xsl:variable name="xmlid" select="string($entity/@xml:id)"/>
-        <xsl:variable name="viaXml" select="mam:pmb-num($xmlid)"/>
-        <xsl:choose>
-            <xsl:when test="starts-with($xmlid, 'pmb') and $viaXml != ''">
-                <xsl:value-of select="$viaXml"/>
-            </xsl:when>
-            <xsl:when test="$entity/tei:idno[@subtype = 'pmb'][1]">
-                <xsl:value-of
-                    select="replace(string($entity/tei:idno[@subtype = 'pmb'][1]), '^.*/(\d+)/?\s*$', '$1')"
-                />
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="$viaXml"/>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:function>
     <!-- Einzelnes Werk-Listenelement (von Werke-Block und "alle Werke anzeigen" wiederverwendet) -->
     <xsl:template name="work-list-item">
@@ -2464,11 +2384,10 @@
         <xsl:choose>
             <xsl:when test="$type = 'Person'">1</xsl:when>
             <xsl:when test="$type = 'Werk'">2</xsl:when>
-            <xsl:when test="$type = 'Ereignis'">3</xsl:when>
+            <xsl:when test="$type = 'Veranstaltung'">3</xsl:when>
             <xsl:when test="$type = 'Ort'">4</xsl:when>
             <xsl:when test="$type = 'Institution'">5</xsl:when>
             <xsl:when test="$type = 'Organisation'">5</xsl:when>
-            <xsl:when test="$type = 'Veranstaltung'">6</xsl:when>
             <xsl:otherwise>9</xsl:otherwise>
         </xsl:choose>
     </xsl:function>
@@ -2477,7 +2396,8 @@
          (für Tab-Count und für die Weitergabe an relationen-block). -->
     <xsl:template name="collect-relation-items" as="element(rel-item)*">
         <xsl:param name="entity" as="node()"/>
-        <xsl:variable name="num" select="mam:entity-pmb-num($entity)"/>
+        <xsl:variable name="pmbId" select="mam:to-pmb(string($entity/@xml:id))"/>
+        <xsl:variable name="num" select="mam:pmb-num($pmbId)"/>
         <!-- Alte Relationen aus tei:affiliation und tei:listEvent -->
         <xsl:for-each select="$entity/tei:affiliation">
             <xsl:variable name="targetNode" select="(tei:orgName | tei:persName | tei:placeName)[1]"/>
@@ -2496,8 +2416,7 @@
                                 'Person'
                             else
                                 'Ort'"/>
-                <rel-item display-name="{$dn}" other-type="{$ot}"
-                    other-id="{mam:project-xmlid($pmbId2, $ot)}"
+                <rel-item display-name="{$dn}" other-type="{$ot}" other-id="{$pmbId2}"
                     other-name="{normalize-space($targetNode)}"/>
             </xsl:if>
         </xsl:for-each>
@@ -2509,8 +2428,7 @@
                             normalize-space(tei:desc)
                         else
                             '(ohne Bezeichnung)'"/>
-                <rel-item display-name="{$dn}" other-type="Veranstaltung"
-                    other-id="{mam:project-xmlid($pmbId2, 'Veranstaltung')}"
+                <rel-item display-name="{$dn}" other-type="Veranstaltung" other-id="{$pmbId2}"
                     other-name="{normalize-space(tei:label)}"/>
             </xsl:if>
         </xsl:for-each>
@@ -2525,11 +2443,18 @@
                             @tgt-id
                         else
                             @src-id))"/>
-                <xsl:variable name="other-type" as="xs:string" select="
+                <xsl:variable name="other-type-raw" as="xs:string" select="
                         if ($is-source) then
                             string(@tgt-type)
                         else
                             string(@src-type)"/>
+                <!-- 'Ereignis' aus der CSV mit dem Legacy-listEvent-Label
+                     'Veranstaltung' zusammenführen, damit nur ein Tab erscheint. -->
+                <xsl:variable name="other-type" as="xs:string" select="
+                        if ($other-type-raw = 'Ereignis') then
+                            'Veranstaltung'
+                        else
+                            $other-type-raw"/>
                 <xsl:variable name="other-name" as="xs:string" select="
                         if ($is-source) then
                             string(@tgt-name)
@@ -2554,8 +2479,7 @@
                             string(@tgt-type)"/>
                 <xsl:if test="mam:in-project($other-id)">
                     <rel-item display-name="{$display-name}" other-type="{$other-type}"
-                        other-id="{mam:project-xmlid($other-id, $other-type)}"
-                        other-name="{$other-name}"/>
+                        other-id="{$other-id}" other-name="{$other-name}"/>
                 </xsl:if>
             </xsl:for-each>
         </xsl:if>
@@ -2574,11 +2498,14 @@
             <xsl:variable name="first-type" select="$types-present[1]"/>
             <div class="relationen">
                 <!-- Sub-Navigation -->
-                <div class="rel-subnav">
+                <div class="rel-subnav" role="tablist" aria-label="Relationstypen">
                     <xsl:for-each select="$types-present">
                         <xsl:variable name="t" select="."/>
                         <xsl:variable name="count-t" select="count($rel-items[@other-type = $t])"/>
-                        <button type="button"
+                        <button type="button" id="btn-rel-{$t}" role="tab"
+                            aria-controls="rel-{$t}"
+                            aria-selected="{if ($t = $first-type) then 'true' else 'false'}"
+                            tabindex="{if ($t = $first-type) then '0' else '-1'}"
                             class="rel-subnav-btn{if ($t = $first-type) then ' active' else ''}"
                             data-rel-type="{$t}">
                             <xsl:value-of select="mam:type-label($t)"/>
@@ -2592,7 +2519,8 @@
                 <!-- Sektionen -->
                 <xsl:for-each select="$types-present">
                     <xsl:variable name="t" select="."/>
-                    <div class="rel-section{if ($t = $first-type) then ' active' else ''}"
+                    <div id="rel-{$t}" role="tabpanel" aria-labelledby="btn-rel-{$t}" tabindex="0"
+                        class="rel-section{if ($t = $first-type) then ' active' else ''}"
                         data-rel-type="{$t}">
                         <xsl:variable name="items-of-type" as="element(rel-item)*"
                             select="$rel-items[@other-type = $t]"/>
