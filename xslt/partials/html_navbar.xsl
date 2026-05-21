@@ -105,7 +105,7 @@
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Links" href="https://schnitzler.acdh.oeaw.ac.at"
-                                            class="nav-link">Schnitzler am ACDH-CH</a>
+                                            class="nav-link">Schnitzler am ACDH</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Links"
