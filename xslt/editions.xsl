@@ -127,11 +127,6 @@ body.lektueren-edition {
   margin: 0;
   color: var(--lk-ink);
 }
-.lk-title em {
-  font-style: italic;
-  color: var(--lk-accent);
-  font-weight: 400;
-}
 .lk-meta-count {
   font-family: var(--lk-sans);
   font-size: 12px;
@@ -397,19 +392,10 @@ body.lektueren-edition {
          LISTE DIV — masthead + entries + colophon
          ============================================================= -->
     <xsl:template match="tei:div[starts-with(@type, 'liste')]">
-        <xsl:variable name="title_words" select="tokenize(normalize-space(tei:head), '\s+')"/>
-
         <div class="lk-masthead">
             <div>
-                <p class="lk-eyebrow">Schnitzler-Lektüren · Leseliste</p>
                 <h1 class="lk-title">
-                    <xsl:if test="count($title_words) &gt; 1">
-                        <xsl:value-of select="string-join($title_words[position() != last()], ' ')"/>
-                        <xsl:text> </xsl:text>
-                    </xsl:if>
-                    <em>
-                        <xsl:value-of select="$title_words[last()]"/>
-                    </em>
+                    <xsl:apply-templates select="tei:head/node()" mode="title"/>
                 </h1>
             </div>
             <xsl:if test="$entry_count &gt; 0">
@@ -429,9 +415,7 @@ body.lektueren-edition {
         <div class="lk-colophon">
             <div>
                 <h3>Edition</h3>
-                Aus der Mikroverfilmung der Lektüreliste, bearbeitet im Rahmen des Projekts
-                <i>Schnitzler-Lektüren</i> am Austrian Centre for Digital Humanities and
-                Cultural Heritage (ACDH-CH).
+                Digitale Version der Lektüreliste, bearbeitet von Achim Aurnhammer.
             </div>
             <div>
                 <h3>Weiterführend</h3>
@@ -593,6 +577,19 @@ body.lektueren-edition {
                 </xsl:otherwise>
             </xsl:choose>
         </div>
+    </xsl:template>
+
+    <!-- =============================================================
+         TITLE MODE (for masthead heading)
+         ============================================================= -->
+    <xsl:template match="tei:supplied" mode="title">
+        <xsl:text>[</xsl:text>
+        <xsl:apply-templates mode="title"/>
+        <xsl:text>]</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="tei:hi" mode="title">
+        <xsl:apply-templates mode="title"/>
     </xsl:template>
 
     <!-- =============================================================
