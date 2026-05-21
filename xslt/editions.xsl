@@ -219,8 +219,8 @@
                     </ul>
                 </xsl:when>
                 <xsl:when test="tei:listPerson/tei:person">
-                    <a href="{concat(tei:listPerson/tei:person/@xml:id, '.html')}">
-                        <span class="autorname" id="{tei:listPerson/tei:person/@xml:id}"><b>
+                    <a href="{concat(tei:listPerson/tei:person/@xml:id, '.html')}" id="{tei:listPerson/tei:person/@xml:id}">
+                        <span style="font-variant: small-caps;"><b>
                             <xsl:text>[</xsl:text>
                             <xsl:value-of select="parent::tei:div/substring-after(@xml:id, 'div_')"/>
                             <xsl:text>] </xsl:text>
