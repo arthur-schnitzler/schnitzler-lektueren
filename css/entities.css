@@ -10,12 +10,16 @@
    dieser Farbe berechnet, sodass Lightness/Chroma konsistent bleiben,
    die Hue aber aus der Projektfarbe kommt. */
 .entity-page {
+    /* Zentrale Breite und Zentrierung: unabhängig vom Wrapper im jeweiligen Projekt */
+    max-width: 1800px;
+    margin-inline: auto;
     padding: 0 1rem;
     --red: var(--project-color);
     --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
     --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
     --red-softer: oklch(from var(--project-color) 0.975 0.018 h);
     --red-line: oklch(from var(--project-color) 0.88 0.06 h);
+    --chart-comment: oklch(from var(--project-color) calc(l + (1 - l) * 0.35) calc(c * 0.8) h);
 
     --entity-accent: var(--project-color);
     --entity-bg: oklch(0.985 0.003 60);
@@ -77,7 +81,10 @@
     top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0;
+    background: var(--entity-card-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: .625rem;
     max-height: calc(100vh - 120px);
     max-height: none !important;
     overflow: visible !important;
@@ -85,11 +92,11 @@
     margin-bottom: 100px;
 }
 
-/* Portrait-Karte */
+/* Portrait-Karte (liegt im gemeinsamen Rahmen der Sidebar) */
 .entity-portrait-card {
     background: var(--entity-card-bg);
-    border: 1px solid var(--entity-border);
-    border-radius: .625rem;
+    border: 0;
+    border-radius: .625rem .625rem 0 0;
     overflow: hidden;
     flex-shrink: 0;
 }
@@ -104,9 +111,8 @@
 
 .entity-portrait-frame img {
     width: 100%;
-    min-width: 
-    height: auto; /* Ändere 100% auf auto, damit das Verhältnis gewahrt bleibt */
-    min-height: 100%; /* Stellt sicher, dass der Frame gefüllt wird */
+    height: auto;
+    min-height: 100%;
     object-fit: cover;
 }
 
@@ -141,13 +147,14 @@
     margin-top: 10px;
 }
 
-/* Side-Blocks (Normdaten, Ressourcen, Korrespondenz, Karte, …) */
+/* Side-Blocks (Normdaten, Ressourcen, Korrespondenz, Karte, …):
+   Abschnitte im gemeinsamen Sidebar-Rahmen, getrennt durch Haarlinien */
 .side-block {
-    background: var(--entity-card-bg);
-    border: 1px solid var(--entity-border);
-    border-radius: .625rem;
-    padding: 14px 16px 16px;
-    margin-bottom: 2rem;
+    padding: 10px 16px 12px;
+    margin: 0;
+}
+.entity-sidebar > * + * {
+    border-top: 1px solid var(--entity-border);
 }
 .side-block > h3,
 .side-block > legend {
@@ -155,8 +162,8 @@
     color: var(--red);
     letter-spacing: .16em;
     text-transform: uppercase;
-    margin: 0 0 10px;
-    padding-bottom: 8px;
+    margin: 0 0 6px;
+    padding-bottom: 5px;
     border-bottom: 1px solid var(--red-line);
     font-weight: 600;
     display: block;
@@ -197,7 +204,11 @@
     display: flex;
     align-items: center;
     gap: 6px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+.normdaten-list .meta-row .label {
+    min-width: 5em;
+    flex-shrink: 0;
 }
 .gnd-badge {
     font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
@@ -252,8 +263,8 @@
     margin: 0;
     list-style: none;
     width: 100%;
-    background: var(--red-softer);
-    border-bottom: 1px solid var(--entity-border);
+    background: #fff;
+    border-bottom: 1px solid var(--red-line);
     position: relative;
 }
 
@@ -261,38 +272,76 @@
     flex: 1 1 0%;
     min-width: 0;
     text-align: center;
-    padding: 14px 18px;
+    padding: 14px;
     border: none;
-    background: transparent;
-    font-size: .95rem;
-    font-weight: 600;
-    color: var(--entity-tab-text);
+    background: #fff;
+    font: inherit;
+    color: var(--red);
     cursor: pointer;
-    border-right: 1px solid var(--entity-border);
+    border-right: 1px solid var(--red-line);
     transition: color .15s, background-color .15s;
-    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.entity-tab-btn .tab-title-row {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
 }
-.entity-tab-btn:hover {
-    color: var(--red-ink);
-    background-color: var(--red-soft);
+.entity-tab-btn .tab-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+.entity-tab-btn .tab-sub {
+    font-size: 13px;
+    font-weight: 400;
+    color: #555;
+    white-space: normal;
+}
+.entity-tab-btn .tab-sub:empty { display: none; }
+.entity-tab-btn .tab-arrow {
+    font-size: 18px;
+    line-height: 1;
+    color: var(--red);
+    transition: transform 150ms;
+}
+.entity-tab-btn:hover:not(.active):not(.is-empty) {
+    background-color: var(--red-softer);
+}
+.entity-tab-btn:hover:not(.active):not(.is-empty) .tab-arrow {
+    transform: translateX(3px);
+}
+.entity-tab-btn:focus-visible {
+    outline: 2px solid var(--red);
+    outline-offset: -4px;
+}
+.entity-tab-btn.active:focus-visible {
+    outline-color: #fff;
 }
 .entity-tab-btn.active {
     color: #fff;
     background-color: var(--red);
 }
+.entity-tab-btn.active .tab-sub { color: #fff; }
+.entity-tab-btn.active .tab-arrow,
+.entity-tab-btn.is-empty .tab-arrow { display: none; }
+.entity-tab-btn.is-empty:not(.active) {
+    cursor: default;
+    opacity: .6;
+}
 
 .entity-tab-btn .tab-count {
     font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
-    font-size: 11px;
-    padding: 2px 7px;
-    border-radius: 999px;
-    background: #fff;
-    color: var(--entity-ink-soft);
-    border: 1px solid var(--entity-border);
+    font-size: 12px;
+    padding: 1px 7px;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--red);
+    border: 1px solid var(--red);
     font-weight: 500;
     line-height: 1.2;
 }
@@ -300,6 +349,7 @@
     background: rgba(255, 255, 255, .25);
     color: #fff;
     border-color: transparent;
+    padding: 2px 8px;
 }
 
 /* Info-Button neben dem Relationen-Tab */
@@ -331,17 +381,24 @@
     color: var(--red);
 }
 .relationen-info-content {
-    position: absolute;
-    right: 0;
-    top: calc(100% + 4px);
-    z-index: 20;
+    /* position: fixed, damit das Popup nicht vom overflow:hidden des
+       umgebenden .entity-main abgeschnitten wird (z. B. auf Windows/Linux,
+       wo der Text höher umbricht). Die genaue Position (left/top) setzt
+       entity-tabs.js anhand des ⓘ-Buttons. Fallback-Werte hier, falls JS
+       nicht greift. */
+    position: fixed;
+    right: 1rem;
+    top: 6.5rem;
+    z-index: 1000;
     background: var(--entity-card-bg);
     border: 1px solid var(--entity-border);
     border-radius: .35rem;
     padding: .9rem 1rem;
     box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
     width: 340px;
-    max-width: 90vw;
+    max-width: calc(100vw - 1.5rem);
+    max-height: calc(100vh - 1.5rem);
+    overflow-y: auto;
     font-size: .9rem;
     line-height: 1.4;
     color: var(--entity-tab-text);
@@ -370,9 +427,17 @@
     to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Erwähnungen: Legend im Tab ausblenden (Tab-Titel reicht) */
-.entity-tab-panel #mentions > .infodesc > legend {
-    display: none;
+/* Visuell versteckt, aber für Screenreader sichtbar */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* Erwähnungen: Toolbar (Toggle + Summary) über dem Chart */
@@ -383,6 +448,7 @@
     gap: 14px;
     margin-bottom: 1rem;
 }
+
 .mentions-toolbar .mentions-summary {
     margin-left: auto;
     font-size: 12px;
@@ -460,20 +526,78 @@
     padding: 14px 16px 10px;
     background: linear-gradient(180deg, #fff, var(--red-softer));
     max-width: none;
+    container-type: inline-size;
 }
+/* Gleich breite Seitenspalten halten die Überschrift genau in der Mitte;
+   die Mindesthöhe verhindert ein Springen beim Wechsel der Ansicht */
 .chart-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: 4px 1rem;
+    min-height: 28px;
     font-size: 12px;
     color: var(--entity-ink-muted);
     margin-bottom: 6px;
-    gap: 1rem;
-    flex-wrap: wrap;
+}
+.chart-head .chart-title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--entity-ink);
+}
+.chart-head .chart-title small {
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--entity-ink-muted);
+}
+.chart-head .chart-nav {
+    justify-self: end;
+    text-align: right;
+    /* Platz für den Vollbild-Button */
+    padding-right: 2rem;
+}
+.chart-head .chart-hint {
+    color: var(--entity-ink-muted);
+}
+#mentions-chart.is-zoomed .chart-hint {
+    display: none;
+}
+/* Zu schmal für drei Spalten: Legende, Überschrift und Navigation untereinander */
+@container (max-width: 640px) {
+    .chart-head {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .chart-head .legend {
+        padding-right: 2rem;
+    }
+    .chart-head .chart-nav {
+        justify-self: center;
+        text-align: center;
+        padding-right: 0;
+    }
+}
+.chart-head .mentions-chart-back {
+    background: #fff;
+    border: 1px solid var(--entity-border);
+    border-radius: .25rem;
+    padding: .15rem .5rem;
+    font-size: 12px;
+    color: var(--red-ink);
+    cursor: pointer;
+}
+.chart-head .mentions-chart-back:hover,
+.chart-head .mentions-chart-back:focus-visible {
+    background: var(--red-soft);
+    border-color: var(--red-line);
 }
 .chart-head .legend {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 4px 16px;
     align-items: center;
 }
 .chart-head .legend span {
@@ -488,8 +612,7 @@
     border-radius: 2px;
 }
 .chart-head .legend .dot.k {
-    background: var(--red-soft);
-    border: 1px solid var(--red-line);
+    background: var(--chart-comment);
 }
 
 .entity-tab-panel #mentions-chart svg {
@@ -497,7 +620,99 @@
     height: auto;
     min-height: 180px;
     max-height: 260px;
+}
+#mentions-chart .chart-bar {
+    fill: var(--red);
+}
+#mentions-chart .chart-bar-k {
+    fill: var(--chart-comment);
+}
+#mentions-chart .chart-grid,
+#mentions-chart .chart-baseline {
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+}
+#mentions-chart .chart-grid {
+    stroke: var(--entity-border);
+}
+#mentions-chart .chart-baseline {
+    stroke: var(--entity-ink-muted);
+}
+#mentions-chart .chart-tick,
+#mentions-chart .chart-value {
+    font-size: 10px;
+}
+#mentions-chart .chart-tick {
+    fill: var(--entity-ink-soft);
+}
+#mentions-chart .chart-value {
+    fill: var(--entity-ink);
+    font-weight: 600;
+}
+#mentions-chart .chart-col {
+    outline: none;
+}
+#mentions-chart .year-col {
     cursor: zoom-in;
+}
+#mentions-chart .chart-col:hover .chart-hit,
+#mentions-chart .chart-col:focus-visible .chart-hit {
+    fill: var(--red-soft);
+}
+#mentions-chart .chart-col:focus-visible .chart-hit {
+    stroke: var(--red);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+}
+#mentions-chart .chart-months.is-entering {
+    animation: mentions-chart-zoom .22s ease-out;
+}
+@keyframes mentions-chart-zoom {
+    from {
+        opacity: .2;
+        transform: scaleX(.1);
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    #mentions-chart .chart-months.is-entering {
+        animation: none;
+    }
+}
+#mentions-chart.is-zoomed .chart-years {
+    display: none;
+}
+#mentions-chart .chart-tip {
+    position: absolute;
+    z-index: 3;
+    /* Liegt in der Zeichenfläche, damit Überschrift und Zurück-Button sichtbar bleiben */
+    transform: translate(-50%, 4px);
+    padding: 4px 8px;
+    background: #fff;
+    border: 1px solid var(--entity-border);
+    border-radius: .25rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+    font-size: 12px;
+    line-height: 1.35;
+    white-space: nowrap;
+    color: var(--entity-ink-soft);
+    pointer-events: none;
+}
+#mentions-chart .chart-tip b {
+    color: var(--entity-ink);
+}
+#mentions-chart .chart-tip span {
+    display: block;
+    color: var(--entity-ink-muted);
+}
+/* Das SVG schrumpft auf schmalen Bildschirmen mit: größere Einheiten halten die Achsen lesbar */
+@media (max-width: 600px) {
+    .entity-tab-panel #mentions-chart svg {
+        min-height: 0;
+    }
+    #mentions-chart .chart-tick,
+    #mentions-chart .chart-value {
+        font-size: 16px;
+    }
 }
 .entity-tab-panel #mentions-chart .mentions-chart-fs-btn {
     position: absolute;
@@ -526,13 +741,12 @@
     max-width: none;
     margin: 0;
     padding: 2rem clamp(1rem, 4vw, 4rem);
-    background: rgba(255, 255, 255, .97);
+    background: #fff;
     z-index: 2000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow: auto;
-    cursor: zoom-out;
     border-radius: 0;
 }
 .entity-tab-panel #mentions-chart.is-fullscreen svg {
@@ -540,7 +754,6 @@
     height: auto;
     max-height: 85vh;
     min-height: 0;
-    cursor: zoom-out;
 }
 .entity-tab-panel #mentions-chart.is-fullscreen .mentions-chart-fs-btn {
     top: 1rem;
@@ -787,10 +1000,10 @@
 
 @media (max-width: 575px) {
     .entity-tab-btn {
-        padding: .6rem .75rem;
-        font-size: .85rem;
-        gap: 6px;
+        padding: 10px 8px;
     }
+    .entity-tab-btn .tab-title { font-size: 15px; }
+    .entity-tab-btn .tab-title-row { flex-wrap: wrap; gap: 6px; }
     .entity-tab-panel {
         padding: 1rem .75rem 1.5rem;
     }
